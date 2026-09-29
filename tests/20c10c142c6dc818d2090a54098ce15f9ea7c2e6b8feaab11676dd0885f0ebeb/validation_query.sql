@@ -1,0 +1,1 @@
+SELECT seq, op, a, c, d, (SELECT count(*) FROM t6 WHERE a=100) AS remaining_100 FROM t6_log ORDER BY seq;

@@ -1,0 +1,1 @@
+SELECT scope, name FROM observed ORDER BY scope, ord;

@@ -1,0 +1,1 @@
+SELECT count(*), min(x), max(x), sum(x), sum(y) FROM t4;

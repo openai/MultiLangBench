@@ -1,0 +1,1 @@
+UPDATE abc SET c = 10 WHERE a = 1;

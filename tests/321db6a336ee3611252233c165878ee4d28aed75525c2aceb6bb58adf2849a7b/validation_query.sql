@@ -1,0 +1,1 @@
+SELECT (SELECT sql FROM sqlite_schema WHERE name='t4'),(SELECT sql FROM sqlite_schema WHERE name='ttt'),(SELECT group_concat(x||','||y||','||z) FROM t4)

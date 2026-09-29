@@ -1,0 +1,1 @@
+INSERT INTO t3(rowid,x,y) VALUES(21,'a b c','d e f'); DELETE FROM ft3; CREATE TABLE sfi_result AS SELECT rowid AS rid FROM ft3 WHERE ft3 MATCH '"a b c"';

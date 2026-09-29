@@ -1,0 +1,1 @@
+INSERT INTO docs VALUES('good times','applications for linux')

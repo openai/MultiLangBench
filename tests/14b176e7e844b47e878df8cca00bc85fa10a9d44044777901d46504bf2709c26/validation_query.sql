@@ -1,0 +1,1 @@
+SELECT count(*),count(DISTINCT x1),sum(r1+r2+r3),sum(i1+i2+i3),sum(CASE WHEN r1=r2 AND r2=r3 THEN 1 ELSE 0 END),sum(length(x1)+length(x2)+length(x3)),min(x1),max(x3) FROM result;

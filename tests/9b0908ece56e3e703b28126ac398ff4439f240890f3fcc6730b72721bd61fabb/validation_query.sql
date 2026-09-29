@@ -1,0 +1,1 @@
+SELECT 't1' AS src, x AS k, y AS v FROM t1 UNION ALL SELECT 't2', rowid, z FROM t2 UNION ALL SELECT 'stat', 0, stat FROM sqlite_stat1 WHERE tbl='t1' AND idx='t1y' ORDER BY src, k;

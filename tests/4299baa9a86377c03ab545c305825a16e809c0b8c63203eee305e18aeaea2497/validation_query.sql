@@ -1,0 +1,1 @@
+SELECT type, name, tbl_name FROM sqlite_master WHERE name IN ('t1','log','trig1','trig2','trig3','trig4','trig5','trig6') ORDER BY type, name;

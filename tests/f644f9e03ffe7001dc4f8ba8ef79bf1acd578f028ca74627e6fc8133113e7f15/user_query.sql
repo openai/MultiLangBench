@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE tok USING fts3tokenize('unicode61'); CREATE TABLE result AS SELECT token FROM tok WHERE input=(char(32,160,5760,6158)||'hello'||char(32,160,5760,6158)||'world'||char(32,160,5760,6158)) ORDER BY position;

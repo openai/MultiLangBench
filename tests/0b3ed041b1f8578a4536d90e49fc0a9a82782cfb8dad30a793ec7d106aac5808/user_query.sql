@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT (VALUES(1),(2),(3),(4));

@@ -1,0 +1,1 @@
+CREATE TABLE cascade(cascade cascade); INSERT INTO cascade VALUES(99); INSERT INTO cascade SELECT a FROM t1;

@@ -1,0 +1,1 @@
+SELECT schema_version FROM pragma_schema_version;

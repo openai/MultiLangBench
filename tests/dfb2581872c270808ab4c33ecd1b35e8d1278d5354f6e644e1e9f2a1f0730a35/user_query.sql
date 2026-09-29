@@ -1,0 +1,1 @@
+CREATE TABLE t3(x,y); CREATE VIRTUAL TABLE ft3 USING fts4(content=t3);

@@ -1,0 +1,1 @@
+CREATE TABLE t29b(a,b,c,d,e,f,g,h,i); INSERT INTO t29b VALUES(1,hex(zeroblob(2000)),NULL,0,1,'',zeroblob(0),'x',x'01'); CREATE TABLE result AS SELECT typeof(c) AS c,typeof(d) AS d,typeof(e) AS e,typeof(f) AS f,typeof(g) AS g,typeof(h) AS h,typeof(i) AS i FROM t29b;

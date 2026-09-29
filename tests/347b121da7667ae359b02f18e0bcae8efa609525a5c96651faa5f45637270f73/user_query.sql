@@ -1,0 +1,1 @@
+BEGIN; INSERT INTO t1(rowid,x) VALUES(3,'i j k l'); UPDATE OR IGNORE t1 SET docid=2 WHERE docid=1; COMMIT;

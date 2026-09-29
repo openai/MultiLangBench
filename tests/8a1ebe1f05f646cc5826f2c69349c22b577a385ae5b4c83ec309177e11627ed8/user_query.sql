@@ -1,0 +1,1 @@
+BEGIN;INSERT INTO log VALUES('commit transaction');COMMIT TRANSACTION;

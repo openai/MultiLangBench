@@ -1,0 +1,1 @@
+CREATE INDEX ccc ON cc(c); CREATE TABLE _result AS SELECT * FROM aa LEFT JOIN bb, cc WHERE cc.c=aa.a;

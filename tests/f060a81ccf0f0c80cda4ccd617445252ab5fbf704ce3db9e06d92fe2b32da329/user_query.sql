@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; UPDATE t1 SET e=876,d=876 WHERE a=2;

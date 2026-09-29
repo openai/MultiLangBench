@@ -1,0 +1,1 @@
+PRAGMA recursive_triggers=ON; CREATE TABLE result AS SELECT count(*) AS n FROM t1 WHERE a=1;

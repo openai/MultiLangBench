@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT docid,* FROM t1 ORDER BY rowid ASC;

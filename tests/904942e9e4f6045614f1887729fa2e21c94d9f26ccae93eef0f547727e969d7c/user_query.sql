@@ -1,0 +1,1 @@
+INSERT INTO a2(a, b) VALUES('a', 'b')

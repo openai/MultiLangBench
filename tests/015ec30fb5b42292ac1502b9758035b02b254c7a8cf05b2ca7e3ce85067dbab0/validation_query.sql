@@ -1,0 +1,1 @@
+SELECT a, b, b='xyz' AS nocase_equal FROM t5;

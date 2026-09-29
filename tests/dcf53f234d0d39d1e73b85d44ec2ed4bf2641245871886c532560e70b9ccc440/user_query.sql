@@ -1,0 +1,1 @@
+CREATE TABLE attach(attach attach); INSERT INTO attach VALUES(99); INSERT INTO attach SELECT a FROM t1;

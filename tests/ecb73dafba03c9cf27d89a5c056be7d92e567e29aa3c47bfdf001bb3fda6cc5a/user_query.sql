@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(coalesce(julianday(2454832.5,'-1.5 day'),'NULL'))

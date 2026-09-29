@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; BEGIN; INSERT INTO node VALUES(1,0); UPDATE node SET parent=NULL; COMMIT;

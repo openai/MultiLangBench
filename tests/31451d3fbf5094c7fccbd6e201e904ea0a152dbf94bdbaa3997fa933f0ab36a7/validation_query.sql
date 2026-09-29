@@ -1,0 +1,1 @@
+SELECT cnt FROM result ORDER BY cnt

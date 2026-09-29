@@ -1,0 +1,1 @@
+SELECT a, b, (SELECT tbl_name FROM sqlite_schema WHERE type='index' AND name='t6ab') AS indexed_table FROM result

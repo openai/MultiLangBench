@@ -1,0 +1,1 @@
+INSERT INTO result SELECT 6 IN t6n;

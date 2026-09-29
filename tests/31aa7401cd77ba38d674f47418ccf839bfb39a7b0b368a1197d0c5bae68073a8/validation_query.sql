@@ -1,0 +1,1 @@
+SELECT test,direction,coalesce(docs,'') FROM result ORDER BY direction

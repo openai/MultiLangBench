@@ -1,0 +1,1 @@
+SELECT count(*), min(rowid), max(rowid) FROM t16_content;

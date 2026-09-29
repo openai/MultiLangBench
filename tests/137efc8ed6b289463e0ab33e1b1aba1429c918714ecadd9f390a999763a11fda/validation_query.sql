@@ -1,0 +1,1 @@
+SELECT json_extract(x,'$."d"') FROM obj;

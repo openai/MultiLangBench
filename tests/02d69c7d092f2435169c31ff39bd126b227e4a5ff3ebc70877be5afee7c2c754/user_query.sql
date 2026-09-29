@@ -1,0 +1,1 @@
+CREATE TABLE instead(instead instead); INSERT INTO instead VALUES(99); INSERT INTO instead SELECT a FROM t1;

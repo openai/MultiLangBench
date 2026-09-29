@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE ft USING fts5(a, b, c);

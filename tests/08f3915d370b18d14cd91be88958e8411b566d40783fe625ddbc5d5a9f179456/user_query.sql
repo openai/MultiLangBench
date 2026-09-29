@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT length(a) AS n FROM t1 ORDER BY length(a) DESC;

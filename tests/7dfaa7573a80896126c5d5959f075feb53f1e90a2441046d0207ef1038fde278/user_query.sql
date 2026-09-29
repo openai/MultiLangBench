@@ -1,0 +1,1 @@
+CREATE TABLE result(seq, v, storage); INSERT INTO result(seq, v, storage) SELECT rowid, xi, typeof(xi) FROM t1 ORDER BY rowid;

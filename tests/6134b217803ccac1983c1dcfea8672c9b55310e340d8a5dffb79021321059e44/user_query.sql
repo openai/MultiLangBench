@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT count() OVER (),group_concat(c1 COLLATE nocase) IN (SELECT 'aBCd') FROM t1;

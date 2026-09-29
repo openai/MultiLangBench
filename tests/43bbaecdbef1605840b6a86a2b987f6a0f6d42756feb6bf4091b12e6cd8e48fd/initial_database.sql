@@ -1,0 +1,1 @@
+CREATE TABLE t3_ab(a,b,UNIQUE(a,b) ON CONFLICT ABORT); INSERT INTO t3_ab VALUES(1,'one'),(2,'two'),(3,'three');

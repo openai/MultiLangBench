@@ -1,0 +1,1 @@
+SELECT Id, Id1, count(*) AS n FROM B GROUP BY Id, Id1 ORDER BY Id, Id1;

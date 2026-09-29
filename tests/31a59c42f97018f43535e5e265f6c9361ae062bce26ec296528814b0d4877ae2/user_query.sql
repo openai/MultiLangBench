@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM t3 JOIN t2 ON unlikely(x=y) AND y='AAA';

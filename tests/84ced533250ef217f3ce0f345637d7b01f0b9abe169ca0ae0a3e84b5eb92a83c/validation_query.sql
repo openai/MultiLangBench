@@ -1,0 +1,1 @@
+SELECT main_mode, aux_mode FROM vacuum_modes;

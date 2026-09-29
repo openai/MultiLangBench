@@ -1,0 +1,1 @@
+CREATE TABLE c3(x COLLATE binary, y COLLATE nocase, z COLLATE binary); CREATE INDEX c3x ON c3(x); INSERT INTO c3 VALUES('ABC', 'ABC', 'abc');

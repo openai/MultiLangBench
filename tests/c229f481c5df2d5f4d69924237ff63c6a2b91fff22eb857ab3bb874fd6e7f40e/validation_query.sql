@@ -1,0 +1,1 @@
+SELECT docid, content FROM t2 ORDER BY docid;

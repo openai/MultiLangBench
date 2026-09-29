@@ -1,0 +1,1 @@
+INSERT INTO result(all_count,x_count) SELECT count(*), count(x) AS cnt FROM t4 GROUP BY y ORDER BY cnt;

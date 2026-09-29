@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES(replace(hex(zeroblob(20000)), '00', 'a '));

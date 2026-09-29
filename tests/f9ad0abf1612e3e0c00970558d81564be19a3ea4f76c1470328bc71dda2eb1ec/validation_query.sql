@@ -1,0 +1,1 @@
+SELECT * FROM plan ORDER BY plan ASC

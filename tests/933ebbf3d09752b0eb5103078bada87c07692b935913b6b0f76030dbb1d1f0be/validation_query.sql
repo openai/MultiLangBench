@@ -1,0 +1,1 @@
+SELECT (SELECT auto_vacuum FROM pragma_auto_vacuum),group_concat(name,',') FROM (SELECT name FROM sqlite_schema WHERE name IN('av1','av1_idx') ORDER BY name)

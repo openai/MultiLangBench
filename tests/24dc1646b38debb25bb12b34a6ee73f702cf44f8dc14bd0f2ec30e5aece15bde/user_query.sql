@@ -1,0 +1,1 @@
+ATTACH ':memory:' AS aux1; CREATE TABLE aux1.t4(a,b); INSERT INTO aux1.t4 VALUES(555,'x5'); CREATE TEMP TABLE t3(a,b); INSERT INTO t3 VALUES(333,'x3'); CREATE TABLE main._result AS SELECT x.a, y.b FROM t1 JOIN (t2 JOIN (main.t4 x JOIN aux1.t4 y ON y.a=x.a+111) ON x.a=t2.a+222) ON t2.a=t1.a+111;

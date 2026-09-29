@@ -1,0 +1,1 @@
+CREATE TABLE collate3t1(a, b); INSERT INTO collate3t1 VALUES('hello',NULL); CREATE INDEX collate3i1 ON collate3t1(a COLLATE BINARY); PRAGMA writable_schema=ON; UPDATE sqlite_schema SET sql='CREATE INDEX collate3i1 ON collate3t1(a COLLATE user_defined)' WHERE type='index' AND name='collate3i1'; PRAGMA writable_schema=OFF;

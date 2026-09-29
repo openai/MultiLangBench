@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT * FROM one WHERE NOT (1,3,3) > (1,2,3);

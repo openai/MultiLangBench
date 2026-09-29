@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT max(x) FROM t3 LIMIT 0;

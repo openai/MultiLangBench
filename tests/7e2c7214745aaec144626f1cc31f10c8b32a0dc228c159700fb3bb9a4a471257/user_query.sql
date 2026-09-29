@@ -1,0 +1,1 @@
+CREATE TABLE result(v); INSERT INTO result SELECT group_concat(following, '.') OVER (ORDER BY over) FROM t1;

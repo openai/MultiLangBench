@@ -1,0 +1,1 @@
+SELECT 'abc' AS t, a, b, c FROM abc UNION ALL SELECT 'def', d, e, f FROM def ORDER BY t;

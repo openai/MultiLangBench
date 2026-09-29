@@ -1,0 +1,1 @@
+SELECT id,a,b FROM result

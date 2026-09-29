@@ -1,0 +1,1 @@
+SELECT (SELECT page_count FROM pragma_page_count) * (SELECT page_size FROM pragma_page_size) AS database_bytes, (SELECT freelist_count FROM pragma_freelist_count) AS freelist_pages, (SELECT count(*) FROM t1) AS t1_rows;

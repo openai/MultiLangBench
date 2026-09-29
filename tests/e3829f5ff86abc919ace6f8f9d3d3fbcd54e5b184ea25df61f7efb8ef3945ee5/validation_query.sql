@@ -1,0 +1,1 @@
+SELECT * FROM tce73,tce74

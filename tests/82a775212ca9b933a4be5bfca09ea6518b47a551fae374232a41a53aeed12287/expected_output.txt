@@ -1,0 +1,1 @@
+[["i1a=CREATE INDEX i1a ON t1(a)|i1b=CREATE INDEX i1b ON t1(b)|i1c=CREATE INDEX i1c ON t1(c)",50000]]

@@ -1,0 +1,1 @@
+CREATE TABLE t8(a COLLATE nocase,b COLLATE rtrim,c COLLATE binary,d); INSERT INTO t8 VALUES('abc','abc','abc','abc'),('abc  ','abc  ','abc  ','abc  '),('ABC  ','ABC  ','ABC  ','ABC  '),('ABC','ABC','ABC','ABC');

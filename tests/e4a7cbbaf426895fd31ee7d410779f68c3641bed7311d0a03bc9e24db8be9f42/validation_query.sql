@@ -1,0 +1,1 @@
+SELECT k FROM result ORDER BY rowid;

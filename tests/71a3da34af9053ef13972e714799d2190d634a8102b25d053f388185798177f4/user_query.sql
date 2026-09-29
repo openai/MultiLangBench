@@ -1,0 +1,1 @@
+CREATE TABLE user(name,phone); INSERT INTO user(name,phone) VALUES ('Alice','["919-555-2345","804-555-3621"]'),('Bob','["201-555-8872"]'),('Cindy','["704-555-9983"]'),('Dave','["336-555-8421","704-555-4321","803-911-4421"]'); INSERT INTO result SELECT DISTINCT user.name FROM user, json_each(user.phone) WHERE json_each.value LIKE '704-%' ORDER BY 1;

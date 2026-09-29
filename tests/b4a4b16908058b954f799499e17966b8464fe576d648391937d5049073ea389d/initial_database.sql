@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE vt0 USING fts4(c0,languageid="lid"); INSERT INTO vt0 VALUES('a'),('b');

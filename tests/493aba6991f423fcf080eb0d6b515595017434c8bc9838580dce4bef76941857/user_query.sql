@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT f1-22 AS x, f2-22 AS y FROM test1 WHERE x>0 AND y<50;

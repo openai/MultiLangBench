@@ -1,0 +1,1 @@
+SELECT tag, x, y FROM sfi_result ORDER BY rowid;

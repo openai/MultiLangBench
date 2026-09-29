@@ -1,0 +1,1 @@
+INSERT INTO result(x) SELECT 'abc123'='abc123                         ' COLLATE RTRIM;

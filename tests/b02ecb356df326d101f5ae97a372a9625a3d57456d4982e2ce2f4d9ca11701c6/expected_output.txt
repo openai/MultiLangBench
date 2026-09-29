@@ -1,0 +1,1 @@
+[["fkey-row","t1","NULL"],["t1-column","a","INTEGER|0|1"],["t1-column","b","|0|0"],["t1-column","c","|0|0"],["t1-index","sqlite_autoindex_t1_1","1|u"]]

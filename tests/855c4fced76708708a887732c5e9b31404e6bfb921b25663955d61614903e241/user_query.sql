@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT coalesce(t1.a,t2.b,t3.c,t4.d,0) k,t1.*,t2.*,t3.*,t4.* FROM t1 JOIN t2 ON t1.b=t2.b LEFT JOIN t3 ON t1.c=t3.c AND t3.y>0 RIGHT JOIN t4 ON t1.d=t4.d AND t4.z>0 WHERE t2.x>0;

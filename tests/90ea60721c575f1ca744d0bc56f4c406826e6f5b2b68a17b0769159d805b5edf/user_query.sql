@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t2 USING fts3(xyz=abc); CREATE TABLE result AS SELECT xyz AS value FROM t2;

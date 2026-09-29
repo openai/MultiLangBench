@@ -1,0 +1,1 @@
+SELECT value = quote(zeroblob(2000)) AS is_correct, length(value) AS quoted_length FROM zeroblobfault_result

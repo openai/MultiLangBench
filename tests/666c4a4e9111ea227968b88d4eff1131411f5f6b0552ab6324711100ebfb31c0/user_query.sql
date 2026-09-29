@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT y FROM t2 WHERE x = (SELECT sum(b) FROM t1 WHERE a notnull) - (SELECT sum(a) FROM t1);

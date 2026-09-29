@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts3;INSERT INTO t1(rowid,content)VALUES(1,replace(hex(zeroblob(100000)),'00','zm ')),(2,replace(hex(zeroblob(100000)),'00','jk ')),(48,'zm aayxpmve csjqxhgj xnxhf xr jk aayxpmve xnxhf zm zm'),(65,'duszemmzl zk jk jk fibokdry jseuhjnzo zm aayxpmve zk jk'),(84,'zf jmfiqhwnjg js igju zm aayxpmve zm mbxnljomiv csjqxhgj nvfasfh');

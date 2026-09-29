@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT printf('%.2f',3.141592653);

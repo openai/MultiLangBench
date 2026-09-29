@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT v0.c0, MIN(v0.c1) FROM v0;

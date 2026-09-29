@@ -1,0 +1,1 @@
+SELECT 't11' AS source, x AS c1, y AS c2 FROM t11 UNION ALL SELECT 't2', a, b FROM t2 ORDER BY source;

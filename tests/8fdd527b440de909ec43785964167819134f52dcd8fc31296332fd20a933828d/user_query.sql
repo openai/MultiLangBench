@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT coalesce(min(rowid),999) FROM t3;

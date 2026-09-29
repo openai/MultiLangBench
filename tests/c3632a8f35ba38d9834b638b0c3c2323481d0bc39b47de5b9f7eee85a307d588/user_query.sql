@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT count(*),count(x),count(y) FROM xx;

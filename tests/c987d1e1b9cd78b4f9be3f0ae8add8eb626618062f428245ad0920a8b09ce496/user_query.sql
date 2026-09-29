@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT page_count>=1284 AND page_count<=1286 AS ok FROM pragma_page_count;

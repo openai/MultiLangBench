@@ -1,0 +1,1 @@
+CREATE TABLE t19 AS SELECT * FROM sqlite_master;

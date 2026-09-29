@@ -1,0 +1,1 @@
+[["table","t1","t1","CREATE TABLE t1(a, b, c)"],["trigger","tr1","t1","CREATE TRIGGER tr1 AFTER INSERT ON t1 BEGIN\n  DELETE FROM t1 WHERE a<new.a;\nEND"],["view","v1","v1","CREATE VIEW v1 AS SELECT * FROM t1"]]

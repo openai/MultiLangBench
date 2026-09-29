@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; UPDATE artist SET artistid=100 WHERE artistname='Dean Martin';

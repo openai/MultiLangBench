@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT json_valid(printf('%s{%s"x"%s:%s9%s}%s',char(0x0c),char(0x0c),char(0x0c),char(0x0c),char(0x0c),char(0x0c))) AS v;

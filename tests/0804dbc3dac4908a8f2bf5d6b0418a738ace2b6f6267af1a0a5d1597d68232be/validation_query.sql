@@ -1,0 +1,1 @@
+SELECT grp,k,v FROM (SELECT 'schema' AS grp,name AS k,COALESCE(sql,'') AS v FROM sqlite_schema WHERE tbl_name IN ('collate4t1','collate4t2') UNION ALL SELECT 't1',printf('%d',rowid),quote(a) FROM collate4t1 UNION ALL SELECT 't2',printf('%d',rowid),quote(b) FROM collate4t2) ORDER BY grp,k,v;

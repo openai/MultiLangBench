@@ -1,0 +1,1 @@
+[[0,"integer"],[1,"integer"],[null,"null"],[0.5,"real"],["1x","text"],["0x","text"]]

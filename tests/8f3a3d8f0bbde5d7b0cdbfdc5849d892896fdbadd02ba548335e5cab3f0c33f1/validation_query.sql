@@ -1,0 +1,1 @@
+SELECT rowid FROM fts WHERE fts MATCH 'test' ORDER BY rowid;

@@ -1,0 +1,1 @@
+CREATE TABLE deferred(deferred deferred); INSERT INTO deferred VALUES(99); INSERT INTO deferred SELECT a FROM t1;

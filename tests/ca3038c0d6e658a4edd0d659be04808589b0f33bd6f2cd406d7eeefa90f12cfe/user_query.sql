@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT log, avg(n)-min(n) FROM t1 GROUP BY log ORDER BY log;

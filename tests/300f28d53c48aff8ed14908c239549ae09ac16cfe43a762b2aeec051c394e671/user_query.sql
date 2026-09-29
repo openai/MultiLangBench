@@ -1,0 +1,1 @@
+CREATE TABLE _result AS SELECT *, 'x' AS marker FROM t1 LEFT JOIN t2 WHERE a IN (1,3,x,y) ORDER BY a;

@@ -1,0 +1,1 @@
+CREATE TEMP TABLE mask(a,b,c); CREATE INDEX main.mask ON t2(x); CREATE TABLE main.result AS SELECT * FROM t2;

@@ -1,0 +1,1 @@
+DROP TABLE with; CREATE INDEX with ON t1(a);

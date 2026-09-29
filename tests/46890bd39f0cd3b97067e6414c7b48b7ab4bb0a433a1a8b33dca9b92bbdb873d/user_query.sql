@@ -1,0 +1,1 @@
+DELETE FROM t1 WHERE a = 2; CREATE TABLE result(l_a INTEGER, r_a INTEGER); INSERT INTO result SELECT l.a, r.a FROM t1 AS l, t2 AS r WHERE l.a < r.a;

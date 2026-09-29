@@ -1,0 +1,1 @@
+SELECT 'ab' AS t, a, b FROM ab UNION ALL SELECT 'de', d, e FROM de ORDER BY t, 2;

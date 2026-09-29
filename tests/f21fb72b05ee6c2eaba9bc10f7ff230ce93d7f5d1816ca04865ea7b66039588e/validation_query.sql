@@ -1,0 +1,1 @@
+SELECT node FROM t2 ORDER BY node

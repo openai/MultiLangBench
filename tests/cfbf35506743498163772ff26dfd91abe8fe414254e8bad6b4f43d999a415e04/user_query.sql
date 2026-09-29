@@ -1,0 +1,1 @@
+INSERT INTO result(a,b) SELECT a, b FROM t2 GROUP BY a, b;

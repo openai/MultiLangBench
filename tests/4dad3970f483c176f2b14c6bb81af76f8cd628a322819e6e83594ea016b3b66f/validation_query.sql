@@ -1,0 +1,1 @@
+SELECT count(*), min(docid), max(docid), sum(length(content)) FROM t2

@@ -1,0 +1,1 @@
+SELECT n, min_id, max_id FROM result;

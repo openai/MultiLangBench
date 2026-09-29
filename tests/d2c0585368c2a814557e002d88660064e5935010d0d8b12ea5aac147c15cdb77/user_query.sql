@@ -1,0 +1,1 @@
+CREATE VIEW "new view" AS SELECT * FROM t1 AS x, t1 AS y; INSERT INTO result SELECT * FROM "new view";

@@ -1,0 +1,1 @@
+SELECT a,length(b),c FROM t1 ORDER BY c;

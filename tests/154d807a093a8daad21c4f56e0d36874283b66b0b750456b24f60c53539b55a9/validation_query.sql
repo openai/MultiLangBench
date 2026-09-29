@@ -1,0 +1,1 @@
+SELECT a, updatecnt FROM t10;

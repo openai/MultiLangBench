@@ -1,0 +1,2 @@
+-- capi2-7.7
+INSERT INTO t1 SELECT a+2,b+2,c+2 FROM t1;

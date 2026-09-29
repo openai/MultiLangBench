@@ -1,0 +1,1 @@
+SELECT a, b, (SELECT count(*) FROM sqlite_schema WHERE type='table' AND name='t601' AND sql LIKE '%julianday(b)%') AS checked_schema FROM t601;

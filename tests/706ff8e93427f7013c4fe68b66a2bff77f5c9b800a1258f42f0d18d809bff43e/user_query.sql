@@ -1,0 +1,1 @@
+PRAGMA reverse_unordered_selects=1; VACUUM; CREATE TABLE wherea_result(seq INTEGER PRIMARY KEY, a, b, c); INSERT INTO wherea_result(a,b,c) SELECT * FROM t1 ORDER BY rowid;

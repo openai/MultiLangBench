@@ -1,0 +1,1 @@
+INSERT INTO t1(a,b,lang_id) VALUES('aaa','bbb','xyz');

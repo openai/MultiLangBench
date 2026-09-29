@@ -1,0 +1,1 @@
+CREATE TABLE tr1(a,b);

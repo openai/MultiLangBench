@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT id,w,x,y,z FROM t3 JOIN dual AS d1 ON true FULL JOIN t4 USING(id) JOIN dual AS d2 ON true NATURAL FULL JOIN t5 JOIN dual AS d3 ON true FULL JOIN t6 USING(id) CROSS JOIN dual AS d4 ORDER BY 1;

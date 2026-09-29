@@ -1,0 +1,1 @@
+[["table","joinme","joinme"],["index","joinme_id_int_idx","joinme"],["index","joinme_id_text_idx","joinme"],["table","maintable","maintable"]]

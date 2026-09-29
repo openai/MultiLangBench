@@ -1,0 +1,1 @@
+INSERT INTO result(maxx,n,y,z) SELECT max(x), count(x), y, z FROM t4 GROUP BY y, z ORDER BY 1;

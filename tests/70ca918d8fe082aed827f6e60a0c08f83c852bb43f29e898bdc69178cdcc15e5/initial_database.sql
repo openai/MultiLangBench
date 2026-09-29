@@ -1,0 +1,5 @@
+CREATE TABLE t1(a,b);
+INSERT INTO t1 VALUES(2,'bob');
+INSERT INTO t1 VALUES(1,'alice');
+INSERT INTO t1 VALUES(3,'claire');
+CREATE TABLE result(a,b,y);

@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT SUBSTR('Supercalifragilisticexpialidocious', 0, -1);

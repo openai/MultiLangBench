@@ -1,0 +1,1 @@
+INSERT INTO jjj(x) SELECT (SELECT 'mmm' UNION SELECT DISTINCT max(name) ORDER BY 1) FROM sqlite_master;

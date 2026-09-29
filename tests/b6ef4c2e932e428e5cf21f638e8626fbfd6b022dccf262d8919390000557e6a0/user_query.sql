@@ -1,0 +1,1 @@
+PRAGMA locking_mode=EXCLUSIVE; BEGIN; UPDATE abc SET a=1, b=2, c=3; ROLLBACK; SELECT * FROM abc;

@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT * FROM aa CROSS JOIN bb WHERE NOT b;

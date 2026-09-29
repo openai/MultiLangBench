@@ -1,0 +1,1 @@
+UPDATE t1 SET e=e+1 WHERE a IN (SELECT a FROM t1);

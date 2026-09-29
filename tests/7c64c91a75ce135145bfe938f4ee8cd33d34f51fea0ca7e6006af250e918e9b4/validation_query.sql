@@ -1,0 +1,1 @@
+SELECT docid,title,body FROM pages ORDER BY docid

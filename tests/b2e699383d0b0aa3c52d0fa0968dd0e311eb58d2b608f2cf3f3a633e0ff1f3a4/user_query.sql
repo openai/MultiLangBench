@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT count(c) FROM t1 WHERE a='c';

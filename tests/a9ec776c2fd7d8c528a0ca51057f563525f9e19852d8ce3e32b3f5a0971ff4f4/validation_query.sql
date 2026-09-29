@@ -1,0 +1,1 @@
+SELECT type,name,tbl_name,sql FROM result ORDER BY type,name;

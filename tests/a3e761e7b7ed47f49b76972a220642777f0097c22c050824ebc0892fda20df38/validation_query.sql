@@ -1,0 +1,1 @@
+SELECT (SELECT schema_version FROM pragma_schema_version), p.cid, p.name, p.type, p."notnull", p.dflt_value, p.pk FROM pragma_table_info('t1') AS p ORDER BY p.cid;

@@ -1,0 +1,1 @@
+PRAGMA count_changes = 1; INSERT INTO t2 SELECT * FROM t1;

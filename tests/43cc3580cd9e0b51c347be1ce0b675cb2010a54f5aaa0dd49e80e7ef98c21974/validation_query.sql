@@ -1,0 +1,1 @@
+SELECT count(*), min(r), max(r), sum(length(s)), sum(CASE WHEN typeof(s)='text' AND length(s)=r THEN 1 ELSE 0 END), (SELECT sql FROM sqlite_schema WHERE type='table' AND name='q1') FROM q1;

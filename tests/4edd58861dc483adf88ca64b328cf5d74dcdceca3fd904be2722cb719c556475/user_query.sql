@@ -1,0 +1,1 @@
+/* join5-5.3 */ CREATE VIEW v1 AS SELECT x,y,z FROM y1; CREATE TABLE sfi_result AS SELECT count(z) FROM v1 LEFT JOIN y2 ON x GROUP BY y;

@@ -1,0 +1,1 @@
+CREATE TABLE t1(a, b, c); CREATE TABLE log(t, a1, b1, c1, a2, b2, c2); CREATE TRIGGER trig1 BEFORE INSERT ON t1 BEGIN INSERT INTO log VALUES('before', NULL, NULL, NULL, new.a, new.b, new.c); END; CREATE TRIGGER trig2 AFTER INSERT ON t1 BEGIN INSERT INTO log VALUES('after', NULL, NULL, NULL, new.a, new.b, new.c); END;

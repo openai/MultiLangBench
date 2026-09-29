@@ -1,0 +1,1 @@
+INSERT INTO result SELECT CAST(x'31' AS REAL);

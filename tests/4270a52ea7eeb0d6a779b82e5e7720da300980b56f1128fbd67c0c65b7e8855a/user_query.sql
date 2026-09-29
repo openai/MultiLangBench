@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT coalesce(round(a,2),'nil') AS x FROM t2;

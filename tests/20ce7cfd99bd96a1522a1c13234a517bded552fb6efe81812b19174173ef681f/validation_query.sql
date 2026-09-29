@@ -1,0 +1,1 @@
+SELECT c2 FROM result ORDER BY seq;

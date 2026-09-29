@@ -1,0 +1,2 @@
+CREATE TABLE t1(abcd, efgh);
+CREATE VIEW v1 AS SELECT * FROM t1 WHERE abcd>efgh;

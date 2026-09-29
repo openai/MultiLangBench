@@ -1,0 +1,1 @@
+SELECT value FROM wherea_result ORDER BY rowid;

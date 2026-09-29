@@ -1,0 +1,1 @@
+SELECT row_value, pinned FROM query_result ORDER BY row_value ASC;

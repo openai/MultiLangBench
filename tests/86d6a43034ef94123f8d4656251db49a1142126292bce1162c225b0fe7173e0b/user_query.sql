@@ -1,0 +1,1 @@
+/* join5-6.2 */ CREATE TABLE sfi_result AS SELECT * FROM t1 LEFT JOIN t2 ON a=2 OR b=3 WHERE y IS NULL;

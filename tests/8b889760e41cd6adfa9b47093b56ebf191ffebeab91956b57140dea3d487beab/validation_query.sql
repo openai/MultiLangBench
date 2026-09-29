@@ -1,0 +1,1 @@
+SELECT count(*), min(docid), max(docid), sum(c0x IS NULL AND c1y='a' AND langid=0) FROM t3_content;

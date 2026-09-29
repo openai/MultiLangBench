@@ -1,0 +1,1 @@
+ALTER TABLE t1 RENAME _x_ TO _xxx_;

@@ -1,0 +1,1 @@
+INSERT INTO result SELECT CAST(123 AS blob);

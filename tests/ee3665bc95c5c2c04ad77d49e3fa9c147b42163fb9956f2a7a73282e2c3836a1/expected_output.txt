@@ -1,0 +1,1 @@
+[["c1","1","2"],["c1","111","1112"],["c2","112","1113"],["c2","2","3"],["c3","113","v1113"],["c3","3","v3"],["schema","c1","CREATE TABLE c1(k UNIQUE, v1)"],["schema","c2","CREATE TABLE c2(k UNIQUE, v2)"],["schema","c3","CREATE TABLE c3(k UNIQUE, v3)"]]

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t10 USING fts3(x); INSERT INTO t10 VALUES('fts3 tables'),('are renameable'); ALTER TABLE t10 RENAME TO t11

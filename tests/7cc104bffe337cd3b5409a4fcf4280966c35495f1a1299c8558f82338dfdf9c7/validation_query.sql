@@ -1,0 +1,1 @@
+SELECT count(*) FROM sqlite_schema WHERE type='table' AND name IN ('t1','t2','t3');

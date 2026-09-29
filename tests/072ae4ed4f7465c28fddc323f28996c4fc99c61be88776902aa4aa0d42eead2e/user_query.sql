@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT docid FROM docs WHERE docs MATCH '("sqlite database" OR "sqlite library") AND linux'

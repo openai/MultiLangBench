@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT dense_rank() OVER () AS rnk, lag(0) OVER () AS prv FROM t0;

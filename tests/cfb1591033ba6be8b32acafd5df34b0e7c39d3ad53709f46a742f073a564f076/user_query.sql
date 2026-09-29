@@ -1,0 +1,1 @@
+INSERT INTO r SELECT a FROM t WHERE b=6-abs(-a) ORDER BY a;

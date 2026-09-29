@@ -1,0 +1,1 @@
+INSERT INTO result(opt) SELECT compile_options FROM pragma_compile_options;

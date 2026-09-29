@@ -1,0 +1,1 @@
+SELECT v, (SELECT count(*) FROM over), (SELECT count(*) FROM window) FROM result ORDER BY rowid;

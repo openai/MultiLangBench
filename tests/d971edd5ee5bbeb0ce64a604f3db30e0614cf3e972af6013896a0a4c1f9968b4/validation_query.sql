@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM tbl1), (SELECT count(*) FROM tbl2), (SELECT integrity_check FROM pragma_integrity_check LIMIT 1);

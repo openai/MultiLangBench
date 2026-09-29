@@ -1,0 +1,1 @@
+SELECT a,b FROM t13 ORDER BY +b

@@ -1,0 +1,1 @@
+WITH RECURSIVE seq(n) AS (SELECT 1 UNION ALL SELECT n+1 FROM seq WHERE n<9999) INSERT INTO t4(rowid,i,t) SELECT NULL,n,printf('number %d',n) FROM seq ORDER BY n;

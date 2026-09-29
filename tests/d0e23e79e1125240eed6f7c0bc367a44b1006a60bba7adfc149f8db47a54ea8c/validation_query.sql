@@ -1,0 +1,1 @@
+SELECT n_all,n_b,n_c,sum_b,sum_c,avg_b,avg_c,min_b,max_b FROM result;

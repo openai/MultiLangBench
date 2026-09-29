@@ -1,0 +1,1 @@
+SELECT a, b, (SELECT count(*) FROM sqlite_master WHERE type='trigger' AND name IN ('t7t','t7ta')) FROM t7 ORDER BY rowid;

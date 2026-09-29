@@ -1,0 +1,1 @@
+SELECT c, d, e, f, (SELECT count(*) FROM pragma_foreign_key_list('t1') AS fk WHERE fk.[from]='f' AND fk.[table]='t1') AS fk_count FROM t1;

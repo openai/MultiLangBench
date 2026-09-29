@@ -1,0 +1,1 @@
+SELECT 'x1' AS tbl, cid, name, type, pk FROM pragma_table_info('x1') UNION ALL SELECT 'x2', cid, name, type, pk FROM pragma_table_info('x2') ORDER BY 1, 2;

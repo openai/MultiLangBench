@@ -1,0 +1,1 @@
+CREATE TABLE vacuum(vacuum vacuum); INSERT INTO vacuum VALUES(99); INSERT INTO vacuum SELECT a FROM t1;

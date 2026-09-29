@@ -1,0 +1,1 @@
+SELECT b, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='t2a1') AS old_index_present FROM t2 WHERE a=15;

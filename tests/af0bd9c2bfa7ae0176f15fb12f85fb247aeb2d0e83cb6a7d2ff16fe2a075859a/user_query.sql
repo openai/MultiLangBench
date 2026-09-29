@@ -1,0 +1,1 @@
+CREATE TABLE result(c1); INSERT INTO result SELECT sum(b) FILTER (WHERE a<10) FROM t1;

@@ -1,0 +1,1 @@
+UPDATE t1 SET i='abc', n='abc', t='abc', o='abc';

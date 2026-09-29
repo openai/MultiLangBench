@@ -1,0 +1,1 @@
+SELECT a, b, c_value FROM result ORDER BY c_value;

@@ -1,0 +1,1 @@
+INSERT INTO blobs VALUES(1, zeroblob(10000));

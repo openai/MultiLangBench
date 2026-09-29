@@ -1,0 +1,1 @@
+SELECT seq,label,value,(SELECT count(*) FROM t1) AS final_count FROM sfi_result ORDER BY seq

@@ -1,0 +1,1 @@
+SELECT kind,x,y FROM (SELECT 'schema' AS kind,name AS x,COALESCE(sql,'') AS y FROM sqlite_schema WHERE tbl_name='collate4t1' UNION ALL SELECT 'row',printf('%d',rowid),quote(a) FROM collate4t1) ORDER BY kind,x,y;

@@ -1,0 +1,1 @@
+SELECT num FROM query_result ORDER BY seq;

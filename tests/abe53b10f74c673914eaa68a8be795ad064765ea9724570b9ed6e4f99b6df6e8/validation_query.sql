@@ -1,0 +1,1 @@
+SELECT name FROM sqlite_schema WHERE type='index' AND tbl_name='t1' ORDER BY name;

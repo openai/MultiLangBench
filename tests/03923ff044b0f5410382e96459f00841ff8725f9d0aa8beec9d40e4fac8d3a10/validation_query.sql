@@ -1,0 +1,1 @@
+SELECT group_concat(CAST(a AS TEXT) || ':' || COALESCE(CAST(rrr AS TEXT),'NULL') || ':' || COALESCE(x,'NULL'), '|') FROM (SELECT a, rrr, x FROM result ORDER BY rowid)

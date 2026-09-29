@@ -1,0 +1,1 @@
+INSERT INTO docs(docid,content) VALUES(3,'sqlite is a database')

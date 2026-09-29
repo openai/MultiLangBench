@@ -1,0 +1,1 @@
+CREATE TABLE edge(xfrom,xto,seq,PRIMARY KEY(xfrom,xto)) WITHOUT ROWID; INSERT INTO edge VALUES(0,1,10),(1,2,20),(0,3,30),(2,4,40),(3,4,40),(2,5,50),(3,6,60),(5,7,70),(3,7,70),(4,8,80),(7,8,80),(8,9,90);

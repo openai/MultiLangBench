@@ -1,0 +1,1 @@
+/* join5-5.5 */ CREATE TABLE sfi_result AS SELECT * FROM (SELECT * FROM y1) LEFT JOIN y2 ON x;

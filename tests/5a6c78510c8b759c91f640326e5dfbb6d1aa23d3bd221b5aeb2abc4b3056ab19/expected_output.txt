@@ -1,0 +1,1 @@
+[["INSERT INTO Item (a,b,c) VALUES (1,38205.60865,340);"]]

@@ -1,0 +1,1 @@
+INSERT INTO r SELECT l.id,x.id,l.v IS x.v,l.v IS NOT x.v,l.v=x.v,l.v!=x.v,(l.v IS x.v) IS NULL,(l.v IS NOT x.v) IS NULL FROM vals AS l CROSS JOIN vals AS x;

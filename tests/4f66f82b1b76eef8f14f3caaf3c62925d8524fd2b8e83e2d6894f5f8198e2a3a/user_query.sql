@@ -1,0 +1,1 @@
+BEGIN; SELECT * FROM sqlite_master; PRAGMA page_size=2048; CREATE TABLE t1(x); COMMIT;

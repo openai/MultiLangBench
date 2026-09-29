@@ -1,0 +1,1 @@
+SELECT t1.a,t1.b,t1.c,t2.e,t2.f FROM t1,t2

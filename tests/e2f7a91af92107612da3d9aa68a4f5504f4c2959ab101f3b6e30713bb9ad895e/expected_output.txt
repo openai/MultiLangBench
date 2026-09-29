@@ -1,0 +1,1 @@
+[["fts_t1","table"],["fts_t1_content","table"],["fts_t1_segdir","table"],["fts_t1_segments","table"]]

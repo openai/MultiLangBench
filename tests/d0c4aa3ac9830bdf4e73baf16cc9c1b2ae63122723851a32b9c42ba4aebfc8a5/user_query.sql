@@ -1,0 +1,1 @@
+ATTACH ':memory:' AS t2; INSERT INTO main.observed SELECT seq, name FROM pragma_database_list WHERE name IN ('main','t2');

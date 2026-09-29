@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(a || ':' || b || ':' || c || ':' || d, '|') FROM (SELECT a,b,c,d FROM x1 ORDER BY a)), (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='x1bc');

@@ -1,0 +1,1 @@
+INSERT INTO x1(x1) VALUES('optimize'); INSERT INTO x2(x2) VALUES('optimize');

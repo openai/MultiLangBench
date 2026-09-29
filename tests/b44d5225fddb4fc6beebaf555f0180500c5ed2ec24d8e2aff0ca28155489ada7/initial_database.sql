@@ -1,0 +1,1 @@
+PRAGMA auto_vacuum=2; CREATE TABLE t1(x); INSERT INTO t1 VALUES('one'),('two'); CREATE TABLE junk(x); INSERT INTO junk VALUES(zeroblob(12000)); DROP TABLE junk;

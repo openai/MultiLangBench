@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM pp),(SELECT count(*) FROM cc),(SELECT count(*) FROM pragma_foreign_key_check)

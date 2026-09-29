@@ -1,0 +1,1 @@
+SELECT docid FROM r71 ORDER BY docid

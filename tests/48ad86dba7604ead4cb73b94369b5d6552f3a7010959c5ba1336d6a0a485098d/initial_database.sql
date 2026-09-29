@@ -1,0 +1,1 @@
+CREATE TABLE t1(a, b); INSERT INTO t1 VALUES(NULL,''),(1,'macedonian'),(2,'macedonian'),(3,'macedonian');

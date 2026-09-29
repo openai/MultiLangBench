@@ -1,0 +1,1 @@
+REPLACE INTO t3(docid,content) VALUES(1,'one two three four five six');

@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT c FROM hh WHERE (a COLLATE nocase,b) IS NOT (SELECT 'def',2);

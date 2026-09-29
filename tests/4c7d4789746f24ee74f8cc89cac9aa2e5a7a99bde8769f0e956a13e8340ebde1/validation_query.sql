@@ -1,0 +1,1 @@
+SELECT s, id FROM q WHERE id='id.1';

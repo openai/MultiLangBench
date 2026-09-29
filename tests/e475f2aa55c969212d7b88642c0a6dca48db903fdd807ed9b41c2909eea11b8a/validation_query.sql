@@ -1,0 +1,1 @@
+SELECT k, typeof(v), length(v), hex(substr(v,1,4)), (SELECT count(*) FROM blobs) AS total FROM blobs WHERE k=1;

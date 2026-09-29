@@ -1,0 +1,1 @@
+SELECT * FROM release ORDER BY release ASC

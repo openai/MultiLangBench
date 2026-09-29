@@ -1,0 +1,1 @@
+SELECT g,quote(h),quote(i) FROM t3

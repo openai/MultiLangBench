@@ -1,0 +1,1 @@
+[["CREATE TABLE t1(c1 text CONSTRAINT \"1 2\" DEFAULT (1+1))"]]

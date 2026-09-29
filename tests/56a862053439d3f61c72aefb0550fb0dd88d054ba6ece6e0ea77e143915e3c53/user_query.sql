@@ -1,0 +1,1 @@
+INSERT INTO result SELECT round(ln(2.0),7);

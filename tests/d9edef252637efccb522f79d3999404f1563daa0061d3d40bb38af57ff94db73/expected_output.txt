@@ -1,0 +1,1 @@
+[["row","1","'a','a'"],["row","2","'b','b'"],["row","3","NULL,NULL"],["row","4","'B','B'"],["row","5","'A','A'"],["schema","collate4i1","CREATE INDEX collate4i1 ON collate4t1(a)"],["schema","collate4i2","CREATE INDEX collate4i2 ON collate4t1(b)"],["schema","collate4t1","CREATE TABLE collate4t1(a COLLATE NOCASE, b COLLATE BINARY)"]]

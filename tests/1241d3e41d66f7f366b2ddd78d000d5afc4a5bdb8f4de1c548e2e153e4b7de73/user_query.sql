@@ -1,0 +1,1 @@
+INSERT INTO t1(b,c) VALUES('one','two');

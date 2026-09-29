@@ -1,0 +1,1 @@
+SELECT id,b_id,myvalue FROM result ORDER BY id

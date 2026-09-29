@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(a,',') FROM (SELECT a FROM one ORDER BY a)),(SELECT group_concat(a,',') FROM (SELECT a FROM two ORDER BY a));

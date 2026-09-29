@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result(position INTEGER PRIMARY KEY, value INTEGER);

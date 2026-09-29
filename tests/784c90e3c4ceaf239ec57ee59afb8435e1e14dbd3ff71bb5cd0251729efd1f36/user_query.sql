@@ -1,0 +1,1 @@
+INSERT INTO t11(oid) VALUES(15);

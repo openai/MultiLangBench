@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT [table] AS child_table, [rowid] AS child_rowid, parent, fkid, '|' AS marker FROM pragma_foreign_key_check ORDER BY [table], [rowid];

@@ -1,0 +1,1 @@
+SELECT value FROM _sfi_result ORDER BY seq;

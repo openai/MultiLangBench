@@ -1,0 +1,1 @@
+SELECT mtchinfo FROM t3 ORDER BY rowid

@@ -1,0 +1,1 @@
+UPDATE d1 SET a=a+2 WHERE a>0 OR b>0;

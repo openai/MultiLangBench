@@ -1,0 +1,1 @@
+DELETE FROM t4 WHERE col0=69 OR col0>7;

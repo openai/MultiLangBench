@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT substring(char(4660,9029,13398), 1, 1);

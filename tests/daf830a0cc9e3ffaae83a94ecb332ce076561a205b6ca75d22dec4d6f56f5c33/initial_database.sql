@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t2 USING fts4(x, order=ASC); INSERT INTO t2 VALUES('a b c');

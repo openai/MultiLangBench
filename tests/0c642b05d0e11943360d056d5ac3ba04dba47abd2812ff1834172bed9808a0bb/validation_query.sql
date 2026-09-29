@@ -1,0 +1,1 @@
+SELECT type, name, tbl_name, COALESCE(sql, '') AS sql FROM sqlite_schema WHERE tbl_name='elephant' ORDER BY type, name;

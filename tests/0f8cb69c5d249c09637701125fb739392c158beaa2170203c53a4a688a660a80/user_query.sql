@@ -1,0 +1,1 @@
+INSERT INTO _result(v) SELECT * FROM (SELECT (SELECT sum(a) FROM t1));

@@ -1,0 +1,1 @@
+SELECT seqno, cid, name FROM pragma_index_info('idx1') ORDER BY seqno;

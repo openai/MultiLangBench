@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT DISTINCT a,b,a||b FROM t1 WHERE a!='x';

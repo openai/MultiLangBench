@@ -1,0 +1,1 @@
+SELECT type,name,marker FROM sfi_result ORDER BY rowid;

@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result(seq INTEGER PRIMARY KEY, x, y); INSERT INTO sfi_result(x,y) SELECT * FROM t1 WHERE y='AB' OR (y='CD' AND x=2) ORDER BY +x;

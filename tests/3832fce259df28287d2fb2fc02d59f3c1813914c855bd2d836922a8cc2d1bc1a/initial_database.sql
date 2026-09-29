@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts4(words); INSERT INTO t1(docid,words) VALUES(1,'temporary old table');

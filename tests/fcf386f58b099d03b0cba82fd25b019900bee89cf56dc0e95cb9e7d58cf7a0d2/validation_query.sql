@@ -1,0 +1,1 @@
+SELECT trove, pattern FROM sfi_result ORDER BY +trove, +pattern;

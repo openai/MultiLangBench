@@ -1,0 +1,1 @@
+CREATE TABLE _r AS SELECT * FROM z1 WHERE (+x, y) IN (SELECT a, b FROM kk);

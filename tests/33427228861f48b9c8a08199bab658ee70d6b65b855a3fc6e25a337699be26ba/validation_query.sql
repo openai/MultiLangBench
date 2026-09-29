@@ -1,0 +1,1 @@
+SELECT (SELECT sql FROM sqlite_schema WHERE type='table' AND name='t1') AS ddl, a, typeof(b), hex(b), typeof(c), quote(c) FROM t1 ORDER BY a;

@@ -1,0 +1,1 @@
+CREATE TABLE replace(replace replace); INSERT INTO replace VALUES(99); INSERT INTO replace SELECT a FROM t1;

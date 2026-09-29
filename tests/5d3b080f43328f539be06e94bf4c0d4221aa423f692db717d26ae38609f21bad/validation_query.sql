@@ -1,0 +1,1 @@
+SELECT docid,quote(size) AS size FROM t1_docsize ORDER BY docid

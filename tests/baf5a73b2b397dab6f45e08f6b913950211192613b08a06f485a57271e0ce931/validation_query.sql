@@ -1,0 +1,1 @@
+SELECT level, idx, start_block, leaves_end_block, end_block, length(root), hex(substr(root,1,16)), hex(substr(root,-16)) FROM t1_segdir;

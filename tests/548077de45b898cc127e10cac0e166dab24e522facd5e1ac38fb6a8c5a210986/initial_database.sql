@@ -1,0 +1,1 @@
+CREATE TABLE t4(a,b,c,UNIQUE(a,b,c)); INSERT INTO t4 VALUES('xyx',1,1),('xyx',2,1),('uvw',1,1),(NULL,NULL,NULL);

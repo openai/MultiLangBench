@@ -1,0 +1,1 @@
+SELECT name, color, r1, r2 FROM result ORDER BY rowid;

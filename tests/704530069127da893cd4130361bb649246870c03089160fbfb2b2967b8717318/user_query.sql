@@ -1,0 +1,1 @@
+PRAGMA short_column_names=OFF; PRAGMA full_column_names=OFF; CREATE TABLE sfi_result AS SELECT test1 . f1, test1 . f2 FROM test1 LIMIT 1;

@@ -1,0 +1,1 @@
+CREATE TABLE dest(a int NOT NULL, b int); CREATE TABLE src(x int, y int); INSERT INTO src VALUES(1,9);

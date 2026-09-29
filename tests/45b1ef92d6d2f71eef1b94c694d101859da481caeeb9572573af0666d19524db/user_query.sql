@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM t1 WHERE a MATCH 'five';

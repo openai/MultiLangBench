@@ -1,0 +1,1 @@
+SELECT p.page_size, a.auto_vacuum FROM pragma_page_size AS p, pragma_auto_vacuum AS a;

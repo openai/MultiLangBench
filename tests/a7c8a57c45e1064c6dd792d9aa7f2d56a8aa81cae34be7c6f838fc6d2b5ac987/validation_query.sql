@@ -1,0 +1,1 @@
+SELECT count(*) AS n, count(DISTINCT hex(x)) AS distinct_x, min(length(x)) AS min_x, max(length(x)) AS max_x, min(length(y)) AS min_y, max(length(y)) AS max_y, sum(typeof(x)='blob' AND typeof(y)='blob') AS blob_rows FROM t1;

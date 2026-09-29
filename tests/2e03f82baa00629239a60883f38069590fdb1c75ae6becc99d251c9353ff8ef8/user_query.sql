@@ -1,0 +1,1 @@
+CREATE TABLE _result AS SELECT b FROM t1 WHERE a IN ('hello','there');

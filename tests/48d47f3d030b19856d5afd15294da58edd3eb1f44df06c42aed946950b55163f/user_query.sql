@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT docid FROM t1 WHERE c LIKE 'That%' ORDER BY docid;

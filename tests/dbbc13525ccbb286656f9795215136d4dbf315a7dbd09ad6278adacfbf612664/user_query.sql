@@ -1,0 +1,1 @@
+CREATE TABLE result(k1,v1,k2,v2); INSERT INTO result(k1,v1,k2,v2) SELECT x1.k,x1.v,x2.k,x2.v FROM t2 AS x1, t2 AS x2 WHERE x1.k=x2.k+1;

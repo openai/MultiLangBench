@@ -1,0 +1,1 @@
+SELECT x, y, (SELECT "unique" FROM pragma_index_list('p1') WHERE name='p1x') AS is_unique, (SELECT partial FROM pragma_index_list('p1') WHERE name='p1x') AS is_partial, (SELECT count(*) FROM pragma_foreign_key_list('c1') WHERE "table"='p1' AND "from"='a' AND "to"='x') AS fk_count FROM p1 ORDER BY x, y;

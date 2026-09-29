@@ -1,0 +1,1 @@
+SELECT a, b, c FROM u1 ORDER BY a;

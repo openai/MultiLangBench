@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result(b,d,m,rn); INSERT INTO sfi_result SELECT * FROM v3;

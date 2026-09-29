@@ -1,0 +1,1 @@
+[["ab","Bangkok",8000000],["ab","Chiang Mai",100000],["de","Khon Kaen",200000],["de","Ubon",120000]]

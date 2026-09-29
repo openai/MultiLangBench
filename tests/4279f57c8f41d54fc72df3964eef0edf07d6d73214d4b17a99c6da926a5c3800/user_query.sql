@@ -1,0 +1,1 @@
+CREATE VIEW v2 AS SELECT x, y FROM t1 WHERE y GLOB '*e*';

@@ -1,0 +1,1 @@
+PRAGMA journal_mode=PERSIST; PRAGMA locking_mode=EXCLUSIVE; CREATE TABLE t1(x, y); INSERT INTO t1 VALUES(1, 2); PRAGMA data_version; INSERT INTO observed(v) SELECT * FROM pragma_data_version;

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t12 USING fts4(tokenize=unicode61); INSERT INTO t12 VALUES('abc'||char(0)||'def'); CREATE TABLE result AS SELECT hex(CAST(content AS blob)) AS h FROM t12;

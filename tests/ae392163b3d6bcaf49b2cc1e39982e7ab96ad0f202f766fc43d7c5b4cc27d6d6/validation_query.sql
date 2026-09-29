@@ -1,0 +1,1 @@
+SELECT rowid,_rowid_,oid,b FROM t11

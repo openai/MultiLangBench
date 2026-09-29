@@ -1,0 +1,1 @@
+SELECT c,b,"c"=b,(SELECT sql FROM sqlite_schema WHERE name='x1') FROM t1 ORDER BY rowid

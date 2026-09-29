@@ -1,0 +1,1 @@
+INSERT INTO result SELECT round(radians(45.0),7);

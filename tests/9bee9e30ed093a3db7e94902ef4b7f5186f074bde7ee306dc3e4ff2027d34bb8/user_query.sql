@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a, b, c AS c_value FROM x2 INDEXED BY x2i WHERE a=1 AND b=1 AND c='3';

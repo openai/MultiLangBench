@@ -1,0 +1,1 @@
+SELECT x, typeof(x) FROM t2 ORDER BY rowid;

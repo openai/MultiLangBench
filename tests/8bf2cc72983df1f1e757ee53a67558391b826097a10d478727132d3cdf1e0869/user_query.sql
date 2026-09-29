@@ -1,0 +1,1 @@
+UPDATE t1 SET b=CAST(substr('X'||hex(zeroblob(200)),1,200) AS BLOB) WHERE a IN (1,250);

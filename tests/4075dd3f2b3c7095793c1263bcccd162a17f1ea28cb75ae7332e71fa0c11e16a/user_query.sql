@@ -1,0 +1,1 @@
+CREATE TABLE t4(a,b); CREATE TABLE result AS SELECT ntile(1) OVER (ORDER BY a) FROM t4;

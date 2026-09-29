@@ -1,0 +1,1 @@
+SELECT count(*),sum(x99=599) FROM manycol

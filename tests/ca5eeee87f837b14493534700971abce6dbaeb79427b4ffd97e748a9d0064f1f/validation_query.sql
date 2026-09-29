@@ -1,0 +1,1 @@
+SELECT sum_b,total_b FROM result;

@@ -1,0 +1,1 @@
+CREATE TABLE ta(a INTEGER PRIMARY KEY, b); INSERT INTO ta VALUES(1,1),(2,2),(3,3),(4,4),(6,6),(8,8),(10,'This is a key that is long enough to require a malloc in the VDBE'); CREATE TABLE tb(a INTEGER PRIMARY KEY, b); INSERT INTO tb VALUES(1,1),(2,2),(3,3),(5,5),(7,7),(9,9),(11,'This is a key that is long enough to require a malloc in the VDBE');

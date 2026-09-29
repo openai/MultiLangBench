@@ -1,0 +1,1 @@
+SELECT a, b, (SELECT count(*) FROM t2) AS t2_rows, (SELECT sql FROM sqlite_master WHERE type='table' AND name='t2') AS t2_sql FROM t1 ORDER BY rowid

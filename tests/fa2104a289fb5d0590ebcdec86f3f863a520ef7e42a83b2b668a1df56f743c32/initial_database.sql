@@ -1,0 +1,1 @@
+CREATE TABLE 'my table'(a, b PRIMARY KEY, d) WITHOUT ROWID; INSERT INTO 'my table' VALUES(1,2,'hello'),(3,4,'world'); CREATE TABLE x1(a, b, c PRIMARY KEY, d AS (b+c) VIRTUAL, e) WITHOUT ROWID;

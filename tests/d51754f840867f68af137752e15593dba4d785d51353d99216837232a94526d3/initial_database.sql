@@ -1,0 +1,1 @@
+CREATE TABLE t4(y); INSERT INTO t4 VALUES('main.11'); CREATE TABLE capture(v);

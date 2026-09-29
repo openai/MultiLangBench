@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT t1.* FROM t1,t2 WHERE t1_id=t2_id AND t1_id IN (SELECT row_number() OVER (ORDER BY t1_id) FROM t3);

@@ -1,0 +1,1 @@
+SELECT 't1' AS tab,quote(a),quote(b),quote(c) FROM t1 UNION ALL SELECT 't2',quote(e),quote(f),'' FROM t2 ORDER BY 1,2

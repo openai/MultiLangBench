@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT (2,1) IN (SELECT a,b FROM t2) AS v;

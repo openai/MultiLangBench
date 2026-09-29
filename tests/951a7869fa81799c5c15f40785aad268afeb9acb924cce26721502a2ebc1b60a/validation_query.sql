@@ -1,0 +1,1 @@
+SELECT y,n FROM result ORDER BY seq;

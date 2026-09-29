@@ -1,0 +1,1 @@
+SELECT quote(b) FROM __sfi_result ORDER BY rowid

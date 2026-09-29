@@ -1,0 +1,1 @@
+SELECT t1.x, t1.y, p.integrity_check FROM t1 CROSS JOIN pragma_integrity_check AS p WHERE t1.x='one' ORDER BY p.integrity_check

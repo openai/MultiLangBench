@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT quote(unlikely(x'010203000405'));

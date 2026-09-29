@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT a,nth_value(b,c) OVER (ORDER BY a) AS v FROM t4;

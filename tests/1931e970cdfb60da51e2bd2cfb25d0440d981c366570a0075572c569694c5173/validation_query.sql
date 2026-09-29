@@ -1,0 +1,1 @@
+SELECT * FROM key ORDER BY key ASC

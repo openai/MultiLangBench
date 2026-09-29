@@ -1,0 +1,1 @@
+UPDATE OR REPLACE main.t1 SET a=10 WHERE b=5;

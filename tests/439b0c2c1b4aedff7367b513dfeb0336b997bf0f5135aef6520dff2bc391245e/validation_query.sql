@@ -1,0 +1,1 @@
+SELECT n, (SELECT count(*) FROM t1), (SELECT sum(a) FROM t1), (SELECT count(*) FROM sqlite_master WHERE type='index' AND name='t1cd'), (SELECT count(*) FROM sqlite_master WHERE type='trigger' AND name='t1r1') FROM cnt;

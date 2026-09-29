@@ -1,0 +1,1 @@
+PRAGMA recursive_triggers=OFF; CREATE TABLE other_tbl(a,b); INSERT INTO other_tbl VALUES(1,2),(3,4); INSERT INTO tbl VALUES(5,6); DROP TABLE other_tbl;

@@ -1,0 +1,1 @@
+ATTACH ':memory:' AS aux; CREATE TABLE aux.tbl(a,b,c); BEGIN; DETACH aux; INSERT INTO marker VALUES('ok'); COMMIT;

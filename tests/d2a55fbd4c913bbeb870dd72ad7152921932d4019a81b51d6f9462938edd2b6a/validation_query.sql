@@ -1,0 +1,1 @@
+SELECT x, y, z, (SELECT count(*) FROM log) AS log_rows FROM real ORDER BY x;

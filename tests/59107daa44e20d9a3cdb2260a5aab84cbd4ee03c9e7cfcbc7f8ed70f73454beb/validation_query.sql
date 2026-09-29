@@ -1,0 +1,1 @@
+SELECT fid, hex(geom), (SELECT count(*) FROM rt) FROM mytable ORDER BY fid;

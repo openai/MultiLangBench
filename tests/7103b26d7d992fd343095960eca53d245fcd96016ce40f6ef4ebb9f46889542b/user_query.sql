@@ -1,0 +1,1 @@
+DROP TABLE t2; CREATE VIRTUAL TABLE t2 USING fts4(x,y,languageid=l,content=nosuchtable);

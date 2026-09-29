@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1) AS row_count, (SELECT freelist_count FROM pragma_freelist_count) AS freelist_count, (SELECT page_size FROM pragma_page_size) AS page_size

@@ -1,0 +1,1 @@
+BEGIN; DELETE FROM t1_segdir WHERE level=0 AND idx=(SELECT max(idx) FROM t1_segdir WHERE level=0); ROLLBACK;

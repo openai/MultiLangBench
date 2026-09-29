@@ -1,0 +1,1 @@
+INSERT INTO result SELECT name FROM user WHERE phone LIKE '704-%' UNION SELECT user.name FROM user, json_each(user.phone) WHERE json_valid(user.phone) AND json_each.value LIKE '704-%';

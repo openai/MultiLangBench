@@ -1,0 +1,1 @@
+INSERT INTO t7(docid,a) VALUES(5,'number five')

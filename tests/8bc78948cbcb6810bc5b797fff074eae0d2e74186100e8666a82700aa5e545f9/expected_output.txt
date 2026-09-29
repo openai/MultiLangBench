@@ -1,0 +1,1 @@
+[["CREATE TABLE t8(b NUM,h,i INT,j)"]]

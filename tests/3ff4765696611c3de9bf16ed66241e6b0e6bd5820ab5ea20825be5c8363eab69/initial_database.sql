@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=OFF; CREATE TABLE p4(a TEXT PRIMARY KEY COLLATE nocase); INSERT INTO p4 VALUES('alpha'),('BRAVO'),('55'),('Delta'),('ECHO'); CREATE TABLE c8(x INT REFERENCES p4); INSERT INTO c8 VALUES(54),(55),(56),('Alpha'),('ALPHA'),('foxtrot');

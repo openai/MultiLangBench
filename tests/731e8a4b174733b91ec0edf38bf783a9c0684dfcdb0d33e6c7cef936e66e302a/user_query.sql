@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t5 USING fts4; INSERT INTO t5 VALUES('a a a a a'); INSERT INTO t5 VALUES('a b a b a'); INSERT INTO t5 VALUES('c b c b c'); INSERT INTO t5 VALUES('x x x x x')

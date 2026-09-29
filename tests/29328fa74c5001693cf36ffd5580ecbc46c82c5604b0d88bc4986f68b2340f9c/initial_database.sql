@@ -1,0 +1,1 @@
+CREATE TABLE t5 (val int, period text PRIMARY KEY); INSERT INTO t5 VALUES(5,'2001-3'),(10,'2001-4'),(15,'2002-1'),(5,'2002-2'),(10,'2002-3'),(15,'2002-4'),(10,'2003-1'),(5,'2003-2'),(25,'2003-3'),(5,'2003-4'); CREATE TABLE _result(seq INTEGER PRIMARY KEY,period,vsum);

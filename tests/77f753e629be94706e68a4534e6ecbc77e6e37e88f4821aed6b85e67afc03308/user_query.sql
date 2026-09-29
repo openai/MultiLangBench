@@ -1,0 +1,1 @@
+CREATE INDEX i10 ON indexed(x); CREATE TABLE result AS SELECT * FROM indexed INDEXED BY i10 WHERE x>0;

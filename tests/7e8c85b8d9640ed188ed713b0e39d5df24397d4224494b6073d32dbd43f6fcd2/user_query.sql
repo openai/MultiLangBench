@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT (SELECT * FROM pragma_cache_size) AS cache_size, (SELECT * FROM pragma_default_cache_size) AS default_cache_size, (SELECT * FROM pragma_synchronous) AS synchronous;

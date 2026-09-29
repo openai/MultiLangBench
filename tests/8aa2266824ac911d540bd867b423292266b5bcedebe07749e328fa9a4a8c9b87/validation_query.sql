@@ -1,0 +1,1 @@
+SELECT ElemId, ElemCode, ElemName, InnerCode, Attr1, Attr2, Attr3, Level, IsOrElem FROM result ORDER BY ElemId, InnerCode;

@@ -1,0 +1,1 @@
+UPDATE t3 SET (c,b) = (SELECT 3,4) FROM t1, t2;

@@ -1,0 +1,1 @@
+CREATE TABLE false(true INT, false INT, x INT CHECK (5 IN (false.false))); INSERT INTO False VALUES(4,5,6);

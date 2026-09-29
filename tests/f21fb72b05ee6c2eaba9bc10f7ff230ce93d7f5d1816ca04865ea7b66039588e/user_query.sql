@@ -1,0 +1,1 @@
+PRAGMA recursive_triggers=OFF; DELETE FROM t2 WHERE node=1;

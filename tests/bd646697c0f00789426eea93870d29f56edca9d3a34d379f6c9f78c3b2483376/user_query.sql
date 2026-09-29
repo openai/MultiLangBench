@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT hex(replace('abcdefg','','12')) AS x;

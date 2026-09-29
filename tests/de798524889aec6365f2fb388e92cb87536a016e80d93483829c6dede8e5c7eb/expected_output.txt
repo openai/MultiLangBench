@@ -1,0 +1,1 @@
+[["t1","table","CREATE TABLE t1(c1)"],["v1","view","CREATE VIEW v1 AS SELECT c1 FROM (SELECT t1.c1 FROM t1)"]]

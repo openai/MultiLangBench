@@ -1,0 +1,1 @@
+[["/bin"],["/bin/false"],["/bin/grep"],["/bin/ls"],["/bin/true"],["/etc"],["/etc/rc.d"],["/etc/rc.d/rc.apache"],["/etc/rc.d/rc.samba"],["/home"],["/home/dan"],["/home/dan/public_html"],["/home/dan/public_html/index.html"],["/home/dan/public_html/index.html/logo.gif"]]

@@ -1,0 +1,1 @@
+UPDATE t SET t1='ax'||char(65244),t2='A_%';INSERT INTO r SELECT t1 LIKE t2 FROM t;

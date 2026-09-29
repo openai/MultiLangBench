@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t12),(SELECT count(*) FROM t13),(SELECT sum(c) FROM t13)

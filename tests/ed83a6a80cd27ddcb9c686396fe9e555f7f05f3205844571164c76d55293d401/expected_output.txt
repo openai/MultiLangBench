@@ -1,0 +1,1 @@
+[["a1",3,"0x03","text",1,"integer","1","text"],["a1",14,"0x0E","text",2,"integer","2","text"],["a1",15,"0x0F","text",3,"integer","3","text"],["a1",92,"0x5C","text",4,"integer","4","text"],["a2",1,1,"integer",1,"integer",null,null],["a2",2,2,"integer","2","text",null,null],["a2",3,"3","text",3,"integer",null,null],["a2",4,"4","text","4","text",null,null]]

@@ -1,0 +1,1 @@
+SELECT 'tbl' AS src,rowid AS rid,a,b,c FROM tbl UNION ALL SELECT 'log',rowid,a,b,c FROM log ORDER BY src,rid

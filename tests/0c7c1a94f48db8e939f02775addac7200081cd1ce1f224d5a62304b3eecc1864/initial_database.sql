@@ -1,0 +1,1 @@
+CREATE TABLE collate2t3(b text); INSERT INTO collate2t3 VALUES('aa');

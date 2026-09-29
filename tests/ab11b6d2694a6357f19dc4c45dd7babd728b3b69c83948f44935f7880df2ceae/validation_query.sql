@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t4),(SELECT sum(rowid) FROM t4),(SELECT sum(i) FROM t4),(SELECT sum(length(t)) FROM t4),(SELECT count(*) FROM log),(SELECT count(*) FROM log WHERE op='INSERT INTO t4'),(SELECT sum(r) FROM log),(SELECT sum(i) FROM log),(SELECT sum(length(t)) FROM log),(SELECT sum(CASE WHEN r=i THEN 1 ELSE 0 END) FROM log);

@@ -1,0 +1,1 @@
+SELECT x FROM t6a ORDER BY rowid;

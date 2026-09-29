@@ -1,0 +1,1 @@
+CREATE TABLE A(Name text); CREATE TABLE Items(ItemName text, Name text); INSERT INTO Items VALUES('Item1','Parent'); INSERT INTO Items VALUES('Item2','Parent'); CREATE TABLE B(Name text); CREATE TABLE result(ItemName);

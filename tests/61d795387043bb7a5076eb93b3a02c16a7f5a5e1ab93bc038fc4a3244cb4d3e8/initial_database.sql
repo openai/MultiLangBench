@@ -1,0 +1,1 @@
+/* jrnlmode-5.5 */ CREATE TABLE anchor(x);

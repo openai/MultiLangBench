@@ -1,0 +1,1 @@
+SELECT tdd08.a,tdd08.b,tdd08_b.w,tdd08_b.x,tdd08_b.y FROM tdd08,tdd08_b

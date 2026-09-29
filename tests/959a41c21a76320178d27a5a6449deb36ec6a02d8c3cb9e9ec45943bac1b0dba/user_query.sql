@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES(14,'quite a lengthy string',X'555655');

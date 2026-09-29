@@ -1,0 +1,1 @@
+SELECT a,b,count(*) FROM t1 GROUP BY a,b ORDER BY a,b

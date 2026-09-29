@@ -1,0 +1,1 @@
+SELECT group_concat(name,' ') FROM (SELECT name FROM sqlite_master WHERE type IN ('table','index') AND name NOT LIKE 'sqlite_%' ORDER BY name);

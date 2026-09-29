@@ -1,0 +1,1 @@
+INSERT INTO result SELECT y FROM t1b WHERE x GLOB 'a*';

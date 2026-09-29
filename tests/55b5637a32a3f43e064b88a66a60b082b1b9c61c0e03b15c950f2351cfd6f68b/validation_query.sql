@@ -1,0 +1,1 @@
+SELECT b FROM result ORDER BY _rowid_;

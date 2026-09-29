@@ -1,0 +1,1 @@
+SELECT cid, name, type, is_not_null, dflt_value, pk FROM pragma_result ORDER BY cid;

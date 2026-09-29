@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES('c',2,2,3) ON CONFLICT(y,x) DO UPDATE SET w=w||t1.w;

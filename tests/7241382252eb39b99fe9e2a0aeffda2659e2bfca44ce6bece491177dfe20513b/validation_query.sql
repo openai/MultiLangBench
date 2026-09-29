@@ -1,0 +1,1 @@
+SELECT cid,name,(SELECT count(*) FROM sfi_result) FROM pragma_table_info('sfi_result') ORDER BY cid;

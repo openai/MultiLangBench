@@ -1,0 +1,1 @@
+SELECT a, b, c, typeof(a), typeof(b), typeof(c) FROM t1x ORDER BY rowid;

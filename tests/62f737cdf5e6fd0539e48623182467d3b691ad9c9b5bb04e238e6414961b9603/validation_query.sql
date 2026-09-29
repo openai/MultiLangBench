@@ -1,0 +1,1 @@
+SELECT rowid,content FROM ta ORDER BY rowid

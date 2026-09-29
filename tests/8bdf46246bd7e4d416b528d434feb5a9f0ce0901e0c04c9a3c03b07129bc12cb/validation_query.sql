@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM sqlite_schema WHERE type='table' AND name='t2') AS table_count, count(*) AS remaining_trigger_count, coalesce(sum(name='t2r6'),0) AS dropped_trigger_count, coalesce(sum(name IN ('t2r1','t2r2','t2r3','t2r4','t2r5','t2r7','t2r8','t2r9','t2r10','t2r11','t2r12')),0) AS expected_name_count FROM sqlite_schema WHERE type='trigger' AND tbl_name='t2';

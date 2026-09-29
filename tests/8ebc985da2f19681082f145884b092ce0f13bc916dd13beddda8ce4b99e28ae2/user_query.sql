@@ -1,0 +1,1 @@
+UPDATE OR ROLLBACK main.t1 SET b=5,a=10 WHERE 1;

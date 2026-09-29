@@ -1,0 +1,1 @@
+CREATE TABLE result AS WITH xyz(a) AS (WITH abc AS (SELECT 1234) SELECT * FROM abc) SELECT * FROM xyz AS one, xyz AS two, (SELECT * FROM xyz UNION ALL SELECT * FROM xyz);

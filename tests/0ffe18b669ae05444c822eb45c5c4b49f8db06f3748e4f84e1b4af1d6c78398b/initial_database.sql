@@ -1,0 +1,1 @@
+CREATE TABLE t2(x,w1,r1,w2,r2,r3); INSERT INTO t2 VALUES(1,1,'R1',2,'R2','R3'),(2,1,'R1',2,'R2','R3'),(3,1,'R1',2,'R2','R3'); CREATE TABLE r(id INTEGER,seq INTEGER,v);

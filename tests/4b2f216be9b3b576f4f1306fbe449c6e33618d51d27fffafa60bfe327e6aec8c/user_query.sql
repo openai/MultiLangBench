@@ -1,0 +1,1 @@
+CREATE TABLE t5(x); ALTER TABLE t5 ADD COLUMN new_col_1;

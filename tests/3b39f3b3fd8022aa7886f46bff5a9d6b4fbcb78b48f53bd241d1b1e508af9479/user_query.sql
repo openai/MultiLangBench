@@ -1,0 +1,1 @@
+PRAGMA locking_mode=EXCLUSIVE; PRAGMA journal_mode=PERSIST; PRAGMA journal_mode=DELETE; CREATE TABLE result AS SELECT journal_mode AS mode FROM pragma_journal_mode;

@@ -1,0 +1,1 @@
+SELECT a FROM t3 ORDER BY a

@@ -1,0 +1,1 @@
+[["index","i2x","t2","CREATE INDEX i2x ON t2(x)"],["index","i2y","t2","CREATE INDEX i2y ON t2(y)"],["index","sqlite_autoindex_t1_1","t1",null],["table","t1","t1","CREATE TABLE t1(a int UNIQUE,b,c)"],["table","t2","t2","CREATE TABLE t2(x,y,z)"]]

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT d FROM t2 WHERE a IN t1x AND b IN t1y AND c IN t1z ORDER BY c;

@@ -1,0 +1,1 @@
+INSERT INTO sfi_result(value) SELECT count(*) FROM t0 WHERE t0 MATCH '(1 NEAR 1) AND (aaaa OR 1)';

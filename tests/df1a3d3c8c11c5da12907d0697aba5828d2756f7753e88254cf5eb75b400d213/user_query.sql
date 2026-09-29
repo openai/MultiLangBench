@@ -1,0 +1,1 @@
+PRAGMA journal_mode=TRUNCATE; INSERT INTO t1 SELECT printf('%0200d',rowid+1), printf('%0300d',rowid+1) FROM t1; INSERT INTO t1 SELECT printf('%0200d',rowid+2), printf('%0300d',rowid+2) FROM t1;

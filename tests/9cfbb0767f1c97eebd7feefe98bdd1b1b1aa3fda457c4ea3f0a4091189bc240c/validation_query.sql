@@ -1,0 +1,1 @@
+SELECT a,b FROM ffff ORDER BY rowid;

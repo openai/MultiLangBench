@@ -1,0 +1,1 @@
+SELECT count(*),sum(rowid),sum(i),sum(length(t)),max(CASE WHEN rowid=1 THEN i||':'||t END),max(CASE WHEN rowid=2 THEN i||':'||t END),max(CASE WHEN rowid=9999 THEN i||':'||t END),(SELECT count(*) FROM sqlite_schema WHERE type='trigger' AND tbl_name='t4') FROM t4;

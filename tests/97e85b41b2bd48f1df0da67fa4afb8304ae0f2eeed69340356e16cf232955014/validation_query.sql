@@ -1,0 +1,1 @@
+SELECT seq, name, "unique", origin, partial FROM observed ORDER BY seq;

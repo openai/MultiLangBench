@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT x,y FROM t1 WHERE t1 MATCH 'a b';

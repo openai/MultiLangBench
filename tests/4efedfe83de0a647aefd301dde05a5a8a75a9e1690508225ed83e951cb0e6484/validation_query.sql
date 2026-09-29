@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t2) AS row_count,(SELECT count(*) FROM sqlite_master WHERE type='index' AND name='t2b') AS index_count;

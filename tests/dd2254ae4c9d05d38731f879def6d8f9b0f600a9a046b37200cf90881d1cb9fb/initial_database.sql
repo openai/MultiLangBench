@@ -1,0 +1,6 @@
+-- e_vacuum-3.1.2
+CREATE TABLE t4(x);
+INSERT INTO t4(x) VALUES('x');
+INSERT INTO t4(x) VALUES('y');
+INSERT INTO t4(x) VALUES('z');
+DELETE FROM t4 WHERE x='y';

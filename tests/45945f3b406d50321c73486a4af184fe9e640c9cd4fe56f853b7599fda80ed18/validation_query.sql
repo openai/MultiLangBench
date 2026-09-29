@@ -1,0 +1,1 @@
+SELECT temp_objects FROM sfi_result;

@@ -1,0 +1,1 @@
+SELECT b FROM t1 INDEXED BY cast WHERE a=2

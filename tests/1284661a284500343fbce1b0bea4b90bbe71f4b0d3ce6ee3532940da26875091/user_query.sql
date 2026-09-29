@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; UPDATE p SET b='k4' WHERE a=1;

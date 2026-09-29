@@ -1,0 +1,1 @@
+SELECT count(*), sum(rowid=1 AND typeof(a)='text' AND a='abcdefghij'), sum(rowid=2 AND typeof(a)='text' AND a=replace(hex(zeroblob(50)), '00', 'abcdefghij')), sum(rowid=3 AND typeof(a)='text' AND a=replace(hex(zeroblob(50000)), '00', 'abcdefghij')) FROM t4;

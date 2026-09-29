@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a AS v FROM t1 WHERE b>=3 AND b<=7;

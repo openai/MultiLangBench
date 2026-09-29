@@ -1,0 +1,1 @@
+INSERT INTO _result(v) SELECT a IN (10.0,20) FROM t3;

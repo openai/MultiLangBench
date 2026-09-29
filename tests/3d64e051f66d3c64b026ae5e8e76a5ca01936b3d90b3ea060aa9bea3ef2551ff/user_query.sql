@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(coalesce(strftime('%f',1.234,'unixepoch','localtime'),'NULL'))

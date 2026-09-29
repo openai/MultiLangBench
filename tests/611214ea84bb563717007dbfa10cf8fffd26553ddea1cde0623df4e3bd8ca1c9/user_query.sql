@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT coalesce(instr(NULL,'abc'),999);

@@ -1,0 +1,1 @@
+CREATE TABLE t1(id INTEGER PRIMARY KEY, data BLOB); WITH RECURSIVE ids(id) AS (VALUES(1) UNION ALL SELECT id+1 FROM ids WHERE id<99) INSERT INTO t1(id,data) SELECT id, replace(hex(zeroblob(500)), '00', 'blob'||id) FROM ids;

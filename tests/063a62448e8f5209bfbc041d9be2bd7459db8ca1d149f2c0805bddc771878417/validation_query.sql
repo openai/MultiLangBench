@@ -1,0 +1,1 @@
+SELECT 'table' AS kind, name, sql FROM sqlite_master WHERE type='table' AND name IN ('t1','one') UNION ALL SELECT 'view', name, sql FROM temp_capture ORDER BY kind, name;

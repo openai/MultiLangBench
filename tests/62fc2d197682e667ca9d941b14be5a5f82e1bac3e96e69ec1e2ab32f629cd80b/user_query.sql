@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts4(prefix=0); CREATE VIRTUAL TABLE t2 USING fts4; INSERT INTO t1 VALUES('Twas Mulga Bill, from Eaglehawk, '); INSERT INTO t2 VALUES('Twas Mulga Bill, from Eaglehawk, ');

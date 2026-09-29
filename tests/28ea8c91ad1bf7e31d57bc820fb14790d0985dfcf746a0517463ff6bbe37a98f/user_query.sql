@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT max(one) IS NULL,one IS NULL,two IS NULL FROM a1 WHERE two=7;

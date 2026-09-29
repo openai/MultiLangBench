@@ -1,0 +1,1 @@
+INSERT INTO t1(content) VALUES('I wandered lonely as a cloud'); INSERT INTO t1(content) VALUES('That floats on high o''er vales and hills,'); INSERT INTO t1(content) VALUES('When all at once I saw a crowd,'); INSERT INTO t1(content) VALUES('A host, of golden daffodils,'); CREATE TABLE r AS SELECT matchinfo(t1) AS m FROM t1 WHERE t1 MATCH 'I' ORDER BY rowid

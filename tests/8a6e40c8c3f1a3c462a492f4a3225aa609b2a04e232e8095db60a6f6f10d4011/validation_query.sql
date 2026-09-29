@@ -1,0 +1,1 @@
+SELECT count(*) FROM sqlite_schema WHERE type='trigger' AND name='t4r1' AND tbl_name='t4';

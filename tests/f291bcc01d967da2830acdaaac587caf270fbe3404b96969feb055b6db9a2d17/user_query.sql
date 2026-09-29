@@ -1,0 +1,1 @@
+CREATE TABLE _result AS SELECT * FROM t1 natural inner join t2 ORDER BY t1.a;

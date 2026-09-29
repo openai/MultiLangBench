@@ -1,0 +1,1 @@
+SELECT * FROM asc ORDER BY asc ASC

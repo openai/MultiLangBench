@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT DISTINCT name, builtin FROM pragma_function_list WHERE name='upper' AND builtin;

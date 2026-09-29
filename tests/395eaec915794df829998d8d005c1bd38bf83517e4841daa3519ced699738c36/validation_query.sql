@@ -1,0 +1,1 @@
+SELECT (SELECT page_size FROM pragma_page_size) AS page_size, EXISTS(SELECT 1 FROM sqlite_schema WHERE type='table' AND name='abc') AS probe_exists;

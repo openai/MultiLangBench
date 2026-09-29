@@ -1,0 +1,1 @@
+SELECT * FROM r ORDER BY 1

@@ -1,0 +1,1 @@
+CREATE TABLE t1(a INT, b INTEGER, c BLOB, d TEXT, e REAL) STRICT; CREATE TABLE observed(strict_value INTEGER);

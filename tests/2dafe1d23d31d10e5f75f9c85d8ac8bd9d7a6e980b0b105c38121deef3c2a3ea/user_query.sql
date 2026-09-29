@@ -1,0 +1,1 @@
+PRAGMA journal_mode = persist; CREATE TABLE t1(a, b); INSERT INTO t1 VALUES(1, 2); INSERT INTO mode_capture(mode) SELECT * FROM pragma_journal_mode;

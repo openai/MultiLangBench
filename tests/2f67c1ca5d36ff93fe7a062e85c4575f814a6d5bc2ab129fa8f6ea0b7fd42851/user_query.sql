@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT format('%.*f',2,3.141592653);

@@ -1,0 +1,1 @@
+SELECT v, typeof(v), quote(v), hex(v) FROM sfi_result;

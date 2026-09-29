@@ -1,0 +1,1 @@
+PRAGMA page_size=512; CREATE VIRTUAL TABLE x USING fts4;

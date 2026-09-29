@@ -1,0 +1,1 @@
+SELECT first_value, last_value FROM result

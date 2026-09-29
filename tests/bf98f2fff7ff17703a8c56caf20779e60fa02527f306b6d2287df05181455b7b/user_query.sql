@@ -1,0 +1,1 @@
+CREATE TABLE query_result AS SELECT DISTINCT t1.x AS x FROM fts, t1 WHERE fts.rowid=11 AND content=x ORDER BY fts.rowid;

@@ -1,0 +1,1 @@
+CREATE TABLE t1(a, b, c); CREATE TABLE t2(d, e, f); CREATE TABLE marker(v); INSERT INTO marker VALUES(0);

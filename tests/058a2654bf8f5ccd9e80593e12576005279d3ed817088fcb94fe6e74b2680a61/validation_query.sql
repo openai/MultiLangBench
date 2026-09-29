@@ -1,0 +1,1 @@
+SELECT t1.x, t3.b, (SELECT count(*) FROM sqlite_stat1) AS stat_rows, (SELECT count(*) FROM sqlite_schema WHERE type='table' AND name IN ('t1','sqlite_stat1','t3')) AS named_tables FROM t1 CROSS JOIN t3 ORDER BY t1.rowid, t3.rowid;

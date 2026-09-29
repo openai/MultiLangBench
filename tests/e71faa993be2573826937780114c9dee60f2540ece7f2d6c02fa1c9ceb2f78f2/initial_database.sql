@@ -1,0 +1,1 @@
+CREATE TABLE seed(x); PRAGMA default_cache_size=2000;

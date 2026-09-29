@@ -1,0 +1,1 @@
+CREATE TABLE t_distinct_bug(a, b, c); INSERT INTO t_distinct_bug VALUES('1','1','a'); INSERT INTO t_distinct_bug VALUES('1','2','b'); INSERT INTO t_distinct_bug VALUES('1','3','c'); INSERT INTO t_distinct_bug VALUES('1','1','d'); INSERT INTO t_distinct_bug VALUES('1','2','e'); INSERT INTO t_distinct_bug VALUES('1','3','f');

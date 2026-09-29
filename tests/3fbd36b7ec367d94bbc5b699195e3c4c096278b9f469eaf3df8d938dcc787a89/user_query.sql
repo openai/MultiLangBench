@@ -1,0 +1,1 @@
+UPDATE t2 SET c=c-1 WHERE c=2;

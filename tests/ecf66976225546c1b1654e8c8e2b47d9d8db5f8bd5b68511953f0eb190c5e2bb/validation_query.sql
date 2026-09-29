@@ -1,0 +1,1 @@
+SELECT count(*) FROM t2 WHERE x IS NULL AND y IS NULL

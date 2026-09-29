@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT rank() OVER () AS v FROM t2;

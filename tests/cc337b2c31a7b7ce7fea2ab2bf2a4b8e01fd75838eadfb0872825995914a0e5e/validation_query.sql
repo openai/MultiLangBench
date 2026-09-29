@@ -1,0 +1,1 @@
+SELECT n,sx,sy,sz FROM result;

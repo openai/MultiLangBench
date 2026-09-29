@@ -1,0 +1,1 @@
+SELECT src,c1,c2 FROM (SELECT 't1' AS src,rowid AS rid,a AS c1,b AS c2 FROM t1 UNION ALL SELECT 't2' AS src,rowid AS rid,x AS c1,y AS c2 FROM t2) ORDER BY src,rid;

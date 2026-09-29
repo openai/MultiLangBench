@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT t2.id AS t2id,t2.json AS t2json,t1.id AS t1id,t1.json AS t1json FROM t2 CROSS JOIN t1 WHERE EXISTS(SELECT 1 FROM json_each(t1.json,'$.items') AS Z WHERE Z.value==t2.id);

@@ -1,0 +1,1 @@
+SELECT a, value, marker FROM result ORDER BY a;

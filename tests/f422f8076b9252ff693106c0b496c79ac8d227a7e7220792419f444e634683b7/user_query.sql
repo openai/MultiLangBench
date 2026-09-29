@@ -1,0 +1,1 @@
+UPDATE OR REPLACE t3 SET docid=5, content='three four' WHERE docid=4;

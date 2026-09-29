@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT level,group_concat(idx,' ') AS idxs FROM (SELECT level,idx FROM t2_segdir ORDER BY level,idx) GROUP BY level;

@@ -1,0 +1,1 @@
+SELECT type, name, tbl_name, CASE WHEN name='p2' THEN instr(lower(replace(sql,' ','')),'wherez=1')>0 ELSE 0 END FROM sqlite_schema WHERE name IN ('o1','p1','p2') ORDER BY type, name;

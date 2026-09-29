@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT count(*) FROM t7 LEFT JOIN t8 ON(t7.a=t8.a);

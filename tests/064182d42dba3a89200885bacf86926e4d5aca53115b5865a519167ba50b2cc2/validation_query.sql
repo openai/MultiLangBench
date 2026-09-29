@@ -1,0 +1,1 @@
+SELECT "true", "false", x FROM "false" ORDER BY rowid;

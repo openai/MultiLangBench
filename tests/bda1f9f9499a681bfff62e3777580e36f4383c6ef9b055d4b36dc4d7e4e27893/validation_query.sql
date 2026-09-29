@@ -1,0 +1,1 @@
+SELECT docid,b FROM t8 ORDER BY docid

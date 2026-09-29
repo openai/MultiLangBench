@@ -1,0 +1,1 @@
+SELECT fooid,fooval,refcnt FROM capture ORDER BY fooid;

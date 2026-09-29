@@ -1,0 +1,1 @@
+SELECT c0, c1, EXISTS(SELECT 1 FROM sqlite_schema WHERE type='index' AND name='ii' AND tbl_name='ttt') FROM ttt ORDER BY rowid

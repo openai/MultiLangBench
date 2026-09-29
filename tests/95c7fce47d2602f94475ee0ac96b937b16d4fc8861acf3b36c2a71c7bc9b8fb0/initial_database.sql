@@ -1,0 +1,2 @@
+CREATE VIRTUAL TABLE t2 USING fts3tokenize();
+CREATE TABLE result(seq INTEGER PRIMARY KEY, token);

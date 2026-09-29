@@ -1,0 +1,1 @@
+SELECT CASE WHEN trim(v)='' THEN 0 ELSE length(trim(v))-length(replace(trim(v),' ',''))+1 END FROM r

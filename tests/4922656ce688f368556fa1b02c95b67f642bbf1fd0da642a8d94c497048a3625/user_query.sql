@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT x AS x,a AS a,y=b AS r_eq FROM t1,t2;

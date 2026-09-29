@@ -1,0 +1,1 @@
+SELECT a, b, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name IN ('d1b','d1c')) AS index_count FROM d1 ORDER BY a, b;

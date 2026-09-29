@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT i.aaa_id AS aaa_id, (SELECT sum(CASE WHEN t.source_aaa==i.aaa_id THEN 1 ELSE 0 END) FROM TTT AS t) AS segfault FROM (SELECT curr.rrr_aaa AS aaa_id FROM RRR AS curr INNER JOIN AAA AS a ON curr.rrr_aaa=aaa_id LEFT JOIN RRR AS r ON r.rrr_id<>0 AND r.rrr_date<curr.rrr_date GROUP BY curr.rrr_id HAVING r.rrr_date IS NULL) AS i;

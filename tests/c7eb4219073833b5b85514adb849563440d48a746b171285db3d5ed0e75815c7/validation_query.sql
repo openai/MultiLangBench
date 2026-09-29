@@ -1,0 +1,1 @@
+SELECT f1, f2 FROM table1 ORDER BY f1;

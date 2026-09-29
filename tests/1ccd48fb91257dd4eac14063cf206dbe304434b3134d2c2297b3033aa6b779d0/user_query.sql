@@ -1,0 +1,1 @@
+INSERT INTO a2 VALUES((SELECT count(*) FROM a2), 'x', 'y')

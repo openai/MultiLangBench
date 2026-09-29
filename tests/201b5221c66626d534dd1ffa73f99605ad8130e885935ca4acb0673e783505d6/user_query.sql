@@ -1,0 +1,1 @@
+ATTACH DATABASE ':memory:' AS two; CREATE TABLE two.t2(x,y); INSERT INTO two.t2 VALUES(1,'x'),(2,'y'); INSERT INTO main.capture SELECT x,y FROM t2 ORDER BY rowid;

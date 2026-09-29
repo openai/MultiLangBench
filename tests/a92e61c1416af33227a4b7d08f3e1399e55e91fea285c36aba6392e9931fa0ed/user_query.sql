@@ -1,0 +1,1 @@
+INSERT INTO result SELECT '100x'+'-2y';

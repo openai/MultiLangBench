@@ -1,0 +1,2 @@
+DROP INDEX t1ab;
+CREATE INDEX t1ab ON t1(a,b DESC);

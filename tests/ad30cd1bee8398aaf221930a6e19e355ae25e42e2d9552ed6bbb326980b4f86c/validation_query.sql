@@ -1,0 +1,1 @@
+SELECT count(*),count(DISTINCT c),sum(length(c)),(SELECT c FROM t1 WHERE a=1),(SELECT c FROM t1 WHERE a=25000),(SELECT c FROM t1 WHERE a=50000) FROM t1;

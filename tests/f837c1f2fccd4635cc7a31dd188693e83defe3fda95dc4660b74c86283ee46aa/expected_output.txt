@@ -1,0 +1,1 @@
+[[0,1,10,20,"CREATE TABLE t1(a,b,c,d,e,f,g,h,PRIMARY KEY(a,b,c)) WITHOUT ROWID","CREATE TABLE t2(i, j)"]]

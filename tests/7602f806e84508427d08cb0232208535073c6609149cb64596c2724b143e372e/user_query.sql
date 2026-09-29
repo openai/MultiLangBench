@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT instr(123456.78,34);

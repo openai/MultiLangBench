@@ -1,0 +1,1 @@
+[[1,"integer","1"],[2,"integer","0"],[3,"integer","0"],[4,"integer","0"],[5,"integer","0"],[6,"integer","1"],[7,"integer","0"],[8,"integer","0"],[9,"integer","0"],[10,"integer","0"],[11,"integer","1"],[12,"integer","0"],[13,"integer","0"],[14,"integer","0"]]

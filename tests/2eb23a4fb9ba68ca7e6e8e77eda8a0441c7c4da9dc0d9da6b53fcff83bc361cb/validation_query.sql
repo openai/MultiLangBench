@@ -1,0 +1,1 @@
+SELECT q FROM sfi_result;

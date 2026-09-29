@@ -1,0 +1,1 @@
+[["CREATE TRIGGER r1 AFTER INSERT ON t33a BEGIN INSERT INTO t33b(x,y) VALUES(testdirectonly(new.aaa),new.b); END"]]

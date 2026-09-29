@@ -1,0 +1,1 @@
+SELECT count(*), min(a), max(a), (SELECT count(*) FROM audit) FROM t1;

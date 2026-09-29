@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT sum(x) FROM t1 WHERE x>100;

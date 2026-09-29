@@ -1,0 +1,1 @@
+SELECT q,s FROM t7 ORDER BY q

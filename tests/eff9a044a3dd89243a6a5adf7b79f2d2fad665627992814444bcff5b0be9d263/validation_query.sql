@@ -1,0 +1,1 @@
+SELECT a, b, typeof(a), typeof(b) FROM sfi_result ORDER BY rowid;

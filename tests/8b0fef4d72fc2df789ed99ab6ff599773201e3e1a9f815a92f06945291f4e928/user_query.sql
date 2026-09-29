@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT snippet(t2,'[',']','...') AS s FROM t2 WHERE t2 MATCH 'röllbäck';

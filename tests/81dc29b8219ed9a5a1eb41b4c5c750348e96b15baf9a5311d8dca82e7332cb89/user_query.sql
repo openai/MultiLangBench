@@ -1,0 +1,1 @@
+UPDATE t SET i1=1,i2=2;INSERT INTO r SELECT max(i1,i2,i1+i2,i1-i2) FROM t;

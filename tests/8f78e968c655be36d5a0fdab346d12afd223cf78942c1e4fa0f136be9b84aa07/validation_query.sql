@@ -1,0 +1,1 @@
+SELECT count(*),min(a),max(a),min(b),max(b),sum(CASE WHEN a=((rowid-1)/10) AND b=((rowid-1)%10) THEN 0 ELSE 1 END) FROM t10;

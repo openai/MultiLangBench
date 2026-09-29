@@ -1,0 +1,1 @@
+PRAGMA locking_mode=EXCLUSIVE; PRAGMA locking_mode=NORMAL; CREATE TABLE capture AS SELECT locking_mode FROM pragma_locking_mode;

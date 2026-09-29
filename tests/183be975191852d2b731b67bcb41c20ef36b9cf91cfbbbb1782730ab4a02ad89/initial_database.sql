@@ -1,0 +1,1 @@
+CREATE TABLE h1(a,b);INSERT INTO h1 VALUES(1,'one'),(1,'I'),(1,'i'),(4,'four'),(4,'IV'),(4,'iv');

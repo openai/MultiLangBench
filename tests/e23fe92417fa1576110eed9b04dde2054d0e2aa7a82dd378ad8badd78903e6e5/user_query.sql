@@ -1,0 +1,1 @@
+CREATE TABLE t2(x int, y int); INSERT INTO t2 VALUES(8,9); SELECT * FROM t2;

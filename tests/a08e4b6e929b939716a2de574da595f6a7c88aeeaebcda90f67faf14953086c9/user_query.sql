@@ -1,0 +1,1 @@
+INSERT INTO docs SELECT 'sqlite is also a library' UNION ALL SELECT 'library software'

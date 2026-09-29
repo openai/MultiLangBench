@@ -1,0 +1,1 @@
+PRAGMA page_size=1024; PRAGMA auto_vacuum=0; VACUUM; CREATE TABLE t1(x); CREATE TABLE observed(seq INTEGER PRIMARY KEY, value); INSERT INTO t1 VALUES(zeroblob(3500)); DELETE FROM t1;

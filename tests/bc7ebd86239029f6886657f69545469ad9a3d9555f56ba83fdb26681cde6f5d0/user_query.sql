@@ -1,0 +1,1 @@
+CREATE TABLE each(each each); INSERT INTO each VALUES(99); INSERT INTO each SELECT a FROM t1;

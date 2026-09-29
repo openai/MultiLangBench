@@ -1,0 +1,1 @@
+[["before-insert","1,2,0"],["before-update","1,2,0/1,2,1"],["after-update","1,2,0/1,2,1"]]

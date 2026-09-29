@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE fff USING fts5(f);

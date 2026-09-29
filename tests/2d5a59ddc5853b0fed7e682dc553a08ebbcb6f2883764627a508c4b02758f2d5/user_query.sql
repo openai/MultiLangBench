@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; INSERT INTO up VALUES('yes','no'); INSERT INTO down VALUES('no','yes'); UPDATE up SET c34='possibly';

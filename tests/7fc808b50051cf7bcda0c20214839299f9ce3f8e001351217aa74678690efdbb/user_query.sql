@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT c FROM abc ORDER BY c, a;

@@ -1,0 +1,1 @@
+INSERT INTO result SELECT 1 IN t1;

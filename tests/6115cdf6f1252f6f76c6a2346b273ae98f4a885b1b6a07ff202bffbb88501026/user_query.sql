@@ -1,0 +1,1 @@
+SELECT name FROM sqlite_schema WHERE sql LIKE '%t2%';

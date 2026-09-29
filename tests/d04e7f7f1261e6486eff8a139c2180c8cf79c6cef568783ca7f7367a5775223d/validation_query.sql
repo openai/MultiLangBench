@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM result1),a,b,c FROM result2 ORDER BY rowid

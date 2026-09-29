@@ -1,0 +1,1 @@
+INSERT INTO result SELECT 1 NOT IN (SELECT x+y FROM t1, t2);

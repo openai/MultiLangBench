@@ -1,0 +1,1 @@
+[["ft1","CREATE VIRTUAL TABLE ft1 USING fts5(one, two)"]]

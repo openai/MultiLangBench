@@ -1,0 +1,1 @@
+SELECT rowid,quote(a),quote(b),quote(c),typeof(a),typeof(b),typeof(c) FROM t1 ORDER BY rowid;

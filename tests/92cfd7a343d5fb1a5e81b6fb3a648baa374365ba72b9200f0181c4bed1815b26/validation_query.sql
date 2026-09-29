@@ -1,0 +1,1 @@
+SELECT name, color FROM fruits ORDER BY rowid;

@@ -1,0 +1,1 @@
+SELECT prefix FROM query_result ORDER BY rowid;

@@ -1,0 +1,1 @@
+PRAGMA journal_mode=OFF; CREATE TABLE observed AS SELECT * FROM pragma_journal_mode;

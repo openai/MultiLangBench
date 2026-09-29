@@ -1,0 +1,1 @@
+SELECT count(*),sum(a='a' AND b='b'),sum(a='c' AND b='d') FROM t8;

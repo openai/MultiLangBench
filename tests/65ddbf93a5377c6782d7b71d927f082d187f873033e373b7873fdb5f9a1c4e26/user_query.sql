@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT (1, 0, 3) IS (1, 2, 3) AS v;

@@ -1,0 +1,1 @@
+CREATE INDEX t1abx ON t1(substr(a,b,3)); CREATE TABLE sfi_result AS SELECT rowid AS id FROM t1 WHERE substr(a,b,3)<='and' ORDER BY +rowid;

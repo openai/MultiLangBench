@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT ''+3 AS v FROM (SELECT ''+5);

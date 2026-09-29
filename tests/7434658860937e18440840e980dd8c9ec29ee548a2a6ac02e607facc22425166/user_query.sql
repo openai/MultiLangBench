@@ -1,0 +1,1 @@
+CREATE TABLE data(x UNIQUE,y,z);

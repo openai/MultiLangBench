@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT count(*),max(a) FROM t1 GROUP BY b HAVING count(*)=2;

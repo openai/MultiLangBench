@@ -1,0 +1,1 @@
+[["table","dual","dual","CREATE TABLE dual(dummy TEXT)"],["table","t3","t3","CREATE TABLE t3(id INT PRIMARY KEY,w TEXT) WITHOUT ROWID"],["table","t4","t4","CREATE TABLE t4(id INT PRIMARY KEY,x TEXT) WITHOUT ROWID"],["table","t5","t5","CREATE TABLE t5(id INT PRIMARY KEY,y TEXT) WITHOUT ROWID"],["table","t6","t6","CREATE TABLE t6(id INT PRIMARY KEY,z INT) WITHOUT ROWID"]]

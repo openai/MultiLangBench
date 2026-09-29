@@ -1,0 +1,1 @@
+INSERT INTO t5(t5) VALUES('optimize')

@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=OFF; PRAGMA legacy_alter_table=ON; ALTER TABLE p3 RENAME TO p2; PRAGMA foreign_keys=ON; ALTER TABLE p2 RENAME TO p3;

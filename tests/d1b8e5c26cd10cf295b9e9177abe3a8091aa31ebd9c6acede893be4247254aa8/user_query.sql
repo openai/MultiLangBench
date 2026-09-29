@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT (SELECT y FROM t2 WHERE x = y ORDER BY y, z) FROM t1;

@@ -1,0 +1,1 @@
+CREATE TABLE t1(id INTEGER PRIMARY KEY, data TEXT); INSERT INTO t1(id,data) VALUES(9,'nine-a'); INSERT INTO t1(id,data) VALUES(10,'ten-a'); INSERT INTO t1(id,data) VALUES(11,'eleven-a'); CREATE TABLE result(seq INTEGER PRIMARY KEY, data TEXT);

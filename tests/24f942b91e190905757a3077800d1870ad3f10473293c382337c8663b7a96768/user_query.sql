@@ -1,0 +1,1 @@
+INSERT INTO t2(x) VALUES(1);

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a,rowid AS r,x FROM t1 ORDER BY +a;

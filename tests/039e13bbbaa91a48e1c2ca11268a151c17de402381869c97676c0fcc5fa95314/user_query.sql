@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(coalesce(date('2002-01-01','-1.5 years'),'NULL'))

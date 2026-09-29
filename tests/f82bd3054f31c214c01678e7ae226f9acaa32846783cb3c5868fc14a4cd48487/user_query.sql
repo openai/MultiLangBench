@@ -1,0 +1,1 @@
+UPDATE t1 SET b='x-' || b WHERE a=1 OR a=3;

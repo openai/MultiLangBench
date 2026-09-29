@@ -1,0 +1,1 @@
+UPDATE t1 SET o1=500; CREATE TABLE result AS SELECT 500 > o1 AS value FROM t1;

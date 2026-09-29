@@ -1,0 +1,13 @@
+CREATE TABLE tbl(a, b, c);
+INSERT INTO tbl VALUES(1, 2, 3);
+CREATE TRIGGER before_tbl_update BEFORE UPDATE ON tbl BEGIN
+  SELECT CASE WHEN (old.a = 1) THEN RAISE(IGNORE) END;
+END;
+CREATE TRIGGER before_tbl_delete BEFORE DELETE ON tbl BEGIN
+  SELECT CASE WHEN (old.a = 1) THEN RAISE(IGNORE) END;
+END;
+CREATE TABLE tbl2(a, b, c);
+CREATE TRIGGER after_tbl2_insert AFTER INSERT ON tbl2 BEGIN
+  UPDATE tbl SET c = 10;
+  INSERT INTO tbl2 VALUES (new.a, new.b, new.c);
+END;

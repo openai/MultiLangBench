@@ -1,0 +1,1 @@
+UPDATE u1 SET b=t FROM map WHERE b=f;

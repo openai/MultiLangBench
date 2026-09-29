@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT hex(substring(x'61626364656667', 100, 200));

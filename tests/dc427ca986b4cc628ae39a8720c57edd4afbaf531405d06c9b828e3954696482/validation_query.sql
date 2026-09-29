@@ -1,0 +1,1 @@
+SELECT type, name, tbl_name, '|' AS marker FROM sqlite_master ORDER BY rowid;

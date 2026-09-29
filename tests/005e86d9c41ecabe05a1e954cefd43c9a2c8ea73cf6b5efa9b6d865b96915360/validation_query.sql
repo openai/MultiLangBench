@@ -1,0 +1,1 @@
+SELECT p.cid, p.name, t6.a, t6.b, t6."a:1", t6.c FROM pragma_table_info('t6') AS p CROSS JOIN t6 ORDER BY p.cid;

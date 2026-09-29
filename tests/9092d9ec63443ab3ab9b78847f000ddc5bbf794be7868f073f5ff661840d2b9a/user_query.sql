@@ -1,0 +1,1 @@
+ALTER TABLE c1 DROP COLUMN z; ALTER TABLE c2 DROP COLUMN z; SELECT sql FROM sqlite_schema WHERE name IN ('c1', 'c2');

@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM sqlite_schema WHERE name IN ('t0','v0')),(SELECT c0 FROM v0),(SELECT c1 FROM v0)

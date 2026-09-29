@@ -1,0 +1,1 @@
+CREATE TABLE t1(a INTEGER PRIMARY KEY, b TEXT COLLATE BINARY, c TEXT COLLATE RTRIM); INSERT INTO t1 VALUES(1,'abcde','abcde'),(2,'xyzzy ','xyzzy '),(3,'xyzzy  ','xyzzy  '),(4,'xyzzy   ','xyzzy   '),(5,'   ','   '),(6,'','');

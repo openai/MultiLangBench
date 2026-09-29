@@ -1,0 +1,1 @@
+SELECT p.page_size, i.integrity_check FROM pragma_page_size AS p, pragma_integrity_check AS i;

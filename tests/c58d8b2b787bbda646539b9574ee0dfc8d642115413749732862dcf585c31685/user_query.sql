@@ -1,0 +1,1 @@
+ATTACH ':memory:' AS file2; CREATE TABLE file2.t1(a,b); BEGIN; INSERT INTO file2.t1 VALUES(1,2); COMMIT; INSERT INTO main.observed SELECT a,b FROM file2.t1;

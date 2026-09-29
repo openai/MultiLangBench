@@ -1,0 +1,1 @@
+SELECT typeof(x),x FROM t12

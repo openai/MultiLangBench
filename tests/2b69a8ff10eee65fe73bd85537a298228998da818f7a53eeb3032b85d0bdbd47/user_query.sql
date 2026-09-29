@@ -1,0 +1,1 @@
+CREATE INDEX t3b ON t3(b) WHERE xyzzy.t3.b BETWEEN 5 AND 10; ANALYZE; CREATE TABLE result AS SELECT count(*) AS n, (SELECT stat+0 FROM sqlite_stat1 WHERE idx='t3b') AS s FROM t3 WHERE t3.b BETWEEN 5 AND 10;

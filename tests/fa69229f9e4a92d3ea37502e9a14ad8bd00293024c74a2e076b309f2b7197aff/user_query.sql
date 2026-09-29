@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rowid AS rid FROM t4 WHERE t4 MATCH 'a';

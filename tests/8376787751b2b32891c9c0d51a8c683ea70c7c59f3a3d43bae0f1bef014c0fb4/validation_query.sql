@@ -1,0 +1,1 @@
+SELECT count(*) AS attached_non_main FROM capture WHERE name NOT IN ('main','temp');

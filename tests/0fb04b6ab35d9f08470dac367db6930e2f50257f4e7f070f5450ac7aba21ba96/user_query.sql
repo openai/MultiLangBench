@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT 'xyz'==b AS result FROM (SELECT a, 'xyz' AS xyz FROM t5), t5;

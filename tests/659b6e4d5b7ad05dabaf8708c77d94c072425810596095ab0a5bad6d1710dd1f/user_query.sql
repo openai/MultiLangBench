@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t7 USING fts3(a,b); INSERT INTO t7 VALUES('u v w','x y z'); CREATE VIRTUAL TABLE t8 USING fts4(a,b,matchinfo=fts3); INSERT INTO t8 VALUES('u v w','x y z')

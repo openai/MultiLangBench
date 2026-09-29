@@ -1,0 +1,1 @@
+UPDATE t4 SET docid=14 WHERE docid=12;

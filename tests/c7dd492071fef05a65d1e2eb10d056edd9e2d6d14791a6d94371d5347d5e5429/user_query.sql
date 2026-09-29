@@ -1,0 +1,1 @@
+UPDATE collate3t1 SET c2 = 'xxx';

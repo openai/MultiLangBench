@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT count(*) AS x FROM t1_segments WHERE length(block)>10000;

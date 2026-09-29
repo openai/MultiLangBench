@@ -1,0 +1,1 @@
+CREATE TABLE t1(x INTEGER PRIMARY KEY AUTOINCREMENT, y); CREATE TEMP TABLE t3(a INTEGER PRIMARY KEY AUTOINCREMENT, b); CREATE TABLE observed(scope INTEGER, name TEXT, ord INTEGER); INSERT INTO observed SELECT 1,name,rowid FROM main.sqlite_master WHERE type='table' AND name<>'observed'; INSERT INTO observed SELECT 2,name,rowid FROM temp.sqlite_master WHERE type='table';

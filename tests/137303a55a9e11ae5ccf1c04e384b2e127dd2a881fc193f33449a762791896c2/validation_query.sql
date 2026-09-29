@@ -1,0 +1,1 @@
+SELECT a,b1x,b1y,b1z,b2x,b2y,b2z FROM result ORDER BY a,b1x,b1y,b1z,b2x,b2y,b2z

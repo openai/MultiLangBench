@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT count(*) FROM t1 WHERE b='10.0' AND b LIKE '10';

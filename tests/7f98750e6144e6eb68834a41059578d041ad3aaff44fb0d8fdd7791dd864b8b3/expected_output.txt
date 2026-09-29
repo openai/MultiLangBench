@@ -1,0 +1,1 @@
+[["dynamic","phone","flipper","harvard","|"],["journal","sherman","ammonia",3.1415926,"|"],["journal","sherman","gamma",3.1415926,"|"],["arctic","sleep","ammonia","helena","|"]]

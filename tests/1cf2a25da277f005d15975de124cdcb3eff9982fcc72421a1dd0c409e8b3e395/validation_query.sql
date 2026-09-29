@@ -1,0 +1,1 @@
+SELECT rowid,x FROM t10 ORDER BY rowid

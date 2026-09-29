@@ -1,0 +1,1 @@
+UPDATE t1 SET v='x' || -flt; UPDATE t1 SET v='x-2b' WHERE v=='x-0.123'; CREATE TABLE result AS SELECT v FROM t1 ORDER BY v;

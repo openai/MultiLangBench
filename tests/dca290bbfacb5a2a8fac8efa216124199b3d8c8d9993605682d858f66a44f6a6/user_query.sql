@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT likely(a) AS a, x AS x FROM t1, t2 ORDER BY 1, 2;

@@ -1,0 +1,1 @@
+SELECT x, y FROM sfi_result ORDER BY +x;

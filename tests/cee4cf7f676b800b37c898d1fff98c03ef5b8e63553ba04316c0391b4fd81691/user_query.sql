@@ -1,0 +1,5 @@
+INSERT INTO result(a, v)
+SELECT a, b+c+d+e FROM t1
+UNION ALL
+SELECT x, 5 FROM t2 JOIN t3 ON z=x WHERE x=2
+ORDER BY a;

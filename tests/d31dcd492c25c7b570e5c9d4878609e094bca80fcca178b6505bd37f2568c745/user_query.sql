@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a FROM t7 WHERE a MATCH 'number' AND docid=4

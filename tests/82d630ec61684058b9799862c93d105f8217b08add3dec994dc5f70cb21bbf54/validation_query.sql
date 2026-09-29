@@ -1,0 +1,1 @@
+SELECT count(*), sum(content='x x x x x x x x x x x A'), sum(content='x x x x x x x x x x x B') FROM t6

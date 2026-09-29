@@ -1,0 +1,1 @@
+SELECT count(*) AS total_rows, sum(a=999) AS excluded_rows, (SELECT [unique] FROM pragma_index_list('t3') WHERE name='t3a') AS is_unique, (SELECT partial FROM pragma_index_list('t3') WHERE name='t3a') AS is_partial, (SELECT integrity_check FROM pragma_integrity_check LIMIT 1) AS integrity_check FROM t3;

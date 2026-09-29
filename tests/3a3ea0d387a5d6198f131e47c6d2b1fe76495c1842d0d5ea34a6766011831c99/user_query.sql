@@ -1,0 +1,1 @@
+ALTER TABLE xyzሴabc RENAME TO xyzabc;

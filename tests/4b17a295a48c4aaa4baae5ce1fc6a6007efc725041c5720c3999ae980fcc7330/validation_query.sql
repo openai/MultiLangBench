@@ -1,0 +1,1 @@
+SELECT a, b, c, d FROM "x2 ""rules" ORDER BY rowid

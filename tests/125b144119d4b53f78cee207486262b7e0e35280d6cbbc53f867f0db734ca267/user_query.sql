@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM pragma_index_info('t3i1_bogus');

@@ -1,0 +1,1 @@
+/* check-4.3 */ UPDATE t4 SET x=4, y=3;

@@ -1,0 +1,1 @@
+SELECT m.type, m.name, m.tbl_name, m.sql, p.cid, p.name, p.type, p."notnull", p.dflt_value, p.pk FROM sqlite_schema AS m CROSS JOIN pragma_table_info('t1') AS p WHERE m.name='t1' ORDER BY p.cid;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a, hex(a) AS h, length(a) AS n FROM t1;

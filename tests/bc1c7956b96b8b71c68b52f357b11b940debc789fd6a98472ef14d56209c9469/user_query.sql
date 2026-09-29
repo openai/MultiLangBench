@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT coalesce(min(x+0),-1) AS mn, coalesce(max(x+0),-1) AS mx FROM (SELECT * FROM t1 UNION SELECT NULL AS x, NULL AS y);

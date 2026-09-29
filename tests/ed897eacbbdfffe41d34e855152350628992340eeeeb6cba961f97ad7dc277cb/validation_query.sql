@@ -1,0 +1,1 @@
+SELECT v,(SELECT count(*) FROM t1),(SELECT min(length(a)) FROM t1),(SELECT max(length(a)) FROM t1) FROM result

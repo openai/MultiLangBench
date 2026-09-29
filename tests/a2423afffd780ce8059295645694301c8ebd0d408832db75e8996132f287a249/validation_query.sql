@@ -1,0 +1,1 @@
+SELECT lc,ld FROM result ORDER BY rn;

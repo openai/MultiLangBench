@@ -1,0 +1,1 @@
+CREATE TABLE main.abc(a,b,c);

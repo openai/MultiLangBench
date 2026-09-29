@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT replace('aaaaaaa','a','0123456789') AS x;

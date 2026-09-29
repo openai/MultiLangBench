@@ -1,0 +1,1 @@
+CREATE TABLE t1(a TEXT AS(b) COLLATE nocase,b TEXT,c INT,d DEFAULT 1); INSERT INTO t1(b,c) VALUES('abc',11),('DEF',22),('ghi',33);

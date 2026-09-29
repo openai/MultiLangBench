@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT avg(c) FILTER (WHERE b!=1) AS h FROM t1 GROUP BY a ORDER BY h;

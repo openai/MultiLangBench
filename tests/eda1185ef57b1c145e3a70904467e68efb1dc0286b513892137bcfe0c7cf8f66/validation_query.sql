@@ -1,0 +1,1 @@
+SELECT 't1' AS source, quote(a) AS x, quote(b) AS y FROM t1 UNION ALL SELECT 't2', quote(c), quote(d) FROM t2 ORDER BY source, x, y;

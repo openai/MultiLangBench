@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT coalesce(1, substr(1, 2, length('in' IN (SELECT 1)))) AS v;

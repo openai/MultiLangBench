@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT p, min(q) FROM t1;

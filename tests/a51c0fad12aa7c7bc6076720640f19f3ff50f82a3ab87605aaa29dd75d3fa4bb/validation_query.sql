@@ -1,0 +1,1 @@
+SELECT cx, input, token, start_offset, end_offset, position FROM result ORDER BY cx, position;

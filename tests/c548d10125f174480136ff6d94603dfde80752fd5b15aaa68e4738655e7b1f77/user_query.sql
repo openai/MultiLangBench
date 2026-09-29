@@ -1,0 +1,1 @@
+CREATE TABLE result(v REAL); INSERT INTO result SELECT .1;

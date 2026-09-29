@@ -1,0 +1,1 @@
+INSERT INTO sfi_result(result) SELECT integrity_check FROM pragma_integrity_check;

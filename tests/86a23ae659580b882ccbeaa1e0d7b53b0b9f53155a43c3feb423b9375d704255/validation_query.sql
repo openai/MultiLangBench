@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(v, ',') FROM (SELECT CAST(a AS TEXT)||':'||CAST(b AS TEXT) AS v FROM t1 ORDER BY a)), (SELECT count(*) FROM sqlite_schema WHERE type='index'), (SELECT group_concat(b, ',') FROM (SELECT b FROM saved ORDER BY b));

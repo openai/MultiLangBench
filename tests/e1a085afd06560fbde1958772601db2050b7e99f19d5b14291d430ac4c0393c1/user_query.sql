@@ -1,0 +1,1 @@
+PRAGMA automatic_index=off; CREATE TABLE sfi_result AS SELECT * FROM t1 RIGHT JOIN t2 ON c=d JOIN t3 ON f=e;

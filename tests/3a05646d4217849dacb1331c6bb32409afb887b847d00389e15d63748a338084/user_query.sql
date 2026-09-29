@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT substr(t1,-4,3) AS x FROM tbl1 ORDER BY t1;

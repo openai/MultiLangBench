@@ -1,0 +1,1 @@
+SELECT k,a,b FROM r ORDER BY k,a

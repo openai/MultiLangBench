@@ -1,0 +1,1 @@
+SELECT rowid, quote(b), quote(a), typeof(a) FROM t2 ORDER BY rowid

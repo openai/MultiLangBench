@@ -1,0 +1,1 @@
+CREATE VIEW v5 AS SELECT x, b FROM t1, t2 WHERE y=c;

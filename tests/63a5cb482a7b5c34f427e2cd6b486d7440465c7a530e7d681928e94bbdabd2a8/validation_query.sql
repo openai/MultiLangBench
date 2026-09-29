@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(integrity_check,'|') FROM pragma_integrity_check), (SELECT group_concat(x||':'||y,'|') FROM (SELECT x,y FROM t1 INDEXED BY t1xy ORDER BY x,y)), (SELECT group_concat(x||':'||y||':'||z,'|') FROM (SELECT x,y,z FROM t1 NOT INDEXED ORDER BY x,y,z));

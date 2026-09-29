@@ -1,0 +1,1 @@
+SELECT g,h,i FROM t3

@@ -1,0 +1,1 @@
+WITH items(kind, object, x, y, z) AS (SELECT 'row', 'abc', a, b, c FROM abc UNION ALL SELECT 'row', 'def', a, b, c FROM def UNION ALL SELECT 'row', 'ghi', a, b, c FROM ghi UNION ALL SELECT 'index', name, sql, NULL, NULL FROM sqlite_schema WHERE type='index') SELECT kind, object, x, y, z FROM items ORDER BY kind, object, x, y, z;

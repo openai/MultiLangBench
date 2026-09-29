@@ -1,0 +1,1 @@
+CREATE TABLE x1(a,b);INSERT INTO x1 VALUES(24,'converging'),(NULL,X'CB71'),('blonds','proprietary');CREATE TABLE x2(c,d,e);INSERT INTO x2 VALUES(-60.06,NULL,NULL),(-58,NULL,1.21);

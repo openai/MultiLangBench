@@ -1,0 +1,1 @@
+[["table","t6","CREATE VIRTUAL TABLE t6 USING fts4",0]]

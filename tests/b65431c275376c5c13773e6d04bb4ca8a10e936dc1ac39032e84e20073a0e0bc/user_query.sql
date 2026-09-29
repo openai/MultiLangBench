@@ -1,0 +1,1 @@
+CREATE INDEX i3 ON t3(json_extract(x, '$.a'), json_extract(x, '$.b'));

@@ -1,0 +1,1 @@
+SELECT i,typeof(j),length(j),hex(j) FROM c2 ORDER BY i;

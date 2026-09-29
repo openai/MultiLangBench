@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT y COLLATE binary BETWEEN 'A' AND 'B' AS v FROM t1;

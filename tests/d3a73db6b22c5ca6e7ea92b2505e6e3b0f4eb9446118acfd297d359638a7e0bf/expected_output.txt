@@ -1,0 +1,1 @@
+[["index","collate4i1","CREATE UNIQUE INDEX collate4i1 ON collate4t1(a COLLATE NOCASE)"],["table","collate4t1","CREATE TABLE collate4t1(a)"]]

@@ -1,0 +1,1 @@
+SELECT a, count(*), min(b), max(b), count(DISTINCT c), (SELECT stat FROM sqlite_stat1 WHERE tbl='t3' ORDER BY idx LIMIT 1) AS analyzed_stat FROM t3 GROUP BY a ORDER BY a;

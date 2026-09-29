@@ -1,0 +1,1 @@
+[["index","i0","t0","CREATE INDEX i0 ON t0('1' IN ())"],["table","t0","t0","CREATE TABLE t0(c0)"]]

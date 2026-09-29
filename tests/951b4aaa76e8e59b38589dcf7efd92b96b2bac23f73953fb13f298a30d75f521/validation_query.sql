@@ -1,0 +1,1 @@
+SELECT w,x,y,z FROM t1 ORDER BY x,y;

@@ -1,0 +1,1 @@
+PRAGMA cache_size=10; BEGIN; INSERT INTO t1 SELECT '',printf('%01000d',100+rowid) FROM t1; INSERT INTO t1 SELECT '',printf('%01000d',200+rowid) FROM t1; INSERT INTO t1 SELECT '',printf('%01000d',300+rowid) FROM t1; INSERT INTO t1 SELECT '',printf('%01000d',400+rowid) FROM t1; COMMIT;

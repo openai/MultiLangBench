@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM t3 JOIN t2 ON likely(x=y) AND y='AAA';

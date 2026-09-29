@@ -1,0 +1,1 @@
+CREATE TABLE "x y"("a b" PRIMARY KEY, "c d") WITHOUT ROWID; CREATE INDEX xycd ON "x y"("c d"); INSERT INTO "x y" VALUES('a', 'a'); INSERT INTO "x y" VALUES('b', 'b'); INSERT INTO "x y" VALUES('c', 'c'); INSERT INTO "x y" VALUES('d', 'd'); INSERT INTO "x y" VALUES('e', 'a'); INSERT INTO "x y" VALUES('f', 'b'); INSERT INTO "x y" VALUES('g', 'c'); INSERT INTO "x y" VALUES('h', 'd');

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT DISTINCT x AS x1, x AS x2 FROM t6a, t6b;

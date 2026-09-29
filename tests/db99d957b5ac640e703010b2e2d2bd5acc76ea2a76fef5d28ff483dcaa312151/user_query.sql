@@ -1,0 +1,4 @@
+CREATE TABLE nn(a, b, c, d, e, PRIMARY KEY(c,a,e));
+CREATE TABLE nnw(a, b, c, d, e, PRIMARY KEY(c,a,e)) WITHOUT ROWID;
+INSERT INTO nn VALUES(1,2,3,4,5);
+INSERT INTO nnw VALUES(1,2,3,4,5);

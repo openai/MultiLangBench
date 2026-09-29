@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT json_patch('{"a":"b","c":{"d":"e","f":"g"}}','{"a":"z","c":{"f":null}}');

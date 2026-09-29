@@ -1,0 +1,1 @@
+SELECT docid,a FROM t7 ORDER BY docid

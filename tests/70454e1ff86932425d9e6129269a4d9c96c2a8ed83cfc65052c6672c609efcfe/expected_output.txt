@@ -1,0 +1,1 @@
+[["table","t1","t1","CREATE TABLE t1(a INT PRIMARY KEY, b, c, d, e)"],["table","t2","t2","CREATE TABLE t2(a INT PRIMARY KEY, f, g, h, i)"],["table","t3","t3","CREATE TABLE t3(a INT PRIMARY KEY, j, k, l, m)"],["view","v4","v4","CREATE VIEW v4 AS SELECT * FROM t2 UNION ALL SELECT * FROM t3"]]

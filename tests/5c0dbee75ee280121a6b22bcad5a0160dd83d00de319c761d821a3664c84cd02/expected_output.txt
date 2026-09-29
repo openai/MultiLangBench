@@ -1,0 +1,1 @@
+[["table","tt1","tt1","CREATE TABLE \"tt1\"(a, b, c)"],["view","v1","v1","CREATE VIEW v1 AS SELECT * FROM \"tt1\""],["trigger","xyz","tt1","CREATE TRIGGER xyz AFTER INSERT ON \"tt1\" BEGIN SELECT a, b FROM v1; END"]]

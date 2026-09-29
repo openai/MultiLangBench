@@ -1,0 +1,1 @@
+ANALYZE; CREATE TABLE t1(a,b); ANALYZE main.t1;

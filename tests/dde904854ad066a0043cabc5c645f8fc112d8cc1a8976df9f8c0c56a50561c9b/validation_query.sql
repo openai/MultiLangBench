@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM sqlite_stat1 WHERE tbl IS NULL AND idx IS NULL AND stat IS NULL) AS corrupt_rows, (SELECT count(*) FROM t4 WHERE x=1234) AS matching_rows;

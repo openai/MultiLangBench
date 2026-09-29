@@ -1,0 +1,1 @@
+SELECT name FROM sqlite_master WHERE name LIKE 't8%' ORDER BY CASE name WHEN 't8' THEN 1 WHEN 't8_content' THEN 2 WHEN 't8_segments' THEN 3 WHEN 't8_segdir' THEN 4 WHEN 't8_stat' THEN 5 ELSE 6 END, name;

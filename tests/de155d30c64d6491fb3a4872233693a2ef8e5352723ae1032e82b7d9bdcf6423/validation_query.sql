@@ -1,0 +1,1 @@
+SELECT a,b FROM vw WHERE a<=102 OR a>=227 ORDER BY a;

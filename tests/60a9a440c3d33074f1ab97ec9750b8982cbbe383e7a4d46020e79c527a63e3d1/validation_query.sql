@@ -1,0 +1,1 @@
+SELECT count(*), min(y), max(y) FROM x

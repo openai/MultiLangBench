@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t7 USING fts4(x,prefix=2); INSERT INTO t7 VALUES('the quick brown fox'); INSERT INTO t7 VALUES('jumped over the'); INSERT INTO t7 VALUES('lazy dog');

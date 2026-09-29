@@ -1,0 +1,1 @@
+SELECT a,y FROM _result ORDER BY seq;

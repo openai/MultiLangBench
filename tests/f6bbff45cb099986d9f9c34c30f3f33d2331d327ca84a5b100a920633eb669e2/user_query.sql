@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT * FROM t1 LEFT JOIN t2 ON true JOIN t3 ON (b2 IN (a1)) FULL JOIN t4 ON true;

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE temp.t1aux USING fts4aux(main, t1); CREATE TABLE main.result AS SELECT term FROM t1aux WHERE term>'b' AND col=0 ORDER BY 1 LIMIT 5;

@@ -1,0 +1,1 @@
+SELECT * FROM view ORDER BY view ASC

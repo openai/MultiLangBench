@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT *,t4.id,t5.id,t6.id FROM t4 LEFT JOIN t5 USING(id) LEFT JOIN t6 USING(id) ORDER BY id;

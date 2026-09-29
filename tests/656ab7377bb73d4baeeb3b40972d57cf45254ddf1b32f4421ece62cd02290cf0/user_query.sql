@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a.a AS aa, b.b AS bb FROM t1 a, t1 b WHERE a.t1 MATCH 'two' AND b.t1 MATCH 'i';

@@ -1,0 +1,1 @@
+CREATE VIEW v110(x) AS SELECT fts3_tokenizer('tok110', fts3_tokenizer('simple')) IS NULL;

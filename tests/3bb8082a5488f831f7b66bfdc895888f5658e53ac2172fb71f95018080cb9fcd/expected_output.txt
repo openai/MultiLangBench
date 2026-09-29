@@ -1,0 +1,1 @@
+[["table","trig","trig"],["trigger","insert_a","trig"],["trigger","insert_b","trig"],["trigger","update_a","trig"],["trigger","update_b","trig"]]

@@ -1,0 +1,1 @@
+SELECT count(*) FROM pragma_foreign_key_list('c1') UNION ALL SELECT count(*) FROM pragma_foreign_key_list('c2')

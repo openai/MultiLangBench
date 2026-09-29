@@ -1,0 +1,1 @@
+SELECT sql FROM sqlite_schema WHERE name='t4"abc';

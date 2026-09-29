@@ -1,0 +1,1 @@
+INSERT INTO docs(docs) VALUES('optimize')

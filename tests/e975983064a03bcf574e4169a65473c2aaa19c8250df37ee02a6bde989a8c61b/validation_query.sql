@@ -1,0 +1,1 @@
+SELECT x, y FROM t2 ORDER BY x

@@ -1,0 +1,1 @@
+SELECT typ, val FROM result;

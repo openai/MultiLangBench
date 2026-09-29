@@ -1,0 +1,1 @@
+CREATE TABLE result AS WITH tmp AS (SELECT * FROM t1) SELECT x FROM tmp;

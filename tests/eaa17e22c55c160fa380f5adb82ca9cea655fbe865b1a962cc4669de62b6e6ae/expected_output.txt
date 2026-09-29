@@ -1,0 +1,1 @@
+[["t1","CREATE TABLE t1(a PRIMARY KEY,b)"],["t2","CREATE TABLE t2(rowid,d,FOREIGN KEY(rowid) REFERENCES t1(a))"]]

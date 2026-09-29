@@ -1,0 +1,1 @@
+SELECT value FROM tab1 ORDER BY rowid

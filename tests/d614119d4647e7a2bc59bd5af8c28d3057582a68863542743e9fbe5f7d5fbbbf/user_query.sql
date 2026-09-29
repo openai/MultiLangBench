@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT name FROM people WHERE role IN (SELECT DISTINCT role FROM people) AND height>=180 ORDER BY +name;

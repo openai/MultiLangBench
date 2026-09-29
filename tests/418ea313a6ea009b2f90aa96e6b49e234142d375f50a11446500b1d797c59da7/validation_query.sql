@@ -1,0 +1,1 @@
+SELECT rowid, typeof(gc), hex(gc) FROM result ORDER BY rowid;

@@ -1,0 +1,1 @@
+INSERT INTO result SELECT json_extract(json_array(s),'$[0]')=s FROM (SELECT 'abcdef'||replace(hex(zeroblob(149)),'00',char(34))||'uvwxyz' AS s);

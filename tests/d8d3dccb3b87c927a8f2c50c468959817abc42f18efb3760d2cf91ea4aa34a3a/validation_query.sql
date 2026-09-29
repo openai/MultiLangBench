@@ -1,0 +1,1 @@
+SELECT 'p' AS tbl, id, uid, t FROM p UNION ALL SELECT 'pa', id, a_uid, NULL FROM pa UNION ALL SELECT 'a', id, uid, t FROM a ORDER BY tbl, id;

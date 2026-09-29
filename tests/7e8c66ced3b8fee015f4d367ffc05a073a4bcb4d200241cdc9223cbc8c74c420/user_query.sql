@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT count(x) AS v FROM t6;

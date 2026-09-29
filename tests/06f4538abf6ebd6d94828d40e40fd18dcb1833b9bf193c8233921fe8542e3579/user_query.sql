@@ -1,0 +1,1 @@
+PRAGMA page_size=1024; PRAGMA journal_mode=PERSIST; CREATE TABLE result AS SELECT journal_mode AS mode FROM pragma_journal_mode;

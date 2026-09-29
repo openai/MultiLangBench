@@ -1,0 +1,1 @@
+PRAGMA page_size=512; CREATE TABLE t1(x); INSERT INTO t1 VALUES(hex(zeroblob(4500))), (replace(hex(zeroblob(4500)),'0','1')), (replace(hex(zeroblob(4500)),'0','2')); INSERT INTO t1 SELECT x||x FROM t1; INSERT INTO t1 SELECT x||x FROM t1; INSERT INTO t1 SELECT x||x FROM t1; INSERT INTO t1 SELECT x||x FROM t1; INSERT INTO t1 SELECT x||x FROM t1; INSERT INTO t1 SELECT x||x FROM t1;

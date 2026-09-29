@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM b1, b2 WHERE a=x;

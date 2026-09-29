@@ -1,0 +1,1 @@
+CREATE TABLE t1(a TEXT COLLATE nocase); INSERT INTO t1 VALUES('aaa'),('BBB'),('ccc'),('DDD'); CREATE TABLE result(seq INTEGER PRIMARY KEY, rid INTEGER);

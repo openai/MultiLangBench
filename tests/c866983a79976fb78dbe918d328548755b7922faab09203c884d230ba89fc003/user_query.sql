@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT 'rowid' AS literal_rowid, * FROM (SELECT * FROM t1, t2);

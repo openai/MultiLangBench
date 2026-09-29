@@ -1,0 +1,1 @@
+SELECT rowid, length(x) AS length_x, typeof(x) AS type_x, hex(substr(x,1,4)) AS prefix_x FROM t1 ORDER BY rowid;

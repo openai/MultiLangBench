@@ -1,0 +1,1 @@
+INSERT INTO observed(n) SELECT length(v) FROM blobs WHERE k=2;

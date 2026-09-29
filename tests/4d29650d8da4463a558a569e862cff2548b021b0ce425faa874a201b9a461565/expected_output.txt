@@ -1,0 +1,1 @@
+[["row","i","a","z"],["row","ii","b","y"],["row","iii","c","x"],["row","iv","d","w"],["schema","index","i3","CREATE INDEX i3 ON t2(b)"],["schema","index","i4","CREATE INDEX i4 ON t2(c)"],["schema","table","t2","CREATE TABLE t2(a, b, c, PRIMARY KEY(a)) WITHOUT ROWID"]]

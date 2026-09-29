@@ -1,0 +1,1 @@
+CREATE TABLE c(x); INSERT INTO c VALUES(0); CREATE TABLE t6("col a","col b","col c"); CREATE TRIGGER zzz AFTER UPDATE OF "col a","col c" ON t6 BEGIN UPDATE c SET x=x+1; END;

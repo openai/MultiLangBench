@@ -1,0 +1,1 @@
+SELECT name FROM sqlite_master WHERE sql LIKE '%collate%' ORDER BY name;

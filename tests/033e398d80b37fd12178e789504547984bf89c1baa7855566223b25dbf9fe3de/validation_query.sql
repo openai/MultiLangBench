@@ -1,0 +1,1 @@
+SELECT 'u1' AS src, a, b, c, (SELECT sql FROM sqlite_schema WHERE type='table' AND name='u1') AS schema_sql FROM u1 UNION ALL SELECT 'u2', x, y, z, (SELECT sql FROM sqlite_schema WHERE type='table' AND name='u2') FROM u2 ORDER BY src;

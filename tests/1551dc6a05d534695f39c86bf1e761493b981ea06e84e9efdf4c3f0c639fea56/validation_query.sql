@@ -1,0 +1,1 @@
+SELECT group_concat(v, ',') FROM (SELECT v FROM result ORDER BY rowid)

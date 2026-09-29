@@ -1,0 +1,1 @@
+SELECT maxa,d FROM _result;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a, sum(a) OVER (PARTITION BY b) FROM t2;

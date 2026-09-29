@@ -1,0 +1,1 @@
+SELECT rowid, a, b FROM t14 ORDER BY rowid;

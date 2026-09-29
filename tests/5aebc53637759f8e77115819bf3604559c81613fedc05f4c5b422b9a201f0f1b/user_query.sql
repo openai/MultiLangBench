@@ -1,0 +1,1 @@
+SELECT * FROM z1_segments;

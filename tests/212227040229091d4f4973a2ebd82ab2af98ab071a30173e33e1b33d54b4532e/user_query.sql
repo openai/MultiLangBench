@@ -1,0 +1,1 @@
+CREATE TABLE _result(seq INTEGER PRIMARY KEY, c1, c2); INSERT INTO _result(c1,c2) SELECT v1,v3 FROM c1 LEFT JOIN c2 ON (c2.k=v1) LEFT JOIN c3 ON (c3.k=v1+1);

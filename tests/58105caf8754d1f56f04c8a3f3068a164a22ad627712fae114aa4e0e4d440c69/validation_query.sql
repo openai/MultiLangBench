@@ -1,0 +1,1 @@
+SELECT "table", rowid, parent, fkid FROM pragma_foreign_key_check ORDER BY "table", rowid, parent, fkid;

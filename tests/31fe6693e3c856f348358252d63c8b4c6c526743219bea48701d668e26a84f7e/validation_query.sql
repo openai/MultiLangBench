@@ -1,0 +1,1 @@
+SELECT a, b, c, d FROM abc2_v ORDER BY a;

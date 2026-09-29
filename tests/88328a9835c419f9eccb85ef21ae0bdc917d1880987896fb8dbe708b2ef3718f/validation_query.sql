@@ -1,0 +1,1 @@
+SELECT count(*), count(DISTINCT a), count(DISTINCT b), min(length(a)), max(length(a)), min(length(b)), max(length(b)) FROM t1

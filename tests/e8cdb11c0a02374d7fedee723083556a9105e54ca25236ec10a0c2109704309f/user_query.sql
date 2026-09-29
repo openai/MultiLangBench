@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT json_valid(printf('%.2001c0%.2001c','[',']')) AS v;

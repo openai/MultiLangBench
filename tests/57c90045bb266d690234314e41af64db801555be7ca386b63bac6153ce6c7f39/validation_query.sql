@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t3) AS nrow,(SELECT count(*) FROM sqlite_schema WHERE type='trigger' AND name='trig1') AS ntrigger

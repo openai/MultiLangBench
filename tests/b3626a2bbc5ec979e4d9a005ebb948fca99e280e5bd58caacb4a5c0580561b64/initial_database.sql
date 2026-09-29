@@ -1,0 +1,1 @@
+CREATE TABLE t3(a int,b int,c int,d int,UNIQUE(a,c,d));

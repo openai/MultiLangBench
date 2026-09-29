@@ -1,0 +1,1 @@
+UPDATE test SET b=66 WHERE id=4;

@@ -1,0 +1,1 @@
+PRAGMA automatic_index=ON; CREATE TABLE result AS SELECT t1.textid AS a, i.intid AS b, t2.textid AS c FROM t t1, i, t t2 WHERE t1.textid=i.intid AND t1.textid=t2.textid;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT round(sum(c1000)) AS v FROM t1;

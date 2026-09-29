@@ -1,0 +1,1 @@
+BEGIN; CREATE TABLE t4(rowid INTEGER PRIMARY KEY,i INTEGER,t TEXT); WITH RECURSIVE c(n) AS (VALUES(1) UNION ALL SELECT n+1 FROM c WHERE n<9999) INSERT INTO t4(rowid,i,t) SELECT n,n,'number-'||n FROM c; UPDATE t4 SET i=rowid*2,t='number-'||(rowid*2) WHERE rowid%2=1; COMMIT;

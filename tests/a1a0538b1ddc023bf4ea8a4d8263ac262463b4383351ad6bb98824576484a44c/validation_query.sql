@@ -1,0 +1,1 @@
+SELECT count(*),sum(name='t1'),sum(name='t2') FROM sqlite_schema WHERE type='table' AND name IN ('t1','t2');

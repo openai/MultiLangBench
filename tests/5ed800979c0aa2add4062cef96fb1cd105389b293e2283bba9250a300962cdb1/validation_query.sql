@@ -1,0 +1,1 @@
+SELECT count(*) AS n, min(a), max(a), min(b), max(b), sum(a), sum(b), sum(d), sum(e), sum(c=printf('x%dy',a)), (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='t1a' AND tbl_name='t1'), (SELECT count(*) FROM sqlite_stat1 WHERE tbl='t1'), (SELECT sql LIKE '%WITHOUT ROWID%' FROM sqlite_schema WHERE type='table' AND name='t1') FROM t1;

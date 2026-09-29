@@ -1,0 +1,1 @@
+[["column",0,"b","TEXT"],["column",1,"c","TEXT"],["row",1,"'a'","'one'"],["row",2,"'b'","'two'"],["row",3,"NULL","'three'"],["row",4,"NULL","'four'"]]

@@ -1,0 +1,1 @@
+CREATE TABLE t1(x int,y int); CREATE TABLE t2(rowid int,x int,y int); WITH RECURSIVE c(i) AS (VALUES(1) UNION ALL SELECT i+1 FROM c WHERE i<50) INSERT INTO t1 SELECT i,i*i FROM c; INSERT INTO t2 SELECT _rowid_,x*y,y*y FROM t1; CREATE INDEX idxt1 ON t1(x); CREATE INDEX idxt2 ON t2(y);

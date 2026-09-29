@@ -1,0 +1,1 @@
+SELECT position,token,source FROM result ORDER BY position;

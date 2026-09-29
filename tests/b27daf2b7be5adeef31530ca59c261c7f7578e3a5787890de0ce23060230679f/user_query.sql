@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT t2.a AS a FROM t1,t2 WHERE t1.a=80 AND ((t1.c=t2.c AND t1.d=t2.d) OR t1.f=t2.f) ORDER BY 1;

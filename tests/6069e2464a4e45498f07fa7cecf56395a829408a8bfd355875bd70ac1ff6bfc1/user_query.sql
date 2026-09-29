@@ -1,0 +1,1 @@
+WITH t1 AS (SELECT y+100 AS x FROM t2) UPDATE t1 SET x=x+y FROM t2;

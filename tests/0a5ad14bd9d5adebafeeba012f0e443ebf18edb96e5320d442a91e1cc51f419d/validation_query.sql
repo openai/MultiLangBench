@@ -1,0 +1,1 @@
+SELECT i, j FROM t3 ORDER BY i;

@@ -1,0 +1,1 @@
+CREATE TABLE t1(a INT,b TEXT,c ANY,w INT GENERATED ALWAYS AS (a*10),x TEXT AS (typeof(c)),y TEXT AS (substr(b,a,a+2))); INSERT INTO t1(a,b,c) VALUES(1,'abcdef',5.5),(3,'cantaloupe',NULL); CREATE INDEX t1w ON t1(w); CREATE INDEX t1x ON t1(x) WHERE w BETWEEN 20 AND 40;

@@ -1,0 +1,1 @@
+[["table:c3","CREATE TABLE c3(x REFERENCES p3)",null],["table:p3","CREATE TABLE p3(a PRIMARY KEY, b) WITHOUT ROWID",null],["trigger:p3d","CREATE TRIGGER p3d AFTER DELETE ON p3 WHEN old.a=1 BEGIN\n  INSERT OR REPLACE INTO p3 VALUES(2, 'three');\nEND",null],["p3","1","'one'"],["p3","2","'two'"],["c3","1",null],["c3","2",null]]

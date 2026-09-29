@@ -1,0 +1,1 @@
+CREATE TABLE t14(x); INSERT INTO t14 VALUES('abcdefghij');

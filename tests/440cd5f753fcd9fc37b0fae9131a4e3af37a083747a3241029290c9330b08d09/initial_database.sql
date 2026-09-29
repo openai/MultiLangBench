@@ -1,0 +1,1 @@
+CREATE TABLE seed(x); PRAGMA application_id=1;

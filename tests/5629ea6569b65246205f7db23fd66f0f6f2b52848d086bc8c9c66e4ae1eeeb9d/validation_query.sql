@@ -1,0 +1,1 @@
+SELECT * FROM exclusive ORDER BY exclusive ASC

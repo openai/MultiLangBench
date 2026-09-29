@@ -1,0 +1,1 @@
+SELECT typeof(v),v FROM result;

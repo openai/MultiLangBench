@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t0),(SELECT c0 FROM v0)

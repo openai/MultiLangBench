@@ -1,0 +1,1 @@
+UPDATE t1 SET o1='10'; CREATE TABLE result AS SELECT o1 IN (10.0,20,'10') AS value FROM t1;

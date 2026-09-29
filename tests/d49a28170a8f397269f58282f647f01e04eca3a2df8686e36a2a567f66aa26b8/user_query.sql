@@ -1,0 +1,1 @@
+INSERT INTO t10 VALUES('are renameable')

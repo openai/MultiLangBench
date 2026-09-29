@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE pages USING fts3(title,body); INSERT INTO pages(docid,title,body) VALUES(53,'Home Page','SQLite is a software...'); INSERT INTO pages(title,body) VALUES('Download SQLite','All SQLite source code...')

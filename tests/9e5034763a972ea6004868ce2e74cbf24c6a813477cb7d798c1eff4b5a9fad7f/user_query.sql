@@ -1,0 +1,1 @@
+CREATE TABLE query_result AS SELECT * FROM xyz WHERE a>49 ORDER BY a;

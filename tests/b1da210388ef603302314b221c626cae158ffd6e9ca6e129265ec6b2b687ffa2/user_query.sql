@@ -1,0 +1,3 @@
+CREATE TABLE t2(x, y);
+INSERT INTO t2 VALUES('a', 'b');
+INSERT INTO t2 VALUES('c', 'd');

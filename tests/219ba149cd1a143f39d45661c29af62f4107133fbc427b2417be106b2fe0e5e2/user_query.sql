@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT rowid AS rid,x FROM t1 WHERE rowid GLOB '1*' ORDER BY rowid;

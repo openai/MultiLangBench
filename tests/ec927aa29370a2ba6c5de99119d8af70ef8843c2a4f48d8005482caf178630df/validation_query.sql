@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1), (SELECT count(*) FROM t2), (SELECT count(*) FROM sqlite_master WHERE type='index' AND tbl_name='t1'), (SELECT count(*) FROM pragma_table_info('t1')), (SELECT group_concat(name||':'||type,'|') FROM (SELECT cid,name,type FROM pragma_table_info('t1') ORDER BY cid));

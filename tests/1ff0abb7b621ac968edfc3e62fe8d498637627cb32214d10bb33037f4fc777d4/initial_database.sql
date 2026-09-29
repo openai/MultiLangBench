@@ -1,0 +1,1 @@
+CREATE TABLE audit(x);

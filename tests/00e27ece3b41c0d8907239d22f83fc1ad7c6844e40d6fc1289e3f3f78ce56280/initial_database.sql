@@ -1,0 +1,1 @@
+/* jrnlmode-6.7 */ CREATE TABLE t4(a,b); INSERT INTO t4 VALUES(1,2);

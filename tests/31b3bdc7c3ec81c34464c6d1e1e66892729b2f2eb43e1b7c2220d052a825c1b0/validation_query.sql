@@ -1,0 +1,1 @@
+SELECT value IS NULL FROM result;

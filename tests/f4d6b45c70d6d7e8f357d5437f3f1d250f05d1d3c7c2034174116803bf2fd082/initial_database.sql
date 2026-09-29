@@ -1,0 +1,9 @@
+PRAGMA recursive_triggers = on;
+CREATE TABLE t1(a INT PRIMARY KEY, b) WITHOUT ROWID;
+CREATE TABLE log(t);
+CREATE TRIGGER tr1 AFTER DELETE ON t1 BEGIN
+  INSERT INTO log VALUES(old.a || old.b || (SELECT count(*) FROM t1));
+END;
+CREATE TRIGGER tr2 BEFORE DELETE ON t1 BEGIN
+  INSERT INTO log VALUES(old.a || old.b || (SELECT count(*) FROM t1));
+END;

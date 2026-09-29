@@ -1,0 +1,1 @@
+CREATE TABLE t1(id INT,b VARCHAR,c VARCHAR); INSERT INTO t1 VALUES(1,'A','one'),(2,'B','two'),(3,'C','three'),(4,'D','one'),(5,'E','two');

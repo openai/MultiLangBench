@@ -1,0 +1,1 @@
+INSERT INTO t4 VALUES('shared cache'); CREATE TABLE sfi_result AS SELECT rowid AS docid, t4.* FROM t4 WHERE t4 MATCH 'hello';

@@ -1,0 +1,1 @@
+/* check-1.11 */ DELETE FROM t1 WHERE x IS NULL OR x!=3; UPDATE t1 SET x=2 WHERE x==3;

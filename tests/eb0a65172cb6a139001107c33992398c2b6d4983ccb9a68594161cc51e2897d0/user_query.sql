@@ -1,0 +1,1 @@
+ALTER TABLE abcꯍdef ADD COLUMN Bâ1A;

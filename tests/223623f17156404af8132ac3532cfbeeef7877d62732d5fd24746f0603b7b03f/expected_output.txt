@@ -1,0 +1,1 @@
+[["{\"settings\":{\"layer2\":{\"hapax.legomenon\":{\"forceDisplay\":true,\"transliterate\":true,\"add.footnote\":true,\"summary.report\":true},\"dis.legomenon\":{\"transliterate\":false,\"add.footnote\":false,\"summary.report\":true},\"tris.legomenon\":{\"forceDisplay\":true,\"transliterate\":false,\"add.footnote\":false,\"summary.report\":false}}}}"]]

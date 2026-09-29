@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; INSERT INTO t6 VALUES(100, 'one', 100, 'one'); UPDATE t6 SET c=1, d='a' WHERE a=100; DELETE FROM t6 WHERE a=100;

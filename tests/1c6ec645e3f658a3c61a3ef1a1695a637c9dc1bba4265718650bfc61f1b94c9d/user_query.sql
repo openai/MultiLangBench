@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT x50 FROM manycol ORDER BY x80;

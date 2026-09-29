@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM t2 LEFT JOIN t1 ON b IN (a2,a1);

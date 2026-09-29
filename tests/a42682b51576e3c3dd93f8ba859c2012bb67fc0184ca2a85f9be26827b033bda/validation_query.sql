@@ -1,0 +1,1 @@
+SELECT count(*) AS row_count, sum(a) AS sum_a, sum(length(b)) AS blob_bytes, min(a) AS min_a, max(a) AS max_a, sum(b=zeroblob(700)) AS exact_blobs, (SELECT count(*) FROM pragma_table_info('t1')) AS column_count, (SELECT page_size FROM pragma_page_size) AS page_size, (SELECT auto_vacuum FROM pragma_auto_vacuum) AS auto_vacuum FROM t1;

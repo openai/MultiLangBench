@@ -1,0 +1,1 @@
+SELECT cnt, "max(b+c)" FROM [t4"abc];

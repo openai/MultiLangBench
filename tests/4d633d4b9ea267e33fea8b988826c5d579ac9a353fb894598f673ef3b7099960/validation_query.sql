@@ -1,0 +1,1 @@
+SELECT n FROM query_result;

@@ -1,0 +1,1 @@
+SELECT integrity_check, (SELECT count(*) FROM filler) AS row_count, (SELECT sum(length(fill)) FROM filler) AS total_bytes FROM pragma_integrity_check;

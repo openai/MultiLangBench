@@ -1,0 +1,1 @@
+[["CREATE TRIGGER r1 AFTER INSERT ON \"xyzzy\" BEGIN INSERT INTO t2 SELECT a,b,ccc FROM \"xyzzy\" UNION SELECT d,e,f FROM \"xyzzy\" ORDER BY b,ccc; END"]]

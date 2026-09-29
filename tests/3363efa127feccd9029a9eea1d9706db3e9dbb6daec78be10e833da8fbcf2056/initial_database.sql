@@ -1,0 +1,3 @@
+PRAGMA recursive_triggers = on;
+CREATE TABLE t1(a INT PRIMARY KEY, b) WITHOUT ROWID;
+CREATE TABLE log(t);

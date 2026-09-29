@@ -1,0 +1,1 @@
+PRAGMA auto_vacuum=OFF; CREATE TABLE sfi_result(seq INTEGER PRIMARY KEY, value INTEGER); CREATE TABLE abc(a, b, c); DROP TABLE abc;

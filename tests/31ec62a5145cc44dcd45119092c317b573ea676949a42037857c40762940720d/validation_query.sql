@@ -1,0 +1,1 @@
+SELECT type, name, tbl_name FROM sqlite_master WHERE name IN ('t4','t4t') ORDER BY type, name;

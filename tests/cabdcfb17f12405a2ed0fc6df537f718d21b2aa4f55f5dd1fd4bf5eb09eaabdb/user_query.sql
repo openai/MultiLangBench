@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT ifnull(ifnull(d+c+b,d+c),d) AS r, a AS ord FROM t1 ORDER BY a;

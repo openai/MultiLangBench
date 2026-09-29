@@ -1,0 +1,1 @@
+[["object","mytable","CREATE TABLE \"mytable\" (\"fid\" INTEGER PRIMARY KEY, \"geom\" BLOB)"],["object","rt","CREATE VIRTUAL TABLE rt USING rtree(id, minx, maxx, miny, maxy)"],["object","tr1","CREATE TRIGGER tr1 AFTER UPDATE OF \"geom\" ON \"mytable\" WHEN OLD.\"fid\" = NEW.\"fid\" AND NEW.\"geom\" IS NULL BEGIN\n  DELETE FROM rt WHERE id = OLD.\"fid\";\nEND"],["row","1","ABCD"]]

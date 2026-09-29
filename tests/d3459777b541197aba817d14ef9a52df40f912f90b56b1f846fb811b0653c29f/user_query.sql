@@ -1,0 +1,1 @@
+UPDATE t1 SET a=1250 WHERE b='phone'; CREATE TABLE sfi_result AS SELECT a,b,c,d,'|' AS marker FROM t1 ORDER BY c,a;

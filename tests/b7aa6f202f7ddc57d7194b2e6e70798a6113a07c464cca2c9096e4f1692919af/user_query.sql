@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT one,two,count(*) FROM a1 WHERE 0;

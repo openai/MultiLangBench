@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE rtree1 USING rtree(a,x1,x2); INSERT INTO rtree1 VALUES(0,0,0);

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT cid,name,type,"notnull" AS nn,dflt_value,pk FROM pragma_table_info('t9a')

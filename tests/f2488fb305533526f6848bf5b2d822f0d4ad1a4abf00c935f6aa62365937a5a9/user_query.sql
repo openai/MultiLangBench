@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT abort+asc AS v,max(key,pragma,temp) AS m FROM t4;

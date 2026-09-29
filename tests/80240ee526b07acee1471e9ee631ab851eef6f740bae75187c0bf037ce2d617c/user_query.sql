@@ -1,0 +1,1 @@
+UPDATE t1 SET a=1; CREATE TABLE result AS SELECT i FROM t1 WHERE a IN (1,2) AND b>0 AND b<'zzz';

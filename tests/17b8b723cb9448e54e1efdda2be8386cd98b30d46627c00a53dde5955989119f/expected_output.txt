@@ -1,0 +1,1 @@
+[["CREATE TABLE weird(\n  desc text,\n  asc text,\n  key int,\n  [14_vac] boolean,\n  fuzzy_dog_12 varchar(10),\n  begin blob,\n  end clob\n)"]]

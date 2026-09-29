@@ -1,0 +1,1 @@
+SELECT integrity_check,(SELECT count(*) FROM t1),(SELECT count(*) FROM sqlite_master WHERE type='trigger' AND name='tr0') FROM pragma_integrity_check;

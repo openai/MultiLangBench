@@ -1,0 +1,1 @@
+SELECT type,name,sql FROM sqlite_master WHERE name='treal' ORDER BY type,name;

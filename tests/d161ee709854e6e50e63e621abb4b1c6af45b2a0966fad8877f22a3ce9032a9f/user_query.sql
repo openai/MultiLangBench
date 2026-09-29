@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT printf('|%8.8c|%-8.8c|','*','*');

@@ -1,0 +1,1 @@
+[["view","view1","view1","CREATE VIEW view1 AS SELECT * FROM  tab1"]]

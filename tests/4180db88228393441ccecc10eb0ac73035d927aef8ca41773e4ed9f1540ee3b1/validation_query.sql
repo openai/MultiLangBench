@@ -1,0 +1,1 @@
+SELECT term, col, documents, occurrences, languageid FROM result ORDER BY term, CASE WHEN col='*' THEN -1 ELSE CAST(col AS INTEGER) END, languageid;

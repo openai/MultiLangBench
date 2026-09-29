@@ -1,0 +1,1 @@
+SELECT mc,product,b,a FROM result ORDER BY product,b,a;

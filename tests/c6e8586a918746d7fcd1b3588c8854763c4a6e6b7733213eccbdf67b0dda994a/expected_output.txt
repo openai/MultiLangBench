@@ -1,0 +1,1 @@
+[["integer",1,"integer"],["null",null,"integer"],["real",3,"integer"],["blob",1000000,"integer"],["text",5,"integer"]]

@@ -1,0 +1,1 @@
+SELECT a,b,c FROM wherea_result ORDER BY seq;

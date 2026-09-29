@@ -1,0 +1,1 @@
+SELECT part,k,v FROM (SELECT 0 AS part,id AS k,value AS v FROM sfi_stat UNION ALL SELECT 1,docid,size FROM sfi_doc) ORDER BY part,k

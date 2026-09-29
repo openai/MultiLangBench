@@ -1,0 +1,1 @@
+CREATE TABLE var(k TEXT, v TEXT); INSERT INTO var VALUES('testvar1', 10); INSERT INTO var VALUES('testvar2', 20); INSERT INTO var VALUES('testvar3', 30);

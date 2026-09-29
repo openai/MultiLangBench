@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(a,'|') FROM (SELECT a FROM t5 ORDER BY rowid)), (SELECT group_concat(x,',') FROM (SELECT x FROM cnt ORDER BY x)), (SELECT count(*) FROM sqlite_master WHERE type='index' AND name='t5ax');

@@ -1,0 +1,1 @@
+CREATE TABLE t2(a,b,c,d,e,f); INSERT INTO t2(a,b,c,d) VALUES(1,999,1000,1001);

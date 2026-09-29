@@ -1,0 +1,1 @@
+INSERT INTO result SELECT * FROM tt LEFT JOIN (SELECT rowid AS rrr, * FROM vt WHERE vt MATCH 'abc') ON tt.a = rrr;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT x'0000' IN (zeroblob(3)) AS v;

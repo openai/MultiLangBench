@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rowid AS rid,a,b,c FROM t1 WHERE 'second'>b ORDER BY b,a;

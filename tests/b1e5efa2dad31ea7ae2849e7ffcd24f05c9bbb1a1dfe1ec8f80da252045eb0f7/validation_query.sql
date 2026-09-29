@@ -1,0 +1,1 @@
+SELECT type, name, tbl_name FROM sqlite_master ORDER BY tbl_name, type DESC, name;

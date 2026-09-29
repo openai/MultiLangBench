@@ -1,0 +1,1 @@
+ATTACH ':memory:' AS '123'; PRAGMA "123".page_size=1024; PRAGMA "123".auto_vacuum=OFF; CREATE TABLE "123".x1(a,b); INSERT INTO "123".x1 VALUES(1,2); CREATE TEMP TABLE snap AS SELECT a,b FROM "123".x1; CREATE TABLE main.result AS SELECT * FROM temp.snap;

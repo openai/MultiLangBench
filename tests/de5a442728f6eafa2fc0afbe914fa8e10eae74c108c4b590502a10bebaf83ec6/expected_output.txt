@@ -1,0 +1,1 @@
+[["legible",1],["beauty",2],[-65.91,4],["emanating",-16.56],["beauty",2],["beauty",2]]

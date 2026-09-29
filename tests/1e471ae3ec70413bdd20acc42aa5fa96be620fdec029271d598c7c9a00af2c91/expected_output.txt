@@ -1,0 +1,1 @@
+[["table","t1","t1","CREATE TABLE t1(a,b,c)"],["trigger","AFTER","t1","CREATE TRIGGER AFTER INSERT ON t1 WHEN new.a NOT NULL BEGIN SELECT true WHERE (SELECT a, b FROM (t1)) IN (); END"]]

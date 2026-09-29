@@ -1,0 +1,1 @@
+CREATE TABLE window_result AS SELECT id, group_concat(a, b) OVER (ORDER BY id RANGE BETWEEN 1 PRECEDING AND 1 FOLLOWING) AS v FROM t1;

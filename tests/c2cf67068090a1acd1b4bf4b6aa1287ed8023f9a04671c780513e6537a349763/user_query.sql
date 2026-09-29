@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT format('%d,%d,%d,%d',55,'-11',3421);

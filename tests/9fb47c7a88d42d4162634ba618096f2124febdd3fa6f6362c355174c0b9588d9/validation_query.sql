@@ -1,0 +1,1 @@
+SELECT count(*), min(name), max(name), group_concat(name,'|') FROM (SELECT name FROM sqlite_master WHERE type='index' AND tbl_name='t1' ORDER BY name);

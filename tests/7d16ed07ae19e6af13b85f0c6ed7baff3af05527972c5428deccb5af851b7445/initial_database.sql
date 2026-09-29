@@ -1,0 +1,1 @@
+CREATE TABLE t3(a,b); INSERT INTO t3 VALUES(9,10); CREATE TABLE capture(a,b);

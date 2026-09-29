@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1) AS t1_rows,(SELECT sum(a) FROM t1) AS t1_a_sum,(SELECT count(*) FROM t1 WHERE c IS NULL) AS null_c_rows,(SELECT count(*) FROM t2) AS t2_rows,(SELECT count(*) FROM t3) AS t3_rows,(SELECT count(*) FROM sqlite_schema WHERE type='index' AND name IN ('t2b','t3c')) AS index_count;

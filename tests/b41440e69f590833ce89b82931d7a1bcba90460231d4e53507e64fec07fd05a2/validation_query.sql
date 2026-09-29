@@ -1,0 +1,1 @@
+SELECT cid, hex(CAST(name AS BLOB)) AS name_hex FROM pragma_table_info('t1') ORDER BY cid

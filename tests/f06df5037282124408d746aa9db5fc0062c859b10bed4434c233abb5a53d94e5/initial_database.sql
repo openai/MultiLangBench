@@ -1,0 +1,1 @@
+CREATE TABLE tree(id INTEGER PRIMARY KEY,parentid,payload); INSERT INTO tree VALUES(1,NULL,'a'),(2,1,'b'),(3,2,'c'),(4,1,'d'),(5,4,'e'),(6,4,'f'),(7,NULL,'g'),(8,7,'h');

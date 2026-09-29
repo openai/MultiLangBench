@@ -1,0 +1,1 @@
+[[1,"numeric",2,"CREATE TABLE t3(a, b, c)","CREATE UNIQUE INDEX t3_i ON t3(b, a)"],[2,"text",2,"CREATE TABLE t3(a, b, c)","CREATE UNIQUE INDEX t3_i ON t3(b, a)"],[3,"real",2,"CREATE TABLE t3(a, b, c)","CREATE UNIQUE INDEX t3_i ON t3(b, a)"],[4,"none",2,"CREATE TABLE t3(a, b, c)","CREATE UNIQUE INDEX t3_i ON t3(b, a)"]]

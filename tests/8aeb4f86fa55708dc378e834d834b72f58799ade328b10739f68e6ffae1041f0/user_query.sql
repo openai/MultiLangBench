@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM t81 LEFT JOIN (t82) ON y=b JOIN t83 WHERE c==p OR d==p ORDER BY +a;

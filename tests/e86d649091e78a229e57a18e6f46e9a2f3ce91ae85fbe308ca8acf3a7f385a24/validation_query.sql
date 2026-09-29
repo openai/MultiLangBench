@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM sqlite_schema WHERE type='table') AS table_count, (SELECT sql FROM sqlite_schema WHERE type='table' AND name='t3') AS t3_sql, g, h, i FROM t3 ORDER BY rowid;

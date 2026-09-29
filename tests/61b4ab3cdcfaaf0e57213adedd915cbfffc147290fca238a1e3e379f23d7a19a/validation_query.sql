@@ -1,0 +1,1 @@
+SELECT n FROM result_2_2;

@@ -1,0 +1,1 @@
+INSERT INTO result SELECT round(acos(0.0), 7);

@@ -1,0 +1,1 @@
+SELECT type, name, sql FROM sqlite_master WHERE name IN ('xx','v3') ORDER BY rowid;

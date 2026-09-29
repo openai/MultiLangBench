@@ -1,0 +1,1 @@
+CREATE TABLE _result AS SELECT t1.rowid AS r1, t2.rowid AS r2, '|' AS sep FROM t1, t2 ON t1.a=t2.b ORDER BY t1.rowid,t2.rowid;

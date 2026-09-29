@@ -1,0 +1,1 @@
+ATTACH ':memory:' AS aux; INSERT INTO main.observed SELECT name FROM pragma_database_list WHERE name='aux';

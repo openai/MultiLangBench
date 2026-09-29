@@ -1,0 +1,1 @@
+SELECT (SELECT page_size FROM pragma_page_size) AS page_size, (SELECT auto_vacuum FROM pragma_auto_vacuum) AS auto_vacuum, rowid, length(x) AS length_x, typeof(x) AS type_x, hex(substr(x,1,4)) AS prefix_x FROM t1 ORDER BY rowid;

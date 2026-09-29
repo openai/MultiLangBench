@@ -1,0 +1,1 @@
+SELECT id, counter, value FROM sample ORDER BY id;

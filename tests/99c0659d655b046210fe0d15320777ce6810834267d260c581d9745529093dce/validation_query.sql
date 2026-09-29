@@ -1,0 +1,1 @@
+SELECT type,count(*) AS n FROM sqlite_schema WHERE name NOT LIKE 'sqlite_%' GROUP BY type ORDER BY type;

@@ -1,0 +1,1 @@
+SELECT e,f FROM t2 ORDER BY f

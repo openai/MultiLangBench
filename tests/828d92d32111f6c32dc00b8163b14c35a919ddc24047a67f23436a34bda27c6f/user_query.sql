@@ -1,0 +1,1 @@
+INSERT INTO t3 SELECT 'abcdefghij'||x FROM t3 WHERE rowid%10=0;

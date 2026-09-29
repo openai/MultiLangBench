@@ -1,0 +1,1 @@
+DROP INDEX test3; CREATE TABLE test3(two text);

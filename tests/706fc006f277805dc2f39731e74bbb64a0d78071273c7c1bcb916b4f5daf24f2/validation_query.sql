@@ -1,0 +1,1 @@
+SELECT abc.a, abc.b, abc.c, capture.locking_mode FROM abc CROSS JOIN capture;

@@ -1,0 +1,1 @@
+CREATE TABLE t1_a(a, b); CREATE VIEW t1 AS SELECT a, b FROM t1_a; INSERT INTO t1_a VALUES('x', 'y'); INSERT INTO t1_a VALUES('x', 'y'); INSERT INTO t1_a VALUES('x', 'y'); CREATE TABLE log(op, r, a, b);

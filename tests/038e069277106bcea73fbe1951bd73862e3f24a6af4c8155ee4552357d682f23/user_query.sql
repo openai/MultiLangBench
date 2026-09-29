@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT cid,name,[desc],coll,[key] FROM pragma_index_xinfo('i2') ORDER BY seqno;

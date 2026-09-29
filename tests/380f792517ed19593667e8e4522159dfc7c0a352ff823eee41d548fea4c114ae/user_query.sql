@@ -1,0 +1,1 @@
+INSERT INTO t12(x) VALUES('4e3');

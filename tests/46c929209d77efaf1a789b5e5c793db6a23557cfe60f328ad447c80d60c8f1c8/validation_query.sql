@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t3 WHERE t3.b BETWEEN 5 AND 10) AS matching_rows, (SELECT stat+0 FROM sqlite_stat1 WHERE idx='t3b') AS indexed_rows, (SELECT integrity_check FROM pragma_integrity_check LIMIT 1) AS integrity_check;

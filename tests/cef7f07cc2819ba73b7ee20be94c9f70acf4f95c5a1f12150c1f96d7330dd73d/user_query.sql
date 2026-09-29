@@ -1,0 +1,1 @@
+CREATE TABLE _result AS SELECT (1 IN (2 IS TRUE)) AS v;

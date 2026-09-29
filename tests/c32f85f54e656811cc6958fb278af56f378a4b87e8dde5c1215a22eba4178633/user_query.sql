@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT percent_rank() OVER () AS p FROM t1;

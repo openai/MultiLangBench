@@ -1,0 +1,1 @@
+CREATE TABLE x1(a TEXT,b INTEGER CHECK(b>0)); INSERT INTO x1 VALUES('x','xx'),('y','yy');

@@ -1,0 +1,1 @@
+CREATE VIEW v2 AS SELECT max(x) OVER () AS a, TRUE AS c FROM t1;

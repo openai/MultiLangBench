@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT (SELECT a FROM t1 ORDER BY a) AS first_value, (SELECT a FROM t1 ORDER BY a DESC) AS last_value;

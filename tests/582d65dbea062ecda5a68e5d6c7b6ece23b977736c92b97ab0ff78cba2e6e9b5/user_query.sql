@@ -1,0 +1,1 @@
+INSERT INTO _result(a,x) SELECT a, x FROM t2, t1 WHERE t1.a = (SELECT x);

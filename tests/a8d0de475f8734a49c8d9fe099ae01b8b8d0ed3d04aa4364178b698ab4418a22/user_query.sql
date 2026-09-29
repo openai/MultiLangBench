@@ -1,0 +1,1 @@
+PRAGMA synchronous=4; CREATE TABLE result AS SELECT * FROM pragma_synchronous;

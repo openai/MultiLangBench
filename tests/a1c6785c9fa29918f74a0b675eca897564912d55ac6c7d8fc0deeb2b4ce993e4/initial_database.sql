@@ -1,0 +1,1 @@
+CREATE TABLE t1(x);INSERT INTO t1 VALUES(3),(4),(2),(1),(5),(6);

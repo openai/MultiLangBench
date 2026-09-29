@@ -1,0 +1,1 @@
+UPDATE t2 SET b = (SELECT count(*)+2 FROM t2), c = 24/3+1 WHERE rowid=2;

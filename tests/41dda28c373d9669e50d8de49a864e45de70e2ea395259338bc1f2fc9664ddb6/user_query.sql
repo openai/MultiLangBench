@@ -1,0 +1,1 @@
+CREATE TABLE t7(one,two); CREATE VIRTUAL TABLE ft7 USING fts4(content=t7); INSERT INTO t7 VALUES('A B','B A'),('C D','A A'); CREATE TABLE sfi_result AS SELECT one,two FROM ft7;

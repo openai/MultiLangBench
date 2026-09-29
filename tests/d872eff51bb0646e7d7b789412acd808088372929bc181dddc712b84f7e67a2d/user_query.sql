@@ -1,0 +1,1 @@
+CREATE TEMP TABLE tbl(a,b); CREATE TABLE main.result AS SELECT * FROM tbl;

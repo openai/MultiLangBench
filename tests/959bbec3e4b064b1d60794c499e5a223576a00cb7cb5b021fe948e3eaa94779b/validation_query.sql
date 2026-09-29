@@ -1,0 +1,1 @@
+SELECT maxx,n,y,z FROM result ORDER BY seq;

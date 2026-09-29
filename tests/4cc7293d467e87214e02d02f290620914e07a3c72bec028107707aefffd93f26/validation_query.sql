@@ -1,0 +1,1 @@
+SELECT count(*) FROM sqlite_schema WHERE name='pages' OR name GLOB 'pages_*'

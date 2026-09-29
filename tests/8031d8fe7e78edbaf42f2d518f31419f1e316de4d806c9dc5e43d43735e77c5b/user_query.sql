@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM t6a, t6b WHERE a=3 AND c IN (b);

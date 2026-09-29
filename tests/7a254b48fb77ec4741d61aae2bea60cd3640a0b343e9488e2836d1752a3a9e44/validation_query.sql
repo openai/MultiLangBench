@@ -1,0 +1,1 @@
+SELECT pqr,xyz FROM result ORDER BY xyz

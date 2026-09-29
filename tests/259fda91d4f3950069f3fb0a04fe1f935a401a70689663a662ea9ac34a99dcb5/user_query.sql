@@ -1,0 +1,1 @@
+CREATE TABLE t4(a TEXT); INSERT INTO t4 VALUES('1234'),('234'),('34'); CREATE TABLE result AS SELECT min(a), max(a) FROM t4;

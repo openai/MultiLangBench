@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT y, coalesce(sum(x),0) AS s FROM (SELECT null AS x, y+1 AS y FROM t1 UNION SELECT * FROM t1) GROUP BY y ORDER BY y;

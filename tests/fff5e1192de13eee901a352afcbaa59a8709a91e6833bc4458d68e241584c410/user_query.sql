@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT min(a) FILTER (WHERE a>3) AS v FROM t1 GROUP BY (a%2) ORDER BY 1;

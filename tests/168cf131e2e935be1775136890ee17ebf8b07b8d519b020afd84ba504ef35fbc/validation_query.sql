@@ -1,0 +1,1 @@
+SELECT qid, op, rid FROM result ORDER BY qid, opno, rid

@@ -1,0 +1,1 @@
+SELECT level, idx FROM capture ORDER BY level, idx;

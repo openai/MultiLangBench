@@ -1,0 +1,1 @@
+SELECT type, name, tbl_name, sql FROM sqlite_schema WHERE type IN ('table','trigger') AND name NOT LIKE 'sqlite_%' ORDER BY type, name;

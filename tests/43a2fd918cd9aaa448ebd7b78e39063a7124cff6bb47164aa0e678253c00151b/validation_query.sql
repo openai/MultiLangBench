@@ -1,0 +1,1 @@
+SELECT name FROM sqlite_master WHERE name GLOB 't3102*' ORDER BY name;

@@ -1,0 +1,1 @@
+SELECT b, (SELECT partial FROM pragma_index_list('t2') WHERE name='t2a2') AS partial, (SELECT integrity_check FROM pragma_integrity_check LIMIT 1) AS integrity_check FROM t2 WHERE a=15;

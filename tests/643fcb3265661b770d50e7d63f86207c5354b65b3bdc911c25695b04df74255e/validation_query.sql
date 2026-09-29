@@ -1,0 +1,1 @@
+SELECT id, quote(value) FROM f_stat ORDER BY id

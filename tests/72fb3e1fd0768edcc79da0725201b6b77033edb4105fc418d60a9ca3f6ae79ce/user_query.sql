@@ -1,0 +1,1 @@
+CREATE TABLE maintable(id INTEGER); CREATE TABLE joinme(id_int INTEGER, id_text TEXT); CREATE INDEX joinme_id_text_idx ON joinme(id_text); CREATE INDEX joinme_id_int_idx ON joinme(id_int);

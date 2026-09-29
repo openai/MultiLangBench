@@ -1,0 +1,1 @@
+CREATE TEMP TABLE tx1(a,b,c,d,e);CREATE TEMP TABLE tx2(f);CREATE TABLE r AS SELECT tx1.e AS alias FROM tx2,tx1 WHERE alias=1;

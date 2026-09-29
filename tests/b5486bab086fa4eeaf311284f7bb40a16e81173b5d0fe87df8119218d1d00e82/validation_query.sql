@@ -1,0 +1,1 @@
+SELECT x FROM t14 ORDER BY x

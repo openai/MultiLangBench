@@ -1,0 +1,1 @@
+SELECT count(a) AS nonnull_a, count(b) AS nonnull_b, (SELECT integrity_check FROM pragma_integrity_check LIMIT 1) AS integrity_check FROM t1;

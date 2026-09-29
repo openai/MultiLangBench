@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT x FROM h1,h2 ON(x=b);

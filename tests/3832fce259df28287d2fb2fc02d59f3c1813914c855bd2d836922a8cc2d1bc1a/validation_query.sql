@@ -1,0 +1,1 @@
+SELECT count(*) AS docs, sum(length(words)) AS text_bytes FROM t1

@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1), (SELECT count(*) FROM sqlite_master WHERE type='index' AND name='t1a1'), instr((SELECT sql FROM sqlite_master WHERE type='table' AND name='t1'),'WITHOUT ROWID')>0;

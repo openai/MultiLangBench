@@ -1,0 +1,1 @@
+BEGIN; ATTACH ':memory:' AS aux2; DETACH aux2; INSERT INTO marker VALUES('ok'); COMMIT;

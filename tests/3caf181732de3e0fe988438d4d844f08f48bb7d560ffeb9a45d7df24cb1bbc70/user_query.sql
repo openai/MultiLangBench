@@ -1,0 +1,1 @@
+CREATE TABLE skipscan3_result AS SELECT d FROM t2 WHERE a=1 AND c=32;

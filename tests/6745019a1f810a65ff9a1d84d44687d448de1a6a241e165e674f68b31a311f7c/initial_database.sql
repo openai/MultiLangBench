@@ -1,0 +1,1 @@
+CREATE TABLE y1(a COLLATE nocase,b COLLATE binary,c);INSERT INTO y1 VALUES('Abc','abc','aBC');

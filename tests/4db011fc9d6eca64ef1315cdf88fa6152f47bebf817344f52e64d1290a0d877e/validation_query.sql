@@ -1,0 +1,1 @@
+SELECT 'schema' AS k, name, type FROM sqlite_schema WHERE name NOT LIKE 'sqlite_%' UNION ALL SELECT 'data', quote(a), quote(b) FROM t1 ORDER BY 1, 2, 3

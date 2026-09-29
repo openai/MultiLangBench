@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM king),c,d FROM prince

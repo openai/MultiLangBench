@@ -1,0 +1,1 @@
+SELECT x2.y, (SELECT count(*) FROM x3) AS x3_count, (SELECT count(*) FROM x1) AS x1_count FROM x2 ORDER BY x2.y;

@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM sqlite_schema WHERE type='table' AND name='collate3t1'), (SELECT count(*) FROM sqlite_schema WHERE type='view' AND name='collate3v1');

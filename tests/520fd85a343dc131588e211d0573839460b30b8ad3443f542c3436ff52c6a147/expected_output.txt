@@ -1,0 +1,1 @@
+[["CREATE TABLE blob(\"a1\" INTEGER PRIMARY KEY,rcvid INTEGER,size INTEGER,uuid TEXT UNIQUE NOT NULL,content BLOB,CHECK(length(uuid)>=40 AND \"a1\">0))"]]

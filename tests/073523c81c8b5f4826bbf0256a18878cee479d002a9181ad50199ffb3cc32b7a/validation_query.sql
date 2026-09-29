@@ -1,0 +1,1 @@
+SELECT hex(substr(root,7,14)) FROM ta_segdir WHERE rowid=2

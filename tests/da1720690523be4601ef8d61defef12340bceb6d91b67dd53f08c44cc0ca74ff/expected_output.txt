@@ -1,0 +1,1 @@
+[[1,"one","CREATE INDEX i1 ON t1(b || 'x')"],[2,"two","CREATE INDEX i1 ON t1(b || 'x')"],[3,"three","CREATE INDEX i1 ON t1(b || 'x')"]]

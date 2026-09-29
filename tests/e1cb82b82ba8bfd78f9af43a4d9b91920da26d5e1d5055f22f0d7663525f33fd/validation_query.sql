@@ -1,0 +1,1 @@
+SELECT * FROM immediate ORDER BY immediate ASC

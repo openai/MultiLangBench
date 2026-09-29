@@ -1,0 +1,1 @@
+CREATE TABLE result AS WITH i(x) AS (WITH j(x) AS (SELECT * FROM i), i(x) AS (SELECT * FROM t1) SELECT * FROM j) SELECT * FROM i;

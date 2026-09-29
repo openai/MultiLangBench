@@ -1,0 +1,1 @@
+CREATE TABLE t71(a,b,c); CREATE INDEX t71bc ON t71(b+c); CREATE TABLE t72(x,y,z); CREATE INDEX t72yz ON t72(y+z); INSERT INTO t71(a,b,c) VALUES(1,11,2),(2,7,15),(3,5,4); INSERT INTO t72(x,y,z) VALUES(1,10,3),(2,8,14),(3,9,9); CREATE TABLE sfi_result AS SELECT a,x,'|' AS marker FROM t71,t72 WHERE b+c=y+z ORDER BY +a,+x;

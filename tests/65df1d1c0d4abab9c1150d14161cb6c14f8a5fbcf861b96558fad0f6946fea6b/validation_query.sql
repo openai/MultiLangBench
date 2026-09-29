@@ -1,0 +1,1 @@
+SELECT rowid, content FROM t1 WHERE t1 MATCH 'one' ORDER BY rowid;

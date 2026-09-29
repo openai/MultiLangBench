@@ -1,0 +1,1 @@
+PRAGMA journal_mode=PERSIST; INSERT INTO t1 SELECT printf('%0200d',rowid+4), printf('%0300d',rowid+4) FROM t1;

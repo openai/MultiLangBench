@@ -1,0 +1,1 @@
+SELECT (SELECT i FROM counter) AS i, (SELECT u FROM counter) AS u, (SELECT count(*) FROM t1) AS rows_in_t1, (SELECT count(*) FROM sqlite_schema WHERE type='trigger') AS triggers

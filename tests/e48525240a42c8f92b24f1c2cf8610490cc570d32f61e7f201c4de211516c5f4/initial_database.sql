@@ -1,0 +1,1 @@
+CREATE TABLE abc(a, b, c); CREATE TABLE t1(a, b, c); CREATE TABLE t2(a, b, c REFERENCES t1(c), UNIQUE(a, b)); CREATE TABLE t3(a, b, c VARCHAR(10, 20), UNIQUE(a, b));

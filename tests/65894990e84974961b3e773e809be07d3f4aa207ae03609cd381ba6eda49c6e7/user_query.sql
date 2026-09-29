@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT b FROM f1 ORDER BY a LIMIT length('abc')-100;

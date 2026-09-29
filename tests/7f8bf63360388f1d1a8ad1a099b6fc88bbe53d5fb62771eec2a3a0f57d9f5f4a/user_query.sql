@@ -1,0 +1,1 @@
+CREATE TABLE Records(typeID INTEGER, key TEXT COLLATE nocase, value TEXT); CREATE INDEX RecordsIndex ON Records(typeID, key, value);

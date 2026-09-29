@@ -1,0 +1,1 @@
+CREATE TABLE t1(a); INSERT INTO t1 VALUES(17),(2),(99),(-3),(7);

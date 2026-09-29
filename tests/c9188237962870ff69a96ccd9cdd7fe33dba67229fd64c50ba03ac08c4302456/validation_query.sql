@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(k||'='||v, '|') FROM (SELECT k, v FROM map ORDER BY k)), (SELECT count(*) FROM t1), (SELECT count(*) FROM sqlite_schema WHERE type='trigger' AND name='tr');

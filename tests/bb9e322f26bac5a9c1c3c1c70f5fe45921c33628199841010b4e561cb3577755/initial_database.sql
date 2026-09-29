@@ -1,0 +1,1 @@
+CREATE TABLE t1(t TEXT, b BLOB); CREATE TABLE result(v);

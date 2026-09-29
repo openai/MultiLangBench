@@ -1,0 +1,1 @@
+SELECT (SELECT page_count FROM pragma_page_count),(SELECT freelist_count FROM pragma_freelist_count),(SELECT count(*) FROM t1),(SELECT count(*) FROM t3),(SELECT count(*) FROM v1);

@@ -1,0 +1,1 @@
+INSERT INTO t11(_rowid_) VALUES(17);

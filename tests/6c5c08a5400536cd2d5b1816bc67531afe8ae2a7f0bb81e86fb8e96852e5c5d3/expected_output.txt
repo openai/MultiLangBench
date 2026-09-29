@@ -1,0 +1,1 @@
+[["row","1","'a','a'"],["row","2","NULL,NULL"],["row","3","'B','B'"],["schema","collate4t2","CREATE TABLE collate4t2(a COLLATE NOCASE, b COLLATE BINARY, PRIMARY KEY(a,b))"],["schema","sqlite_autoindex_collate4t2_1",""]]

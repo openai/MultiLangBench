@@ -1,0 +1,1 @@
+INSERT INTO t3 VALUES('f e d c b ' || replace(hex(zeroblob(10000)), '00', 'a '));

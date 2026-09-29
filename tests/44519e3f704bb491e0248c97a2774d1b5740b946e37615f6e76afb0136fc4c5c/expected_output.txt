@@ -1,0 +1,1 @@
+[["CREATE TABLE \"t1new\"(a, b, CHECK(\"t1new\".a != \"t1new\".b))"],["CREATE TABLE \"t2new\"(a, b)"],["CREATE INDEX t2expr ON \"t2new\"(a) WHERE \"t2new\".b>0"]]

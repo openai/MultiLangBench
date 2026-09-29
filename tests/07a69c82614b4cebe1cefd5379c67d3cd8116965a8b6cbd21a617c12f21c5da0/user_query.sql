@@ -1,0 +1,1 @@
+INSERT INTO observed(v) SELECT v FROM blobs WHERE k=1;

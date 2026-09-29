@@ -1,0 +1,1 @@
+[[1,"2","integer"],[2,"NULL","null"],[3,"'xyz'","text"]]

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t7aux USING fts4aux(t7); INSERT INTO t7 VALUES('alephxbethÄgimel'); CREATE TABLE result AS SELECT * FROM t7aux;

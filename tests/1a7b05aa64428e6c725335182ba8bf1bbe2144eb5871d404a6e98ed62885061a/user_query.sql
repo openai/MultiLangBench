@@ -1,0 +1,1 @@
+INSERT INTO result SELECT sqlite_compileoption_get((SELECT count(*) FROM pragma_compile_options));

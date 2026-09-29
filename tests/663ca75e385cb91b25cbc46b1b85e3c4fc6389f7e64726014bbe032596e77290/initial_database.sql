@@ -1,0 +1,1 @@
+CREATE TABLE "fuzzer [x] rules table"(a, b, c, d); INSERT INTO "fuzzer [x] rules table" VALUES(0, 'x', '12345678901234567890123456789012345678901234567890', 2);

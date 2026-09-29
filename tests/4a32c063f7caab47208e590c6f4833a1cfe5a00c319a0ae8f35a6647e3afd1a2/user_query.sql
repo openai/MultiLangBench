@@ -1,0 +1,1 @@
+CREATE TABLE t5(pk int primary key,v integer); INSERT INTO t5(pk) VALUES(0);

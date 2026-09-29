@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT max(y) FROM t1;

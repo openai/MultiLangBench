@@ -1,0 +1,1 @@
+[["CREATE TABLE t1(\"count(*)\",\"max(b)\",\"min(a)\")"]]

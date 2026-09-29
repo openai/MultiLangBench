@@ -1,0 +1,1 @@
+INSERT INTO result SELECT 3 NOT IN (2,3,4,NULL);

@@ -1,0 +1,1 @@
+SELECT quote(e),f FROM t2 ORDER BY rowid

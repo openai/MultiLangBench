@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; DROP TABLE t1;

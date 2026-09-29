@@ -1,0 +1,1 @@
+SELECT q,rid FROM (SELECT 'N A' AS q,rowid AS rid FROM ft3 WHERE ft3 MATCH 'N A' UNION ALL SELECT 'x:O',rowid FROM ft3 WHERE ft3 MATCH 'x:O' UNION ALL SELECT 'y:O',rowid FROM ft3 WHERE ft3 MATCH 'y:O') ORDER BY q,rid

@@ -1,0 +1,1 @@
+UPDATE t1 SET b = 'burmese' WHERE length(b)<1 AND a IS NOT NULL;

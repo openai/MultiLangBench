@@ -1,0 +1,1 @@
+SELECT typeof(a),a FROM r ORDER BY rowid

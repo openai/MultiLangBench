@@ -1,0 +1,1 @@
+DELETE FROM t4; INSERT INTO t4(a,b,c,d,e,f,g,h) VALUES(1,2,3,4,5,6,7,8);

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a,max(b) OVER (ORDER BY a) AS v FROM t2;

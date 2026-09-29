@@ -1,0 +1,1 @@
+INSERT INTO one(a,b) VALUES('hello',1);

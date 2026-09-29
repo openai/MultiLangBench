@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t2 USING fts3; BEGIN; INSERT INTO t2 VALUES(replace(hex(zeroblob(600)), '00', 'x ')); INSERT INTO t2 VALUES(replace(hex(zeroblob(600)), '00', 'y ')); INSERT INTO t2 VALUES(replace(hex(zeroblob(600)), '00', 'z ')); COMMIT;

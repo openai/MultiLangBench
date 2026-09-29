@@ -1,0 +1,1 @@
+INSERT INTO xyz VALUES(1,'Hi Y''all');

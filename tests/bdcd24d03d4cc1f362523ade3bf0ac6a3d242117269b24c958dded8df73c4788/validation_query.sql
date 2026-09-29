@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(a, ',') FROM (SELECT a FROM p1 ORDER BY a)), (SELECT count(*) FROM sqlite_schema WHERE type='table' AND name='c1'), (SELECT v FROM observed), (SELECT count(*) FROM pragma_foreign_key_check);

@@ -1,0 +1,1 @@
+CREATE TABLE t10(a,b); INSERT INTO t10 VALUES('abasia abasic abask','Abassin abastardize abatable'),('abate abatement abater','abatis abatised abaton'),('abator abattoir Abatua','abature abave abaxial'); CREATE VIRTUAL TABLE ft10 USING fts4(content=t10,prefix='2,4',a,b); INSERT INTO ft10(ft10) VALUES('rebuild');

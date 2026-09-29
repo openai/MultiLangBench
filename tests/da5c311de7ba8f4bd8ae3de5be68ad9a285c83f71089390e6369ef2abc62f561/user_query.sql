@@ -1,0 +1,1 @@
+INSERT INTO r SELECT a FROM t WHERE (b+1234)||'this is a string that is at least 32 characters long' BETWEEN 1 AND 2 ORDER BY a;

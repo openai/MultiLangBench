@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(a, ',') FROM (SELECT a FROM t1 ORDER BY a)), (SELECT group_concat(a, ',') FROM (SELECT a FROM t2 ORDER BY a)), (SELECT count(*) FROM sqlite_schema WHERE type='view' AND name='tv'), (SELECT count(*) FROM sqlite_schema WHERE type='trigger' AND name='tv_del');

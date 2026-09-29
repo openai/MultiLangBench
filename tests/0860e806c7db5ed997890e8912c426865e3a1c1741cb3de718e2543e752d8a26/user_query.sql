@@ -1,0 +1,1 @@
+CREATE TABLE _result AS SELECT a,b FROM t6 WHERE b IN ('2');

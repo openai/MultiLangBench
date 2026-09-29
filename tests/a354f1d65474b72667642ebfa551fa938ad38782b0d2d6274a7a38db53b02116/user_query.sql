@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT id FROM t1 WHERE x LIKE 'abc__' ESCAPE '_';

@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(name, ',') FROM (SELECT name FROM pragma_table_info('observed') ORDER BY cid)), (SELECT group_concat(k||':'||a||':'||__hidden__b, '|') FROM (SELECT k, a, __hidden__b FROM observed ORDER BY k));

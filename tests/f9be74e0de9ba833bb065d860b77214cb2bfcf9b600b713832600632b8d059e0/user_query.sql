@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT min(z) AS mn,max(z) AS mx,count(z) AS n FROM t7 GROUP BY x ORDER BY 1;

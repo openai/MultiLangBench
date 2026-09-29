@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b); CREATE INDEX x1 ON t1("c"=b); INSERT INTO t1 VALUES('a','a'),('b','b'),('c','c');

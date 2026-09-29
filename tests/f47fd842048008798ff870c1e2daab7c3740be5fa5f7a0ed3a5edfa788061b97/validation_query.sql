@@ -1,0 +1,1 @@
+SELECT a, b FROM d1 ORDER BY a, b;

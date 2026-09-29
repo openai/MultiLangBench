@@ -1,0 +1,1 @@
+CREATE TABLE result(v); INSERT INTO result SELECT sum(following) filter FROM over;

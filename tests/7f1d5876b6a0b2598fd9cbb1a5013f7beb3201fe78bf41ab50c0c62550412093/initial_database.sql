@@ -1,0 +1,1 @@
+CREATE TABLE seed(x); PRAGMA schema_version=17;

@@ -1,0 +1,1 @@
+/* 11.5 */ INSERT INTO t2(b, a) VALUES(1, 'abc'||'');

@@ -1,0 +1,1 @@
+DELETE FROM t11 AS xyz WHERE EXISTS(SELECT 1 FROM t11 WHERE t11.a>xyz.a AND t11.b<=xyz.b);

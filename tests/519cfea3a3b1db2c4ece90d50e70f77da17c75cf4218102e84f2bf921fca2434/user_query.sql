@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT max((SELECT a FROM (SELECT count(*) AS a FROM ty) AS s)) AS v FROM tx;

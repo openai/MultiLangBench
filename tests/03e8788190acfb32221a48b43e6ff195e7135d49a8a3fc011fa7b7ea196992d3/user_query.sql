@@ -1,0 +1,1 @@
+ATTACH ':memory:' AS db2; CREATE TABLE db2.t3(x,y); INSERT INTO db2.t3 VALUES(1,2); INSERT INTO db2.t3 VALUES(9,10); INSERT INTO main.capture SELECT x,y FROM db2.t3 ORDER BY rowid;

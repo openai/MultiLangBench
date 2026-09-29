@@ -1,0 +1,1 @@
+[[0,"RTRIM"],[1,"NOCASE"],[2,"BINARY"]]

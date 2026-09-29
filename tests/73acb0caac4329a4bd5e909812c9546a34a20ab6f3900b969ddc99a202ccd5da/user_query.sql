@@ -1,0 +1,1 @@
+INSERT INTO result SELECT round(sin(1), 7);

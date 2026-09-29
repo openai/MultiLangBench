@@ -1,0 +1,1 @@
+SELECT k,v1,v2 FROM capture ORDER BY rowid;

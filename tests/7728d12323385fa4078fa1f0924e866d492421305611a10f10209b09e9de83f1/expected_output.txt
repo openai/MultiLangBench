@@ -1,0 +1,1 @@
+[[0,"CREATE TABLE t1(w,x,y NOT NULL,z NOT NULL,PRIMARY KEY(w,x)) WITHOUT ROWID",null,null,null],[1,"1","2","3","4"],[1,"2","3","3","4"]]

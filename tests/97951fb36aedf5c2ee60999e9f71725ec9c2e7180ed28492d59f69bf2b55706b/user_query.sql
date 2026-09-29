@@ -1,0 +1,1 @@
+DELETE FROM t17; INSERT INTO t17(x,y) VALUES(123,'elephant'),(248,'giraffe'); UPDATE t17 SET y='ostrich' WHERE abs(x)=248;

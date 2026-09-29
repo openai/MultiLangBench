@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(1,NULL IS NULL),(2,'ab' IS NULL),(3,NULL IS 'ab'),(4,'ab' IS 'ab'),(5,NULL==NULL),(6,'ab'==NULL),(7,NULL=='ab'),(8,'ab'=='ab'),(9,NULL IS NOT NULL),(10,'ab' IS NOT NULL),(11,NULL IS NOT 'ab'),(12,'ab' IS NOT 'ab'),(13,NULL!=NULL),(14,'ab'!=NULL),(15,NULL!='ab'),(16,'ab'!='ab');

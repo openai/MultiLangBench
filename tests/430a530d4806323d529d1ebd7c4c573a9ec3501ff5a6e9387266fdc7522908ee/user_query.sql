@@ -1,0 +1,1 @@
+INSERT INTO result SELECT round(ln(5),2), log(100.0), log(100), log(2,'256');

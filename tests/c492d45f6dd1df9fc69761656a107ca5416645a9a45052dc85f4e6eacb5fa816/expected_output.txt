@@ -1,0 +1,1 @@
+[["index","i1","tbl"],["trigger","i1","tbl"],["table","t1","t1"],["trigger","t1","tbl"],["trigger","v1","tbl"],["view","v1","v1"]]

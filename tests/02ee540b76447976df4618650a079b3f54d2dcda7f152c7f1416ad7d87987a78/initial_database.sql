@@ -1,0 +1,22 @@
+-- sqllimits1-7.7.3
+PRAGMA page_size=1024;
+PRAGMA auto_vacuum=FULL;
+VACUUM;
+CREATE TABLE trig(a INTEGER, b INTEGER);
+CREATE TRIGGER update_b BEFORE UPDATE ON trig FOR EACH ROW BEGIN INSERT INTO trig VALUES(65,'update_b'); END;
+CREATE TRIGGER update_a AFTER UPDATE ON trig FOR EACH ROW BEGIN INSERT INTO trig VALUES(65,'update_a'); END;
+CREATE TRIGGER insert_b BEFORE INSERT ON trig FOR EACH ROW BEGIN UPDATE trig SET a=1; END;
+CREATE TRIGGER insert_a AFTER INSERT ON trig FOR EACH ROW BEGIN UPDATE trig SET a=1; END;
+CREATE TABLE abc(a,b,c);
+INSERT INTO abc VALUES(1,2,3);
+INSERT INTO abc SELECT a||b||c,b||c||a,c||a||b FROM abc;
+INSERT INTO abc SELECT a||b||c,b||c||a,c||a||b FROM abc;
+INSERT INTO abc SELECT a||b||c,b||c||a,c||a||b FROM abc;
+INSERT INTO abc SELECT a||b||c,b||c||a,c||a||b FROM abc;
+INSERT INTO abc SELECT a||b||c,b||c||a,c||a||b FROM abc;
+INSERT INTO abc SELECT a||b||c,b||c||a,c||a||b FROM abc;
+INSERT INTO abc SELECT a||b||c,b||c||a,c||a||b FROM abc;
+INSERT INTO abc SELECT a||b||c,b||c||a,c||a||b FROM abc;
+INSERT INTO abc SELECT a,b,c FROM abc;
+INSERT INTO abc SELECT b,a,c FROM abc;
+INSERT INTO abc SELECT c,b,a FROM abc;

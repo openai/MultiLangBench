@@ -1,0 +1,1 @@
+SELECT id, x0, x1 FROM t2 ORDER BY id;

@@ -1,0 +1,1 @@
+SELECT x, y FROM v1 ORDER BY x;

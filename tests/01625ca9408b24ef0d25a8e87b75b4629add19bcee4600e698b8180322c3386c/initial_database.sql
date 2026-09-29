@@ -1,0 +1,1 @@
+CREATE TABLE t1(a INTEGER PRIMARY KEY,w INT GENERATED ALWAYS AS (a*10),b TEXT,x TEXT AS (typeof(c)),y TEXT AS (substr(b,a,a+2)) STORED,c ANY); INSERT INTO t1(a,b,c) VALUES(1,'abcdef',5.5),(3,'cantaloupe',NULL);

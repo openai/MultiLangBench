@@ -1,0 +1,1 @@
+CREATE TABLE t3(a,b,c); CREATE TRIGGER t3r1 BEFORE UPDATE ON t3 WHEN nosuchcol BEGIN SELECT 'illegal WHEN clause'; END;

@@ -1,0 +1,1 @@
+SELECT 'high' AS tab,"a'b!",b FROM high UNION ALL SELECT 'low',c,"d&6" FROM low ORDER BY 1

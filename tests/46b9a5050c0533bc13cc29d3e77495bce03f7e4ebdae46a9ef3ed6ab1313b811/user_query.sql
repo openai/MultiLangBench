@@ -1,0 +1,1 @@
+CREATE TEMP TABLE t2(x UNIQUE,y); INSERT INTO temp.t2 VALUES(1,2); CREATE TABLE main.t2(x UNIQUE,y); INSERT INTO main.t2 VALUES(3,4); INSERT INTO main.capture SELECT name FROM main.sqlite_master WHERE type='table' AND name IN('t1','t2') ORDER BY name;

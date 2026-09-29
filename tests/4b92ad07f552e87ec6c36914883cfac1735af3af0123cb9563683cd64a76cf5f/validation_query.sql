@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1) AS t1_rows, count(*) AS t2_rows, coalesce(sum(b IS NULL),0) AS t2_nulls, (SELECT sql FROM sqlite_schema WHERE type='table' AND name='t1') AS t1_sql, (SELECT sql FROM sqlite_schema WHERE type='table' AND name='t2') AS t2_sql FROM t2;

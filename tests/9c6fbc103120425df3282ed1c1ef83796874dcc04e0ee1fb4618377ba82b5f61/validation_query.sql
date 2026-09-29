@@ -1,0 +1,1 @@
+SELECT name, tbl_name, sql FROM sqlite_schema WHERE type='index' AND name IN ('ab_i','bc_i') ORDER BY name

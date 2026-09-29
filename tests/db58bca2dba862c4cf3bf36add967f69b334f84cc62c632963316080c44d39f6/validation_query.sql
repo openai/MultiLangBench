@@ -1,0 +1,1 @@
+SELECT count(*),min(c-a),max(c-a),sum(c) FROM t2;

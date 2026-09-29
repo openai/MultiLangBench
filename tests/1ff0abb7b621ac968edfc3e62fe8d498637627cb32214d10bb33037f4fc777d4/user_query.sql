@@ -1,0 +1,1 @@
+CREATE TEMP TABLE temp_table(a); CREATE TRIGGER temp_trig UPDATE ON temp_table BEGIN SELECT * FROM sqlite_master; END;

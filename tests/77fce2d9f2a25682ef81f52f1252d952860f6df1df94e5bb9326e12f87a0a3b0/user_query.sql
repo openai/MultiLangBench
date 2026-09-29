@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT rowid AS id FROM t3 WHERE x MATCH 'a*' ORDER BY docid DESC;

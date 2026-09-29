@@ -1,0 +1,1 @@
+CREATE TABLE dual(dummy); INSERT INTO dual VALUES('X'); CREATE TABLE t3(a TEXT,b TEXT,c TEXT,d TEXT,e TEXT,f TEXT); CREATE INDEX t3x ON t3(b,c,d,e,f);

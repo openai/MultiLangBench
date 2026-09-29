@@ -1,0 +1,1 @@
+BEGIN; INSERT INTO t1(rowid,x) VALUES(3,'i j k l'); UPDATE OR REPLACE t1 SET docid=CASE WHEN docid=1 THEN 4 ELSE 3 END WHERE docid<=2; COMMIT;

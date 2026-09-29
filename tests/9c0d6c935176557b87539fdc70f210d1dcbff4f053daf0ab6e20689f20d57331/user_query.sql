@@ -1,0 +1,1 @@
+INSERT INTO result(docid) SELECT rowid FROM t2 WHERE t2 MATCH 'lorem';

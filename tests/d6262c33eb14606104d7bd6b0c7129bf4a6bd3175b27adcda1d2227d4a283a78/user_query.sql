@@ -1,0 +1,1 @@
+VACUUM; CREATE TABLE sfi_result AS SELECT a,b,c,d,'|' AS marker FROM t1 ORDER BY b,d;

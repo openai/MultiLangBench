@@ -1,0 +1,1 @@
+INSERT INTO _result(period,vsum) SELECT period, vsum FROM (SELECT a.period, (SELECT sum(val) FROM t5 WHERE period BETWEEN a.period AND '2002-4') vsum FROM t5 a WHERE a.period BETWEEN '2002-1' AND '2002-4') WHERE vsum < 45;

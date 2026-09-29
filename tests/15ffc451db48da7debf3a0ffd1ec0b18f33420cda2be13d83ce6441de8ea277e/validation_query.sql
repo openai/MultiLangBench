@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(a, ',') FROM (SELECT a FROM x1 ORDER BY rowid)) AS x1_values, (SELECT group_concat(b, ',') FROM (SELECT b FROM x2 ORDER BY rowid)) AS x2_values, (SELECT group_concat(c, ',') FROM (SELECT c FROM x3 ORDER BY rowid)) AS x3_values, (SELECT group_concat(b, ',') FROM (SELECT b FROM vvv ORDER BY b)) AS view_values;

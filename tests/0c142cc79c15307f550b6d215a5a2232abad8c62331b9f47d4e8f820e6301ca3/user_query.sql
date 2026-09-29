@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT printf('%n',0);

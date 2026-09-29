@@ -1,0 +1,1 @@
+CREATE TABLE t6(a TEXT,b TEXT); INSERT INTO t6 VALUES('a','0'),('b','1'),('c','2'),('d','3'); CREATE TABLE sfi_result AS SELECT a FROM t6 WHERE b IN (SELECT b FROM t6 WHERE a<='b' UNION SELECT '3' AS x ORDER BY 1 LIMIT 1);

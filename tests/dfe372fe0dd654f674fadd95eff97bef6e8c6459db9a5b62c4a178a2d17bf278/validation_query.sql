@@ -1,0 +1,1 @@
+SELECT sql FROM sqlite_master WHERE name IN ('t1','t2','t2expr') ORDER BY name;

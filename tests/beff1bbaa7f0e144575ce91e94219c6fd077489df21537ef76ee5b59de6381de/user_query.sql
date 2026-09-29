@@ -1,0 +1,1 @@
+PRAGMA recursive_triggers=ON; CREATE TABLE pragma_result AS SELECT * FROM pragma_recursive_triggers;

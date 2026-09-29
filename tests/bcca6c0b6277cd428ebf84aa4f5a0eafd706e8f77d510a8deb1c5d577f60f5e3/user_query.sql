@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT a.id,(SELECT b.id FROM tbooking AS b WHERE b.id>a.id) AS nextid FROM (SELECT 1.5 AS id) AS a;

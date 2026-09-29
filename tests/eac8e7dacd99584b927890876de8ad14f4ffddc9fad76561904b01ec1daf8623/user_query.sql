@@ -1,0 +1,1 @@
+UPDATE OR REPLACE t0 SET c0 = 'a', c1 = '';

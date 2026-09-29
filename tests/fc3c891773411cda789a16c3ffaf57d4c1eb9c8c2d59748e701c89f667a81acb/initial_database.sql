@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE test USING fts3(keyword); INSERT INTO test(keyword) VALUES('abc');

@@ -1,0 +1,1 @@
+SELECT 'g1' AS t, rowid AS rid, a, typeof(a), b, typeof(b), (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='g2x') AS ix FROM g1 UNION ALL SELECT 'g2', rowid, x, typeof(x), y, typeof(y), (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='g2x') FROM g2 ORDER BY t, rid;

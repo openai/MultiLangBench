@@ -1,0 +1,1 @@
+SELECT rowid,i,j FROM t3 ORDER BY rowid;

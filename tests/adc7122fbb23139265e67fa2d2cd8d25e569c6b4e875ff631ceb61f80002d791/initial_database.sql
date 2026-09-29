@@ -1,0 +1,1 @@
+CREATE TABLE dest(a int, b int CHECK(b>a)); CREATE TABLE src(x int CHECK(y>x), y int); INSERT INTO src VALUES(1,9);

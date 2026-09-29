@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b,c UNIQUE,PRIMARY KEY(a,b)) WITHOUT ROWID; INSERT INTO t1 VALUES('a','a',1),('a','b',2),('b','a',3),('b','b',4);

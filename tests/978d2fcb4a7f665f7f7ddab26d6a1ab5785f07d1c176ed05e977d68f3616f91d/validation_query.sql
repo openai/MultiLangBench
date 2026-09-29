@@ -1,0 +1,1 @@
+SELECT ii, answer FROM result ORDER BY ii

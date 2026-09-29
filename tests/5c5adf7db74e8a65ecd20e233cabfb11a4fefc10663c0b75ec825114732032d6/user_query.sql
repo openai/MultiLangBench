@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT * FROM c3 WHERE x='abc' AND y='abc' AND z='abc';

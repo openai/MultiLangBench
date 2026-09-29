@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT docid AS d, * FROM t4 WHERE docid=1;

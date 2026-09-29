@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT typeof(d) AS d_type FROM abc ORDER BY rowid;

@@ -1,0 +1,1 @@
+SELECT i, a, b FROM t1x ORDER BY i

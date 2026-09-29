@@ -1,0 +1,1 @@
+WITH auth1311(x,y) AS (SELECT a+b,b-a FROM t1) SELECT x,y FROM auth1311 ORDER BY x;

@@ -1,0 +1,1 @@
+SELECT k,cte_map,main_map,'|' FROM log ORDER BY k;

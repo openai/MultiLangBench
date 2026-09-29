@@ -1,0 +1,1 @@
+SELECT 'schema' AS kind, 0 AS ord, sql AS v1, NULL AS v2 FROM sqlite_schema WHERE type='table' AND name='yyy' UNION ALL SELECT 'row', q, CAST(w AS TEXT), CAST(r AS TEXT) FROM yyy ORDER BY kind, ord;

@@ -1,0 +1,1 @@
+CREATE TABLE xyz(a int, b text); INSERT INTO xyz VALUES(1,'Hi Y''all');

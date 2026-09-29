@@ -1,0 +1,1 @@
+INSERT INTO t1(x) SELECT * FROM pragma_integrity_check;

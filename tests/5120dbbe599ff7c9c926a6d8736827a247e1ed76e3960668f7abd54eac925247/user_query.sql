@@ -1,0 +1,3 @@
+BEGIN;
+INSERT INTO ft2(ft2) VALUES('integrity-check');
+COMMIT;

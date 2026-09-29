@@ -1,0 +1,1 @@
+PRAGMA encoding=UTF16be; CREATE VIRTUAL TABLE fts USING fts3(a,b,c);

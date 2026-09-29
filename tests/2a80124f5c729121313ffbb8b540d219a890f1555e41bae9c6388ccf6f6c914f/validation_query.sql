@@ -1,0 +1,1 @@
+SELECT rowid, xi, typeof(xi), xr, typeof(xr), xb, typeof(xb), xn, typeof(xn), xt, typeof(xt) FROM t1 ORDER BY rowid

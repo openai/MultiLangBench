@@ -1,0 +1,1 @@
+SELECT y1.a, y1.b, y2.c FROM y1 JOIN y2 ON y2.rowid=y1.rowid ORDER BY y1.rowid;

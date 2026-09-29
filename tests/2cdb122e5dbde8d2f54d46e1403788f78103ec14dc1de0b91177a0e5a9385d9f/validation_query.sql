@@ -1,0 +1,1 @@
+SELECT name FROM sqlite_sequence ORDER BY rowid;

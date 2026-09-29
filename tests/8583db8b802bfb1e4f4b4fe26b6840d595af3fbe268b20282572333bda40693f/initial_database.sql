@@ -1,0 +1,1 @@
+CREATE TABLE t4(a,b,c,d,e,f,g,h); INSERT INTO t4 VALUES(1,2,3,4,5,6,7,8);

@@ -1,0 +1,1 @@
+INSERT INTO result(token) SELECT token FROM t1 WHERE input = 'OnE tWo tHrEe' ORDER BY position;

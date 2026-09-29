@@ -1,0 +1,1 @@
+SELECT count(*),sum(length(a)),sum(length(b)),sum(length(c)) FROM abc;

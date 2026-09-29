@@ -1,0 +1,1 @@
+DELETE FROM main.t4 WHERE 0;

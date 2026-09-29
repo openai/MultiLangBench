@@ -1,0 +1,1 @@
+ATTACH DATABASE ':memory:' AS three; DETACH DATABASE [three]; INSERT INTO capture VALUES(1);

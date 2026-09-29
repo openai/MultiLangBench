@@ -1,0 +1,1 @@
+SELECT y FROM r ORDER BY x

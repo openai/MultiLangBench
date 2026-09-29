@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT b=10, b = '10.0', b LIKE '10.0', b LIKE '10' FROM t1;

@@ -1,0 +1,1 @@
+CREATE TABLE excluded(w, x, [a b], z, PRIMARY KEY(x,[a b])) WITHOUT ROWID; CREATE UNIQUE INDEX zz ON excluded(z); CREATE INDEX zz2 ON excluded(z);

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rowid AS rid FROM t1 WHERE c MATCH 'this';

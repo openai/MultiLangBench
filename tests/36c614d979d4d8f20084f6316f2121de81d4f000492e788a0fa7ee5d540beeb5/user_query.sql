@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES('x','y'),('z',NULL); INSERT INTO t2 VALUES('x','y'),('z',NULL); INSERT INTO t3 VALUES('x','y','z'),(1,2,3);

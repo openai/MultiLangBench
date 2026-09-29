@@ -1,0 +1,1 @@
+DELETE FROM log; UPDATE t4 SET rowid=2;

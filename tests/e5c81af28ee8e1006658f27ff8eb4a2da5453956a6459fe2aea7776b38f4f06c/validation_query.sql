@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(printf('%d:%d:%d',id,a,b),'|') FROM (SELECT id,a,b FROM t3 ORDER BY id)) AS remaining, (SELECT group_concat(integrity_check, '|') FROM pragma_integrity_check) AS integrity_result;

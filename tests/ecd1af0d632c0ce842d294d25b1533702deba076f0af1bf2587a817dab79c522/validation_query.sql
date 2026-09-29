@@ -1,0 +1,1 @@
+SELECT same, is_used FROM result;

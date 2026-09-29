@@ -1,0 +1,1 @@
+[["table:log|table:t1|trigger:v1_d|trigger:v1_i|trigger:v1_u|view:v1","1:2|3:4|5:6"]]

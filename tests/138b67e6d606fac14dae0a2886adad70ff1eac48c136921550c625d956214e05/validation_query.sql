@@ -1,0 +1,1 @@
+SELECT x, quote(v), typeof(v) FROM blob ORDER BY x;

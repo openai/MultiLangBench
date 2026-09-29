@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT COUNT(*) FROM t0 WHERE instr(x'aabb',t0.c0) ORDER BY t0.c0,t0.c1;

@@ -1,0 +1,1 @@
+PRAGMA locking_mode=EXCLUSIVE; PRAGMA journal_mode=DELETE; CREATE TABLE t2(y);

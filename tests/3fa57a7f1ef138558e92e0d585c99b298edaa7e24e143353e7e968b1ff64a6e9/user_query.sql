@@ -1,0 +1,1 @@
+DELETE FROM x1; INSERT INTO x1(x) VALUES(CAST('abcdefg' AS blob)),(CAST('' AS blob)),(CAST('' AS blob)),(CAST('abcdefg' AS blob));

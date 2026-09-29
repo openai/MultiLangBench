@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts4(x); INSERT INTO t1 VALUES('terma terma terma termb');

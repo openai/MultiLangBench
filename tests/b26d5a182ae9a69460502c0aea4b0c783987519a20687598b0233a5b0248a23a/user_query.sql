@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; INSERT INTO t7 VALUES('x', 1, 'x', NULL);

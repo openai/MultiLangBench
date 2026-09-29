@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t7),(SELECT count(*) FROM t7 WHERE y IS NULL),(SELECT sql FROM sqlite_schema WHERE type='view' AND name='v');

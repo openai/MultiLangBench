@@ -1,0 +1,1 @@
+SELECT o FROM capture ORDER BY d;

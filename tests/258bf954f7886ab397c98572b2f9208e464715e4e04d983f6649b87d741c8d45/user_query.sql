@@ -1,0 +1,1 @@
+CREATE TABLE result(a,b); INSERT INTO result(a,b) SELECT a, b FROM i1, t1 WHERE a=x ORDER BY a;

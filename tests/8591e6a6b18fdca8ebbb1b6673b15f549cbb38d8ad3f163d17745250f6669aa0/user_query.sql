@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(22,'bbb' BETWEEN 'AAA' AND 'CCC' COLLATE nocase),(23,('bbb' BETWEEN 'AAA' AND 'CCC') COLLATE nocase);

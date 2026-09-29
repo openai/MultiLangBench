@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1),(SELECT count(*) FROM v2),(SELECT count(*) FROM sqlite_schema WHERE type='view' AND name='v2');

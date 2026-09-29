@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT sum(two),* FROM a1,a2 WHERE three>5;

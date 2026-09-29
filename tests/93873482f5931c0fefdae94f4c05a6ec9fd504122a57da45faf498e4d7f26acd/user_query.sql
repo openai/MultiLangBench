@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM t1 CROSS JOIN t2 WHERE likely(t2.y=t1.a) AND unlikely(t1.a=t2.x);

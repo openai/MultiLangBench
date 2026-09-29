@@ -1,0 +1,1 @@
+CREATE TABLE t7(q, r, s); INSERT INTO t7 VALUES(1,'one','X'),(2,'two','X'),(3,'three','X'),(4,'four','X'),(5,'five',5),(6,'six',6),(7,'seven','X'),(8,'eight',8),(9,'nine',9),(10,'ten','X');

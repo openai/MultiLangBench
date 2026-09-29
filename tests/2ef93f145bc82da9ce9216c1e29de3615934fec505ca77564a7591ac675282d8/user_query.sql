@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT min(x) AS v FROM t1;

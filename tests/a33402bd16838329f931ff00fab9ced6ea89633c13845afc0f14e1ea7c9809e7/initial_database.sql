@@ -1,0 +1,1 @@
+CREATE TABLE t1(a INTEGER PRIMARY KEY,b); INSERT INTO t1 VALUES(1,'abcd'),(2,'BCDE'),(3,'cdef'),(4,'DEFG');

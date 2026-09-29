@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; INSERT INTO ab VALUES(1,'b'); INSERT INTO cd VALUES(1,'d'); INSERT INTO ef VALUES(1,'e');

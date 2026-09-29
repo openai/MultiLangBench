@@ -1,0 +1,1 @@
+CREATE TABLE t6(a); INSERT INTO t6(rowid,a) VALUES(-1,1),(-2,2),(-3,3),(-4,4),(-5,5),(-6,6),(-7,7),(-8,8);

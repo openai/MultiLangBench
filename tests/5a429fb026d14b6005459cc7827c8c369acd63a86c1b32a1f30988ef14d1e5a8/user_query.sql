@@ -1,0 +1,1 @@
+CREATE TABLE query_result AS SELECT COUNT(*) AS result_count FROM t1;

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE ta USING fts3; INSERT INTO ta VALUES('During a summer vacation in 1790')

@@ -1,0 +1,1 @@
+SELECT main_count, temp_count, aux_count FROM main.result;

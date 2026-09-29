@@ -1,0 +1,1 @@
+SELECT a, b, c, typeof(c) FROM capture ORDER BY rowid;

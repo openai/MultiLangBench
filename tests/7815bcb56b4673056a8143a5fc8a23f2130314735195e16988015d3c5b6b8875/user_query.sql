@@ -1,0 +1,1 @@
+INSERT INTO excluded AS base(a,b,c) VALUES(1,2,8),(1,2,3) ON CONFLICT(b,a) DO UPDATE SET c=excluded.c+1 WHERE base.c<excluded.c;

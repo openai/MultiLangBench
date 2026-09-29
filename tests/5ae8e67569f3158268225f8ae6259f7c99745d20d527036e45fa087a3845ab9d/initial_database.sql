@@ -1,0 +1,1 @@
+CREATE TABLE tbl1(t1 TEXT); INSERT INTO tbl1 VALUES('this'),('program'),('is'),('free'),('software');

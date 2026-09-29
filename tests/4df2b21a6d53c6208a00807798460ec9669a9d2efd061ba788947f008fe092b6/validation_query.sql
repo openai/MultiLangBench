@@ -1,0 +1,1 @@
+SELECT name, tbl_name, type FROM sqlite_schema WHERE name='udx_orig_code_data';

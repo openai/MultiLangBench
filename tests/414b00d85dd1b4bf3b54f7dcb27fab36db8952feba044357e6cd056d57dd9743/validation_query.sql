@@ -1,0 +1,1 @@
+SELECT v FROM window_result ORDER BY id;

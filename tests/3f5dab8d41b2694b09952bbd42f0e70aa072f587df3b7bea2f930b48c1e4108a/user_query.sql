@@ -1,0 +1,1 @@
+CREATE TABLE t6a(x CHECK(x<>'abc')); INSERT INTO t6a VALUES('ABC');

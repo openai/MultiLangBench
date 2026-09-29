@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT t3.c FROM (SELECT a,max(b) AS m FROM t1 WHERE a>=5 GROUP BY a) AS t2 LEFT JOIN t1 AS t3 WHERE t2.a=t3.a AND t2.m=t3.b ORDER BY t3.a;

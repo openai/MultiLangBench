@@ -1,0 +1,1 @@
+INSERT INTO result(v,t) SELECT avg(b), typeof(avg(b)) FROM t1;

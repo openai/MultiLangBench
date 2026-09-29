@@ -1,0 +1,1 @@
+SELECT id, seq, parent_table, child_column, parent_column, on_update, on_delete, match FROM result ORDER BY id, seq

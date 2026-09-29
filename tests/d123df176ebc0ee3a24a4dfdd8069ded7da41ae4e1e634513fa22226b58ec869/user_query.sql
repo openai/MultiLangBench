@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT max(rowid) AS value FROM ft;

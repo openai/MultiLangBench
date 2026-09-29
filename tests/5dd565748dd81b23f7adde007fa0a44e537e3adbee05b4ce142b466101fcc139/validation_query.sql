@@ -1,0 +1,1 @@
+SELECT rowid,quote(x) FROM pA ORDER BY rowid

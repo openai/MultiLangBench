@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT t2.c AS c, t3.d AS d, t1.a AS a, t1.b AS b FROM t2 RIGHT JOIN t3 ON d<>0 LEFT JOIN t1 ON c=3 WHERE t1.a<>0;

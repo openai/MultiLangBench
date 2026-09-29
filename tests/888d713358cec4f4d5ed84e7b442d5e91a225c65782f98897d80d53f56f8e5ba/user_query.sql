@@ -1,0 +1,1 @@
+INSERT INTO result SELECT x'303132' IN ();

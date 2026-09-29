@@ -1,0 +1,1 @@
+[["main","table","t3","t3","CREATE TABLE \"t3\"(w)"],["temp","trigger","r1","t3","CREATE TRIGGER r1 AFTER INSERT ON main.\"t3\" BEGIN\n  INSERT INTO t1(a) VALUES(new.w);\nEND"],["temp","table","t2","t2","CREATE TABLE t2(x)"]]

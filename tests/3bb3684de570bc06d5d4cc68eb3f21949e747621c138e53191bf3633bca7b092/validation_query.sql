@@ -1,0 +1,1 @@
+SELECT a FROM sfi_result_2_3 ORDER BY a;

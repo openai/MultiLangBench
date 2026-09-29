@@ -1,0 +1,1 @@
+INSERT INTO t3 VALUES(min(1,2,3),max(1,2,3),99);

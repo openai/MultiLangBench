@@ -1,0 +1,1 @@
+INSERT INTO t2 VALUES((SELECT max(a) FROM t2)+1,999); CREATE TABLE sfi_result AS SELECT max(a) AS v FROM t2;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM t9 WHERE a IN (44, 45, 44, 45);

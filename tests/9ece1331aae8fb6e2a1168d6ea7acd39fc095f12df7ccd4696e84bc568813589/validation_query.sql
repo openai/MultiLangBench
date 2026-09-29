@@ -1,0 +1,1 @@
+SELECT count(*) AS row_count, sum(length(fill)) AS total_bytes, sum(CASE WHEN length(fill)=2048 THEN 1 ELSE 0 END) AS two_kib_rows FROM filler;

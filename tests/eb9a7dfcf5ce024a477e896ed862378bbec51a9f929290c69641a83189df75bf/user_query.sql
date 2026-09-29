@@ -1,0 +1,1 @@
+CREATE TABLE result AS WITH flat(fid,fpath) AS (SELECT id,'' FROM f WHERE parentid IS NULL UNION ALL SELECT id,fpath||'/'||name FROM f,flat WHERE parentid=fid) SELECT count(*) FROM flat;

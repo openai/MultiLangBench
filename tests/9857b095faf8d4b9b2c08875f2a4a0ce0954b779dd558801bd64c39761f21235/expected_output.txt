@@ -1,0 +1,1 @@
+[["a","b","c","CREATE VIRTUAL TABLE \"ggg\" USING fts5(x, y, z)"]]

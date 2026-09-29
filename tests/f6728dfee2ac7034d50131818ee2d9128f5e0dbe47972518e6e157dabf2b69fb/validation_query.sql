@@ -1,0 +1,1 @@
+SELECT desc, asc, key, "14_vac", fuzzy_dog_12, begin, end FROM t2;

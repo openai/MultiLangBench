@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT count(*) OVER (ORDER BY b) AS n FROM t1;

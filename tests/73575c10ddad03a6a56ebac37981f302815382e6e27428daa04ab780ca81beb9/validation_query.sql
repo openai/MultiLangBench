@@ -1,0 +1,1 @@
+SELECT name, type, tbl_name, sql, (SELECT count(*) FROM t1) FROM sqlite_master WHERE name IN ('t1','t3','v1','tr1','tr2') ORDER BY rowid;

@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT SUBSTR(x'1234', -2, -2);

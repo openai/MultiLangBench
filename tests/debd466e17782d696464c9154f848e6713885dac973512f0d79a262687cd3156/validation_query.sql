@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(a||':'||b||':'||c||':'||d||':'||e, ',') FROM (SELECT a,b,c,d,e FROM t2 ORDER BY a)), (SELECT x FROM t3);

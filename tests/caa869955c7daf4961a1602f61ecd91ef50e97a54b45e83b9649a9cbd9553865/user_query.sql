@@ -1,0 +1,1 @@
+INSERT INTO result SELECT json_array(1,null,'3',json('[4,5]'),json('{"six":7.7}'));

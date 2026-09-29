@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT total(x)-((1<<62)*2.0+1) AS x FROM t6;

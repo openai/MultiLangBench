@@ -1,0 +1,1 @@
+SELECT count(*),sum(x='a b c' AND y IS NULL),sum(x='a x c' AND y IS NULL) FROM t1;

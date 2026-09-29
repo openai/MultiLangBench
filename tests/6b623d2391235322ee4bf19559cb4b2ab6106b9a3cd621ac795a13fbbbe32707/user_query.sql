@@ -1,0 +1,1 @@
+BEGIN;INSERT INTO log VALUES('ended');END;

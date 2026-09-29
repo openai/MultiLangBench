@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT x IN() AS a FROM t3 WHERE a;

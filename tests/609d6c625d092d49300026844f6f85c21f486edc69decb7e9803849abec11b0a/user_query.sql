@@ -1,0 +1,1 @@
+PRAGMA count_changes=ON; UPDATE OR REPLACE t1 SET a=1001;

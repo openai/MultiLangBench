@@ -1,0 +1,1 @@
+SELECT data,id FROM result ORDER BY seq;

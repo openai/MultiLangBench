@@ -1,0 +1,2 @@
+PRAGMA query_only=OFF;
+INSERT INTO t1 VALUES(789);

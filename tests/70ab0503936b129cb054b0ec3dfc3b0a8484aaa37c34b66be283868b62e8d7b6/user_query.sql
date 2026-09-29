@@ -1,0 +1,1 @@
+INSERT INTO 'my table'(a, b, d) VALUES(1, 2, 'hello'); INSERT INTO 'my table'(a, b, d) VALUES(3, 4, 'world'); SELECT * FROM 'my table';

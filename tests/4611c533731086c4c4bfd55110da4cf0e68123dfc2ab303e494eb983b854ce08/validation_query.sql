@@ -1,0 +1,1 @@
+SELECT a, hex(b), length(b), EXISTS(SELECT 1 FROM sqlite_schema AS s WHERE s.type='table' AND s.name='b1' AND instr(upper(s.sql),'WITHOUT ROWID')>0) AS is_without_rowid FROM b1 ORDER BY a;

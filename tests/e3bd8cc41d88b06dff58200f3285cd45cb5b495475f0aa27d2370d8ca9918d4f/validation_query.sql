@@ -1,0 +1,1 @@
+SELECT rowid, a, b, l, (SELECT count(*) FROM terms WHERE col='*' AND languageid=0) AS lang0_terms, (SELECT count(*) FROM terms WHERE col='*' AND languageid=1) AS lang1_terms, (SELECT count(*) FROM terms WHERE col='*' AND languageid=2) AS lang2_terms FROM t1 ORDER BY rowid;

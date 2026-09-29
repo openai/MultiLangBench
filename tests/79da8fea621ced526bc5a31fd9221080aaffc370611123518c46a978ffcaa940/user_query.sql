@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES(2,4); INSERT INTO _result(maxa,d) SELECT max(a), (SELECT d FROM t2 WHERE a=c) FROM t1;

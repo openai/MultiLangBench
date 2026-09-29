@@ -1,0 +1,1 @@
+SELECT off FROM sfi_result ORDER BY rowid

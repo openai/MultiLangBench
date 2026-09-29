@@ -1,0 +1,1 @@
+UPDATE t SET t1='AxC',t2='A[^]B]C';INSERT INTO r SELECT t1 GLOB t2 FROM t;

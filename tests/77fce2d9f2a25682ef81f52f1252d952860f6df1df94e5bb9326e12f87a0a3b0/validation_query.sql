@@ -1,0 +1,1 @@
+SELECT id FROM r ORDER BY rowid

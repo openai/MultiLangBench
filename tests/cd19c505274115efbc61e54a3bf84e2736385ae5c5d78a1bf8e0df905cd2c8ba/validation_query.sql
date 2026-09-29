@@ -1,0 +1,1 @@
+SELECT count(*) FROM sqlite_schema WHERE name='mail' OR name GLOB 'mail_*'

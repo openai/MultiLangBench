@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(x, '|') FROM (SELECT x FROM ft2 ORDER BY docid)) AS ft2_rows, (SELECT group_concat(y, '|') FROM (SELECT y FROM ft3 ORDER BY docid)) AS ft3_rows

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT name FROM sqlite_schema WHERE name IN ('t1','i1','i2','i2x','i3','t2') ORDER BY rowid;

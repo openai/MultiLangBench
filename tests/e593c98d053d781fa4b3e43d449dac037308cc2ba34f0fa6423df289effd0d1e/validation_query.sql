@@ -1,0 +1,1 @@
+SELECT count(*), min(a), max(a), min(b), max(b), sum(a), sum(b), (SELECT stat FROM sqlite_stat1 WHERE tbl='y1' AND idx='y1a') FROM y1;

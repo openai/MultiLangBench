@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t0_content) AS content_rows, (SELECT count(*) FROM t0_segdir) AS segdir_rows, (SELECT count(*) FROM t0_segdir WHERE level=0 AND idx=0 AND start_block=0 AND leaves_end_block=0 AND end_block='0 42' AND hex(root)='000131030782000103323334050100FFF200010461616161050101020200000462626262050101030200') AS matching_segdir_rows;

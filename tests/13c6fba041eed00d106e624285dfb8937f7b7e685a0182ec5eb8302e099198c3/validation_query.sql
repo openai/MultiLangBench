@@ -1,0 +1,1 @@
+SELECT blockid, length(block), CASE WHEN block=zeroblob(3204) THEN 1 ELSE 0 END FROM t1_segments WHERE blockid=2;

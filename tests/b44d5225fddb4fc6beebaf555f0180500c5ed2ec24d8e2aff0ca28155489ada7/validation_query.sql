@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(integrity_check,'|') FROM pragma_integrity_check) AS integrity, (SELECT count(*) FROM t1) AS t1_rows, (SELECT count(*) FROM sqlite_schema WHERE type='table' AND name='junk') AS junk_exists

@@ -1,0 +1,1 @@
+CREATE TEMP TABLE foo(idx INTEGER);INSERT INTO foo VALUES(1),(1),(1),(2),(2);CREATE TEMP TABLE bar(stuff INTEGER);INSERT INTO bar VALUES(100),(200),(300);CREATE TABLE r AS SELECT (SELECT count(*) FROM foo) AS nf,(SELECT sum(idx) FROM foo) AS sf,(SELECT count(*) FROM bar) AS nb,(SELECT sum(stuff) FROM bar) AS sb;

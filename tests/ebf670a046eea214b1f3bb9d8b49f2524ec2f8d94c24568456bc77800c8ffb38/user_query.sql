@@ -1,0 +1,1 @@
+INSERT INTO result SELECT round(exp(1.0),7);

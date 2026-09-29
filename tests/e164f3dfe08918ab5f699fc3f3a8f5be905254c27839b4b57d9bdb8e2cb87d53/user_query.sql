@@ -1,0 +1,1 @@
+CREATE TABLE t1(x TEXT PRIMARY KEY,y TEXT,z INT); INSERT INTO t1(x,y,z) VALUES('alpha','ALPHA',1),('bravo','charlie',1); CREATE INDEX i1 ON t1(+y COLLATE NOCASE); CREATE TABLE sfi_result AS SELECT x,y,z FROM t1;

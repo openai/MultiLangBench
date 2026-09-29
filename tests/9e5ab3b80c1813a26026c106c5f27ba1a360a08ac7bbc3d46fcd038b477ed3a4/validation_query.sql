@@ -1,0 +1,1 @@
+SELECT rowid, length(content), substr(content,1,12), substr(content,-12) FROM t2 ORDER BY rowid;

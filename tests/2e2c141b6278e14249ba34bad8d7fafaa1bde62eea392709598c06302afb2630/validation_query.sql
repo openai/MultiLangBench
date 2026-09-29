@@ -1,0 +1,1 @@
+SELECT (SELECT integrity_check FROM pragma_integrity_check),(SELECT count(*) FROM t7),(SELECT count(*) FROM t7 WHERE a=1234567890 AND b='hello' AND c='world');

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT count(DISTINCT rowid) AS n FROM t1;

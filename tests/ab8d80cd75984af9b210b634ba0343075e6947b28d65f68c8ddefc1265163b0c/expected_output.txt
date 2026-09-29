@@ -1,0 +1,1 @@
+[["column","t2",0,"a::0:0"],["column","t2",1,"b::1:0"],["column","t2",2,"c::0:0"],["index-column","t2ab",0,"a"],["index-column","t2ab",1,"b"],["index-column","t2ba",0,"b"],["index-column","t2ba",1,"a"],["index-meta","t2ab",0,"1:c:0"],["index-meta","t2ba",0,"1:c:0"]]

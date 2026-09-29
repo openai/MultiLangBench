@@ -1,0 +1,1 @@
+SELECT count(*) AS n,sum(x='zero one two three') AS matching_rows FROM t1

@@ -1,0 +1,1 @@
+DROP TABLE t1; CREATE VIRTUAL TABLE t1 USING fts4(languageid=lang_id); INSERT INTO t1(content,lang_id) VALUES('A',13),('B',13),('C',13),('D',13),('E',13),('F',13),('G',13),('H',13),('I',13),('J',13),('K',13),('L',13),('M',13),('N',13),('O',13),('P',13),('Q',13),('R',13),('S',13); CREATE TABLE result AS SELECT rowid FROM t1 WHERE t1 MATCH 'A';

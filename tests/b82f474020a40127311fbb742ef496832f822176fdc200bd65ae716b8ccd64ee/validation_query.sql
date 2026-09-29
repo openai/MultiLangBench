@@ -1,0 +1,1 @@
+SELECT (SELECT x FROM t1) AS x, EXISTS(SELECT 1 FROM sqlite_schema WHERE type='table' AND name='t2') AS t2_exists, EXISTS(SELECT 1 FROM sqlite_schema WHERE type='table' AND name='t3') AS t3_exists;

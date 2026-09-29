@@ -1,0 +1,1 @@
+SELECT a, (SELECT count(*) FROM sqlite_schema WHERE type = 'index' AND name = 'i1') AS index_exists FROM t2 WHERE b = X'ABCD' ORDER BY a;

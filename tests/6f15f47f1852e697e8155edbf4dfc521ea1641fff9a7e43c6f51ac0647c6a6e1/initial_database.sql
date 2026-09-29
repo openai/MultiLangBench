@@ -1,0 +1,1 @@
+CREATE TABLE t4(x, y); INSERT INTO t4 VALUES(2,'two');

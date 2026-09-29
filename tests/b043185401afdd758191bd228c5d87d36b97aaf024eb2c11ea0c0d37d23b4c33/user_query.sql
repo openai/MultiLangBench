@@ -1,0 +1,1 @@
+UPDATE t2_content SET c0content=X'1234';

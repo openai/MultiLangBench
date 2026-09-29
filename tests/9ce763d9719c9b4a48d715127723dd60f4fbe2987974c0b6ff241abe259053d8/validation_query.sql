@@ -1,0 +1,1 @@
+SELECT (SELECT sql FROM sqlite_schema WHERE type='table' AND name='t2') AS t2_sql, (SELECT sql FROM sqlite_schema WHERE type='table' AND name='abc') AS abc_sql, (SELECT count(*) FROM abc WHERE a=1 AND b=2 AND c=3) AS abc_rows;

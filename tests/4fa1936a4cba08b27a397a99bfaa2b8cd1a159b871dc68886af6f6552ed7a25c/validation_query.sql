@@ -1,0 +1,1 @@
+SELECT a, b, c, sep FROM result ORDER BY a

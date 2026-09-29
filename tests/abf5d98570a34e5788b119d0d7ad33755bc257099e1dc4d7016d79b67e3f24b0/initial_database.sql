@@ -1,0 +1,1 @@
+CREATE TABLE t1(t TEXT, b BLOB); INSERT INTO t1(t) VALUES('abcdefg'); CREATE TABLE result(v);

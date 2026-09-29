@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT docid,content FROM t1 WHERE t1 MATCH '"aa bb cc"';

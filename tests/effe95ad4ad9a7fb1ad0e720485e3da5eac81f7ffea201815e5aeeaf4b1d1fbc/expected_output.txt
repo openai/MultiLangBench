@@ -1,0 +1,1 @@
+[["index","t8i1","CREATE UNIQUE INDEX t8i1 ON t8(a, b)"],["index","t8i2","CREATE UNIQUE INDEX t8i2 ON t8(c)"],["row","[1,1,1,1,1]",null],["table","t8","CREATE TABLE t8(a, b, c, d, e, FOREIGN KEY(c, d) REFERENCES t8(a, b))"]]

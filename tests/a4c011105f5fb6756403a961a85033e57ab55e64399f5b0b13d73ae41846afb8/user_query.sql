@@ -1,0 +1,1 @@
+UPDATE t1 SET x=3 WHERE _rowid_=2; CREATE TABLE actual AS SELECT x FROM t1 ORDER BY x;

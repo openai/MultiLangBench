@@ -1,0 +1,1 @@
+INSERT INTO t5 VALUES('a','b','c');

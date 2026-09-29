@@ -1,0 +1,1 @@
+SELECT id, name FROM sfi_result ORDER BY id, name;

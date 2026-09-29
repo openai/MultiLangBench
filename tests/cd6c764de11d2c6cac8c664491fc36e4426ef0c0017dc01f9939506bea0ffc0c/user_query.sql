@@ -1,0 +1,1 @@
+CREATE TABLE t2(a,b UNIQUE); CREATE TABLE t3(a int references t2(b), b UNIQUE); CREATE TABLE result AS SELECT id,seq,[table],[from],[to],on_update,on_delete,match FROM pragma_foreign_key_list('t3') ORDER BY id,seq;

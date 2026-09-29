@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT count(*) FROM (SELECT y FROM t1);

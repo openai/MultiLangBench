@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM y1) AS y1_count, (SELECT count(*) FROM y3) AS y3_count;

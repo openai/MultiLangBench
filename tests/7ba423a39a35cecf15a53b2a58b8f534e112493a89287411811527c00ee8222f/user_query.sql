@@ -1,0 +1,1 @@
+DROP TABLE ft6; CREATE TABLE sfi_result AS SELECT a,b,c,d FROM t5;

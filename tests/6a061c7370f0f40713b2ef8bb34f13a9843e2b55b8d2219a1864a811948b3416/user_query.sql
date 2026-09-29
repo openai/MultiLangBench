@@ -1,0 +1,1 @@
+ALTER TABLE ff RENAME TO ffff;

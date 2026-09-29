@@ -1,0 +1,1 @@
+/* join5-3.1 */ CREATE TABLE sfi_result AS SELECT * FROM x1 LEFT JOIN x2 LEFT JOIN x3 ON x3.d=x2.b;

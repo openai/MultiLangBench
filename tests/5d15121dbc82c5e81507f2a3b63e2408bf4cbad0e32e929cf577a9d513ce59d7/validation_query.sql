@@ -1,0 +1,1 @@
+SELECT child_table, child_rowid, parent, fkid, marker FROM result ORDER BY child_table, child_rowid, parent, fkid, marker

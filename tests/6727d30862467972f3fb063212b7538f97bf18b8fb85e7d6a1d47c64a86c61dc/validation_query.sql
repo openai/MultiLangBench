@@ -1,0 +1,1 @@
+SELECT c, d, e, (SELECT count(*) FROM pragma_table_info('t1')) AS ncol FROM t1;

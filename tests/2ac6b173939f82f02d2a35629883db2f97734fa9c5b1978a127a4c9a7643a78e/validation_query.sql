@@ -1,0 +1,1 @@
+SELECT a, b, count(*) FROM t4 GROUP BY a, b ORDER BY b;

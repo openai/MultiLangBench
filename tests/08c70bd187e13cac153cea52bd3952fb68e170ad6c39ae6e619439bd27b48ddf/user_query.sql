@@ -1,0 +1,1 @@
+CREATE TABLE rollback(rollback rollback); INSERT INTO rollback VALUES(99); INSERT INTO rollback SELECT a FROM t1;

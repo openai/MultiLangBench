@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT length(matchinfo(ft)) AS n,typeof(matchinfo(ft)) AS t FROM ft ORDER BY rowid;

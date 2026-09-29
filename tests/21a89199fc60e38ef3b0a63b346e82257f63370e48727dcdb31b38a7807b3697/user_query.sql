@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT a, c, max(b) FILTER (WHERE c='x') AS m FROM t2 GROUP BY a;

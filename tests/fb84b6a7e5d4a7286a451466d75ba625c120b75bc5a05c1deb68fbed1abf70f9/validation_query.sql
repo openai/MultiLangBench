@@ -1,0 +1,1 @@
+SELECT src,n,x,y,z FROM (SELECT 'schema' AS src,0 AS n,name AS x,COALESCE(sql,'') AS y,'' AS z FROM sqlite_schema WHERE tbl_name IN ('collate4t1','collate4t2') UNION ALL SELECT 't1',rowid,quote(a),quote(b),quote(c) FROM collate4t1 UNION ALL SELECT 't2',rowid,quote(a),quote(b),quote(c) FROM collate4t2) ORDER BY src,n,x,y,z;

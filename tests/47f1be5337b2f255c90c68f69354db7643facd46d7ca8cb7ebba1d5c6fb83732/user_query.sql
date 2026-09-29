@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT DISTINCT artist FROM (SELECT DISTINCT artist FROM songs WHERE songid IN (SELECT songid FROM songs WHERE LOWER(artist)=(SELECT DISTINCT LOWER(artist) FROM (SELECT DISTINCT artist,sum(timesplayed) AS total FROM songs GROUP BY LOWER(artist) ORDER BY total DESC LIMIT 10) WHERE artist<>''))) ORDER BY LOWER(artist) ASC;

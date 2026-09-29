@@ -1,0 +1,1 @@
+SELECT name, type, (instr(upper(sql),'WITHOUT ROWID')>0) AS is_without_rowid FROM sqlite_schema WHERE tbl_name='t3' ORDER BY type, name;

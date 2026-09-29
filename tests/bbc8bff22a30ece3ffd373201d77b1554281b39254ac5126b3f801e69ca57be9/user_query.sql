@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT coalesce(datetime(2459607,'+1 hour','julianday'),'NULL');

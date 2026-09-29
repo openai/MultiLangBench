@@ -1,0 +1,1 @@
+CREATE TABLE actual AS SELECT rowid AS rid,a FROM t6 WHERE -5.5>=rowid;

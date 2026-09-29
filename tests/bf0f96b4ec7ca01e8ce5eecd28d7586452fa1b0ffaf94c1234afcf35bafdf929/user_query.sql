@@ -1,0 +1,1 @@
+INSERT INTO _sfi_result(value) SELECT c FROM t1 ORDER BY a DESC LIMIT 5;

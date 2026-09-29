@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a,count(*) AS n FROM collate5t1 GROUP BY a;

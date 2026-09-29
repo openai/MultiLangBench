@@ -1,0 +1,1 @@
+CREATE TABLE t1(a int, b int, c int); INSERT INTO t1 VALUES(1,2,3),(4,5,6); CREATE TABLE t2(d int, e int); INSERT INTO t2 VALUES(3,333),(4,444); CREATE TABLE t3(f int, g int); PRAGMA automatic_index=off;

@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT count(*) AS n FROM t1 WHERE t1.w;

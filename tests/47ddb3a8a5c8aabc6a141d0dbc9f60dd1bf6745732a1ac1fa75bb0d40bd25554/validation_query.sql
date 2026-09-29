@@ -1,0 +1,1 @@
+SELECT lowercase_a_count, uppercase_a_count FROM query_result;

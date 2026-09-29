@@ -1,0 +1,1 @@
+SELECT count(*),count(DISTINCT sought),sum(sought=found),sum(length(found)),(SELECT found FROM result WHERE req=0),(SELECT found FROM result WHERE req=49999) FROM result;

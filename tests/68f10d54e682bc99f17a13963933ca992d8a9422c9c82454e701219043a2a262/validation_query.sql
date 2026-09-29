@@ -1,0 +1,1 @@
+SELECT name, partial FROM pragma_index_list('t1') WHERE name='bad1';

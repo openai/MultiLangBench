@@ -1,0 +1,1 @@
+SELECT * FROM glob ORDER BY glob ASC

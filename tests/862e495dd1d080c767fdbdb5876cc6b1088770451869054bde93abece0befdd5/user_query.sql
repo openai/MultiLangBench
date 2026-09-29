@@ -1,0 +1,1 @@
+CREATE TABLE result(seq INTEGER PRIMARY KEY,a); INSERT INTO result(a) SELECT * FROM collate4t1;

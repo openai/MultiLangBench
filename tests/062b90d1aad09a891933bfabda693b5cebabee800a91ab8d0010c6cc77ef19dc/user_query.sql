@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT min(x), max(x) FROM t6;

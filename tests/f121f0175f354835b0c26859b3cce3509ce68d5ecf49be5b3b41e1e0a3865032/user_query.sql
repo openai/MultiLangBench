@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT length(f) AS f,length(g) AS g,length(h) AS h,length(i) AS i FROM t29b;

@@ -1,0 +1,1 @@
+INSERT INTO t1(x) VALUES(zeroblob(10000));

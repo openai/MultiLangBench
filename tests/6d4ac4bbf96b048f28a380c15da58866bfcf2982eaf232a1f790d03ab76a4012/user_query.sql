@@ -1,0 +1,1 @@
+UPDATE t2 SET c=7, c=6, c=5 WHERE rowid=1;

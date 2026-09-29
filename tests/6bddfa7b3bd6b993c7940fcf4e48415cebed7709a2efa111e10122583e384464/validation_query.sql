@@ -1,0 +1,1 @@
+SELECT trig, a, b FROM log ORDER BY rowid;

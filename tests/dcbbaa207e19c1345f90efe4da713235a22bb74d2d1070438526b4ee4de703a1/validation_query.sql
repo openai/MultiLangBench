@@ -1,0 +1,1 @@
+SELECT group_concat(rowid,',') FROM (SELECT rowid FROM av1 ORDER BY rowid)

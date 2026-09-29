@@ -1,0 +1,1 @@
+CREATE TABLE seed(x); PRAGMA user_version=1;

@@ -1,0 +1,1 @@
+PRAGMA cache_size=50; PRAGMA cache_spill=OFF; BEGIN; UPDATE t2 SET c=c+1; COMMIT;

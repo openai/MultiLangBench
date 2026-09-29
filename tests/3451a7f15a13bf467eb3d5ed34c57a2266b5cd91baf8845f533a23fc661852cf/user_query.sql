@@ -1,0 +1,3 @@
+PRAGMA legacy_alter_table = 1;
+INSERT INTO t1 VALUES(1, 1);
+ALTER TABLE t1 RENAME TO t11;

@@ -1,0 +1,1 @@
+SELECT (SELECT b FROM collate2t2),(SELECT b FROM collate2t3)

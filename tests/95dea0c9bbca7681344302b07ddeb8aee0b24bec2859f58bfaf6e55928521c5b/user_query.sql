@@ -1,0 +1,1 @@
+PRAGMA recursive_triggers=OFF; ATTACH DATABASE ':memory:' AS aux; CREATE TABLE aux.t3(e,f); CREATE TRIGGER aux.tr1 AFTER INSERT ON t3 BEGIN INSERT INTO t3 VALUES(new.e*2,new.f*2); END; DROP TRIGGER aux.tr1; INSERT INTO main.result SELECT count(*) FROM aux.sqlite_master WHERE name='tr1';

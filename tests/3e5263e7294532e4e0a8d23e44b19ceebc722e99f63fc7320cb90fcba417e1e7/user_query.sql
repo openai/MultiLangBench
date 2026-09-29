@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT snippet(t1,'[',']') AS s FROM t1 WHERE t1 MATCH 'b';

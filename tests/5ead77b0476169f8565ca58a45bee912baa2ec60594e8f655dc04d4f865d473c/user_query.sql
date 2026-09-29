@@ -1,0 +1,1 @@
+INSERT INTO t1(a) VALUES(1),(2),(3); INSERT INTO t2(b,x1) VALUES(11,1),(22,2),(33,3); INSERT INTO t3(x2) VALUES(11),(22),(33); CREATE TABLE __sfi_result AS SELECT *, '|' AS sep FROM t3, t2, t1 WHERE x2=b AND x1=a AND a=1;

@@ -1,0 +1,1 @@
+CREATE TABLE p1(a,b,PRIMARY KEY(a,b));

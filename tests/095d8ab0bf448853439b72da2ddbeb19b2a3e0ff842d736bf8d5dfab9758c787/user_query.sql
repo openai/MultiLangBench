@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; UPDATE t1 SET a=10; DELETE FROM t1; DELETE FROM t2;

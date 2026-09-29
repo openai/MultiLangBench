@@ -1,0 +1,1 @@
+SELECT a, b FROM main.t1 ORDER BY rowid;

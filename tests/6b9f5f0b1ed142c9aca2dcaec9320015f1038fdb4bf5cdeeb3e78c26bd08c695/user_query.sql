@@ -1,0 +1,1 @@
+/* 12.40 */ DROP TABLE t1; CREATE TABLE t1(a TEXT, CHECK(NOT(a<>+a))); INSERT INTO t1(a) VALUES(NULL),('xyz'),(5),(x'303132'),(4.75);

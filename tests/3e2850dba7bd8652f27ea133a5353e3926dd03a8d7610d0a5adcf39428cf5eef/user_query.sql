@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT sum(a),max(b) OVER () FROM t1;

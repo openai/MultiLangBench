@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a, b FROM t5 WHERE abs(a)=2 or abs(b)=9;

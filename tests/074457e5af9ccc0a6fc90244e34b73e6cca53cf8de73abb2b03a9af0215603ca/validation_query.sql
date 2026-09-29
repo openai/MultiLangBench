@@ -1,0 +1,1 @@
+SELECT typeof(v), length(v), v=zeroblob(1000), hex(substr(v,1,4)) FROM sfi_result;

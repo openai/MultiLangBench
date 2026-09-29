@@ -1,0 +1,1 @@
+INSERT INTO _result(a,b) SELECT * FROM t3 WHERE a IN (SELECT b FROM t3);

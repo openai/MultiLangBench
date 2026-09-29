@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts4;INSERT INTO t1(docid,content) VALUES(0,''),(1,''),(2,''),(3,''),(4,''),(5,'');

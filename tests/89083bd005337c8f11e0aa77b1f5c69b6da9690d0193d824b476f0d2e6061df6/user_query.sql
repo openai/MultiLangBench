@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rowid AS rid FROM t2 WHERE c MATCH 'lorem';

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM t1 WHERE (2,0) IN (SELECT count(*),0 FROM t1);

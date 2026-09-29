@@ -1,0 +1,1 @@
+[["row","t1","1",""],["row","t2","1",""],["schema","index","i1","t1"],["schema","index","i2","t2"],["schema","table","t1","t1"],["schema","table","t2","t2"],["schema","table","t3","t3"],["stat","t1","i1","1 1"],["stat","t2","i2","1 1"]]

@@ -1,0 +1,1 @@
+CREATE TABLE abort(abort abort); INSERT INTO abort VALUES(99); INSERT INTO abort SELECT a FROM t1;

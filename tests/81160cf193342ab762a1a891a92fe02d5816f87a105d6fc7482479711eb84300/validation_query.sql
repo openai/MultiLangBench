@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t3 INDEXED BY t3b1 WHERE typeof(b)='real') AS indexed_rows, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='t3b1') AS index_count;

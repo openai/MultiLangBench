@@ -1,0 +1,1 @@
+SELECT ta_a,ta_b,tb_a,tb_b FROM _result;

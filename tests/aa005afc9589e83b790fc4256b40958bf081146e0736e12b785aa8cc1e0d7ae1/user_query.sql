@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT parent1.parent1key AS parent_key, child1.value AS child1_value, child2.value AS child2_value FROM parent1 LEFT OUTER JOIN child1 ON child1.child1key=parent1.child1key INNER JOIN child2 ON child2.child2key=parent1.child2key;

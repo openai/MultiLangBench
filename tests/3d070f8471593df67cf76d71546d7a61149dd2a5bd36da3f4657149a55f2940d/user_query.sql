@@ -1,0 +1,1 @@
+CREATE TEMP TABLE snap AS SELECT cid, name, type, "notnull" AS notnull_col, dflt_value, pk FROM pragma_table_info('dbstat'); CREATE TABLE main.result AS SELECT * FROM temp.snap;

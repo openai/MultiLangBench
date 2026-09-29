@@ -1,0 +1,1 @@
+CREATE TABLE t2_ig(a,b NOT NULL ON CONFLICT IGNORE); INSERT INTO t2_ig VALUES(1,'one'),(2,'two'),(3,'three'),(4,'xx'),(6,'xx');

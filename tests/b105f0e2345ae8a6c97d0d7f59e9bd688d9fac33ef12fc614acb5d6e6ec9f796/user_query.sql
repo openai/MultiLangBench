@@ -1,0 +1,1 @@
+INSERT OR ABORT INTO main.a1(b, a) VALUES(1, 2)

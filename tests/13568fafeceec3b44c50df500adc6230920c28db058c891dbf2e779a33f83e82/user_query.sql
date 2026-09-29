@@ -1,0 +1,1 @@
+CREATE TABLE virtual(virtual virtual); INSERT INTO virtual VALUES(99); INSERT INTO virtual SELECT a FROM t1;

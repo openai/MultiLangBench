@@ -1,0 +1,1 @@
+SELECT * FROM t1; INSERT INTO observed SELECT rowid, a FROM t1; PRAGMA data_version; INSERT INTO observed VALUES(4,(SELECT * FROM pragma_data_version));

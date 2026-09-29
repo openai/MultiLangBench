@@ -1,0 +1,1 @@
+INSERT INTO mail VALUES(NULL,replace(hex(zeroblob(5000)),'00','the quick brown fox '))

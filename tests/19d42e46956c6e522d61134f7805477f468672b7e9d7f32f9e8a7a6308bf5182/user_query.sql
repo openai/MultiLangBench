@@ -1,0 +1,1 @@
+INSERT INTO observed(strict_value) SELECT strict FROM pragma_table_list('t1');

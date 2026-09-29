@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; INSERT INTO p2 VALUES(239,231);

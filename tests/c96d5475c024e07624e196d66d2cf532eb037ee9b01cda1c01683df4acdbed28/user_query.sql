@@ -1,0 +1,1 @@
+BEGIN; DELETE FROM t1_content WHERE docid=(SELECT max(docid) FROM t1_content); COMMIT;

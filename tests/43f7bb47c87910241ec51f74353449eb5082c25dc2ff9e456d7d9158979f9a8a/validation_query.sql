@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1) AS t1_rows,(SELECT sum(b) FROM t1) AS t1_b_sum,(SELECT count(*) FROM t2) AS t2_rows,(SELECT sum(d) FROM t2) AS t2_d_sum,(SELECT stat FROM sqlite_stat1 WHERE tbl='t1' AND idx IS NULL) AS t1_stat,(SELECT stat FROM sqlite_stat1 WHERE tbl='t2' AND idx IS NULL) AS t2_stat;

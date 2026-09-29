@@ -1,0 +1,1 @@
+UPDATE t1 SET t1='10'; CREATE TABLE result AS SELECT 1 AS value FROM t1 WHERE 10 IN ('abc',t1,5);

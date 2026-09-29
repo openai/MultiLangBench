@@ -1,0 +1,1 @@
+CREATE TABLE t11(a,b,c,d); CREATE INDEX i11aba ON t11(a,b,a,c); CREATE INDEX i11cccccccc ON t11(c,c,c,c,c,c,c,c); INSERT INTO t11 VALUES(1,2,3,4),(5,6,7,8),(1,2,9,10),(5,11,12,13);

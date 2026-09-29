@@ -1,0 +1,1 @@
+WITH r(ord,idx,stat,check_result) AS (SELECT 0,idx,stat,NULL FROM sqlite_stat1 UNION ALL SELECT 1,NULL,NULL,integrity_check FROM pragma_integrity_check) SELECT idx,stat,check_result FROM r ORDER BY ord,idx;

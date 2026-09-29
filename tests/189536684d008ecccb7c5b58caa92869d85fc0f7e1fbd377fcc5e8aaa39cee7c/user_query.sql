@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT length(zeroblob(-1)) AS v;

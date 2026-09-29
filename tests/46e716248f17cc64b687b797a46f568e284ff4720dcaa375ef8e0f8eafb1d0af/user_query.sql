@@ -1,0 +1,2 @@
+PRAGMA auto_vacuum=INCREMENTAL;
+VACUUM;

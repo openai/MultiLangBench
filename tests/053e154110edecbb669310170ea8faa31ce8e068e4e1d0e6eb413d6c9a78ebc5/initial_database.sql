@@ -1,0 +1,1 @@
+CREATE TABLE x2(c,d,e);CREATE TABLE x3(f,g,h,i);

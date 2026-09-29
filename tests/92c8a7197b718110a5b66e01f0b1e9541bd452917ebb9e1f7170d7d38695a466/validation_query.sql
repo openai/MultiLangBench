@@ -1,0 +1,1 @@
+SELECT PrimaryKey, flagA, columnA FROM t1 ORDER BY PrimaryKey

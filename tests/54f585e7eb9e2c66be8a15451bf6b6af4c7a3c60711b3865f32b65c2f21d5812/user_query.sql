@@ -1,0 +1,1 @@
+INSERT INTO t3(x) VALUES('xyz'); SELECT * FROM t2;

@@ -1,0 +1,1 @@
+[[456,"0123456789","integer","text","CREATE TABLE t2(a INTEGER PRIMARY KEY, b)"]]

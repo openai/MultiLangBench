@@ -1,0 +1,1 @@
+SELECT count(*) FROM zt_segdir;

@@ -1,0 +1,1 @@
+CREATE TABLE t8(x); INSERT INTO t8 VALUES('abcdef'),('ghijkl'),('mnopqr'); CREATE TABLE sfi_result(tag INTEGER,x); INSERT INTO sfi_result SELECT 1,x FROM t8 WHERE x LIKE '%h%'; INSERT INTO sfi_result SELECT 2,x FROM t8 WHERE x LIKE '%h%' ESCAPE 'x';

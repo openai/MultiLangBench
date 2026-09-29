@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT (SELECT x FROM t3 ORDER BY x DESC) AS selected_x;

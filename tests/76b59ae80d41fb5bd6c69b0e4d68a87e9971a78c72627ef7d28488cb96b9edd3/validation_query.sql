@@ -1,0 +1,1 @@
+SELECT db, name FROM (SELECT 1 AS db, name, rowid AS ord FROM main.sqlite_master WHERE type='table' UNION ALL SELECT 2, name, rowid FROM temp.sqlite_master WHERE type='table') ORDER BY db, ord;

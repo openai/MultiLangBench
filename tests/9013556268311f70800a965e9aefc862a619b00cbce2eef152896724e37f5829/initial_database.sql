@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE mail USING fts3(subject VARCHAR(256) NOT NULL, body TEXT CHECK(length(body)<10240))

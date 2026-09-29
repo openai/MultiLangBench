@@ -1,0 +1,1 @@
+CREATE TABLE result(v); INSERT INTO result SELECT sum(alias.x) OVER w FROM over alias WINDOW w AS (ORDER BY y);

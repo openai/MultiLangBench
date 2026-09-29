@@ -1,0 +1,1 @@
+SELECT count(*), sum(y = 'lots of data for the row where x=' || x || ' and y=' || (2*((x-1)%10+1)) || ' - even more data to fill space') FROM t4;

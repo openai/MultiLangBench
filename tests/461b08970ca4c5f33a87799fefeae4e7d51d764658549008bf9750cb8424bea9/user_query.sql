@@ -1,0 +1,1 @@
+INSERT INTO result SELECT round(tan(1), 7);

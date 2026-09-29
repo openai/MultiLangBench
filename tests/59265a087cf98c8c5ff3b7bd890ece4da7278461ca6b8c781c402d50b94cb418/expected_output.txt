@@ -1,0 +1,1 @@
+[["row",2,"2","3"],["row",5,"5","6"],["schema",0,"CREATE TABLE t1(b, a, PRIMARY KEY(b, a)) WITHOUT ROWID",null]]

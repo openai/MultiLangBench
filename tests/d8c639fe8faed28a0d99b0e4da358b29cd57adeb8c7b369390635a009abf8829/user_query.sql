@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result(seq INTEGER PRIMARY KEY, name TEXT); INSERT INTO sfi_result(name) SELECT name FROM album JOIN track USING(aid) ORDER BY title, tn DESC;

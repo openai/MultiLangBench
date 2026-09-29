@@ -1,0 +1,1 @@
+INSERT INTO sfi_result(d) SELECT d FROM t2 ORDER BY d;

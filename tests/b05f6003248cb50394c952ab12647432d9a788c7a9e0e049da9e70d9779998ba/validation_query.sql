@@ -1,0 +1,1 @@
+SELECT rid FROM result ORDER BY seq;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT b, abs(b), coalesce(b,-b,NOT b,c,NOT c), c, -c FROM t1 ORDER BY a;

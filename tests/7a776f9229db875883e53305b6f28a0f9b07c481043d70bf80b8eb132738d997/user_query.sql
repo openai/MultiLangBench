@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT a, min(b+c) AS v FROM t11;

@@ -1,0 +1,1 @@
+[["index","i1","t1","CREATE INDEX i1 ON t1( (d IS NULL), d )"]]

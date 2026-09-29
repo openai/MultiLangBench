@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT hex(substring(x'61E188B462E28D8563E3919663', -5, 4));

@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT 'B' COLLATE NOCASE < 'a' AS result;

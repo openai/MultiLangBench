@@ -1,0 +1,1 @@
+CREATE TABLE t3(a,_rowid_); INSERT INTO t3 VALUES('five','six'),('seven','eight');

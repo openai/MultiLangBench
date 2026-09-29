@@ -1,0 +1,1 @@
+CREATE TABLE actual AS SELECT count(*) AS n FROM (SELECT rowid FROM t1 ORDER BY x);

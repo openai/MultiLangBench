@@ -1,0 +1,1 @@
+INSERT INTO result SELECT * FROM t3 WHERE input = 123 ORDER BY position;

@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT sql FROM sqlite_schema WHERE type='trigger';

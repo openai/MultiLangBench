@@ -1,0 +1,1 @@
+CREATE TABLE t7(a,b,c); INSERT INTO t7(a,b,c) VALUES(1,2,2),('abc','def','def'),(4,5,6); CREATE INDEX t7b ON t7(+b); CREATE INDEX t7c ON t7(+c); CREATE TABLE sfi_result AS SELECT a,b,c,'|' AS marker FROM t7 WHERE +b=+c ORDER BY +a;

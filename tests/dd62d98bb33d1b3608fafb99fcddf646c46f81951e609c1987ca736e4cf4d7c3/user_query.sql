@@ -1,0 +1,1 @@
+PRAGMA locking_mode=EXCLUSIVE; CREATE TABLE result AS SELECT x,y FROM t1,t2;

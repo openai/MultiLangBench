@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE vt0 USING fts4(c0, prefix=1);

@@ -1,0 +1,1 @@
+SELECT count(*), COALESCE(max(c),-1), (SELECT x FROM t2) FROM t1;

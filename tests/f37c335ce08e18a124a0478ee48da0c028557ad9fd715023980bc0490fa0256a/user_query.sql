@@ -1,0 +1,1 @@
+UPDATE t1 SET x=n FROM x1 WHERE x=o;

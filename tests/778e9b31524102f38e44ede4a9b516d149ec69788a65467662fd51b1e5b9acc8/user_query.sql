@@ -1,0 +1,1 @@
+CREATE TABLE result(seq INTEGER PRIMARY KEY, id); INSERT INTO result(id) SELECT id FROM c5 WHERE c='abc' ORDER BY id;

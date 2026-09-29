@@ -1,0 +1,1 @@
+SELECT a,"b+c",c FROM result

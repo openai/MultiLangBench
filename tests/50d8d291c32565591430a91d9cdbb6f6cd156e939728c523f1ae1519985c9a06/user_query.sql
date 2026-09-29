@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT offsets(t1) AS off FROM t1 WHERE t1 MATCH 'a*';

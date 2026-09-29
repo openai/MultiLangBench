@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT flt FROM t1 ORDER BY flt DESC;

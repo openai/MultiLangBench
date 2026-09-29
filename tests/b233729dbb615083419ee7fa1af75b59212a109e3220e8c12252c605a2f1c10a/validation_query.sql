@@ -1,0 +1,1 @@
+SELECT selected_x FROM result

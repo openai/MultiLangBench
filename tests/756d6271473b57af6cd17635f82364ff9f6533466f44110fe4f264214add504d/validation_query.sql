@@ -1,0 +1,1 @@
+SELECT rowid, typeof(x), typeof(y), x=y, CASE rowid WHEN 1 THEN (x=5.0 AND y=5.0) WHEN 2 THEN (x=4611686018427387904 AND y=4611686018427387904) END, '|' FROM t1 ORDER BY rowid;

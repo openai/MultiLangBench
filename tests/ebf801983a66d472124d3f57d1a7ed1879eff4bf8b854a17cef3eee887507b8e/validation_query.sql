@@ -1,0 +1,1 @@
+SELECT count(*) AS samples, sum(stage='before') AS before_samples, sum(stage='after') AS after_samples, min(pages)=max(pages) AS unchanged FROM observed;

@@ -1,0 +1,1 @@
+SELECT rid, snip FROM result ORDER BY rid;

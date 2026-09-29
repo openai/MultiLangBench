@@ -1,0 +1,1 @@
+SELECT x1,x2,c,v FROM result ORDER BY x1,x2,c;

@@ -1,0 +1,1 @@
+UPDATE ft SET b=o.c FROM ft AS o WHERE (ft.a == char(unicode(o.a)+1));

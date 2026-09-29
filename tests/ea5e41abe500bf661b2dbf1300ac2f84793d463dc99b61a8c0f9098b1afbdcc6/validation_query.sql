@@ -1,0 +1,1 @@
+SELECT stat FROM sqlite_stat1 WHERE idx='people_idx1';

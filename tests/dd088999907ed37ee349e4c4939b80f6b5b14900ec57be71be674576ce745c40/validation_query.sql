@@ -1,0 +1,1 @@
+SELECT a,b,a IS NULL,b IS NULL FROM log ORDER BY rowid;

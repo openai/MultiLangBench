@@ -1,0 +1,1 @@
+INSERT INTO _sfi_result(name,is_unique,origin) SELECT name,[unique],origin FROM pragma_index_list('t1') WHERE origin='pk' ORDER BY seq;

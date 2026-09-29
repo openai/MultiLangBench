@@ -1,0 +1,1 @@
+SELECT c1 FROM result ORDER BY rowid

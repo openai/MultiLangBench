@@ -1,0 +1,1 @@
+SELECT object_type, object_name FROM result ORDER BY object_type, object_name;

@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; BEGIN; PRAGMA defer_foreign_keys=1; INSERT INTO c1 VALUES('three'); DROP TABLE c1; COMMIT; INSERT INTO observed SELECT * FROM pragma_defer_foreign_keys;

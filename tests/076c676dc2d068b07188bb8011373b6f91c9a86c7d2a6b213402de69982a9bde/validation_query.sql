@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1) AS t1_count, (SELECT sum(f1) FROM t1) AS t1_sum, (SELECT count(*) FROM t2) AS t2_count, (SELECT min(f2) FROM t2) AS t2_min, (SELECT max(f2) FROM t2) AS t2_max, (SELECT sum(f2) FROM t2) AS t2_sum, (SELECT group_concat(name, ',') FROM (SELECT name FROM pragma_index_info('t2f') ORDER BY seqno)) AS index_columns;

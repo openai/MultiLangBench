@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a, count(*) OVER (ORDER BY a DESC), group_concat(a,'.') OVER (ORDER BY a DESC) FROM t2 ORDER BY a DESC;

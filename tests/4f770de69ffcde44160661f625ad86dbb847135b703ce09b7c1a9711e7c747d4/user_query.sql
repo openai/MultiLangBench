@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b,c,d, PRIMARY KEY(c,a)) WITHOUT ROWID; CREATE INDEX t1bd ON t1(b,d); INSERT INTO t1 VALUES('journal','sherman','ammonia','helena'),('dynamic','juliet','flipper','command'),('journal','sherman','gamma','patriot'),('arctic','sleep','ammonia','helena'); CREATE TABLE sfi_result AS SELECT a,b,c,d,'|' AS marker FROM t1 ORDER BY c,a;

@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES(1, 2); INSERT INTO t1 VALUES(3, 4); INSERT INTO t1 VALUES(5, 6); CREATE TABLE saved(a,b,c,d,e); INSERT INTO saved SELECT * FROM sqlite_master WHERE type = 'index'; PRAGMA writable_schema = 1; DELETE FROM sqlite_master WHERE type = 'index';

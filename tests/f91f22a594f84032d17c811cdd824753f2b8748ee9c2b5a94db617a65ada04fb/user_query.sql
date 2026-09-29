@@ -1,0 +1,1 @@
+CREATE TABLE fail(fail fail); INSERT INTO fail VALUES(99); INSERT INTO fail SELECT a FROM t1;

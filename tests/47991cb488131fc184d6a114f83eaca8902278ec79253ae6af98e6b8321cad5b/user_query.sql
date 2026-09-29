@@ -1,0 +1,7 @@
+PRAGMA writable_schema=ON;
+PRAGMA foreign_keys=ON;
+CREATE TABLE sqlite_stat1 (tbl INTEGER PRIMARY KEY DESC, idx UNIQUE DEFAULT NULL) WITHOUT ROWID;
+PRAGMA writable_schema=OFF;
+CREATE TABLE sqlsim4(stat PRIMARY KEY);
+CREATE TABLE t1(sqlsim7 REFERENCES sqlite_stat1 ON DELETE CASCADE);
+DROP TABLE "sqlsim4";

@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT b, c, '|' AS marker FROM t1 WHERE substr(a,1,12)=='and_the_Word' ORDER BY b, c;

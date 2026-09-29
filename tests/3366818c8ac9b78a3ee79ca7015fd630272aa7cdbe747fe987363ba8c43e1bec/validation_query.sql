@@ -1,0 +1,1 @@
+SELECT (SELECT rootpage FROM sqlite_schema WHERE name='t1')=(SELECT original_rootpage FROM original_roots WHERE name='t1i1') AS table_root_swapped, (SELECT rootpage FROM sqlite_schema WHERE name='t1i1')=(SELECT original_rootpage FROM original_roots WHERE name='t1') AS index_root_swapped, (SELECT schema_version FROM pragma_schema_version) AS schema_cookie;

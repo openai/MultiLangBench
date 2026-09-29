@@ -1,0 +1,1 @@
+CREATE TABLE _result AS SELECT a+100*(b IN (8,16,24)) AS v, b AS ord FROM t1;

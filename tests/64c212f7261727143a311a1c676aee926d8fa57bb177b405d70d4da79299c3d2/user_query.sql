@@ -1,0 +1,1 @@
+CREATE TABLE lost_and_found_0(a, b, c);

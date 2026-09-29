@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(name,',') FROM (SELECT name FROM sqlite_master WHERE name IN ('t1','i1','t2','i2') ORDER BY name)) AS objects,(SELECT group_concat(a||':'||b,',') FROM (SELECT a,b FROM t1 ORDER BY a)) AS t1_rows,(SELECT group_concat(a||':'||b,',') FROM (SELECT a,b FROM t2 ORDER BY a)) AS t2_rows;

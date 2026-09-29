@@ -1,0 +1,1 @@
+INSERT INTO t12(y) VALUES(5);

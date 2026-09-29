@@ -1,0 +1,1 @@
+UPDATE t SET t1='ax'||char(4660),t2='a*'||char(4660);INSERT INTO r SELECT t1 GLOB t2 FROM t;

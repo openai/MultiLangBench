@@ -1,0 +1,1 @@
+SELECT g,h,i,typeof(h),typeof(i) FROM t3

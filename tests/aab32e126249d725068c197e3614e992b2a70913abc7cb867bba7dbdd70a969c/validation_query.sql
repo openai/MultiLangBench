@@ -1,0 +1,1 @@
+SELECT * FROM row ORDER BY row ASC

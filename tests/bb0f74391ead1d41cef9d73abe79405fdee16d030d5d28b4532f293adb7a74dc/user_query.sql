@@ -1,0 +1,1 @@
+INSERT INTO result SELECT power(2,2), power(2,-2);

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t10 USING fts4; INSERT INTO t10 VALUES('first record'); INSERT INTO t10 VALUES('second record')

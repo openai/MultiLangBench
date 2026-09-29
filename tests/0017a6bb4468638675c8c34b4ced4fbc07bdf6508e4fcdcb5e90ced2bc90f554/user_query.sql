@@ -1,0 +1,1 @@
+BEGIN; DROP INDEX t3_i; PRAGMA incremental_vacuum; INSERT INTO t3 VALUES('hello','world'); ROLLBACK;

@@ -1,0 +1,1 @@
+SELECT name,type FROM sqlite_schema WHERE name='t11' OR name GLOB 't11_*' ORDER BY name

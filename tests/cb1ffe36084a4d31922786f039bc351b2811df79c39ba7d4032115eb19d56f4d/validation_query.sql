@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(k||':'||a||':'||__hidden__b, '|') FROM (SELECT k, a, __hidden__b FROM v1 ORDER BY k)), (SELECT count(*) FROM log), (SELECT count(*) FROM sqlite_schema WHERE type='view' AND name='v1'), (SELECT count(*) FROM sqlite_schema WHERE type='trigger' AND name='tr1');

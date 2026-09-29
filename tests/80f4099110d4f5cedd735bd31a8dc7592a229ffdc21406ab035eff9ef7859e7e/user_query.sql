@@ -1,0 +1,1 @@
+CREATE VIEW v1c(x,y,z) AS SELECT a,b+c,c-b FROM t1; CREATE TABLE result AS SELECT * FROM v1c LIMIT 1;

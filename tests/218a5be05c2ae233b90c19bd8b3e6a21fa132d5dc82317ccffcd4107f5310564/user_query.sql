@@ -1,0 +1,4 @@
+CREATE TABLE sfi_result AS
+SELECT * FROM t0 WHERE (
+  ((0 IS NOT FALSE) OR NOT (0 IS FALSE OR (t0.c0 = 1))) IS 0
+);

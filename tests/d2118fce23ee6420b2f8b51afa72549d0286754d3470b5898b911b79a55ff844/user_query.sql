@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES(printf('N%0899d',0)); SELECT count(*) FROM t1; PRAGMA integrity_check;

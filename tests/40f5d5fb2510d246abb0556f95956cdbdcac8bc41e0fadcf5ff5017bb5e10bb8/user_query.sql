@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a,b,'|' AS sep FROM t600 WHERE a=='state' OR b='mercury';

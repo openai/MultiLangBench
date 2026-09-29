@@ -1,0 +1,1 @@
+CREATE TABLE savepoint(savepoint savepoint); INSERT INTO savepoint VALUES(99); INSERT INTO savepoint SELECT a FROM t1;

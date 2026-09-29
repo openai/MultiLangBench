@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result(seq INTEGER,label TEXT,value INTEGER); INSERT INTO sfi_result SELECT 1,'before',count(*) FROM t1; BEGIN; DELETE FROM t1 WHERE c=3102 AND d=3103; ROLLBACK; INSERT INTO sfi_result SELECT 2,'after_rollback',count(*) FROM t1; DELETE FROM t1 WHERE c=3102 AND d=3103; INSERT INTO sfi_result SELECT 3,'after_delete',count(*) FROM t1;

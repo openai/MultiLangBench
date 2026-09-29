@@ -1,0 +1,1 @@
+CREATE TABLE t1(a, b); INSERT INTO t1 VALUES(1, 2), (3, 4), (5, 6), (7, 8); CREATE TABLE t2(a, b); INSERT INTO t2 VALUES('a', 'b'), ('c', 'd'); CREATE TABLE t3(a, b); INSERT INTO t3 VALUES('i', 'ii');

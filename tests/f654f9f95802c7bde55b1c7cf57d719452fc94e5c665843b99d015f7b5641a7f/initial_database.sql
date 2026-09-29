@@ -1,0 +1,4 @@
+PRAGMA legacy_alter_table = 1;
+CREATE TABLE t1(a, b, c);
+CREATE VIEW v1 AS SELECT * FROM t2;
+ALTER TABLE t1 RENAME TO t3;

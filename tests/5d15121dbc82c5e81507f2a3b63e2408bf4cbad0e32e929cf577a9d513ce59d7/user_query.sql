@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT x.[table] AS child_table, x.[rowid] AS child_rowid, x.parent, x.fkid, '|' AS marker FROM sqlite_schema AS s, pragma_foreign_key_check(s.name) AS x WHERE s.type='table' ORDER BY x.[table], x.[rowid];

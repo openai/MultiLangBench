@@ -1,0 +1,1 @@
+SELECT x, y, hex(z) FROM t6 ORDER BY rowid;

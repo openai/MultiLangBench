@@ -1,0 +1,1 @@
+CREATE TABLE t1(a TEXT); CREATE TABLE t2(x INT); INSERT INTO t1 VALUES('abc'); PRAGMA automatic_index=OFF;

@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=OFF; CREATE TABLE p3(a TEXT PRIMARY KEY); INSERT INTO p3 VALUES(66),(67),('alpha'),('BRAVO'); CREATE TABLE c11(x TEXT UNIQUE REFERENCES p3); INSERT INTO c11 VALUES('65'),('67'),('68'),('Alpha'),('alpha'),('foxtrot');

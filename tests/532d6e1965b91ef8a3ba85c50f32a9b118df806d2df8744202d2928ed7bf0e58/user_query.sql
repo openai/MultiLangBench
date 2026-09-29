@@ -1,0 +1,1 @@
+UPDATE v4 SET c1=c1||'-extra' WHERE c1 BETWEEN '8' AND 'eight';

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT lead(44) OVER ();

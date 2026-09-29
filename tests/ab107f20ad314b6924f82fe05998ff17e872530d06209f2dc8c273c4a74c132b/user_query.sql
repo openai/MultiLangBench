@@ -1,0 +1,1 @@
+PRAGMA locking_mode=EXCLUSIVE; INSERT INTO result SELECT 1,locking_mode FROM pragma_locking_mode; CREATE TABLE tx(a); PRAGMA journal_mode=OFF; INSERT INTO result SELECT 2,journal_mode FROM pragma_journal_mode;

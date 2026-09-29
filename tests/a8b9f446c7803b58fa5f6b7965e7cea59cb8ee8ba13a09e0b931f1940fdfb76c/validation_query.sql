@@ -1,0 +1,1 @@
+SELECT quote(c),typeof(c) FROM chi ORDER BY rowid

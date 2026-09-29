@@ -1,0 +1,1 @@
+SELECT x,y,yy FROM vx ORDER BY x

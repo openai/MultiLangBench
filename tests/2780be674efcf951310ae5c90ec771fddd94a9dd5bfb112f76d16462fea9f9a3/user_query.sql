@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT n FROM t WHERE (i=1 AND j=1) OR (j=2 AND m=2) OR (i=3 AND j=3);

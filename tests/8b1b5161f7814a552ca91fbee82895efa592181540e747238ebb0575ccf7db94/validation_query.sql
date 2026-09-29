@@ -1,0 +1,1 @@
+SELECT count(*) FROM pragma_foreign_key_list('song')

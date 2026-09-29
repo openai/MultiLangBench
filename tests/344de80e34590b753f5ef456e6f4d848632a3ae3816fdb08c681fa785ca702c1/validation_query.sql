@@ -1,0 +1,1 @@
+SELECT rowid, a, b, (SELECT sql FROM sqlite_schema WHERE type='table' AND name='t1') AS schema_sql FROM t1 ORDER BY rowid;

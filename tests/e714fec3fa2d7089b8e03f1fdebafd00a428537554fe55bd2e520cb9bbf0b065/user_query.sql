@@ -1,0 +1,1 @@
+INSERT INTO observed SELECT * FROM pragma_defer_foreign_keys;

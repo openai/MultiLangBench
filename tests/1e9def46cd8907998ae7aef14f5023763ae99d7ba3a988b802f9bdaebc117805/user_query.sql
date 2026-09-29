@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT round(1234567890.5) AS x;

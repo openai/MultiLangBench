@@ -1,0 +1,1 @@
+UPDATE obj SET x=json_set(x,'$."d"',4);

@@ -1,0 +1,1 @@
+CREATE TABLE t3(a nullvalue); INSERT INTO t3 VALUES(NULL);

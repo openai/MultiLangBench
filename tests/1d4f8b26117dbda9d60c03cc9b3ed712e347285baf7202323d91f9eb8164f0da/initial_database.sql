@@ -1,0 +1,1 @@
+CREATE TABLE result(n INTEGER, total INTEGER, minlen INTEGER, maxlen INTEGER);

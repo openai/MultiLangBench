@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS main.t1(a,b,c);

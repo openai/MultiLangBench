@@ -1,0 +1,1 @@
+SELECT id,b FROM test2 ORDER BY id;

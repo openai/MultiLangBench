@@ -1,0 +1,1 @@
+PRAGMA foreign_keys = ON; BEGIN; DROP TABLE cc; DROP TABLE pp; COMMIT;

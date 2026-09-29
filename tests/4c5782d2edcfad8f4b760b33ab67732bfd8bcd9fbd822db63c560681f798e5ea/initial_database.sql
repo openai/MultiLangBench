@@ -1,0 +1,1 @@
+CREATE TABLE collate5t3(a,b); INSERT INTO collate5t3 VALUES(1,'a');

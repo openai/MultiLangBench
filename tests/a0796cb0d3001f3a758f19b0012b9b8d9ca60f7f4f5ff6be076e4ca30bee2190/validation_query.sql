@@ -1,0 +1,1 @@
+SELECT docid, hex(size), (SELECT count(*) FROM t1) AS content_rows FROM t1_docsize ORDER BY docid

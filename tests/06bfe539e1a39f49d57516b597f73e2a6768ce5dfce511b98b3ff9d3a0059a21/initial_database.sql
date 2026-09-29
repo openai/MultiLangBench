@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE porter USING fts3(tokenize=porter); INSERT INTO porter VALUES('Right now they''re very frustrated')

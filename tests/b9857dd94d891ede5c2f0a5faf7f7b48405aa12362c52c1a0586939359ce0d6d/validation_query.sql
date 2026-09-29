@@ -1,0 +1,1 @@
+SELECT level, idx, typeof(root), hex(root) FROM t1_segdir ORDER BY level, idx;

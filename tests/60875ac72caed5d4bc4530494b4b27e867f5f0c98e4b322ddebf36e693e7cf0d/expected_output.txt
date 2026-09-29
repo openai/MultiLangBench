@@ -1,0 +1,1 @@
+[["A","Apple"],["A","apple"],["B","Banana"],["b","banana"],["N",null]]

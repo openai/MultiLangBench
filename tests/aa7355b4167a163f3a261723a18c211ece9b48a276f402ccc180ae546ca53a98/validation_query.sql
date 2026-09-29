@@ -1,0 +1,1 @@
+SELECT type, name, tbl_name, sql FROM sqlite_master WHERE name IN ('x','y','t','z2') ORDER BY rowid;

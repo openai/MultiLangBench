@@ -1,0 +1,1 @@
+SELECT type, name, sql, (SELECT count(*) FROM t6) AS n FROM sqlite_schema WHERE name='t6';

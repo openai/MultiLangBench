@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT printf('%.*g',2147483647,0.01);

@@ -1,0 +1,1 @@
+SELECT y FROM log ORDER BY rowid

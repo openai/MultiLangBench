@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM u1 WHERE x=y AND y=z AND z='013';

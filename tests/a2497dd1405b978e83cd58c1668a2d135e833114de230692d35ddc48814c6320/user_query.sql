@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT Max(f1) FROM test1;

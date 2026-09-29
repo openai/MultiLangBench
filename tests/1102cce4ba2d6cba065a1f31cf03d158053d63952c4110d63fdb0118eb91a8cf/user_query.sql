@@ -1,0 +1,1 @@
+INSERT INTO result SELECT round(radians(90),7);

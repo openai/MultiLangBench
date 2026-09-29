@@ -1,0 +1,1 @@
+CREATE TABLE capture(name TEXT); ATTACH ':memory:' AS aux; ATTACH ':memory:' AS aux2; ATTACH ':memory:' AS aux3; DETACH aux; DETACH aux2; DETACH aux3; INSERT INTO capture SELECT name FROM pragma_database_list;

@@ -1,0 +1,1 @@
+SELECT (SELECT freelist_count FROM pragma_freelist_count),EXISTS(SELECT 1 FROM sqlite_schema WHERE name='t3'),EXISTS(SELECT 1 FROM sqlite_schema WHERE name='t2');

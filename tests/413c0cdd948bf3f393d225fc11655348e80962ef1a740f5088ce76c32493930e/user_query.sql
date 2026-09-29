@@ -1,0 +1,1 @@
+INSERT INTO mail VALUES('hello world','This message is a hello world message.')

@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; BEGIN; INSERT INTO cd VALUES('x','y'); DELETE FROM cd; COMMIT;

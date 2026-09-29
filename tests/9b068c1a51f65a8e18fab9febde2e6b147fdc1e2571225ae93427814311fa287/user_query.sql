@@ -1,0 +1,1 @@
+INSERT INTO result SELECT '$::t6int', [$::t6int], 6, 6, "?1", 6 FROM t6;

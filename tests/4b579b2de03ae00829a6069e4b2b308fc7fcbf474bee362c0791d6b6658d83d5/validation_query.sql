@@ -1,0 +1,1 @@
+SELECT indexed FROM result ORDER BY indexed;

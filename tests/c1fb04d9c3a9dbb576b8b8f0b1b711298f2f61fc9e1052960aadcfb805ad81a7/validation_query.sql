@@ -1,0 +1,1 @@
+SELECT a,b,(SELECT count(DISTINCT a) FROM collate5t2) AS da,(SELECT count(DISTINCT b) FROM collate5t2) AS db FROM collate5t2 ORDER BY rowid;

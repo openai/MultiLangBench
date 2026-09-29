@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT length(json_extract(char(34)||char(92)||'uD834'||char(92)||'uDD1E'||char(34),'$')) AS v;

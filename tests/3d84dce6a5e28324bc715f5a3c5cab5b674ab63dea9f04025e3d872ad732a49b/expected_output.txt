@@ -1,0 +1,1 @@
+[["table","t1","t1","CREATE VIRTUAL TABLE t1 USING fts3"],["trigger","t1","tbl","CREATE TRIGGER t1 AFTER INSERT ON tbl BEGIN INSERT INTO log VALUES('after insert', new.a, new.b); END"]]

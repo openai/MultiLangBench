@@ -1,0 +1,1 @@
+SELECT p2.a, p2.b, (SELECT count(*) FROM c2 WHERE c2.y=p2.a) FROM p2 ORDER BY p2.a;

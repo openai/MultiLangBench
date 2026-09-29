@@ -1,0 +1,1 @@
+PRAGMA auto_vacuum = 1; CREATE TABLE t1(a, b);

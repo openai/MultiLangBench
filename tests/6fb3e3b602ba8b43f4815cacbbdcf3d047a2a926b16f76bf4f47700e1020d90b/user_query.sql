@@ -1,0 +1,1 @@
+CREATE TABLE result(c1,c2,c3,c4); INSERT INTO result SELECT group_concat(CAST(b AS TEXT),'_') FILTER (WHERE b%2!=0), group_concat(CAST(b AS TEXT),'_') FILTER (WHERE b%2!=1), count(*) FILTER (WHERE b%2!=0), count(*) FILTER (WHERE b%2!=1) FROM t1;

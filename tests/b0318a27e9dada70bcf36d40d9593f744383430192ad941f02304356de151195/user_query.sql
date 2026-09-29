@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT hex('ÿ') AS x;

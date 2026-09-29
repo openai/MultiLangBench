@@ -1,0 +1,1 @@
+ALTER TABLE p1 RENAME d TO "silly name";

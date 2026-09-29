@@ -1,0 +1,1 @@
+INSERT INTO r SELECT count(*) FROM t1 WHERE (x OR (8==9))!=(NOT NOT x);

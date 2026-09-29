@@ -1,0 +1,1 @@
+SELECT cid, name, pk FROM pragma_table_info('t2') ORDER BY cid;

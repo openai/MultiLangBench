@@ -1,0 +1,1 @@
+SELECT count(*) FROM sqlite_schema WHERE name IN ('collate3t1','collate3i1');

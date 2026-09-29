@@ -1,0 +1,1 @@
+[["table","t1x","t1x","CREATE TABLE \"t1x\"(x)"],["trigger","AFTER","t1x","CREATE TRIGGER AFTER INSERT ON \"t1x\" BEGIN SELECT (WITH t2 AS (WITH t3 AS (SELECT true) SELECT * FROM t3 ORDER BY true COLLATE nocase) SELECT 11); WITH t4 AS (SELECT * FROM \"t1x\") SELECT 33; END"]]

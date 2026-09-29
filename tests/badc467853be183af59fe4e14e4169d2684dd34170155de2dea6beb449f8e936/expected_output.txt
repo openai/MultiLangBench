@@ -1,0 +1,1 @@
+[["schema:table:t1","CREATE TABLE t1(a)"],["schema:table:t3","CREATE TABLE t3(b)"],["schema:view:t2","CREATE VIEW t2(b) AS SELECT json(TRUE)"],["t1-row","'x'"],["t2-row","'1'"],["t3-row","'1'"]]

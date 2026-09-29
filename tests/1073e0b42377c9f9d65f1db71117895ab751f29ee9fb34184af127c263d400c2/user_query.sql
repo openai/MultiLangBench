@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT content FROM ta WHERE ta MATCH 'summer'

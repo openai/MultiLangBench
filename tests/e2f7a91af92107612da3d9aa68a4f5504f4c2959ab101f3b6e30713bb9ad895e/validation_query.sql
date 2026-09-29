@@ -1,0 +1,1 @@
+SELECT name, type FROM sqlite_master WHERE type = 'table' ORDER BY name;

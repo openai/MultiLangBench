@@ -1,0 +1,1 @@
+SELECT count(*), max(rowid), (SELECT count(*) FROM x1), (SELECT count(*) FROM sqlite_master WHERE type='table' AND name='x1') FROM t1;

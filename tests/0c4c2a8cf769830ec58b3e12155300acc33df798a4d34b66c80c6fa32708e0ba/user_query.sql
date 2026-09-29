@@ -1,0 +1,1 @@
+INSERT INTO result(ItemName) SELECT Items.ItemName FROM Items LEFT JOIN A ON (A.Name = Items.ItemName AND Items.ItemName = 'dummy') LEFT JOIN B ON (B.Name = Items.ItemName) WHERE Items.Name = 'Parent' ORDER BY Items.ItemName;

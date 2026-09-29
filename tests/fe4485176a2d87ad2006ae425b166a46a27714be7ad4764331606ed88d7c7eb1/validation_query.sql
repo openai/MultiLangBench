@@ -1,0 +1,1 @@
+SELECT a FROM t13 ORDER BY a;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a>b AS x FROM t2 GROUP BY a, b;

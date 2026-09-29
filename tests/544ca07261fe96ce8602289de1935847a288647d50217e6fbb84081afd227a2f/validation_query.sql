@@ -1,0 +1,1 @@
+SELECT count(*), sum(a), sum(c), sum(b IS NULL), sum(coalesce(b,0)) FROM t5;

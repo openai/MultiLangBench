@@ -1,0 +1,1 @@
+PRAGMA auto_vacuum=0; CREATE TABLE t1(x,y); INSERT INTO t1(rowid,x,y) VALUES(1,CAST('00000001' AS BLOB),CAST(replace(printf('%500s',''),' ','00000001') AS BLOB)); CREATE TABLE observed(v INTEGER);

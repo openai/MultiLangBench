@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT 'TWOX' == (b || 'x') COLLATE nocase AS v FROM t1 WHERE (b || 'x')>'onex';

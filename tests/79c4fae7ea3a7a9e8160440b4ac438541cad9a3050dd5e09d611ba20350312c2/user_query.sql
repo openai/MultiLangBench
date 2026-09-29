@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT * FROM t WHERE EXISTS (SELECT 1 FROM json_each(t.json,'$.foo') AS j WHERE j.value='meep');

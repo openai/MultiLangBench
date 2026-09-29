@@ -1,0 +1,1 @@
+[["index:i1:t1|index:i2:t2|table:t1:t1|table:t2:t2","CREATE TABLE t2(x, y, PRIMARY KEY(x, y)) WITHOUT ROWID"]]

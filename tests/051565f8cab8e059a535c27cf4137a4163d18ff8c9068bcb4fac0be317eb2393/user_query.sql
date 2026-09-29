@@ -1,0 +1,1 @@
+DROP TABLE x1; CREATE TABLE x1(u, v, b, PRIMARY KEY(u, v)); INSERT INTO x1 VALUES(0, 1, 'one'), (1, 0, 'two'), (1, 1, 'three'), (2, 0, 'four'), (2, 1, 'five'), (3, 0, 'six'), (3, 1, 'seven'), (4, 0, 'eight');

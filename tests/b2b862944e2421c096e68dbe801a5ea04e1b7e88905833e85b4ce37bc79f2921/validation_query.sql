@@ -1,0 +1,1 @@
+SELECT SrcWord, Title FROM query_result ORDER BY SrcWord, Title;

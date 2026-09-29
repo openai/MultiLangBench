@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT typeof(group_concat(x,'')) AS x FROM (SELECT '' AS x UNION ALL SELECT '');

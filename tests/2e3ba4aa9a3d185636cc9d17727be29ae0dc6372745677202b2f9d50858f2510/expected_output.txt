@@ -1,0 +1,1 @@
+[["trigger","i1","tbl"],["trigger","t1","tbl"]]

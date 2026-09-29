@@ -1,0 +1,1 @@
+CREATE TABLE query_result AS SELECT rowid AS matched_rowid FROM t1 WHERE content MATCH 'one';

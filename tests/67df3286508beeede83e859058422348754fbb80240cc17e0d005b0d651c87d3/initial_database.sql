@@ -1,0 +1,1 @@
+CREATE TABLE t1(a INTEGER PRIMARY KEY,b,c DEFAULT 'pax'); INSERT INTO t1(a,b,c) VALUES(4,5,99),(11,12,13),(21,'b','c'),(31,'b-value',4.75);

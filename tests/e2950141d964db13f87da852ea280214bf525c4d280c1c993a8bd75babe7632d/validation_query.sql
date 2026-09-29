@@ -1,0 +1,1 @@
+SELECT is_equal FROM result ORDER BY rowid;

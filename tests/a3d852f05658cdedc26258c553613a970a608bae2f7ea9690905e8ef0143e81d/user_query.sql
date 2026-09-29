@@ -1,0 +1,1 @@
+INSERT INTO mail(docid,subject,body) VALUES(2,'software feedback','no feedback')

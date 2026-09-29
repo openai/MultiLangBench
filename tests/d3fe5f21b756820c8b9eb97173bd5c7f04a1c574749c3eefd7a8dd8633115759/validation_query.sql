@@ -1,0 +1,1 @@
+SELECT id, depth FROM result ORDER BY id;

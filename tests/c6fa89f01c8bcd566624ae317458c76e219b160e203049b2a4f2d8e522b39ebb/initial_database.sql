@@ -1,0 +1,1 @@
+CREATE TABLE vals(id INTEGER PRIMARY KEY,v); CREATE TABLE r(lhs INTEGER,rhs INTEGER,isv,notisv,eqv,nev,isnull1,isnull2); INSERT INTO vals VALUES(1,'abc'),(2,'hexadecimal'),(3,''),(4,123),(5,-123),(6,0),(7,123.4),(8,0.0),(9,-123.4),(10,X'ABCDEF'),(11,X''),(12,X'0000'),(13,NULL);

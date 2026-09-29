@@ -1,0 +1,1 @@
+SELECT a, b FROM dest ORDER BY rowid;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT docid AS v FROM t1 WHERE t1 MATCH 'O' AND +rowid > 17 ORDER BY docid DESC;

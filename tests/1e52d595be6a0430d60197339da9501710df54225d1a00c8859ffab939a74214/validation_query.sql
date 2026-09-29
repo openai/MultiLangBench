@@ -1,0 +1,1 @@
+SELECT rowid, length(content), substr(content,1,20), substr(content,-20) FROM t3 WHERE rowid=11;

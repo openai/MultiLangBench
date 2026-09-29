@@ -1,0 +1,1 @@
+SELECT count(*), min(x), max(x), min(length(y)), max(length(y)), min(y=replace(hex(zeroblob(900)), '00', 'x')), max(y=replace(hex(zeroblob(900)), '00', 'x')), (SELECT page_size FROM pragma_page_size) FROM t;

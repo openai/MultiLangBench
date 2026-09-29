@@ -1,0 +1,1 @@
+PRAGMA auto_vacuum=FULL; CREATE TABLE one(a INT PRIMARY KEY, b TEXT); INSERT INTO one VALUES(1,'one'),(2,'two'),(3,'three'); CREATE TABLE two(a INT PRIMARY KEY, b TEXT); INSERT INTO two VALUES(1,'I'),(5,'V'),(10,'X');

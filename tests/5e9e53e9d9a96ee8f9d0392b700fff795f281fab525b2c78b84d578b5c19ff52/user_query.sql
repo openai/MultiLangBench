@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; BEGIN; INSERT INTO leaf VALUES('a',2); INSERT INTO node VALUES(2,0); UPDATE node SET parent=1 WHERE nodeid=2; COMMIT;

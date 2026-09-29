@@ -1,0 +1,1 @@
+SELECT type,name,tbl_name,sql FROM sqlite_master WHERE name='ffff' OR (type='trigger' AND name='tr1') ORDER BY type,name;

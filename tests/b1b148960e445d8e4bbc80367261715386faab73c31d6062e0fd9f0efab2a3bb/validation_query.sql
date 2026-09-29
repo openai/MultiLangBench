@@ -1,0 +1,1 @@
+SELECT docid,content,lid FROM t6 ORDER BY docid

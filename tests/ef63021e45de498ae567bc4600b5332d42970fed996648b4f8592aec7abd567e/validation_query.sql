@@ -1,0 +1,1 @@
+SELECT a,b,c,d,marker FROM sfi_result ORDER BY seq;

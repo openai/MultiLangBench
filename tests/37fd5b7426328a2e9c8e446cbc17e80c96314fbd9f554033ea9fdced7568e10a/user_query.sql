@@ -1,0 +1,1 @@
+UPDATE t SET i1=3,i2=NULL;INSERT INTO r SELECT coalesce(min(i1,i2,1),99) FROM t;

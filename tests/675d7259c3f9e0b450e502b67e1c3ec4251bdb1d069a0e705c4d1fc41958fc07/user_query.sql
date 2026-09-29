@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rowid FROM t5 WHERE t5 MATCH 'x OR y NEAR/3 b NEAR/3 c';

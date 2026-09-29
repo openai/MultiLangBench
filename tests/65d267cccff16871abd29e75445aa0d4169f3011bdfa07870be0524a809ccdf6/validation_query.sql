@@ -1,0 +1,1 @@
+SELECT count(*),min(value) FROM result

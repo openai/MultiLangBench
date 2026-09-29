@@ -1,0 +1,1 @@
+CREATE TABLE t1(a, b); CREATE INDEX i1 ON t1(a); CREATE TABLE t2(c, d); CREATE INDEX i3 ON t2(c); INSERT INTO t1 VALUES(1,'x'),(2,'y'); INSERT INTO t2 VALUES(1,'p'),(2,'q'),(3,'r');

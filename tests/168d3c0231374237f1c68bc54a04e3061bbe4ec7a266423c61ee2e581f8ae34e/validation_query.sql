@@ -1,0 +1,1 @@
+WITH x AS (SELECT opt, lag(opt) OVER (ORDER BY seq) AS previous FROM result) SELECT (SELECT count(*) FROM result)>0 AND NOT EXISTS(SELECT 1 FROM x WHERE previous>opt);

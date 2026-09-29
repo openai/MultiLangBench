@@ -1,0 +1,1 @@
+SELECT c,d,k,v FROM result ORDER BY c,d,k,v;

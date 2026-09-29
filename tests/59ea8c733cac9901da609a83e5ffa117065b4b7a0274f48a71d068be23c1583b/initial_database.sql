@@ -1,0 +1,1 @@
+CREATE TABLE x1(i INTEGER PRIMARY KEY, x); INSERT INTO x1(x) VALUES('a'),('bc'),('def'),('ghij'),('klmno'),('pqrstu');

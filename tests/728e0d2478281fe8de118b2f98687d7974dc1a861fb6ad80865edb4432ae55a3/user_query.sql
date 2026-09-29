@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT coalesce(b,NOT b,-b,abs(b),lower(b),length(b),min(b,5),b*123,c) AS r, a AS ord FROM t1 ORDER BY a;

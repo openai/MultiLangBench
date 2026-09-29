@@ -1,0 +1,1 @@
+SELECT count(*) AS n,max(length(a)) AS la,max(length(b)) AS lb FROM x1

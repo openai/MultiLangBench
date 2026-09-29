@@ -1,0 +1,1 @@
+SELECT 'meta' AS src, (SELECT CASE WHEN instr(upper(sql),'WITHOUT ROWID')>0 THEN 1 ELSE 0 END FROM sqlite_schema WHERE name='t2') AS k, NULL AS v1, NULL AS v2 UNION ALL SELECT 't2',a,b,c FROM t2 UNION ALL SELECT 'chng',a,b,c FROM chng ORDER BY 1,2;

@@ -1,0 +1,1 @@
+CREATE TABLE plan(plan plan); INSERT INTO plan VALUES(99); INSERT INTO plan SELECT a FROM t1;

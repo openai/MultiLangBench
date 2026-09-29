@@ -1,0 +1,1 @@
+SELECT count(*)*2 AS nvalue,min(a),max(a),min(length(b)),max(length(b)),min(b=zeroblob(10)),max(b=zeroblob(10)) FROM result;

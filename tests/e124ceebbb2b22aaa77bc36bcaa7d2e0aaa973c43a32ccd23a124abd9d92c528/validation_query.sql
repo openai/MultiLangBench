@@ -1,0 +1,1 @@
+SELECT count(*) AS remaining_rows FROM t3;

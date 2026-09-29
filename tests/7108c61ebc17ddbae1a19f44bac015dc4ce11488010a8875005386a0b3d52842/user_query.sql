@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT cid,name,type,[notnull] AS nn,dflt_value,pk FROM pragma_table_info('ft1');

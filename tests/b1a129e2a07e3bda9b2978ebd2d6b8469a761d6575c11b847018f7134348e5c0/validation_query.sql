@@ -1,0 +1,1 @@
+SELECT typeof(v), quote(v), hex(v) FROM result;

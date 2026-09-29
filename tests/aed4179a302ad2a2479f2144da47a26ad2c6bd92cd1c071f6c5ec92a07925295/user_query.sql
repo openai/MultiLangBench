@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT snippet(t3) AS s FROM t3 WHERE t3 MATCH 'test';

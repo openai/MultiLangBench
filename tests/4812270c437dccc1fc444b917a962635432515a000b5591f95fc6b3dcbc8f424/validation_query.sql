@@ -1,0 +1,1 @@
+SELECT x, y, z, typeof(x), typeof(y), typeof(z) FROM t2 ORDER BY rowid

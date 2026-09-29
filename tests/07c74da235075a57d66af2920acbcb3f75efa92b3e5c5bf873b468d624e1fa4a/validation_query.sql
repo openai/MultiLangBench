@@ -1,0 +1,1 @@
+SELECT x, y, (SELECT freelist_count FROM pragma_freelist_count) AS free_pages FROM t4

@@ -1,0 +1,1 @@
+SELECT type, name, tbl_name, sql FROM sqlite_schema WHERE name IN ('t2','t2x','t2y') ORDER BY CASE type WHEN 'table' THEN 0 ELSE 1 END, name;

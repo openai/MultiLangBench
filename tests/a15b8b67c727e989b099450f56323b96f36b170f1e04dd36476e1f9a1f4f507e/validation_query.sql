@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM main.tbl) AS row_count, (SELECT count(*) FROM pragma_table_info('tbl')) AS table_columns, (SELECT count(*) FROM pragma_index_info('tbli')) AS index_columns, integrity_check FROM pragma_integrity_check ORDER BY integrity_check;

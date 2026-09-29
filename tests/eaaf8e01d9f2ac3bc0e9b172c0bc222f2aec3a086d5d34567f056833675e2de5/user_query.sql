@@ -1,0 +1,1 @@
+INSERT INTO ft(a, b, c) VALUES('a', NULL, 'apple'); INSERT INTO ft(a, b, c) VALUES('b', NULL, 'banana'); INSERT INTO ft(a, b, c) VALUES('c', NULL, 'cherry'); INSERT INTO ft(a, b, c) VALUES('d', NULL, 'damson plum');

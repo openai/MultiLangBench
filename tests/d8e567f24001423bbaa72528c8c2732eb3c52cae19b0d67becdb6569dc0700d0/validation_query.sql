@@ -1,0 +1,1 @@
+SELECT x, y FROM observed ORDER BY x;

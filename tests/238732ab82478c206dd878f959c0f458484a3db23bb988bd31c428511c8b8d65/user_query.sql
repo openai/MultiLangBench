@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT a,count(*) OVER abc AS x,count(*) OVER def AS y FROM t5 WINDOW abc AS (ORDER BY a),def AS (ORDER BY a DESC) ORDER BY a;

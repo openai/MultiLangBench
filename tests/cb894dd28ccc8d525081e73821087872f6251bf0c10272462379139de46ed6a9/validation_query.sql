@@ -1,0 +1,1 @@
+SELECT count(*),length(x) FROM ft

@@ -1,0 +1,1 @@
+PRAGMA writable_schema=ON; ALTER TABLE t1 RENAME COLUMN e TO eeee; PRAGMA writable_schema=OFF;

@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(x,'|') FROM (SELECT x FROM t2 ORDER BY rowid)), (SELECT group_concat(a||':'||b,'|') FROM (SELECT a,b FROM t3 ORDER BY rowid)), (SELECT count(*) FROM sqlite_schema WHERE type='trigger' AND name='trig1');

@@ -1,0 +1,1 @@
+CREATE TABLE test1(f1 int, f2 int, f3 int); INSERT INTO test1 VALUES(1,2,3),(4,5,6); CREATE INDEX index01 ON test1(f1); CREATE INDEX index02 ON test1(f2); CREATE INDEX index03 ON test1(f3);

@@ -1,0 +1,1 @@
+SELECT freelist_count FROM pragma_freelist_count;

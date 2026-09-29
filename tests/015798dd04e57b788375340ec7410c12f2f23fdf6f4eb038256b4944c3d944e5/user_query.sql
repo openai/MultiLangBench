@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT c FROM t2 WHERE (a,b)>(2,2);

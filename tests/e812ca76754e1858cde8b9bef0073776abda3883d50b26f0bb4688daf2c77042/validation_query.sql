@@ -1,0 +1,1 @@
+SELECT hex(m1),hex(m2),hex(m3),hex(m4),hex(m5),hex(m6),hex(m7),hex(m8),hex(m9),hex(m10),hex(m11),hex(m12),hex(m13),hex(m14) FROM r ORDER BY rowid

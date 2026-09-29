@@ -1,0 +1,1 @@
+DELETE FROM v5 WHERE x=5;

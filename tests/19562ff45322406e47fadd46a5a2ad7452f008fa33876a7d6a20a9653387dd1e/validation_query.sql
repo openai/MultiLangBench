@@ -1,0 +1,1 @@
+SELECT high."a'b!",high.b,low.c,low."d&6" FROM high,low

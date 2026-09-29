@@ -1,0 +1,1 @@
+SELECT count(*), min(docid), max(docid), (SELECT count(*) FROM t2 WHERE t2 MATCH 'alp*') FROM t2;

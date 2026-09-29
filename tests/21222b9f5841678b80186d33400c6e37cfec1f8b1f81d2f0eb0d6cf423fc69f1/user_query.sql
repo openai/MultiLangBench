@@ -1,0 +1,1 @@
+INSERT INTO t1_re SELECT ((a%2)*a+3),'string' FROM t1_re;

@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT 99 AS m FROM t2 JOIN v0 ON z<>'bbb' RIGHT JOIN t1 ON z<>'ccc' ORDER BY z;

@@ -1,0 +1,1 @@
+[["index","t7i","t7","CREATE UNIQUE INDEX t7i ON t7(a, b)"],["table","t7","t7","CREATE TABLE t7(a, b, c, d INTEGER PRIMARY KEY, FOREIGN KEY(c, d) REFERENCES t7(a, b))"]]

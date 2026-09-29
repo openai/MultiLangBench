@@ -1,0 +1,1 @@
+INSERT INTO _sfi_result(name,is_key) SELECT name,[key] FROM pragma_index_xinfo('t1') ORDER BY seqno;

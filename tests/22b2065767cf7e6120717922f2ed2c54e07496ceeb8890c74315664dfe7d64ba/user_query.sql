@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a, sum(b) FROM t1 GROUP BY a HAVING sum(b)>12;

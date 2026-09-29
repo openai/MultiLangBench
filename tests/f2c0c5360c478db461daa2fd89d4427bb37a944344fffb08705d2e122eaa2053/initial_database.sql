@@ -1,0 +1,1 @@
+CREATE TABLE a1(xxx INTEGER,yyy TEXT,z BLOB,PRIMARY KEY(xxx)); CREATE TABLE a2(a,b,c); CREATE VIEW v2 AS SELECT xxx,xxx+xxx,a,a+a FROM a1,a2;

@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(name, ',') FROM (SELECT name FROM pragma_table_info('t1') ORDER BY cid)), (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='x1' AND tbl_name='t1'), (SELECT group_concat(a||':'||c, '|') FROM (SELECT a, c FROM t1 ORDER BY rowid));

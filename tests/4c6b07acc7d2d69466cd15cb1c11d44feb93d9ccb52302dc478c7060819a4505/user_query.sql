@@ -1,0 +1,1 @@
+INSERT INTO t6 VALUES(0,0,0); UPDATE t6 SET "col c"=1;

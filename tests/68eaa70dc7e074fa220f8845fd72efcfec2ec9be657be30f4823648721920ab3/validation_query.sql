@@ -1,0 +1,1 @@
+SELECT a.auto_vacuum, i.integrity_check FROM pragma_auto_vacuum AS a CROSS JOIN pragma_integrity_check AS i

@@ -1,0 +1,1 @@
+CREATE TABLE t3(a,b); INSERT INTO t3 SELECT * FROM t2; DROP TABLE t2; PRAGMA incremental_vacuum;

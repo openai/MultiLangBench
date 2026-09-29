@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts4(x, y); WITH RECURSIVE n(i) AS (VALUES(1) UNION ALL SELECT i+1 FROM n WHERE i<5000) INSERT INTO t1(docid, x, y) SELECT i, printf('alpha token%05d', i), printf('beta group%d', i%17) FROM n;

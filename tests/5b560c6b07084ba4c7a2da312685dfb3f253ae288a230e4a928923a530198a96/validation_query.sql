@@ -1,0 +1,1 @@
+SELECT type, name, tbl_name, sql FROM temp_capture ORDER BY name;

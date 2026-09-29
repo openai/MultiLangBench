@@ -1,0 +1,1 @@
+SELECT count(*) FROM sqlite_master WHERE type='index' AND name='i2'

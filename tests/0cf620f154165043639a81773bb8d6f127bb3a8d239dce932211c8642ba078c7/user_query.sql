@@ -1,0 +1,1 @@
+PRAGMA automatic_index=OFF; INSERT INTO t7b(y) VALUES(2); CREATE TABLE result AS SELECT t7a.x AS x, t7b.y AS y FROM t7a JOIN t7b ON (x=99) ORDER BY x;

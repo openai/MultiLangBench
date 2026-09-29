@@ -1,0 +1,1 @@
+SELECT count(*) AS remaining_objects FROM sqlite_schema WHERE name IN ('t1','i1');

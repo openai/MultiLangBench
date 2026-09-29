@@ -1,0 +1,1 @@
+CREATE TABLE result(c0, c1); INSERT INTO result(c0, c1) SELECT * FROM t0 WHERE +-+'ce' >= t0.c0;

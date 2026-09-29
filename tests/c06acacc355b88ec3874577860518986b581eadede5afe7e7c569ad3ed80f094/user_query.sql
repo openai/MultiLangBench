@@ -1,0 +1,1 @@
+INSERT INTO result SELECT '$::t6str', [$::t6str], 'test-six y''all', 'test-six y''all', "?1", 'test-six y''all' FROM t6;

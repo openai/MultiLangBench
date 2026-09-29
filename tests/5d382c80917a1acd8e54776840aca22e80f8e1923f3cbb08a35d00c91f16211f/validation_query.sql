@@ -1,0 +1,1 @@
+SELECT count(*) AS n,min(docid),max(docid),count(DISTINCT l) FROM t2

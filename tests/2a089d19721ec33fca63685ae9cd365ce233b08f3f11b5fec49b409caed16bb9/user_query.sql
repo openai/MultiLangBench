@@ -1,0 +1,1 @@
+DROP TABLE fail; CREATE INDEX fail ON t1(a);

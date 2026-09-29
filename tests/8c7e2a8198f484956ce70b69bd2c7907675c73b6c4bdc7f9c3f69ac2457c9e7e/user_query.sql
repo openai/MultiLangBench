@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT content FROM docs WHERE docs MATCH 'sqlite OR database'

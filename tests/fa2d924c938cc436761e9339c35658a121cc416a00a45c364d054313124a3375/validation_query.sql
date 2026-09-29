@@ -1,0 +1,1 @@
+SELECT quote(m),quote(n) FROM __sfi_result

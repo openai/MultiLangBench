@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT rowid AS x,offsets(t1) AS y FROM t1 WHERE t1 MATCH 'zm zhbrzadb';

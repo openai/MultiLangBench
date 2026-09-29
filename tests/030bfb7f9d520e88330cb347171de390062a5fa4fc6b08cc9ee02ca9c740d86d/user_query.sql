@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT row_number() OVER win AS a,nth_value(d,2) OVER win AS b,lead(d) OVER win AS c FROM t1 WINDOW win AS (ORDER BY a);

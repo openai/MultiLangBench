@@ -1,0 +1,1 @@
+CREATE VIEW v1(a,b) AS VALUES(1,2),(3,4);

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT count(a) AS n FROM t3 WHERE b IN (SELECT b FROM t3 ORDER BY a+1);

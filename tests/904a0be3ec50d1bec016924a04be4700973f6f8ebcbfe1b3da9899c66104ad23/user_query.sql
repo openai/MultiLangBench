@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT 'BEGIN-'||group_concat(t1) AS x FROM tbl1;

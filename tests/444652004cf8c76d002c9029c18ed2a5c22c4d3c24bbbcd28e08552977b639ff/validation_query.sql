@@ -1,0 +1,1 @@
+SELECT sum(x) FROM t5;

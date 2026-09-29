@@ -1,0 +1,1 @@
+CREATE TABLE tabc(a,b,c); INSERT INTO tabc VALUES(1,2,3); CREATE TABLE txyz(x,y,z); INSERT INTO txyz VALUES(4,5,6); CREATE VIEW v5(a,x,"a:1",b,c,"x:1",y,z) AS SELECT tabc.a,txyz.x,tabc.a,tabc.b,tabc.c,txyz.x,txyz.y,txyz.z FROM tabc,txyz;

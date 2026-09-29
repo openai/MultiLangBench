@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(a || ':' || b, ',') FROM (SELECT a, b FROM t5 ORDER BY a)), (SELECT group_concat(c || ':' || d, ',') FROM (SELECT c, d FROM t6 ORDER BY c)), (SELECT count(*) FROM sqlite_master WHERE type='index' AND name IN ('i5','i6')); 

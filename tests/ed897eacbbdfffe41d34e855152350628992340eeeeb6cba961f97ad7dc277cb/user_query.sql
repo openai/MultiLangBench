@@ -1,0 +1,1 @@
+PRAGMA journal_mode=PERSIST; PRAGMA journal_size_limit=0; INSERT INTO result SELECT journal_size_limit FROM pragma_journal_size_limit; BEGIN; UPDATE t1 SET a=zeroblob(1000); COMMIT;

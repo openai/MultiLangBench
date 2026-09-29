@@ -1,0 +1,1 @@
+CREATE TABLE t68(a,b,c,PRIMARY KEY(a,b,a,c)); CREATE TABLE result AS SELECT cid,name,type,[notnull],dflt_value,pk FROM pragma_table_info('t68') ORDER BY cid;

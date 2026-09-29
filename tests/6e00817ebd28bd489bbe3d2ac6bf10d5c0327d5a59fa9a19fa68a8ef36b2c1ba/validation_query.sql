@@ -1,0 +1,1 @@
+SELECT lower(a),n FROM result ORDER BY lower(a),n;

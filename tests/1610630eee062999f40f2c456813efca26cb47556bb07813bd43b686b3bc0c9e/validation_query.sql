@@ -1,0 +1,1 @@
+SELECT group_concat(printf('%d:%d',x,y),'|') AS row_list FROM (SELECT x,y FROM t1 ORDER BY x);

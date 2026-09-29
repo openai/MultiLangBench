@@ -1,0 +1,1 @@
+PRAGMA page_size=1024; PRAGMA auto_vacuum=incremental; VACUUM; CREATE TABLE t1(a,b,PRIMARY KEY(a,b));

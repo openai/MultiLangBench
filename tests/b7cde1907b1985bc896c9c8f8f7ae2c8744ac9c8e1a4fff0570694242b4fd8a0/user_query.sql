@@ -1,0 +1,1 @@
+BEGIN; INSERT INTO t2_content VALUES(NULL, 'xyz'); ROLLBACK;

@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT min((SELECT count(y) FROM ty)) AS v FROM tx;

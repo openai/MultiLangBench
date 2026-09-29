@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rowid AS docid, offsets(email) AS off FROM email WHERE body MATCH 'child product' AND +rowid=32;

@@ -1,0 +1,1 @@
+SELECT p.cid, p.name, problem.a FROM pragma_table_info('problem') AS p CROSS JOIN problem ORDER BY p.cid;

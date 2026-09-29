@@ -1,0 +1,1 @@
+SELECT t1_title, t2_title FROM query_result ORDER BY t1_title, t2_title;

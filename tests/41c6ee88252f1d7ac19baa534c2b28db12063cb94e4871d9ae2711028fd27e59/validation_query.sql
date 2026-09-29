@@ -1,0 +1,1 @@
+SELECT b, (SELECT count(*) FROM t3) AS t3_rows, (SELECT count(*) FROM t3 WHERE t3 MATCH 'four seven') AS inserted_row_search FROM result_130 ORDER BY rowid;

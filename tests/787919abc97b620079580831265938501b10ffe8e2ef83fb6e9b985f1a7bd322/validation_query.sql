@@ -1,0 +1,1 @@
+SELECT count(*),sum(length(a)=10),sum(length(a)=400),min(length(b)),max(length(c)) FROM t1;

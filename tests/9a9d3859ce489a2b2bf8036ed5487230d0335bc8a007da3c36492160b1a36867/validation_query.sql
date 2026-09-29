@@ -1,0 +1,1 @@
+SELECT (SELECT integrity_check FROM pragma_integrity_check LIMIT 1), count(*) FROM t1;

@@ -1,0 +1,1 @@
+PRAGMA locking_mode=EXCLUSIVE; PRAGMA journal_mode=TRUNCATE; BEGIN IMMEDIATE; PRAGMA journal_mode=DELETE; COMMIT; CREATE TABLE result AS SELECT journal_mode AS mode FROM pragma_journal_mode;

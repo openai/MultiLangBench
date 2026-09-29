@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT x FROM ft2 WHERE ft2 MATCH '"B Y D"';

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t8 USING fts4; INSERT INTO t8 VALUES('a b c'); INSERT INTO t8 VALUES('b b b'); INSERT INTO t8 VALUES(replace(hex(zeroblob(50000)), '00', 'c ')); INSERT INTO t8 VALUES('d d d'); INSERT INTO t8 VALUES('e e e'); INSERT INTO t8(t8) VALUES('optimize');

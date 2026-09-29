@@ -1,0 +1,1 @@
+SELECT o, n FROM blog ORDER BY rowid;

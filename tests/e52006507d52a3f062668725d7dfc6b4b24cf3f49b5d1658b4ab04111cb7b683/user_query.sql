@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT snippet(ft,'{','}','...',0,5) AS v FROM ft WHERE ft MATCH 'six';

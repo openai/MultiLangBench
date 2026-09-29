@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT coalesce(unixepoch(-4294967295 + 680000000*61,'unixepoch')=(-4294967295 + 680000000*61),'NULL');

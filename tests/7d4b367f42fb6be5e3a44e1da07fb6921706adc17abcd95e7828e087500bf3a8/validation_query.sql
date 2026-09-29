@@ -1,0 +1,1 @@
+SELECT ca, cb, cc, n_all FROM result;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT char() AS c,length(char()) AS n,typeof(char()) AS t;

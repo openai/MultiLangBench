@@ -1,0 +1,1 @@
+[["table","t1","CREATE TABLE t1(a INTEGER, \"d\"TEXT, c BLOB, CHECK(coalesce(d,c)))"]]

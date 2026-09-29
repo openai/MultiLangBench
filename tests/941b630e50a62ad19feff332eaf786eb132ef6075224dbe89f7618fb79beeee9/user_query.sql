@@ -1,0 +1,1 @@
+UPDATE t1 SET b=printf('%01000d',8000+rowid);

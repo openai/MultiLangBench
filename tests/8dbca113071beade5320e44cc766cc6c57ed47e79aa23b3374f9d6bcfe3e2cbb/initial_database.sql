@@ -1,0 +1,1 @@
+CREATE TABLE c1(up,down);INSERT INTO c1 VALUES('x',1),('x',2),('x',4),('x',8),('y',16),('y',32);

@@ -1,0 +1,1 @@
+SELECT count(*),sum(b IS NULL),min(a),min(c) FROM ft

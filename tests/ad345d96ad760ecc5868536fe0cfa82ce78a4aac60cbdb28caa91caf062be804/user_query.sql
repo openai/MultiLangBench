@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts4(prefix='1,0,2'); CREATE VIRTUAL TABLE t2 USING fts4(prefix='1,2'); INSERT INTO t1 VALUES('that caught the cycling craze;'); INSERT INTO t2 VALUES('that caught the cycling craze;');

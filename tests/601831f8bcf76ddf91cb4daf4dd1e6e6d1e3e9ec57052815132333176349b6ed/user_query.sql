@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT t1.*,t2.* FROM t2 FULL OUTER JOIN t1 ON b=c AND b>3 AND c>4 ORDER BY coalesce(b,c,0);

@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT value1 AS v,(SELECT sum(value2=value1) FROM t2) AS n FROM t1 WHERE value1 IN (SELECT max(value1) FROM t1 GROUP BY id1);

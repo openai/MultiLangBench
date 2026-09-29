@@ -1,0 +1,1 @@
+SELECT rowid, snippet(t1) FROM t1 WHERE b MATCH 'four' ORDER BY rowid;

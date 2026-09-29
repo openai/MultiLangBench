@@ -1,0 +1,1 @@
+SELECT m.type, p.seqno, p.cid, p.name FROM sqlite_schema AS m, pragma_index_info('i1') AS p WHERE m.name='i1' ORDER BY p.seqno;

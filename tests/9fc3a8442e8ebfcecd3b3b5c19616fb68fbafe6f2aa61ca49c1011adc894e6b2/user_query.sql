@@ -1,0 +1,1 @@
+INSERT INTO result SELECT json_valid(char(32)||'"xyz"');

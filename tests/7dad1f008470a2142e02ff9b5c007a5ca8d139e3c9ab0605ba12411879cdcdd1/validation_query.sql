@@ -1,0 +1,1 @@
+SELECT * FROM restrict ORDER BY restrict ASC

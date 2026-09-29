@@ -1,0 +1,1 @@
+SELECT pk FROM result ORDER BY pk

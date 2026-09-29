@@ -1,0 +1,1 @@
+INSERT INTO result SELECT json_set(j,'$.b[#-1]','AAA','$.b[#-1]','BBB') FROM t1;

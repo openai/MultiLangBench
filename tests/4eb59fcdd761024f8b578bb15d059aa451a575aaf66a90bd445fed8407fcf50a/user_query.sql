@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT lang_id FROM t1;

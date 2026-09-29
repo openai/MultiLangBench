@@ -1,0 +1,1 @@
+UPDATE t1 SET _rowid_=12347 WHERE x=1; CREATE TABLE actual AS SELECT rowid AS rid, * FROM t1 WHERE rowid>1000;

@@ -1,0 +1,1 @@
+SELECT instr(sql,'new_col_2')>0 FROM sqlite_master WHERE name='t5'

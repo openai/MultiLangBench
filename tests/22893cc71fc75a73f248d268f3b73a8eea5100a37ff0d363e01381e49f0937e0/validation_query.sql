@@ -1,0 +1,1 @@
+SELECT x, y, date(x) AS normalized_x FROM t1 ORDER BY rowid;

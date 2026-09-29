@@ -1,0 +1,1 @@
+CREATE TABLE t2(x TEXT COLLATE NOCASE); CREATE INDEX i2 ON t2(x COLLATE NOCASE); INSERT INTO t2(x) VALUES(char(39)||'abc'),(char(39)||'bcd'),(char(39)||'def'),(char(39)||'ax');

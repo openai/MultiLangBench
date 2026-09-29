@@ -1,0 +1,1 @@
+SELECT a, b, c, d FROM t6 ORDER BY a;

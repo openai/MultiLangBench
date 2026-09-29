@@ -1,0 +1,1 @@
+PRAGMA locking_mode=EXCLUSIVE; PRAGMA locking_mode=NORMAL; CREATE TABLE capture(seq INTEGER PRIMARY KEY, mode TEXT); INSERT INTO capture SELECT 1, locking_mode FROM pragma_locking_mode; INSERT INTO capture SELECT 2, locking_mode FROM pragma_locking_mode WHERE schema='main'; INSERT INTO capture SELECT 3, locking_mode FROM pragma_locking_mode WHERE schema='temp';

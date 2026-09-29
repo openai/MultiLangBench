@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1_a) AS base_rows,(SELECT count(*) FROM t1) AS view_rows,(SELECT count(*) FROM log) AS log_rows;

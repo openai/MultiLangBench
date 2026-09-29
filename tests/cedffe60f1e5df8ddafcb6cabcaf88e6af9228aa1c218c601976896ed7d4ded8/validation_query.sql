@@ -1,0 +1,1 @@
+SELECT count(*), sum(a IS b), min(a IS b) FROM r;

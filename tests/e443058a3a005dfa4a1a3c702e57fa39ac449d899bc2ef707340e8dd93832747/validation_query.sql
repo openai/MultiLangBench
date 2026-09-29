@@ -1,0 +1,1 @@
+SELECT prefix FROM sfi_result;

@@ -1,0 +1,1 @@
+SELECT 't1' AS n,count(*),sum(a),sum(b IS NULL),sum(c IS NULL) FROM t1 UNION ALL SELECT 't2',count(*),sum(d),sum(e IS NULL),sum(f IS NULL) FROM t2

@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT rowid AS rid FROM ft7 WHERE ft7 MATCH '"A A"';

@@ -1,0 +1,1 @@
+SELECT x FROM query_result ORDER BY _rowid_;

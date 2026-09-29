@@ -1,0 +1,3 @@
+PRAGMA page_size = 4096;
+VACUUM;
+CREATE TABLE t1(x);

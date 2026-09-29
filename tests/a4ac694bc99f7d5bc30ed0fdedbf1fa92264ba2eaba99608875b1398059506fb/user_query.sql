@@ -1,0 +1,1 @@
+SELECT snippet(t5, '[', ']') FROM t5 WHERE t5 MATCH 'the';

@@ -1,0 +1,1 @@
+SELECT b, d FROM result ORDER BY b;

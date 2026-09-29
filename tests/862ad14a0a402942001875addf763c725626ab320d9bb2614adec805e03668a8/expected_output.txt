@@ -1,0 +1,1 @@
+[["row",1,"1","1"],["row",2,"2","2"],["schema",0,"CREATE TABLE yyy(q, w, r)",null]]

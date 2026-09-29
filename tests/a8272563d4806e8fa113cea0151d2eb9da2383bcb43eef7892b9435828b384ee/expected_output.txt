@@ -1,0 +1,1 @@
+[["table","t1","t1","CREATE TABLE t1(a, b, CHECK(t1.a != t1.b))"],["table","t2","t2","CREATE TABLE t2(a, b)"],["index","t2expr","t2","CREATE INDEX t2expr ON t2(a) WHERE t2.b>0"]]

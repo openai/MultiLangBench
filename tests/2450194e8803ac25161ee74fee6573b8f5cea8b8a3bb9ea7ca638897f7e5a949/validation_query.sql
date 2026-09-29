@@ -1,0 +1,1 @@
+SELECT n,sx,ni FROM result;

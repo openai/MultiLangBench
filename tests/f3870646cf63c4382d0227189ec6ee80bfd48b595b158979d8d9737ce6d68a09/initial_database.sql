@@ -1,0 +1,3 @@
+CREATE TABLE t400(a,b);
+CREATE INDEX t400_ab ON t400(a,b);
+INSERT INTO t400(a,b) VALUES(1,90),(1,40),(2,80),(2,30),(3,70),(3,20);

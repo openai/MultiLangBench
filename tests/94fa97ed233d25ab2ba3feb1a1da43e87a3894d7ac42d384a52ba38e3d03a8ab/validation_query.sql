@@ -1,0 +1,1 @@
+SELECT (SELECT page_size FROM pragma_page_size) AS page_size, (SELECT auto_vacuum FROM pragma_auto_vacuum) AS auto_vacuum, (SELECT count(*) FROM sqlite_schema WHERE type='table' AND name='t1') AS table_exists, (SELECT group_concat(name, ',') FROM (SELECT name FROM pragma_table_info('t1') ORDER BY cid)) AS columns;

@@ -1,0 +1,1 @@
+SELECT 'ab' AS tab,quote(a) AS x,quote(b) AS y FROM ab UNION ALL SELECT 'cd',quote(c),quote(d) FROM cd UNION ALL SELECT 'ef',quote(e),quote(f) FROM ef ORDER BY 1

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT name,type FROM pragma_table_list('v1');

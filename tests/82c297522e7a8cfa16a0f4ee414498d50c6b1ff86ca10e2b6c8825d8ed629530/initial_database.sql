@@ -1,0 +1,2 @@
+CREATE TABLE t1(a,b,c);
+CREATE UNIQUE INDEX i1 ON t1(a);

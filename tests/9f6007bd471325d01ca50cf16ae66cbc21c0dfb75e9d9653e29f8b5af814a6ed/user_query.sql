@@ -1,0 +1,1 @@
+INSERT INTO ft4x(ft4x) VALUES('rebuild'); INSERT INTO ft4(ft4) VALUES('rebuild');

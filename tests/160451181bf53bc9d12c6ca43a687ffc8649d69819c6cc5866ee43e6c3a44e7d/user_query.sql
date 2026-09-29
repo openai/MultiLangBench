@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(1,123),(2,123.4e05),(3,'abcde'),(4,X'414243'),(5,NULL);

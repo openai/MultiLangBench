@@ -1,0 +1,1 @@
+SELECT count(*), min(length(content)), max(length(content)) FROM t4

@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t7),(SELECT sum(i) FROM t7),(SELECT count(*) FROM t8),(SELECT count(*) FROM sqlite_master WHERE type='index' AND name='t8_i')

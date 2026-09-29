@@ -1,0 +1,1 @@
+SELECT qx, qa, qb, marker FROM in6_result ORDER BY qx, qa, qb, marker;

@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT a,*,b,c FROM z1;

@@ -1,0 +1,1 @@
+SELECT id, seq, "table", "from", "to", on_update, on_delete, "match" FROM pragma_foreign_key_list('t6') ORDER BY id, seq;

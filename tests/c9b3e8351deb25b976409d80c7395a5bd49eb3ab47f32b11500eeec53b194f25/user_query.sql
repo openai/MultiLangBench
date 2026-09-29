@@ -1,0 +1,1 @@
+CREATE TEMP TABLE t1(a, b); INSERT INTO temp.t1 VALUES('a temp', 'b temp'); CREATE VIEW temp.v1 AS SELECT * FROM t1; INSERT INTO main.result SELECT * FROM temp.v1;

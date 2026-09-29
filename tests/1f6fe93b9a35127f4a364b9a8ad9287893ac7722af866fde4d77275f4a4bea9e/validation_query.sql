@@ -1,0 +1,1 @@
+SELECT rowid,x,y FROM actual ORDER BY actual._rowid_

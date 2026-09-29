@@ -1,0 +1,1 @@
+CREATE TABLE t1(i, h); CREATE INDEX i1 ON t1(h); WITH RECURSIVE data(a,b) AS (VALUES(1,printf('%02X',1)) UNION ALL SELECT a+1,printf('%02X',a+1) FROM data WHERE a<40) INSERT INTO t1 SELECT a,b FROM data;

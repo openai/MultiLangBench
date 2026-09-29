@@ -1,0 +1,1 @@
+SELECT * FROM replace ORDER BY replace ASC

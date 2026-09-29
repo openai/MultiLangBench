@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a+1 AS v, quote(a+1) AS q FROM t1 ORDER BY 1;

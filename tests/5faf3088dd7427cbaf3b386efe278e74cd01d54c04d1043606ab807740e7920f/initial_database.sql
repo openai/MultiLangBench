@@ -1,0 +1,1 @@
+BEGIN; CREATE VIRTUAL TABLE ft USING fts3(a, b, c); INSERT INTO ft VALUES('one', 'one', 'one'); COMMIT; UPDATE ft_segdir SET root = X'00036F6E650100';

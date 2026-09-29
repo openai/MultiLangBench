@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(name, ' ') FROM (SELECT name FROM pragma_table_info('weird') ORDER BY cid)), desc, asc, key, "14_vac", fuzzy_dog_12, begin, end FROM weird;

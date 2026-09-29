@@ -1,0 +1,1 @@
+CREATE TABLE result1 AS SELECT * FROM sqlite_master WHERE rootpage=-1; CREATE TABLE result2 AS SELECT * FROM t2 ORDER BY a;

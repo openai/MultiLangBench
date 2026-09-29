@@ -1,0 +1,1 @@
+UPDATE OR REPLACE t3 SET b='four' WHERE a=3;

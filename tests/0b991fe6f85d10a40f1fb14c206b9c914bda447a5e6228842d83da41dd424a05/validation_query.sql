@@ -1,0 +1,1 @@
+SELECT trove, pattern, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='PermissionsIdx') AS permissions_index_count FROM sfi_result ORDER BY +trove, +pattern;

@@ -1,0 +1,1 @@
+CREATE TABLE observed AS SELECT x,y FROM t2;

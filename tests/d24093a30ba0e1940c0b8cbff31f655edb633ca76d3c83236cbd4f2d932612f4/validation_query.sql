@@ -1,0 +1,1 @@
+SELECT json FROM sfi_result;

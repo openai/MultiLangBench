@@ -1,0 +1,1 @@
+SELECT count(*),sum(a),sum(length(b)),sum(length(c)),(SELECT count(*) FROM sqlite_schema WHERE type='index' AND tbl_name='t1'),(SELECT count(*) FROM sqlite_schema WHERE name='t2') FROM t1;

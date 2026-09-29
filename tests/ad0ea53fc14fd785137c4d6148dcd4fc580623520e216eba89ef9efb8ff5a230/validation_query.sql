@@ -1,0 +1,1 @@
+SELECT name,tbl_name,sql FROM sqlite_master WHERE type='index' AND name='i2';

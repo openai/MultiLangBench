@@ -1,0 +1,1 @@
+WITH q(rows) AS (SELECT group_concat(r||':'||a||':'||x,'|') FROM (SELECT r,a,x FROM t1 ORDER BY a)), i(idx) AS (SELECT group_concat(name,',') FROM (SELECT name FROM sqlite_schema WHERE type='index' AND tbl_name='t1' ORDER BY name)) SELECT rows,idx FROM q,i

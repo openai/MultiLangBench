@@ -1,0 +1,1 @@
+CREATE TABLE 'p 1 "parent one"'(a REFERENCES 'p 1 "parent one"',b,PRIMARY KEY(b)); CREATE TABLE c1(c,d REFERENCES 'p 1 "parent one"' ON UPDATE CASCADE); CREATE TABLE c2(e,f,FOREIGN KEY(f) REFERENCES 'p 1 "parent one"' ON UPDATE CASCADE); CREATE TABLE c3(e,'f col 2',FOREIGN KEY('f col 2') REFERENCES 'p 1 "parent one"' ON UPDATE CASCADE);

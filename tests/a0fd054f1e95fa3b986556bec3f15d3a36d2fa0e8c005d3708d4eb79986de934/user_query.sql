@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT length(b) AS lb, length(d) AS ld FROM t1 WHERE a=5;

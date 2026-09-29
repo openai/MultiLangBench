@@ -1,0 +1,1 @@
+INSERT INTO tt(rowid,c4,c45) VALUES(1,'abc','abc'); CREATE TABLE r AS SELECT matchinfo(tt,'b') AS m FROM tt WHERE tt MATCH 'abc' ORDER BY rowid

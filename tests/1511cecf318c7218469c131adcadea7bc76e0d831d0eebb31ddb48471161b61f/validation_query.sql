@@ -1,0 +1,1 @@
+SELECT 'row' AS kind, CAST(aa AS TEXT) AS v1, CAST(bb AS TEXT) AS v2 FROM link UNION ALL SELECT 'index', name, '' FROM sqlite_schema WHERE type='index' AND tbl_name='link' ORDER BY 1,2,3;

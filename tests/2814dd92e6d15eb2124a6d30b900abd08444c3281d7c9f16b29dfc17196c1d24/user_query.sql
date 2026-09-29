@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT cnt, xyz, (SELECT y FROM t2 WHERE w=cnt), '|' FROM (SELECT count(*) AS cnt, w AS xyz FROM t1 GROUP BY 2) ORDER BY cnt, xyz;

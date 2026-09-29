@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT min(c), count(c) FROM t1 WHERE a='a';

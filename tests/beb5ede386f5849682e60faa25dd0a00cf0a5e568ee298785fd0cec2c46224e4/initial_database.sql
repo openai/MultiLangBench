@@ -1,0 +1,1 @@
+CREATE TABLE t2(oid,b); INSERT INTO t2 VALUES('one','two'),('three','four');

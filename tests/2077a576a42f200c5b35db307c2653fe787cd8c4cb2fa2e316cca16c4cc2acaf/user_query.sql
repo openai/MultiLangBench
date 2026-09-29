@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT cnt, xyz, '|' FROM (SELECT count(*) AS cnt, w AS xyz FROM t1 GROUP BY 2) WHERE (SELECT y FROM t2 WHERE w=cnt)!='two' ORDER BY cnt, xyz;

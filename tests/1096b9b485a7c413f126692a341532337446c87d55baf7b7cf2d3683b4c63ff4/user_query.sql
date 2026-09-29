@@ -1,0 +1,2 @@
+INSERT INTO result(a)
+SELECT a FROM t1 WHERE (b=8 AND c>7) OR b>8 ORDER BY +a;

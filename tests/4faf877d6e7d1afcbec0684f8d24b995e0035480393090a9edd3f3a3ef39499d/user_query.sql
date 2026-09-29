@@ -1,0 +1,1 @@
+BEGIN; INSERT INTO t1_content(docid, c0x, c1y) VALUES(NULL, 'a', 'b'); ROLLBACK;

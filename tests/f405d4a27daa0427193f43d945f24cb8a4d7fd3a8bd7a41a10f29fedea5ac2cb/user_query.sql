@@ -1,0 +1,1 @@
+UPDATE testjson SET j = replace(j, char(125), ',"e":9' || char(125));

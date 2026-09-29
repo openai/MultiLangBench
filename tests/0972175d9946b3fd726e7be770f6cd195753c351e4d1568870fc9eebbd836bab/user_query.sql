@@ -1,0 +1,1 @@
+ALTER TABLE t5 DROP COLUMN new_col_1;

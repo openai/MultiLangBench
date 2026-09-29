@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT max(x) AS max_x,max(a) AS max_a,max(b) AS max_b,max(c) AS max_c,max(a+b+c) AS max_sum FROM v2;

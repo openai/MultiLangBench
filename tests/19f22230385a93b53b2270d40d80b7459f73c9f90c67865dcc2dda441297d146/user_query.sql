@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT docid,content FROM t1 WHERE t1 MATCH 'aa NEAR/2 bb NEAR/3 cc' ORDER BY docid ASC;

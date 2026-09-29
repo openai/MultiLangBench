@@ -1,0 +1,1 @@
+SELECT nid, ndata, ncode, ocode, odata FROM query_result ORDER BY nid;

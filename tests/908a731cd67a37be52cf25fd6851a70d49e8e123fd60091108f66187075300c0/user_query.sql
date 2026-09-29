@@ -1,0 +1,1 @@
+INSERT INTO result SELECT power(9,3);

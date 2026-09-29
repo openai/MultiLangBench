@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts4(words); INSERT INTO t1(words) VALUES('a abated abel abelmizraim abidah baalhanan babel back backward bad c'); INSERT INTO t1(t1) VALUES('optimize');

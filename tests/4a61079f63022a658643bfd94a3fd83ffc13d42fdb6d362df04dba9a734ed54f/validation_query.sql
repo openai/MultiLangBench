@@ -1,0 +1,1 @@
+SELECT objtype, objname, target FROM result ORDER BY objtype, objname, target;

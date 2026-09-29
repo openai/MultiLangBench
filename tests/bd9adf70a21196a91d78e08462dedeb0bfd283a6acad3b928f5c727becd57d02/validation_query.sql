@@ -1,0 +1,1 @@
+SELECT trig, a, b FROM capture ORDER BY trig, a, b;

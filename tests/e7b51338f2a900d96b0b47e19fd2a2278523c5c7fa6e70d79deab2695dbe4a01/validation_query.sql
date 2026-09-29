@@ -1,0 +1,1 @@
+SELECT count(*), coalesce(sum(length(x)),-1), (SELECT count(*) FROM sqlite_schema WHERE type='table' AND name IN('t2','t3')) FROM t1

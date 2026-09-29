@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM t0 WHERE (0,t0.c0) IN (SELECT dense_rank() OVER (),lag(0) OVER () FROM t0);

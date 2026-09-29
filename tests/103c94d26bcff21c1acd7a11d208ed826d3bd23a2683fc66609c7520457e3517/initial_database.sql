@@ -1,0 +1,1 @@
+CREATE TABLE t16c(a,b,c,d,e); INSERT INTO t16c VALUES(1,'a','b','c','d'); CREATE TRIGGER t16c1 AFTER INSERT ON t16c BEGIN UPDATE t16c SET (c,d)=(SELECT 'A','B'),(e,b)=(SELECT 'C','D') WHERE a=new.a-1; END;

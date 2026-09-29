@@ -1,0 +1,1 @@
+INSERT INTO result(x) SELECT * FROM t2 WHERE (a COLLATE nocase)='abc' COLLATE binary;

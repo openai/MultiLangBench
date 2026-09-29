@@ -1,0 +1,1 @@
+[["table","lost_and_found","lost_and_found","CREATE TABLE lost_and_found(a, b, c)"]]

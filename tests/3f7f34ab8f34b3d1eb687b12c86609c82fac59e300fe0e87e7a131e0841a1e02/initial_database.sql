@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b);INSERT INTO t1 VALUES('a','one'),('b','two'),('c','three');CREATE TABLE t10(x,y);INSERT INTO t10 VALUES(1,'true'),(0,'false');

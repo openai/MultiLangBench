@@ -1,0 +1,1 @@
+PRAGMA journal_mode=DELETE; CREATE TABLE t1(x); BEGIN; INSERT INTO t1 VALUES(2); PRAGMA journal_mode=TRUNCATE; ROLLBACK; CREATE TABLE observed AS SELECT * FROM pragma_journal_mode;

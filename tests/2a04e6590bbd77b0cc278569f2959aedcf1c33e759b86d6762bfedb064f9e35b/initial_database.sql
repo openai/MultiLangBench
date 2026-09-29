@@ -1,0 +1,1 @@
+CREATE TABLE seed_for_test(x);

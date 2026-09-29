@@ -1,0 +1,1 @@
+SELECT cnt FROM test1 WHERE power=4

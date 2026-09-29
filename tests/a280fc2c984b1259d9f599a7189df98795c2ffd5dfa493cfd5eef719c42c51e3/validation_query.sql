@@ -1,0 +1,1 @@
+SELECT s,two,four FROM result ORDER BY rowid

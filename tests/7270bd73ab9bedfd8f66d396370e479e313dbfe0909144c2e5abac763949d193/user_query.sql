@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT zeroblob(-10) AS v;

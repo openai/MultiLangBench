@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; ALTER TABLE 'p 1 "parent one"' RENAME TO p; UPDATE p SET a='xxx',b='xxx';

@@ -1,0 +1,1 @@
+/* 11.3 */ CREATE TABLE t2(b, a CHECK(CASE 'abc' COLLATE nocase WHEN a THEN 1 ELSE 0 END));

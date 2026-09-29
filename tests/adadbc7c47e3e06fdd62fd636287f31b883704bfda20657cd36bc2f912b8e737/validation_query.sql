@@ -1,0 +1,1 @@
+SELECT x10, typeof(x10), y10, typeof(y10), (SELECT count(*) FROM sqlite_schema WHERE type='view' AND name='v1') FROM result ORDER BY rowid;

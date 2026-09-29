@@ -1,0 +1,1 @@
+INSERT INTO result SELECT 'b' NOT IN (NULL,'b','c','d');

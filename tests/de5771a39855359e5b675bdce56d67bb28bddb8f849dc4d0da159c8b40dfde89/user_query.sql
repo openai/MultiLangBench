@@ -1,0 +1,1 @@
+INSERT INTO observed VALUES(1,(SELECT * FROM pragma_data_version)); PRAGMA main.data_version=1234; PRAGMA main.data_version; INSERT INTO observed VALUES(2,(SELECT * FROM pragma_data_version));

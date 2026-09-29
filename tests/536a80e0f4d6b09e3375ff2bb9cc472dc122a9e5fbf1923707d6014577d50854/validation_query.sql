@@ -1,0 +1,1 @@
+SELECT term,col,documents,occurrences FROM result ORDER BY rowid;

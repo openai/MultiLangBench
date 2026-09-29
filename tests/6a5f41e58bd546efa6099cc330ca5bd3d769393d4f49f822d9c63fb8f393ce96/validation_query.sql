@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM d1), count(*), min(a), max(a), min(b), max(b), min(c), max(c), (SELECT count(*) FROM sqlite_stat1 WHERE tbl='d2') FROM d2;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a FROM t2 WHERE b=1 AND c='hello' AND d>=x'012345';

@@ -1,0 +1,1 @@
+PRAGMA recursive_triggers=OFF; BEGIN; UPDATE tbl SET a=1 WHERE a=4; COMMIT;

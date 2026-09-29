@@ -1,0 +1,1 @@
+PRAGMA recursive_triggers=ON; UPDATE t10 SET a='tcl',updatecnt=5;

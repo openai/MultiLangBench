@@ -1,0 +1,1 @@
+[["a","INTEGER"],["b","INT"],["c","TEXT"],["d",""],["e","int Always"]]

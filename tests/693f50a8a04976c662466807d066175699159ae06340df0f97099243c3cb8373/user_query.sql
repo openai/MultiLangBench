@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT name,coll,key FROM pragma_index_xinfo('t4') ORDER BY seqno;

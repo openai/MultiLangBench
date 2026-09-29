@@ -1,0 +1,1 @@
+INSERT INTO t1(a, b) SELECT freelist_count, NULL FROM pragma_freelist_count;

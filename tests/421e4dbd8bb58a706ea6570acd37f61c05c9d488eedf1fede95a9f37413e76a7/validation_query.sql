@@ -1,0 +1,1 @@
+SELECT plus10,times2 FROM result

@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b,c); CREATE INDEX t1i ON t1(b+b+b+b,c) WHERE b>0; INSERT INTO t1 VALUES(1,2,3);

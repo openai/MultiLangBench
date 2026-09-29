@@ -1,0 +1,1 @@
+PRAGMA empty_result_callbacks=ON; WITH RECURSIVE c(i) AS (VALUES(2) UNION ALL SELECT i+1 FROM c WHERE i<50) INSERT INTO xyz SELECT i, '('||i||')' FROM c;

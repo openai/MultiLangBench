@@ -1,0 +1,1 @@
+CREATE INDEX i4 ON t4(c) WHERE d='xyz'; CREATE TABLE query_result AS SELECT * FROM (SELECT * FROM t5 WHERE a=1 AND b='xyz'), t4 WHERE c='abc';

@@ -1,0 +1,1 @@
+SELECT hex(mi) FROM result ORDER BY src;

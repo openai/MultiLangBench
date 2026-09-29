@@ -1,0 +1,1 @@
+UPDATE t10 SET oid=7;

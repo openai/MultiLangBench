@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX i4b ON t4(a,b,c);

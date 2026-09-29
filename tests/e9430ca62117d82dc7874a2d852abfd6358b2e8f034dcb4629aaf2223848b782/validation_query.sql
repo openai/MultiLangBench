@@ -1,0 +1,1 @@
+SELECT a,(SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='i1_1') AS idx FROM result ORDER BY a;

@@ -1,0 +1,1 @@
+SELECT name,sql FROM sqlite_master WHERE type='table' AND name IN('t1','t2','t3') ORDER BY name

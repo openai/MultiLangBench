@@ -1,0 +1,1 @@
+SELECT count(*) AS total_rows, sum(typeof(a)='integer') AS integer_keys, sum(typeof(a)='blob') AS blob_keys, sum(length(b)=600) AS enlarged_values, sum(typeof(b)='integer') AS integer_values FROM t1;

@@ -1,0 +1,1 @@
+INSERT INTO result(docid) SELECT docid FROM t1 WHERE words MATCH 'spake hebrew' ORDER BY docid;

@@ -1,0 +1,1 @@
+SELECT 1 AS source,idx,old_a,old_b,db_sum_a,db_sum_b,new_a,new_b FROM rlog UNION ALL SELECT 2,idx,old_a,old_b,db_sum_a,db_sum_b,new_a,new_b FROM clog ORDER BY source,idx

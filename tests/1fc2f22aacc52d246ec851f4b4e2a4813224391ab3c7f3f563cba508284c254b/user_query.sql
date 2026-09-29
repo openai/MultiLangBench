@@ -1,0 +1,1 @@
+INSERT INTO simple VALUES('Right now they''re very frustrated')

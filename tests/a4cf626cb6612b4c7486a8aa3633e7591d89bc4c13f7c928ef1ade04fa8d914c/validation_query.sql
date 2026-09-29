@@ -1,0 +1,1 @@
+SELECT EXISTS(SELECT 1 FROM sqlite_schema WHERE type='table' AND name='t1'),EXISTS(SELECT 1 FROM sqlite_schema WHERE type='table' AND name='t3'),EXISTS(SELECT 1 FROM sqlite_schema WHERE type='view' AND name='v1'),EXISTS(SELECT 1 FROM sqlite_schema WHERE name='t2'),(SELECT count(*) FROM t3),(SELECT count(*) FROM v1),(SELECT count(*) FROM sqlite_schema WHERE type='trigger');

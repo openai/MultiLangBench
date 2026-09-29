@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM high),(SELECT count(*) FROM low)

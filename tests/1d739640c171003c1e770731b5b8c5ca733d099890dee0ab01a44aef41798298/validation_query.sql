@@ -1,0 +1,1 @@
+SELECT power, EXISTS(SELECT 1 FROM sqlite_master WHERE type='index' AND name='index9') FROM test1 WHERE cnt=6

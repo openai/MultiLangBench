@@ -1,0 +1,1 @@
+SELECT a,(SELECT count(*) FROM t2),(SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='t2x') FROM t1 ORDER BY rowid;

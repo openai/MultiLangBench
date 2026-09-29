@@ -1,0 +1,1 @@
+INSERT INTO result SELECT json_insert('{"a":2,"c":4}', '$.a', 99);

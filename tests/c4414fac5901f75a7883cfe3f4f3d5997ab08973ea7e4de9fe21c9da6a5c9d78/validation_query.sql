@@ -1,0 +1,1 @@
+SELECT a FROM abc WHERE rowid=1;

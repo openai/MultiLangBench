@@ -1,0 +1,1 @@
+CREATE TABLE t1(x INTEGER PRIMARY KEY UNIQUE,b) WITHOUT ROWID; CREATE INDEX t1x ON t1(x); INSERT INTO t1(x,b) VALUES('funny','buffalo'); CREATE TABLE sfi_result AS SELECT type,name,'|' AS marker FROM sqlite_master WHERE name<>'sfi_result' ORDER BY rowid;

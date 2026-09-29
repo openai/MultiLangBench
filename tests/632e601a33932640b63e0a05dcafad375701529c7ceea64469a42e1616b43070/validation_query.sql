@@ -1,0 +1,1 @@
+SELECT name, tbl_name, rootpage > 0 AS has_rootpage, (SELECT count(*) FROM t2 INDEXED BY "" WHERE x=2) AS indexed_matches FROM sqlite_schema WHERE type='index' AND name='' AND tbl_name='t2';

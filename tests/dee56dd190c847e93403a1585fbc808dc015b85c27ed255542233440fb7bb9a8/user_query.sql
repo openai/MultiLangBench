@@ -1,0 +1,3 @@
+PRAGMA foreign_keys = ON;
+CREATE TABLE c1(b);
+INSERT INTO c1 VALUES(123);

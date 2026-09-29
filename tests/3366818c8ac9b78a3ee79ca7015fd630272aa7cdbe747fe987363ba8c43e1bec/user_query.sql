@@ -1,0 +1,1 @@
+PRAGMA writable_schema=ON; WITH roots(name,rp) AS MATERIALIZED (SELECT name,rootpage FROM sqlite_master WHERE name IN('t1','t1i1')) UPDATE sqlite_master SET rootpage=CASE name WHEN 't1' THEN (SELECT rp FROM roots WHERE name='t1i1') ELSE (SELECT rp FROM roots WHERE name='t1') END WHERE name IN('t1','t1i1'); PRAGMA writable_schema=OFF; PRAGMA schema_version=4;

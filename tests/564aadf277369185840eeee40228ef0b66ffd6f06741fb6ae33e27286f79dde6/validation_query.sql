@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM fts), (SELECT count(*) FROM fts_segdir), (SELECT count(*) FROM sqlite_schema WHERE name='fts' AND sql LIKE 'CREATE VIRTUAL TABLE%fts4%');

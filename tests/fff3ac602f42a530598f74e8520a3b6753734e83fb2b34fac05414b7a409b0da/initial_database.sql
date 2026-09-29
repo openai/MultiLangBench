@@ -1,0 +1,2 @@
+CREATE TABLE t1(x TEXT UNIQUE, y TEXT UNIQUE, z);
+INSERT INTO t1 VALUES('ghi','jkl','y');

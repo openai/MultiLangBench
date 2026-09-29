@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(a||':'||b, ',') FROM (SELECT a,b FROM t1 ORDER BY a)) AS t1_rows, (SELECT group_concat(a||':'||b, ',') FROM (SELECT a,b FROM t2 ORDER BY a)) AS t2_rows, (SELECT count(*) FROM t3) AS t3_count, (SELECT count(*) FROM sqlite_schema WHERE type='table' AND name IN ('t2','t3') AND upper(sql) LIKE '%WITHOUT ROWID%') AS without_rowid_count;

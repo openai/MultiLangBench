@@ -1,0 +1,1 @@
+ALTER TABLE t3102b RENAME TO t3102b_rename;

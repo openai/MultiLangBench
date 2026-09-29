@@ -1,0 +1,7 @@
+PRAGMA legacy_alter_table = 1;
+CREATE TABLE t1(a, b);
+CREATE TABLE t2(a, b);
+INSERT INTO t1 VALUES(1, 2);
+INSERT INTO t2 VALUES(3, 4);
+CREATE VIEW v AS SELECT one.a, one.b, t2.a, t2.b FROM t1 AS one, t2;
+ALTER TABLE t2 RENAME TO one;

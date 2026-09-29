@@ -1,0 +1,1 @@
+SELECT a, b, c, (SELECT count(*) FROM sqlite_master WHERE type = 'table' AND name = 't3') FROM t1 WHERE c MATCH 'two' ORDER BY rowid;

@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT x FROM t1 WHERE x IN (SELECT rowid FROM t2);

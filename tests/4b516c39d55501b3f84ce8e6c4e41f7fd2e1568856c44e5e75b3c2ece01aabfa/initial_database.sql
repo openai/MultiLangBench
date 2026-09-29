@@ -1,0 +1,1 @@
+CREATE TABLE t1(a, b); CREATE VIEW v1 AS SELECT * FROM t1; CREATE VIEW v2 AS SELECT * FROM t1; CREATE TABLE view_log(schema_name, view_name);

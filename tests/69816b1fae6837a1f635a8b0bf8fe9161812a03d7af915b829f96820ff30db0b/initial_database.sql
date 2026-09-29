@@ -1,0 +1,1 @@
+CREATE TABLE t1(k); CREATE TABLE log(k,cte_map,main_map); CREATE TABLE map(k,v); INSERT INTO map VALUES(1,'main1'),(2,'main2'); CREATE TRIGGER tr1 AFTER INSERT ON t1 BEGIN INSERT INTO log WITH map(k,v) AS (VALUES(1,'cte1'),(2,'cte2')) SELECT new.k,(SELECT v FROM map WHERE k=new.k),(SELECT v FROM main.map WHERE k=new.k); END;

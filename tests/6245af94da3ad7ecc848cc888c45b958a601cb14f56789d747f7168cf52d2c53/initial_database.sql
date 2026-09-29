@@ -1,0 +1,1 @@
+CREATE TABLE result(total_rows INTEGER, value_length INTEGER, value_ok INTEGER);

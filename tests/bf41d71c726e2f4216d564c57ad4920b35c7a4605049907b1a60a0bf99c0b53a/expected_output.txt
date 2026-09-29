@@ -1,0 +1,1 @@
+[[1,"linux driver","a device"],[2,"driver","linguistic trick"],[3,"problems","linux problems"],[4,"linux","big problems"],[5,"linux driver","a device driver problem"],[6,"good times","applications for linux"],[7,"not so good","linux applications"],[8,"alternative","linoleum appliances"],[9,"no L I N","to be seen"]]

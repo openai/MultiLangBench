@@ -1,0 +1,1 @@
+SELECT count(*) AS row_count, sum(length(fill)) AS total_bytes, min(length(fill)) AS minimum_bytes, max(length(fill)) AS maximum_bytes FROM filler;

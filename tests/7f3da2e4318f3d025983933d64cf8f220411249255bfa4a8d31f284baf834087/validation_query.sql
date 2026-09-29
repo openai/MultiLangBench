@@ -1,0 +1,1 @@
+SELECT rowid AS rid FROM ft1 WHERE ft1 MATCH 'x' ORDER BY rowid

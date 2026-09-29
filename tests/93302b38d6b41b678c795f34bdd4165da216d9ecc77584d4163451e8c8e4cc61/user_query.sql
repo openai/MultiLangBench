@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; INSERT INTO high VALUES('a','b'); INSERT INTO low VALUES('b','a');

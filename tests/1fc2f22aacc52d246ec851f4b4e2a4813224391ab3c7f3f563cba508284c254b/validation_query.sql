@@ -1,0 +1,1 @@
+SELECT rowid,content FROM simple ORDER BY rowid

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT count(*) FROM t1 HAVING log!=400;

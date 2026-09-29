@@ -1,0 +1,1 @@
+SELECT x,y,mark FROM result ORDER BY x,y,mark;

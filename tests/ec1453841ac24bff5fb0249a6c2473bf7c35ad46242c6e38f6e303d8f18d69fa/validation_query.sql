@@ -1,0 +1,1 @@
+SELECT * FROM offset ORDER BY offset ASC

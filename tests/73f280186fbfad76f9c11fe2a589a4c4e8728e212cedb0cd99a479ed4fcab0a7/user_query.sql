@@ -1,0 +1,1 @@
+UPDATE t2 SET rowid=rowid-1;

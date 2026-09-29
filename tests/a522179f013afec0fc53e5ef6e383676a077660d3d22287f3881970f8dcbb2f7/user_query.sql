@@ -1,0 +1,1 @@
+CREATE TABLE test2(id,b); INSERT INTO test VALUES(7,8,9);

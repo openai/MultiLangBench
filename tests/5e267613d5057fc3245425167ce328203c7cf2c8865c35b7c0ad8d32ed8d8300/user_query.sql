@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result(x,y); INSERT INTO sfi_result SELECT x, y FROM log2 ORDER BY x;

@@ -1,0 +1,1 @@
+CREATE TABLE one(a,b,c,UNIQUE(b,c));

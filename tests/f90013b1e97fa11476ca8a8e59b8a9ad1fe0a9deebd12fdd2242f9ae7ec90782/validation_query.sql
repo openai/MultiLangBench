@@ -1,0 +1,1 @@
+SELECT ID, Value FROM observed ORDER BY ID, Value;

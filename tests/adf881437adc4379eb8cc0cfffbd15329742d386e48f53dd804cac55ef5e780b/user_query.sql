@@ -1,0 +1,1 @@
+UPDATE tbl SET b=1,c=10; UPDATE tbl SET b=10; UPDATE tbl SET d=4 WHERE a=0; UPDATE tbl SET a=4,b=10;

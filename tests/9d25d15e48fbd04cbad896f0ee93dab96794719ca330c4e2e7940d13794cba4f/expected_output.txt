@@ -1,0 +1,1 @@
+[["table","t_sa","t_sa","CREATE TABLE t_sa(c_muyat INTEGER NOT NULL, c_d4u TEXT)"],["table","t2","t2","CREATE TABLE t2(abc)"],["trigger","trig","t_sa","CREATE TRIGGER trig AFTER DELETE ON t_sa BEGIN DELETE FROM t_sa WHERE (SELECT 123 FROM t2 WINDOW oamat7fzf AS (PARTITION BY t_sa.c_d4u)); END"]]

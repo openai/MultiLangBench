@@ -1,0 +1,1 @@
+SELECT count(*) AS ncol,sum(name=printf('c%d',cid+1)) AS correctly_named FROM pragma_table_info('t1');

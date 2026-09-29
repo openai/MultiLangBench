@@ -1,0 +1,1 @@
+SELECT x, s, m, w FROM sfi_result ORDER BY x;

@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; BEGIN; DELETE FROM node; INSERT INTO node(nodeid) SELECT DISTINCT parent FROM leaf; COMMIT;

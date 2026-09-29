@@ -1,0 +1,1 @@
+[["index","sqlite_autoindex_collate4t1_1",""],["table","collate4t1","CREATE TABLE collate4t1(a COLLATE NOCASE UNIQUE)"]]

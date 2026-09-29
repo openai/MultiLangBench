@@ -1,0 +1,1 @@
+CREATE TEMP TABLE abc(a, b, c); ALTER TABLE abc ADD d INTEGER; ALTER TABLE abc ADD e; INSERT INTO capture SELECT sql FROM sqlite_temp_master WHERE name='abc';

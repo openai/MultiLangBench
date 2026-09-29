@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM t4 WHERE rowid=1;

@@ -1,0 +1,1 @@
+CREATE TABLE parent2(a,b,PRIMARY KEY(a,b)); CREATE TABLE child8(x,y,FOREIGN KEY(x,y) REFERENCES parent2);

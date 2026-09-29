@@ -1,0 +1,1 @@
+CREATE TABLE seps(x); INSERT INTO seps(x) VALUES ('1'), ('22'), ('333'), ('4444'); CREATE TABLE result AS SELECT x AS ord, group_concat('-', x) OVER (ORDER BY x ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING) AS v FROM seps ORDER BY x;

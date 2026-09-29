@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b,PRIMARY KEY(a,b)); INSERT INTO t1 VALUES(replace(hex(zeroblob(1000)),'00','x'),replace(hex(zeroblob(1000)),'00','y')); BEGIN; DELETE FROM t1; SAVEPOINT one; PRAGMA incremental_vacuum; ROLLBACK TO one; COMMIT;

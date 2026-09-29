@@ -1,0 +1,10 @@
+CREATE TABLE sfi_result AS
+SELECT *
+FROM t1 CROSS JOIN t2 ON (t1.a = t2.b)
+WHERE t2.b IN (
+  SELECT t3.c
+  FROM t3
+  WHERE t3.c IN (
+    SELECT d FROM (SELECT DISTINCT d FROM t4) AS x WHERE x.d=104
+  )
+);

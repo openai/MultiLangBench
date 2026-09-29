@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t4 USING fts3(a,b); INSERT INTO t4 VALUES('In Xanadu','did Kubla Khan')

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rowid AS rn, length(c) AS lc, length(d) AS ld FROM t1;

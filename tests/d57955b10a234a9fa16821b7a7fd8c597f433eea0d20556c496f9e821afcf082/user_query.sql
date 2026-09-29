@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT docid FROM simple WHERE simple MATCH 'Frustration'

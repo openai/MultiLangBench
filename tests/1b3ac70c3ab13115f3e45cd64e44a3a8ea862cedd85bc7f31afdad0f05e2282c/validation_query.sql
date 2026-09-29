@@ -1,0 +1,1 @@
+SELECT x,w1,r1,w2,r2,r3 FROM t2 ORDER BY rowid

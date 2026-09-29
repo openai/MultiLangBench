@@ -1,0 +1,1 @@
+SELECT counter, value, sumv FROM result ORDER BY rowid;

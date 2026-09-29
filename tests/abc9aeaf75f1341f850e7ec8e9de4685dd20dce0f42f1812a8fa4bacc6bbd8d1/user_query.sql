@@ -1,0 +1,1 @@
+DELETE FROM main.t1; INSERT INTO main.t1 VALUES(NULL, ''); INSERT INTO main.t1 VALUES(1, 'i'); INSERT INTO main.t1 VALUES(2, 'ii'); INSERT INTO main.t1 VALUES(3, 'iii');

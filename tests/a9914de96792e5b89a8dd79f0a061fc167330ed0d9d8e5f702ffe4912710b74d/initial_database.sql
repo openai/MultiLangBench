@@ -1,0 +1,1 @@
+CREATE TABLE av1(x);

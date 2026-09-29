@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT b, max(a) FILTER (WHERE b='x') AS m FROM t1;

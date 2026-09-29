@@ -1,0 +1,1 @@
+SELECT a, (SELECT COUNT(*) FROM sqlite_schema WHERE type='index' AND name='i1' AND tbl_name='t1') AS i1_count FROM t1 ORDER BY a;

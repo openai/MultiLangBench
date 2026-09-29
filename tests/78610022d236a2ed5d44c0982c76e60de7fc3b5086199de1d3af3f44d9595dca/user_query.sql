@@ -1,0 +1,1 @@
+BEGIN;CREATE TABLE one(a text,b int);INSERT INTO one VALUES('hello',1);ROLLBACK;

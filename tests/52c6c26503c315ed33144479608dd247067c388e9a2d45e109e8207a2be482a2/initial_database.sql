@@ -1,0 +1,1 @@
+CREATE TABLE t8(a INTEGER PRIMARY KEY, b TEXT); CREATE UNIQUE INDEX t8bx ON t8(substr(b,2,4) COLLATE nocase); INSERT INTO t8(a,b) VALUES(1,'Alice'),(2,'Bartholemew'),(3,'Cynthia');

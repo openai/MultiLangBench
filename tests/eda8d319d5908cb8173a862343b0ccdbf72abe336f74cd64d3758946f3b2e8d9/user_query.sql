@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT docid FROM t2 WHERE t2 MATCH '"zero one" OR "one two"' AND l=7;

@@ -1,0 +1,1 @@
+SELECT a,b,c,d,e FROM log ORDER BY rowid

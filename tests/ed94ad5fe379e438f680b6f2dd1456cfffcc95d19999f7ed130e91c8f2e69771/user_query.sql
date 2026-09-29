@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT y COLLATE nocase BETWEEN 'A' AND 'B' AS v FROM t1;

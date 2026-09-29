@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT count(b) AS n FROM t2 WHERE b = X'ABCD';

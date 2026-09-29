@@ -1,0 +1,1 @@
+SELECT tbl,idx,stat FROM sfi_result ORDER BY rowid;

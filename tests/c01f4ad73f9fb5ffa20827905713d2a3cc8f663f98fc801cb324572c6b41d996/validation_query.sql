@@ -1,0 +1,1 @@
+SELECT group_concat(a||','||b||','||c||','||d||','||e,'|') FROM (SELECT * FROM t2 ORDER BY a);

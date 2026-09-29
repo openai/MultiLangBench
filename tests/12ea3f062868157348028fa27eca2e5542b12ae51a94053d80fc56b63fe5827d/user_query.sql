@@ -1,0 +1,5 @@
+INSERT INTO t1 SELECT a+1, b+3, c+5 FROM t1;
+INSERT INTO t1 SELECT a+2, b+6, c+10 FROM t1;
+INSERT INTO t1 SELECT a+4, b+12, c+20 FROM t1;
+CREATE TABLE result AS
+SELECT count(*) AS n, count(DISTINCT a) AS na, count(DISTINCT b) AS nb FROM t1;

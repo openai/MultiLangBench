@@ -1,0 +1,1 @@
+CREATE INDEX t1x2 ON t1(abs(a)); CREATE TABLE result(seq INTEGER PRIMARY KEY, v TEXT); INSERT INTO result(seq,v) SELECT 1,typeof(abs(a)) FROM t1 NOT INDEXED; INSERT INTO result(seq,v) SELECT 2,typeof(abs(a)) FROM t1 INDEXED BY t1x2;

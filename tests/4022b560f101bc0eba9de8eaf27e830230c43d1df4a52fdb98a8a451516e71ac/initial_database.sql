@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts3(content); INSERT INTO t1(content) VALUES('dummy row one'); INSERT INTO t1(content) VALUES('dummy row two'); WITH RECURSIVE c(x) AS (VALUES(1) UNION ALL SELECT x+1 FROM c WHERE x<50) INSERT INTO t1(content) SELECT 'abbrev ' || group_concat('filler',' ') || ' zygosis' FROM c AS a, c AS b;

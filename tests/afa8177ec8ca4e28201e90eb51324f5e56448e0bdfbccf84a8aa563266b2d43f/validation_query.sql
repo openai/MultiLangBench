@@ -1,0 +1,1 @@
+SELECT b FROM t1 INDEXED BY view WHERE a=2

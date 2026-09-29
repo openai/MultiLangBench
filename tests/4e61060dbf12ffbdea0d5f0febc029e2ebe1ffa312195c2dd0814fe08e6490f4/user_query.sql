@@ -1,0 +1,1 @@
+CREATE TABLE result(v); INSERT INTO result SELECT LIKE('!', '', '!') x WHERE x;

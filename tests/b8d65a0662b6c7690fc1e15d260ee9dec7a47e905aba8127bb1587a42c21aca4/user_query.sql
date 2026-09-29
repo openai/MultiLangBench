@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE ft1 USING fts3tokenize('unicode61','tokenchars=@.','separators=1234567890'); CREATE TABLE result AS SELECT token FROM ft1 WHERE input='berlin@street123sydney.road' ORDER BY position;

@@ -1,0 +1,1 @@
+PRAGMA encoding=UTF16be; CREATE TABLE result AS WITH separator(x) AS (VALUES(',a,'),(',bc,')), value(y) AS (VALUES(1),(x'5585d09013455178cd11ce4a')) SELECT group_concat(y,x) OVER (ORDER BY x ROWS BETWEEN 1 PRECEDING AND 1 PRECEDING) AS gc FROM separator, value;

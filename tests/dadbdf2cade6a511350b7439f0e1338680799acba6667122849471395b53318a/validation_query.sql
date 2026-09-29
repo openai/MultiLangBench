@@ -1,0 +1,1 @@
+SELECT a, (SELECT seq FROM sqlite_sequence WHERE name='tbl2') AS seq FROM tbl2 ORDER BY a;

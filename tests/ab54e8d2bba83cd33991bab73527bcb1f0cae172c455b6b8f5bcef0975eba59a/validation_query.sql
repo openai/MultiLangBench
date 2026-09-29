@@ -1,0 +1,1 @@
+SELECT a,b,c,typeof(a) FROM t1 WHERE a=1234567890;

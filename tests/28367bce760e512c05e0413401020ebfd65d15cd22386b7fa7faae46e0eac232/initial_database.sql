@@ -1,0 +1,5 @@
+CREATE TABLE log(x, a, b);
+CREATE TABLE tbl(a, b);
+CREATE TABLE t1(a, b);
+CREATE VIEW v1 AS SELECT * FROM tbl;
+CREATE INDEX i1 ON tbl(a);

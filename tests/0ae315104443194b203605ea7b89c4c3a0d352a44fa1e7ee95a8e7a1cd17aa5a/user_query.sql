@@ -1,0 +1,1 @@
+CREATE TABLE t8c(a,b); CREATE VIRTUAL TABLE t8 USING fts4(content=t8c,languageid=langid); INSERT INTO t8(docid,a,b) VALUES(-1,'one two three','x y z'); CREATE TABLE result AS SELECT docid FROM t8 WHERE t8 MATCH 'one x' AND langid=0;

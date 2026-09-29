@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT min(b), min(b) FROM t4;

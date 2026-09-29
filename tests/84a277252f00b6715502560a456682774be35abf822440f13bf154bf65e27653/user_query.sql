@@ -1,0 +1,1 @@
+CREATE TABLE after(after after); INSERT INTO after VALUES(99); INSERT INTO after SELECT a FROM t1;

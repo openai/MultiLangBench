@@ -1,0 +1,1 @@
+SELECT one,two,three FROM t2 ORDER BY docid;

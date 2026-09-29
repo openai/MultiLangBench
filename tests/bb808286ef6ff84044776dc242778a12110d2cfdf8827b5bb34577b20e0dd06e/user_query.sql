@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT typeof(a) AS type_a, a AS value_a, typeof(b) AS type_b, b AS value_b FROM t5;

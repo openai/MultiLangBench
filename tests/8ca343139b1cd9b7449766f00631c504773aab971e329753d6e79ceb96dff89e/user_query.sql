@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; INSERT INTO cc VALUES(6,'A',5),(6,'B',5),(9,'A',8),(9,'B',8); UPDATE pp SET b=1 WHERE a=7;

@@ -1,0 +1,1 @@
+[[1,"c d a c d d","e a g b d a"],[2,"c c g a e b","c g d g e c"],[3,"b e f d e g","b a c b c g"],[4,"a c f f g d","d b f d e g"],[5,"g a c f c f","d g g b c c"],[6,"g a c e b b","d b f b g g"],[7,"f d a a f c","e e a d c f"],[8,"a c b b g f","a b a e d f"],[9,"b a f e c c","f d b b a b"],[10,"f d c e a c","f a f a a f"]]

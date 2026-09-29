@@ -1,0 +1,1 @@
+CREATE TABLE t5(x DEFAULT (1 IN (1,2,3)));

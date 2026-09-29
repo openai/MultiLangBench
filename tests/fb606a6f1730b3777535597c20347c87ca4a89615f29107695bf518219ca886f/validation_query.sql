@@ -1,0 +1,1 @@
+SELECT type,name,tbl_name,CASE WHEN type='trigger' THEN instr(upper(sql),'AFTER')>0 ELSE 1 END AS correct_timing FROM sqlite_schema WHERE type IN ('table','trigger') ORDER BY type,name;

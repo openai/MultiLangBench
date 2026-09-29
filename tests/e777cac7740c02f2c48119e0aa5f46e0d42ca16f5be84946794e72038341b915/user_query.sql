@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT c FROM t4a WHERE b=a ORDER BY c;

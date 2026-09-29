@@ -1,0 +1,1 @@
+CREATE TABLE view(view view); INSERT INTO view VALUES(99); INSERT INTO view SELECT a FROM t1;

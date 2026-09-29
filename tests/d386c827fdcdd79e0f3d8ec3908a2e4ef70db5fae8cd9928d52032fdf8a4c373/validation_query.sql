@@ -1,0 +1,1 @@
+SELECT rowid, ft FROM ft ORDER BY rowid;

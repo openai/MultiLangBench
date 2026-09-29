@@ -1,0 +1,1 @@
+SELECT n, total, minlen, maxlen FROM result;

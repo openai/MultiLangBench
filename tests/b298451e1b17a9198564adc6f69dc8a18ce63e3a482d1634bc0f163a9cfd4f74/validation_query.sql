@@ -1,0 +1,1 @@
+SELECT level FROM result ORDER BY level

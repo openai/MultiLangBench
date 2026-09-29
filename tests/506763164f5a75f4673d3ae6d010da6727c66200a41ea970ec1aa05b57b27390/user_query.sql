@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a,b FROM collate5t2 INTERSECT SELECT a,b FROM collate5t1;

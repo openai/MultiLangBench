@@ -1,0 +1,1 @@
+INSERT INTO ta VALUES('Wordsworth went on a walking tour')

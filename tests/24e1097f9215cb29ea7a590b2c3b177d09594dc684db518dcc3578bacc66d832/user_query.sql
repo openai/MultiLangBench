@@ -1,0 +1,1 @@
+INSERT OR FAIL INTO main.a1(b, a) SELECT c, b FROM a2

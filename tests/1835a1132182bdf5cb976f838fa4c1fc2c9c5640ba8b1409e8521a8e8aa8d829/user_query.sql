@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=OFF; INSERT INTO t7b SELECT * FROM t7c;

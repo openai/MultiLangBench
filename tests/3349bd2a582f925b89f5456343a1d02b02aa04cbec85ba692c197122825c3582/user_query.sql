@@ -1,0 +1,1 @@
+ATTACH ':memory:' AS aux; CREATE TABLE aux.t1(x); CREATE TABLE aux.t2(a,b); CREATE TRIGGER aux.x1 AFTER INSERT ON t1 BEGIN INSERT INTO t2(a,b) SELECT key,value FROM json_each(NEW.x); END; INSERT INTO aux.t1 VALUES('{"a":1}'); INSERT INTO aux.t1 VALUES('{"b":2}'); INSERT INTO main.capture SELECT a,b FROM aux.t2 ORDER BY rowid;

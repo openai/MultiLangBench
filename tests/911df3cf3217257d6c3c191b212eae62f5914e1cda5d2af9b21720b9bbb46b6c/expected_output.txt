@@ -1,0 +1,1 @@
+[[1,"null","json",null,"null",null,"null"],[2,"123","json",123,"integer",123,"integer"],[3,"4.5","json",4.5,"real",4.5,"real"],[4,"\"six\"","json","six","text","six","text"],[5,"[7,8]","json","[7,8]","text","[7,8]","json"],[6,"{\"b\":9}","json","{\"b\":9}","text","{\"b\":9}","json"],[7,null,"null",null,"null",null,"null"]]

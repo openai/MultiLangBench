@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts4;INSERT INTO t1(docid,content) VALUES(1,'O'),(5,'O'),(6,'O'),(7,'O'),(11,'O'),(16,'O'),(18,'O'),(21,'O'),(22,'O'),(28,'O');

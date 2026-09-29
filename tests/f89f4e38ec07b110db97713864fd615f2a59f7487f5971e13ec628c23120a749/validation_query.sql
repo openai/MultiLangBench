@@ -1,0 +1,1 @@
+SELECT a,b,c,d,(SELECT idx FROM sqlite_stat1 WHERE tbl='t3' LIMIT 1) AS stat_index,(SELECT stat FROM sqlite_stat1 WHERE tbl='t3' LIMIT 1) AS stat FROM t3 ORDER BY a,b,c;

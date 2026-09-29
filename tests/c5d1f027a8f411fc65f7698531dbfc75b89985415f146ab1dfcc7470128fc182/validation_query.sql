@@ -1,0 +1,1 @@
+SELECT c,b FROM t2

@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; BEGIN; PRAGMA defer_foreign_keys=1; DELETE FROM p2 WHERE a=1; COMMIT;

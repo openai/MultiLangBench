@@ -1,0 +1,1 @@
+SELECT id,apr_fraction,apr_type FROM sfi_result ORDER BY id;

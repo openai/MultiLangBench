@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT count(CASE WHEN b IN ('abc','xyz') THEN 'x' END) AS n FROM t3;

@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(coalesce(datetime(2457754,'start of day'),'NULL'))

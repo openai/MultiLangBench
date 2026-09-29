@@ -1,0 +1,1 @@
+INSERT INTO r SELECT a FROM t WHERE ((123||'xabcdefghijklmnopqrstuvwyxz01234567890'||a) BETWEEN '123a' AND '123z')>0 ORDER BY a;

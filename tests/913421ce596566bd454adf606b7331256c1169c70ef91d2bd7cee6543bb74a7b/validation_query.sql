@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t12),(SELECT sum(a) FROM t12),(SELECT count(*) FROM t13),(SELECT count(*) FROM sqlite_schema WHERE name IN('t12ab','t12ac'))

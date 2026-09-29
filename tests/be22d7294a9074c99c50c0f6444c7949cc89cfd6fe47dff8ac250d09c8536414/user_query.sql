@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t4 USING fts4(a, b, c, notindexed=b); INSERT INTO t4 VALUES('text one', 'text two', 'text three'); INSERT INTO t4(t4) VALUES('integrity-check');

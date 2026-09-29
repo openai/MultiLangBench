@@ -1,0 +1,1 @@
+PRAGMA recursive_triggers=OFF; INSERT INTO t1 VALUES(4,5,6); DELETE FROM v1log; DELETE FROM v1 WHERE y=11;

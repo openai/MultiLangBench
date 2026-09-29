@@ -1,0 +1,1 @@
+CREATE TABLE t4(a string); INSERT INTO t4 VALUES('abcdefghij'); INSERT INTO t4 VALUES(replace(hex(zeroblob(50)), '00', 'abcdefghij')); INSERT INTO t4 VALUES(replace(hex(zeroblob(50000)), '00', 'abcdefghij'));

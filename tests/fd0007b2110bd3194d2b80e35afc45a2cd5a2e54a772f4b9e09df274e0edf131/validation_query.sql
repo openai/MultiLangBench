@@ -1,0 +1,1 @@
+SELECT rowid, typeof(n), length(n), typeof(h), length(h), instr(h,n), n=replace(hex(zeroblob(10)),'00','abcdefghijklmnopqrstuvwxyz'), h=('123123123123123123123123123123'||replace(hex(zeroblob(10)),'00','abcdefghijklmnopqrstuvwxyz')||'456456456456456456456456456456') FROM t1 ORDER BY rowid;

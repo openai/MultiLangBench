@@ -1,0 +1,1 @@
+SELECT 'yyy' AS tbl, q, w, e, r FROM yyy UNION ALL SELECT 'zzz' AS tbl, q, w, e, r FROM zzz ORDER BY tbl, q;

@@ -1,0 +1,1 @@
+SELECT val, col1 FROM result ORDER BY CAST(val AS INTEGER);

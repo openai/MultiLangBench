@@ -1,0 +1,1 @@
+CREATE TABLE problem AS SELECT * FROM myview;

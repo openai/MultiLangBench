@@ -1,0 +1,1 @@
+SELECT name FROM sqlite_master LIMIT 1; CREATE TABLE test(a INTEGER,PRIMARY KEY(a));

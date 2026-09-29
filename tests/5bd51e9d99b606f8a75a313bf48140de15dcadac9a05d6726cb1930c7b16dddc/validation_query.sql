@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(a||b||c,'|') FROM t1),(SELECT group_concat(a||b||c,'|') FROM t3);

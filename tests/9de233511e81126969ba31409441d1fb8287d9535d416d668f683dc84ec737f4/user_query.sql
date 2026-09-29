@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT name FROM peoplew WHERE height>=180 ORDER BY +name;

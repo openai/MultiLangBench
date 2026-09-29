@@ -1,0 +1,1 @@
+SELECT kind, c1, c2, c3, c4, c5 FROM sfi_result ORDER BY seq;

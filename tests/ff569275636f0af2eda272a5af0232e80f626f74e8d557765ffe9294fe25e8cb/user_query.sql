@@ -1,0 +1,1 @@
+CREATE TABLE _result AS SELECT a FROM t1 WHERE b IN (b+8,64);

@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t3) AS row_count,(SELECT count(*) FROM sqlite_schema WHERE name IN('t3','v3','trig1')) AS object_count

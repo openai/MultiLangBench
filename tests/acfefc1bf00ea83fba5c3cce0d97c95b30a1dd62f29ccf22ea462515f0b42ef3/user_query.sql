@@ -1,0 +1,1 @@
+CREATE TABLE result AS WITH y AS (SELECT Row_Number() OVER (win) AS rn FROM x WINDOW win AS (PARTITION BY a)) SELECT rn FROM y;

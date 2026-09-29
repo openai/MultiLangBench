@@ -1,0 +1,1 @@
+[["tr2","CREATE TRIGGER tr2 INSERT ON t1 BEGIN SELECT * FROM sqlite_master; END"]]

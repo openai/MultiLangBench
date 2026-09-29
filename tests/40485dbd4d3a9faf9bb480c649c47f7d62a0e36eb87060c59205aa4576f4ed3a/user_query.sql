@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT t4a.x AS x1, t4b.x AS x2, t5.c AS c, t6.v AS v FROM t4 AS t4a INNER JOIN t4 AS t4b LEFT JOIN t5 ON t5.a=t4a.x AND t5.b=t4b.x LEFT JOIN (SELECT 1 AS v) AS t6 ON t4a.x=t4b.x ORDER BY 1,2,3;

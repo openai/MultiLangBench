@@ -1,0 +1,1 @@
+SELECT count(*) AS nrow,sum(i) AS value_sum,sum(i-CAST(substr(t,2) AS INTEGER)) AS total_delta,sum(CASE WHEN rowid<10000 AND i=CAST(substr(t,2) AS INTEGER)+1 THEN 1 ELSE 0 END) AS changed_rows,sum(CASE WHEN rowid>=10000 AND i=CAST(substr(t,2) AS INTEGER) THEN 1 ELSE 0 END) AS unchanged_rows FROM t1;

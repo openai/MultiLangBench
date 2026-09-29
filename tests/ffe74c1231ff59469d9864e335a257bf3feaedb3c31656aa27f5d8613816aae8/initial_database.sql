@@ -1,0 +1,1 @@
+CREATE TABLE result(v); CREATE TABLE strings(s); WITH RECURSIVE r(n,s) AS (VALUES(0,'abcdefghijklmonpqrstuvwxyz') UNION ALL SELECT n+1,s||s FROM r WHERE n<12) INSERT INTO strings(s) SELECT replace(s||'Xabcde','a','ä') FROM r WHERE n=12;

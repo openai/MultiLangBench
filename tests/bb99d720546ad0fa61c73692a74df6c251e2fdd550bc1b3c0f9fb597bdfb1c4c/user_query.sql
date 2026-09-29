@@ -1,0 +1,1 @@
+INSERT INTO result(a) SELECT a FROM t1 WHERE c=' ';

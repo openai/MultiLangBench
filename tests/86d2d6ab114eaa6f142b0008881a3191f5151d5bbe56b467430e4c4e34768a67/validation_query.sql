@@ -1,0 +1,1 @@
+SELECT docid,c0,lid FROM vt0 ORDER BY docid

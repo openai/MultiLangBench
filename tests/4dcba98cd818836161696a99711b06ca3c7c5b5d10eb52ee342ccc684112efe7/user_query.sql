@@ -1,0 +1,1 @@
+INSERT INTO ta VALUES('debate demonstrated the rising difficulty')

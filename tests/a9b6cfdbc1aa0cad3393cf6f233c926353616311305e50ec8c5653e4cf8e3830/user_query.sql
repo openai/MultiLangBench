@@ -1,0 +1,1 @@
+INSERT INTO docs SELECT 'the sqlite library runs on linux' UNION ALL SELECT 'as does the sqlite database (on linux)' UNION ALL SELECT 'the sqlite database is accessed by the sqlite library'

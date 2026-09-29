@@ -1,0 +1,1 @@
+SELECT op,x,y FROM capture ORDER BY rowid;

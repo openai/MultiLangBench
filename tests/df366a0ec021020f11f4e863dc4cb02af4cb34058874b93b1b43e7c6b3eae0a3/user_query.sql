@@ -1,0 +1,7 @@
+PRAGMA legacy_alter_table = 1;
+CREATE TEMP TABLE t9(a, b, c);
+CREATE TRIGGER temp.t9t AFTER INSERT ON temp.t9 BEGIN
+  INSERT INTO t10 VALUES(new.a, new.b, new.c);
+END;
+ALTER TABLE temp.t9 RENAME TO 't1234567890';
+INSERT INTO temp."t1234567890" VALUES(1, 2, 3);

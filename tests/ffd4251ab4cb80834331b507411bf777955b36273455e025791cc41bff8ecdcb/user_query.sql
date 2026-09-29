@@ -1,0 +1,1 @@
+DELETE FROM t WHERE rowid=2; CREATE TABLE result AS WITH RECURSIVE cte(label,step) AS (SELECT * FROM t UNION ALL SELECT DISTINCT label,step+1 FROM cte,tworow WHERE step<3) SELECT * FROM cte ORDER BY +label,+step;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT b, b=count(*) AS is_count, group_concat(b) OVER () AS gc FROM t1 GROUP BY b ORDER BY b;

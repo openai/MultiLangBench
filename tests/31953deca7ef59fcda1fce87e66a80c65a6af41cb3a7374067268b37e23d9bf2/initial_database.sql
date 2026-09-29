@@ -1,0 +1,1 @@
+CREATE TABLE x1(k,x,y,z);INSERT INTO x1 VALUES(1,'relinquished','aphasia',78.43),(2,X'A8E8D66F',X'07CF',-81),(3,-22,-27.57,NULL),(4,NULL,'bygone','picky'),(5,NULL,96.28,NULL),(6,0,1,2);

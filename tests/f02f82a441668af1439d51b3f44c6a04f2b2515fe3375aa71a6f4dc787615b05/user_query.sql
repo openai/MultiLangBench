@@ -1,0 +1,1 @@
+CREATE TABLE result(c1); INSERT INTO result SELECT sum(a+b) FILTER (WHERE a=NULL) FROM t1;

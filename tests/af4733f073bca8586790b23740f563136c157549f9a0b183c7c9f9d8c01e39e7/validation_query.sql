@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(a || ':' || b, '|') FROM (SELECT a,b FROM t1 ORDER BY a)), (SELECT group_concat(name, '|') FROM (SELECT name FROM sqlite_schema WHERE name IN ('log','t1','v1','v1del','v1upd') ORDER BY name));

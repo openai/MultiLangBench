@@ -1,0 +1,1 @@
+CREATE TABLE t1(x); INSERT INTO t1 VALUES(hex(zeroblob(1000))); DROP TABLE t1; PRAGMA incremental_vacuum=-1;

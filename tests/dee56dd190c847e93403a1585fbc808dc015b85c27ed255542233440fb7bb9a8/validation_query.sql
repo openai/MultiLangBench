@@ -1,0 +1,1 @@
+SELECT quote(b) AS b, typeof(b) AS storage_class, (SELECT sql FROM sqlite_schema WHERE type='table' AND name='c1') AS definition FROM c1 ORDER BY rowid;

@@ -1,0 +1,1 @@
+SELECT quote(o),quote(t) FROM t3 ORDER BY rowid DESC LIMIT 1

@@ -1,0 +1,1 @@
+SELECT count(*) AS nrow,sum(rowid) AS rowid_sum,sum(i) AS value_sum,sum(length(t)) AS text_length,sum(CASE WHEN (rowid%2)=1 THEN i=rowid*2 AND t=printf('number %d',rowid*2) ELSE i=rowid AND t=printf('number %d',rowid) END) AS correct_rows FROM t4;

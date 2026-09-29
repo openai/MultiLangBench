@@ -1,0 +1,1 @@
+SELECT p.page_size,t.a,t.b,t.c FROM pragma_page_size AS p,t1 AS t;

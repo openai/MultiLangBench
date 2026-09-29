@@ -1,0 +1,1 @@
+SELECT a,b,x,y,tag FROM r ORDER BY rowid

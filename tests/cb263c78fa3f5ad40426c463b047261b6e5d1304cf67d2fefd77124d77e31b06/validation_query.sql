@@ -1,0 +1,1 @@
+SELECT c,d,(SELECT count(*) FROM t1),(SELECT count(*) FROM t2),(SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='t3d') FROM t3;

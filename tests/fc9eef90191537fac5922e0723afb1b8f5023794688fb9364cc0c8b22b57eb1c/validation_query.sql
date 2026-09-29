@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM marker) AS marker_rows, (SELECT count(*) FROM sqlite_schema WHERE type='table' AND name='t1') AS t1_exists

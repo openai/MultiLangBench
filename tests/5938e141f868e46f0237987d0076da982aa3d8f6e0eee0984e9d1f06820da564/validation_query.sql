@@ -1,0 +1,1 @@
+SELECT fts.rowid, fts.content, t1.x, t1.y FROM fts LEFT JOIN t1 ON fts.content=t1.x ORDER BY fts.rowid;

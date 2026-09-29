@@ -1,0 +1,1 @@
+SELECT term, documents, occurrences, languageid FROM result ORDER BY term, languageid;

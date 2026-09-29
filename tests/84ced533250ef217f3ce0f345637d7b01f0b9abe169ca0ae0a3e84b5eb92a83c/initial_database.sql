@@ -1,0 +1,2 @@
+PRAGMA auto_vacuum=INCREMENTAL;
+CREATE TABLE main.t1(a INTEGER, b TEXT, c INTEGER);

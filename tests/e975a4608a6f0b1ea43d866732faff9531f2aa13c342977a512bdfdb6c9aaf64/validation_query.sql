@@ -1,0 +1,1 @@
+SELECT sample_match FROM tap_result

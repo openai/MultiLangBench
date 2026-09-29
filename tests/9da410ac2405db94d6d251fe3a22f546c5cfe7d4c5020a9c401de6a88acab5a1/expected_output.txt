@@ -1,0 +1,1 @@
+[[2,"integer","1"],[3,"integer","1"],[4,"integer","3"],[5,"integer","2"],[6,"text","'two'"],[7,"integer","6"],[8,"text","'onetwothree'"],[9,"integer","2"],[10,"null","NULL"],[11,"null","NULL"]]

@@ -1,0 +1,1 @@
+SELECT seq,name,file FROM capture ORDER BY seq

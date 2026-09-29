@@ -1,0 +1,1 @@
+PRAGMA writable_schema=1; UPDATE sqlite_master SET sql='CREATE VIRTUAL TABLE t4 USING fts4(a, b, c)' WHERE name='t4';

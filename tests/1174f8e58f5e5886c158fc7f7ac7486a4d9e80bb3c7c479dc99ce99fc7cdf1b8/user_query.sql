@@ -1,0 +1,1 @@
+ATTACH DATABASE ':memory:' AS aux; INSERT INTO main.result SELECT count(*) FROM pragma_database_list WHERE name='aux';

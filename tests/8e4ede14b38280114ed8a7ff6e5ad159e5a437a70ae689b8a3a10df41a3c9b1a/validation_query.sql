@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM pragma_table_info('result')) AS ncol, d, c FROM result ORDER BY rowid;

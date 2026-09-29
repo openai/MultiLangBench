@@ -1,0 +1,1 @@
+UPDATE mytable SET geom = X'1234';

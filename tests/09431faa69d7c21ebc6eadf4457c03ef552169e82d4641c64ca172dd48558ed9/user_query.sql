@@ -1,0 +1,1 @@
+INSERT INTO result(term, col, documents, occurrences, languageid) SELECT term, col, documents, occurrences, languageid FROM terms WHERE term='five' AND languageid=2;

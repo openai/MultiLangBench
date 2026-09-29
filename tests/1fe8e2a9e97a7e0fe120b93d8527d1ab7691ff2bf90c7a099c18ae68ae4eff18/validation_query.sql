@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM sfi_result),(SELECT group_concat(z) FROM t3);

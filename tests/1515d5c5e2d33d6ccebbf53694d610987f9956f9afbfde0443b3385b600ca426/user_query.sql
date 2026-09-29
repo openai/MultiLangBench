@@ -1,0 +1,1 @@
+PRAGMA encoding=UTF8; CREATE TEMP TABLE t1(x); INSERT INTO t1 VALUES('this is a test'); PRAGMA encoding=UTF16; CREATE TABLE main.result AS SELECT x FROM temp.t1;

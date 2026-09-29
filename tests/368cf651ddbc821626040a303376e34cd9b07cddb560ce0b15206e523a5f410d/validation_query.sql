@@ -1,0 +1,1 @@
+SELECT a, b, c, 'x' AS marker FROM t1 ORDER BY b, a;

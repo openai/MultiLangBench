@@ -1,0 +1,1 @@
+SELECT count(*), min(x), max(x), sum(x), min(y), max(y), sum(y), sum(CASE WHEN x=y THEN 1 ELSE 0 END), (SELECT count(*) FROM sqlite_schema WHERE type='index' AND tbl_name='t1'), (SELECT CASE WHEN count(*)=1 AND min(integrity_check)='ok' THEN 'ok' ELSE 'not ok' END FROM pragma_integrity_check) FROM t1;

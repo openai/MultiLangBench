@@ -1,0 +1,1 @@
+PRAGMA journal_mode=OFF; CREATE TABLE t1(x); BEGIN; INSERT INTO t1 VALUES(20); ROLLBACK; PRAGMA journal_mode=MEMORY; CREATE TABLE observed AS SELECT * FROM pragma_journal_mode;

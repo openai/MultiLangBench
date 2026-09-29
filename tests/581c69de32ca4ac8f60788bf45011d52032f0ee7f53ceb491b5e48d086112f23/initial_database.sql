@@ -1,0 +1,1 @@
+CREATE TABLE t2(a TEXT UNIQUE, b INT DEFAULT 1); INSERT INTO t2(a) VALUES('one'),('two'),('three');

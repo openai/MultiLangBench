@@ -1,0 +1,1 @@
+CREATE TEMP TABLE foo (fooid INTEGER PRIMARY KEY, fooval INTEGER NOT NULL UNIQUE, refcnt INTEGER NOT NULL DEFAULT 1); CREATE TABLE main.capture AS SELECT type,name,tbl_name,sql FROM temp.sqlite_schema WHERE tbl_name='foo';

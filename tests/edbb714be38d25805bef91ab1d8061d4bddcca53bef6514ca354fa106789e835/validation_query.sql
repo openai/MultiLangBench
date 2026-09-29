@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM parent),(SELECT count(*) FROM child1),(SELECT count(*) FROM child2)

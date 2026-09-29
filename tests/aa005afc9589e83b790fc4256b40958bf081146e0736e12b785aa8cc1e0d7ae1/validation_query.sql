@@ -1,0 +1,1 @@
+SELECT parent_key,child1_value,child2_value FROM result ORDER BY parent_key;

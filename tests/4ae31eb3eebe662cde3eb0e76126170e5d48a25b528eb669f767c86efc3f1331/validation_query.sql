@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM kept),(SELECT min(x) FROM kept),(SELECT freelist_count FROM pragma_freelist_count),(SELECT integrity_check FROM pragma_integrity_check);

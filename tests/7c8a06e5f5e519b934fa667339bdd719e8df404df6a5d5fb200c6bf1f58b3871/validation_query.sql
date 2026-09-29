@@ -1,0 +1,1 @@
+SELECT rowid, x FROM xx ORDER BY rowid;

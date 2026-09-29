@@ -1,0 +1,1 @@
+SELECT count(*), min(1), max(1) FROM t2;

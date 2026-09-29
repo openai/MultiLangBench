@@ -1,0 +1,1 @@
+CREATE TABLE capture AS SELECT docid AS d, offsets(t1) AS o FROM t1 WHERE t1 MATCH 'this OR that OR was OR a OR is OR test' ORDER BY docid;

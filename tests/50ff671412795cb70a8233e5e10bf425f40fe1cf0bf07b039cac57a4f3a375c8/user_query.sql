@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rowid AS docid FROM email WHERE email MATCH '"mark susan"';

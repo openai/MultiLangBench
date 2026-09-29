@@ -1,0 +1,1 @@
+SELECT s,c,av,mn,mx,n FROM result;

@@ -1,0 +1,1 @@
+CREATE TABLE q2(d NUMBER,e BLOB);INSERT INTO q2 VALUES('legible',1),('beauty',2),(-65.91,4),('emanating',-16.56);CREATE TABLE q3(f REAL,g);INSERT INTO q3 VALUES('beauty',2),('beauty',2);

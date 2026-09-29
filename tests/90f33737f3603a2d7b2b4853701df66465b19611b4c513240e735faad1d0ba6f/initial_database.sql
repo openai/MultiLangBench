@@ -1,0 +1,1 @@
+PRAGMA auto_vacuum=incremental; VACUUM; CREATE TABLE t5(x,y); INSERT INTO t5 VALUES(3,'c'),(4,'d'),(5,'e');

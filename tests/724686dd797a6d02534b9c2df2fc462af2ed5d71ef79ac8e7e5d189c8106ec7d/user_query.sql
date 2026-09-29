@@ -1,0 +1,1 @@
+CREATE TABLE trial(col_main); CREATE TEMP TABLE trial(col_temp); CREATE TABLE result(x); INSERT INTO result VALUES(1);

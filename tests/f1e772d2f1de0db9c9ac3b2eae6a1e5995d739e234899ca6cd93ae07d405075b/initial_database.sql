@@ -1,0 +1,1 @@
+/* jrnlmode-4.5 */ PRAGMA auto_vacuum=1; CREATE TABLE abc(a,b,c); INSERT INTO abc VALUES(1,2,zeroblob(2000));

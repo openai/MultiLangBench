@@ -1,0 +1,1 @@
+CREATE TABLE t1(a PRIMARY KEY, b); CREATE TABLE t2(a PRIMARY KEY, b); WITH RECURSIVE c(i) AS (VALUES(0) UNION ALL SELECT i+1 FROM c WHERE i<99) INSERT INTO t1 SELECT replace(hex(zeroblob(20)), '00', printf('%d ',i)), replace(hex(zeroblob(20)), '00', printf('%d ',i)) FROM c; INSERT INTO t2 SELECT * FROM t1;

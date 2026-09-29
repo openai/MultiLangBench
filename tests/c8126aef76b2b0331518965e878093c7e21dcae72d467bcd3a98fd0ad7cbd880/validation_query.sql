@@ -1,0 +1,1 @@
+SELECT a, b FROM collate6log ORDER BY rowid;

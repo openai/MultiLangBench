@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM t1 GROUP BY y, x ORDER BY y, x;

@@ -1,0 +1,6 @@
+CREATE TABLE t3(x);
+INSERT INTO t3 VALUES('hello');
+INSERT INTO t3 VALUES('hello');
+INSERT INTO t3 VALUES('hello');
+INSERT INTO t3 VALUES('hello');
+CREATE TABLE sfi_result(x);

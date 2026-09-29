@@ -1,0 +1,1 @@
+DELETE FROM tbl1; INSERT INTO tbl1 VALUES('this'),('program'),('is'),('free'),('software');

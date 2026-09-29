@@ -1,0 +1,1 @@
+CREATE TABLE result(v); INSERT INTO result SELECT count(*) FROM t1 WHERE x LIKE '!' ESCAPE '!';

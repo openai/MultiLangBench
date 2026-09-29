@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM sqlite_schema WHERE type='table' AND name GLOB 't[2-9]' OR type='table' AND name='t10') AS table_count, (SELECT page_count FROM pragma_page_count) AS page_count

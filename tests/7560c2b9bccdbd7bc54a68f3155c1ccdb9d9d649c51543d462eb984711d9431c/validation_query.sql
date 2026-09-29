@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(a||':'||b,',') FROM t1),(SELECT page_size FROM pragma_page_size),(SELECT integrity_check FROM pragma_integrity_check LIMIT 1)

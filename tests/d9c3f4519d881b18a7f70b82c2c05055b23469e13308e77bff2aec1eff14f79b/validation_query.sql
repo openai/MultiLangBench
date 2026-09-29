@@ -1,0 +1,1 @@
+SELECT t0.rowid, t0.c0, v0.c0 FROM t0 CROSS JOIN v0 ORDER BY t0.rowid;

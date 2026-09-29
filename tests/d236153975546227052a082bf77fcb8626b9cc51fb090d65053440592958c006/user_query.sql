@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT 1 AS value FROM t1 WHERE NOT ('10.0' IN (10,20));

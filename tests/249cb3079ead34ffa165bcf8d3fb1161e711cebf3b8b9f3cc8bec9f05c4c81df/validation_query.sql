@@ -1,0 +1,1 @@
+SELECT db_name,name,seq FROM sfi_result ORDER BY name

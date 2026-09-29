@@ -1,0 +1,1 @@
+SELECT 'object' AS kind, name, sql AS value FROM sqlite_master WHERE name IN ('rt','mytable','tr1') UNION ALL SELECT 'row', CAST(fid AS TEXT), hex(geom) FROM mytable ORDER BY kind, name;

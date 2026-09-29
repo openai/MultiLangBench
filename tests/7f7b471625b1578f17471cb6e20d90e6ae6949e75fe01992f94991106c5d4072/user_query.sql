@@ -1,0 +1,1 @@
+CREATE TABLE t2(c,d); INSERT INTO t2 VALUES(1,'one'),(2,'two'); INSERT INTO _result(a,d) SELECT a, (SELECT d FROM t2 WHERE a=c) FROM t1 GROUP BY a;

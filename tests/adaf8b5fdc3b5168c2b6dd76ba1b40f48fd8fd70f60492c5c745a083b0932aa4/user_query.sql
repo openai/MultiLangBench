@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT 'abc'==('ABC'||CASE WHEN 1=2 THEN '' COLLATE binary ELSE '' COLLATE nocase END);

@@ -1,0 +1,1 @@
+CREATE VIEW w1 AS SELECT * FROM o1; CREATE TRIGGER w1tr INSTEAD OF UPDATE ON w1 BEGIN UPDATE o1 SET y=new.y, z=new.z WHERE w=new.w AND x=new.x; END; DELETE FROM log; WITH data(k, v) AS (VALUES(3, 'thirteen'), (3, 'fourteen'), (4, 'fifteen'), (4, 'sixteen')) UPDATE w1 SET z=v FROM data WHERE (1+w*2+x)=k;

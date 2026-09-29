@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT title,body FROM docs WHERE docs MATCH 'title:linux problems'

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT t1 AS x FROM tbl1 ORDER BY substr(t1,2,20);

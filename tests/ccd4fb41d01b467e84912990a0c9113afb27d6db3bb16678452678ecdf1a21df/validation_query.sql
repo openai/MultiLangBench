@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM p2) AS parent_rows, (SELECT count(*) FROM c2) AS child_rows, (SELECT group_concat(v,'|') FROM completion) AS completion, (SELECT count(*) FROM pragma_foreign_key_check) AS violations;

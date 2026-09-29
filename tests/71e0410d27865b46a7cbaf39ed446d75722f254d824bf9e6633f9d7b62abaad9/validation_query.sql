@@ -1,0 +1,1 @@
+SELECT (SELECT encoding FROM pragma_encoding), (SELECT sql FROM sqlite_schema WHERE name='def');

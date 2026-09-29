@@ -1,0 +1,1 @@
+INSERT INTO t1(a,b,c) VALUES('abcde',1,101),('abdef',2,102),('xyz',3,103),('abcz',4,104); CREATE TABLE query_result AS SELECT c FROM t1 WHERE a NOT LIKE 'abc%' AND a=7 ORDER BY +b;

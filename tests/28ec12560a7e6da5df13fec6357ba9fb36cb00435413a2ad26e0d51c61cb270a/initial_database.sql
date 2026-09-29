@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE ta USING fts3; INSERT INTO ta VALUES('During a summer vacation in 1790'); INSERT INTO ta VALUES('Wordsworth went on a walking tour'); DELETE FROM ta_content WHERE rowid=2

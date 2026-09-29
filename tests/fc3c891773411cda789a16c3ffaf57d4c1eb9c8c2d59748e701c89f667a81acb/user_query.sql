@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT keyword AS matched_keyword FROM test WHERE keyword MATCH '""' ORDER BY keyword;

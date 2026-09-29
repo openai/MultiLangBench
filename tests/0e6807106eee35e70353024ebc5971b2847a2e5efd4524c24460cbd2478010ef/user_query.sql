@@ -1,0 +1,1 @@
+INSERT INTO result SELECT CAST(a AS integer), a FROM t1;

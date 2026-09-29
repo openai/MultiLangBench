@@ -1,0 +1,1 @@
+SELECT val, rhs, slash FROM result ORDER BY rowid

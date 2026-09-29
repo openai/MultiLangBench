@@ -1,0 +1,1 @@
+INSERT INTO result SELECT 'a' IN ('b','c','d');

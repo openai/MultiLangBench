@@ -1,0 +1,1 @@
+[["table","v2","v2","CREATE TABLE v2 (v3 INTEGER UNIQUE ON CONFLICT ABORT)"],["table","xyz","xyz","CREATE TABLE \"xyz\" (v1)"],["trigger","x","v2","CREATE TRIGGER x AFTER INSERT ON v2 WHEN (0 AND (SELECT rowid FROM \"xyz\")) BEGIN DELETE FROM v2; END"]]

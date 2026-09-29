@@ -1,0 +1,1 @@
+CREATE TABLE t1(a, b); INSERT INTO t1(a, b) VALUES('alpha', 0),('bravo', 0),('charlie', 0),('delta', 0);

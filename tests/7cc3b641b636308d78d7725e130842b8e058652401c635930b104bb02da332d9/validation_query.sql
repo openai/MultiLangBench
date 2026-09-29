@@ -1,0 +1,1 @@
+SELECT name, "desc" AS is_desc FROM pragma_index_xinfo('t1ab') WHERE "key"=1 ORDER BY seqno;

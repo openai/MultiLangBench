@@ -1,0 +1,1 @@
+INSERT INTO result SELECT NULL IN (SELECT x+y FROM t1, t2);

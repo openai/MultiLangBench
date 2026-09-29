@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; CREATE TABLE parent(x,y,UNIQUE(y,x));

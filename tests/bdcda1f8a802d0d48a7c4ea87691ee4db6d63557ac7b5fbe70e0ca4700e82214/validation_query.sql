@@ -1,0 +1,1 @@
+SELECT count(*) FROM sqlite_master WHERE name='x3' OR name GLOB 'x3_*'

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts4;INSERT INTO t1 VALUES('this is a dog'),('an instance of a phrase'),('an instance of a longer phrase'),(replace(hex(zeroblob(15000)),'00','a '));

@@ -1,0 +1,1 @@
+INSERT INTO result SELECT json_object('ex',json_array(52,3.14159));

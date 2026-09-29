@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t7 USING fts4(tokenize=unicode61 "separators=xÄ");

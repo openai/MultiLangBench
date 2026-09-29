@@ -1,0 +1,1 @@
+SELECT a, typeof(b), quote(b) FROM t1 ORDER BY a

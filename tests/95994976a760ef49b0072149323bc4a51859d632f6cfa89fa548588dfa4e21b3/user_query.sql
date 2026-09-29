@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS t5;CREATE TABLE t5(a INTEGER PRIMARY KEY,b TEXT,c TEXT,d INTEGER);INSERT INTO t5 VALUES(1,'A','one',5),(2,'B','two',4),(3,'A','three',3),(4,'B','four',2),(5,'A','five',1);

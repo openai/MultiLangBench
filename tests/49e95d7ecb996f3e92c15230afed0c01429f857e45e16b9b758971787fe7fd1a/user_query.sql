@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT count(*) AS x FROM x1 WHERE x1 MATCH '"d e f"';

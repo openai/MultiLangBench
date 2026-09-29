@@ -1,0 +1,1 @@
+INSERT INTO result SELECT json_extract(j,'$.b[#-000001]') FROM t1;

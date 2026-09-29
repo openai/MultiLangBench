@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT instr(x'0102030405',x'02030405');

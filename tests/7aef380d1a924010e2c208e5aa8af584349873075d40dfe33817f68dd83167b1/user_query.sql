@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT json_quote(3.14159) AS v;

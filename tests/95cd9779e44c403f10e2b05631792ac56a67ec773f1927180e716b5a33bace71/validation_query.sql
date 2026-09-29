@@ -1,0 +1,1 @@
+SELECT vvv.*, (SELECT sql FROM sqlite_master WHERE name='vvv') FROM vvv;

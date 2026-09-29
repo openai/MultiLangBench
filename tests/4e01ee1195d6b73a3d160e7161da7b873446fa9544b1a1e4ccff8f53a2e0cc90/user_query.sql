@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT printf('%s=(%d/%g/%s)',a) FROM t1 ORDER BY a;

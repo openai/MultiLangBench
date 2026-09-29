@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT matchinfo(t4,'p') AS m FROM t4 WHERE t4 MATCH '"g h i"' ORDER BY rowid

@@ -1,0 +1,1 @@
+[["ttt","CREATE VIEW ttt AS SELECT main.txx.a, txx.b, one.b, main.one.a FROM txx AS one, txx"],["txx","CREATE TABLE txx(a, b, c)"],["uuu","CREATE VIEW uuu AS SELECT main.one.a, one.b, c FROM txx AS one"],["vvv","CREATE VIEW vvv AS SELECT main.txx.a, txx.b, c FROM txx"]]

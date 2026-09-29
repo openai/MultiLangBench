@@ -1,0 +1,1 @@
+CREATE TABLE t10(a,updatecnt DEFAULT 0); INSERT INTO t10 VALUES('world',1); CREATE TRIGGER t10_bu BEFORE UPDATE OF a ON t10 BEGIN UPDATE t10 SET updatecnt=updatecnt+1 WHERE rowid=old.rowid; END;

@@ -1,0 +1,1 @@
+CREATE TABLE t2(a, b, c); CREATE INDEX t2a ON t2(a); CREATE INDEX t2b ON t2(b); CREATE INDEX t2c ON t2(c);

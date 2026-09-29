@@ -1,0 +1,1 @@
+CREATE INDEX i46 ON t46(c);

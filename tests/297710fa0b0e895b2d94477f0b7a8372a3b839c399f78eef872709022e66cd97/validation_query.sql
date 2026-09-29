@@ -1,0 +1,1 @@
+SELECT count(*)=1 AND coalesce(min(v GLOB '*000000*0000000*'),0) FROM result;

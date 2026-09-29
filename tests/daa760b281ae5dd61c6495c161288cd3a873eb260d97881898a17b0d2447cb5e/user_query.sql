@@ -1,0 +1,1 @@
+CREATE TABLE result_2_3 AS SELECT count(*) AS n FROM t2 WHERE t2 MATCH '"two zero"';

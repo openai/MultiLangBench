@@ -1,0 +1,2 @@
+-- memdb-8.2
+CREATE TABLE t1(a); INSERT INTO t1 VALUES(substr(replace(hex(zeroblob(3000)),'0','x'),1,5000)),(substr(replace(hex(zeroblob(3000)),'0','y'),1,5100)),(substr(replace(hex(zeroblob(3000)),'0','z'),1,5200)),(substr(replace(hex(zeroblob(3000)),'0','q'),1,5300)),(substr(replace(hex(zeroblob(3000)),'0','r'),1,5400));

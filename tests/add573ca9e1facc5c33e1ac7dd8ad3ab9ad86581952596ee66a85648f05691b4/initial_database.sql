@@ -1,0 +1,1 @@
+CREATE TABLE v0 (c1, c2, c3); CREATE INDEX v3 ON v0 (c1, c2, c3); ANALYZE sqlite_master; INSERT INTO sqlite_stat1 VALUES('v0','v3','648 324 81'); ANALYZE sqlite_master;

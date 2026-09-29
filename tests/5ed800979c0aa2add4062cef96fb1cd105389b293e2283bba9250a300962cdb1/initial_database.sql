@@ -1,0 +1,1 @@
+CREATE TABLE init_marker(x); DROP TABLE init_marker;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT DISTINCT t0.c0 AS c0,t1._rowid_ AS rid,t0.c1 AS c1 FROM t1 CROSS JOIN t0 ORDER BY t0.c0;

@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT printf('(%!7.3Q)','הנה מה־טוב ומה־נעים שבת אחים גם־יחד');

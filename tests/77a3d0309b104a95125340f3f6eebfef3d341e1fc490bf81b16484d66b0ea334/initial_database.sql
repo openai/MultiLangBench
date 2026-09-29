@@ -1,0 +1,1 @@
+CREATE TABLE t0(a); CREATE TABLE t1(b);

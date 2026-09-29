@@ -1,0 +1,1 @@
+SELECT name,key FROM sfi_result ORDER BY rowid;

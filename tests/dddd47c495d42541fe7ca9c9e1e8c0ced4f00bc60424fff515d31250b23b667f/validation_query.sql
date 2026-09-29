@@ -1,0 +1,1 @@
+SELECT "number" FROM sfi_result;

@@ -1,0 +1,1 @@
+CREATE TABLE result_count AS SELECT count(*) AS n FROM t1;

@@ -1,0 +1,1 @@
+SELECT b FROM x4 ORDER BY rowid;

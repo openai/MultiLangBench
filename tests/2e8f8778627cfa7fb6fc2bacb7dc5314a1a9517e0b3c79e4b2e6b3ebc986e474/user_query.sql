@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t9b USING fts3('c1',`c2`)

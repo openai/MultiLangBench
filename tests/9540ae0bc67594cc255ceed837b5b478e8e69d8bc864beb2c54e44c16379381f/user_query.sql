@@ -1,0 +1,1 @@
+UPDATE t4 SET b=NULL;

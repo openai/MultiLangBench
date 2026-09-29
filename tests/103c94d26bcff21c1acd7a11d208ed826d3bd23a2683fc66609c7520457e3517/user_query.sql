@@ -1,0 +1,1 @@
+INSERT INTO t16c VALUES(2,'w','x','y','z');

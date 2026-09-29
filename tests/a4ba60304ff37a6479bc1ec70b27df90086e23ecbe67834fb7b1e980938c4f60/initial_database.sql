@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t5 USING fts4(tokenize=unicode61 `tokenchars= .`);

@@ -1,0 +1,1 @@
+CREATE TABLE t1(a, b, c); INSERT INTO t1 VALUES(replace(hex(zeroblob(500)),'00','a'),replace(hex(zeroblob(500)),'00','b'),replace(hex(zeroblob(500)),'00','c')); INSERT INTO t1 VALUES(replace(hex(zeroblob(500)),'00','c'),replace(hex(zeroblob(500)),'00','b'),replace(hex(zeroblob(500)),'00','a'));

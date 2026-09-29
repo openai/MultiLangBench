@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT y1.a AS a,y1.b AS b,y2.x AS x,y2.y AS y FROM y1 LEFT JOIN y2 ON ((x=1 AND y=b) OR (x=2 AND y=b));

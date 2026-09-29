@@ -1,0 +1,1 @@
+CREATE TABLE t1(id INTEGER PRIMARY KEY,x JSON); INSERT INTO t1(id,x) VALUES (1,'{"a":null}'),(2,'{"a":123}'),(3,'{"a":4.5}'),(4,'{"a":"six"}'),(5,'{"a":[7,8]}'),(6,'{"a":{"b":9}}'),(7,'{"b":999}'); CREATE TABLE result(y,a,b,c,d,e,f);

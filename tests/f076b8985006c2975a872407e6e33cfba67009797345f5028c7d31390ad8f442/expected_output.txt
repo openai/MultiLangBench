@@ -1,0 +1,1 @@
+[["index","abc_index","abc","CREATE INDEX abc_index ON abc(a)"]]

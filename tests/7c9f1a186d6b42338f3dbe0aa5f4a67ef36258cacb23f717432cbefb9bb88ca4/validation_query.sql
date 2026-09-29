@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM _result),(SELECT count(*) FROM t6 WHERE a=1)

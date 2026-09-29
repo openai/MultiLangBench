@@ -1,0 +1,1 @@
+INSERT INTO result VALUES(CAST(' 876xyz' AS REAL));

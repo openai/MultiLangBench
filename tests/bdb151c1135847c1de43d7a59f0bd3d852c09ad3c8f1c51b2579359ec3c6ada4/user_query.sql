@@ -1,0 +1,1 @@
+UPDATE t8 SET b=json_array(a);

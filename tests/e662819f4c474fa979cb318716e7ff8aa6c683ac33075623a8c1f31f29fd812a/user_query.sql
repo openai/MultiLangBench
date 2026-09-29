@@ -1,0 +1,1 @@
+UPDATE t1 SET i1='2.0'; CREATE TABLE result AS SELECT i1 IN (SELECT n FROM t3) AS value FROM t1;

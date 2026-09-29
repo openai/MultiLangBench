@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT count(a),max(a),count(b),max(b) FROM z1;

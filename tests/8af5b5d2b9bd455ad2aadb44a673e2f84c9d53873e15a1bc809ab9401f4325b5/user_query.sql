@@ -1,0 +1,1 @@
+INSERT INTO t0 VALUES(2),(1),(0); CREATE TABLE result AS SELECT (0,1) IN (SELECT min(c0),ntile(1) OVER() FROM t0);

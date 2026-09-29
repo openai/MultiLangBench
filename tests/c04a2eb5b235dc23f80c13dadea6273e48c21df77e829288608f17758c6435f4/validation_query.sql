@@ -1,0 +1,1 @@
+SELECT rowid,typeof(x),hex(CAST(x AS blob)) FROM t1 ORDER BY rowid;

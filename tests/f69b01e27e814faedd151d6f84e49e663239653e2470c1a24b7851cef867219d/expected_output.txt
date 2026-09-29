@@ -1,0 +1,1 @@
+[["table","t1","t1"],["table","t1_mirror","t1_mirror"],["table","t1_mirror2","t1_mirror2"],["trigger","t1_ad","t1"],["trigger","t1_ai","t1"],["trigger","t1_au","t1"],["trigger","t1_bd","t1"],["trigger","t1_bi","t1"],["trigger","t1_bu","t1"]]

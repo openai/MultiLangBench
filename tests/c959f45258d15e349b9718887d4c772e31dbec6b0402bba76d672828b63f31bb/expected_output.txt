@@ -1,0 +1,1 @@
+[["table","ab","ab"],["table","cd","cd"],["table","tlog","tlog"],["trigger","after_delete","abcd"],["trigger","after_insert","abcd"],["trigger","after_update","abcd"],["trigger","before_delete","abcd"],["trigger","before_insert","abcd"],["trigger","before_update","abcd"],["view","abcd","abcd"]]

@@ -1,0 +1,1 @@
+INSERT INTO result(a,b) SELECT * FROM t1 WHERE a = X'CDEF12';

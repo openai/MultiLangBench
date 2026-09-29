@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; UPDATE parent SET x='key';

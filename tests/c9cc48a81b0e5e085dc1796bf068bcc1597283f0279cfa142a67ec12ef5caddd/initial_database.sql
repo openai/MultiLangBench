@@ -1,0 +1,1 @@
+PRAGMA auto_vacuum=FULL; CREATE TABLE t1(a INT,b INT,c INT); CREATE INDEX i1 ON t1(a);

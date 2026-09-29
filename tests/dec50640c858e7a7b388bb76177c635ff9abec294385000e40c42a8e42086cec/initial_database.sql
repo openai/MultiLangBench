@@ -1,0 +1,1 @@
+CREATE TABLE result(v); PRAGMA schema_version=105;

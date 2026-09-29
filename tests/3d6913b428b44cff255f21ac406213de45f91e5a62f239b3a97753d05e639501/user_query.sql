@@ -1,0 +1,1 @@
+INSERT INTO result SELECT x, y FROM t5 WHERE '1.0' IN (x) ORDER BY t5.rowid;

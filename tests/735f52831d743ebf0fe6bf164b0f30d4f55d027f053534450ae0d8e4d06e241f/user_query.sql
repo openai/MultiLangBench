@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT bar.rowid AS id FROM foo,bar WHERE foo.idx=bar.rowid AND id=2;

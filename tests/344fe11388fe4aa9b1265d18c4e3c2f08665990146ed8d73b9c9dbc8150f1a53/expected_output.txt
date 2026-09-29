@@ -1,0 +1,1 @@
+[["table","log","log"],["table","t4","t4"],["trigger","t4ad","t4"],["trigger","t4ai","t4"],["trigger","t4au","t4"],["trigger","t4bd","t4"],["trigger","t4bi","t4"],["trigger","t4bu","t4"]]

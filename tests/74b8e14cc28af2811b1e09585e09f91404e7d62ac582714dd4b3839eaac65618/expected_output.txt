@@ -1,0 +1,1 @@
+[["index","i1","t1"],["index","i2","t1"],["index","i3","t2"],["index","i4","t2"],["index","sqlite_autoindex_t3_1","t3"],["table","t1","t1"],["table","t2","t2"],["table","t3","t3"],["view","v1","v1"]]

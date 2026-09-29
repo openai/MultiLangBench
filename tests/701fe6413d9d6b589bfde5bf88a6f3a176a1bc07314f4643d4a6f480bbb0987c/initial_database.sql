@@ -1,0 +1,1 @@
+CREATE TABLE '@abc' ( '#xyz' int, '!pqr' text );

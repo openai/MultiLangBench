@@ -1,0 +1,1 @@
+CREATE TABLE t4(a, b, c); WITH v(n,x) AS (VALUES(0,NULL),(1,0),(2,1)) INSERT INTO t4 SELECT va.x,vb.x,vc.x FROM v AS va CROSS JOIN v AS vb CROSS JOIN v AS vc ORDER BY va.n,vb.n,vc.n;

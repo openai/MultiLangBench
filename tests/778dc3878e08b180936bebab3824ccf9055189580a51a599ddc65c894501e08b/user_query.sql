@@ -1,0 +1,1 @@
+ALTER TABLE t4 RENAME a TO c;

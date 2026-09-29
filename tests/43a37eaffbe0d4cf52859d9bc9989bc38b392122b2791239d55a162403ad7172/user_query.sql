@@ -1,0 +1,1 @@
+CREATE TABLE actual AS SELECT rowid AS rid FROM (SELECT 123),t3;

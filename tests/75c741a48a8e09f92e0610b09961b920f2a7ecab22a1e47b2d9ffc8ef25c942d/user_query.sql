@@ -1,0 +1,1 @@
+CREATE TABLE release(release release); INSERT INTO release VALUES(99); INSERT INTO release SELECT a FROM t1;

@@ -1,0 +1,1 @@
+SELECT type,name,tbl_name FROM sqlite_schema WHERE name IN ('ab','cd','tlog','abcd','before_update','after_update','before_delete','after_delete','before_insert','after_insert') ORDER BY type,name

@@ -1,0 +1,1 @@
+SELECT count(*),min(c1),min(c123),min(c1000) FROM t1;

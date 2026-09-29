@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a FROM t1 WHERE y LIKE '%tal%' OR x='real' ORDER BY b;

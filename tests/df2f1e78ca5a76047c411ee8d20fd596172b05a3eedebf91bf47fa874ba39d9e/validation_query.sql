@@ -1,0 +1,1 @@
+SELECT * FROM regexp ORDER BY regexp ASC

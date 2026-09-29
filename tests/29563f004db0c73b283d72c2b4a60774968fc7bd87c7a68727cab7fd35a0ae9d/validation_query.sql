@@ -1,0 +1,1 @@
+SELECT english, spanish, german FROM result ORDER BY rowid;

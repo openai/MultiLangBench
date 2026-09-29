@@ -1,0 +1,1 @@
+SELECT (SELECT v FROM marker),(SELECT count(*) FROM sqlite_schema WHERE type='table' AND name='t3');

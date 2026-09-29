@@ -1,0 +1,10 @@
+CREATE TABLE test(col1 TEXT PRIMARY KEY);
+INSERT INTO test(col1) VALUES('a');
+INSERT INTO test(col1) VALUES('b');
+INSERT INTO test(col1) VALUES('c');
+CREATE TABLE test2(col1 TEXT PRIMARY KEY);
+INSERT INTO test2(col1) VALUES('a');
+INSERT INTO test2(col1) VALUES('b');
+INSERT INTO test2(col1) VALUES('c');
+CREATE TABLE result(left_col1,right_col1);
+INSERT INTO result SELECT * FROM test t1 LEFT OUTER JOIN test2 t2 ON t1.col1=t2.col1 WHERE +t2.col1 IS NULL;

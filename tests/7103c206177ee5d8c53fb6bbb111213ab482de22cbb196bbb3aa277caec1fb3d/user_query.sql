@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT log, avg(n) FROM t1 GROUP BY log ORDER BY log;

@@ -1,0 +1,1 @@
+SELECT d_type FROM result ORDER BY rowid;

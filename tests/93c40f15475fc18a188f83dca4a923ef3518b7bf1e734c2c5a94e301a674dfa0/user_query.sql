@@ -1,0 +1,1 @@
+PRAGMA recursive_triggers=OFF; DELETE FROM tbl WHERE a=1; DROP TRIGGER tr;

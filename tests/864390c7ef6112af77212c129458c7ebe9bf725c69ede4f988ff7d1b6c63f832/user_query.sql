@@ -1,0 +1,1 @@
+CREATE TABLE result(v); INSERT INTO result(v) SELECT '' < char(20) COLLATE rtrim;

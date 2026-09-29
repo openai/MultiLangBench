@@ -1,0 +1,1 @@
+CREATE TABLE result(r); INSERT INTO result SELECT rowid FROM t2 WHERE t < '20.0';

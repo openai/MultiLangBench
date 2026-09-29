@@ -1,0 +1,1 @@
+[["table","t1","t1","CREATE TABLE t1(\n  a INT AS (c*11),\n  b TEXT AS (substr(d,1,3)) STORED,\n  c INTEGEB PRIMARI KEY, d TEXT\n)"],["index","t1a","t1","CREATE INDEX t1a ON t1(a)"]]

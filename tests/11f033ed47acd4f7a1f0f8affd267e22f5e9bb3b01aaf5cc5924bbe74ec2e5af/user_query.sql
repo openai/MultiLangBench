@@ -1,0 +1,1 @@
+INSERT INTO result SELECT json_object('a',2,'c',4);

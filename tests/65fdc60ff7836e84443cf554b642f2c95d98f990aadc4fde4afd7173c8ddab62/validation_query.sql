@@ -1,0 +1,1 @@
+SELECT name, (SELECT name FROM pragma_table_info('test1') WHERE cid=0) FROM sqlite_schema WHERE type='table' AND name='test1';

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE ft USING fts4(c0, c1, order=DESC, prefix=1); INSERT INTO ft VALUES('a b c d','hello world'); INSERT INTO ft VALUES('negative','positive'); INSERT INTO ft VALUES('hello world','a b c d');

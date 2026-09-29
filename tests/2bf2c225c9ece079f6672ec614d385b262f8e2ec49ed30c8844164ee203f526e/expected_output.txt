@@ -1,0 +1,1 @@
+[["abc","table","CREATE TABLE \"abc\"(blockid INTEGER PRIMARY KEY, block BLOB)"]]

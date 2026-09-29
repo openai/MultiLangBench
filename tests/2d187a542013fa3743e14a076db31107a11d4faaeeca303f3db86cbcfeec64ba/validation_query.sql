@@ -1,0 +1,1 @@
+SELECT count(*) FROM sqlite_master WHERE type='table' AND name IN('t6','t7','t8','t9')

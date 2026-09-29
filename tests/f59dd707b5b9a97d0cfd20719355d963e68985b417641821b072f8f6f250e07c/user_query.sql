@@ -1,0 +1,1 @@
+INSERT INTO a1 SELECT c, b FROM a2

@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t6) AS row_count,(SELECT stat FROM sqlite_stat1 WHERE tbl='t6' AND idx='t6abc') AS stat,(SELECT count(*) FROM sqlite_master WHERE type='index' AND name='t6abc') AS has_index;

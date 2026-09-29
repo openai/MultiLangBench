@@ -1,0 +1,1 @@
+ALTER TABLE p1 RENAME "silly name" TO reasonable;

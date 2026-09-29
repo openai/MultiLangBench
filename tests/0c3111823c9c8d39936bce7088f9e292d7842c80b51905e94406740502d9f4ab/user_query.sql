@@ -1,0 +1,1 @@
+CREATE TABLE result AS VALUES(2),(3),(count(*) OVER()),(4),(5);

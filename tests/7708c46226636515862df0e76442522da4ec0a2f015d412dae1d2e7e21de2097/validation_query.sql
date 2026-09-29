@@ -1,0 +1,1 @@
+SELECT a,b,c,rowid AS rid FROM t1 ORDER BY rowid

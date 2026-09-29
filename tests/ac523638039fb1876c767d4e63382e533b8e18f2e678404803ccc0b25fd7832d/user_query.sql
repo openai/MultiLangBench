@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT b FROM t1 INDEXED BY i1 WHERE b='two';

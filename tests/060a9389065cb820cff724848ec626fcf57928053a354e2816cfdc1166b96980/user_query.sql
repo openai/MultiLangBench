@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT group_concat(CASE WHEN t1!='software' THEN '' ELSE t1 END) AS x FROM tbl1;

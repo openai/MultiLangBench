@@ -1,0 +1,1 @@
+SELECT cid, name, type, pk FROM pragma_table_info('fruits') ORDER BY cid;

@@ -1,0 +1,1 @@
+PRAGMA recursive_triggers=ON; UPDATE t7 SET b=7 WHERE a=5;

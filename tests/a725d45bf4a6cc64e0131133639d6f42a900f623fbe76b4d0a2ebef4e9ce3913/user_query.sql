@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT * FROM one WHERE (1,2,3) <= (1,2,3);

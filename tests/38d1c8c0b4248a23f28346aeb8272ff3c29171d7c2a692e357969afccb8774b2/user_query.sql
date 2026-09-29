@@ -1,0 +1,1 @@
+PRAGMA count_changes=off; UPDATE test1 SET F2=f1, F1=f2;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rowid AS seq, x, typeof(x) AS tx, y, typeof(y) AS ty FROM a2;

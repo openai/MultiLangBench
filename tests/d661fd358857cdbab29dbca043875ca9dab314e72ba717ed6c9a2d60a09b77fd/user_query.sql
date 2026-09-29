@@ -1,0 +1,1 @@
+INSERT INTO result SELECT round(42.4382,2);

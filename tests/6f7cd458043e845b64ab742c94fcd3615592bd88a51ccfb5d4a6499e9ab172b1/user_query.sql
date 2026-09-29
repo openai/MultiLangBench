@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT sum(j),max(j) FROM c2 GROUP BY (i%3);

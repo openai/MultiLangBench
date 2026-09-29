@@ -1,0 +1,1 @@
+CREATE TABLE q(test,expr); INSERT INTO q VALUES('1','a OR c'); CREATE TABLE result AS SELECT test,'ASC' AS direction,(SELECT group_concat(docid,',') FROM (SELECT docid FROM t1 WHERE t1 MATCH q.expr ORDER BY docid ASC)) AS docs FROM q UNION ALL SELECT test,'DESC',(SELECT group_concat(docid,',') FROM (SELECT docid FROM t1 WHERE t1 MATCH q.expr ORDER BY docid DESC)) FROM q;

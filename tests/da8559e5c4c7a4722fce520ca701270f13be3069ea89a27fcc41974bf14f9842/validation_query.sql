@@ -1,0 +1,1 @@
+SELECT a, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='i4' AND tbl_name='t4') AS index_count FROM t4 INDEXED BY i4 ORDER BY a COLLATE binary;

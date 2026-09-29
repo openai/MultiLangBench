@@ -1,0 +1,1 @@
+PRAGMA empty_result_callbacks=ON; CREATE TABLE query_result AS SELECT * FROM xyz WHERE a>47 ORDER BY a;

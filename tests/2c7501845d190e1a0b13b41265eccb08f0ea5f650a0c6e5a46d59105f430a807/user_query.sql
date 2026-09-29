@@ -1,0 +1,1 @@
+DELETE FROM t3 WHERE a IN(2, 5, 8);

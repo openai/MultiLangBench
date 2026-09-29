@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE docs USING fts3(); INSERT INTO docs VALUES('SQLite is an ACID compliant embedded relational database management system')

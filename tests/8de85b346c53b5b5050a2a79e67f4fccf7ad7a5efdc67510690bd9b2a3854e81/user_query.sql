@@ -1,0 +1,1 @@
+BEGIN;CREATE TABLE t1(a int,b int,c int);CREATE INDEX i1 ON t1(a);COMMIT;

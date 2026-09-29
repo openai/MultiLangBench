@@ -1,0 +1,1 @@
+DROP TABLE cast; CREATE INDEX cast ON t1(a);

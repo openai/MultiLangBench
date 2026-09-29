@@ -1,0 +1,1 @@
+SELECT count(*) AS columns_found, min(cid) AS first_cid, max(cid) AS last_cid, sum(name='c'||cid) AS correctly_named, sum(type='') AS untyped_columns, sum([notnull]) AS notnull_columns, sum(pk) AS primary_key_columns, (SELECT length(sql) FROM sqlite_schema WHERE name='t1') AS schema_sql_length, (SELECT page_size FROM pragma_page_size) AS page_size FROM pragma_table_info('t1');

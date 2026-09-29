@@ -1,0 +1,1 @@
+SELECT type, name, sql FROM sqlite_schema WHERE name IN ('t8','t8i1','t8i2') UNION ALL SELECT 'row', json_array(a,b,c,d,e), NULL FROM t8 ORDER BY 1, 2;

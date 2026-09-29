@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rowid AS matched_rowid FROM t15 WHERE t15 MATCH '"abc* def2"';

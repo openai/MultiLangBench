@@ -1,0 +1,1 @@
+UPDATE t SET t1='a'||char(4660)||'b',t2='a[a-'||char(4660)||']b';INSERT INTO r SELECT t1 GLOB t2 FROM t;

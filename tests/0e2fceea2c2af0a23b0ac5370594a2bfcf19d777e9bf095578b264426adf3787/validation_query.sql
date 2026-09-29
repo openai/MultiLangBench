@@ -1,0 +1,1 @@
+SELECT n FROM __sfi_result

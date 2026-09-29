@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES('transaction default models default','Non transaction reads')

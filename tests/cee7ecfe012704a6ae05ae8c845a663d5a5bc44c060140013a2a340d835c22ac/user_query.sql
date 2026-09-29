@@ -1,0 +1,1 @@
+BEGIN; UPDATE t3_content SET langid=langid+1 WHERE rowid=(SELECT max(rowid) FROM t3_content); ROLLBACK;

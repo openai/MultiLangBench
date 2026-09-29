@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE tok USING fts3tokenize('unicode61','tokenchars=⑄⑅','separators=אבג'); CREATE TABLE result AS SELECT position,token,hex(substr(CAST(input AS blob),start+1,end-start)) AS source FROM tok WHERE input='⑄fre⑅shאwaterגfish.⑅timer' ORDER BY position;

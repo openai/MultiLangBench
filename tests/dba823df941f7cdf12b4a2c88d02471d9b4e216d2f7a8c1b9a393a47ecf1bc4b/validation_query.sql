@@ -1,0 +1,1 @@
+SELECT count(*) AS n, min(rowid) AS min_rowid, max(rowid) AS max_rowid, sum(length(x)) AS x_bytes, sum(length(y)) AS y_bytes, sum(rowid=1) AS row1_count FROM t1;

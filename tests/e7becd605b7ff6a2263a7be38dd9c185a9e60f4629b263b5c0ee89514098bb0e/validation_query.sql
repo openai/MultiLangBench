@@ -1,0 +1,1 @@
+SELECT c0, (SELECT integrity_check FROM pragma_integrity_check) AS integrity_check FROM t0 WHERE c1 IS NULL ORDER BY 1;

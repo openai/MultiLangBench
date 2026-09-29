@@ -1,0 +1,1 @@
+PRAGMA short_column_names=ON; PRAGMA full_column_names=OFF; CREATE TABLE sfi_result AS SELECT A.f1, t1 FROM test1 AS A, test2 ORDER BY f2;

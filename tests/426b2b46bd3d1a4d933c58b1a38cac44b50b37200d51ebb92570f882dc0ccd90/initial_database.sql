@@ -1,0 +1,1 @@
+CREATE TABLE t1(x TEXT); INSERT INTO t1(x) VALUES('a'),('ab'),('abc'),('abcd'),('acd'),('abd'),('bc'),('bcd'),('xyz'),('ABC'),('CDE'),('ABC abc xyz');

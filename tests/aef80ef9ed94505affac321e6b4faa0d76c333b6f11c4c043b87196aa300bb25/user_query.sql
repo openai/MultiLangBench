@@ -1,0 +1,1 @@
+INSERT INTO result SELECT type, name, tbl_name, rootpage, sql FROM sqlite_schema WHERE name='new view';

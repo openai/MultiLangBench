@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT min(x) AS min_x,min(a) AS min_a,min(b) AS min_b,min(c) AS min_c,min(a+b+c) AS min_sum FROM v2;

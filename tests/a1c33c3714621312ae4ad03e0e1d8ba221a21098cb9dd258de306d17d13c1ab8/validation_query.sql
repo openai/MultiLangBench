@@ -1,0 +1,1 @@
+SELECT count(*) AS n, sum(a) AS sum_a, sum(b) AS sum_b FROM t1

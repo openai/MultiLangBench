@@ -1,0 +1,1 @@
+INSERT INTO result(a,b) SELECT likelihood(123, 1.0), likelihood(456, 0.0);

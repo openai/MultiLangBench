@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1) AS t1_rows, (SELECT count(*) FROM t2) AS t2_rows, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name IN ('i1','i2')) AS named_indexes, (SELECT count(*) FROM t1 WHERE typeof(a)='null') AS t1_null_a, (SELECT count(*) FROM t1 WHERE typeof(a)='blob') AS t1_blob_a, (SELECT count(*) FROM t2 WHERE typeof(d)='text') AS t2_text_d;

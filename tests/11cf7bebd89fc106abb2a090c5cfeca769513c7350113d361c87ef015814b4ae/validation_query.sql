@@ -1,0 +1,1 @@
+SELECT name, type, ncol, wr, strict FROM pragma_table_list('t1') WHERE name='t1';

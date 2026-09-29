@@ -1,0 +1,1 @@
+SELECT trackid,trackartist FROM track

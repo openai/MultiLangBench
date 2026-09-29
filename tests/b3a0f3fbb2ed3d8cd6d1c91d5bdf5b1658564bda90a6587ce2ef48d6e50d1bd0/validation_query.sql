@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(name, ',') FROM (SELECT name FROM sqlite_master WHERE type IN ('table','index') AND name NOT LIKE 'sqlite_%' ORDER BY name)), (SELECT count(*) FROM t1), (SELECT group_concat(name || ':' || type, ',') FROM (SELECT name,type FROM pragma_table_info('t1') ORDER BY cid));

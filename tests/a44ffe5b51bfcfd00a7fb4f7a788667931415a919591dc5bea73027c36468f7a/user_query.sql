@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; PRAGMA recursive_triggers=ON; DELETE FROM t1 WHERE node=1;

@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; DELETE FROM chi WHERE c='1';

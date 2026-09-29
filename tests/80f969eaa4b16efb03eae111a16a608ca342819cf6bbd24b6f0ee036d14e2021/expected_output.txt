@@ -1,0 +1,1 @@
+[["t2","CREATE TABLE t2(x REFERENCES t1)"]]

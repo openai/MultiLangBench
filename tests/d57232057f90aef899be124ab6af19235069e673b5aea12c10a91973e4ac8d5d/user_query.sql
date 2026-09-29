@@ -1,0 +1,1 @@
+CREATE TABLE [t4"abc] AS SELECT count(*) AS cnt, max(b+c) FROM [t3"xyz];

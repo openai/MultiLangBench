@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT a,b,c FROM t1 WHERE b IN (234, 345) AND c BETWEEN 6 AND 6.5 AND a='abc' ORDER BY a, b;

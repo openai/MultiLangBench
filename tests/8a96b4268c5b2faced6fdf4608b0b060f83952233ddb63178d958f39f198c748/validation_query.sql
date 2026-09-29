@@ -1,0 +1,1 @@
+SELECT test,direction,coalesce(docs,'') FROM result ORDER BY CAST(test AS INTEGER),CASE direction WHEN 'ASC' THEN 0 ELSE 1 END

@@ -1,0 +1,1 @@
+SELECT count(*), max(x) FROM t1

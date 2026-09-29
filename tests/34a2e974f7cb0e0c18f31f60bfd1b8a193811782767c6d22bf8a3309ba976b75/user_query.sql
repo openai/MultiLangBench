@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT count(*) AS n FROM v1 GROUP BY y;

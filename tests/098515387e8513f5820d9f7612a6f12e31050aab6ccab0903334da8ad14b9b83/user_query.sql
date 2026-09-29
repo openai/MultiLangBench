@@ -1,0 +1,1 @@
+PRAGMA page_size=1024; VACUUM; ALTER TABLE t1 ADD COLUMN d; UPDATE t1 SET d=zeroblob(1000);

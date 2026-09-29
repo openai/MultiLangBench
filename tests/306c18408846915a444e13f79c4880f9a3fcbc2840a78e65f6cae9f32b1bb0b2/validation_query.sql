@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(Id||','||fa||','||fb,';') FROM (SELECT Id,fa,fb FROM foo ORDER BY Id)) AS foo_rows, (SELECT group_concat(Id||','||ba||','||bb,';') FROM (SELECT Id,ba,bb FROM bar ORDER BY Id)) AS bar_rows;

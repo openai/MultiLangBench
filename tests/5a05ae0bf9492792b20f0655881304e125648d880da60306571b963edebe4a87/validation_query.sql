@@ -1,0 +1,1 @@
+SELECT count(*) AS n FROM in6_result;

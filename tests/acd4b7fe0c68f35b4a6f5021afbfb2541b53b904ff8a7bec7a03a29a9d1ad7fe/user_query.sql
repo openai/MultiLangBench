@@ -1,0 +1,1 @@
+CREATE TABLE result AS WITH RECURSIVE g(req) AS (VALUES(0) UNION ALL SELECT req+1 FROM g WHERE req<49999) SELECT g.req,src.c AS sought,(SELECT dst.c FROM t1 AS dst WHERE dst.c=src.c) AS found FROM g JOIN t1 AS src ON src.rowid=((g.req*7919)%50000)+1;

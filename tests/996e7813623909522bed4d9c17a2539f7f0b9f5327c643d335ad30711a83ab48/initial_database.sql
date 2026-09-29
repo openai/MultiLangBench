@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b,c); INSERT INTO t1(a,b,c) VALUES('In_the_beginning_was_the_Word',1,1),('and_the_Word_was_with_God',1,2),('and_the_Word_was_God',1,3),('The_same_was_in_the_beginning_with_God',2,1),('All_things_were_made_by_him',3,1),('and_without_him_was_not_any_thing_made_that_was_made',3,2); CREATE INDEX t1a1 ON t1(substr(a,1,12)); CREATE INDEX t1ba ON t1(b,substr(a,2,3),c);

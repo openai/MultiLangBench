@@ -1,0 +1,1 @@
+CREATE TABLE t3(a,b); CREATE INDEX t3i2 ON t3(b,a); CREATE TABLE result AS SELECT seqno,cid,name FROM pragma_index_info('t3i2') ORDER BY seqno; DROP INDEX t3i2;

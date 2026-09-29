@@ -1,0 +1,1 @@
+UPDATE t4 SET c=c+2 WHERE c>2;

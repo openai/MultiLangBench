@@ -1,0 +1,1 @@
+PRAGMA recursive_triggers=ON; INSERT OR REPLACE INTO t5 VALUES(2,'d');

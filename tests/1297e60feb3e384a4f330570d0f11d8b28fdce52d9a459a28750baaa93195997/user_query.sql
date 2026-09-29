@@ -1,0 +1,1 @@
+ALTER TABLE xyzzy RENAME c TO ccc;

@@ -1,0 +1,1 @@
+INSERT INTO docs VALUES('Others translate the first clause as')

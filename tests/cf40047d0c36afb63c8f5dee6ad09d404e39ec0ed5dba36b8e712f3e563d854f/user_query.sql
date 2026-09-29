@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE ft2 USING fts4; INSERT INTO ft2 VALUES('a b c d e'); INSERT INTO ft2 VALUES('f a b c d'); CREATE TABLE r AS SELECT snippet(ft2,'[',']','',-1,1) AS s FROM ft2 WHERE ft2 MATCH 'c' ORDER BY rowid

@@ -1,0 +1,1 @@
+SELECT 'main' AS db, type, name, tbl_name, sql FROM sqlite_master WHERE name='t3' UNION ALL SELECT 'temp', type, name, tbl_name, sql FROM temp_capture ORDER BY db, name;

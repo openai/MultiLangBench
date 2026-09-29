@@ -1,0 +1,1 @@
+SELECT (SELECT n FROM r1) AS object_array_count,(SELECT count(*) FROM r2) AS mismatch_count;

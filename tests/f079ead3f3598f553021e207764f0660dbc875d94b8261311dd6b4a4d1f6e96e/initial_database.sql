@@ -1,0 +1,1 @@
+CREATE TABLE t2(x,y,PRIMARY KEY(x,y)); INSERT INTO t2 VALUES(0,'zero'),(45.5,'one'),('brambles','two'),(X'ABCDEF','three'),(0,0),(45.5,'abc'),(0.0,'abc');

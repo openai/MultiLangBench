@@ -1,0 +1,1 @@
+[[1,123,"integer","CREATE INDEX x1i2 ON x1(CAST(b AS TEXT))"],[2,"123","text","CREATE INDEX x1i2 ON x1(CAST(b AS TEXT))"]]

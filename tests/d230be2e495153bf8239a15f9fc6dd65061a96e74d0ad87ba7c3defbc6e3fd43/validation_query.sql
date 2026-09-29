@@ -1,0 +1,1 @@
+SELECT 'A' AS src,a,b FROM tblA UNION ALL SELECT 'B',a,b FROM tblB UNION ALL SELECT 'C',a,b FROM tblC ORDER BY src,a,b

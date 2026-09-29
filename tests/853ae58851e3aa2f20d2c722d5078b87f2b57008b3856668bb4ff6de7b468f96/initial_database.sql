@@ -1,0 +1,1 @@
+CREATE TABLE "fuzzer [x] rules table"(a, b, c, d); INSERT INTO "fuzzer [x] rules table" VALUES(0, 'x', NULL, 20); INSERT INTO "fuzzer [x] rules table" VALUES(0, NULL, NULL, 10); INSERT INTO "fuzzer [x] rules table" VALUES(0, 'x', 'x', 10); INSERT INTO "fuzzer [x] rules table" VALUES(0, 'c', 'd', 1001);

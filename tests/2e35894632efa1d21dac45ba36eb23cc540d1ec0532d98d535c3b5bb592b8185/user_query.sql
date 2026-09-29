@@ -1,0 +1,1 @@
+CREATE TABLE before(before before); INSERT INTO before VALUES(99); INSERT INTO before SELECT a FROM t1;

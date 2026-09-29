@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1), (SELECT group_concat(name, ',') FROM (SELECT name FROM sqlite_master WHERE type='index' AND tbl_name='t1' ORDER BY name));

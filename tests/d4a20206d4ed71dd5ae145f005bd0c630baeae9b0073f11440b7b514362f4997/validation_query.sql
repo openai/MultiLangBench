@@ -1,0 +1,1 @@
+SELECT ii,olda,oldb,oldc,oldd,newa,newb,newc,newd FROM tlog ORDER BY ii

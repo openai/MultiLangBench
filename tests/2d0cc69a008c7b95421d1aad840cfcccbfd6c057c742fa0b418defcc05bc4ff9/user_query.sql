@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT docid AS v FROM t1 WHERE content MATCH '"four five" NEAR/2 one';

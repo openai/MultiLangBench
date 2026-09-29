@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b); CREATE INDEX x1 ON t1(a); CREATE TABLE observed(dbname TEXT, type TEXT, name TEXT);

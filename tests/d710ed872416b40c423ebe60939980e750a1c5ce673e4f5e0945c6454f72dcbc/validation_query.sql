@@ -1,0 +1,1 @@
+SELECT sql, (SELECT group_concat(a||':'||b, ',') FROM (SELECT a,b FROM t22 ORDER BY rowid)) FROM sqlite_master WHERE name='tr1';

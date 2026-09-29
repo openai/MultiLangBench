@@ -1,0 +1,1 @@
+SELECT artistid,artistname FROM artist ORDER BY artistid

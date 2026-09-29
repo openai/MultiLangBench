@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE ft2 USING fts4(content=t2); INSERT INTO ft2(ft2) VALUES('rebuild'); DELETE FROM t2 WHERE rowid=17; UPDATE t2 SET x='a b c d e f g h i j' WHERE rowid=20;

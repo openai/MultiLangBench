@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT sql FROM sqlite_schema WHERE name='v1';

@@ -1,0 +1,3 @@
+-- capi2-7.10
+UPDATE t1 SET a=a-20;
+SELECT * FROM t1;

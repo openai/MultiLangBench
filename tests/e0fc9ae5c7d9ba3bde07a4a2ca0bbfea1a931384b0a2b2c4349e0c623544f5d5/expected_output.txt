@@ -1,0 +1,1 @@
+[["index","i1","t1","CREATE INDEX i1 ON t1(a, b)",1024],["table","t1","t1","CREATE TABLE t1(a, b)",1024],["trigger","t1_t1","t1","CREATE TRIGGER t1_t1 AFTER INSERT ON t1 BEGIN UPDATE t1 SET b = 'value: ' || a WHERE t1.rowid = new.rowid; END",1024]]

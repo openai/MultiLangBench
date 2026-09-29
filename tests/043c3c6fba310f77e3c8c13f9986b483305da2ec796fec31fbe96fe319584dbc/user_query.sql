@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT t3.x AS x,t1.a AS a,coalesce(t2.a,9999) AS z FROM t3 JOIN t1 LEFT JOIN t2 ON (t1.c+1=t2.c AND t1.d=t2.d) OR (t1.f||'x')=t2.f WHERE t1.a=t3.y OR t1.b=t3.y*11 OR (t1.c=27027 AND round(t1.d)==80) ORDER BY 1,2;

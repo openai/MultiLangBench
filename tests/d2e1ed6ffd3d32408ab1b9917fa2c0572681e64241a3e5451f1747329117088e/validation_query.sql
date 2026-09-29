@@ -1,0 +1,1 @@
+SELECT (length(o)-length(replace(o,' ',''))+1)/4 FROM result ORDER BY docid;

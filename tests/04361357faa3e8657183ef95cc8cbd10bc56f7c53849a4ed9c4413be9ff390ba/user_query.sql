@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT instr(s,'Xä') FROM strings;

@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT (SELECT group_concat(a1,'x') || '-' || group_concat(b1,'y') FROM t2) AS v FROM t1;

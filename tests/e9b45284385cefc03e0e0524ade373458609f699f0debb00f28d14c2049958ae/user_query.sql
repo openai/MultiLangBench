@@ -1,0 +1,1 @@
+/* join5-4.1 */ CREATE TABLE sfi_result AS SELECT * FROM (SELECT 'apple' AS fruit UNION ALL SELECT 'banana') AS a JOIN (SELECT 'apple' AS fruit UNION ALL SELECT 'banana') AS b ON a.fruit=b.fruit LEFT JOIN (SELECT 1 AS isyellow) AS c ON b.fruit='banana';

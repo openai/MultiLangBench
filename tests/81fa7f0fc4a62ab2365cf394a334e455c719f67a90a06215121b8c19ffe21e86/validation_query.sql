@@ -1,0 +1,1 @@
+SELECT a, b, c, d, e FROM sfi_result ORDER BY a, b, c, d, e;

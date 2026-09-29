@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM capture) AS captured_rows, (SELECT count(*) FROM completed) AS completed;

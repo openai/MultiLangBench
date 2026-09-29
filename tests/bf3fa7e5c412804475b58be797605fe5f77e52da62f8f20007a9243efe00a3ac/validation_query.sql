@@ -1,0 +1,1 @@
+SELECT group_concat(x, ',') AS remaining FROM (SELECT x FROM t1 ORDER BY x);

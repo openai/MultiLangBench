@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX c1ab ON c1(a, b); CREATE TABLE result AS SELECT * FROM c1 WHERE (a, b) IN (SELECT x, y FROM c2);

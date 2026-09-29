@@ -1,0 +1,1 @@
+SELECT count(*),count(DISTINCT a),count(DISTINCT x),sum(x=printf('%016x',rowid)),min(rowid),max(rowid),(SELECT count(*) FROM sqlite_master WHERE type='index' AND tbl_name='t1') FROM t1;

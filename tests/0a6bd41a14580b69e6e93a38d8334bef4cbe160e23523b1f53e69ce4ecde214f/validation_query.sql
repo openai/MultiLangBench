@@ -1,0 +1,1 @@
+SELECT group_concat(name, ' ') FROM (SELECT name FROM sqlite_schema WHERE type!='meta' ORDER BY name);

@@ -1,0 +1,1 @@
+SELECT count(*),sum(u<>i) FROM result;

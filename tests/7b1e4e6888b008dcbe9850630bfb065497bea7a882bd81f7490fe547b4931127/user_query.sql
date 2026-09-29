@@ -1,0 +1,1 @@
+INSERT INTO t1(c,b,a) VALUES('row','new',30);

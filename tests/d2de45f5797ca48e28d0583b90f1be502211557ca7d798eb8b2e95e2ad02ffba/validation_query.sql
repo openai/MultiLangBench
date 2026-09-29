@@ -1,0 +1,1 @@
+SELECT rid FROM observed_world ORDER BY rid;

@@ -1,0 +1,1 @@
+SELECT obj,c1,c2 FROM (SELECT 't1' AS obj,x AS c1,NULL AS c2 FROM t1 UNION ALL SELECT 't2',y,z FROM t2 UNION ALL SELECT 'index',name,tbl_name FROM sqlite_schema WHERE type='index' AND name='t2y') ORDER BY obj,c1,c2;

@@ -1,0 +1,1 @@
+BEGIN;INSERT INTO t1 VALUES('The source code for SQLite is in the public');CREATE TABLE r AS SELECT * FROM t1;COMMIT;

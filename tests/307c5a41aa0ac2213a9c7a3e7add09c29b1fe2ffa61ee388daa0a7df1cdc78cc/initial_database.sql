@@ -1,0 +1,1 @@
+PRAGMA page_size=1024;PRAGMA auto_vacuum=1;CREATE TABLE av2(a PRIMARY KEY,b,c);CREATE INDEX av2_i1 ON av2(b);CREATE INDEX av2_i2 ON av2(c);INSERT INTO av2 VALUES('av2 a','av2 b','av2 c');

@@ -1,0 +1,1 @@
+SELECT c0,c1,(SELECT integrity_check FROM pragma_integrity_check LIMIT 1) FROM result ORDER BY rowid;

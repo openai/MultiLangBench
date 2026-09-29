@@ -1,0 +1,1 @@
+PRAGMA synchronous=OFF; PRAGMA cache_size=1234; CREATE TABLE result AS SELECT (SELECT * FROM pragma_cache_size), (SELECT * FROM pragma_default_cache_size), (SELECT * FROM pragma_synchronous);

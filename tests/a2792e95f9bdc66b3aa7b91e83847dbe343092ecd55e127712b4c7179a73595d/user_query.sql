@@ -1,0 +1,1 @@
+WITH RECURSIVE seq(i) AS (VALUES(1) UNION ALL SELECT i+1 FROM seq WHERE i<9999), s(v) AS (SELECT group_concat(x,'') FROM (SELECT substr('abcdefghijklmnopqrstuvwxyz',(i%26)+1,1)||' '||printf('%04d',i)||' ' AS x FROM seq ORDER BY i)) SELECT b FROM t1,s WHERE a!=substr(v,1,65520) ORDER BY a;

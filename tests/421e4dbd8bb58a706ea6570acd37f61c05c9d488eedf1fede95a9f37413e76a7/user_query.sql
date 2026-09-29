@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT mx+10 AS plus10,mx*2 AS times2 FROM v8;

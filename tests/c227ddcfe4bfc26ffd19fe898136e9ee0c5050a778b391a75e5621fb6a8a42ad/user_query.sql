@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT coalesce(b,c,d) AS r, a AS ord FROM t1 ORDER BY a;

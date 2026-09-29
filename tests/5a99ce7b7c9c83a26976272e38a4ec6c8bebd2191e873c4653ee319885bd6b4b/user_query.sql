@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; INSERT INTO t6 VALUES(2, 'a', 2, 'a');

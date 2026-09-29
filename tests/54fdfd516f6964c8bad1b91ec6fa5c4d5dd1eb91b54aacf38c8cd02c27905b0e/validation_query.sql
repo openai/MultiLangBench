@@ -1,0 +1,1 @@
+SELECT max_x,max_a,max_b,max_c,max_sum FROM result

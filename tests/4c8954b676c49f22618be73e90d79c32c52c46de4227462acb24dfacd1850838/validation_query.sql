@@ -1,0 +1,1 @@
+SELECT quote(value) FROM t4_stat WHERE id=0

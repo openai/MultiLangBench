@@ -1,0 +1,1 @@
+SELECT aid,bid,txt FROM result ORDER BY rowid;

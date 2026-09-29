@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT id,quote(value) AS value FROM ft4_stat;

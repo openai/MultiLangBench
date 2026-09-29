@@ -1,0 +1,2 @@
+CREATE TABLE t1(x, y);
+CREATE INDEX t1x ON t1(x) WHERE y=45;

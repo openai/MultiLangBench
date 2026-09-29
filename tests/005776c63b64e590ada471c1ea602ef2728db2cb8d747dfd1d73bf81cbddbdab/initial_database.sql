@@ -1,0 +1,3 @@
+CREATE TABLE t1(x);
+INSERT INTO t1(x) VALUES(3),(1),(5),(2),(6),(4),(5),(1),(3);
+CREATE INDEX t1x ON t1(x DESC);

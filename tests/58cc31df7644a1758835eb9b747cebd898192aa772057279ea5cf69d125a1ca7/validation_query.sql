@@ -1,0 +1,1 @@
+SELECT group_concat(a||':'||b,'|') FROM (SELECT * FROM t5 ORDER BY a);

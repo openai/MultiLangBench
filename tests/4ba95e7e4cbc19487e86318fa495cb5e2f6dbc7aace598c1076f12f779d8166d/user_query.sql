@@ -1,0 +1,1 @@
+CREATE TABLE b1(a,b,c); CREATE TABLE b2(x,y,z);

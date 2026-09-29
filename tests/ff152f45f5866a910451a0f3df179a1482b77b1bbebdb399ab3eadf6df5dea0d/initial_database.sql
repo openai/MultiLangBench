@@ -1,0 +1,1 @@
+CREATE TABLE result(v1, v2);

@@ -1,0 +1,1 @@
+SELECT x, y BETWEEN 'xy' AND 'xz' FROM t2 ORDER BY x

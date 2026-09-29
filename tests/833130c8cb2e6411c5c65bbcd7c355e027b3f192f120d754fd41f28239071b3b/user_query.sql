@@ -1,0 +1,1 @@
+CREATE INDEX t3_i ON t3(a);

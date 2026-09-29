@@ -1,0 +1,1 @@
+INSERT INTO result SELECT 'g' NOT IN t8n;

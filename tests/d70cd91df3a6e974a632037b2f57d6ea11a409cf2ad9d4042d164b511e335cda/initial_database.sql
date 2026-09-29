@@ -1,0 +1,1 @@
+CREATE TABLE t1_fa(a PRIMARY KEY ON CONFLICT FAIL,b); INSERT INTO t1_fa VALUES(1,'one'),(2,'two'),(3,'three'),(4,'string');

@@ -1,0 +1,1 @@
+[["table","ffff","ffff","CREATE VIRTUAL TABLE \"ffff\" USING fts5(a, b)"],["trigger","tr1","rr","CREATE TRIGGER tr1 AFTER INSERT ON rr BEGIN INSERT INTO \"ffff\" VALUES(new.a, new.b); END"]]

@@ -1,0 +1,1 @@
+SELECT idx, stat, (SELECT count(*) FROM sqlite_stat1) AS total_stat_rows, (SELECT count(*) FROM t4 WHERE x=1234) AS matching_rows FROM sqlite_stat1 WHERE tbl='t4' ORDER BY idx;

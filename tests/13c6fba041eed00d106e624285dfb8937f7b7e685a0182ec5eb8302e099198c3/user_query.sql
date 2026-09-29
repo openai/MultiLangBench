@@ -1,0 +1,1 @@
+UPDATE t1_segments SET block=zeroblob(3204) WHERE blockid=2;

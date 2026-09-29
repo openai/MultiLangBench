@@ -1,0 +1,1 @@
+SELECT a,b,c FROM t16a ORDER BY rowid

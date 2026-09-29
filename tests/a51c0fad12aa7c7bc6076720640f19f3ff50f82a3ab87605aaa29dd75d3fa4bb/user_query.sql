@@ -1,0 +1,1 @@
+INSERT INTO result SELECT * FROM c1, t1 WHERE input = x AND c1.rowid=t1.rowid ORDER BY c1.rowid, t1.position;

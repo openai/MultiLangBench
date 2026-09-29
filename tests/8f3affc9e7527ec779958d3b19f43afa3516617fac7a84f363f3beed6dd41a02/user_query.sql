@@ -1,0 +1,1 @@
+CREATE INDEX i2 ON t2((b+0),d); CREATE TABLE sfi_result AS SELECT b,d FROM t1 RIGHT JOIN t2 WHERE (b+0)=1 AND d!=4;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT docid FROM porter WHERE porter MATCH 'Frustration'

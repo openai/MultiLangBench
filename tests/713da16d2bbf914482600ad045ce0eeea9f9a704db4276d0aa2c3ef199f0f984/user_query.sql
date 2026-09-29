@@ -1,0 +1,1 @@
+INSERT INTO r SELECT round(-('-'||'123'));

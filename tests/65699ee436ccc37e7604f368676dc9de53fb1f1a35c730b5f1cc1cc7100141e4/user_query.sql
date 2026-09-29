@@ -1,0 +1,1 @@
+BEGIN;CREATE TEMP TABLE t3 AS SELECT * FROM t2;INSERT INTO t2 SELECT * FROM t3;ROLLBACK;CREATE TABLE result AS SELECT count(*) n,sum(x) sx,sum(y) sy,sum(z) sz FROM t2;

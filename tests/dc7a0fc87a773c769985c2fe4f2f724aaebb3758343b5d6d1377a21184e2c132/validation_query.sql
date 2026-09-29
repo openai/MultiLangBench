@@ -1,0 +1,1 @@
+SELECT tbl, coalesce(idx,''), stat FROM sqlite_stat1 ORDER BY tbl, coalesce(idx,'');

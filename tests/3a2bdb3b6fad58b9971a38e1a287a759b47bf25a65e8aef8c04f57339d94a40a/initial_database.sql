@@ -1,0 +1,1 @@
+CREATE TABLE t1(w INT, x INT); INSERT INTO t1(w,x) VALUES (1,10),(2,20),(3,30),(2,21),(3,31),(3,32); CREATE INDEX t1wx ON t1(w,x); CREATE TABLE t2(w INT, y VARCHAR(8)); INSERT INTO t2(w,y) VALUES (1,'one'),(2,'two'),(3,'three'),(4,'four'); CREATE INDEX t2wy ON t2(w,y);

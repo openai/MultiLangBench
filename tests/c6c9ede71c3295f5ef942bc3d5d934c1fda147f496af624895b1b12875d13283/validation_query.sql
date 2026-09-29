@@ -1,0 +1,1 @@
+SELECT x IS NULL AS is_null, typeof(x) AS value_type, quote(x) AS quoted_value FROM query_result;

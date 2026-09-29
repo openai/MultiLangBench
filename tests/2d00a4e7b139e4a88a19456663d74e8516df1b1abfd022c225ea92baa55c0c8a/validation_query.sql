@@ -1,0 +1,1 @@
+SELECT cnt FROM query_result;

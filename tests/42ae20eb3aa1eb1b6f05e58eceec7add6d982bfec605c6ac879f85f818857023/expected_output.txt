@@ -1,0 +1,1 @@
+[["i2","CREATE INDEX i2 ON t1(a+1)"]]

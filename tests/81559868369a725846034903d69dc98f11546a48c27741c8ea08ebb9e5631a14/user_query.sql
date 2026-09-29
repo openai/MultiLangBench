@@ -1,0 +1,1 @@
+UPDATE OR REPLACE t3 SET docid=3 WHERE docid=2;

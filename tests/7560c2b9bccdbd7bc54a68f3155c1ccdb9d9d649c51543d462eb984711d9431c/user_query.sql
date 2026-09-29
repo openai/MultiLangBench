@@ -1,0 +1,1 @@
+PRAGMA journal_mode=TRUNCATE; PRAGMA locking_mode=EXCLUSIVE; PRAGMA page_size=4096; VACUUM;

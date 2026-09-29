@@ -1,0 +1,1 @@
+SELECT a, (SELECT count(*) FROM sqlite_master WHERE type='index' AND tbl_name='tr') FROM tr ORDER BY a

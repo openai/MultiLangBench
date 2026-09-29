@@ -1,0 +1,1 @@
+PRAGMA locking_mode=EXCLUSIVE; INSERT INTO abc VALUES('A', 'B', 'C'); SELECT * FROM abc;

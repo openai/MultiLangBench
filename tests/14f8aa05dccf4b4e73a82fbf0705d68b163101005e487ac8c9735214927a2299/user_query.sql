@@ -1,0 +1,1 @@
+INSERT INTO sfi_result SELECT * FROM t3;

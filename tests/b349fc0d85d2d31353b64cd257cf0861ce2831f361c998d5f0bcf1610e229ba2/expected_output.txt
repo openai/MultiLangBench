@@ -1,0 +1,1 @@
+[["CREATE TABLE t1(a,b,_xxx_)"],["CREATE TABLE t2(c,d,e)"],["CREATE TRIGGER ttt AFTER INSERT ON t2 BEGIN SELECT _xxx_ FROM t1; END"]]

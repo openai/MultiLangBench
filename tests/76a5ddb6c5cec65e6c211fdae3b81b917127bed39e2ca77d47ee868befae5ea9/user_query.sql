@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM t1, t2 LEFT JOIN t3 ON q=x WHERE p=2 AND a=q;

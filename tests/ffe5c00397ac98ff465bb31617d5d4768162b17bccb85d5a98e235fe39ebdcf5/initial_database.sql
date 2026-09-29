@@ -1,0 +1,3 @@
+-- e_vacuum-3.1.5
+CREATE TABLE t5(x, y INTEGER PRIMARY KEY);
+INSERT INTO t5(x) VALUES('old');

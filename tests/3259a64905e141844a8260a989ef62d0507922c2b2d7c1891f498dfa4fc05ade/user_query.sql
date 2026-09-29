@@ -1,0 +1,1 @@
+INSERT INTO result(x) SELECT ''=CAST(X'7F' AS TEXT);

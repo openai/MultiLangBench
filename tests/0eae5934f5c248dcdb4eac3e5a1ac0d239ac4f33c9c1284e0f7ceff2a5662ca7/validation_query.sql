@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM sfi_result),(SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='t1a');

@@ -1,0 +1,1 @@
+DROP TABLE t2; CREATE TABLE t2 AS SELECT DISTINCT a.x AS aa, b.x AS bb FROM t1 AS a, t1 AS b WHERE a.x IN t1 AND b.x IN t1;

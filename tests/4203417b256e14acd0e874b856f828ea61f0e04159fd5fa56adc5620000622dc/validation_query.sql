@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1),(SELECT count(*) FROM t2),(SELECT count(*) FROM t3),(SELECT count(*) FROM t4),(SELECT group_concat(a||':'||coalesce(b,'N')||':'||coalesce(c,'N')||':'||coalesce(d,'N')||':'||coalesce(e,'N')||':'||coalesce(f,'N')||':'||coalesce(g,'N'),'|') FROM t1 WHERE a>=90)

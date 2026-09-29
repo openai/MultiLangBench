@@ -1,0 +1,1 @@
+PRAGMA encoding='UTF-8'; CREATE TABLE abc(a,b,c);

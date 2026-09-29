@@ -1,0 +1,7 @@
+CREATE TABLE result AS
+SELECT a FROM (
+  SELECT a, b FROM t1
+  UNION ALL
+  SELECT x, y FROM t2
+  ORDER BY 2
+);

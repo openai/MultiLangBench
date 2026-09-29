@@ -1,0 +1,1 @@
+WITH RECURSIVE leader(s,n) AS (VALUES('',0) UNION ALL SELECT s||'abcdefghij',n+1 FROM leader WHERE n<70) SELECT count(*) AS row_count, sum(h=(SELECT s FROM leader WHERE n=70)||printf('%02X',i)) AS exact_row_count, min(length(h)) AS min_length, max(length(h)) AS max_length FROM t1;

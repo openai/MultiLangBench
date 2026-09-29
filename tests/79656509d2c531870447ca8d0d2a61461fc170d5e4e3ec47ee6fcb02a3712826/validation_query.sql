@@ -1,0 +1,1 @@
+SELECT count(*) FROM sqlite_schema WHERE name='papers' OR name GLOB 'papers_*'

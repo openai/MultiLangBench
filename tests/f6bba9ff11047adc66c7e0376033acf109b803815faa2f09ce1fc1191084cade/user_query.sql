@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT DISTINCT b FROM collate5t1;

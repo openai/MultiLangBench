@@ -1,0 +1,1 @@
+[["aux-table","t1"],["temp-table","t1"],["temp-trigger","tr1"]]

@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b,c); INSERT INTO t1(a,b,c) VALUES(1,2,3),(7,8,9),(4,5,6),(10,11,12),(4,8,12),(1,11,111); CREATE INDEX t1b ON t1(b); CREATE INDEX t1ab ON t1(a,b); CREATE INDEX t1ca ON t1(c,a); ANALYZE; DELETE FROM sqlite_stat1; INSERT INTO sqlite_stat1(tbl,idx,stat) VALUES('t1','t1ab','12345 3 2 sz=20'),('t1','t1ca','12345 3 2 sz=10'); ANALYZE sqlite_master;

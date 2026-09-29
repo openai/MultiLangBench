@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT sum(c63) AS value FROM t1;

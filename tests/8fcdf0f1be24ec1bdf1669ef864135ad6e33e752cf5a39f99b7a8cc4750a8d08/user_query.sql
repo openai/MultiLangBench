@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a AS k, ifnull(CASE b WHEN c THEN 1 ELSE 0 END,99) AS v FROM t1;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT quote(root) AS root_quote FROM t1_segdir;

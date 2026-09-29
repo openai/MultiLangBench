@@ -1,0 +1,1 @@
+SELECT 't2' AS table_name, c AS value FROM t2 UNION ALL SELECT 't3', f FROM t3 ORDER BY table_name, value

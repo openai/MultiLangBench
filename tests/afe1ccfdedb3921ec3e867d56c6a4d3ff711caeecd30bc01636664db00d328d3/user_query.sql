@@ -1,0 +1,1 @@
+INSERT INTO result SELECT sqlite_compileoption_used(1.0);

@@ -1,0 +1,1 @@
+ATTACH ':memory:' AS db2; CREATE TABLE db2.t3(x,y); INSERT INTO db2.t3 VALUES(1,2); INSERT INTO main.capture SELECT a,b FROM main.t3;

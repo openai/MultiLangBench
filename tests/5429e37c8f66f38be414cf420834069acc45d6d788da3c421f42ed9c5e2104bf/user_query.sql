@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM DemoTable UNION ALL SELECT * FROM DemoView;

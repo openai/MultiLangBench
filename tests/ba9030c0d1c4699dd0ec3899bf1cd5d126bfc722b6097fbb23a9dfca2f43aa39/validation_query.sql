@@ -1,0 +1,1 @@
+SELECT docid,a,b FROM t1 ORDER BY docid

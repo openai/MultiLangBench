@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE docs USING fts3; INSERT INTO docs VALUES('Others translate the first clause as'); INSERT INTO docs VALUES('"which is for Solomon," meaning that'); INSERT INTO docs VALUES('the book is dedicated to Solomon.'); INSERT INTO docs(docs) VALUES('optimize')

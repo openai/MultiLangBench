@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a, min(b), c FROM t2 GROUP BY a ORDER BY a;

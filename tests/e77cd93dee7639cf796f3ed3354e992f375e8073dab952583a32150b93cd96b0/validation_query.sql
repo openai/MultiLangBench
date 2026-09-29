@@ -1,0 +1,1 @@
+SELECT quote(a), typeof(a), quote(b), typeof(b) FROM result;

@@ -1,0 +1,1 @@
+PRAGMA journal_mode=TRUNCATE; CREATE TABLE t4(a,b); CREATE TABLE result(seq INTEGER, mode TEXT); INSERT INTO result SELECT 1,journal_mode FROM pragma_journal_mode; BEGIN; INSERT INTO t4 VALUES(1,2); PRAGMA journal_mode=MEMORY; INSERT INTO result SELECT 2,journal_mode FROM pragma_journal_mode; COMMIT;

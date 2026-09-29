@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT max(test1.f1,test2.r1), min(test1.f2,test2.r2) FROM test2, test1;

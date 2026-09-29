@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT b, max(a||b) AS m FROM t2 WHERE (b||b||b)!='value' GROUP BY a;

@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM query_result) AS result_rows, (SELECT count(*) FROM pragma_table_info('table_1')) AS table_1_columns, (SELECT count(*) FROM pragma_table_info('table_2')) AS table_2_columns;

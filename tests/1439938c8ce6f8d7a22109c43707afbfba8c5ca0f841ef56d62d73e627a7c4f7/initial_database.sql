@@ -1,0 +1,1 @@
+CREATE TABLE abc(a, b, c); ALTER TABLE abc ADD d INTEGER;

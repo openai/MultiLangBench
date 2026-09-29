@@ -1,0 +1,1 @@
+INSERT INTO result SELECT json_valid('{"x":-0.0000}');

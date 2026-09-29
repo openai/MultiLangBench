@@ -1,0 +1,1 @@
+CREATE TABLE t2(x,y,z); INSERT INTO t2 VALUES(11,12,13),(21,'b','c'),(31,'b-value',4.75);

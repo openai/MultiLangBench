@@ -1,0 +1,1 @@
+SELECT typeof(a),quote(a),typeof(b),quote(b),typeof(c),quote(c) FROM t3

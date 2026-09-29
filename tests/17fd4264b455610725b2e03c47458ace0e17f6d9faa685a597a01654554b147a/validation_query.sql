@@ -1,0 +1,1 @@
+SELECT (SELECT auto_vacuum FROM pragma_auto_vacuum) AS auto_vacuum, rowid, x FROM t1 ORDER BY rowid;

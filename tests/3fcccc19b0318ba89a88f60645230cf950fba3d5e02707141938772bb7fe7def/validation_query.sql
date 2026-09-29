@@ -1,0 +1,1 @@
+SELECT hex(root) FROM t17_segdir ORDER BY level, idx;

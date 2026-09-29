@@ -1,0 +1,1 @@
+[["v1","view","CREATE VIEW v1 AS SELECT * FROM t1"],["v2","view","CREATE VIEW v2 AS SELECT _rowid_, * FROM t1"],["wr1","table","CREATE TABLE wr1(a, b, c PRIMARY KEY) WITHOUT ROWID"],["wr2","table","CREATE TABLE wr2(a, _rowid_ INTEGER, c PRIMARY KEY) WITHOUT ROWID"],["wr3","table","CREATE TABLE wr3(a, b, _rowid_ PRIMARY KEY) WITHOUT ROWID"]]

@@ -1,0 +1,1 @@
+INSERT INTO ta VALUES('During a summer vacation in 1790')

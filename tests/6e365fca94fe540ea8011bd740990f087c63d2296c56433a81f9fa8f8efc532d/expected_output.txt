@@ -1,0 +1,1 @@
+[["table","treal","CREATE TABLE treal(a,b,c)"]]

@@ -1,0 +1,1 @@
+INSERT INTO result(r) SELECT rowid FROM t1 WHERE t1 MATCH (replace(hex(zeroblob(5000)), '00', 'a') || ' -' || replace(hex(zeroblob(5000)), '00', 'x'));

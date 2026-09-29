@@ -1,0 +1,1 @@
+CREATE TABLE test1(f1 int, f2 int); CREATE TABLE test2(g1 real, g2 real); CREATE INDEX index1 ON test1(f1);

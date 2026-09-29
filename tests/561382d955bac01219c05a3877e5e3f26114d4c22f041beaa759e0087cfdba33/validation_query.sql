@@ -1,0 +1,1 @@
+SELECT k,v1,v2 FROM (SELECT 't2' k,x v1,y v2 FROM t2 UNION ALL SELECT 't3',a,b FROM t3 UNION ALL SELECT 'index',name,sql FROM sqlite_schema WHERE name IN('t3i1','t3i2')) ORDER BY k,v1,v2

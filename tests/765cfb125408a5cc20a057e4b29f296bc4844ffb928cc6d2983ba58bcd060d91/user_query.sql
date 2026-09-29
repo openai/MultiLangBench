@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES(1,2),(4.3,5.5),('reveal','variableness'),(X'123456',X'654321'); INSERT INTO t4 VALUES('xyx',1,1),('xyx',2,1),('uvw',1,1);

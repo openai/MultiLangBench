@@ -1,0 +1,1 @@
+SELECT (SELECT freelist_count FROM pragma_freelist_count) AS freelist_count, (SELECT count(*) FROM sqlite_schema WHERE name='t1') AS t1_entries

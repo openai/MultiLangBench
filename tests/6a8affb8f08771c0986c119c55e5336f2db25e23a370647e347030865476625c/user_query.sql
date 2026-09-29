@@ -1,0 +1,1 @@
+UPDATE t1 SET i=X'00', n=X'00', t=X'00', o=X'00';

@@ -1,0 +1,1 @@
+SELECT count(*) AS n,min(x),max(x),min(y),max(y),sum(z IS NOT NULL),(SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='t2xy'),(SELECT count(*) FROM sqlite_stat1 WHERE tbl='t2') FROM t2;

@@ -1,0 +1,1 @@
+SELECT count(*) AS row_count, sum(x) AS sum_x, sum(length(b)) AS total_b_bytes, (SELECT group_concat(name, ',') FROM (SELECT name FROM sqlite_schema WHERE type='index' AND tbl_name='t1' ORDER BY name)) AS indexes, (SELECT group_concat(integrity_check, '|') FROM pragma_integrity_check) AS integrity FROM t1;

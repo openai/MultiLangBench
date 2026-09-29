@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT ifnull(substr(NULL, 1, 1), 'nil');

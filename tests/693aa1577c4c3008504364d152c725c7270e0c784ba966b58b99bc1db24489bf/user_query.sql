@@ -1,0 +1,4 @@
+CREATE TABLE result AS
+SELECT b, count(DISTINCT c) AS n
+FROM t1
+GROUP BY b;

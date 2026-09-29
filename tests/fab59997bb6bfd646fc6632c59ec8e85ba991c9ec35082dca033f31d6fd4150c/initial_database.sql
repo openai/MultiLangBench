@@ -1,0 +1,1 @@
+CREATE TABLE t1(a text, b text, c text); CREATE INDEX i1 ON t1(a); INSERT INTO t1(a,b,c) VALUES('one','abcdefghijklmnopqrstuvwxyz0123','hi'); UPDATE t1 SET b=b||b; UPDATE t1 SET b=b||b; UPDATE t1 SET b=b||b; UPDATE t1 SET b=b||'1'; UPDATE t1 SET b=b||'2'; UPDATE t1 SET b=b||'3'; UPDATE t1 SET b=b||'4'; UPDATE t1 SET b=b||'5'; UPDATE t1 SET b=b||'6'; UPDATE t1 SET b=b||'7';

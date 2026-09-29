@@ -1,0 +1,1 @@
+CREATE TEMP TABLE t2(a INTEGER PRIMARY KEY AUTOINCREMENT, b); INSERT INTO t2 VALUES(NULL,'jkl'); INSERT INTO t2 VALUES(NULL,'mno'); DELETE FROM t2; INSERT INTO t2 VALUES(NULL,'pqr'); VACUUM; CREATE TABLE main.sfi_result AS SELECT 'main' AS db_name, name, seq FROM main.sqlite_sequence UNION ALL SELECT 'temp' AS db_name, name, seq FROM temp.sqlite_sequence ORDER BY 2;

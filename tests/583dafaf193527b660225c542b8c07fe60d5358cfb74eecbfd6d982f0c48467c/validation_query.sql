@@ -1,0 +1,1 @@
+SELECT p.cid, p.name, p.type, p."notnull", p.dflt_value, p.pk, (SELECT count(*) FROM t4), (SELECT c FROM t4 ORDER BY rowid LIMIT 1) FROM pragma_table_info('t4') AS p ORDER BY p.cid;

@@ -1,0 +1,1 @@
+SELECT typeof(x),x FROM t12 WHERE y IS (SELECT max(y) FROM t12) ORDER BY x

@@ -1,0 +1,1 @@
+PRAGMA encoding='UTF-16LE'; CREATE TABLE t5(a); INSERT INTO t5 VALUES('sqlite');

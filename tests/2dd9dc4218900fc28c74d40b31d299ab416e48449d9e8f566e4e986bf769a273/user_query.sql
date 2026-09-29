@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT DISTINCT a,b,c,d,e FROM t4 WHERE a=0 AND b=1;

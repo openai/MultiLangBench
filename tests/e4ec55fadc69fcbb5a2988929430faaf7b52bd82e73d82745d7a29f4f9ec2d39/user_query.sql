@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT c FROM hh WHERE (b,a)=(SELECT 2,'def');

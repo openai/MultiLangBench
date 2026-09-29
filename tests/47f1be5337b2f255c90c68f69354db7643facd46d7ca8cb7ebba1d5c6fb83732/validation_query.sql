@@ -1,0 +1,1 @@
+SELECT count(*) AS n,count(DISTINCT artist) AS nd,min(artist IN ('one','two','three')) AS valid FROM result;

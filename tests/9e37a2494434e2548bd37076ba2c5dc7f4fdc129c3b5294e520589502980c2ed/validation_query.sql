@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM vt0), (SELECT count(*) FROM ft), (SELECT count(*) FROM ft WHERE ft MATCH 'hello')

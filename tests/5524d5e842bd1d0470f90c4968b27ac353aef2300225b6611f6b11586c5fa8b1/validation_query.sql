@@ -1,0 +1,1 @@
+SELECT count(*) AS row_count, sum(i) AS key_sum, (SELECT typeof(x) FROM t1 WHERE i=1) AS type1, (SELECT length(x) FROM t1 WHERE i=1) AS length1, (SELECT typeof(x) FROM t1 WHERE i=2) AS type2, (SELECT length(x) FROM t1 WHERE i=2) AS length2, (SELECT typeof(x) FROM t1 WHERE i=3) AS type3, (SELECT length(x) FROM t1 WHERE i=3) AS length3 FROM t1;

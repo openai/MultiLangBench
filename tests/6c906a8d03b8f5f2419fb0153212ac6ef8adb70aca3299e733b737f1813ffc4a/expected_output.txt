@@ -1,0 +1,1 @@
+[[-2,"a b c d e f g h i j k"],[-1,"b c d e f g h i j k a"],[0,"c d e f g h i j k a b"],[1,"d e f g h i j k a b c"],[2,"e f g h i j k a b c d"],[3,"f g h i j k a b c d e"],[4,"a c e g i k"],[5,"a d g j"],[6,"c a b"]]

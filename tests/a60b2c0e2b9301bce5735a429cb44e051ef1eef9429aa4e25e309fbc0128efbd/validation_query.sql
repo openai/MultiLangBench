@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1) AS t1_count, (SELECT group_concat(rowid||':'||x||':'||y, ',') FROM (SELECT rowid,x,y FROM t2 ORDER BY rowid)) AS t2_rows, (SELECT group_concat(rowid||':'||i||':'||j, ',') FROM (SELECT rowid,i,j FROM t3 ORDER BY rowid)) AS t3_rows;

@@ -1,0 +1,1 @@
+SELECT t0.c0, v0.c0, v0.c1 FROM t0 CROSS JOIN v0;

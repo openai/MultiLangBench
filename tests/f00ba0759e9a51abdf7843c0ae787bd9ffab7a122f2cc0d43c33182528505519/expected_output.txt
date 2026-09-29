@@ -1,0 +1,1 @@
+[["Alice","North",79],["Charles","North",45],["Darrell","South",152],["Frank","South",144],["Grant","South",122]]

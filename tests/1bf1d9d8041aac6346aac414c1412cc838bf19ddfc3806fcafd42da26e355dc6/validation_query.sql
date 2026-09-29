@@ -1,0 +1,1 @@
+SELECT quote(c) FROM v3 ORDER BY CASE typeof(c) WHEN 'integer' THEN 1 WHEN 'text' THEN 2 WHEN 'real' THEN 3 WHEN 'null' THEN 4 WHEN 'blob' THEN 5 END;

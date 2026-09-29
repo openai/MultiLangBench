@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t5 USING fts4; INSERT INTO t5 VALUES('a a a a a'); INSERT INTO t5 VALUES('a b a b a'); INSERT INTO t5 VALUES('c b c b c'); INSERT INTO t5 VALUES('x x x x x'); INSERT INTO t5 VALUES('x y '||replace(hex(zeroblob(50000)),'00','b ')); INSERT INTO t5(t5) VALUES('optimize'); UPDATE t5_segments SET block=zeroblob(length(block)) WHERE length(block)>10000;

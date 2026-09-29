@@ -1,0 +1,1 @@
+SELECT seq,ty,val FROM r ORDER BY seq

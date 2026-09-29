@@ -1,0 +1,1 @@
+UPDATE t SET t1='a'||char(4660)||'cde',t2='a'||char(4660)||char(4660)||'%e';INSERT INTO r SELECT t1 LIKE t2 ESCAPE char(4660) FROM t;

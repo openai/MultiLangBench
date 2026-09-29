@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(name,'|') FROM (SELECT name FROM sqlite_schema WHERE type='index' AND name IN ('t1b','t1c','t1d','t2y') ORDER BY name)) AS index_names, (SELECT group_concat(a||','||b||','||c||','||d,';') FROM (SELECT a,b,c,d FROM t1 ORDER BY a)) AS t1_rows, (SELECT group_concat(x||','||y,';') FROM (SELECT x,y FROM t2 ORDER BY x)) AS t2_rows;

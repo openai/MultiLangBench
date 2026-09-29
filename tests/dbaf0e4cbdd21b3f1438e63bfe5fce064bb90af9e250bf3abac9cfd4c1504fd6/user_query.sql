@@ -1,0 +1,1 @@
+CREATE TABLE t110(a,b); CREATE TRIGGER r110 AFTER INSERT ON t110 BEGIN SELECT fts3_tokenizer('tok110', fts3_tokenizer('simple')) IS NULL; END;

@@ -1,0 +1,1 @@
+SELECT c9 FROM result ORDER BY rowid;

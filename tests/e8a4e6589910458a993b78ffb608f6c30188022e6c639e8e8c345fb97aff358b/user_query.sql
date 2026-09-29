@@ -1,0 +1,1 @@
+SELECT docid FROM t2 WHERE t2 MATCH 'a';

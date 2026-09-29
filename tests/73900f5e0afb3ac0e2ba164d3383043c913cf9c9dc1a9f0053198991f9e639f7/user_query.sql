@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT likelihood(a,0.5) AS a, x AS x FROM t1, t2 ORDER BY 1, 2;

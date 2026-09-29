@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1),(SELECT sql FROM sqlite_schema WHERE name='sqlite_stat1')

@@ -1,0 +1,1 @@
+SELECT t FROM log ORDER BY rowid;

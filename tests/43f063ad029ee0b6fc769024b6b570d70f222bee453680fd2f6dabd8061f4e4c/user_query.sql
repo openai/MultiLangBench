@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(coalesce(datetime(0,'+14712 years'),'NULL'))

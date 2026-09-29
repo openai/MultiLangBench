@@ -1,0 +1,1 @@
+PRAGMA encoding='UTF-16'; CREATE TABLE result AS SELECT type,name,tbl_name,rootpage,sql FROM sqlite_schema WHERE name<>'result';

@@ -1,0 +1,1 @@
+CREATE TABLE query_result AS SELECT count(CASE WHEN x='a' THEN 1 END) AS lowercase_a_count, count(CASE WHEN x='A' THEN 1 END) AS uppercase_a_count FROM t1;

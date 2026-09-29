@@ -1,0 +1,1 @@
+CREATE TABLE t1(x);INSERT INTO t1 VALUES(0),(1),(NULL),(0.5),('1x'),('0x');CREATE TABLE r(v);

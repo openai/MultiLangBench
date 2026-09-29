@@ -1,0 +1,1 @@
+SELECT 'A' AS src, aa1 AS x, aa2 AS y FROM linkA UNION ALL SELECT 'B', bb1, bb2 FROM linkB UNION ALL SELECT 'C', cc1, cc2 FROM linkC UNION ALL SELECT 'D', dd1, dd2 FROM linkD ORDER BY 1,2,3;

@@ -1,0 +1,1 @@
+[[".ABC",1,"CREATE INDEX i4 ON t4(substr(a, 2) COLLATE NOCASE, b)"],[".ABC",3,"CREATE INDEX i4 ON t4(substr(a, 2) COLLATE NOCASE, b)"],[".abc",2,"CREATE INDEX i4 ON t4(substr(a, 2) COLLATE NOCASE, b)"],[".abc",4,"CREATE INDEX i4 ON t4(substr(a, 2) COLLATE NOCASE, b)"]]

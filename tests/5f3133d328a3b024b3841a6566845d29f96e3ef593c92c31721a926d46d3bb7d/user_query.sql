@@ -1,0 +1,5 @@
+CREATE TABLE result_200 AS
+SELECT t200.a AS a, t200.b AS b, t201.x AS x, t201.y AS y, '|' AS marker
+FROM t200, t201
+WHERE t201.x=t200.b
+ORDER BY t201.y LIMIT 3;

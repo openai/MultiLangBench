@@ -1,0 +1,1 @@
+CREATE TABLE t5(id INTEGER PRIMARY KEY, loc TEXT, lang INTEGER, utype INTEGER, xa INTEGER, xd INTEGER, xh INTEGER); CREATE INDEX t5i1 ON t5(loc,xh,xa,utype,lang); CREATE INDEX t5i2 ON t5(xd,loc,utype,lang);

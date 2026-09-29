@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts3(a,b); INSERT INTO t1 VALUES('transaction default models default','Non transaction reads'); INSERT INTO t1 VALUES('the default transaction','these semantics present')

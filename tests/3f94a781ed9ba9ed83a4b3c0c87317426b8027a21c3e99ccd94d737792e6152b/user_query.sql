@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rowid FROM t5 WHERE t5 MATCH 'y NEAR/4 b NEAR/4 c';

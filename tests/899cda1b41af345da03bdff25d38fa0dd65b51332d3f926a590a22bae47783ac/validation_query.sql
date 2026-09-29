@@ -1,0 +1,1 @@
+SELECT 'Beginnings' AS table_name, Id AS row_id, Title, EndingId FROM Beginnings UNION ALL SELECT 'Endings', Id, Title, EndingId FROM Endings ORDER BY table_name, row_id;

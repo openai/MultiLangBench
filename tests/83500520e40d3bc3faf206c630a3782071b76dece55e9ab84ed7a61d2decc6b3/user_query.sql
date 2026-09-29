@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT typeof(replace(NULL,'main','ALT')) AS x;

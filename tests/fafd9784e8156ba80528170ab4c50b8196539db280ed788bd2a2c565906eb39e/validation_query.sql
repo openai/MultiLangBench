@@ -1,0 +1,1 @@
+SELECT name,sql FROM sqlite_schema WHERE name IN ('u7','u7t') ORDER BY name

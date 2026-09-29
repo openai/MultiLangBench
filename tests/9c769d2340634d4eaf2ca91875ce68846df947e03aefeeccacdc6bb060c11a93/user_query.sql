@@ -1,0 +1,1 @@
+PRAGMA compile_options; INSERT INTO result VALUES(1);

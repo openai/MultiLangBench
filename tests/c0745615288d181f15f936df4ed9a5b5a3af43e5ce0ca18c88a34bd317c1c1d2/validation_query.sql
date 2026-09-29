@@ -1,0 +1,1 @@
+SELECT 'c1' AS tab,k,v1 AS v FROM c1 UNION ALL SELECT 'c2',k,v2 FROM c2 UNION ALL SELECT 'c3',k,v3 FROM c3 ORDER BY tab,k;

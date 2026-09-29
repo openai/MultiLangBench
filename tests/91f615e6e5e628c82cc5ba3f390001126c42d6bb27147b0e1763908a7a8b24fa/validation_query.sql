@@ -1,0 +1,1 @@
+SELECT c0, typeof(c0), (SELECT pk FROM pragma_table_info('t0') WHERE name='c0') FROM t0

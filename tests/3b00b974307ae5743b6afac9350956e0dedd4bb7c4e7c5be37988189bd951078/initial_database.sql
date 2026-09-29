@@ -1,0 +1,1 @@
+CREATE TABLE result(v); CREATE TABLE t3(z INT UNIQUE);

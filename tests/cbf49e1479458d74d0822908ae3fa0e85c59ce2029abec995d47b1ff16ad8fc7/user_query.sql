@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT typeof(a) AS typ, a AS val FROM t1 GROUP BY b HAVING a=123;

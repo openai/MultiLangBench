@@ -1,0 +1,1 @@
+SELECT token FROM result ORDER BY seq;

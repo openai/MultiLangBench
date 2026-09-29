@@ -1,0 +1,1 @@
+INSERT INTO result(token) SELECT token FROM t1 WHERE input = '1x2x3x' ORDER BY position;

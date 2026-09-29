@@ -1,0 +1,1 @@
+SELECT d, e, (SELECT count(*) FROM t1) FROM t2;

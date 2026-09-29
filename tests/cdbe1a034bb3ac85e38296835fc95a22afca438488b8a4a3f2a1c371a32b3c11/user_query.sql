@@ -1,0 +1,1 @@
+/* join5-5.0 */ CREATE TABLE y1(x,y,z); INSERT INTO y1 VALUES(0,0,1); CREATE TABLE y2(a);

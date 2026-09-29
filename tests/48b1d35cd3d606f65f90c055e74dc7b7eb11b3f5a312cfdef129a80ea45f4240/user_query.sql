@@ -1,0 +1,1 @@
+CREATE TABLE query_result AS SELECT * FROM (SELECT name+1 AS one FROM sqlite_master LIMIT 1 OFFSET 1) WHERE one LIKE 'hello%';

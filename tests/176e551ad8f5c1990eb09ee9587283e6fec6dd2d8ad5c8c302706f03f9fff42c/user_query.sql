@@ -1,0 +1,1 @@
+CREATE TABLE result AS WITH RECURSIVE cte(label,step) AS (SELECT * FROM t UNION SELECT label,step+1 FROM cte WHERE step<3) SELECT * FROM cte ORDER BY +label,+step;

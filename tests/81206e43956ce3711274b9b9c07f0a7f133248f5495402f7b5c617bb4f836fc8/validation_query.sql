@@ -1,0 +1,1 @@
+SELECT count(*),min(docid),max(docid),min(length(x)),max(length(y)) FROM ft

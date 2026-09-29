@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t9c USING fts3("c""1",'c''2')

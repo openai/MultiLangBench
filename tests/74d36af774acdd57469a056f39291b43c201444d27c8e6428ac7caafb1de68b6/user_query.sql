@@ -1,0 +1,1 @@
+ALTER TABLE t1 RENAME TO t1x; SELECT sql FROM sqlite_master WHERE name = 'r1';

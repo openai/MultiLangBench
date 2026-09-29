@@ -1,0 +1,1 @@
+SELECT n, (SELECT count(*) FROM n1) AS rows_in_n1, (SELECT sum(a) FROM n1) AS sum_a, (SELECT count(*) FROM n1 WHERE b IS NULL) AS null_b FROM result;

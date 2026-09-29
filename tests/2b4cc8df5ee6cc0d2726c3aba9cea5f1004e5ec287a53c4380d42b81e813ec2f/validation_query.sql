@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t8),(SELECT sum(a='a' AND b='b') FROM t8),(SELECT sum(a='c' AND b='d') FROM t8),(SELECT freelist_count FROM pragma_freelist_count),(SELECT integrity_check FROM pragma_integrity_check);

@@ -1,0 +1,1 @@
+[[1,"null","NULL"],[2,"integer","45"],[3,"real","66.2"],[4,"text","'hello world'"],[5,"text","'hello world'"],[6,"blob","X'1234'"],[7,"blob","X'1234'"],[8,"null","NULL"]]

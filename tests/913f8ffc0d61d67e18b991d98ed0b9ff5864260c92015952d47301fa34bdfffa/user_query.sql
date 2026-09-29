@@ -1,0 +1,1 @@
+INSERT INTO result SELECT floor(42.8);

@@ -1,0 +1,8 @@
+PRAGMA page_size=1024;
+PRAGMA auto_vacuum=NONE;
+CREATE TABLE t1(a TEXT);
+BEGIN;
+INSERT INTO t1 VALUES(hex(zeroblob(5000)));
+INSERT INTO t1 VALUES(hex(zeroblob(100)));
+DELETE FROM t1 WHERE rowid=1;
+COMMIT;

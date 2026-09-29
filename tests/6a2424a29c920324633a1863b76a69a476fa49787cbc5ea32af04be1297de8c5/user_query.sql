@@ -1,0 +1,1 @@
+UPDATE t2 SET b=6, c=5 WHERE a=b AND b=c;

@@ -1,0 +1,1 @@
+SELECT name, sql FROM sqlite_master WHERE type='index' AND tbl_name='t5' ORDER BY name

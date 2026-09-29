@@ -1,0 +1,1 @@
+CREATE TABLE 'my table'(a, b PRIMARY KEY, c AS (a+b) VIRTUAL, d); INSERT INTO 'my table'(a,b,d) VALUES(1,2,'hello'),(3,4,'world');

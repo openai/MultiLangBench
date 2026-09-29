@@ -1,0 +1,1 @@
+CREATE TABLE over(x, y integer); INSERT INTO over VALUES(1, 'a'); INSERT INTO over VALUES(2, 'b'); INSERT INTO over VALUES(3, 'c'); INSERT INTO over VALUES(4, 'd'); INSERT INTO over VALUES(5, 'e');

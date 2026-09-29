@@ -1,0 +1,1 @@
+[["schema","child","CREATE TABLE child(\n  c INTEGER UNIQUE,\n  FOREIGN KEY(c) REFERENCES parent(p) DEFERRABLE INITIALLY DEFERRED\n)"],["schema","parent","CREATE TABLE parent(\n  p TEXT PRIMARY KEY\n)"],["parent","'123'","text"],["child","123","integer"],["foreign_key_check","violations","0"]]

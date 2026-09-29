@@ -1,0 +1,1 @@
+/* check-6.2 */ UPDATE OR IGNORE t1 SET x=5;

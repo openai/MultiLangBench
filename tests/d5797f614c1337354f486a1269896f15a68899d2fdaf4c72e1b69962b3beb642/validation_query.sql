@@ -1,0 +1,1 @@
+SELECT dbname, type, name FROM observed ORDER BY type, name;

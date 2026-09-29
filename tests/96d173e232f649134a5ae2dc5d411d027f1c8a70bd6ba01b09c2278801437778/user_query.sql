@@ -1,0 +1,1 @@
+CREATE VIEW v1 AS SELECT * FROM t1; CREATE TRIGGER v1tr INSTEAD OF UPDATE ON v1 BEGIN UPDATE t1 SET y=new.y, z=new.z WHERE x=new.x; END; DELETE FROM log; WITH data(k, v) AS (VALUES(3, 'thirteen'), (3, 'fourteen'), (4, 'fifteen'), (4, 'sixteen')) UPDATE v1 SET z=v FROM data WHERE x=k;

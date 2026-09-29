@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT typeof(b) AS typ, b AS val FROM t1 GROUP BY a HAVING b='456';

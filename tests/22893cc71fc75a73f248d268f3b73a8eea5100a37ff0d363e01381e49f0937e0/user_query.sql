@@ -1,0 +1,1 @@
+CREATE TABLE t1(x, y, CHECK( date(x) BETWEEN '2017-07-01' AND '2017-07-31' )); INSERT INTO t1(x,y) VALUES('2017-07-20','one');

@@ -1,0 +1,1 @@
+CREATE TABLE result(mode TEXT); PRAGMA journal_mode=OFF; INSERT INTO result SELECT journal_mode FROM pragma_journal_mode;

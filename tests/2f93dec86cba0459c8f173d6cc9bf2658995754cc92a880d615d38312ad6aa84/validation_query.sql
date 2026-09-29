@@ -1,0 +1,1 @@
+SELECT quote(root) FROM ft_segdir;

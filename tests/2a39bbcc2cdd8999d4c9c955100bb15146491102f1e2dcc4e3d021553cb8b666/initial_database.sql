@@ -1,0 +1,1 @@
+CREATE TABLE tree(i,p); INSERT INTO tree VALUES(1,NULL),(2,1),(3,1),(4,2),(5,4);

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT first_value(0) OVER();

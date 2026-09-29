@@ -1,0 +1,1 @@
+INSERT INTO result_2_4(y) SELECT y FROM xy ORDER BY y;

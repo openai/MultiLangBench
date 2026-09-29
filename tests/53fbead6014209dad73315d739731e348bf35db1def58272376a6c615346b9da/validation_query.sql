@@ -1,0 +1,1 @@
+SELECT n,has_db12 FROM capture

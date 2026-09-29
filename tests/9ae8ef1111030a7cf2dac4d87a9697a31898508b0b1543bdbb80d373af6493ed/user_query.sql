@@ -1,0 +1,1 @@
+UPDATE t1 SET a=8 WHERE b='y';

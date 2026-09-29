@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(integrity_check, '|') FROM pragma_integrity_check) AS integrity_result, (SELECT count(*) FROM t4) AS row_count;

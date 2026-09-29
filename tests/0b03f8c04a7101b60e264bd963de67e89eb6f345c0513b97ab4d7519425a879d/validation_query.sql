@@ -1,0 +1,1 @@
+SELECT x FROM c1 ORDER BY rowid;

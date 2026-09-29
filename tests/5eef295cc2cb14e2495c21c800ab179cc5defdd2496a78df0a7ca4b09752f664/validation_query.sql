@@ -1,0 +1,1 @@
+SELECT seqno, cid, name, '|' FROM pragma_index_info('t2') ORDER BY seqno;

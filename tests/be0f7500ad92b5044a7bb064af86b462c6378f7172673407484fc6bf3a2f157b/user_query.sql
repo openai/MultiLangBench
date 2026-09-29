@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT 'abcd' AS v UNION SELECT 'efgh' ORDER BY 1 ASC, 1 ASC;

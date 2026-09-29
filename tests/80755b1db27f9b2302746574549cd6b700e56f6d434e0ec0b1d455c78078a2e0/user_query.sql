@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT max(rowid) AS m FROM t4 UNION SELECT max(rowid) FROM t5;

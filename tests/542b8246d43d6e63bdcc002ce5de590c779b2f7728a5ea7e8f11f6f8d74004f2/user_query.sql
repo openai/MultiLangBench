@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT * FROM (SELECT * FROM t2) AS x JOIN t1 ON (t1.a=x.a);

@@ -1,0 +1,1 @@
+INSERT INTO result SELECT ceil(99.9), ceiling(-99.01), floor(17), floor(-17.99);

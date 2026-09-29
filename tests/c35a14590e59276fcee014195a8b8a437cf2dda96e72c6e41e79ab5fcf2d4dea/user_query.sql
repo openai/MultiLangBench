@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT length(d) AS n FROM t1;

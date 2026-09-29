@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts4(notindexed=a, notindexed=b, notindexed=c, a, B, c, d);

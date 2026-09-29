@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT lower('1e500') AS value FROM t0 WHERE rowid != lower('1e500');

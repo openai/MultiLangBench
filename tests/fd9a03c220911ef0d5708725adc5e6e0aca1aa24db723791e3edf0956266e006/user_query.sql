@@ -1,0 +1,1 @@
+PRAGMA page_size=512; PRAGMA cache_size=2; CREATE TABLE t(x INTEGER PRIMARY KEY, y TEXT); WITH s(i) AS (VALUES(1) UNION ALL SELECT i+1 FROM s WHERE i<1900) INSERT INTO t(y) SELECT replace(hex(zeroblob(900)), '00', 'x') FROM s;

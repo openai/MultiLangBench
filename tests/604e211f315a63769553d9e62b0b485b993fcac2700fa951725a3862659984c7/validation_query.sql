@@ -1,0 +1,1 @@
+SELECT count(*) AS row_count, min(a) AS min_a, max(a) AS max_a, min(length(b)) AS min_b_length, max(length(b)) AS max_b_length, count(DISTINCT b) AS distinct_b FROM t1

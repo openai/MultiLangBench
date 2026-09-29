@@ -1,0 +1,1 @@
+UPDATE t10 SET rowid=5;

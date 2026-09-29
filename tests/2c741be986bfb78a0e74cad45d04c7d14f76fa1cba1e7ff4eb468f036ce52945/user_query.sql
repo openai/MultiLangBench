@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; BEGIN; UPDATE parent SET x='key two' WHERE x='key2'; UPDATE child2 SET c='key two'; COMMIT;

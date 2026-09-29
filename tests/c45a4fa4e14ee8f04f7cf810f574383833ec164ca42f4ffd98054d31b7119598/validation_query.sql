@@ -1,0 +1,1 @@
+SELECT t1.a,t1.b,t2.b FROM t1 JOIN t2 ON t1.a=t2.c

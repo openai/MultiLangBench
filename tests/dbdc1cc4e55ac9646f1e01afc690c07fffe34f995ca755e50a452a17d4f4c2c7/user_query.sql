@@ -1,0 +1,1 @@
+DROP TRIGGER tr1; CREATE INDEX x1i ON x1(i);

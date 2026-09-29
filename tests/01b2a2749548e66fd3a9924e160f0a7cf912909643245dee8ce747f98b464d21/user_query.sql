@@ -1,0 +1,1 @@
+CREATE TEMP TABLE temp_seed(x); DROP TABLE temp_seed; ATTACH NULL AS NULL; DETACH ''; INSERT INTO main.result SELECT name FROM pragma_database_list ORDER BY seq;

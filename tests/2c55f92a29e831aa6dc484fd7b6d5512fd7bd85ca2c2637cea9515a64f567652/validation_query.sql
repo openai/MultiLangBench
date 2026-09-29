@@ -1,0 +1,1 @@
+SELECT db, sql, zOld, zNew, bTemp FROM ddd ORDER BY rowid;

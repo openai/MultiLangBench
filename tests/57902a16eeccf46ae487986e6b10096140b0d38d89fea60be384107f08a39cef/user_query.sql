@@ -1,0 +1,1 @@
+UPDATE OR IGNORE t3 SET b='three' WHERE a=3;

@@ -1,0 +1,1 @@
+CREATE TABLE t1(a INTEGER PRIMARY KEY,b CHAR(1),c CHAR(2),d ANY); INSERT INTO t1 VALUES(1,'A','aa',2.5),(2,'B','bb',3.75),(3,'C','cc',1.0),(4,'D','cc',8.25),(5,'E','bb',6.5),(6,'F','aa',6.5),(7,'G','aa',6.0),(8,'H','bb',9.0),(9,'I','aa',3.75),(10,'J','cc',NULL),(11,'K','cc','xyz'),(12,'L','cc','xyZ'),(13,'M','cc',NULL);

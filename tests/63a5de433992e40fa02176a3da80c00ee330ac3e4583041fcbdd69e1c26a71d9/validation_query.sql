@@ -1,0 +1,1 @@
+SELECT aa, bb, '|' FROM t2 ORDER BY aa, bb;

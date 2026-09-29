@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1 WHERE t1 MATCH 'c*'), (SELECT count(*) FROM t2 WHERE t2 MATCH 'c*'), (SELECT count(*) FROM t1 WHERE t1 MATCH 'cy*'), (SELECT count(*) FROM t2 WHERE t2 MATCH 'cy*')

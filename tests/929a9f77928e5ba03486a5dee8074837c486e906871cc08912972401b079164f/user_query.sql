@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT mx+10 AS plus10,pqr FROM v6,v8 WHERE xyz=2;

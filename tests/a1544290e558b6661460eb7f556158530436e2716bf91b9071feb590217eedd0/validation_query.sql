@@ -1,0 +1,1 @@
+SELECT count(*),sum(x='zero one two three') FROM t1

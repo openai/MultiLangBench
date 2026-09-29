@@ -1,0 +1,1 @@
+SELECT * FROM __sfi_result;

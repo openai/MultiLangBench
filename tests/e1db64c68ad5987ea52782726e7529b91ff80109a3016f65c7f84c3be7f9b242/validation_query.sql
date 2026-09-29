@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM b1),(SELECT count(*) FROM b2)

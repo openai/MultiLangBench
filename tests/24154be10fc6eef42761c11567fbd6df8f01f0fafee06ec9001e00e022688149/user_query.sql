@@ -1,0 +1,1 @@
+CREATE TABLE t19b AS SELECT 4 AS '',5 AS '',6 AS '';

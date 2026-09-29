@@ -1,0 +1,1 @@
+WITH r(kind,rowid,x) AS (SELECT 'content',rowid,x FROM t1 UNION ALL SELECT 'stars-match',rowid,x FROM t1 WHERE t1 MATCH 'stars') SELECT kind,rowid,x FROM r ORDER BY kind,rowid;

@@ -1,0 +1,1 @@
+SELECT rid,x FROM actual ORDER BY actual.rowid

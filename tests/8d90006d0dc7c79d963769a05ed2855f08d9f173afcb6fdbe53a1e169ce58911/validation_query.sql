@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM sfi_r1),(SELECT count(*) FROM sfi_r2),(SELECT a FROM t1),(SELECT d FROM v0);

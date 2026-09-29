@@ -1,0 +1,1 @@
+SELECT pp.a,pp.b,pp.c,cc.d,cc.e,cc.f FROM pp,cc

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t5aux USING fts4aux(t5); INSERT INTO t5 VALUES('one two three/four.five.six'); CREATE TABLE result AS SELECT * FROM t5aux;

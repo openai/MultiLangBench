@@ -1,0 +1,1 @@
+CREATE TABLE c1(x,y COLLATE nocase,z); INSERT INTO c1 VALUES('ABC','ABC','abc');

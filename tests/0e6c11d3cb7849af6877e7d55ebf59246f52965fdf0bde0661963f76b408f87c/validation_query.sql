@@ -1,0 +1,1 @@
+SELECT t1_count, t1_correct, t2_count, t2_original FROM result;

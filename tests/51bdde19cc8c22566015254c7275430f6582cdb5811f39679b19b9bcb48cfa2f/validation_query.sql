@@ -1,0 +1,1 @@
+SELECT id,is_valid,top_type,separator FROM result ORDER BY id;

@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t2),id,x,y FROM t1;

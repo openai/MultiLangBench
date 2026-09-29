@@ -1,0 +1,1 @@
+SELECT c12,strPath,c00,c01,c05,c08,c14,c13,idSeason,nrow,nplayed FROM result ORDER BY rowid;

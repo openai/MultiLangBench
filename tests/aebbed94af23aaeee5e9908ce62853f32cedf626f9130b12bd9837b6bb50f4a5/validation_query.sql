@@ -1,0 +1,1 @@
+SELECT "table", "rowid", parent, fkid FROM observed ORDER BY "table", "rowid", fkid;

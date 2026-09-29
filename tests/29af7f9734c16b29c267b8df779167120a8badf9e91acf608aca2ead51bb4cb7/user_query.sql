@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT a,lead(b,3,'abc') OVER (ORDER BY a) AS v FROM t4;

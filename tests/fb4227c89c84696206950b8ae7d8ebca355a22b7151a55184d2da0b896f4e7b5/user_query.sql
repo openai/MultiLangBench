@@ -1,0 +1,1 @@
+PRAGMA recursive_triggers=OFF; DELETE FROM t18; INSERT INTO t18(a,b,c) VALUES(1,2,3); UPDATE t18 SET c=b,b=b+1 WHERE a=1;

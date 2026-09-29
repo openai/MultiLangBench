@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT emp,region,total FROM (SELECT emp,region,total,row_number() OVER (PARTITION BY region ORDER BY total DESC) AS rank FROM sales) WHERE rank<=2 ORDER BY region,total DESC;

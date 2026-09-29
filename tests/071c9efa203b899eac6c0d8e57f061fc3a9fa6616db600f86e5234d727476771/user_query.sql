@@ -1,0 +1,1 @@
+CREATE INDEX indext ON test1(cnt);

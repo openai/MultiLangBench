@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT *,min(a) FROM z1;

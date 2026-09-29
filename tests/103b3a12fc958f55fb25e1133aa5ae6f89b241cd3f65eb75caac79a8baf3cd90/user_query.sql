@@ -1,0 +1,1 @@
+UPDATE t1 SET a=-4 WHERE rowid=8;

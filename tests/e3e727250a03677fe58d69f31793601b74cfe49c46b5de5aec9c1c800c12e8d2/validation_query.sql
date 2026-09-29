@@ -1,0 +1,1 @@
+SELECT aaa, b FROM t1 ORDER BY aaa, b

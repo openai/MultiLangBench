@@ -1,0 +1,1 @@
+UPDATE t2 SET a=b+c;

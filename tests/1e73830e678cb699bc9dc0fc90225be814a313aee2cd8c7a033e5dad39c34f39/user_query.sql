@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(coalesce(datetime(5373484.49999999),'NULL'))

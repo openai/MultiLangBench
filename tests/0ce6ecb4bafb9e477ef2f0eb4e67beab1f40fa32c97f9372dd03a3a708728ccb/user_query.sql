@@ -1,0 +1,1 @@
+INSERT INTO result SELECT degrees(acos(0.5));

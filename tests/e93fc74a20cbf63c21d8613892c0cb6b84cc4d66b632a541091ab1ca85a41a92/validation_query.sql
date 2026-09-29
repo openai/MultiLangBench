@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1),(SELECT group_concat(dummy) FROM dual)

@@ -1,0 +1,1 @@
+CREATE TABLE _result AS SELECT a FROM ta WHERE b IN (SELECT a FROM tb);

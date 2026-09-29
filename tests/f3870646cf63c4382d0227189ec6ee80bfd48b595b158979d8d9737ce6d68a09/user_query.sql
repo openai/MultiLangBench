@@ -1,0 +1,5 @@
+CREATE TABLE result_400(seq INTEGER PRIMARY KEY, a, b, tag);
+INSERT INTO result_400(a,b,tag)
+  SELECT a,b,'x' FROM t400 WHERE a IN (1,2,3) ORDER BY b DESC LIMIT 3;
+INSERT INTO result_400(a,b,tag)
+  SELECT a,b,'y' FROM t400 WHERE a IN (1,2,3) ORDER BY +b DESC LIMIT 3;

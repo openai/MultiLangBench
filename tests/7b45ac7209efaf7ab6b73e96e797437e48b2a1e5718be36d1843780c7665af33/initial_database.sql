@@ -1,0 +1,1 @@
+CREATE TABLE t2(a, b, c); INSERT INTO t2 VALUES(1,'one',1),(1,'two',2),(1,'one',3),(1,'two',4),(1,'one',5),(1,'two',6),(2,'one',7),(2,'two',8),(2,'one',9),(2,'two',10),(2,'one',11),(2,'two',12),(NULL,'one',13),(NULL,'two',14),(NULL,'one',15),(NULL,'two',16),(NULL,'one',17),(NULL,'two',18); CREATE INDEX i2 ON t2(a, b DESC);

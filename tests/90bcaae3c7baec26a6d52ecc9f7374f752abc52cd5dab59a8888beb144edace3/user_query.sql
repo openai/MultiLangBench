@@ -1,0 +1,1 @@
+CREATE TABLE collate3t1(c1 UNIQUE);

@@ -1,0 +1,1 @@
+SELECT y FROM t7b ORDER BY rowid;

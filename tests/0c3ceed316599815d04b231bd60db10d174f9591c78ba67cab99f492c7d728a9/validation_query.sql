@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM p),c,d FROM c7

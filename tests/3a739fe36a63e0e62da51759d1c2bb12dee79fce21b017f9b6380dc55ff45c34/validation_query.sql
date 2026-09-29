@@ -1,0 +1,1 @@
+SELECT x, typeof(x) FROM t6 ORDER BY rowid

@@ -1,0 +1,1 @@
+CREATE TABLE t1(x); INSERT INTO t1(x) VALUES('X'),(NULL),('Y'); CREATE TABLE t2(c, d); CREATE INDEX t2dc ON t2(d, c); INSERT INTO t2(c,d) VALUES(5,'X'),(6,'Y'),(7,'Z'),(3,'A'),(4,'B'); UPDATE t2 SET d='X'; UPDATE t2 SET c=NULL WHERE c=6;

@@ -1,0 +1,1 @@
+SELECT 't1' AS table_name, t1_id AS row_id, t1_title AS title FROM t1 UNION ALL SELECT 't2', t2_id, t2_title FROM t2 UNION ALL SELECT 't3', t3_id, t3_title FROM t3 ORDER BY table_name, row_id;

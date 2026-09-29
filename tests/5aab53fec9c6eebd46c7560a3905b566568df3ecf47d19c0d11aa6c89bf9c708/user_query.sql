@@ -1,0 +1,1 @@
+CREATE TABLE data1(x, y); INSERT INTO data1 VALUES(1, 'eleven'), (1, 'twenty-one'), (2, 'twelve'), (2, 'twenty-two'), (3, 'thirteen'), (3, 'twenty-three'), (4, 'fourteen'), (4, 'twenty-four');

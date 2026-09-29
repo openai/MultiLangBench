@@ -1,0 +1,1 @@
+CREATE TABLE collate5t_cn(a); CREATE TABLE collate5t_ct(a); CREATE TABLE collate5t1(a,b); CREATE TABLE collate5t2(a,b);

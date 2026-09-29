@@ -1,0 +1,1 @@
+WITH x(section,ord,c1,c2,c3) AS (SELECT 'schema', CASE name WHEN 't1' THEN 0 ELSE 1 END, type, name, sql FROM sqlite_schema WHERE name IN('t1','i1') UNION ALL SELECT 'row', i+10, CAST(i AS TEXT), quote(a), quote(b) FROM t1) SELECT section,c1,c2,c3 FROM x ORDER BY ord

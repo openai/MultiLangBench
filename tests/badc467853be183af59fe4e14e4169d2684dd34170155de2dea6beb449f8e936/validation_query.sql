@@ -1,0 +1,1 @@
+WITH validation_items(item,value) AS (SELECT 'schema:' || type || ':' || name, sql FROM sqlite_schema WHERE name IN ('t1','t2','t3') UNION ALL SELECT 't1-row', quote(a) FROM t1 UNION ALL SELECT 't3-row', quote(b) FROM t3 UNION ALL SELECT 't2-row', quote(b) FROM t2) SELECT item,value FROM validation_items ORDER BY item,value

@@ -1,0 +1,1 @@
+DELETE FROM sfi_result; PRAGMA freelist_count=500; INSERT INTO sfi_result(seq,value) SELECT 1,freelist_count FROM pragma_freelist_count UNION ALL SELECT 2,freelist_count FROM pragma_freelist_count;

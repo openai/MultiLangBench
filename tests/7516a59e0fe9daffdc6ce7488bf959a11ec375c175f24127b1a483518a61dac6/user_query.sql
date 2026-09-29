@@ -1,0 +1,1 @@
+INSERT INTO result SELECT a,b FROM t1 ORDER BY rowid;

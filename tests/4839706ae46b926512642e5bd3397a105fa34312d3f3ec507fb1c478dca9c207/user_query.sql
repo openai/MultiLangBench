@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rowid AS v FROM t1 WHERE rowid = '5';

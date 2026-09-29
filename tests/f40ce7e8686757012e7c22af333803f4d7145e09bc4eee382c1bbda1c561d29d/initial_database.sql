@@ -1,0 +1,1 @@
+CREATE TABLE t6(a TEXT, b INT, c INT, d INT); CREATE INDEX t6abc ON t6(a,b,c); INSERT INTO t6 VALUES('abc',123,4,5); ANALYZE; DELETE FROM sqlite_stat1; INSERT INTO sqlite_stat1 VALUES('t6','t6abc','10000 5000 2000 10'); ANALYZE sqlite_master; DELETE FROM t6;

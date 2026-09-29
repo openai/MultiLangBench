@@ -1,0 +1,1 @@
+[["index","sqlite_autoindex_t1_1","t1",null],["table","t1","t1","CREATE TABLE t1 (c1 integer, c2, PRIMARY KEY(c1 collate rtrim), UNIQUE(c2))"]]

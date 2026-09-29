@@ -1,0 +1,1 @@
+SELECT x,y FROM query_result ORDER BY x;

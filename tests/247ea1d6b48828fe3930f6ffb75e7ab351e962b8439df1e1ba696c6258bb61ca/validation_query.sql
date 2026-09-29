@@ -1,0 +1,1 @@
+SELECT a, typeof(b), length(b), hex(b), b=zeroblob(1) FROM sfi_result;

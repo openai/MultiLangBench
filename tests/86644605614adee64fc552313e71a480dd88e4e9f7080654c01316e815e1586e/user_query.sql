@@ -1,0 +1,1 @@
+UPDATE t1 SET a=a+100 WHERE w<20;

@@ -1,0 +1,1 @@
+UPDATE t1 SET b = 'egyptian' WHERE (a-3)/10.0;

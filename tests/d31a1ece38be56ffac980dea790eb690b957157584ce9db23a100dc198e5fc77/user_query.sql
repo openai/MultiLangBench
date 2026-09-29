@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT sum(max(t)) OVER () AS v FROM t8 GROUP BY total;

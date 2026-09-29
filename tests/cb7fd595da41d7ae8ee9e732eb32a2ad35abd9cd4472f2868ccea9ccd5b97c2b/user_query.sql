@@ -1,0 +1,1 @@
+CREATE INDEX i3 ON t1(d,b,c); CREATE TABLE result AS SELECT seq,name,[unique],origin FROM pragma_index_list('t1') ORDER BY seq;

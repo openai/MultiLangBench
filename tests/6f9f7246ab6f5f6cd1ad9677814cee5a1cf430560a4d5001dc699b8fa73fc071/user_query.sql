@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT printf('%s=(%p)',a,a) FROM t1 ORDER BY a;

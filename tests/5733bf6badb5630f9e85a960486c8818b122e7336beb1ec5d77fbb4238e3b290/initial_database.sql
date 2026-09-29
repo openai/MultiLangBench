@@ -1,0 +1,1 @@
+PRAGMA page_size=1024; PRAGMA auto_vacuum=OFF; CREATE TABLE t1(a, b); CREATE INDEX i1 ON t1(b); INSERT INTO t1(rowid, a, b) VALUES(2, 2, 3); INSERT INTO t1(rowid, a, b) VALUES(3, 4, 5);

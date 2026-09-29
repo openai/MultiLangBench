@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT * FROM t3 WHERE (a, b) == (45, 46);

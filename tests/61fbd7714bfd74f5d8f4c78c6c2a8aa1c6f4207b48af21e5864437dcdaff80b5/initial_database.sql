@@ -1,0 +1,1 @@
+CREATE TABLE b1(x,y); INSERT INTO b1 VALUES('abc','ABC'); CREATE INDEX b1x ON b1(x);

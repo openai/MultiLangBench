@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT format('%lld%n',314159.2653,'hi');

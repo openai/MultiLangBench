@@ -1,0 +1,1 @@
+SELECT ii.seqno, ii.cid, ii.name, (SELECT count(*) FROM sqlite_schema WHERE type='table' AND name='t1') AS tbl FROM pragma_index_info('t1x1') AS ii ORDER BY ii.seqno;

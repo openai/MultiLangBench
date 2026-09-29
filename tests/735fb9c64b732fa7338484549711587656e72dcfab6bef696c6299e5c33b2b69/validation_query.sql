@@ -1,0 +1,1 @@
+SELECT (SELECT * FROM pragma_integrity_check LIMIT 1) AS integrity, count(*) AS row_count, max(CASE WHEN c0=1 THEN quote(c1) END) AS c1_for_one, max(CASE WHEN c0=1 THEN typeof(c1) END) AS type_for_one FROM t0;

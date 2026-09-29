@@ -1,0 +1,1 @@
+SELECT tbl_name FROM sqlite_schema WHERE type='table' ORDER BY tbl_name;

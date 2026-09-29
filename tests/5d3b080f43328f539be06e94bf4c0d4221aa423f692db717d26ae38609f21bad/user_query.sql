@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts4(a,content=t1); INSERT INTO t1(rowid,a) VALUES(1,'abc');

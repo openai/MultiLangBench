@@ -1,0 +1,1 @@
+PRAGMA count_changes=ON; DELETE FROM table1;

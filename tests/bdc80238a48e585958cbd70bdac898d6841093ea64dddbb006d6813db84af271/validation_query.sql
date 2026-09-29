@@ -1,0 +1,1 @@
+SELECT y FROM t2 INDEXED BY mask WHERE x=1

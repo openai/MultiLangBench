@@ -1,0 +1,1 @@
+INSERT INTO result SELECT typeof(x), typeof(y) FROM t WHERE 1=x%4 AND y=='1';

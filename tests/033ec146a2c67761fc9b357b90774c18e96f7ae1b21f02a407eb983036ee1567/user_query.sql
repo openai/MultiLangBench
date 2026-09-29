@@ -1,0 +1,1 @@
+CREATE TABLE query_result AS SELECT substr(x,1,8) AS prefix FROM t1;

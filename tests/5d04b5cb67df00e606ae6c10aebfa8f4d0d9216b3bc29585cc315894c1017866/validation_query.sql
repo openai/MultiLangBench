@@ -1,0 +1,1 @@
+SELECT level, idx, CAST(trim(substr(CAST(end_block AS TEXT), instr(CAST(end_block AS TEXT),' ')+1)) AS INTEGER) AS segment_size FROM x3_segdir WHERE level=1 ORDER BY idx;

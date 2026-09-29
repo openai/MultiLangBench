@@ -1,0 +1,1 @@
+SELECT t1.a, t1.b, t1.c, t2.d, t2.e, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='i1' AND tbl_name='t1') AS has_i1, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='i2' AND tbl_name='t1') AS has_i2 FROM t1 CROSS JOIN t2 ORDER BY t1.a, t1.b, t1.c, t2.d, t2.e;

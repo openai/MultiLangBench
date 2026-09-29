@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; UPDATE pA SET x=X'8765' WHERE rowid=4;

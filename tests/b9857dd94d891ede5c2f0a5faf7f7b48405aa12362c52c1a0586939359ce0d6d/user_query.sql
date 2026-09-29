@@ -1,0 +1,1 @@
+UPDATE t1_segdir SET root=CAST(substr(quote(root),1,11)||char(127)||substr(quote(root),13) AS BLOB);

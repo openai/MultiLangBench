@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; CREATE TABLE one(a,b,c,UNIQUE(b,c));

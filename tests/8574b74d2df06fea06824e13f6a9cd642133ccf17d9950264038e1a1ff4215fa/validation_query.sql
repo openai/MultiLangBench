@@ -1,0 +1,1 @@
+SELECT src, v1, v2 FROM result_9_10 ORDER BY rowid;

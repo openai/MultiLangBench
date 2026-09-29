@@ -1,0 +1,1 @@
+SELECT x50,(SELECT count(*) FROM sqlite_master WHERE type='index' AND name='manycol_idx1') FROM result

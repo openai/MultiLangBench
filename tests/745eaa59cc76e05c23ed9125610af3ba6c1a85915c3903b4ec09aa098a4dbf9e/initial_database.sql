@@ -1,0 +1,1 @@
+CREATE TABLE view_log(schema_name, view_name);

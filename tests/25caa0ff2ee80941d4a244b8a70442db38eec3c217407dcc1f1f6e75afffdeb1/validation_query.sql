@@ -1,0 +1,1 @@
+SELECT type, name, sql FROM sqlite_master WHERE type='table' AND name='t3'

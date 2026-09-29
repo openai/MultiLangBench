@@ -1,0 +1,1 @@
+CREATE TABLE result AS WITH RECURSIVE under_alice(name,level) AS (VALUES('Alice','0') UNION ALL SELECT org.name,under_alice.level+1 FROM org,under_alice WHERE org.boss=under_alice.name ORDER BY 2 DESC) SELECT group_concat(substr('...............',1,level*3)||name,x'0a') FROM under_alice;

@@ -1,0 +1,1 @@
+PRAGMA page_size=1024; PRAGMA auto_vacuum=2; CREATE TABLE tbl1(a); INSERT INTO tbl1 VALUES(replace(hex(zeroblob(110)),'00','abcdefghij'));

@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; INSERT INTO parent2 VALUES('I','II'); INSERT INTO child8 VALUES('I','II');

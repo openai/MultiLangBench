@@ -1,0 +1,1 @@
+INSERT INTO result SELECT json_remove(j,'$.b[0]','$.b[#-1]') FROM t1;

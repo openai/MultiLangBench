@@ -1,0 +1,1 @@
+INSERT INTO result SELECT 6, 6.0, 'test-six y''all', x'3031323334', NULL;

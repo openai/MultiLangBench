@@ -1,0 +1,1 @@
+PRAGMA recursive_triggers=ON; INSERT INTO node(id,pid,key) VALUES(9,0,'test'); INSERT INTO node(id,pid,key) VALUES(90,9,'test1'); INSERT INTO node(id,pid,key) VALUES(900,90,'test2'); DELETE FROM node WHERE id=9;

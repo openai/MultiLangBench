@@ -1,0 +1,1 @@
+INSERT INTO t5 VALUES('a','b','c','d'); INSERT INTO ft6(ft6) VALUES('rebuild'); CREATE TABLE sfi_result AS SELECT rowid AS rid FROM ft6 WHERE ft6 MATCH 'b';

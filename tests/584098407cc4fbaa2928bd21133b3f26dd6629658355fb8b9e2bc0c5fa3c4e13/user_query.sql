@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT d1.rowid AS r FROM d1, d2 WHERE a=y;

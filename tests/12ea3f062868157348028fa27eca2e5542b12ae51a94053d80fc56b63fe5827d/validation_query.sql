@@ -1,0 +1,1 @@
+SELECT n, na, nb FROM result;

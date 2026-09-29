@@ -1,0 +1,1 @@
+SELECT cid,name,type,nn,dflt_value,pk FROM sfi_result ORDER BY cid

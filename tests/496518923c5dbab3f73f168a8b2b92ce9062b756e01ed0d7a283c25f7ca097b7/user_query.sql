@@ -1,0 +1,1 @@
+INSERT OR REPLACE INTO a1(b, a) VALUES(1, 2),(3,4)

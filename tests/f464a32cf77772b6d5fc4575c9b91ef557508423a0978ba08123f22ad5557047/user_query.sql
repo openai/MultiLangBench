@@ -1,0 +1,1 @@
+ATTACH '' AS noname; ATTACH ':memory:' AS inmem; BEGIN; CREATE TABLE noname.noname(x); CREATE TABLE inmem.inmem(y); CREATE TABLE main.main(z); COMMIT; INSERT INTO main.capture SELECT 1,name FROM noname.sqlite_master WHERE type='table' UNION ALL SELECT 2,name FROM inmem.sqlite_master WHERE type='table';

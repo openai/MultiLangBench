@@ -1,0 +1,1 @@
+INSERT INTO result SELECT json_replace(j,'$.b[#]','AAA','$.b[#]','BBB') FROM t1;

@@ -1,0 +1,1 @@
+ANALYZE; CREATE TABLE sfi_result AS SELECT tbl,idx,stat FROM sqlite_stat1 ORDER BY idx;

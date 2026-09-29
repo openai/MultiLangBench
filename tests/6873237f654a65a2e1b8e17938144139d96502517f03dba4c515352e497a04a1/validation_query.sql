@@ -1,0 +1,1 @@
+SELECT * FROM temp ORDER BY temp ASC

@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT x IS TRUE AS v FROM t1;

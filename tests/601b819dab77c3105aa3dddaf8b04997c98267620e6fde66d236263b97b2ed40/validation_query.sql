@@ -1,0 +1,1 @@
+SELECT id, a, b, (SELECT pk FROM pragma_table_info('t1') WHERE name='id') FROM t1 ORDER BY id;

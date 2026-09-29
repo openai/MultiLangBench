@@ -1,0 +1,1 @@
+/* check-1.16 */ UPDATE t1 SET x=4, y=11 WHERE x==2;

@@ -1,0 +1,1 @@
+CREATE TABLE result(a,b,k,v,mark); INSERT INTO result(a,b,k,v,mark) SELECT *, '+' FROM t1 LEFT JOIN t3 ON (a NOT IN(SELECT v FROM t1 LEFT JOIN t2 ON (a=k))=k);

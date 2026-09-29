@@ -1,0 +1,1 @@
+CREATE TABLE t0(c0); INSERT INTO t0(c0) VALUES(123); CREATE VIEW v0(c0) AS SELECT 0 GROUP BY 1; CREATE TABLE _result AS SELECT t0.c0 AS t0c0,v0.c0 AS v0c0,vt0.name FROM v0,t0 LEFT JOIN pragma_table_info('t0') AS vt0 ON vt0.name LIKE 'c0' WHERE v0.c0==0;

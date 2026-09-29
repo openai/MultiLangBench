@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT id, seq, [table] AS parent_table, [from] AS child_column, [to] AS parent_column, on_update, on_delete, match FROM pragma_foreign_key_list('c5');

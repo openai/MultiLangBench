@@ -1,0 +1,1 @@
+CREATE INDEX t2a2 ON t2(a) WHERE a<100 OR a>200;

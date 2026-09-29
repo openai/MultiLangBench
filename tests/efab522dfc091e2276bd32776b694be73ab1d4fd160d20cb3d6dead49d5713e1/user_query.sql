@@ -1,0 +1,1 @@
+PRAGMA writable_schema=ON; ALTER TABLE t4 RENAME TO t4new; PRAGMA writable_schema=OFF;

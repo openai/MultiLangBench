@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT matchinfo(t5,'x') AS m FROM t5 WHERE t5 MATCH 'a a' ORDER BY rowid

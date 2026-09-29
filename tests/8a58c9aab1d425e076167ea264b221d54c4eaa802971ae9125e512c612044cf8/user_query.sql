@@ -1,0 +1,1 @@
+CREATE TABLE result(seq INTEGER PRIMARY KEY, n INTEGER); INSERT INTO result(seq,n) SELECT 1,count(*) FROM t1 LEFT JOIN t2 ON t1.i=t2.i AND bool='T'; INSERT INTO result(seq,n) SELECT 2,count(*) FROM t1 LEFT JOIN t2 ON likely(t1.i=t2.i) AND bool='T';

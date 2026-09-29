@@ -1,0 +1,1 @@
+SELECT blockid, block FROM z1_segments ORDER BY blockid;

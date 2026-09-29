@@ -1,0 +1,1 @@
+CREATE TABLE t1(a); CREATE TABLE t2(b,c,d); INSERT INTO t2 VALUES(1,3,'not-4'); CREATE INDEX i2 ON t2((b+0),d);

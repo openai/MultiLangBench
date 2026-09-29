@@ -1,0 +1,1 @@
+PRAGMA recursive_triggers=OFF; UPDATE OR REPLACE t5 SET b='b' WHERE b='c';

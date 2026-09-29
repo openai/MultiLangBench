@@ -1,0 +1,2 @@
+-- capi2-3.9
+CREATE UNIQUE INDEX i1 ON t1(a);

@@ -1,0 +1,1 @@
+SELECT c0 FROM t0 ORDER BY rowid;

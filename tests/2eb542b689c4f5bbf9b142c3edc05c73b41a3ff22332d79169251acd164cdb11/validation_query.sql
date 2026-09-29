@@ -1,0 +1,1 @@
+SELECT hex(b) FROM f ORDER BY rowid;

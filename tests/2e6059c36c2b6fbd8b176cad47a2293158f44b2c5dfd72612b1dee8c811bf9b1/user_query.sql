@@ -1,0 +1,1 @@
+BEGIN;INSERT INTO t1 SELECT i,'x'||i,zeroblob(120+i%60),'y'||i FROM n WHERE i>645 OR i%10=7;COMMIT;

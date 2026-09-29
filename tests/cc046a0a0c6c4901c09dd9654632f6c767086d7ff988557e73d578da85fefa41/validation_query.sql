@@ -1,0 +1,1 @@
+WITH r(section,rid,v1,v2) AS (SELECT 1,rowid,a,b FROM t1 UNION ALL SELECT 2,rowid,x,NULL FROM log) SELECT section,rid,v1,v2 FROM r ORDER BY section,rid;

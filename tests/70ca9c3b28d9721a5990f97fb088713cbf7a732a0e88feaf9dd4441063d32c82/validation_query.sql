@@ -1,0 +1,1 @@
+SELECT b FROM t1 INDEXED BY plan WHERE a=2

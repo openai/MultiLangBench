@@ -1,0 +1,1 @@
+SELECT (SELECT name FROM pragma_table_info('sfi_result') WHERE cid=0), f1 FROM sfi_result ORDER BY f1;

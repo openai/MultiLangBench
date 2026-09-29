@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT coalesce(a,'xyz') AS x FROM t2;

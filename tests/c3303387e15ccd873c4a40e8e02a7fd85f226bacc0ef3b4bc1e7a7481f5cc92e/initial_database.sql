@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b); CREATE TABLE result(type TEXT,name TEXT,tbl_name TEXT,rootpage INTEGER,sql TEXT);

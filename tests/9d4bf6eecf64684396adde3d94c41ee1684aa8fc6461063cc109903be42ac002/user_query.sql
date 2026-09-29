@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a=json_extract(b,'$[0]') AS v FROM t8;

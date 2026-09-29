@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT min(sum(a)) OVER () AS z FROM t1 GROUP BY a ORDER BY a;

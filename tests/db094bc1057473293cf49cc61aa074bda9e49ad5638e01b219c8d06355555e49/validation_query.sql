@@ -1,0 +1,1 @@
+SELECT name,sql FROM sqlite_schema WHERE name IN ('t6','zzz') ORDER BY name

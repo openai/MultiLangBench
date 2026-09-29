@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM sfi_r1),(SELECT count(*) FROM sfi_r2),(SELECT t||u FROM t0),(SELECT v||w FROM t1),(SELECT x||y FROM t2);

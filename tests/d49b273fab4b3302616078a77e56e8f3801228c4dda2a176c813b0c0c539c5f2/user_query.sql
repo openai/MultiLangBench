@@ -1,0 +1,1 @@
+DROP INDEX t17x; DELETE FROM t17; INSERT INTO t17(x,y) VALUES(123,'elephant'),(248,'giraffe'); CREATE UNIQUE INDEX t17x ON t17(abs(x)); DELETE FROM t17 WHERE abs(x) IS NULL OR abs(x)<130;

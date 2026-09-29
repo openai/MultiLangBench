@@ -1,0 +1,1 @@
+ALTER TABLE ft5 RENAME TO ft6; CREATE TABLE sfi_result AS SELECT name FROM sqlite_master WHERE name LIKE '%t5%';

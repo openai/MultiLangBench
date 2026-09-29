@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT b IN ('aa','bb') FROM collate2t1;

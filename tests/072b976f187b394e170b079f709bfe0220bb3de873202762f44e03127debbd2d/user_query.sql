@@ -1,0 +1,1 @@
+/* 11.4 */ INSERT INTO t2(a) VALUES('abc');

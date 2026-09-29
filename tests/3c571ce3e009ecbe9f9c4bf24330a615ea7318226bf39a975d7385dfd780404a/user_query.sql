@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT hex(substr(b, -1, 10)) FROM t1;

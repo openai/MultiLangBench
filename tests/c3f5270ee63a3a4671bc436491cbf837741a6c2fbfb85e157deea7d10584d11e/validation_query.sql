@@ -1,0 +1,1 @@
+SELECT count(*), min(docid), max(docid), (SELECT count(*) FROM t1 WHERE t1 MATCH 'alpha') FROM t1;

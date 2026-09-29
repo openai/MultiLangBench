@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(name,',') FROM (SELECT name FROM pragma_index_list('t1') ORDER BY name)) AS indexes,(SELECT group_concat(name,',') FROM (SELECT name FROM pragma_index_info('t1x3') ORDER BY seqno)) AS t1x3_columns

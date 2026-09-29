@@ -1,0 +1,1 @@
+UPDATE pages SET title='Download SQLite' WHERE rowid=54

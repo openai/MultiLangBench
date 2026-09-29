@@ -1,0 +1,1 @@
+SELECT rid FROM sfi_result ORDER BY rid;

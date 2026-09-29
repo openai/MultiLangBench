@@ -1,0 +1,1 @@
+INSERT INTO t2 VALUES('not a datetime',13,'12:41:59');

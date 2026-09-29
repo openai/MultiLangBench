@@ -1,0 +1,1 @@
+PRAGMA page_size = 1024; PRAGMA auto_vacuum = incremental; CREATE TABLE t1(x); CREATE TABLE t2(x); CREATE TABLE t3(x);

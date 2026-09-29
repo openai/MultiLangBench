@@ -1,0 +1,1 @@
+SELECT fooid,fooval,refcnt FROM foo ORDER BY fooid;

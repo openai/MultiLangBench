@@ -1,0 +1,1 @@
+[[0,50000,0,3,"a:INTEGER|b:INTEGER|c:TEXT"]]

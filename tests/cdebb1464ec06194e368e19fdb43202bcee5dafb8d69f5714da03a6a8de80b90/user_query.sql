@@ -1,0 +1,1 @@
+PRAGMA empty_result_callbacks=ON; INSERT INTO xyz VALUES(52,NULL);

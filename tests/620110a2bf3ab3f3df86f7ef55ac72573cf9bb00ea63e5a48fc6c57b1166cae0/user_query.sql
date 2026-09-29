@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t9 USING fts4; INSERT INTO t9 VALUES('this record is used to try to dectect corruption'); CREATE TABLE r AS SELECT offsets(t9) AS o FROM t9 WHERE t9 MATCH 'to' ORDER BY rowid

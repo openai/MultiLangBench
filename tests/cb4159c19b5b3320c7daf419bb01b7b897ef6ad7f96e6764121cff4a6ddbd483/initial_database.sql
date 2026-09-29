@@ -1,0 +1,1 @@
+CREATE TABLE log_entry(col1, y); CREATE INDEX i1 ON log_entry(col1);

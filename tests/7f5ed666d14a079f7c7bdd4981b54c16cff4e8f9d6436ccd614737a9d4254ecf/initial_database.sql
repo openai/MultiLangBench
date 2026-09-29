@@ -1,0 +1,1 @@
+CREATE TABLE d3(a);INSERT INTO d3 VALUES('text'),(14.1),(13),(X'78787878'),(15),(12.9),(NULL);

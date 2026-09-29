@@ -1,0 +1,1 @@
+CREATE TABLE agger(one TEXT,two TEXT,three TEXT,four TEXT); INSERT INTO agger VALUES(1,'one','hello','yes'),(2,'two','howdy','no'),(3,'thr','howareya','yes'),(4,'two','lothere','yes'),(5,'one','atcha','yes'),(6,'two','hello','no');

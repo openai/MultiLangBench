@@ -1,0 +1,11 @@
+CREATE VIRTUAL TABLE t1 USING fts4;
+INSERT INTO t1 VALUES(replace(hex(zeroblob(20000)), '00', 'a '));
+INSERT INTO t1 VALUES(replace(hex(zeroblob(20000)), '00', 'z '));
+INSERT INTO t1 VALUES('a b c d e f a x y');
+INSERT INTO t1 VALUES('');
+INSERT INTO t1 VALUES('');
+INSERT INTO t1 VALUES('');
+INSERT INTO t1 VALUES('');
+INSERT INTO t1 VALUES('');
+INSERT INTO t1(t1) VALUES('optimize');
+UPDATE t1_segments SET block=zeroblob(length(block)) WHERE length(block)>10000;

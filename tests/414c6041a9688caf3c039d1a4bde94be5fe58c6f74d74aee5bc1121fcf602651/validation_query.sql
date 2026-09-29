@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(a, ',') FROM (SELECT a FROM t1 WHERE c='xyzzy' ORDER BY a)) AS matched_rows, (SELECT group_concat(integrity_check, ',') FROM pragma_integrity_check) AS integrity;

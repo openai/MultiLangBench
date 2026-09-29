@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; BEGIN; DELETE FROM parent WHERE x='key2'; UPDATE child2 SET c=NULL; COMMIT;

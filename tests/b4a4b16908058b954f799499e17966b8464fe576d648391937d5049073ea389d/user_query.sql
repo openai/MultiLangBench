@@ -1,0 +1,1 @@
+BEGIN; UPDATE vt0 SET lid=1 WHERE lid=0; INSERT INTO vt0(vt0) VALUES('integrity-check'); COMMIT;

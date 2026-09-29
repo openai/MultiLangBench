@@ -1,0 +1,1 @@
+CREATE INDEX t10_abcd ON t10(a+b,c+d);

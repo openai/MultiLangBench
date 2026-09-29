@@ -1,0 +1,1 @@
+SELECT count(*) AS row_count, min(docid) AS first_docid, max(docid) AS last_docid, sum(length(a)) AS a_bytes, sum(length(b)) AS b_bytes, (SELECT count(*) FROM sqlite_master) AS schema_entries, (SELECT count(*) FROM sqlite_master WHERE name IN ('ft1','ft2','ft3','ft4','ft6','ft7')) AS old_tables FROM ft;

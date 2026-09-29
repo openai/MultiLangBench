@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a FROM t1 WHERE b=zeroblob(10000);

@@ -1,0 +1,1 @@
+SELECT src, a, b, c FROM (SELECT 1 AS ord, rowid AS rid, 'tbl2' AS src, a, b, c FROM tbl2 UNION ALL SELECT 2 AS ord, rowid AS rid, 'tbl' AS src, a, b, c FROM tbl) ORDER BY ord, rid;

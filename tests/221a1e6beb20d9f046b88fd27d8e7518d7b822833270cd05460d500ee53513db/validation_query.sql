@@ -1,0 +1,1 @@
+SELECT cache_size,auto_vacuum FROM result;

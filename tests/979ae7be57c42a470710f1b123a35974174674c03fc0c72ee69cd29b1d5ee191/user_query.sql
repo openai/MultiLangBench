@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE ft USING fts5(x); INSERT INTO ft(rowid, x) VALUES(-45, 'a a'); INSERT INTO ft(rowid, x) VALUES(12, 'a b'); INSERT INTO ft(rowid, x) VALUES(444, 'a c'); INSERT INTO ft(rowid, x) VALUES(12300, 'a d'); INSERT INTO ft(rowid, x) VALUES(25400, 'a c'); INSERT INTO ft(rowid, x) VALUES(25401, 'a b'); INSERT INTO ft(rowid, x) VALUES(50000, 'a a');

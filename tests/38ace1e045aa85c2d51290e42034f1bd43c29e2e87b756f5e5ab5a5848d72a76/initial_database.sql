@@ -1,0 +1,1 @@
+CREATE TABLE x1(i INTEGER PRIMARY KEY, x); INSERT INTO x1(x) VALUES(CAST('a' AS blob)),(CAST('b' AS blob)),(CAST('c' AS blob)),(CAST('def' AS blob)),(CAST('g' AS blob));

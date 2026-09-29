@@ -1,0 +1,1 @@
+INSERT INTO t3(rowid,x,y) VALUES(15,'P E B M V','E A A B U'),(16,'V E C F P','L U T V K'),(17,'T N O Z N','T P Q X N'),(18,'V W U W R','H O A A V'),(19,'A H N L F','I G H B O'); DELETE FROM ft3;

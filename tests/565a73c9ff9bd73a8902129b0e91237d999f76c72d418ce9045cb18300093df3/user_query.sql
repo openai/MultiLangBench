@@ -1,0 +1,1 @@
+PRAGMA temp_store=-1; PRAGMA temp_store=-1; INSERT INTO result SELECT * FROM pragma_temp_store;

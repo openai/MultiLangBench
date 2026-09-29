@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(1,'abcxyz' NOT GLOB 'ABC*'),(2,'abcxyz' NOT GLOB 'abc*'),(3,'abcxyz' NOT LIKE 'ABC%'),(4,'abcxyz' NOT LIKE 'abc%'),(5,'abdxyz' NOT LIKE 'abc%'),(6,'abcxyz' NOT GLOB NULL),(7,'abcxyz' NOT LIKE NULL),(8,NULL NOT GLOB 'abc*'),(9,NULL NOT LIKE 'ABC%');

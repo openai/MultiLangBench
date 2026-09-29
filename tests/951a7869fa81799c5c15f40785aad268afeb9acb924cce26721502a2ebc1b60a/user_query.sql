@@ -1,0 +1,1 @@
+INSERT INTO result(y,n) SELECT y, count(*) FROM t1 GROUP BY y HAVING count(*)<3 ORDER BY y;

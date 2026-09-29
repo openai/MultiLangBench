@@ -1,0 +1,1 @@
+INSERT INTO result SELECT tan(radians(45));

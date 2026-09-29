@@ -1,0 +1,1 @@
+SELECT tag,x FROM sfi_result ORDER BY tag,x;

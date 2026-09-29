@@ -1,0 +1,1 @@
+SELECT type, name, tbl_name FROM sqlite_master WHERE name IN ('node','node_delete_referencing') ORDER BY type, name;

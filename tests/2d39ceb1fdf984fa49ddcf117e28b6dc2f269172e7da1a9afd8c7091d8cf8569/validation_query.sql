@@ -1,0 +1,1 @@
+SELECT a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, (SELECT wr FROM pragma_table_list WHERE schema='main' AND name='tx') AS without_rowid FROM tx ORDER BY o

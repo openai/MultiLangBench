@@ -1,0 +1,1 @@
+[["t4","table","CREATE TABLE t4(a, b, UNIQUE(a,b))"]]

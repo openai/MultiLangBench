@@ -1,0 +1,1 @@
+SELECT count(*) FROM sqlite_master WHERE name IN ('t5','t5aux','t6','t6aux','t7','t7aux');

@@ -1,0 +1,1 @@
+SELECT typeof(v),length(v),v=zeroblob(100) FROM result;

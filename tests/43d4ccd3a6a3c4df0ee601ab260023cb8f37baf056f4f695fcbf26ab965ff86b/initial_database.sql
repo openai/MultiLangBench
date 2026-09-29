@@ -1,0 +1,1 @@
+/* jrnlmode-8.3 */ CREATE TABLE t1(x);

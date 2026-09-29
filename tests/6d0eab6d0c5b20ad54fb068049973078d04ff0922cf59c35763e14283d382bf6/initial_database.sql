@@ -1,0 +1,1 @@
+PRAGMA encoding='UTF-8'; CREATE TABLE t1(a PRIMARY KEY, b, c); INSERT INTO t1 VALUES('one','I',1);

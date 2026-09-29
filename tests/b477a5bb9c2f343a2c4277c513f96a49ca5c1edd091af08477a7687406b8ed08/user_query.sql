@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a='abc' AS x FROM t2;

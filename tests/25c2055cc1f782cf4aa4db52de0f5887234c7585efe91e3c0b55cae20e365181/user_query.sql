@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rowid AS matched_rowid FROM t14 WHERE t14 MATCH '"e a"';

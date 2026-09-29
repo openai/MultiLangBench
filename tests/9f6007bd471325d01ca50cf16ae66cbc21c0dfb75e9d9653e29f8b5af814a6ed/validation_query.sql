@@ -1,0 +1,1 @@
+SELECT 'ft4' AS tbl,id,quote(value) AS value FROM ft4_stat UNION ALL SELECT 'ft4x',id,quote(value) FROM ft4x_stat ORDER BY tbl,id

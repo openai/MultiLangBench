@@ -1,0 +1,1 @@
+CREATE TABLE _r AS SELECT 1 FROM t1 WHERE (a, b) = (SELECT +a, +b FROM t1);

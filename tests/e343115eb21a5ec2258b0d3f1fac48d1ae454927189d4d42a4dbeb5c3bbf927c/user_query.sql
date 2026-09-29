@@ -1,0 +1,1 @@
+INSERT INTO result SELECT json(' { "this" : "is", "a": [ "test" ] } ');

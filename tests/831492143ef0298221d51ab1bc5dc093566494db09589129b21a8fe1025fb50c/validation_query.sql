@@ -1,0 +1,1 @@
+SELECT a, b, rid FROM result ORDER BY rid;

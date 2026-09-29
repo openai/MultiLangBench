@@ -1,0 +1,1 @@
+[["CREATE TABLE t4(y, z)","CREATE INDEX t4y ON t4(y)",0]]

@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES('one two three',x'A1B2C3D4E5F6')

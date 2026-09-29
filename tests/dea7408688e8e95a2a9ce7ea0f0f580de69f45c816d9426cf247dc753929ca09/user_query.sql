@@ -1,0 +1,1 @@
+CREATE TABLE t5(a,b,c,PRIMARY KEY(c,b,a));

@@ -1,0 +1,1 @@
+DELETE FROM t1; INSERT INTO t1 VALUES('123','abcdefg',NULL);

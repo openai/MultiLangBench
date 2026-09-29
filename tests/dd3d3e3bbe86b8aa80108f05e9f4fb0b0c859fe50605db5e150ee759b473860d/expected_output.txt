@@ -1,0 +1,1 @@
+[[-60.06,null,null,24,"converging"]]

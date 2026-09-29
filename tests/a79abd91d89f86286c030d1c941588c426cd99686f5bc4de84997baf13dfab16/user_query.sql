@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT sum(x),sum(y) FROM xx;

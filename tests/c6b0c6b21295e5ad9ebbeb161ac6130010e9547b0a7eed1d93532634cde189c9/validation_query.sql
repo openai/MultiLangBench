@@ -1,0 +1,1 @@
+SELECT a AS d FROM xxx WHERE d=0

@@ -1,0 +1,1 @@
+SELECT UndoAction FROM Undo ORDER BY rowid;

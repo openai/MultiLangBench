@@ -1,0 +1,1 @@
+SELECT a, (SELECT page_count FROM pragma_page_count), a=(SELECT page_count FROM pragma_page_count) FROM abc WHERE rowid=1;

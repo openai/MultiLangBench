@@ -1,0 +1,1 @@
+SELECT seq, value, typeof(value) FROM observed ORDER BY seq

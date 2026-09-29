@@ -1,0 +1,1 @@
+SELECT x99 FROM manycol

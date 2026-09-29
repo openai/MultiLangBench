@@ -1,0 +1,1 @@
+DELETE FROM av1 WHERE rowid IN(18,5,3,1);

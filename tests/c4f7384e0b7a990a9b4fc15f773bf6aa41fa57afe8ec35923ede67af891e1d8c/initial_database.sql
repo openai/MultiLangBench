@@ -1,0 +1,1 @@
+CREATE TABLE t1(x,a,b,c); INSERT INTO t1 VALUES(1,2,3,4); CREATE VIEW v1 AS SELECT a AS 'xyz',b+c AS 'pqr',c-b FROM t1;

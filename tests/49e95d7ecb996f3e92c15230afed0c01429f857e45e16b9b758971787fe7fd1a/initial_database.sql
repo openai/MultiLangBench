@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE x1 USING fts4(a,b);INSERT INTO x1 VALUES('a b c','d e f');INSERT INTO x1 SELECT * FROM x1;INSERT INTO x1 SELECT * FROM x1;INSERT INTO x1 SELECT * FROM x1;INSERT INTO x1 SELECT * FROM x1;INSERT INTO x1 VALUES(replace(hex(zeroblob(3000)),'00','d '),replace(hex(zeroblob(30000)),'00','f '));INSERT INTO x1(x1)VALUES('optimize');

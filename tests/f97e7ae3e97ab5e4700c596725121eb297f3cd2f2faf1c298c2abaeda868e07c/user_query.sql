@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE simple USING fts3(tokenize=simple)

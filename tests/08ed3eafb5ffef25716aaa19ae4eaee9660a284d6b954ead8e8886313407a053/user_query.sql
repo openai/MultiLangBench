@@ -1,0 +1,1 @@
+DELETE FROM log; UPDATE t4 SET a='9.1',b='9.1',c='9.1';

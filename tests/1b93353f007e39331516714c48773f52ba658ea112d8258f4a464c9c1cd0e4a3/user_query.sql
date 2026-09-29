@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT content FROM docs WHERE docs MATCH 'acid NEAR/2 sqlite NEAR/2 relational'

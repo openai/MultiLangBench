@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b,_x_); CREATE VIEW s1 AS SELECT a,b,_x_ FROM t1 WHERE _x_='abc' COLLATE xyz;

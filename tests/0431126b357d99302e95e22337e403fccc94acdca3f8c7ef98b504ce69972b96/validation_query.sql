@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1), (SELECT count(*) FROM t2), (SELECT sum(length(a)+length(b)) FROM t1), (SELECT count(*) FROM t1 JOIN t2 USING(a,b));

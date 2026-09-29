@@ -1,0 +1,1 @@
+UPDATE t2 SET b=NULL WHERE a=2;

@@ -1,0 +1,1 @@
+PRAGMA secure_delete=1; DELETE FROM t1 WHERE rowid>850;

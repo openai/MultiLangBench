@@ -1,0 +1,1 @@
+UPDATE t1 SET (c,d) = (SELECT y,z FROM t2 WHERE w=a);

@@ -1,0 +1,1 @@
+SELECT rowid,x,y FROM t5 ORDER BY rowid;

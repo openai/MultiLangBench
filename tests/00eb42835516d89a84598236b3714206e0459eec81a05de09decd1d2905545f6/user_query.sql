@@ -1,0 +1,1 @@
+PRAGMA journal_mode=MEMORY; PRAGMA auto_vacuum=0; PRAGMA page_size=1024; PRAGMA user_version=5; CREATE TABLE result AS SELECT journal_mode AS mode FROM pragma_journal_mode;

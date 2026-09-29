@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT snippet(text) AS v FROM text WHERE text MATCH 'cold'

@@ -1,0 +1,1 @@
+[["alpha=beta\"gamma","*",1,1],["alpha=beta\"gamma",0,1,1],["delta[epsilon]zeta","*",1,1],["delta[epsilon]zeta",0,1,1]]

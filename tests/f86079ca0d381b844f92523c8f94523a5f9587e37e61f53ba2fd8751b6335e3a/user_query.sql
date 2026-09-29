@@ -1,0 +1,1 @@
+DROP TABLE template; SELECT sql FROM sqlite_master;

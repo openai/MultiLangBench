@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; REPLACE INTO parent VALUES('key2');

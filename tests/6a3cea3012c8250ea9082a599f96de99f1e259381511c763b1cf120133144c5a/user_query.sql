@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM t1 AS z1 JOIN t1 AS z2 USING(aa) WHERE abs(z1.aa)=z2.aa AND z1.aa=123;

@@ -1,0 +1,1 @@
+CREATE TABLE main1(a,b,c); CREATE TABLE observed(name TEXT);

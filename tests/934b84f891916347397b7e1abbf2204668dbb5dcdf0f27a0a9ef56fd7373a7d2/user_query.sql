@@ -1,0 +1,1 @@
+PRAGMA automatic_index=ON; INSERT INTO result(a,b,x,y) SELECT * FROM t1 LEFT JOIN t2 ON a=x WHERE y=4 OR y IS NULL;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rowid AS r FROM e2 WHERE rowid IN (SELECT +c FROM e1);

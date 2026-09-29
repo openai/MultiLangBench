@@ -1,0 +1,1 @@
+SELECT level, idx FROM t1_segdir ORDER BY level, idx;

@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1) AS t1_count, (SELECT count(*) FROM t2) AS t2_count, (SELECT min(length(x)) FROM t2) AS min_size, (SELECT max(length(x)) FROM t2) AS max_size, (SELECT sum(length(x)) FROM t2) AS total_size, (SELECT sum(typeof(x)='blob') FROM t2) AS blob_rows, (SELECT count(*) FROM sqlite_schema WHERE type='table' AND name='t2') AS t2_schema_count;

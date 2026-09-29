@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM collate6log) AS log_rows, (SELECT count(*) FROM collate6tab) AS tab_rows, (SELECT count(*) FROM sqlite_schema WHERE type = 'trigger' AND name = 'collate6trig') AS trigger_rows;

@@ -1,0 +1,1 @@
+/* jrnlmode-9.2 */ CREATE TABLE result(seq INTEGER,value TEXT);

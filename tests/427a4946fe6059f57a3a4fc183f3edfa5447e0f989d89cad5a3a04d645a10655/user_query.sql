@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES('A A A'); CREATE TABLE result AS SELECT offsets(t1) AS v FROM t1 WHERE content MATCH 'A NEAR/2 A';

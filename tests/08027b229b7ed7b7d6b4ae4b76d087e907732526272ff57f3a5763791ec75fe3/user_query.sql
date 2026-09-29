@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a.id AS aid,b.id AS bid,b.text AS txt FROM a JOIN b ON (a.id=b.aId) ORDER BY a.id,b.text;

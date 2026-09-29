@@ -1,0 +1,1 @@
+SELECT a, b, tag FROM result_400 ORDER BY seq;

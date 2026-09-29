@@ -1,0 +1,1 @@
+CREATE TABLE t3(a,b); INSERT INTO t3 VALUES('abc',NULL),(NULL,'xyz'),(11,22),(33,44);

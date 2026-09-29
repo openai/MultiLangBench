@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT count(*) AS n FROM t3 WHERE b IN (SELECT a FROM t3 LIMIT 5);

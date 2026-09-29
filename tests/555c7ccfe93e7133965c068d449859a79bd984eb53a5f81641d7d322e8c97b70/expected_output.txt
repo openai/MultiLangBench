@@ -1,0 +1,1 @@
+[[1,"text","'helloworld'"],[2,"integer","45"],[3,"real","45.2"],[4,"real","45.0"],[5,"blob","X'ABCDEF'"],[6,"null","NULL"]]

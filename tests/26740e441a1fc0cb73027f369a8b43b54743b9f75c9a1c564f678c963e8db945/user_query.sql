@@ -1,0 +1,1 @@
+CREATE TABLE t1j(x TEXT, y INTEGER); INSERT INTO t1j VALUES('one',1),('six',6),('ninty-nine',99); INSERT INTO sqlite_stat1 VALUES('t1j',NULL,'3'); ANALYZE sqlite_master; CREATE TABLE sfi_result(seq INTEGER PRIMARY KEY, x, a, b, c, d, marker); INSERT INTO sfi_result(x,a,b,c,d,marker) SELECT x,a,b,c,d,'|' FROM t1j,t1 WHERE c=y ORDER BY +a;

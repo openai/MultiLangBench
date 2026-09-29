@@ -1,0 +1,1 @@
+[["table","t2","t2","CREATE TABLE \"t2\"(x)"],["table","t3","t3","CREATE TABLE t3(y)"],["table","t4","t4","CREATE TABLE t4(z)"],["trigger","tr1","t3","CREATE TRIGGER tr1 INSERT ON t3 BEGIN UPDATE t3 SET y=z FROM (SELECT z FROM t4); END"],["trigger","tr2","t3","CREATE TRIGGER tr2 INSERT ON t3 BEGIN UPDATE t3 SET y=abc FROM (SELECT x AS abc FROM \"t2\"); END"]]

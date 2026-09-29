@@ -1,0 +1,1 @@
+SELECT seq FROM main.sqlite_sequence WHERE name='t6';

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT count(x) FROM t6;

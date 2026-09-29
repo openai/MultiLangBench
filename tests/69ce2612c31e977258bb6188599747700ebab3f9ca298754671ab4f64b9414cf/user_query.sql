@@ -1,0 +1,1 @@
+PRAGMA foreign_keys = 1; DELETE FROM t1 WHERE a = 2;

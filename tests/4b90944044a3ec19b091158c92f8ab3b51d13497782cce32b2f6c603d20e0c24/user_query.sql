@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT zeroblob(2) IN (zeroblob(2)) AS v;

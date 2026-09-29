@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; CREATE TABLE self(a PRIMARY KEY,b REFERENCES self(a)); INSERT INTO self VALUES(14,14);

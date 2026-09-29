@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT X'01020304';

@@ -1,0 +1,1 @@
+CREATE TABLE t1(a, b, c, d); CREATE VIEW v1 AS SELECT * FROM t1 WHERE a=1 OR (b IN ());

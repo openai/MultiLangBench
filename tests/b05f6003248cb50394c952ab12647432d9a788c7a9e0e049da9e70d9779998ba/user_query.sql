@@ -1,0 +1,1 @@
+INSERT INTO result(rid) SELECT rowid FROM t1 WHERE a<'ccc' COLLATE binary ORDER BY 1;

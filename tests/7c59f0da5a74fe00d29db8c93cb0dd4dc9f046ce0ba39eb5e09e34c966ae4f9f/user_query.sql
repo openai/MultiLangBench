@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT min(x) FROM t1 WHERE x>=4.5;

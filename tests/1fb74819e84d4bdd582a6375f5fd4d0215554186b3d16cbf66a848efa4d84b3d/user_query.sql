@@ -1,0 +1,1 @@
+CREATE TABLE t5(pk inTEger primary key); INSERT INTO t5(pk) VALUES(0);

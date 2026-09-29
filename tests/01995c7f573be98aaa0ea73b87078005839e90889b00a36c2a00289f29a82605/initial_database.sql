@@ -1,0 +1,1 @@
+/* jrnlmode-4.2 */ PRAGMA auto_vacuum=1; CREATE TABLE abc(a,b,c);

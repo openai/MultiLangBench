@@ -1,0 +1,1 @@
+DROP TABLE query; CREATE INDEX query ON t1(a);

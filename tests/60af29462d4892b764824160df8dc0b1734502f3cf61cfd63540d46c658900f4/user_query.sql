@@ -1,0 +1,1 @@
+/* check-3.2 */ INSERT INTO sfi_result SELECT name FROM sqlite_master WHERE name<>'sfi_result' ORDER BY name;

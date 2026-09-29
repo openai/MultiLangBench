@@ -1,0 +1,1 @@
+SELECT count(*), sum(b), sum(CASE WHEN a<50000 THEN b ELSE 0 END), max(CASE WHEN a=50000 THEN b END), (SELECT count(*) FROM pragma_index_info('i1b')) FROM t1;

@@ -1,0 +1,1 @@
+SAVEPOINT "save1"; UPDATE s SET v=1; RELEASE save1;

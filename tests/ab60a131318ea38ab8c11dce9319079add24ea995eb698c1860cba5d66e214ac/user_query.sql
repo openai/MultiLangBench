@@ -1,0 +1,1 @@
+CREATE TABLE __sfi_result AS SELECT d FROM t8 ORDER BY d,rowid;

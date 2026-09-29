@@ -1,0 +1,1 @@
+PRAGMA auto_vacuum=FULL; CREATE TABLE one(a TEXT,b INT);

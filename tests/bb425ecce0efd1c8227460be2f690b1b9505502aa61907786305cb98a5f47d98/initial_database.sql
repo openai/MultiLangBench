@@ -1,0 +1,2 @@
+-- memdb-9.1
+PRAGMA auto_vacuum=FULL; PRAGMA cache_size=0; CREATE TABLE metrics(before INTEGER); INSERT INTO metrics VALUES(0); CREATE TABLE t1(a); INSERT INTO t1 VALUES(substr(replace(hex(zeroblob(6000)),'0','x'),1,10000)); INSERT INTO t1 VALUES(substr(replace(hex(zeroblob(6000)),'0','y'),1,10000)); INSERT INTO t1 VALUES(substr(replace(hex(zeroblob(6000)),'0','z'),1,10000)); UPDATE metrics SET before=(SELECT page_count FROM pragma_page_count);

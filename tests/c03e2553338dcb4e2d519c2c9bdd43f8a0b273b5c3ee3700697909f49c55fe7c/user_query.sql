@@ -1,0 +1,1 @@
+INSERT INTO t2(docid,x,y,l) SELECT rowid,x,y,l FROM t3_data;

@@ -1,0 +1,1 @@
+SELECT x, y, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='t2y' AND sql LIKE '%date(y)%') AS expression_index_count FROM t2 ORDER BY x;

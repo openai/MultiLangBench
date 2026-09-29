@@ -1,0 +1,1 @@
+SELECT off FROM offsets_result ORDER BY docid;

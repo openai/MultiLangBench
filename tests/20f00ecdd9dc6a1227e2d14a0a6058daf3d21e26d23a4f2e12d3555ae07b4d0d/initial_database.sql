@@ -1,0 +1,1 @@
+PRAGMA auto_vacuum=0; CREATE TABLE t1(a,b); CREATE TABLE t2(a,b); CREATE INDEX t1_i ON t1(a); CREATE INDEX t2_i ON t2(a);

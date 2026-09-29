@@ -1,0 +1,1 @@
+SELECT type,name FROM sqlite_schema WHERE name IN('t1','t2') ORDER BY name

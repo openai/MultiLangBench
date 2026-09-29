@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT * FROM t3 LEFT JOIN t2 ON true JOIN t1 ON (t3.e IS t2.c);

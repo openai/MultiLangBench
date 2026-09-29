@@ -1,0 +1,1 @@
+CREATE TABLE t6(a COLLATE nocase,b,c UNIQUE,PRIMARY KEY(b,a)) WITHOUT ROWID; INSERT INTO t6(a,b,c) VALUES('abc','def','ghi'); UPDATE t6 SET a='ABC',c='ghi';

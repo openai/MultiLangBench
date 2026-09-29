@@ -1,0 +1,1 @@
+SELECT * FROM ft WHERE ft MATCH 'b:one';

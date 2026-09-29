@@ -1,0 +1,1 @@
+SELECT x, TextKey, DKey FROM result ORDER BY rowid;

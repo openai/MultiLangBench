@@ -1,0 +1,1 @@
+[["sqlite_autoindex_t7_1"],["sqlite_autoindex_t7_2"],["sqlite_autoindex_t7_3"]]

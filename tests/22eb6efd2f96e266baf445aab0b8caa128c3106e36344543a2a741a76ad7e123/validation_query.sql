@@ -1,0 +1,1 @@
+SELECT count(*) AS n, sum(a=999) AS n999, (SELECT sql FROM sqlite_schema WHERE type='index' AND name='t3a') AS index_sql FROM t3

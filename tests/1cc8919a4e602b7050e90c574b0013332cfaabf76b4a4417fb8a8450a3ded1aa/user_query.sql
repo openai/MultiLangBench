@@ -1,0 +1,1 @@
+PRAGMA writable_schema=1; DELETE FROM sqlite_master WHERE name='sqlite_autoindex_t1_1';

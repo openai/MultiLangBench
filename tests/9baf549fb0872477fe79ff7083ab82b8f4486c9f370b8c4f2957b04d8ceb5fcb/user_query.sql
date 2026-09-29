@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT w,x,y,'|' FROM t1 ORDER BY w;

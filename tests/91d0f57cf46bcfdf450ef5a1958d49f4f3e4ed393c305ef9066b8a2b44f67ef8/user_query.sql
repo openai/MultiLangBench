@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT (v=CAST(X'80' AS TEXT)) AS x FROM input;

@@ -1,0 +1,1 @@
+CREATE TABLE rename(rename rename); INSERT INTO rename VALUES(99); INSERT INTO rename SELECT a FROM t1;

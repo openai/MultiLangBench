@@ -1,0 +1,1 @@
+SELECT 0 AS section, a AS n, b AS value FROM t1 UNION ALL SELECT 1 AS section, rowid AS n, t AS value FROM log ORDER BY section, n;

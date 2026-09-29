@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(name, ',') FROM (SELECT name FROM sqlite_schema WHERE type IN ('table','index') AND name NOT LIKE 'sqlite_%' ORDER BY name)), (SELECT group_concat(integrity_check, '|') FROM (SELECT integrity_check FROM pragma_integrity_check ORDER BY integrity_check));

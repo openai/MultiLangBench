@@ -1,0 +1,1 @@
+PRAGMA short_column_names=ON; PRAGMA full_column_names=OFF; CREATE TABLE result AS SELECT t1.a AS n, v3.a FROM t1 JOIN v3;

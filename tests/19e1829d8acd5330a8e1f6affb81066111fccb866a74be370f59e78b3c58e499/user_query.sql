@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT f1 FROM tbl2 WHERE 1000=f2;

@@ -1,0 +1,1 @@
+PRAGMA auto_vacuum=FULL; CREATE TABLE txmark(x INT);

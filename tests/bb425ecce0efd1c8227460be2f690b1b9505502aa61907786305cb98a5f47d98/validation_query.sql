@@ -1,0 +1,1 @@
+SELECT before>(SELECT page_count FROM pragma_page_count) FROM metrics;

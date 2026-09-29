@@ -1,0 +1,1 @@
+SELECT b, y FROM sfi_result ORDER BY seq;

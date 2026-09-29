@@ -1,0 +1,1 @@
+UPDATE main.t1 SET a=10, b=5;

@@ -1,0 +1,3 @@
+CREATE TABLE sfi_result AS
+SELECT ((0 IS NOT FALSE) OR NOT (0 IS FALSE OR (t0.c0 = 1))) AS value
+FROM t0;

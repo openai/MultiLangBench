@@ -1,0 +1,1 @@
+SELECT lhs,rhs,quote(isv),quote(notisv),quote(eqv),quote(nev),quote(isnull1),quote(isnull2) FROM r ORDER BY lhs,rhs

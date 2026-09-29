@@ -1,0 +1,1 @@
+CREATE TABLE t1(rowid, oid, _rowid_, x); CREATE TABLE log(a,b,c,d,e); CREATE TRIGGER r1 BEFORE INSERT ON t1 BEGIN INSERT INTO log VALUES('r1', new.rowid, new.oid, new._rowid_, new.x); END; CREATE TRIGGER r2 AFTER INSERT ON t1 BEGIN INSERT INTO log VALUES('r2', new.rowid, new.oid, new._rowid_, new.x); END;

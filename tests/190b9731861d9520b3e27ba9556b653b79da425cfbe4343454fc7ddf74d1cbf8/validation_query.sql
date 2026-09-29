@@ -1,0 +1,1 @@
+SELECT docid, a, b FROM ft ORDER BY docid;

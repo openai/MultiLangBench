@@ -1,0 +1,1 @@
+SELECT count(*) AS docs, sum(length(content)) AS total_chars, sum(content='') AS empty_docs, sum(content='a b c d e f a x y') AS phrase_docs, (SELECT count(*) FROM t1_segdir) AS segdirs, (SELECT count(*) FROM t1_segments) AS segments FROM t1;

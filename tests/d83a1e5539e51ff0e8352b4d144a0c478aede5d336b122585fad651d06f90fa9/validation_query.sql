@@ -1,0 +1,1 @@
+SELECT name, tbl_name, sql FROM sqlite_master WHERE name IN ('tr1','tr2') ORDER BY name;

@@ -1,0 +1,1 @@
+SELECT quote(x) FROM t2 ORDER BY 1

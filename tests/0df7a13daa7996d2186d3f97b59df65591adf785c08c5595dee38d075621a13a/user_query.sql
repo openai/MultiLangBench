@@ -1,0 +1,1 @@
+CREATE TABLE __sfi_result AS SELECT * FROM t2_re;

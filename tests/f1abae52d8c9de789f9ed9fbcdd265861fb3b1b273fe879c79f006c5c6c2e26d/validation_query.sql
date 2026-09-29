@@ -1,0 +1,1 @@
+SELECT type,name,sql FROM sqlite_schema WHERE name='ft' OR tbl_name='ft' ORDER BY type,name

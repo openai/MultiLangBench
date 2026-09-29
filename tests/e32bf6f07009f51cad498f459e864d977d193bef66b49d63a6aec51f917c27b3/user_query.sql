@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT b FROM t2 WHERE a IN (0, 2);

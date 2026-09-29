@@ -1,0 +1,1 @@
+DELETE FROM t2; INSERT INTO t2 SELECT a, coalesce(b,a) FROM t1;

@@ -1,0 +1,1 @@
+/* jrnlmode-8.22 */ CREATE TABLE marker(x);

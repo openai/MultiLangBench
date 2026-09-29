@@ -1,0 +1,1 @@
+CREATE TABLE first(nulls, last); INSERT INTO first(last, nulls) VALUES(100,200), (300,400), (200,300); CREATE TABLE result AS SELECT * FROM first ORDER BY nulls;

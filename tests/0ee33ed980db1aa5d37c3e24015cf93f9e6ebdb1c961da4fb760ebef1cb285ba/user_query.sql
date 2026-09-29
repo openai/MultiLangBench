@@ -1,0 +1,1 @@
+CREATE TABLE fts3prefix2_result AS SELECT * FROM t1 WHERE t1 MATCH 'T*';

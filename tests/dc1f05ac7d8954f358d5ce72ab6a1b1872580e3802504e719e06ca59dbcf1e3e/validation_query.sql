@@ -1,0 +1,1 @@
+SELECT a, b, c, d, typeof(a), typeof(b), typeof(c), typeof(d), (SELECT count(*) FROM sqlite_schema WHERE name='blobs') AS old_table_count FROM t1

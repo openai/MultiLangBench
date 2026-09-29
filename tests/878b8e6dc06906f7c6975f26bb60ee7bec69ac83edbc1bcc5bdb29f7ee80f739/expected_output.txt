@@ -1,0 +1,1 @@
+[["tr1","mytable_renamed","CREATE TRIGGER tr1 AFTER UPDATE OF \"geom\" ON \"mytable_renamed\" WHEN OLD.\"fid\" = NEW.\"fid\" AND NEW.\"geom\" IS NULL BEGIN\n  DELETE FROM rt WHERE id = OLD.\"fid\";\nEND"],["tr2","mytable_renamed","CREATE TRIGGER tr2 AFTER INSERT ON mytable_renamed BEGIN\n  DELETE FROM rt WHERE id=(SELECT min(id) FROM rt);\nEND"]]

@@ -1,0 +1,1 @@
+CREATE TABLE collate1t1(a TEXT COLLATE BINARY, b);

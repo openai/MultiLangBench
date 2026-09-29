@@ -1,0 +1,1 @@
+CREATE TABLE x3(f,g,h,i);INSERT INTO x3 VALUES(-39.24,NULL,'encompass',-1),('presenting',51,'reformation','dignified'),('conducting',-87.24,37.56,NULL),('coldest',-96,'dramatists',82.3),('alerting',NULL,-93.79,NULL);CREATE TABLE x1(a,b);INSERT INTO x1 VALUES(24,'converging'),(NULL,X'CB71'),('blonds','proprietary');

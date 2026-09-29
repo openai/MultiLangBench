@@ -1,0 +1,1 @@
+CREATE VIEW dual(dummy) AS VALUES('X');

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a FROM t6 WHERE (x='y' OR y='y') AND b=913 ORDER BY a;

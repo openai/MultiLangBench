@@ -1,0 +1,1 @@
+SELECT 'log' AS src,a,b,c FROM log UNION ALL SELECT 'tbl',a,b,c FROM tbl ORDER BY src,a,b,c

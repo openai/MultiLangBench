@@ -1,0 +1,1 @@
+SELECT count(*), sum(c=CAST(a AS TEXT)), min(typeof(c)), max(typeof(c)), min(length(c)), max(length(c)), sum(length(c)) FROM t1;

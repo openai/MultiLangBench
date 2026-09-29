@@ -1,0 +1,1 @@
+SELECT sql FROM temp_capture WHERE name='ttt';

@@ -1,0 +1,3 @@
+CREATE TABLE t1(id INT);
+INSERT INTO t1(id) VALUES(1),(2),(3),(4),(5);
+CREATE INDEX t1_idx_id ON t1(id ASC);

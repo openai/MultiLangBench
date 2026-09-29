@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts3(content); INSERT INTO t1(content) VALUES('one two three two four six three six nine four eight twelve');

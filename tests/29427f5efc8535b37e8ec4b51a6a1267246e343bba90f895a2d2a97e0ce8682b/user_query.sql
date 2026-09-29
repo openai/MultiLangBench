@@ -1,0 +1,1 @@
+INSERT INTO t1 SELECT 5.1, 5.1, 5.1, 5.1;

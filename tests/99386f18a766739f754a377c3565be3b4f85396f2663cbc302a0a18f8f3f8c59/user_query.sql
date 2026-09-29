@@ -1,0 +1,1 @@
+PRAGMA journal_mode=PERSIST; PRAGMA locking_mode=EXCLUSIVE; BEGIN EXCLUSIVE; COMMIT; PRAGMA data_version; INSERT INTO observed(v) SELECT * FROM pragma_data_version;

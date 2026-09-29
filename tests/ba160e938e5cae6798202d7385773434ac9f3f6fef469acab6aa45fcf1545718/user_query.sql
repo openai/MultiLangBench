@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT typeof(matchinfo(t10)) AS t,length(matchinfo(t10)) AS n FROM t10 WHERE t10 MATCH 'record' ORDER BY rowid

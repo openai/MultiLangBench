@@ -1,0 +1,1 @@
+SELECT rowid,x,y FROM t4 ORDER BY rowid

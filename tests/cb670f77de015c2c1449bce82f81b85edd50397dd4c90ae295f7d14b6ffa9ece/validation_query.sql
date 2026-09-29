@@ -1,0 +1,1 @@
+SELECT (SELECT page_size FROM pragma_page_size) AS page_size, (SELECT auto_vacuum FROM pragma_auto_vacuum) AS auto_vacuum, count(*) AS row_count, min(a) AS min_a, max(a) AS max_a, sum(a) AS sum_a, min(b) AS min_b, max(b) AS max_b FROM t1;

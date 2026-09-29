@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT y FROM t15 WHERE x LIKE 'abx%%' ESCAPE 'x' ORDER BY +y;

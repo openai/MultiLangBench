@@ -1,0 +1,1 @@
+SELECT count(*) AS row_count, min(length(x)) AS min_length, max(length(x)) AS max_length, sum(CASE WHEN typeof(x)='blob' THEN 1 ELSE 0 END) AS blob_rows, (SELECT rootpage FROM sqlite_schema WHERE type='table' AND name='t2') AS t2_root, (SELECT count(*) FROM sqlite_schema WHERE type='trigger' AND name='tr') AS trigger_count FROM t1;

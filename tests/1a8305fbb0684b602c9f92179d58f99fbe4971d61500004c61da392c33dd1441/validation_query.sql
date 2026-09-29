@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM pragma_table_xinfo('t1')) AS column_count, (SELECT hidden FROM pragma_table_xinfo('t1') WHERE name='c') AS generated_kind, (SELECT count(*) FROM pragma_foreign_key_list('t1')) AS fk_column_count, (SELECT count(*) FROM pragma_foreign_key_check) AS violations;

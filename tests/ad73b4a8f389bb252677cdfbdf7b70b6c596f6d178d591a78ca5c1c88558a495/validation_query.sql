@@ -1,0 +1,1 @@
+SELECT roman FROM result ORDER BY rowid;

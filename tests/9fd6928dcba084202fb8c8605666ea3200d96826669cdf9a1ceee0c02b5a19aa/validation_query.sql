@@ -1,0 +1,1 @@
+SELECT count(*) AS n, count(x) AS nonnull, sum(x IS NULL) AS nulls, sum(x) AS total FROM t1;

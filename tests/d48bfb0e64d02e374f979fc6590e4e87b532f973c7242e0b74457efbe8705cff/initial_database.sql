@@ -1,0 +1,1 @@
+CREATE TABLE t1(x integer primary key);

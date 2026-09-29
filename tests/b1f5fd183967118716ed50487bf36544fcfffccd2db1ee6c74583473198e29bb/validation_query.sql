@@ -1,0 +1,1 @@
+SELECT n,group_concat(docid,' ') FROM (SELECT n,docid FROM r ORDER BY n,docid) GROUP BY n ORDER BY n

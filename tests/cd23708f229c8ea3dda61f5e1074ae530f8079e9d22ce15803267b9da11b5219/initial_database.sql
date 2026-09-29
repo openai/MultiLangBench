@@ -1,0 +1,1 @@
+CREATE TABLE log(a,b,c,d,e); CREATE TABLE t1(w,x,y,z); CREATE TRIGGER r5 BEFORE DELETE ON t1 BEGIN INSERT INTO log VALUES('r5', old.rowid, old.oid, old._rowid_, old.x); END; CREATE TRIGGER r6 AFTER DELETE ON t1 BEGIN INSERT INTO log VALUES('r6', old.rowid, old.oid, old._rowid_, old.x); END; INSERT INTO t1 VALUES(100,201,300,400);

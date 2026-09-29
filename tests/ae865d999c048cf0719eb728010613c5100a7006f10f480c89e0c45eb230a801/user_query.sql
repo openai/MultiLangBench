@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT typeof(a) AS tp, a FROM t5 GROUP BY a HAVING a<b;

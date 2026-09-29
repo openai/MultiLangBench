@@ -1,0 +1,1 @@
+SELECT type,name,tbl_name,'x' AS rootpage,sql FROM result;

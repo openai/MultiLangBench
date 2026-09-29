@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES(NULL,'big-2',234);

@@ -1,0 +1,1 @@
+SELECT rowid, x, y, z FROM a3 ORDER BY rowid

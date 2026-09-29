@@ -1,0 +1,1 @@
+SELECT rowid, c, d FROM a4 ORDER BY rowid

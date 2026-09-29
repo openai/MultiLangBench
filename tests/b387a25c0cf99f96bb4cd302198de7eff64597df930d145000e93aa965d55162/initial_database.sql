@@ -1,0 +1,1 @@
+CREATE TABLE t1(a, b, c); CREATE TABLE log(t, a1, b1, c1, a2, b2, c2); INSERT INTO t1 VALUES('a','B','C'); CREATE TRIGGER trig5 BEFORE DELETE ON t1 BEGIN INSERT INTO log VALUES('before', old.a,old.b,old.c, NULL,NULL,NULL); END; CREATE TRIGGER trig6 AFTER DELETE ON t1 BEGIN INSERT INTO log VALUES('after', old.a,old.b,old.c, NULL,NULL,NULL); END;

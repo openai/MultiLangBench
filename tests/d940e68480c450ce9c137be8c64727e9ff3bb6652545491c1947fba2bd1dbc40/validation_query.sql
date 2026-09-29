@@ -1,0 +1,1 @@
+SELECT x,y,z,w FROM result ORDER BY coalesce(x,y,z,w,0),x,y,z,w;

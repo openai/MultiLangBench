@@ -1,0 +1,1 @@
+SELECT o FROM one ORDER BY rowid

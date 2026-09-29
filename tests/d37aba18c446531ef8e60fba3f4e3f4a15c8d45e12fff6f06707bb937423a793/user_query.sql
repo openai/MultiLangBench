@@ -1,0 +1,1 @@
+INSERT INTO sfi_result SELECT * FROM t2 LEFT JOIN t1 ON t1.id=t2.ctx WHERE t1.value IS NULL;

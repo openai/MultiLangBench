@@ -1,0 +1,1 @@
+SELECT cnt,total_x,total_y FROM result;

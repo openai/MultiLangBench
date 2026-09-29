@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b,c);CREATE TABLE dual(dummy);INSERT INTO dual VALUES('X');

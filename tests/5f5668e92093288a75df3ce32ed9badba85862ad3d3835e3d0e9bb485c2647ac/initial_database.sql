@@ -1,0 +1,1 @@
+CREATE TABLE a(key varchar, data varchar); CREATE TABLE b(key varchar, period integer); INSERT INTO a VALUES('01','data01'); INSERT INTO a VALUES('+1','data+1'); INSERT INTO b VALUES('01',1); INSERT INTO b VALUES('01',2); INSERT INTO b VALUES('+1',3); INSERT INTO b VALUES('+1',4);

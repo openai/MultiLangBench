@@ -1,0 +1,1 @@
+SELECT x,abc,z FROM t4 ORDER BY rowid

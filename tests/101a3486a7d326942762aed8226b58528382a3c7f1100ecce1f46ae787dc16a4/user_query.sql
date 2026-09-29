@@ -1,0 +1,1 @@
+CREATE TABLE peoplew(name TEXT PRIMARY KEY, role TEXT NOT NULL, height INT NOT NULL, CHECK(role IN ('student','teacher'))) WITHOUT ROWID; CREATE INDEX peoplew_idx1 ON peoplew(role,height); INSERT INTO peoplew(name,role,height) SELECT name,role,height FROM people; CREATE TABLE result AS SELECT name FROM peoplew WHERE height>=180 ORDER BY +name;

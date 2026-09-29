@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a='123' AS x FROM t1;

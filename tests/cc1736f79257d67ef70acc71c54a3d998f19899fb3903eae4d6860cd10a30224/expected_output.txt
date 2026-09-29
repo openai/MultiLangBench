@@ -1,0 +1,1 @@
+[["table","t3","t3","CREATE TABLE t3(id INTEGER PRIMARY KEY,w TEXT)"],["table","t4","t4","CREATE TABLE t4(id INTEGER PRIMARY KEY,x TEXT)"],["table","t5","t5","CREATE TABLE t5(id INTEGER PRIMARY KEY,y TEXT)"],["table","t6","t6","CREATE TABLE t6(id INTEGER PRIMARY KEY,z INT)"],["view","dual","dual","CREATE VIEW dual(dummy) AS VALUES('x')"]]

@@ -1,0 +1,1 @@
+CREATE TABLE result(v); INSERT INTO result SELECT sum(over) over over over FROM over over WINDOW over AS (ORDER BY over);

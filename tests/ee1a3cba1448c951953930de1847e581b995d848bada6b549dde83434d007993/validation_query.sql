@@ -1,0 +1,1 @@
+SELECT type, name, tbl_name FROM sqlite_master WHERE name IN ('A','AFTS','A_DeleteTrigger','B','BFTS','B_DeleteTrigger') ORDER BY name

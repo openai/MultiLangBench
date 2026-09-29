@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT cc.id,cc.b_id,cc.myvalue FROM (SELECT a.id,a.b_id,a.myvalue FROM a,b WHERE a.b_id=b.id) AS cc LEFT OUTER JOIN b AS dd ON cc.b_id=dd.id;

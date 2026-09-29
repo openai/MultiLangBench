@@ -1,0 +1,1 @@
+INSERT INTO result SELECT cos(0);

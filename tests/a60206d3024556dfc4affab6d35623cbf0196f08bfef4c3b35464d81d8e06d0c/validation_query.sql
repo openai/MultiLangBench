@@ -1,0 +1,1 @@
+SELECT rowid, a, b, typeof(a), typeof(b) FROM trig ORDER BY rowid;

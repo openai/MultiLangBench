@@ -1,0 +1,1 @@
+SELECT x FROM t12 ORDER BY rowid

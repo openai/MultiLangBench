@@ -1,0 +1,1 @@
+SELECT 'table-column' AS kind, cid AS pos, name AS object_name, type AS detail FROM pragma_table_info('t2') UNION ALL SELECT 'index-column', seqno, 't2a', name FROM pragma_index_info('t2a') UNION ALL SELECT 'index-column', seqno, 't2b', name FROM pragma_index_info('t2b') UNION ALL SELECT 'index-column', seqno, 't2c', name FROM pragma_index_info('t2c') ORDER BY 1, 3, 2;

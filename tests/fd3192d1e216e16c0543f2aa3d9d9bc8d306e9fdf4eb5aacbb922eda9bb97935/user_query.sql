@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; INSERT INTO parent VALUES(1,2);

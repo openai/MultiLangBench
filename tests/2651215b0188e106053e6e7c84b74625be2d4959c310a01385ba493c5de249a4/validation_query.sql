@@ -1,0 +1,1 @@
+SELECT 'up' AS tab,c34,c35 FROM up UNION ALL SELECT 'down',c39,c38 FROM down ORDER BY 1

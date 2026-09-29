@@ -1,0 +1,1 @@
+SELECT quote(v) FROM result;

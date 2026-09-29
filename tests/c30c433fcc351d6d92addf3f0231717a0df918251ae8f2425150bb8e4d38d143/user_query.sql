@@ -1,0 +1,1 @@
+CREATE TABLE t1(a REAL); INSERT INTO t1(a) VALUES(123); CREATE INDEX t1x1 ON t1(likely(a)); CREATE TABLE result(seq INTEGER PRIMARY KEY, v TEXT); INSERT INTO result(seq,v) SELECT 1,typeof(likely(a)) FROM t1 NOT INDEXED; INSERT INTO result(seq,v) SELECT 2,typeof(likely(a)) FROM t1 INDEXED BY t1x1;

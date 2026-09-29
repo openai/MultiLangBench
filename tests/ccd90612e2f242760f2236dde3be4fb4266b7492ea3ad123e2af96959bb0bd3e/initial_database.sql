@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b,c); INSERT INTO t1 VALUES('w x','x y','y z'); CREATE VIRTUAL TABLE ft1 USING fts4(content=t1);

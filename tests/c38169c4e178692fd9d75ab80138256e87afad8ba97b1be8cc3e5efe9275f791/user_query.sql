@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT row_number() OVER win AS a,rank() OVER win AS b,dense_rank() OVER win AS c,ntile(2) OVER win AS d,first_value(d) OVER win AS e,last_value(d) OVER win AS f,nth_value(d,2) OVER win AS g,lead(d) OVER win AS h,lag(d) OVER win AS i,max(d) OVER win AS j,min(d) OVER win AS k FROM t1 WINDOW win AS (ORDER BY a);

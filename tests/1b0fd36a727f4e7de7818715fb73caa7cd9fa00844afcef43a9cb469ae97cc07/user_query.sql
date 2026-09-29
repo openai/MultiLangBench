@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(coalesce(datetime(38,'start of year'),'NULL'))

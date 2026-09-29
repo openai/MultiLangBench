@@ -1,0 +1,1 @@
+CREATE VIEW v4 AS SELECT * FROM t4; INSERT INTO t4 VALUES('def','xyz'); CREATE TABLE query_result AS SELECT * FROM v4 WHERE d='xyz' AND c='def';

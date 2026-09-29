@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(1,+'helloworld'),(2,+45),(3,+45.2),(4,+45.0),(5,+X'ABCDEF'),(6,+NULL);

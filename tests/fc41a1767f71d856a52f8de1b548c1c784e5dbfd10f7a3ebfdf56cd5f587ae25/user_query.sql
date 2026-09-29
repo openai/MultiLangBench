@@ -1,0 +1,1 @@
+CREATE TABLE c1(a, b, c, d); INSERT INTO c1(rowid,a,b,c,d) VALUES(1,NULL,1,NULL,NULL),(2,2,NULL,NULL,NULL),(3,2,2,NULL,NULL),(4,3,3,NULL,NULL),(101,'a','b',1,1),(102,'a','b',1,2),(103,'a','b',1,3),(104,'a','b',2,1),(105,'a','b',2,2),(106,'a','b',2,3),(107,'a','b',3,1),(108,'a','b',3,2),(109,'a','b',3,3);

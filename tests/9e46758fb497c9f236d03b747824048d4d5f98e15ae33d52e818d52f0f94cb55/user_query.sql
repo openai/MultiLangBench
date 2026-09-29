@@ -1,0 +1,1 @@
+INSERT INTO result SELECT ln(-5), log(-5,100.0);

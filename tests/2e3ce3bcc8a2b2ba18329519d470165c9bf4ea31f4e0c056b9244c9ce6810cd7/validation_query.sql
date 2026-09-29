@@ -1,0 +1,1 @@
+SELECT a,b,c,(SELECT integrity_check FROM pragma_integrity_check) FROM "abc abc";

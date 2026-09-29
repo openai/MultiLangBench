@@ -1,0 +1,1 @@
+SELECT count(*) AS total_rows, sum(a=500) AS rows_at_500, (SELECT count(*) FROM t4 INDEXED BY t4b1 WHERE date(b) BETWEEN '2017-06-01' AND '2017-08-31') AS indexed_rows, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='t4b1') AS index_count FROM t4;

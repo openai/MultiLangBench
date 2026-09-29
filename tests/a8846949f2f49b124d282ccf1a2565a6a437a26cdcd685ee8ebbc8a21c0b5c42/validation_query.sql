@@ -1,0 +1,1 @@
+SELECT fullkey,atom,separator FROM result ORDER BY rowid;

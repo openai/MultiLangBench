@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX b1a ON b1(a);

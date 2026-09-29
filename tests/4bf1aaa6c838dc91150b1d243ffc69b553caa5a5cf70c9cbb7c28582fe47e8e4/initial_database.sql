@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts3(x); INSERT INTO t1(rowid,x) VALUES(1,'a b c d'),(2,'e f g h'); CREATE TABLE source(a,b); INSERT INTO source VALUES(4,'z'),(2,'y');

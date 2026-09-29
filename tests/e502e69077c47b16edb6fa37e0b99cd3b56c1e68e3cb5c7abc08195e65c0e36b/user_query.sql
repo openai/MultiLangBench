@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT count(*) AS n FROM v0 WHERE NOT NOT (c1 >= c0);

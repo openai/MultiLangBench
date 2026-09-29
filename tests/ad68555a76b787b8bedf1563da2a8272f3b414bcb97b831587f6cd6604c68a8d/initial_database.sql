@@ -1,0 +1,1 @@
+CREATE TABLE linkA(aa1,aa2); INSERT INTO linkA(aa1,aa2) VALUES(1,3),(5,7),(9,11); CREATE TABLE linkB(bb1,bb2); INSERT INTO linkB(bb1,bb2) VALUES(7,9),(11,13),(3,5); CREATE TABLE linkC(cc1,cc2); INSERT INTO linkC(cc1,cc2) VALUES(1,2),(2,4),(6,8); CREATE TABLE linkD(dd1,dd2); INSERT INTO linkD(dd1,dd2) VALUES(4,6),(100,110);

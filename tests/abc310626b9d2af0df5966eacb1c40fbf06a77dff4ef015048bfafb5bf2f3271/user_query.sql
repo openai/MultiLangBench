@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT b=='2' AS is_equal, rank() OVER (ORDER BY a) AS rank_value FROM t1 ORDER BY a, rowid;

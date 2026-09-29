@@ -1,0 +1,1 @@
+ALTER TABLE t2x RENAME a TO aaaa;

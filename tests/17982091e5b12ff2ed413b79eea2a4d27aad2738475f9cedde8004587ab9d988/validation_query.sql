@@ -1,0 +1,1 @@
+SELECT k, v FROM t1 ORDER BY k, v

@@ -1,0 +1,1 @@
+SELECT count(*),sum(seq),sum(length(a)+length(b)+length(c)),min(a),max(b),max(CASE WHEN seq=1 THEN a END),max(CASE WHEN seq=5000 THEN b END),max(CASE WHEN seq=9999 THEN c END) FROM result;

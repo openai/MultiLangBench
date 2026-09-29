@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t4 USING fts4(x,y); INSERT INTO t4 VALUES('a b c d e','f g h i j'); INSERT INTO t4 VALUES('f g h i j','a b c d e');

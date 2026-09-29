@@ -1,0 +1,1 @@
+[["table","rr","rr","CREATE TABLE rr(a, b)"],["trigger","tr1","rr","CREATE TRIGGER tr1 AFTER INSERT ON rr BEGIN\n  INSERT INTO vv VALUES(new.a, new.b);\nEND"],["view","vv","vv","CREATE VIEW vv AS SELECT * FROM rr"],["trigger","vv1","vv","CREATE TRIGGER vv1 INSTEAD OF INSERT ON vv BEGIN\n  SELECT 1, 2, 3;\nEND"]]

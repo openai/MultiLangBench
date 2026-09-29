@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM sqlite_schema WHERE type='table' AND name='t3') AS t3_exists, (SELECT group_concat(CAST(a AS TEXT)||','||CAST(b AS TEXT), '|') FROM (SELECT a, b FROM t3 ORDER BY rowid)) AS t3_rows;

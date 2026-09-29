@@ -1,0 +1,1 @@
+CREATE TABLE observed AS SELECT * FROM pragma_index_list('t1');

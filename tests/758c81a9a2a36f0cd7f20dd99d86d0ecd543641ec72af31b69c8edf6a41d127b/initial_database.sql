@@ -1,0 +1,1 @@
+CREATE TABLE collate3t1(a COLLATE BINARY); PRAGMA writable_schema=ON; UPDATE sqlite_schema SET sql='CREATE TABLE collate3t1(a COLLATE unk)' WHERE type='table' AND name='collate3t1'; PRAGMA writable_schema=OFF;

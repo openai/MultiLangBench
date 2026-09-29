@@ -1,0 +1,1 @@
+PRAGMA vdbe_trace=0; CREATE TABLE result AS SELECT (CASE WHEN a=0 THEN 0 ELSE (a+25)/50 END) AS categ, count(*) AS n FROM t3 GROUP BY categ;

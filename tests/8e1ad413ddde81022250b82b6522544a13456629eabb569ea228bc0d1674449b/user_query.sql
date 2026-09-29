@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result(seq INTEGER PRIMARY KEY, a, b, c, d, marker); INSERT INTO sfi_result(a,b,c,d,marker) SELECT a,b,c,d,'|' FROM t1 WHERE b IN (234,345) AND c BETWEEN 6 AND 7 ORDER BY a,b;

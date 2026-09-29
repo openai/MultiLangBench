@@ -1,0 +1,1 @@
+SELECT 'parameters1' AS table_name, mountcnt, version, typeof(mountcnt) AS mount_type, typeof(version) AS version_type FROM parameters1 UNION ALL SELECT 'parameters2', mountcnt, version, typeof(mountcnt), typeof(version) FROM parameters2 ORDER BY table_name;

@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT sum(a) FILTER (WHERE a>9) AS s9, sum(a) FILTER (WHERE a>8) AS s8, sum(a) FILTER (WHERE a>7) AS s7, sum(a) FILTER (WHERE a>6) AS s6, sum(a) FILTER (WHERE a>5) AS s5, sum(a) FILTER (WHERE a>4) AS s4, sum(a) FILTER (WHERE a>3) AS s3, sum(a) FILTER (WHERE a>2) AS s2, sum(a) FILTER (WHERE a>1) AS s1, sum(a) FILTER (WHERE a>0) AS s0 FROM t1;

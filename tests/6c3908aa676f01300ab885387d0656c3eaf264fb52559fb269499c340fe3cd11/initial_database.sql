@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE x3 USING fts4(a,b,TOKENIZE simple);

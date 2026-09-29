@@ -1,0 +1,1 @@
+CREATE TABLE t2(a, b, c, PRIMARY KEY(a, b)) WITHOUT ROWID;

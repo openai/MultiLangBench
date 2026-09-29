@@ -1,0 +1,1 @@
+SELECT type, name, tbl_name, sql FROM sqlite_master WHERE tbl_name='ft8' OR tbl_name GLOB 'ft8_*' ORDER BY type, name;

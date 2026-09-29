@@ -1,0 +1,1 @@
+SELECT count(*) AS n, min(rid) AS lo, max(rid) AS hi, sum(rid) AS total, count(DISTINCT rid) AS distinct_n, sum(rid*rid) AS square_total FROM result;

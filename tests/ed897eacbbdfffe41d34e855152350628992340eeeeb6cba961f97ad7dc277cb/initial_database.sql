@@ -1,0 +1,1 @@
+/* jrnlmode-5.20 */ PRAGMA page_size=1024; CREATE TABLE t1(a,b,c); INSERT INTO t1 VALUES(zeroblob(1000),zeroblob(1000),zeroblob(1000)),(zeroblob(1000),zeroblob(1000),zeroblob(1000)); CREATE TABLE result(v INTEGER);

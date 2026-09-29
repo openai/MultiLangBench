@@ -1,0 +1,1 @@
+PRAGMA secure_delete=0; DELETE FROM t1 WHERE rowid=1;

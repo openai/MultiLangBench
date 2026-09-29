@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT abs(max(b) OVER (ORDER BY b)) AS x FROM ttt GROUP BY b;

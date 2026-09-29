@@ -1,0 +1,1 @@
+SELECT type, name, tbl_name, rootpage, sql FROM sqlite_schema WHERE type='trigger' ORDER BY name;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT x FROM t11 WHERE x MATCH 'rename*'

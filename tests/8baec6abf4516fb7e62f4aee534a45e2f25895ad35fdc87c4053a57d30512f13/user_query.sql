@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a||c, max(b+1) FROM t1 WHERE a='c';

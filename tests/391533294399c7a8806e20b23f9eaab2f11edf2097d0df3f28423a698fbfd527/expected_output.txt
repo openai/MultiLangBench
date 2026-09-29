@@ -1,0 +1,1 @@
+[["table","t1","t1","CREATE TABLE t1(x, y)"],["table","t2","t2","CREATE TABLE t2(a, b)"],["trigger","tr1","t1","CREATE TRIGGER tr1 AFTER INSERT ON t1 BEGIN\n  SELECT t1.x, * FROM t1, t2;\n  INSERT INTO t2 VALUES(new.x, new.y);\nEND"]]

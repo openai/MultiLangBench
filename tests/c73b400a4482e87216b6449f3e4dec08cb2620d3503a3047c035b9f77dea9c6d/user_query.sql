@@ -1,0 +1,1 @@
+INSERT INTO result(a,b,x,y,marker) SELECT t1.a,t1.b,t2.x,t2.y,'|' FROM t1, t2 WHERE a=234 AND x=555;

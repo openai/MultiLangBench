@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(coalesce(date('2003-10-22','weekday 3'),'NULL'))

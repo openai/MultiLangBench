@@ -1,0 +1,1 @@
+[["A","table","CREATE TABLE A(Id INTEGER, Name TEXT)"]]

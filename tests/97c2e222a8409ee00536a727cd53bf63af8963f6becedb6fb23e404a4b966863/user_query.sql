@@ -1,0 +1,1 @@
+/* check-6.4 */ INSERT OR IGNORE INTO t1 VALUES(2,20.0);

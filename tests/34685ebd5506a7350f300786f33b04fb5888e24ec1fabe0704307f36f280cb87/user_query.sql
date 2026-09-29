@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(3,'A' LIKE 'a' ESCAPE 'x'),(4,'A' LIKE 'a' ESCAPE 'æ');

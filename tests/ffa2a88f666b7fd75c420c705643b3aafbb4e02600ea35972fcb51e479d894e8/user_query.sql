@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM j1 WHERE NOT json_valid(x);

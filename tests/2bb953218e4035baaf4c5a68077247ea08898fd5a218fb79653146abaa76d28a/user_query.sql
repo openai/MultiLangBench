@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT coalesce(min(x),-1) AS v FROM t6;

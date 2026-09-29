@@ -1,0 +1,1 @@
+SELECT 'names' AS source, id AS k, data, code FROM names UNION ALL SELECT 'orig' AS source, rowid AS k, data, code FROM orig ORDER BY source, k;

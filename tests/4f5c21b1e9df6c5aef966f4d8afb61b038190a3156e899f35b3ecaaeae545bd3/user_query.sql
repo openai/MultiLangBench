@@ -1,0 +1,1 @@
+CREATE INDEX t1ba ON t1(b,substr(a,2,3),c); CREATE TABLE sfi_result AS SELECT c FROM t1 WHERE b=1 AND substr(a,2,3)='nd_' ORDER BY c;

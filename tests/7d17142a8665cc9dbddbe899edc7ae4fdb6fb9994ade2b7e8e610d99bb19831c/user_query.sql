@@ -1,0 +1,1 @@
+CREATE TEMP TABLE temp1(a,b,c); INSERT INTO observed SELECT count(*) FROM temp.sqlite_master WHERE sql GLOB '*TEMP*';

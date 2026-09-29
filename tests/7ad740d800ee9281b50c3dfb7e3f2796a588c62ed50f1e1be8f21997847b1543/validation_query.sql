@@ -1,0 +1,1 @@
+SELECT count(*) FROM t0 WHERE t0 MATCH 'abc'

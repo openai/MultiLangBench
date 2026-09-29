@@ -1,0 +1,1 @@
+SELECT c38,c39 FROM down

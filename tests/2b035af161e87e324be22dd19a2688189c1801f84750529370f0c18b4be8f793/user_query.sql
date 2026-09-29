@@ -1,0 +1,1 @@
+CREATE TABLE trial(col_main); CREATE TEMP TABLE trial(col_temp); CREATE TABLE result AS SELECT cid,name,type,[notnull],dflt_value,pk FROM pragma_table_info('trial','main') ORDER BY cid;

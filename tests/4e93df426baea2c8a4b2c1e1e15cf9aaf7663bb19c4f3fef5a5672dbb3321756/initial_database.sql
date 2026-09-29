@@ -1,0 +1,4 @@
+CREATE VIRTUAL TABLE xx USING fts3(x);
+INSERT INTO xx VALUES('A x x x B C x x');
+INSERT INTO xx VALUES('A B C x B x x C');
+INSERT INTO xx VALUES('A x x B C x x x');

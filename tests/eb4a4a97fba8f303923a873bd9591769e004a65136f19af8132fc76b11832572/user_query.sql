@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT sum(min(t)) OVER () AS v FROM t8;

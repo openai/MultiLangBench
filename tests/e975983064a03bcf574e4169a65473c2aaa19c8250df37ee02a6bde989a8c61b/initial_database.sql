@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b); INSERT INTO t1 VALUES('name1','This is a test'); INSERT INTO t1 VALUES('name2','xyz'); CREATE TABLE t2(x,y); INSERT INTO t2 VALUES('stale','stale');

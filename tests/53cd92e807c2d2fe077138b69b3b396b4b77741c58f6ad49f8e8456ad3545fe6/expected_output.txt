@@ -1,0 +1,1 @@
+[["b","BINARY",1],["a","nocase",1],["c","BINARY",0]]

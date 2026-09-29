@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT zeroblob(10) LIKE 'abc' AS v;

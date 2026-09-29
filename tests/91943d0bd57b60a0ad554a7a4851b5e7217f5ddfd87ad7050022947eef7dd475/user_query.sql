@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT json_replace('{"a":1,"b":2}','$.a',json('[3,4,5]')) AS v;

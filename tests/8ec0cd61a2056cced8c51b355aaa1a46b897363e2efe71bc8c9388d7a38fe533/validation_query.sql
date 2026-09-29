@@ -1,0 +1,1 @@
+SELECT docid FROM t3 ORDER BY docid

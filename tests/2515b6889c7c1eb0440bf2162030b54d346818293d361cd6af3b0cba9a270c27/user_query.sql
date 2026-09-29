@@ -1,0 +1,1 @@
+INSERT INTO result(x) SELECT CAST('' AS BLOB)=X'01';

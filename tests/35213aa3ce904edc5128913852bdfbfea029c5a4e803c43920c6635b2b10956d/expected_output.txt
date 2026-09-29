@@ -1,0 +1,1 @@
+[[1,"null","text","integer",null,10,4],[2,"text","integer","null",500,4,null],[3,"integer","null","text",4,null,500000]]

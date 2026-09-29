@@ -1,0 +1,1 @@
+[["table","x","x","CREATE TABLE x(f1 integer NOT NULL)"],["view","y","y","CREATE VIEW y AS SELECT f1 AS f1 FROM x"],["trigger","t","y","CREATE TRIGGER t INSTEAD OF UPDATE OF f1 ON y BEGIN UPDATE x SET f1 = NEW.f1; END"],["table","z2","z2","CREATE TABLE \"z2\"(f1 integer NOT NULL PRIMARY KEY)"]]

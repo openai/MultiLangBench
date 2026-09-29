@@ -1,0 +1,6 @@
+CREATE TABLE t1(id INTEGER, value TEXT);
+CREATE TABLE t2(ctx INTEGER, id INTEGER, value TEXT);
+INSERT INTO t1 VALUES(1,'try');
+INSERT INTO t2 VALUES(1,1,'good');
+INSERT INTO t2 VALUES(2,2,'evil');
+CREATE TABLE sfi_result(t2_ctx INTEGER, t2_id INTEGER, t2_value TEXT, t1_id INTEGER, t1_value TEXT);

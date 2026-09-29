@@ -1,0 +1,1 @@
+SELECT a,b FROM t3_re ORDER BY rowid

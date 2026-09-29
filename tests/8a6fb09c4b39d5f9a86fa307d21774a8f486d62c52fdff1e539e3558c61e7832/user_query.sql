@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(coalesce(datetime(0,'+176545 months'),'NULL'))

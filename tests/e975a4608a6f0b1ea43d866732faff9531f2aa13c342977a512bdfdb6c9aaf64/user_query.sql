@@ -1,0 +1,1 @@
+CREATE TABLE tap_result AS WITH lens(i,n) AS (VALUES(1,1),(2,3),(3,6)), actual AS (SELECT 1 i,term,docid,col,pos FROM t1_stat JOIN fts4aux(t1) ON 0 UNION ALL SELECT 1,NULL,NULL,NULL,NULL WHERE 0), dummy(x) AS (SELECT 1) SELECT (SELECT count(*) FROM t1 WHERE t1 MATCH 's*') AS sample_match;

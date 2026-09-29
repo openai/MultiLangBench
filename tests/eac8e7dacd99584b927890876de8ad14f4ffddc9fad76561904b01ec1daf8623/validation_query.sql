@@ -1,0 +1,1 @@
+SELECT c0, c1, (SELECT * FROM pragma_integrity_check LIMIT 1) AS integrity FROM t0 ORDER BY t0.c1;

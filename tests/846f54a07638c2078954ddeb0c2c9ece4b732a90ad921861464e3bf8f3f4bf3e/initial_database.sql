@@ -1,0 +1,1 @@
+CREATE TABLE t1(a, b, c); CREATE TABLE done(v); INSERT INTO done VALUES(0);

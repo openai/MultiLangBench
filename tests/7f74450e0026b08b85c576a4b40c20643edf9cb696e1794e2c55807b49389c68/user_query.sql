@@ -1,0 +1,1 @@
+CREATE TABLE test1(f1 int); EXPLAIN DROP TABLE test1;

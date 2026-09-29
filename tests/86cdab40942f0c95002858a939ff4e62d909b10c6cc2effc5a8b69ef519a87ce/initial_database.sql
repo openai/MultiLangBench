@@ -1,0 +1,2 @@
+-- memdb-6.11
+CREATE TABLE t5(x PRIMARY KEY,y UNIQUE);

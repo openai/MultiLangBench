@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; BEGIN; DROP TABLE p; CREATE TABLE p(a,b,PRIMARY KEY(a,b)); INSERT INTO p VALUES('a','b'); COMMIT;

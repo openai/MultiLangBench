@@ -1,0 +1,1 @@
+INSERT INTO result(docid,o) SELECT rowid,offsets(t3) FROM t3 WHERE t3 MATCH 'l*';

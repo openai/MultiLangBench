@@ -1,0 +1,1 @@
+CREATE INDEX manycol_idx1 ON manycol(x99); CREATE TABLE result AS SELECT x50 FROM manycol WHERE x99=899;

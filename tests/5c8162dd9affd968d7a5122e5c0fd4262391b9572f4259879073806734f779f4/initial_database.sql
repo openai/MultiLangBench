@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,PRIMARY KEY(a,b DESC)) WITHOUT ROWID; WITH RECURSIVE cte(x) AS (VALUES(1) UNION ALL SELECT x+1 FROM cte WHERE x<100) INSERT INTO t1(a,b,c,d) SELECT x%10,x/10,x,printf('xyz%dabc',x) FROM cte;

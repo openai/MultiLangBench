@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT id FROM t12nc WHERE x LIKE 'abc%' COLLATE binary ORDER BY +id;

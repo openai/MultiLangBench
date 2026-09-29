@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a,b,c FROM t1 UNION SELECT d,e,f FROM t1 ORDER BY b,c;

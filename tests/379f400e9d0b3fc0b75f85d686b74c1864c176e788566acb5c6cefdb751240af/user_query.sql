@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES(4,'jambalaya','Chef John'),(15,87719874135,0);

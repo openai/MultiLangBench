@@ -1,0 +1,1 @@
+INSERT INTO docs VALUES('"which is for Solomon," meaning that')

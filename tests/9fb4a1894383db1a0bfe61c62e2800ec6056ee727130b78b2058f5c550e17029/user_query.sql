@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT (- -21) % NOT (456 LIKE zeroblob(10)) AS v;

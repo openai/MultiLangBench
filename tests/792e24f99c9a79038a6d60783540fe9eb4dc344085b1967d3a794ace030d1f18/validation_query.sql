@@ -1,0 +1,1 @@
+SELECT x, values_concat FROM result ORDER BY rowid;

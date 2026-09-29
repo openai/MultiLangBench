@@ -1,0 +1,1 @@
+ALTER TABLE mytable RENAME TO mytable_renamed;

@@ -1,0 +1,1 @@
+SELECT a,b,(SELECT count(*) FROM sqlite_master WHERE type='trigger' AND name='tr12') FROM t12;

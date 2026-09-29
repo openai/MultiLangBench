@@ -1,0 +1,1 @@
+CREATE VIEW vv AS SELECT sum(a) FILTER (WHERE a>9), sum(a) FILTER (WHERE a>8), sum(a) FILTER (WHERE a>7), sum(a) FILTER (WHERE a>6), sum(a) FILTER (WHERE a>5), sum(a) FILTER (WHERE a>4), sum(a) FILTER (WHERE a>3), sum(a) FILTER (WHERE a>2), sum(a) FILTER (WHERE a>1), sum(a) FILTER (WHERE a>0) FROM t1; CREATE TABLE sfi_result AS SELECT * FROM vv;

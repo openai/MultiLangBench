@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES('test value 1',NULL,'''test value 2''');

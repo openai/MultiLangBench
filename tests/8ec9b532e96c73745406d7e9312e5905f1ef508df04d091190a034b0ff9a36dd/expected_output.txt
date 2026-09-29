@@ -1,0 +1,1 @@
+[["table","rr","rr","CREATE TABLE rr(a, b)"],["view","vv","vv","CREATE VIEW vv AS SELECT * FROM (\n  WITH abc(d, e) AS (SELECT * FROM rr)\n  SELECT * FROM abc\n)"]]

@@ -1,0 +1,1 @@
+INSERT INTO a1 SELECT min(b), min(a) FROM a1

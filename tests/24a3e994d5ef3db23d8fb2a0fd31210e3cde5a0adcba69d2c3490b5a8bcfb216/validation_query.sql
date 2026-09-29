@@ -1,0 +1,1 @@
+SELECT lang_id FROM result ORDER BY rowid

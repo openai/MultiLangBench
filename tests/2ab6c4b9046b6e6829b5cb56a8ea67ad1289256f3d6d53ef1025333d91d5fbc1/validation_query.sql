@@ -1,0 +1,1 @@
+SELECT count(*) FROM wherea_result;

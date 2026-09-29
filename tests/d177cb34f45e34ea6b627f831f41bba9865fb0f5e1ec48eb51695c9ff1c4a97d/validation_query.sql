@@ -1,0 +1,1 @@
+SELECT a,b,c FROM tbl ORDER BY c,a,b

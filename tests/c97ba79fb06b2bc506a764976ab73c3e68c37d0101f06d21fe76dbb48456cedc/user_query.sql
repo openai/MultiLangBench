@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a||':'||b AS v FROM t7 JOIN t8 USING(docid)

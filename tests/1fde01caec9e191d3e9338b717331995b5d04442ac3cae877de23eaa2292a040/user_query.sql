@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT count(*) AS n FROM (SELECT 99 AS m FROM t2 JOIN v0 ON z<>'' RIGHT JOIN t1 ON z<>'' ORDER BY z) AS t3;

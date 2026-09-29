@@ -1,0 +1,1 @@
+SELECT sql,type,object,db,tbl,icol,znew,bquote FROM ddd ORDER BY rowid

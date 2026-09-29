@@ -1,0 +1,1 @@
+SELECT 't1' AS src,a AS x,b AS y FROM t1 UNION ALL SELECT 't2',c,d FROM t2 UNION ALL SELECT 'dual',dummy,NULL FROM dual ORDER BY 1,2,3

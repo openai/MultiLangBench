@@ -1,0 +1,1 @@
+SELECT * FROM recursive ORDER BY recursive ASC

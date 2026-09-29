@@ -1,0 +1,1 @@
+CREATE TABLE t3(a TEXT PRIMARY KEY);INSERT INTO t3 VALUES('a'),('b'),('c'),('d'),('e'),('f'),('g'),('h'),('i'),('j');

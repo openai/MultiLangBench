@@ -1,0 +1,1 @@
+SELECT child_table, child_rowid, parent, fkid FROM result ORDER BY child_table, child_rowid, parent, fkid

@@ -1,0 +1,1 @@
+SELECT id,seq,quote(v) FROM r ORDER BY id,seq

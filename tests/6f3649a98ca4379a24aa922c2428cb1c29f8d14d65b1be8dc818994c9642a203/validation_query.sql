@@ -1,0 +1,1 @@
+SELECT p.page_size, (SELECT count(*) FROM t1) AS rows, i.integrity_check FROM pragma_page_size AS p, pragma_integrity_check AS i;

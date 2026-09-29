@@ -1,0 +1,1 @@
+SELECT ((SELECT rootpage FROM sqlite_schema WHERE name='t4')=(SELECT rootpage FROM sqlite_schema WHERE name='t5')) AS shared_root, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name IN('t4i','t5i')) AS index_count;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT docid FROM docs WHERE docs MATCH 'sqlite AND database' UNION SELECT docid FROM docs WHERE docs MATCH 'library'

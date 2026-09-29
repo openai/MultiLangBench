@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(coalesce(date(NULL),'NULL'))

@@ -1,0 +1,1 @@
+[["index","t1c1","CREATE INDEX t1c1 ON t1(c1)"],["index","t1c1unique","CREATE UNIQUE INDEX t1c1unique ON t1(c2)"],["table","t1","CREATE TABLE t1 (\n  c1 PRIMARY KEY,\n  c2 NUMERIC,\n  FOREIGN KEY(c1) REFERENCES t1(c2)\n) WITHOUT ROWID"]]

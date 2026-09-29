@@ -1,0 +1,1 @@
+CREATE TABLE test1(one int, two int, three int);

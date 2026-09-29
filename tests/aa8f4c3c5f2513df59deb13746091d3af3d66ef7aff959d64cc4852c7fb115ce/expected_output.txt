@@ -1,0 +1,1 @@
+[["index","i1","log_entry","CREATE INDEX i1 ON log_entry(col1)"],["table","log_entry","log_entry","CREATE TABLE log_entry(col1, y)"]]

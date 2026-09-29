@@ -1,0 +1,1 @@
+SELECT id FROM tx ORDER BY rowid;

@@ -1,0 +1,1 @@
+SELECT rowid, content FROM t3 ORDER BY rowid;

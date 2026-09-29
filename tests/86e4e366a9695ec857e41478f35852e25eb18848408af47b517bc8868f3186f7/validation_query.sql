@@ -1,0 +1,1 @@
+SELECT * FROM rename ORDER BY rename ASC

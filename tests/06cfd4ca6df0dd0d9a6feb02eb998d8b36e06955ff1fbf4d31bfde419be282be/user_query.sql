@@ -1,0 +1,1 @@
+UPDATE t1 SET c=1 WHERE (a,b)=('c','c');

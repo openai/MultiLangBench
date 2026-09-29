@@ -1,0 +1,1 @@
+BEGIN; INSERT INTO tbl1 VALUES(replace(hex(zeroblob(110)),'00','abcdefghij')); INSERT INTO tbl1 SELECT * FROM tbl1; DELETE FROM tbl1 WHERE rowid%2; COMMIT;

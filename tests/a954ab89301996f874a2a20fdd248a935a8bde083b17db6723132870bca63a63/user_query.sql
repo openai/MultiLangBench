@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT length(t1) AS x FROM tbl1 ORDER BY t1;

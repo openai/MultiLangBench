@@ -1,0 +1,1 @@
+SELECT group_concat(x,'|') FROM (SELECT printf('%d=%s',rowid,a) AS x FROM t2 ORDER BY rowid);

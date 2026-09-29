@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(i, ',') FROM (SELECT i FROM t1 ORDER BY i)) AS remaining, (SELECT group_concat(integrity_check, '|') FROM pragma_integrity_check) AS integrity_result;

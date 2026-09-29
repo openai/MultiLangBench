@@ -1,0 +1,1 @@
+CREATE TABLE t11(a INTEGER PRIMARY KEY,b TEXT COLLATE nocase,c TEXT COLLATE binary); INSERT INTO t11 VALUES(1,'a','a'),(2,'ab','ab'),(3,'abc','abc'),(4,'abcd','abcd'),(5,'A','A'),(6,'AB','AB'),(7,'ABC','ABC'),(8,'ABCD','ABCD'),(9,'x','x'),(10,'yz','yz'),(11,'X','X'),(12,'YZ','YZ');

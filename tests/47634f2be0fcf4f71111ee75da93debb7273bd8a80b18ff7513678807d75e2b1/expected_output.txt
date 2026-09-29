@@ -1,0 +1,1 @@
+[["mytable_renamed","mytable_renamed","CREATE TABLE \"mytable_renamed\"(fid INTEGER PRIMARY KEY, geom BLOB)"],["tr1","mytable_renamed","CREATE TRIGGER tr1 AFTER UPDATE OF geom ON \"mytable_renamed\" WHEN OLD.fid = NEW.fid AND NEW.geom IS NULL BEGIN DELETE FROM rt WHERE id = OLD.fid; END"]]

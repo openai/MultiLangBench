@@ -1,0 +1,1 @@
+SELECT name, type, sql FROM sqlite_schema WHERE name='t2';

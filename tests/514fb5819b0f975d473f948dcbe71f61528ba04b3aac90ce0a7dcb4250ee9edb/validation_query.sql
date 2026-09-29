@@ -1,0 +1,1 @@
+SELECT o, n FROM clog ORDER BY rowid;

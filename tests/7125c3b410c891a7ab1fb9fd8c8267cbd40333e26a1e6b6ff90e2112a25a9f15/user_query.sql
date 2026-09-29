@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT count(*), substr(m,2,1) AS mx FROM t5 GROUP BY substr(m,2,1) ORDER BY 1, 2;

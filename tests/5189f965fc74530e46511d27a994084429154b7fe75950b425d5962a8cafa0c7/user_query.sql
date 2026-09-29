@@ -1,0 +1,1 @@
+CREATE TABLE observed AS SELECT count(*) AS n FROM log;

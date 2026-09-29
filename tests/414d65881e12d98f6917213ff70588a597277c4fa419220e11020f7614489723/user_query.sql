@@ -1,0 +1,1 @@
+ATTACH ':memory:' AS aux; CREATE TABLE aux.tbl(a,b,c); BEGIN; DROP TABLE aux.tbl; DROP TABLE main.tbl; ROLLBACK; INSERT INTO main.evidence SELECT 'main',name FROM main.sqlite_master WHERE type='table' AND name='tbl'; INSERT INTO main.evidence SELECT 'aux',name FROM aux.sqlite_master WHERE type='table' AND name='tbl';

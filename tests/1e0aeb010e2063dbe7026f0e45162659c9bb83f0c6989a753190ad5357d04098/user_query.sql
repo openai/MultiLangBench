@@ -1,0 +1,1 @@
+CREATE TABLE test1(cnt int, power int); INSERT INTO test1 VALUES(2,4),(6,64),(10,1024);

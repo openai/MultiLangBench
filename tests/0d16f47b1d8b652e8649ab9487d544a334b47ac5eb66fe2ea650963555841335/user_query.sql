@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT instr('abcdefg','efg');

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rowid,sum(a) OVER (PARTITION BY b IN (SELECT rowid FROM t7)) FROM t7;

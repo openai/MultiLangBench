@@ -1,0 +1,1 @@
+CREATE TABLE capture(n,has_db12);

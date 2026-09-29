@@ -1,0 +1,2 @@
+INSERT INTO tbl VALUES('a', 'b');
+DELETE FROM tbl;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT count(distinct a) FILTER (WHERE b='odd') AS n FROM t1;

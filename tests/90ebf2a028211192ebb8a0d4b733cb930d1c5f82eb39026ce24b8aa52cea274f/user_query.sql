@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT ifnull(substr('abcdefg', 1, NULL), 'nil');

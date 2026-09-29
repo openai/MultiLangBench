@@ -1,0 +1,1 @@
+CREATE TABLE t1(a INT); INSERT INTO t1 VALUES(10),(15),(20),(20),(25),(30),(30),(50); CREATE TABLE t3(x INT, y VARCHAR); INSERT INTO t3(x,y) VALUES(10,'ten'),('15','fifteen'),(30,'thirty');

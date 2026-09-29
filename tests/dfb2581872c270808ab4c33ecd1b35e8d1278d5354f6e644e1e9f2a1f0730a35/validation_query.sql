@@ -1,0 +1,1 @@
+SELECT name,type FROM sqlite_master WHERE name IN ('t3','ft3','ft3_segments','ft3_segdir','ft3_docsize','ft3_stat') ORDER BY name

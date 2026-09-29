@@ -1,0 +1,1 @@
+CREATE TABLE result AS WITH flat(fid,depth,p) AS (SELECT id,1,'/'||payload FROM tree WHERE parentid IS NULL UNION ALL SELECT id,depth+1,p||'/'||payload FROM flat,tree WHERE parentid=fid ORDER BY 2,3 COLLATE nocase) SELECT p FROM flat;

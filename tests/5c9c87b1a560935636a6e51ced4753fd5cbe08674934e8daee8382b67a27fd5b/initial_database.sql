@@ -1,0 +1,1 @@
+CREATE TABLE t1(old_value); INSERT INTO t1 VALUES(99);

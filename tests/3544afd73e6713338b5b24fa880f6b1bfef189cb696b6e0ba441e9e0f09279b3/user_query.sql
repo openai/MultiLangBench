@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(coalesce(datetime('2005-09-01','+0 hours'),'NULL'))

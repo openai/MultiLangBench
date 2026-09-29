@@ -1,0 +1,1 @@
+SELECT 'x3' AS tbl, rowid, x3.* FROM x3 UNION ALL SELECT 'x4', rowid, x4.* FROM x4 ORDER BY tbl, rowid

@@ -1,0 +1,1 @@
+CREATE TABLE t1(a INTEGER PRIMARY KEY, b TEXT COLLATE BINARY, c TEXT COLLATE RTRIM); INSERT INTO t1 VALUES(1,'abcde','abcde'),(2,'xyzzy ','xyzzy '),(3,'xyzzy  ','xyzzy  '),(4,'xyzzy   ','xyzzy   '),(5,'   ','   '),(6,'',''); CREATE INDEX i1b ON t1(b); CREATE INDEX i1c ON t1(c); CREATE TABLE result(a INTEGER);

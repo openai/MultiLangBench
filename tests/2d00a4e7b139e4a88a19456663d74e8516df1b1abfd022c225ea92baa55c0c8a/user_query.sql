@@ -1,0 +1,2 @@
+CREATE INDEX i1 ON t1(c);
+CREATE TABLE query_result AS SELECT count(*) AS cnt FROM t1 WHERE c IS NOT NULL;

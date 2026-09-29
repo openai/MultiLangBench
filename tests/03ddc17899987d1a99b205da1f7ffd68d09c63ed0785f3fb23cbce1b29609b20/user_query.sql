@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES (3, 'v1'), (4, 'v2');

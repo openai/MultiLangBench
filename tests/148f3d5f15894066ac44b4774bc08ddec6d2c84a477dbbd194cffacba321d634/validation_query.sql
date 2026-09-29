@@ -1,0 +1,1 @@
+SELECT (SELECT json_group_array(json_array(a,b,c)) FROM (SELECT a,b,c FROM t1 ORDER BY a)),(SELECT json_group_array(json_array(d,e)) FROM (SELECT d,e FROM t2 ORDER BY d)),(SELECT count(*) FROM t3);

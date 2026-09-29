@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='') AS empty_index_count, (SELECT count(*) FROM t2 WHERE x=2) AS matching_rows;

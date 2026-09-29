@@ -1,0 +1,1 @@
+SELECT group_concat(name, ',') FROM (SELECT name FROM sqlite_schema WHERE name IN ('t1','i1','ft','bt') ORDER BY name);

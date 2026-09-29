@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT sum(a) OVER (ORDER BY a) FROM t1 ORDER BY (SELECT sum(y) FROM t2);

@@ -1,0 +1,1 @@
+BEGIN; UPDATE t1 SET a=replace(hex(zeroblob(10)),'00','q') WHERE (rowid%4)=0; SAVEPOINT one; DELETE FROM t1 WHERE rowid%2; PRAGMA incremental_vacuum; SAVEPOINT two; INSERT INTO t1 SELECT replace(hex(zeroblob(400)),'00','m'),replace(hex(zeroblob(400)),'00','n'),c FROM t1; DELETE FROM t1 WHERE rowid%2; PRAGMA incremental_vacuum; ROLLBACK TO one; COMMIT;

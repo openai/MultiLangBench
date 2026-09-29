@@ -1,0 +1,1 @@
+UPDATE t3 SET c21='b21';

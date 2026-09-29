@@ -1,0 +1,1 @@
+CREATE TABLE result(v); CREATE TABLE t7n(a UNIQUE); INSERT INTO t7n VALUES('b'),('c'),('d'),(NULL);

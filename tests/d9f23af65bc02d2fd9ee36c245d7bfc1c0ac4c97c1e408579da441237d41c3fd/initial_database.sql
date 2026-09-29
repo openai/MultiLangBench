@@ -1,0 +1,1 @@
+CREATE TABLE t1(x,y); INSERT INTO t1 VALUES(1,1),(2,2),(3,2),(4,3),(5,3),(6,3),(7,3),(8,4),(9,4),(10,4),(11,4),(12,4),(13,4),(14,4),(15,4),(16,5),(17,5),(18,5),(19,5),(20,5); CREATE TABLE t7(a,b,c); INSERT INTO t7 SELECT y,x,x*y FROM t1; INSERT INTO t7 SELECT y,x,x*y+1000 FROM t1; CREATE INDEX t7i1 ON t7(a,b,c);

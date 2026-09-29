@@ -1,0 +1,1 @@
+SELECT t1_id, t1_desc, t2_id, t2_id_t1, t2_desc FROM query_result ORDER BY t1_id, t2_id;

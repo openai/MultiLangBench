@@ -1,0 +1,1 @@
+SELECT * FROM t4 WHERE t4 MATCH 'b' ORDER BY rowid;

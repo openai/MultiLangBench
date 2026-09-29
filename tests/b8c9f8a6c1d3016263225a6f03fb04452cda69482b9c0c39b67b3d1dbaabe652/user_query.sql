@@ -1,0 +1,1 @@
+UPDATE dup1 SET a=7,b=8,c=9,a=10,b=11,c=12;

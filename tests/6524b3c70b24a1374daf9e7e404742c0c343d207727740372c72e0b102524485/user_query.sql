@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT SUBSTR('ሴ', 1, 2);

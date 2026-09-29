@@ -1,0 +1,1 @@
+[["c1","CREATE TABLE c1(x REFERENCES \"p2\")"],["c2","CREATE TABLE c2(x, FOREIGN KEY (x) REFERENCES \"p2\")"],["c3","CREATE TABLE c3(x, FOREIGN KEY (x) REFERENCES \"p2\"(a))"]]

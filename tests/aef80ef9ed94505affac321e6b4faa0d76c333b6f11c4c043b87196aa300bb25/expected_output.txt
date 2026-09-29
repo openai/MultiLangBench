@@ -1,0 +1,1 @@
+[["view","new view","new view",0,"CREATE VIEW \"new view\" AS SELECT * FROM t1 AS x, t1 AS y"]]

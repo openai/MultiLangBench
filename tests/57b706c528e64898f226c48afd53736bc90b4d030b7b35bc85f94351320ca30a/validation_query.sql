@@ -1,0 +1,1 @@
+SELECT c.t1_count, c.t1_min, c.t1_max, c.t1_sql, t2.x, (SELECT sql FROM sqlite_schema WHERE type='table' AND name='t2') AS t2_sql, (SELECT count(*) FROM t3) AS t3_rows, (SELECT sql FROM sqlite_schema WHERE type='table' AND name='t3') AS t3_sql, (SELECT count(*) FROM sqlite_schema WHERE type='table' AND name='t1') AS main_t1_tables FROM sfi_capture AS c JOIN t2 ORDER BY t2.x;

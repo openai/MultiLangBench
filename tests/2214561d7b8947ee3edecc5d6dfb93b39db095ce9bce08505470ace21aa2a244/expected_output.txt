@@ -1,0 +1,1 @@
+[["index","people_idx1","people",0],["index","sqlite_autoindex_people_1","people",1],["table","people","people",0]]

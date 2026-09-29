@@ -1,0 +1,4 @@
+CREATE TABLE sfi_result AS
+SELECT * FROM t1, t2 WHERE
+  (a='A' AND d='E') OR
+  (b='B' AND c IN (SELECT 'B' UNION SELECT 'C' UNION SELECT 'D'));

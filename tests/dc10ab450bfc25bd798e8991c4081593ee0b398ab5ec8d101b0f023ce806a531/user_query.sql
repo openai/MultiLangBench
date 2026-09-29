@@ -1,0 +1,1 @@
+BEGIN; CREATE TABLE xyzzy(abc); INSERT INTO t1 VALUES(5); ROLLBACK; CREATE TABLE rollback_completed(flag INTEGER); INSERT INTO rollback_completed VALUES(1);

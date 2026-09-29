@@ -1,0 +1,1 @@
+SELECT count(*), min(a), max(a), sum(a), sum(b), sum(b=((a*a*31+a*104729+54321)%500000)), sum(c=('number-' || ((a*a*31+a*104729+54321)%500000))), (SELECT count(*) FROM t1), (SELECT count(*) FROM sqlite_master WHERE type='index' AND tbl_name='t2') FROM t2;

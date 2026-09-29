@@ -1,0 +1,1 @@
+SELECT count(*),sum(x),sum(y),sum(z) FROM t2;

@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT count(*),count(a),count(b) FROM t3;

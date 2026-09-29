@@ -1,0 +1,1 @@
+SELECT 'main' AS tab,id FROM "main" UNION ALL SELECT 'sub',id FROM sub ORDER BY 1,2

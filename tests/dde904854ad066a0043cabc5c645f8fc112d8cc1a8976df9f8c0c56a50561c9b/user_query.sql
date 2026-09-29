@@ -1,0 +1,1 @@
+PRAGMA writable_schema=on; INSERT INTO sqlite_stat1 VALUES(NULL,NULL,NULL); PRAGMA writable_schema=off;

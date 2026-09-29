@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT * FROM (SELECT count(*) AS y FROM t4), t5 USING (y);

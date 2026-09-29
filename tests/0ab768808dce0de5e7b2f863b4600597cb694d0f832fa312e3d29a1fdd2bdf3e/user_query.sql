@@ -1,0 +1,1 @@
+UPDATE t4 SET rowid=rowid+100 WHERE y IS NULL;

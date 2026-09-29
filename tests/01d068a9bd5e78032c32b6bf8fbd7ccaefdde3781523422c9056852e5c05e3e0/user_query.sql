@@ -1,0 +1,1 @@
+UPDATE t2 SET c='two' WHERE a=2; UPDATE t2 SET d=9 WHERE a=2;

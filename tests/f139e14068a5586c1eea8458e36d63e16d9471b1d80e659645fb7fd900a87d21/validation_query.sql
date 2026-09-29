@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(a||':'||b,'|') FROM (SELECT a,b FROM t1 ORDER BY rowid)), (SELECT group_concat(a||':'||b,'|') FROM (SELECT a,b FROM t2 ORDER BY rowid)), (SELECT group_concat(tbl||':'||coalesce(idx,'NULL')||':'||stat,'|') FROM (SELECT tbl,idx,stat FROM sqlite_stat1 ORDER BY tbl,coalesce(idx,'')))

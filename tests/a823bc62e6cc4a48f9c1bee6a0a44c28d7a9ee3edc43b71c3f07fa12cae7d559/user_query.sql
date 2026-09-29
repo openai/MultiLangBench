@@ -1,0 +1,1 @@
+UPDATE t0 SET c1=0,c2=0 WHERE c0>=0;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM x1, x4;

@@ -1,0 +1,1 @@
+PRAGMA page_size=4096; PRAGMA auto_vacuum=NONE; CREATE TABLE t8(a,b); INSERT INTO t8 VALUES('a','b'); INSERT INTO t8 VALUES('c','d'); CREATE TABLE discarded(x); WITH RECURSIVE n(x) AS (VALUES(1) UNION ALL SELECT x+1 FROM n WHERE x<200) INSERT INTO discarded SELECT printf('%00600d',x) FROM n; DROP TABLE discarded;

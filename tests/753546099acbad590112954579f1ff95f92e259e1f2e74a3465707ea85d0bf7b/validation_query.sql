@@ -1,0 +1,1 @@
+SELECT 'x1' AS tbl, level, idx, start_block, leaves_end_block, end_block, hex(root) AS root FROM x1_segdir UNION ALL SELECT 'x2', level, idx, start_block, leaves_end_block, end_block, hex(root) FROM x2_segdir ORDER BY tbl, level, idx

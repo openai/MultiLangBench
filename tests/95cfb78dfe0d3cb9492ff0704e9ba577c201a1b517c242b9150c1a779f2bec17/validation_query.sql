@@ -1,0 +1,1 @@
+SELECT a, length(b), b=(replace(hex(zeroblob(512)),'00',char(39)) || ' Hello ' || replace(hex(zeroblob(512)),'00',char(39))) AS exact_value FROM xyz WHERE a=51;

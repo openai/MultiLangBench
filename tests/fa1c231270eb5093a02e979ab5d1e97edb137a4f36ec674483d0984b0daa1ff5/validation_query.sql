@@ -1,0 +1,1 @@
+SELECT aux_count FROM main.result;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM pragma_table_info('abc','temp');

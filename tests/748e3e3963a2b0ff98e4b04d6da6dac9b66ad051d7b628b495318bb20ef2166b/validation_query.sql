@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM sfi_result),(SELECT c FROM t3),(SELECT d FROM t4);

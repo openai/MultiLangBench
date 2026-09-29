@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; DELETE FROM up WHERE c34='possibly';

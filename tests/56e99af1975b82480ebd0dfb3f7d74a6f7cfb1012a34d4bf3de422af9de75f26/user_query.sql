@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT sql FROM sqlite_master WHERE name='t1_content';

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t8 USING fts3(b); INSERT INTO t8(docid,b) VALUES(4,'letter D')

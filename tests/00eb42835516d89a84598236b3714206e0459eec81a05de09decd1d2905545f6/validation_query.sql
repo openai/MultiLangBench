@@ -1,0 +1,1 @@
+SELECT mode,(SELECT user_version FROM pragma_user_version),(SELECT page_size FROM pragma_page_size) FROM result

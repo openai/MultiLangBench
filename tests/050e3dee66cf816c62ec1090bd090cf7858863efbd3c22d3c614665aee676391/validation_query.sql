@@ -1,0 +1,1 @@
+SELECT xa,xb,c,d FROM result ORDER BY rowid;

@@ -1,0 +1,1 @@
+SELECT t2_ctx, t2_id, t2_value, t1_id, t1_value FROM sfi_result ORDER BY t2_ctx, t2_id, t2_value, t1_id, t1_value;

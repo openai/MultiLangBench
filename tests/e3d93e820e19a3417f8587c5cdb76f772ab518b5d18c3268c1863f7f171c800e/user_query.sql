@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rowid AS rid,a FROM t1 ORDER BY rowid;

@@ -1,0 +1,1 @@
+CREATE TABLE _result AS SELECT xyzzy.* FROM t2 AS xyzzy NATURAL JOIN t1 ORDER BY xyzzy.b;

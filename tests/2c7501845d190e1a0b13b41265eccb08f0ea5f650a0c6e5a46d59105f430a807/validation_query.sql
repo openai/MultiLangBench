@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t3) AS rows_left, (SELECT group_concat(integrity_check, '|') FROM pragma_integrity_check) AS integrity_result;

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t6 USING fts4(languageid=lid); INSERT INTO t6(content,lid) VALUES('zero zero zero',4),('zero zero one',4),('zero one zero',4),('zero one one',4),('one zero zero',4),('one zero one',4),('one one zero',4),('one one one',4); INSERT INTO t6(t6) VALUES('merge=100,3'); INSERT INTO t6(t6) VALUES('merge=100,3');

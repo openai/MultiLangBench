@@ -1,0 +1,1 @@
+INSERT INTO docs VALUES('the book is dedicated to Solomon.')

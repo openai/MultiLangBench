@@ -1,0 +1,1 @@
+SELECT * FROM t4 ORDER BY rowid;

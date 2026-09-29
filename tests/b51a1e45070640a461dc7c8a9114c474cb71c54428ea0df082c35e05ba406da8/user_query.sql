@@ -1,0 +1,1 @@
+CREATE TABLE t1(a int, b int); SELECT name FROM sqlite_master WHERE type='table' ORDER BY name;

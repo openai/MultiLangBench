@@ -1,0 +1,1 @@
+INSERT INTO result SELECT * FROM b, a, c WHERE a.id=2 AND b.a_id=a.id AND b.id=c.b_id;

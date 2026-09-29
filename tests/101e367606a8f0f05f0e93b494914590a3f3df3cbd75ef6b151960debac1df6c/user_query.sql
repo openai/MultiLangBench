@@ -1,0 +1,1 @@
+ATTACH ':memory:' AS db12; DETACH db12; INSERT INTO capture VALUES(1);

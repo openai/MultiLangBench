@@ -1,0 +1,1 @@
+PRAGMA secure_delete=0; INSERT INTO observed(v) SELECT * FROM pragma_secure_delete;

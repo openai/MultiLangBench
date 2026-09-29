@@ -1,0 +1,1 @@
+CREATE TABLE main.t1(a, b); INSERT INTO main.t1 VALUES(1, 'one'); INSERT INTO main.t1 VALUES(2, 'two'); ATTACH ':memory:' AS aux; CREATE TABLE aux.t1 AS SELECT * FROM main.t1; PRAGMA aux.schema_version = 30; CREATE TABLE main.result_5_1 AS SELECT sql FROM aux.sqlite_master WHERE type='table' AND name='t1';

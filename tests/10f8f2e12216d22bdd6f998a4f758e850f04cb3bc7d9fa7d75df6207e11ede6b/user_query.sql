@@ -1,0 +1,1 @@
+SELECT "where" FROM blob;

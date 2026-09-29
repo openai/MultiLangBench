@@ -1,0 +1,1 @@
+SELECT n,t FROM r ORDER BY rowid

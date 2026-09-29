@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT substr(a,4,3) AS k FROM cnt, t5 WHERE k=printf('%03d',x);

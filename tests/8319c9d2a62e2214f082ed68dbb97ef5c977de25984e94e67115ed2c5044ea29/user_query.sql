@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES(X'00', X'00', X'00', X'00');

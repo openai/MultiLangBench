@@ -1,0 +1,1 @@
+SELECT (SELECT sql FROM sqlite_master WHERE type='view' AND name='v1') AS view_sql, (SELECT integrity_check FROM sfi_integrity LIMIT 1) AS integrity_result

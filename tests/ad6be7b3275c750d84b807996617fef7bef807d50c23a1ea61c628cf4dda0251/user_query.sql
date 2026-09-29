@@ -1,0 +1,1 @@
+INSERT INTO ta VALUES('Google released its browser beta')

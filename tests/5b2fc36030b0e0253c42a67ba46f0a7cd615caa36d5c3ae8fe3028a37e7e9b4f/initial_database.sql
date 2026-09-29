@@ -1,0 +1,1 @@
+CREATE TABLE t3(a, b UNIQUE); INSERT INTO t3 VALUES(2,'two'),(3,'one'),(4,'four');

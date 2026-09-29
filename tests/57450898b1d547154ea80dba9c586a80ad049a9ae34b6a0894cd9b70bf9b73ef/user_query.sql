@@ -1,0 +1,1 @@
+PRAGMA temp_store=fIlE; PRAGMA temp_store=fIlE; INSERT INTO result SELECT * FROM pragma_temp_store;

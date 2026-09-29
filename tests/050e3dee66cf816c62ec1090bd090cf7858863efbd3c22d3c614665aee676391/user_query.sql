@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT x.a AS xa,x.b AS xb,y.c AS c,y.d AS d FROM t44 AS x LEFT JOIN (SELECT a AS c,b AS d FROM t44) AS y ON x.a=y.c WHERE y.d=4 OR y.d IS NULL ORDER BY x.a;

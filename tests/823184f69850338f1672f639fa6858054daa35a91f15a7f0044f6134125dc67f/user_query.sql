@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rowid AS r FROM d1 WHERE (+c, a) IN (SELECT x, y FROM d2);

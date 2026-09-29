@@ -1,0 +1,1 @@
+CREATE TABLE r43 AS SELECT docid, content FROM t3 WHERE t3 MATCH 'four*';

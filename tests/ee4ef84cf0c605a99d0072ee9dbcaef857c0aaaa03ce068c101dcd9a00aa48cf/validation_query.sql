@@ -1,0 +1,1 @@
+SELECT a, b, c, (SELECT sql FROM sqlite_schema WHERE type='table' AND name='t1') AS table_sql, (SELECT sql FROM sqlite_schema WHERE type='index' AND name='i1') AS index_sql FROM t1 ORDER BY a;

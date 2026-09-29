@@ -1,0 +1,1 @@
+SELECT poiCategory, poiCategoryId FROM t1 WHERE t1 MATCH 're*' ORDER BY docid;

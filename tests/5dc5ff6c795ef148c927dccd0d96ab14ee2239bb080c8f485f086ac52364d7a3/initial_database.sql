@@ -1,0 +1,1 @@
+PRAGMA page_size = 1024; PRAGMA auto_vacuum = incremental; CREATE TABLE t1(i, x); INSERT INTO t1 VALUES(1, replace(hex(zeroblob(500)), '0', 'x')); INSERT INTO t1 VALUES(2, zeroblob(248*1020 + 100)); INSERT INTO t1 VALUES(3, zeroblob(2*1020 + 100)); DELETE FROM t1 WHERE i = 2; DELETE FROM t1 WHERE i = 1; DELETE FROM t1 WHERE i = 3;

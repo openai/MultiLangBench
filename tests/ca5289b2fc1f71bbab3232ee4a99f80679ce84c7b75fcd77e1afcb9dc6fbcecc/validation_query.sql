@@ -1,0 +1,1 @@
+SELECT kind, x, y FROM (SELECT 0 AS kind, sql AS x, NULL AS y FROM sqlite_schema WHERE type='table' AND name='t1' UNION ALL SELECT 1 AS kind, k AS x, v AS y FROM t1) ORDER BY kind, y, x

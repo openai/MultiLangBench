@@ -1,0 +1,1 @@
+SELECT release FROM savepoint;

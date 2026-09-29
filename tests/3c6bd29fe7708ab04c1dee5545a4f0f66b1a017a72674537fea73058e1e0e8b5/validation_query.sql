@@ -1,0 +1,1 @@
+SELECT t,total FROM t8 ORDER BY rowid

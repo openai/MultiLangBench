@@ -1,0 +1,1 @@
+SELECT a,b,c FROM t1 WHERE b='b-21' ORDER BY a;

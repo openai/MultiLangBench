@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT name FROM sqlite_master WHERE type='table' AND name GLOB 'db[0-9]*' ORDER BY CAST(substr(name,3) AS INTEGER);

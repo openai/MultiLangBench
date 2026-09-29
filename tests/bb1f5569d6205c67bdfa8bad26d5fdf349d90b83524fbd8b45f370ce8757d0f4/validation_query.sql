@@ -1,0 +1,1 @@
+SELECT name,dflt_value FROM pragma_table_info('tbl') ORDER BY cid

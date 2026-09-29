@@ -1,0 +1,1 @@
+SELECT a, EXISTS(SELECT 1 FROM sqlite_schema WHERE type='trigger' AND name='t0001') FROM v0;

@@ -1,0 +1,1 @@
+[["table","t1","t1","CREATE TABLE t1(a, b)"],["trigger","tr1","t1","CREATE TRIGGER tr1 AFTER INSERT ON t1 BEGIN SELECT sum(b) OVER w FROM t1 WINDOW w AS (ORDER BY a); END"]]

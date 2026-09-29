@@ -1,0 +1,1 @@
+SELECT name FROM sqlite_schema WHERE name IN ('collate4t1','collate4t2') OR tbl_name IN ('collate4t1','collate4t2') ORDER BY name;

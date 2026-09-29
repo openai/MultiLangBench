@@ -1,0 +1,1 @@
+SELECT * FROM fail ORDER BY fail ASC

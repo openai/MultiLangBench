@@ -1,0 +1,1 @@
+CREATE TABLE capture(which_db,name);

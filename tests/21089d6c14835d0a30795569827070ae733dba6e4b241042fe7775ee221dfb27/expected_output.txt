@@ -1,0 +1,1 @@
+[[0,"CREATE TRIGGER zzz AFTER UPDATE OF \"col a\",\"col c\" ON t6 BEGIN UPDATE c SET x=x+1; END"]]

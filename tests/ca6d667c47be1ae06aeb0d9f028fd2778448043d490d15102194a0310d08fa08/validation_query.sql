@@ -1,0 +1,1 @@
+SELECT message FROM integrity_result ORDER BY rowid;

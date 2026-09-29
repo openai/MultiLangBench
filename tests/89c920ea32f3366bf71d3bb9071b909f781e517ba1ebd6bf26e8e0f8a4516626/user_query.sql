@@ -1,0 +1,1 @@
+INSERT INTO w VALUES('assert');

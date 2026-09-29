@@ -1,0 +1,1 @@
+SELECT sql FROM sqlite_schema WHERE sql!='' ORDER BY 1

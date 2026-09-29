@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT id,seq,"table","from","to",on_update,on_delete,match FROM pragma_foreign_key_list('child6');

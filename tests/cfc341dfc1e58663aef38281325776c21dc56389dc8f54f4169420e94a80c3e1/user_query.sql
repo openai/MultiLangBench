@@ -1,0 +1,1 @@
+CREATE TABLE t0(c0); CREATE INDEX i0 ON t0('1' IN ());

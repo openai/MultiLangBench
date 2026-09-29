@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT hex(zeroblob(-1)) AS v;

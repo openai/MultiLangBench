@@ -1,0 +1,1 @@
+SELECT name, sql FROM sqlite_schema WHERE type='view' ORDER BY CAST(substr(name,2) AS INTEGER);

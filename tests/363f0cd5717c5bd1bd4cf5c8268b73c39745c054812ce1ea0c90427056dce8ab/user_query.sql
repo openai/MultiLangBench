@@ -1,0 +1,1 @@
+CREATE INDEX t5ab ON t5(a, b, c); CREATE TABLE result AS SELECT a, b FROM t5 WHERE a=1 ORDER BY b NULLS LAST, c;

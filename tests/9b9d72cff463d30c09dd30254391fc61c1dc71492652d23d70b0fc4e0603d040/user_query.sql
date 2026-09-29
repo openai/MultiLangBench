@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT round(t1,2) AS x FROM tbl1;

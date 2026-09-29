@@ -1,0 +1,1 @@
+SELECT count(*), min(a), max(a), min(b), max(b) FROM t0

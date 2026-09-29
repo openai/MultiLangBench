@@ -1,0 +1,1 @@
+SELECT type_name, object_name, table_name, root_page, sql_text FROM result ORDER BY rowid

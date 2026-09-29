@@ -1,0 +1,1 @@
+UPDATE t SET t1='abc',t2='abc_';INSERT INTO r SELECT t1 LIKE t2 FROM t;

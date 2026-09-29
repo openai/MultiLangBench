@@ -1,0 +1,1 @@
+[["table","t1","t1","CREATE TABLE t1(a, b)"],["trigger","AFTER","t1","CREATE TRIGGER AFTER INSERT ON t1 BEGIN INSERT INTO nosuchtable VALUES(new.a) ON CONFLICT(a) DO NOTHING; END"]]

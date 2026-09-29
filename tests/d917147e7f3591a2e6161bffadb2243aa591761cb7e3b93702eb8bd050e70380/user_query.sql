@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; ALTER TABLE p RENAME TO parent;

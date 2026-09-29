@@ -1,0 +1,1 @@
+SELECT count(*), min(docid), max(docid), sum(words=printf('alpha common beta verse%02d',docid)), (SELECT count(*) FROM t2_segdir) FROM t2;

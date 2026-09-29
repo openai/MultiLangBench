@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT group_concat(c,'.') OVER (PARTITION BY b ORDER BY c) FROM t1;

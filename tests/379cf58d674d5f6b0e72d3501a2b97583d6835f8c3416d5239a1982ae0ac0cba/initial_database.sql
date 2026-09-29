@@ -1,0 +1,1 @@
+CREATE TABLE fruits(name TEXT COLLATE NOCASE, color TEXT COLLATE NOCASE); INSERT INTO fruits(name, color) VALUES('apple', 'RED'),('APPLE', 'yellow'),('pear', 'YELLOW'),('PEAR', 'green');

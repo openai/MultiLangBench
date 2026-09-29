@@ -1,0 +1,1 @@
+UPDATE ft_segdir SET root = X'00036F6E650901';

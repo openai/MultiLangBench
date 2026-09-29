@@ -1,0 +1,1 @@
+SELECT "#xyz", "!pqr" FROM "@abc" ORDER BY rowid;

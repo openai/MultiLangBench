@@ -1,0 +1,1 @@
+SELECT x, y, y = 'ABC' FROM t1;

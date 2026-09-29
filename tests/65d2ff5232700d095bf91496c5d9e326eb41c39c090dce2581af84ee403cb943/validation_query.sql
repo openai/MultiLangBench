@@ -1,0 +1,1 @@
+SELECT name,key FROM pragma_index_xinfo('i46') ORDER BY seqno;

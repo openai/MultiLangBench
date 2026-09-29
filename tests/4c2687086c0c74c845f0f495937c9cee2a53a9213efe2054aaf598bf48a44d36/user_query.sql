@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=OFF; INSERT INTO c5 SELECT x FROM c1; DELETE FROM c1; CREATE TABLE result AS SELECT [table] AS child_table, [rowid] AS child_rowid, parent, fkid FROM pragma_foreign_key_check;

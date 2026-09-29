@@ -1,0 +1,1 @@
+SELECT (SELECT page_count FROM pragma_page_count), count(*), min(length(a)), max(length(a)) FROM tbl1;

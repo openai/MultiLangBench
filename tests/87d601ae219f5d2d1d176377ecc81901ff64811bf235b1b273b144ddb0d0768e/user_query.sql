@@ -1,0 +1,1 @@
+PRAGMA temp.cache_size=400; INSERT INTO result SELECT * FROM pragma_cache_size('temp');

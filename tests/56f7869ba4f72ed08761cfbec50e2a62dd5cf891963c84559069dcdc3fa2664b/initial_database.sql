@@ -1,0 +1,2 @@
+CREATE TABLE jjj(x);
+CREATE TABLE nnn(x);

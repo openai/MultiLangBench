@@ -1,0 +1,1 @@
+SELECT group_concat(integrity_check, '|') FROM (SELECT integrity_check FROM pragma_integrity_check ORDER BY integrity_check);

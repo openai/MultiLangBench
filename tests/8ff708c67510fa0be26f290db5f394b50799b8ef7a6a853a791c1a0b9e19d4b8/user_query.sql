@@ -1,0 +1,1 @@
+CREATE INDEX t1alen ON t1(length(a)); CREATE TABLE sfi_result AS SELECT length(a) AS n FROM t1 ORDER BY length(a);

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT 'hello' AS a, zeroblob(10) AS b FROM t1 ORDER BY a,b;

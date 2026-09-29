@@ -1,0 +1,1 @@
+[["j","CREATE TABLE j(l,m)"],["k","CREATE TABLE k(o)"],["t","CREATE TABLE t(i,j,k)"]]

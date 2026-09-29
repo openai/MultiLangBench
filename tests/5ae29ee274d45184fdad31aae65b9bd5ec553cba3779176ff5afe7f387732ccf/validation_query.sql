@@ -1,0 +1,1 @@
+SELECT count(*) AS mismatch_count FROM result

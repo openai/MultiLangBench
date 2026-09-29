@@ -1,0 +1,1 @@
+SELECT count(*),min(a),max(a),sum(b),sum(length(c)),count(DISTINCT a) FROM t1;

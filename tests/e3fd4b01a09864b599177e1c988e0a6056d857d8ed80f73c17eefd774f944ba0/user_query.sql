@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t4 USING fts4(tokenize=unicode61 'remove_diacritics=0'); INSERT INTO t4 SELECT * FROM t3;

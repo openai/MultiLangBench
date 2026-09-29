@@ -1,0 +1,1 @@
+SELECT name,sql,(SELECT group_concat(a||':'||b||':'||c,'|') FROM (SELECT a,b,c FROM t1 WHERE b<1 ORDER BY b,a)) FROM sqlite_master WHERE name='i1';

@@ -1,0 +1,1 @@
+SELECT count(*) AS row_count, min(docid) AS first_docid, max(docid) AS last_docid, sum(length(a)) AS a_bytes, sum(length(b)) AS b_bytes FROM ft;

@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT x,x+1,x+2,x+3,x+4,x+5,x+6,x+7,x+8,x+9,x+10 FROM t1 ORDER BY x LIMIT -1

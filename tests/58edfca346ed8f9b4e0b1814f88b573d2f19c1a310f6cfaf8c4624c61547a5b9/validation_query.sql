@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(id,',') FROM (SELECT id FROM main ORDER BY id)),(SELECT id FROM sub)

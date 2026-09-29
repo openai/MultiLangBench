@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t4 USING fts4; INSERT INTO t4 VALUES('a b c d'); WITH RECURSIVE c(i) AS (VALUES(1) UNION ALL SELECT i+1 FROM c WHERE i<35) INSERT INTO t4 SELECT group_concat('x',' ')||' E '||group_concat('x',' ')||' F '||group_concat('x',' ')||' G '||group_concat('x',' ') FROM c;

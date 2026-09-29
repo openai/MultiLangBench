@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT 'x'||a||'x' AS alias FROM t1;

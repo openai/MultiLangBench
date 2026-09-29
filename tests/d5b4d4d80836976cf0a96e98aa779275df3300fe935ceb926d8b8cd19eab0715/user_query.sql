@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT count(*) AS n FROM t3 WHERE 1+(b IN ('abc','xyz'))==2;

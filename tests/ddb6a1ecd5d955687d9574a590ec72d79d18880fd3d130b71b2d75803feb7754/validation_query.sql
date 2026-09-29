@@ -1,0 +1,1 @@
+SELECT 150-count(*) FROM table1;

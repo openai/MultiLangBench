@@ -1,0 +1,1 @@
+UPDATE t1 SET c=printf('name-%06d',(a*3571+17)%500000) WHERE a BETWEEN 1 AND 50000;

@@ -1,0 +1,1 @@
+CREATE TABLE capture(ord,type,name,tbl_name);

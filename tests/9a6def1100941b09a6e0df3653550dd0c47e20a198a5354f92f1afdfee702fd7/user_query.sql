@@ -1,0 +1,1 @@
+INSERT INTO result SELECT json_set('{"a":2,"c":4}', '$.c', json_array(97,96));

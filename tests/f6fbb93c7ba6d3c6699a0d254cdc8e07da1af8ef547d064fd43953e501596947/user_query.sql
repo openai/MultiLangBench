@@ -1,0 +1,1 @@
+DROP TABLE analyze; CREATE INDEX analyze ON t1(a);

@@ -1,0 +1,1 @@
+SELECT name FROM sqlite_master WHERE sql LIKE '%ASC%' ORDER BY name;

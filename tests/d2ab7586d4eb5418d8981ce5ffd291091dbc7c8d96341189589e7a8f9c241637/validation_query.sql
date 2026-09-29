@@ -1,0 +1,1 @@
+SELECT count(*) AS n, sum(a) AS suma, sum(b) AS sumb, min(b) AS minb, max(b) AS maxb, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='t1ab' AND tbl_name='t1') AS has_index FROM t1;

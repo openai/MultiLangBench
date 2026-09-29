@@ -1,0 +1,1 @@
+INSERT INTO result SELECT format('%.30f', log10(100.0));

@@ -1,0 +1,1 @@
+SELECT count(*) FROM sqlite_master WHERE type='trigger' AND name='r2'

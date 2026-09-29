@@ -1,0 +1,1 @@
+CREATE TABLE t1(c1 text DEFAULT -45.8e22);

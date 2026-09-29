@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT t44.a AS a,t44.b AS b,t46.c AS c,t46.d AS d FROM t44 LEFT JOIN t46 ON t44.a=t46.c WHERE t46.d=4 OR t46.d IS NULL ORDER BY t44.a;

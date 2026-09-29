@@ -1,0 +1,1 @@
+INSERT INTO integrity_result(message) SELECT integrity_check FROM pragma_integrity_check;

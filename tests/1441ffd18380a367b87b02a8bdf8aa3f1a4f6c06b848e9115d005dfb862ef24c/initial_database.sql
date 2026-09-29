@@ -1,0 +1,1 @@
+CREATE TABLE collate1t1(c1, c2);

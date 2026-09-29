@@ -1,0 +1,1 @@
+INSERT INTO excluded VALUES('a',1,1,1); INSERT INTO excluded VALUES('b',2,2,2);

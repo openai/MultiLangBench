@@ -1,0 +1,4 @@
+CREATE TABLE t6(
+  d REFERENCES t5,
+  e REFERENCES t5(c)
+);

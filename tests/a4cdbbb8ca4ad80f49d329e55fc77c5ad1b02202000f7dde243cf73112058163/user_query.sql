@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT (SELECT sum(x+y) FROM bb) AS v FROM aa;

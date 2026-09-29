@@ -1,0 +1,1 @@
+SELECT 'pp' AS tab,rowid,a,b,c FROM pp UNION ALL SELECT 'cc',NULL,d,e,f FROM cc ORDER BY 1

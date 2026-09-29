@@ -1,0 +1,1 @@
+SELECT x, y, (SELECT count(*) FROM trigger_log WHERE marker='___update_t1.y___') AS y_trigger_count FROM t1;

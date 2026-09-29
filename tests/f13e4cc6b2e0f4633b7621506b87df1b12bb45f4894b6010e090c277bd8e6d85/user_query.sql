@@ -1,0 +1,1 @@
+INSERT INTO people VALUES ('Ingrad','student',155),('Jacob','student',179); ANALYZE;

@@ -1,0 +1,1 @@
+[[10,50,51,299,"CREATE INDEX t2b ON t2((b IS NOT NULL))"]]

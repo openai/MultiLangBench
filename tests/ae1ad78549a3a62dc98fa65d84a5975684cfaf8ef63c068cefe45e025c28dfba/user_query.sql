@@ -1,0 +1,1 @@
+CREATE TABLE t1(a, b, c, d, e); CREATE INDEX i1 ON t1(a, b, c, d, e);

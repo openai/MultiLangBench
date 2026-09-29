@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT max(rowid) FROM t7;

@@ -1,0 +1,1 @@
+CREATE TABLE over(x, over); CREATE TABLE window(x, window); INSERT INTO over VALUES(1, 2), (3, 4), (5, 6); INSERT INTO window VALUES(1, 2), (3, 4), (5, 6); CREATE TABLE result(v); INSERT INTO result SELECT sum(x) over FROM over;

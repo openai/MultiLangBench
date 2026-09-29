@@ -1,0 +1,1 @@
+[[1,"1","2.2","'three'","real"],[2,"NULL","NULL","NULL","null"],[3,"NULL","5.0","NULL","real"]]

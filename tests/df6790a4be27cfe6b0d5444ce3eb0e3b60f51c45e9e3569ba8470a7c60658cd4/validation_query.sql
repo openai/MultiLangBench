@@ -1,0 +1,1 @@
+WITH q(seq, kind, a, b, c) AS (SELECT rowid, 'row', a, b, c FROM t10 UNION ALL SELECT 9223372036854775807, 'integrity', NULL, NULL, integrity_check FROM pragma_integrity_check) SELECT kind, a, b, c FROM q ORDER BY seq, kind;

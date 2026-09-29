@@ -1,0 +1,1 @@
+DELETE FROM v1 WHERE v1.x=2;

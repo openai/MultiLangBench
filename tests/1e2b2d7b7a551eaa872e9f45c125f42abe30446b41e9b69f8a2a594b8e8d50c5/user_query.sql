@@ -1,0 +1,1 @@
+CREATE TABLE zeroblobfault_result(value TEXT); INSERT INTO zeroblobfault_result(value) SELECT quote(zeroblob(2000));

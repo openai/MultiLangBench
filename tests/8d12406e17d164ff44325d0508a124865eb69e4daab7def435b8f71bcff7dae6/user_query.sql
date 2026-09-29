@@ -1,0 +1,1 @@
+INSERT INTO a1 VALUES('x', 'y');

@@ -1,0 +1,1 @@
+CREATE TABLE log(x); CREATE TABLE p1(one PRIMARY KEY, two); CREATE TRIGGER tr_bd BEFORE DELETE ON p1 BEGIN INSERT INTO log VALUES('delete'); END; INSERT INTO p1 VALUES('a', 'A'), ('b', 'B'), ('c', 'C');

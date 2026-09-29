@@ -1,0 +1,1 @@
+BEGIN; CREATE VIRTUAL TABLE temp.echo_test1 USING fts4(x); DROP TABLE echo_test1; ROLLBACK; CREATE TABLE sfi_result AS SELECT count(*) AS temp_objects FROM sqlite_temp_master WHERE name='echo_test1' OR name GLOB 'echo_test1_*';

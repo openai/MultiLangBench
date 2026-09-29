@@ -1,0 +1,1 @@
+SELECT name,type,tbl_name,sql FROM sqlite_schema WHERE name IN ('u1','u2','u1ab') ORDER BY type,name;

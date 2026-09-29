@@ -1,0 +1,1 @@
+SELECT sql, (SELECT count(*) FROM v2) FROM sqlite_schema WHERE name='v2';

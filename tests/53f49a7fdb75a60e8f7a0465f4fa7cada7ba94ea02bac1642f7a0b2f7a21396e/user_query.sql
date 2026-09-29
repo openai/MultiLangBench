@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT coalesce(max(a),'xyzzy') FROM t3;

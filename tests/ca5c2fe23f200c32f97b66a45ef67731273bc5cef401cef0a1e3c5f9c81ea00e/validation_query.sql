@@ -1,0 +1,1 @@
+SELECT (SELECT * FROM pragma_encoding) AS db_encoding, d, e, f FROM t2

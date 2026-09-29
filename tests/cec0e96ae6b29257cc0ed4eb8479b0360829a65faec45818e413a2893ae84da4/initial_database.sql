@@ -1,0 +1,1 @@
+CREATE TABLE capture(a, b, c); PRAGMA schema_version=10;

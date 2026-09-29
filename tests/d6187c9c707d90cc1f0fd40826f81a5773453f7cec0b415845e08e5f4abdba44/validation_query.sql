@@ -1,0 +1,1 @@
+SELECT p.*, t.a, t.b, typeof(t.b), (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='t1b') AS index_present FROM pragma_integrity_check AS p CROSS JOIN t1 AS t ORDER BY t.a;

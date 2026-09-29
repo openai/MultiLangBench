@@ -1,0 +1,1 @@
+SELECT * FROM sfi_pragma_encoding;

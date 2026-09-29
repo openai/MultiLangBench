@@ -1,0 +1,1 @@
+SELECT name, sql FROM sqlite_schema WHERE type='index' AND name='bad1'

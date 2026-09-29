@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT max(x) AS v FROM t6;

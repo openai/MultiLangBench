@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT typeof(x) AS typ,quote(x) AS val FROM (SELECT b AS x FROM t4 UNION SELECT a AS x FROM v4 ORDER BY 1);

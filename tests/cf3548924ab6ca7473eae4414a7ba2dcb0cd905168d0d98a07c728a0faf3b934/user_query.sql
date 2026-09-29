@@ -1,0 +1,1 @@
+INSERT INTO t2(t2) VALUES('optimize'); CREATE TABLE result AS SELECT docid FROM t2 WHERE t2 MATCH 'abc';

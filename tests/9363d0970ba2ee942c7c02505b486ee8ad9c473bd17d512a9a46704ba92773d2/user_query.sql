@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT i FROM t1 WHERE b>0 AND b<'zzz';

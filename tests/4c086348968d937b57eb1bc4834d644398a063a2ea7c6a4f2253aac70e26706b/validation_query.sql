@@ -1,0 +1,1 @@
+SELECT integrity_check FROM pragma_integrity_check;

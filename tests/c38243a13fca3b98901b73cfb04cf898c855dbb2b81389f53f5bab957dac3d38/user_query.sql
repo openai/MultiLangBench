@@ -1,0 +1,1 @@
+PRAGMA reverse_unordered_selects=1; CREATE TABLE wherea_result(seq INTEGER PRIMARY KEY, x); INSERT INTO wherea_result(x) SELECT x FROM t2;

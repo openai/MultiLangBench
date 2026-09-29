@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(a||':'||b,'|') FROM (SELECT a,b FROM autoinc ORDER BY a)),(SELECT seq FROM sqlite_sequence WHERE name='autoinc'),(SELECT integrity_check FROM pragma_integrity_check);

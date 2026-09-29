@@ -1,0 +1,1 @@
+[["table","x1_rules","x1_rules","CREATE TABLE x1_rules(ruleset, cFrom, cTo, cost)"]]

@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT 10 IN (SELECT rowid FROM sqlite_master);

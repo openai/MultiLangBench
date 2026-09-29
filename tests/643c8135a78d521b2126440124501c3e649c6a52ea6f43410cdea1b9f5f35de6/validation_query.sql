@@ -1,0 +1,1 @@
+SELECT d, f FROM in6_result ORDER BY +d;

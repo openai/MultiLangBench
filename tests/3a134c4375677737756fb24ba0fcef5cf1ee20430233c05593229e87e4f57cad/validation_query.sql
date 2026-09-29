@@ -1,0 +1,1 @@
+SELECT count(*),sum(typeof(a)='blob'),sum(length(a)=400),sum(typeof(b)='blob'),sum(length(b)=400) FROM t1

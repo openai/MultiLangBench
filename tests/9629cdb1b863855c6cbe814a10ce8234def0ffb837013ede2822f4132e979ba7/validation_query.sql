@@ -1,0 +1,1 @@
+SELECT count(*), min(a), max(a), min(c), max(c), (SELECT sql FROM sqlite_schema WHERE name='t1') FROM t1;

@@ -1,0 +1,1 @@
+INSERT INTO result(n,y) SELECT count(x), y FROM t3 GROUP BY y ORDER BY 1;

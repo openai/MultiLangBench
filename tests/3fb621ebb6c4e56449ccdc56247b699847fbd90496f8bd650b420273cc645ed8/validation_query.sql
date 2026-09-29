@@ -1,0 +1,1 @@
+SELECT docid FROM result ORDER BY rowid;

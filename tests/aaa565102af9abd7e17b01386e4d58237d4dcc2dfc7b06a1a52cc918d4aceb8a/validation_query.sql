@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t5),(SELECT count(*) FROM t6),(SELECT group_concat(a,',') FROM (SELECT a FROM t5 WHERE a>=85 ORDER BY a))

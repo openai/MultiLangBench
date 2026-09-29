@@ -1,0 +1,1 @@
+SELECT cid, name, type FROM pragma_table_info('@abc') ORDER BY cid;

@@ -1,0 +1,1 @@
+SELECT quote(x) FROM pA

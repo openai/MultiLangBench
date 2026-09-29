@@ -1,0 +1,1 @@
+SELECT count(*) AS n FROM sqlite_master WHERE type='table' AND name='t2' AND sql LIKE 'CREATE VIRTUAL TABLE t2 USING fts4%';

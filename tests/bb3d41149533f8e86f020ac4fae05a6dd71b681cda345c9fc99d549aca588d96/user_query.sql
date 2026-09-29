@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM pragma_foreign_key_list('t5');

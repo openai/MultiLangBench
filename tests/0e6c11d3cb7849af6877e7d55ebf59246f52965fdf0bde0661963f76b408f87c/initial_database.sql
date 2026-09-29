@@ -1,0 +1,1 @@
+CREATE TABLE result(t1_count INTEGER, t1_correct INTEGER, t2_count INTEGER, t2_original INTEGER);

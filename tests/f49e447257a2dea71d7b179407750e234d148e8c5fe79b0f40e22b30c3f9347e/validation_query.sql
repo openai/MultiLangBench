@@ -1,0 +1,1 @@
+SELECT "notnull" FROM pragma_table_info('track') WHERE name='trackartist'

@@ -1,0 +1,1 @@
+SELECT w, x, y, z FROM result;

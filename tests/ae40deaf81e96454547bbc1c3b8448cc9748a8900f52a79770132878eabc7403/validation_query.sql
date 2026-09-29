@@ -1,0 +1,1 @@
+SELECT x, y, typeof(x), typeof(y) FROM t5 ORDER BY rowid;

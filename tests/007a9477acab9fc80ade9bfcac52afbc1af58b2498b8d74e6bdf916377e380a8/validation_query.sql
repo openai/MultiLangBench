@@ -1,0 +1,1 @@
+SELECT i, v FROM t1 ORDER BY i;

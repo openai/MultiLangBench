@@ -1,0 +1,1 @@
+INSERT INTO ft4x VALUES('M G M F T'),('Z Q C A U'),('N L L V'),('T F D X D'),('Z H I S D'); CREATE TABLE sfi_result AS SELECT id,quote(value) AS value FROM ft4x_stat;

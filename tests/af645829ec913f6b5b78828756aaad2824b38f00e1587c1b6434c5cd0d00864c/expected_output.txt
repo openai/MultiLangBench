@@ -1,0 +1,1 @@
+[["linux driver","a device"],["problems","linux problems"],["linux","big problems"],["linux driver","a device driver problem"],["good times","applications for linux"],["not so good","linux applications"]]

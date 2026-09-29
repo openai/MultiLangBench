@@ -1,0 +1,1 @@
+INSERT INTO t1(y,x,oid) VALUES(8,7,1235); CREATE TABLE actual AS SELECT rowid AS rid, * FROM t1 WHERE rowid>1000;

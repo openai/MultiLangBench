@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; UPDATE zeus SET a=1,b=1;

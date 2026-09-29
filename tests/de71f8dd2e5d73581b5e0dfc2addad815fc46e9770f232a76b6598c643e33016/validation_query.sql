@@ -1,0 +1,1 @@
+SELECT (SELECT name FROM pragma_table_info('sfi_result') WHERE cid=0), a, (SELECT name FROM pragma_table_info('sfi_result') WHERE cid=1), b, (SELECT name FROM pragma_table_info('sfi_result') WHERE cid=2), c FROM sfi_result;

@@ -1,0 +1,1 @@
+SELECT x10, typeof(x10), y10, typeof(y10) FROM result ORDER BY rowid;

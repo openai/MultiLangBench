@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; INSERT INTO c3 VALUES(1,2);

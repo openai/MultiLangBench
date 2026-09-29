@@ -1,0 +1,1 @@
+SELECT count(*),sum(a) FROM t1;

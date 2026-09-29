@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT format('%d',314159.2653);

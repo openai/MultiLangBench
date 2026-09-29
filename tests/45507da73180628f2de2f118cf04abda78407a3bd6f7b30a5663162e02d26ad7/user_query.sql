@@ -1,0 +1,1 @@
+CREATE TABLE "tģx"(a int, "bስ" float);

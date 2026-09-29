@@ -1,0 +1,1 @@
+CREATE TABLE t5(a,b,c); CREATE INDEX t5ab ON t5(a,b);

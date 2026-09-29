@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT count(*) AS n FROM n1 WHERE a IN (SELECT +a FROM n1);

@@ -1,0 +1,1 @@
+SELECT idx, stat FROM sqlite_stat1 WHERE tbl='t2' ORDER BY idx;

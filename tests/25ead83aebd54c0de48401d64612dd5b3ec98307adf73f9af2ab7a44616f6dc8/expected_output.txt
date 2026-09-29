@@ -1,0 +1,1 @@
+[["main","table","t1","t1"],["temp","table","t1","t1"],["temp","trigger","tr1","t1"]]

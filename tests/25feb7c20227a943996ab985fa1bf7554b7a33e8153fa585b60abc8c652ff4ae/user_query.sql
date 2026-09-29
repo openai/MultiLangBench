@@ -1,0 +1,1 @@
+UPDATE t SET t1='abc',t2='a[^A-Dc]c';INSERT INTO r SELECT t1 GLOB t2 FROM t;

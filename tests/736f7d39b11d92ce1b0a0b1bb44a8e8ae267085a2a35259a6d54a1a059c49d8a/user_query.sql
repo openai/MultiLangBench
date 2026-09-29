@@ -1,0 +1,1 @@
+UPDATE t1 AS a SET y=1 WHERE x=1;

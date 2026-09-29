@@ -1,0 +1,1 @@
+INSERT INTO result SELECT sqrt(4), round(sqrt(20),7), quote(sqrt(-16));

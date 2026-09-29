@@ -1,0 +1,1 @@
+SELECT y,(SELECT count(*) FROM main.sqlite_master WHERE type='index' AND name='mask') FROM result

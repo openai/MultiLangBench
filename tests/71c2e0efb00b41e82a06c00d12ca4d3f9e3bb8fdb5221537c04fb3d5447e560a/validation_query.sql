@@ -1,0 +1,1 @@
+SELECT x,y FROM t6 ORDER BY x

@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT x'0123456789abcdefABCDEF';

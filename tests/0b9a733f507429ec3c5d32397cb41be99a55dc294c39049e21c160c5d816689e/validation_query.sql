@@ -1,0 +1,1 @@
+SELECT count(*) AS user_table_count FROM sqlite_schema WHERE type='table' AND name NOT LIKE 'sqlite_%';

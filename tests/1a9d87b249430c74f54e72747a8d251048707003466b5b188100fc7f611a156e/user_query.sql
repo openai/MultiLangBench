@@ -1,0 +1,1 @@
+BEGIN;CREATE TABLE result(src,a);INSERT INTO result SELECT 'one',a FROM one ORDER BY a;INSERT INTO result SELECT 'two',a FROM two ORDER BY a;END;

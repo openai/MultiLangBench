@@ -1,0 +1,1 @@
+CREATE TABLE regexp(regexp regexp); INSERT INTO regexp VALUES(99); INSERT INTO regexp SELECT a FROM t1;

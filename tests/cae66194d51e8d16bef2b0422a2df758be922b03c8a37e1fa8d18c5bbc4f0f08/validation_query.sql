@@ -1,0 +1,1 @@
+SELECT a, c, EXISTS(SELECT 1 FROM sqlite_master WHERE type='index' AND name='i1') AS has_i1 FROM t1 ORDER BY rowid;

@@ -1,0 +1,1 @@
+SELECT x, y, z FROM v3 ORDER BY x, y;

@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(1,'abcxyz' GLOB 'abc%'),(2,'abcxyz' GLOB 'abc*'),(3,'abcxyz' GLOB 'abc___'),(4,'abcxyz' GLOB 'abc???'),(5,'abcxyz' GLOB 'abc*'),(6,'ABCxyz' GLOB 'abc*'),(7,'abcxyz' GLOB 'ABC*');

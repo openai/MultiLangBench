@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; CREATE TABLE t4(a UNIQUE, b REFERENCES t4(a));

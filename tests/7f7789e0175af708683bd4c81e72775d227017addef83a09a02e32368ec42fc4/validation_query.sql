@@ -1,0 +1,1 @@
+SELECT quote(p),quote(q),quote(r) FROM __sfi_result

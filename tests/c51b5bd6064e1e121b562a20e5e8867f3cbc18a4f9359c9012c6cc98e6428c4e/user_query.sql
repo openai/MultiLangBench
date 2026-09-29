@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT a+b AS ab,c+d AS cd FROM t10 ORDER BY a+b,c+d;

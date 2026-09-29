@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT x,y,z FROM t2;

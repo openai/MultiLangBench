@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT char(36,162,8364) AS x;

@@ -1,0 +1,1 @@
+CREATE INDEX t1i2 ON t1(y,x); CREATE TABLE result AS SELECT min(x) FROM t1 WHERE y=5;

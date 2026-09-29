@@ -1,0 +1,1 @@
+INSERT INTO xyz VALUES(51, replace(hex(zeroblob(512)),'00',char(39)) || ' Hello ' || replace(hex(zeroblob(512)),'00',char(39)));

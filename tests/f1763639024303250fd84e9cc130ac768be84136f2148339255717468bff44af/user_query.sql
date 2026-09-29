@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT a < B AS result FROM v5;

@@ -1,0 +1,1 @@
+SELECT stage,a FROM result ORDER BY CASE stage WHEN 'initial' THEN 1 WHEN 'or-result' THEN 2 WHEN 'deleted' THEN 3 ELSE 4 END,a

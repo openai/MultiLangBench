@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT coalesce(x,'xyz' LIKE printf('%.1000000c','y')) AS x FROM t1;

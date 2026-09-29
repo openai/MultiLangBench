@@ -1,0 +1,1 @@
+SELECT aaa_id,segfault FROM sfi_result ORDER BY aaa_id;

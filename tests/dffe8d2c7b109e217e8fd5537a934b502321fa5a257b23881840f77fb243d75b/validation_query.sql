@@ -1,0 +1,1 @@
+SELECT a ISNULL FROM t3 ORDER BY rowid;

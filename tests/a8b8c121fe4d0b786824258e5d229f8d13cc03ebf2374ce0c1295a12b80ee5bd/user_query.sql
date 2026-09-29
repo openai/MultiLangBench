@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT count(DISTINCT t1.rowid) AS n FROM t1, t2;

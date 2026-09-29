@@ -1,0 +1,1 @@
+SELECT p.cid, p.name, p.type, p."notnull", p.pk FROM pragma_table_info('t1') AS p ORDER BY p.cid;

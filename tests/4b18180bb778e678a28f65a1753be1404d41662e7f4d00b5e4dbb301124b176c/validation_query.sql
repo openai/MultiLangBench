@@ -1,0 +1,1 @@
+SELECT typeof(a), length(a), substr(a,1,10), substr(a,-10) FROM t4 ORDER BY rowid;

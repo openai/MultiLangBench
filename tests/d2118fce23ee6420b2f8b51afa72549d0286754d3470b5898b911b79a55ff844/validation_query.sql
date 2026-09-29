@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1), group_concat(integrity_check, '|') FROM pragma_integrity_check;

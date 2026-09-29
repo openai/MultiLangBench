@@ -1,0 +1,1 @@
+UPDATE t1 SET b=b*2 WHERE a>=0 AND a<10000;

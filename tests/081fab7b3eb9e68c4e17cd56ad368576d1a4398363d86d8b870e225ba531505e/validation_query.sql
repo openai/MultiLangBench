@@ -1,0 +1,1 @@
+SELECT a, b, (SELECT count(*) FROM t611 INDEXED BY t611x1) AS indexed_rows, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='t611x1' AND sql LIKE '%julianday(a)+b%') AS index_schema FROM t611;

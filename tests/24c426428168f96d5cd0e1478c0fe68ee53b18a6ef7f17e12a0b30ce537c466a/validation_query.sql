@@ -1,0 +1,1 @@
+SELECT count(*), coalesce(sum(level),0), coalesce(sum(idx),0), (SELECT count(*) FROM t1_segdir WHERE level=0) FROM t1_segdir;

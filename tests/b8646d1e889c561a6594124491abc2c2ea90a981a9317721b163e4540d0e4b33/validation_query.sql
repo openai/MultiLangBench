@@ -1,0 +1,1 @@
+SELECT quote(o) FROM __sfi_result

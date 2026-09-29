@@ -1,0 +1,1 @@
+UPDATE t SET t1='abcde',t2='a%e';INSERT INTO r SELECT t1 LIKE t2 ESCAPE '7' FROM t;

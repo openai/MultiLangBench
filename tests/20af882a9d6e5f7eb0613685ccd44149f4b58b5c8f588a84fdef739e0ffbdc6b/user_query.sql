@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM t0 WHERE (t0.rowid) <= '0';

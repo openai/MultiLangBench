@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t6aux USING fts4aux(t6); INSERT INTO t6 VALUES('alpha=beta"gamma/delta[epsilon]zeta'); CREATE TABLE result AS SELECT * FROM t6aux;

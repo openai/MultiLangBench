@@ -1,0 +1,1 @@
+SELECT location, objtype, objname, target FROM result ORDER BY location, objtype, objname, target;

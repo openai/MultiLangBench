@@ -1,0 +1,1 @@
+SELECT msg FROM capture ORDER BY rowid

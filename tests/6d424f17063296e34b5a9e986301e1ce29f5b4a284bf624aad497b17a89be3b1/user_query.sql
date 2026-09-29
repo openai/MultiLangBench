@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM t1 LEFT OUTER JOIN t2 ON t1.a=t2.x AND t2.z='ok';

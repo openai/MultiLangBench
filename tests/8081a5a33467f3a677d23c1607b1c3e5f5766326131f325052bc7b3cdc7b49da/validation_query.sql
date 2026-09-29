@@ -1,0 +1,1 @@
+SELECT count(*) AS n, min(a) AS min_a, max(a) AS max_a, sum(length(b)) AS total_text, sum(b=replace(hex(zeroblob(220)),'00',CAST(a AS TEXT))) AS matching_text, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='i1') AS index_count, (SELECT page_size FROM pragma_page_size) AS page_size FROM t1;

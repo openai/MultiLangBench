@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT max(a) AS v FROM t2 LIMIT 1,100;

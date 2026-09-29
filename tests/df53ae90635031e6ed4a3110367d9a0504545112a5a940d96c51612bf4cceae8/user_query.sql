@@ -1,0 +1,1 @@
+INSERT INTO n1 VALUES(1, NULL), (2, NULL), (3, NULL); CREATE TABLE result AS SELECT count(*) AS n FROM n1 WHERE a IN (1, 2, 3);

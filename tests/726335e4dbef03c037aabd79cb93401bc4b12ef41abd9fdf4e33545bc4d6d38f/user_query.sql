@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES('456','abcdefg',NULL);

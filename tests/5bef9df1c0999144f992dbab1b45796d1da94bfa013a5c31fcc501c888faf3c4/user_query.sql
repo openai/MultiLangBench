@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT (a COLLATE nocase,b) IN (SELECT a,b FROM f1) AS v FROM f1;

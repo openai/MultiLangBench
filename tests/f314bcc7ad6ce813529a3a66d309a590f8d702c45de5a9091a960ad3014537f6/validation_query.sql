@@ -1,0 +1,1 @@
+WITH result(ord, kind, value, detail) AS (SELECT 1, 'schema', name, type FROM sqlite_master UNION ALL SELECT 2, 't1-row', quote(x) || ',' || quote(y), NULL FROM t1 UNION ALL SELECT 3, 'ft-count', CAST(count(*) AS TEXT), NULL FROM ft) SELECT kind, value, detail FROM result ORDER BY ord, value, detail;

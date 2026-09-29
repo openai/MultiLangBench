@@ -1,0 +1,1 @@
+UPDATE t1 SET b = 'burmese' WHERE (SELECT a FROM t1 WHERE rowid=1);

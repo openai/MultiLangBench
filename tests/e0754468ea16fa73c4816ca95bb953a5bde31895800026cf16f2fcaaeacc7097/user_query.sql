@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT replace('This is the main test string','main','larger-main') AS x;

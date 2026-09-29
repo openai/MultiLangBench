@@ -1,0 +1,1 @@
+INSERT INTO ft4x(ft4x) VALUES('rebuild'); CREATE TABLE sfi_stat AS SELECT id,quote(value) AS value FROM ft4x_stat; CREATE TABLE sfi_doc AS SELECT docid,quote(size) AS size FROM ft4x_docsize;

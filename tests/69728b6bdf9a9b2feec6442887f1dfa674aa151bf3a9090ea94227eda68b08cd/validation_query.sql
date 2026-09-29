@@ -1,0 +1,1 @@
+SELECT (SELECT typeof(pk)||':'||pk FROM t6),(SELECT typeof(pk)||':'||pk FROM t7),(SELECT typeof(pk)||':'||pk FROM t8),(SELECT typeof(pk)||':'||pk FROM t9)

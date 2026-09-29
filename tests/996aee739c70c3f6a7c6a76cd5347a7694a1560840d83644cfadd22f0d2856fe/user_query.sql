@@ -1,0 +1,1 @@
+CREATE TABLE observed AS SELECT a,b FROM r1 ORDER BY a;

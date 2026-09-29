@@ -1,0 +1,1 @@
+SELECT (SELECT page_count FROM pragma_page_count) AS page_count, (SELECT freelist_count FROM pragma_freelist_count) AS freelist_count, count(*) AS row_count, sum(length(b)) AS total_bytes, min(a) AS min_a, max(a) AS max_a FROM t1;

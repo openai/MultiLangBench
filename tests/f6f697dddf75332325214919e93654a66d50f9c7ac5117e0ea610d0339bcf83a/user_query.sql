@@ -1,0 +1,1 @@
+PRAGMA writable_schema=ON; UPDATE sqlite_master SET name='t1',tbl_name='T1' WHERE name='t9'; PRAGMA writable_schema=OFF;

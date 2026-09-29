@@ -1,0 +1,1 @@
+SELECT count(*), min(docid), max(docid), sum(x='T TX T TX T TX T TX T TX'), (SELECT count(*) FROM t1 WHERE t1 MATCH 'T*') FROM t1;

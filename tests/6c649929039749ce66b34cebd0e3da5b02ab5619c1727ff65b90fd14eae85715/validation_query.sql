@@ -1,0 +1,1 @@
+SELECT count(*), min(docid), max(docid) FROM t1_content;

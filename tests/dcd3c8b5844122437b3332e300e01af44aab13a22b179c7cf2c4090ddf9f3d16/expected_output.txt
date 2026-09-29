@@ -1,0 +1,1 @@
+[["table","x3_a","x3_a","CREATE TABLE x3_a(a INTEGER PRIMARY KEY, b TEXT)"],["table","x3_b","x3_b","CREATE TABLE x3_b(c INTEGER PRIMARY KEY, d TEXT)"],["table","y1","y1","CREATE TABLE y1(a INTEGER, b)"],["table","y2","y2","CREATE TABLE y2(c INTEGER, d)"]]

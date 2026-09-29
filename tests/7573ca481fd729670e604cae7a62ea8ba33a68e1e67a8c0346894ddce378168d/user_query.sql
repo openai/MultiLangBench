@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT count(x), m FROM t1 LEFT JOIN (SELECT x,59 AS m FROM t2) GROUP BY a;

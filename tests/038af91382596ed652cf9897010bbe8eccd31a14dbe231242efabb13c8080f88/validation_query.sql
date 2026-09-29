@@ -1,0 +1,1 @@
+SELECT count(*) FROM sqlite_master WHERE name IN('av1','av2','av3','av4','av2_i1','av2_i2','av3_i1','av4_i1','av4_i2','av4_i3','av4_i4')

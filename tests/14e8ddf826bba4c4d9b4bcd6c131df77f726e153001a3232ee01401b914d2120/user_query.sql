@@ -1,0 +1,1 @@
+DROP TABLE immediate; CREATE INDEX immediate ON t1(a);

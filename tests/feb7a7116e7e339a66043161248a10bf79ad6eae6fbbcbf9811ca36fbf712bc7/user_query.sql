@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts4(tokenize=unicode61 "tokenchars=xyz" "tokenchars=.=" "separators=.=" "separators=xy" "separators=a" "separators=a" "tokenchars=a" "tokenchars=a"); INSERT INTO t1 VALUES('oneatwoxthreeyfour'); INSERT INTO t1 VALUES('a.single=word'); CREATE VIRTUAL TABLE t1aux USING fts4aux(t1); CREATE TABLE result AS SELECT * FROM t1aux;

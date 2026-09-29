@@ -1,0 +1,1 @@
+SELECT xyzzy FROM result ORDER BY rowid

@@ -1,0 +1,1 @@
+PRAGMA encoding='UTF-16'; CREATE TABLE result AS SELECT substr((SELECT * FROM pragma_encoding),1,6) AS enc;

@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(rowid || ':' || x, '|') FROM (SELECT rowid, x FROM t1 ORDER BY rowid)), (SELECT count(*) FROM t1 WHERE t1 MATCH 'a'), (SELECT count(*) FROM t1 WHERE t1 MATCH 'x')

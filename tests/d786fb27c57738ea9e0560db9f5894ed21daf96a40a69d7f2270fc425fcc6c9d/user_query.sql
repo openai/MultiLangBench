@@ -1,0 +1,1 @@
+UPDATE t SET t1='abcdefg',t2='a*[^de]g';INSERT INTO r SELECT t1 GLOB t2 FROM t;

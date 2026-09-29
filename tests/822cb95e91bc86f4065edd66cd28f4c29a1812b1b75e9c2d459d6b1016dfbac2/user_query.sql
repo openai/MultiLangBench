@@ -1,0 +1,1 @@
+ALTER TABLE b2 RENAME x TO hello;

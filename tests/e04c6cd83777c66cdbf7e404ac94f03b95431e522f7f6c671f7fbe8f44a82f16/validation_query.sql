@@ -1,0 +1,1 @@
+SELECT src, a, b, c FROM (SELECT 'abc' AS src, a, b, c FROM abc UNION ALL SELECT 'mirror', a, b, c FROM abc_mirror) ORDER BY src, a;

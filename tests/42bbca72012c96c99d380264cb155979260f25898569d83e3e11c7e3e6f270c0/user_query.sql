@@ -1,0 +1,1 @@
+UPDATE user SET phone=json_extract(phone,'$[0]') WHERE json_array_length(phone)<2; INSERT INTO result SELECT name, substr(phone,1,5) FROM user ORDER BY name;

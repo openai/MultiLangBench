@@ -1,0 +1,1 @@
+CREATE TABLE result AS WITH RECURSIVE closure(x) AS (VALUES(1) UNION SELECT aa FROM closure, link WHERE link.bb=closure.x UNION SELECT bb FROM closure, link WHERE link.aa=closure.x) SELECT x FROM closure ORDER BY x;

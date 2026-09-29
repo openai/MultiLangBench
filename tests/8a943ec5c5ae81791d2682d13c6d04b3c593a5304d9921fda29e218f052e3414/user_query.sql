@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT max(a) FILTER (WHERE (a % 2)==0) AS v FROM t1;

@@ -1,0 +1,1 @@
+UPDATE v1 SET a='xyz' WHERE k IN ('a', 'c');

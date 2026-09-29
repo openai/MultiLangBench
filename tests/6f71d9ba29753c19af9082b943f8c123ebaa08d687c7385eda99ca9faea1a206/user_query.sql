@@ -1,0 +1,1 @@
+DELETE FROM t4_stat WHERE rowid=1;INSERT INTO t4(t4) VALUES('merge=1,12');

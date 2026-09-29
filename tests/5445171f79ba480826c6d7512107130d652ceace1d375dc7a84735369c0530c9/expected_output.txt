@@ -1,0 +1,1 @@
+[["cc","CREATE TABLE cc(c PRIMARY KEY,d REFERENCES pp)"],["pp","CREATE TABLE pp(a PRIMARY KEY,b)"]]

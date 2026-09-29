@@ -1,0 +1,1 @@
+INSERT INTO result SELECT round(atan2(1,0), 7);

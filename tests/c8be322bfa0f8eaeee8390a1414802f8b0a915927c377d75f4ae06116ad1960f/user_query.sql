@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM t0 WHERE (c0,0) IN (SELECT first_value(0) OVER(),0);

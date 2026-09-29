@@ -1,0 +1,1 @@
+INSERT INTO t11(a,b) VALUES(1,2);

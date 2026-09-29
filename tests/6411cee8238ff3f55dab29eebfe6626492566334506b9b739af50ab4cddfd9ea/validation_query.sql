@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1),(SELECT count(*) FROM t2),(SELECT count(*) FROM t3),(SELECT count(*) FROM t4),(SELECT group_concat(tbl||':'||coalesce(idx,'')||':'||stat,'|') FROM (SELECT tbl,idx,stat FROM sqlite_stat1 ORDER BY tbl,idx));

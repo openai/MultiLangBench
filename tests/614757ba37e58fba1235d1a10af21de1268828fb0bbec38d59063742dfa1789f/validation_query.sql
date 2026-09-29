@@ -1,0 +1,1 @@
+SELECT album.aid, album.title, track.tn, track.name FROM album JOIN track USING(aid) ORDER BY album.aid, track.tn;

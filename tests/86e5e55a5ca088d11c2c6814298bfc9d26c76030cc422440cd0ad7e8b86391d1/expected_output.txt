@@ -1,0 +1,1 @@
+[["people","people_idx1","36 18 2"],["people","sqlite_autoindex_people_1","36 1"],["peoplew","peoplew","36 1"],["peoplew","peoplew_idx1","36 18 2"]]

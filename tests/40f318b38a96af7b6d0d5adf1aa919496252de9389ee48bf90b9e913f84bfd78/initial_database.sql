@@ -1,0 +1,1 @@
+CREATE TABLE t7(a,b,c);INSERT INTO t7 VALUES('x','ex',24),('y','why',25);CREATE TABLE t8(a,d,e);INSERT INTO t8 VALUES('x','abc',24),('z','ghi',26);

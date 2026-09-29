@@ -1,0 +1,1 @@
+SELECT col0, col1, col2, col3 FROM t0 ORDER BY rowid;

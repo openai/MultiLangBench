@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE xyz USING fts3();

@@ -1,0 +1,1 @@
+UPDATE t2 SET b = 4/2, c=CAST((0.4*5) AS INTEGER) WHERE a<3;

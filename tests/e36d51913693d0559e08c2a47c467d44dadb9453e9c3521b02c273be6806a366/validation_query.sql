@@ -1,0 +1,1 @@
+SELECT x,y FROM x3 ORDER BY rowid

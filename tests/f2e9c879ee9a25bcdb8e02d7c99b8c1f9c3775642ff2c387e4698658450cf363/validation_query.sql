@@ -1,0 +1,1 @@
+SELECT * FROM pragma_schema_version

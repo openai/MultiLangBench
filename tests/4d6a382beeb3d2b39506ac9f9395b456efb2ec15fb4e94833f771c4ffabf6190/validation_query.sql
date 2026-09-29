@@ -1,0 +1,1 @@
+SELECT xyz,pqr,"c-b" FROM result

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a, sum(d) OVER () AS s FROM t1;

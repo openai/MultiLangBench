@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a2.rowid AS source, a1.rowid AS r FROM a1, a2 WHERE EXISTS (SELECT 1 FROM a1 WHERE a=x AND b=y);

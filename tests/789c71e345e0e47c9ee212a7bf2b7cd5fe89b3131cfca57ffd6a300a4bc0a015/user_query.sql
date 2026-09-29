@@ -1,0 +1,1 @@
+CREATE TABLE query_result AS SELECT * FROM v1 ORDER BY a, b;

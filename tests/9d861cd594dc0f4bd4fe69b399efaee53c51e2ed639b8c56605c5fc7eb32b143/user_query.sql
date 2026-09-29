@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT coalesce(datetime(5373484.4999999,'auto'),'NULL');

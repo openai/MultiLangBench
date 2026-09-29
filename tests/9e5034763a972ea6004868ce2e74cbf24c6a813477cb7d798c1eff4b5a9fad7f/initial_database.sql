@@ -1,0 +1,1 @@
+CREATE TABLE xyz(a int, b text); INSERT INTO xyz VALUES(1,'Hi Y''all'); WITH RECURSIVE c(i) AS (VALUES(2) UNION ALL SELECT i+1 FROM c WHERE i<50) INSERT INTO xyz SELECT i, '('||i||')' FROM c;

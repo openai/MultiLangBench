@@ -1,0 +1,1 @@
+SELECT (SELECT auto_vacuum FROM pragma_auto_vacuum), (SELECT count(*) FROM sqlite_schema WHERE type='table' AND name='abc');

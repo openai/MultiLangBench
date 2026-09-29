@@ -1,0 +1,1 @@
+INSERT INTO result SELECT 3 NOT IN t4;

@@ -1,0 +1,1 @@
+INSERT INTO t1 SELECT 'abc', 'abc', 'abc', 'abc';

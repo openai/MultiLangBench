@@ -1,0 +1,1 @@
+SELECT group_concat(name,',') FROM (SELECT name FROM pragma_table_info('t4') ORDER BY cid)

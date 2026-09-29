@@ -1,0 +1,1 @@
+PRAGMA foreign_keys = 1; INSERT INTO t1 VALUES(1, 'one'); INSERT INTO t1 VALUES(2, 'two'); INSERT INTO t2 VALUES(1, 2); SELECT * FROM t2;

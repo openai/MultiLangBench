@@ -1,0 +1,1 @@
+CREATE TABLE t2(oid,b); CREATE TABLE t3(a,_rowid_); CREATE TABLE t4(a,b,rowid); INSERT INTO t2 VALUES('one','two'),('three','four'); INSERT INTO t3 VALUES('five','six'),('seven','eight'); INSERT INTO t4 VALUES('nine','ten','eleven'),('twelve','thirteen','fourteen');

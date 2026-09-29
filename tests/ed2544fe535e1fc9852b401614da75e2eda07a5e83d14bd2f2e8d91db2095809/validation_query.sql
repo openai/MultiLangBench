@@ -1,0 +1,1 @@
+SELECT 't1' AS tbl, a, b, c FROM t1 UNION ALL SELECT 't2', a, b, c FROM t2 ORDER BY tbl;

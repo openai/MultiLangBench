@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT DISTINCT a, b, c FROM t1;

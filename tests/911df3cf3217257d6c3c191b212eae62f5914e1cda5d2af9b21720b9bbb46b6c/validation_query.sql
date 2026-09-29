@@ -1,0 +1,1 @@
+SELECT id,a,b,c,d,e,f FROM result ORDER BY id;

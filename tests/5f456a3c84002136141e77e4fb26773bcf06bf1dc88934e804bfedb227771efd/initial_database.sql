@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b,c); INSERT INTO t1 VALUES(NULL,'bb',355),('CC','aa',158),('GG','bb',929),('FF','Rb',574);

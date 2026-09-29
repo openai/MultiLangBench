@@ -1,0 +1,1 @@
+CREATE TABLE t5(a,b); CREATE TABLE t4(c,d); INSERT INTO t5 VALUES(1,'xyz'); INSERT INTO t4 VALUES('abc','not xyz'); CREATE TABLE query_result AS SELECT * FROM (SELECT * FROM t5 WHERE a=1 AND b='xyz'), t4 WHERE c='abc';

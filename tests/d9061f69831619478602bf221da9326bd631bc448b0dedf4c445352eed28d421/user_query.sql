@@ -1,0 +1,1 @@
+BEGIN; PRAGMA incremental_vacuum; CREATE TABLE tbl2(b); INSERT INTO tbl2 VALUES('a nice string'); COMMIT;

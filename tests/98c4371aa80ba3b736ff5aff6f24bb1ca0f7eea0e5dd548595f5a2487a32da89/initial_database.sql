@@ -1,0 +1,1 @@
+CREATE TABLE t1(a, b); INSERT INTO t1(a, b) VALUES('old-alpha', 11),('old-bravo', 22);

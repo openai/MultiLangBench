@@ -1,0 +1,4 @@
+BEGIN;
+INSERT INTO t4 VALUES('jumped over the');
+ALTER TABLE t4 RENAME TO t5;
+COMMIT;

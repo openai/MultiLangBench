@@ -1,0 +1,1 @@
+SELECT rowid,subject,body FROM mail ORDER BY rowid

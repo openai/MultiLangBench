@@ -1,0 +1,1 @@
+CREATE TABLE t1_ab(a PRIMARY KEY ON CONFLICT ABORT,b); INSERT INTO t1_ab VALUES(1,'one'),(2,'two'),(3,'three');

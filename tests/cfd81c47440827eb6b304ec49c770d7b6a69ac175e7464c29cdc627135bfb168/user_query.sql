@@ -1,0 +1,1 @@
+DROP TABLE regexp; CREATE INDEX regexp ON t1(a);

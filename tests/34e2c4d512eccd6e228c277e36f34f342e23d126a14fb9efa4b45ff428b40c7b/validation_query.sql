@@ -1,0 +1,1 @@
+SELECT sql FROM sqlite_schema ORDER BY 1

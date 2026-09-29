@@ -1,0 +1,1 @@
+INSERT INTO t3(a,b) VALUES(999, 'test1'), (999, 'test2');

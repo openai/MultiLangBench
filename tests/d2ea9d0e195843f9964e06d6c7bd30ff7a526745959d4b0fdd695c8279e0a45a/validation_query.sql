@@ -1,0 +1,1 @@
+SELECT quote(x), quote(y), '|' AS marker, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND tbl_name='t1' AND name IN ('t1x1','t1x2')) AS index_count FROM t1 ORDER BY rowid;

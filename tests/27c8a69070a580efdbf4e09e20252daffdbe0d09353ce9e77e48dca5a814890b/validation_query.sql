@@ -1,0 +1,1 @@
+SELECT jrow,xrow,fullkey,path,key FROM result ORDER BY rowid;

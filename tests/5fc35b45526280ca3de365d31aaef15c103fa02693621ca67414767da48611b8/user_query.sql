@@ -1,0 +1,1 @@
+DELETE FROM sfi_result; PRAGMA main.cache_size=2000; PRAGMA temp.cache_size=2000; INSERT INTO sfi_result(seq,value) SELECT 1,cache_spill FROM pragma_cache_spill UNION ALL SELECT 2,cache_spill FROM pragma_cache_spill('main') UNION ALL SELECT 3,cache_spill FROM pragma_cache_spill('temp');

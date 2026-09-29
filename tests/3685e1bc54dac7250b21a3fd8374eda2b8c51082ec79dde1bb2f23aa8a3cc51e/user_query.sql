@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result(rn,grp_id,id); INSERT INTO sfi_result SELECT * FROM lll WHERE grp_id=2;

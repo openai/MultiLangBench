@@ -1,0 +1,1 @@
+CREATE INDEX i4 ON t4(substr(a, 2) COLLATE NOCASE, b); CREATE TABLE result AS SELECT a, b FROM t4 WHERE substr(a, 2) = 'abc' COLLATE NOCASE ORDER BY substr(a, 2), b;

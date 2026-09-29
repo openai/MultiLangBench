@@ -1,0 +1,2 @@
+CREATE VIRTUAL TABLE fts USING fts3(tags TEXT);
+INSERT INTO fts(tags) VALUES('tag1');

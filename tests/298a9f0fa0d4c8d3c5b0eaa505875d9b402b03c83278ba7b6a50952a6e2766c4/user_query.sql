@@ -1,0 +1,1 @@
+INSERT INTO result SELECT sqlite_compileoption_get(22)=compile_options, sqlite_compileoption_used(compile_options) FROM pragma_compile_options LIMIT 1 OFFSET 22;

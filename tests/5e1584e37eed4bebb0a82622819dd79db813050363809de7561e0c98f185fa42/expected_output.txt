@@ -1,0 +1,1 @@
+[["apr",1,12.0,"real"],["apr",2,12.01,"real"],["customer",1,null,null],["customer",2,null,null],["v1",1,12.0,"real"],["v1",2,12.01,"real"],["v1rj",1,12.0,"real"],["v1rj",2,12.01,"real"],["v2",1,12.0,"real"],["v2",2,12.01,"real"],["v2rj",1,12.0,"real"],["v2rj",2,12.01,"real"],["v2rjrj",1,12.0,"real"],["v2rjrj",2,12.01,"real"]]

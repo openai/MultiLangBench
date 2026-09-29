@@ -1,0 +1,1 @@
+DROP TABLE view; CREATE INDEX view ON t1(a);

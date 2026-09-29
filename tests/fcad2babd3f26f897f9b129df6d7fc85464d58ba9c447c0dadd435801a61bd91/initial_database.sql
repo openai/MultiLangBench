@@ -1,0 +1,1 @@
+CREATE TABLE j1(x); INSERT INTO j1(x) VALUES('true'),('false'),('null'),('123'),('-234'),('34.5e+6'),(char(34,34)),(char(34,92,34,34)),(char(34,92,92,34)),(char(34)||'abcdefghijlmnopqrstuvwxyz'||char(34)),('[]'),('{}'),('[true,false,null,123,-234,34.5e+6,{},[]]'),('{"a":true,"b":{"c":false}}');

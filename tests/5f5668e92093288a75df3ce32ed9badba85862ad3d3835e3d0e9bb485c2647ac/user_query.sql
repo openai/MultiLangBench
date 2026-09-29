@@ -1,0 +1,1 @@
+CREATE TABLE observed AS SELECT a.key AS a_key, a.data AS a_data, x.key AS x_key, x.total AS total FROM a, (SELECT key, sum(period) AS total FROM b GROUP BY key) AS x WHERE a.key=x.key ORDER BY a.key DESC;

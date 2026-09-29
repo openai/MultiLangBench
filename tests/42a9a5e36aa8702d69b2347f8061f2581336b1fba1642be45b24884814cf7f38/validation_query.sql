@@ -1,0 +1,1 @@
+SELECT j,typeof(j) FROM j

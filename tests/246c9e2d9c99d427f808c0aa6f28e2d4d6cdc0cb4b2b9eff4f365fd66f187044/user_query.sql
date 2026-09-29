@@ -1,0 +1,1 @@
+ALTER TABLE t3x RENAME a TO abcd;

@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT quote(value) AS v FROM t1_stat WHERE rowid=1;

@@ -1,0 +1,1 @@
+SELECT d,i,v FROM r ORDER BY d

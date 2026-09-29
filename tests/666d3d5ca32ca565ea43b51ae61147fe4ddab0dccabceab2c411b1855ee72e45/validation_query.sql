@@ -1,0 +1,1 @@
+SELECT (SELECT integrity_check FROM pragma_integrity_check),group_concat(x,',') FROM (SELECT x FROM t5 ORDER BY x);

@@ -1,0 +1,1 @@
+SELECT 'b1' AS t, rowid AS rid, a, typeof(a) FROM b1 UNION ALL SELECT 'b2', rowid, x, typeof(x) FROM b2 ORDER BY t, rid;

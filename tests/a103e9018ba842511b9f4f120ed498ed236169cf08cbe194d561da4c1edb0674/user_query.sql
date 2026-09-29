@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT coalesce(1,2) AS x;

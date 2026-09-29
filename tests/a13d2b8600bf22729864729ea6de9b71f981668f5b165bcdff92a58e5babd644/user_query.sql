@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT snippet(t3, 'XXX', 'YYY', 'ZZZ', 1) AS v FROM t3 WHERE t3 MATCH 'gestures';

@@ -1,0 +1,1 @@
+SELECT count(*),sum(v<>round(40222.5+i)) FROM result;

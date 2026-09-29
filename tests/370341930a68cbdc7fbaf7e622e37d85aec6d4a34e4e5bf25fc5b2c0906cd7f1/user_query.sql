@@ -1,0 +1,1 @@
+UPDATE t4 SET i=rowid*2,t=printf('number %d',rowid*2) WHERE rowid<20000 AND (rowid%2)=1;

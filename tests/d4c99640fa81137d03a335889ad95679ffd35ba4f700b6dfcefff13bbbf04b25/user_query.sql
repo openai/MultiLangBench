@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE x USING fts4(y,z); INSERT INTO x VALUES('aaa bbb ccc ddd', 'bbb ddd aaa ccc'); CREATE TABLE result AS SELECT y,z FROM x WHERE y MATCH 'bbb NEAR/6 aaa';

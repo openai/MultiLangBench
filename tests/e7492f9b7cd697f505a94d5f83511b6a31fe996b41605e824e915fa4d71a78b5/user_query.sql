@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM t3 FULL JOIN (t4 FULL JOIN (t5 FULL JOIN t6 USING(id)) USING(id)) AS j1 ON j1.id=t3.id ORDER BY coalesce(t3.id,j1.id);

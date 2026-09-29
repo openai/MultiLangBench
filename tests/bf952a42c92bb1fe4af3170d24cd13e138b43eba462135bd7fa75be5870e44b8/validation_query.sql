@@ -1,0 +1,1 @@
+SELECT count(*) AS n, min(v), max(v) FROM sfi_result;

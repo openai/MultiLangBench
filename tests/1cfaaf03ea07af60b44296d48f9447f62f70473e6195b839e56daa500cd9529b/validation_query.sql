@@ -1,0 +1,1 @@
+SELECT count(*),min(length(b)),max(length(b)) FROM t1;

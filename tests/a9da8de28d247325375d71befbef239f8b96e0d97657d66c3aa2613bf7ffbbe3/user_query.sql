@@ -1,0 +1,1 @@
+BEGIN; INSERT INTO t3_content(c0x, c1y, langid) VALUES(NULL, 'a', 0); ROLLBACK;

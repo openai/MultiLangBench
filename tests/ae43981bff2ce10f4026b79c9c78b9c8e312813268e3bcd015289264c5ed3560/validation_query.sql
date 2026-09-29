@@ -1,0 +1,1 @@
+SELECT c, a, b FROM x2 ORDER BY c;

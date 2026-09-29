@@ -1,0 +1,1 @@
+SELECT 'result' AS kind,CAST(c1 AS TEXT) AS name,NULL AS detail FROM _result UNION ALL SELECT 'schema',name,sql FROM sqlite_schema WHERE type='table' AND name IN ('t1','t2') ORDER BY kind,name;

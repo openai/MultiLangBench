@@ -1,0 +1,1 @@
+SELECT rowid, content FROM x1 ORDER BY rowid;

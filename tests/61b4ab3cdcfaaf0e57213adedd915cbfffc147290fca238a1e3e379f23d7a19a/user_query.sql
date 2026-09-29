@@ -1,0 +1,1 @@
+CREATE TABLE result_2_2 AS SELECT count(*) AS n FROM t2 WHERE t2 MATCH '"never zero"';

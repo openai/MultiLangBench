@@ -1,0 +1,1 @@
+INSERT INTO abcꯍdef VALUES(1, 2, 3, 4, 5); SELECT ghiS4jkl, Bâ1A FROM abcꯍdef;

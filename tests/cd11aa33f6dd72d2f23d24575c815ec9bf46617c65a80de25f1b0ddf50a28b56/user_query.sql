@@ -1,0 +1,1 @@
+INSERT INTO main.a1 VALUES(1, 2)

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT x.* FROM sqlite_master AS X WHERE name='tabc' LIMIT 1;

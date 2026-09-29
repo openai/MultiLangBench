@@ -1,0 +1,1 @@
+SELECT empty_valid,whitespace_valid FROM result;

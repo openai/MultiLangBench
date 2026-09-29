@@ -1,0 +1,1 @@
+UPDATE t6 SET "col 3"=0;

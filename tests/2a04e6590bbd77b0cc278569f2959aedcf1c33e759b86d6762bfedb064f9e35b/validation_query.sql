@@ -1,0 +1,1 @@
+SELECT rowid, content FROM ft ORDER BY rowid;

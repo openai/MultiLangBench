@@ -1,0 +1,1 @@
+CREATE TABLE cast(cast cast); INSERT INTO cast VALUES(99); INSERT INTO cast SELECT a FROM t1;

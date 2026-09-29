@@ -1,0 +1,1 @@
+SELECT (SELECT locking_mode FROM lock_capture) AS locking_mode, a, b, c FROM abc ORDER BY rowid;

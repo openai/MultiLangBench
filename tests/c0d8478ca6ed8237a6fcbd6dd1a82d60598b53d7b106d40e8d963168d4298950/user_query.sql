@@ -1,0 +1,1 @@
+ATTACH ':memory:' AS t2; CREATE TABLE t2.t1(a,b); CREATE INDEX t2.x1 ON t1(a); INSERT INTO main.observed SELECT name FROM t2.sqlite_master WHERE name IN ('t1','x1');

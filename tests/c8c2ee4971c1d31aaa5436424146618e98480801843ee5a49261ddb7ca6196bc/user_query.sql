@@ -1,0 +1,1 @@
+INSERT INTO result SELECT floor(1.23), floor(-1.23);

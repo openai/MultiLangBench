@@ -1,0 +1,1 @@
+SELECT aa, bb, count(*) FROM result GROUP BY aa, bb ORDER BY aa, bb

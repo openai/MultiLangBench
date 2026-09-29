@@ -1,0 +1,1 @@
+SELECT e,f FROM result ORDER BY rowid;

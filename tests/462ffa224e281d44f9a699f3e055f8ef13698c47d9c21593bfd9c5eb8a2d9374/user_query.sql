@@ -1,0 +1,1 @@
+/* check-6.6 */ CREATE TABLE sfi_result AS SELECT * FROM t1 ORDER BY rowid;

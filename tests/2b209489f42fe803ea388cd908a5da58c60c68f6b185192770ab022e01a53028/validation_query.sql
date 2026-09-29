@@ -1,0 +1,1 @@
+SELECT a,quote(b) FROM t4

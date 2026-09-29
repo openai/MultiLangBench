@@ -1,0 +1,1 @@
+SELECT x FROM fts3prefix2_result ORDER BY rowid;

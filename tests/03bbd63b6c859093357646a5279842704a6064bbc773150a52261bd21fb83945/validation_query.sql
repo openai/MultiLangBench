@@ -1,0 +1,1 @@
+SELECT length(x), typeof(x), hex(substr(x,1,3)), hex(substr(x,-3)), x=replace(hex(zeroblob(100001)),'00','A') FROM result;

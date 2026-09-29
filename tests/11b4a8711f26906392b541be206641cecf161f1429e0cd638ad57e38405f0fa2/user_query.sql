@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT min(coalesce(a,'xyzzy')) FROM t3;

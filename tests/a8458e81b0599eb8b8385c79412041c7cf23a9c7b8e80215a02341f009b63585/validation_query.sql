@@ -1,0 +1,1 @@
+SELECT count(*), min(docid), max(docid), (SELECT count(*) FROM t5 WHERE t5 MATCH 'sno*'), (SELECT count(*) FROM t5 WHERE t5 MATCH 'and') FROM t5;

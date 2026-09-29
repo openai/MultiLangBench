@@ -1,0 +1,1 @@
+SELECT f2, (SELECT sql FROM sqlite_master WHERE name='y'), (SELECT sql FROM sqlite_master WHERE name='t') FROM x ORDER BY rowid;

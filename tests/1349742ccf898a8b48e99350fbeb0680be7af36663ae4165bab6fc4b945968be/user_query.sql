@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(coalesce(datetime(0,'+5373485 days'),'NULL'))

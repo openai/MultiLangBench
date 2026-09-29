@@ -1,0 +1,1 @@
+SELECT quote(a),quote(b),quote(c),quote(d),quote(e) FROM t5

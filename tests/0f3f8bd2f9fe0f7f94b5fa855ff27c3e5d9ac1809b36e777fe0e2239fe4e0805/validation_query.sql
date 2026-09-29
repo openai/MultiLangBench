@@ -1,0 +1,1 @@
+SELECT x,(SELECT count(*) FROM sqlite_schema WHERE type='table' AND name='t20_1') AS t20_1_exists FROM done

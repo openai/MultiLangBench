@@ -1,0 +1,1 @@
+CREATE TABLE marker(x); INSERT INTO marker VALUES(1);

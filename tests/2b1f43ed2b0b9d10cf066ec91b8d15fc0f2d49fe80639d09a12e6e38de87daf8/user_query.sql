@@ -1,0 +1,1 @@
+INSERT INTO result SELECT quote(ceil(NULL)), ceil('-99.99');

@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT * FROM t6 WHERE EXISTS (SELECT 1 FROM json_each(t6.c) AS x WHERE x.value=1);

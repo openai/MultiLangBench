@@ -1,0 +1,1 @@
+SELECT count(*), (SELECT count(*) FROM t4 WHERE t4 MATCH 'one'), (SELECT count(*) FROM t4 WHERE t4 MATCH 'two'), (SELECT count(*) FROM t4 WHERE t4 MATCH 'three') FROM t4;

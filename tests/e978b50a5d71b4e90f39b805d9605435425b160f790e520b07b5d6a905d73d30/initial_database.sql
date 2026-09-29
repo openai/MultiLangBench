@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE docs USING fts3(); INSERT INTO docs(docid,content) VALUES(1,'a database is a software system'); INSERT INTO docs(docid,content) VALUES(2,'sqlite is a software system')

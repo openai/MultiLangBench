@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT SKU, DeliveredQty FROM InventoryControl WHERE SKU=31;

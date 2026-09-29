@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM sqlite_schema WHERE type='table' AND name='t1'),group_concat(x||','||y,'|') FROM (SELECT x,y FROM t2 ORDER BY rowid);

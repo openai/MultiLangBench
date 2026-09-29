@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; INSERT INTO pp VALUES(2,'two'); INSERT INTO cc VALUES(1,2);

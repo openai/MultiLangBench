@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM sqlite_master WHERE type='table' AND name='tbl2'), (SELECT count(*) FROM sqlite_sequence WHERE name='tbl2');

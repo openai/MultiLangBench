@@ -1,0 +1,1 @@
+INSERT INTO result(b,j) SELECT b, json_group_object(c,a) FROM t1 WHERE rowid<7 GROUP BY b ORDER BY b;

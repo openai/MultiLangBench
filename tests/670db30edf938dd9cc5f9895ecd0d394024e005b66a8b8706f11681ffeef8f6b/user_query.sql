@@ -1,0 +1,1 @@
+INSERT INTO result(x10, y10) SELECT x/10, y/10 FROM t1;

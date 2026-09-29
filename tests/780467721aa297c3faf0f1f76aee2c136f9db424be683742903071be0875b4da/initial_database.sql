@@ -1,0 +1,1 @@
+CREATE TABLE t8(o COLLATE nocase DEFAULT 'abc');

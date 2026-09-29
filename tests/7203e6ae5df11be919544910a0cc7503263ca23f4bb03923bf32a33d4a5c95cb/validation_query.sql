@@ -1,0 +1,1 @@
+SELECT a,b FROM (SELECT 0 AS section,rowid AS ord,a,b FROM t3 UNION ALL SELECT 1,0,99,99 UNION ALL SELECT 2,rowid,x,b FROM t4) ORDER BY section,ord

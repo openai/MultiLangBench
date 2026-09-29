@@ -1,0 +1,1 @@
+SELECT a, b, c, (SELECT count(*) FROM def) AS def_rows FROM abc ORDER BY rowid;

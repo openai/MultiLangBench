@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result1 AS SELECT a,b,c FROM t6 ORDER BY b,a; CREATE TABLE sfi_result2 AS SELECT a,b,c FROM t6 ORDER BY c;

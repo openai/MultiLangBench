@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1),(SELECT sum(a) FROM t1),(SELECT sum(length(b)) FROM t1),(SELECT freelist_count FROM pragma_freelist_count),(SELECT integrity_check FROM pragma_integrity_check);

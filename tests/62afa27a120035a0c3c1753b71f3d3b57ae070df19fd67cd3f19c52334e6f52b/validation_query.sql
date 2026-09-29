@@ -1,0 +1,1 @@
+SELECT term, col, documents, occurrences FROM terms2 ORDER BY term, CASE WHEN col='*' THEN 0 ELSE 1 END, col;

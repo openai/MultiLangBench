@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT json_object('a',1,'b',2.5,'c',NULL,'d','String Test') AS v;

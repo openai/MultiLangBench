@@ -1,0 +1,1 @@
+PRAGMA auto_vacuum=0;PRAGMA auto_vacuum;

@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t5), (SELECT count(*) FROM t5g), (SELECT count(*) FROM sqlite_master WHERE type='trigger' AND name='t5t');

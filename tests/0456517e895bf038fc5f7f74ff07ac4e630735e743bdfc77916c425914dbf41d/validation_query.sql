@@ -1,0 +1,1 @@
+SELECT printf('%.4f',z) FROM result ORDER BY z

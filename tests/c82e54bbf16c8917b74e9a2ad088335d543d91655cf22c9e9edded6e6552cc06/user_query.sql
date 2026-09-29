@@ -1,0 +1,1 @@
+INSERT INTO result SELECT log2(65536), quote(log2(-100)), quote(log2(0));

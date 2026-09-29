@@ -1,0 +1,1 @@
+SELECT b1,b2 FROM sfi_result ORDER BY b1,b2

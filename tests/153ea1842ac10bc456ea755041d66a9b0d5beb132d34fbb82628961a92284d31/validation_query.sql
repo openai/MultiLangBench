@@ -1,0 +1,1 @@
+SELECT 'data' AS kind, a AS v1, b AS v2 FROM t1 UNION ALL SELECT 'integrity', integrity_check, NULL FROM pragma_integrity_check ORDER BY kind, v1;

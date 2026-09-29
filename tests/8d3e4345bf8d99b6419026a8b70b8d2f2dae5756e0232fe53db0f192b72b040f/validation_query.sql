@@ -1,0 +1,1 @@
+SELECT min(rowid),count(rowid)=max(rowid) FROM x1

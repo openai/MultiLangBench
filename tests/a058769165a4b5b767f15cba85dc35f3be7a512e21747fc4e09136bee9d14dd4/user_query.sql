@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT id,count(*) AS n FROM t9 GROUP BY id HAVING count(*)!=1;

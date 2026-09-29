@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT c0,typeof(c0) AS c0_type,c1,typeof(c1) AS c1_type FROM v0;

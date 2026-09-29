@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT count(*) FILTER (WHERE a!=5) AS v FROM t1;

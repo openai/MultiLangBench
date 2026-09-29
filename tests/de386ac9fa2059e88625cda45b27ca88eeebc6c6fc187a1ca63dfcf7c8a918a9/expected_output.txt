@@ -1,0 +1,1 @@
+[["table","t1","t1","CREATE TABLE t1(z, y)"],["trigger","Trigger1","t1","CREATE TRIGGER Trigger1 DELETE ON t1 BEGIN SELECT t1.*, t1.z FROM t1 ORDER BY t1.z; END"]]

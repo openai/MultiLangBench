@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(x, '|') FROM (SELECT x FROM vt ORDER BY rowid)) AS vt_rows, (SELECT group_concat(a, '|') FROM (SELECT a FROM tt ORDER BY a)) AS tt_rows

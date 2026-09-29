@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT json_patch('{"x":{"one":1}}','{"x":{"two":2},"x":"three"}');

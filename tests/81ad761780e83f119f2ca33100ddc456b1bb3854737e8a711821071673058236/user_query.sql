@@ -1,0 +1,1 @@
+DROP TABLE like; CREATE INDEX like ON t1(a);

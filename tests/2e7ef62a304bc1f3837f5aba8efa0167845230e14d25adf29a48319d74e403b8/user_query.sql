@@ -1,0 +1,3 @@
+CREATE TABLE t6(y,z,PRIMARY KEY(y,z));
+CREATE TABLE result(y,z);
+INSERT INTO result SELECT * FROM t6 WHERE y=NULL AND z IN ('hello');

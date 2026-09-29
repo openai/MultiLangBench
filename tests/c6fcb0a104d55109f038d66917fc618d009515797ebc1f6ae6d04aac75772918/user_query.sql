@@ -1,0 +1,1 @@
+INSERT INTO t3(t3) VALUES('integrity-check');

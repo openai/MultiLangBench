@@ -1,0 +1,1 @@
+CREATE INDEX index1 ON table1(f1); PRAGMA count_changes=ON; EXPLAIN DELETE FROM table1 WHERE f1=3; DELETE FROM 'table1' WHERE f1=3;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT n||'' AS x FROM t1 ORDER BY 1;

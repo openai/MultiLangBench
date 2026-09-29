@@ -1,0 +1,1 @@
+SELECT count(*),sum(length(x)) FROM t2

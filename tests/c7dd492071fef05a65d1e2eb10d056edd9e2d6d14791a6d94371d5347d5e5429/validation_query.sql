@@ -1,0 +1,1 @@
+SELECT c1, c2 FROM collate3t1 ORDER BY rowid;

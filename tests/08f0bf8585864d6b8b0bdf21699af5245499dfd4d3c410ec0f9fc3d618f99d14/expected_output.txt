@@ -1,0 +1,1 @@
+[["table","t4","t4","CREATE TABLE t4(a int primary key) WITHOUT rowid"]]

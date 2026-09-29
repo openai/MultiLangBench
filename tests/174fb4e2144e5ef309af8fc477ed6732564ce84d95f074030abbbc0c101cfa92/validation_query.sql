@@ -1,0 +1,1 @@
+SELECT n, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='f_i' AND tbl_name='folders') FROM result;

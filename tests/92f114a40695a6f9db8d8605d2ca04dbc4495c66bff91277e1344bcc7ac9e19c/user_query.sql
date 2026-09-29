@@ -1,0 +1,1 @@
+BEGIN;DROP TABLE t2;ROLLBACK;CREATE TABLE result AS SELECT count(*) n,sum(x) sx,sum(y) sy,sum(z) sz FROM t2;

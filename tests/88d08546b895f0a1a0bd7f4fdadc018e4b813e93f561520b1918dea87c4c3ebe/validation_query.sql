@@ -1,0 +1,1 @@
+SELECT a, b, length(c), c=zeroblob(676), (SELECT page_size FROM pragma_page_size) FROM t1 INDEXED BY i1 ORDER BY a

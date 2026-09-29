@@ -1,0 +1,1 @@
+CREATE TABLE parent(x,y,UNIQUE(y,x)); CREATE TABLE c1(a,b,FOREIGN KEY(a,b) REFERENCES parent(x,y));

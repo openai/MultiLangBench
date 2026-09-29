@@ -1,0 +1,1 @@
+PRAGMA trusted_schema=OFF; CREATE TABLE t4(a,b,c); INSERT INTO t4 VALUES(1,2,3),('a','b','c'),(4,'d',0); SELECT * FROM t4; CREATE TEMP TABLE temp4(a,b,c); INSERT INTO temp4 SELECT * FROM t4; CREATE TABLE result_1400 AS SELECT a,b,c FROM temp4;

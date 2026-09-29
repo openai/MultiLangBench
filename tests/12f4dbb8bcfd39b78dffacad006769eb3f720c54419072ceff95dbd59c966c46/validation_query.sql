@@ -1,0 +1,1 @@
+SELECT count(*),count(DISTINCT req),sum(id),sum(length(c)),(SELECT c FROM result WHERE req=1),(SELECT c FROM result WHERE req=100000) FROM result;

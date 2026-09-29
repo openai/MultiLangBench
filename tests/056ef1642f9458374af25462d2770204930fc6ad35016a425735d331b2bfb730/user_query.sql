@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT * FROM t9 WHERE id<>128*h+64*g+32*f+16*e+8*d+4*c+2*b+a;

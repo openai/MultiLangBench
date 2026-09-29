@@ -1,0 +1,1 @@
+CREATE TABLE tabc(a,b,c); INSERT INTO tabc VALUES(1,2,3); CREATE TABLE txyz(x,y,z); INSERT INTO txyz VALUES(4,5,6); CREATE TABLE tboth(a,b,c,x,y,z); INSERT INTO tboth VALUES(11,12,13,14,15,16);

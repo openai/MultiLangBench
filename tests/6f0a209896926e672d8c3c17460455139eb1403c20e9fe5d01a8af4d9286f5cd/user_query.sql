@@ -1,0 +1,1 @@
+ATTACH ':memory:' AS db2; INSERT INTO main.capture VALUES(1);

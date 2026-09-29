@@ -1,0 +1,1 @@
+UPDATE vw SET b=b+1000 WHERE a>101 AND a<2000;

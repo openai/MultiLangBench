@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM result_one) AS n1, (SELECT count(*) FROM result_two) AS n2, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='t1a') AS ni

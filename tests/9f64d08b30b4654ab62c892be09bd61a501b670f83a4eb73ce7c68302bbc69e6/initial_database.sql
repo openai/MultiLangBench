@@ -1,0 +1,1 @@
+CREATE TABLE album(dummy); CREATE TABLE track(dummy);

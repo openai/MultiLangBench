@@ -1,0 +1,1 @@
+SELECT * FROM t1 WHERE (x='ghi' OR y='jkl') AND z IS NOT NULL;

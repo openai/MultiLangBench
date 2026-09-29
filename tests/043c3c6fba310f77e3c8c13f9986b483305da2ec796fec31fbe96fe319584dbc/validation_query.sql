@@ -1,0 +1,1 @@
+SELECT x,a,z FROM result ORDER BY x,a,z

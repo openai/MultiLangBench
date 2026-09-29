@@ -1,0 +1,1 @@
+SELECT p.page_size, t.a, t.b FROM pragma_page_size AS p CROSS JOIN t1 AS t ORDER BY t.a, t.b;

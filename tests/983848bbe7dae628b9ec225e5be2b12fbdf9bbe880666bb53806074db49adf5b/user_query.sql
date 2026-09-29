@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT typeof(trim(NULL)) AS x;

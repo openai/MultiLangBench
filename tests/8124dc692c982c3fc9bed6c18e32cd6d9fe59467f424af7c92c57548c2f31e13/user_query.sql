@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT instr(s,'Y') FROM strings;

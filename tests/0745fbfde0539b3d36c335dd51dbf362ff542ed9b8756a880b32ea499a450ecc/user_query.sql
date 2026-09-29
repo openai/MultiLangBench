@@ -1,0 +1,3 @@
+DELETE FROM log;
+INSERT INTO tbl VALUES('c', 'd');
+DELETE FROM tbl;

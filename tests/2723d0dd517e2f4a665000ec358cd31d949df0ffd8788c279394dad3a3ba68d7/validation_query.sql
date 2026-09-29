@@ -1,0 +1,1 @@
+SELECT seq, eq_plus_xi, eq_xi, eq_xb FROM result ORDER BY seq

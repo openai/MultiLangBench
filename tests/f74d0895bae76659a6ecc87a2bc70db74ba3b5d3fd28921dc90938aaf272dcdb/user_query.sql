@@ -1,0 +1,1 @@
+CREATE TABLE t2(a,b UNIQUE); CREATE TABLE t3(a int references t2(b), b UNIQUE); CREATE TABLE result AS SELECT seq,name,[unique] FROM pragma_index_list('t3') ORDER BY seq;

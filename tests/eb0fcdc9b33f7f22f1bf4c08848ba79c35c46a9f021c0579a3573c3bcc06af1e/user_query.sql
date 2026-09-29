@@ -1,0 +1,1 @@
+CREATE TEMP TABLE abc(a, b, c); INSERT INTO capture SELECT sql FROM temp.sqlite_master;

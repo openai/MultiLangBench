@@ -1,0 +1,1 @@
+SELECT x, y FROM aux_snapshot ORDER BY rowid;

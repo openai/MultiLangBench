@@ -1,0 +1,1 @@
+CREATE TABLE j1(a);

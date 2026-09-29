@@ -1,0 +1,1 @@
+CREATE TABLE t1_ig(a PRIMARY KEY ON CONFLICT IGNORE,b); INSERT INTO t1_ig VALUES(1,'one'),(2,'two'),(3,'three'),(4,'string'),(6,'string');

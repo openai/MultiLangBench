@@ -1,0 +1,1 @@
+PRAGMA auto_vacuum=NONE; VACUUM; CREATE TABLE base(t);

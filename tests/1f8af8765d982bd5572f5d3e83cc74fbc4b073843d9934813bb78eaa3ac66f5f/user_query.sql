@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT COUNT(*)+1 FROM test1;

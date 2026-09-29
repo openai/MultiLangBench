@@ -1,0 +1,2 @@
+CREATE TABLE /* hi */ t3102a(x); CREATE TABLE t3102b -- comment
+(y); CREATE INDEX t3102c ON t3102a(x); ALTER TABLE t3102a RENAME TO t3102a_rename;

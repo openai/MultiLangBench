@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT typeof(replace('This is the main test string','main',NULL)) AS x;

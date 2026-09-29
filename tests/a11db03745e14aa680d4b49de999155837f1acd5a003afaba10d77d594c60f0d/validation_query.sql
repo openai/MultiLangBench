@@ -1,0 +1,1 @@
+SELECT count(*) AS n, min(i) AS min_i, max(i) AS max_i, min(length(j)) AS min_len, max(length(j)) AS max_len, count(DISTINCT j) AS unique_values, (SELECT page_size FROM pragma_page_size) AS page_size FROM t1;

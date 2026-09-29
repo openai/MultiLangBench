@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT (SELECT row_number() OVER () FROM (SELECT c FROM t1)) FROM t2;

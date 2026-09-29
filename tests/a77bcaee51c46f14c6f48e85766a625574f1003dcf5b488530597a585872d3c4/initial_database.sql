@@ -1,0 +1,1 @@
+CREATE TABLE test2(f1 int default -111, f2 real default +4.32, f3 int default +222, f4 int default 7.89); INSERT INTO test2(f1,f3) VALUES(+10,-10); INSERT INTO test2(f2,f4) VALUES(1.23,-3.45);

@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b,UNIQUE(a,b)); INSERT INTO t1 VALUES(1,replace(hex(zeroblob(1000)),'00','x')); INSERT INTO t1 VALUES(2,replace(hex(zeroblob(1000)),'00','y'));

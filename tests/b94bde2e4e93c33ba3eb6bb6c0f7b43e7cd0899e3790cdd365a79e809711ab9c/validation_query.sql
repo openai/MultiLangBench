@@ -1,0 +1,1 @@
+SELECT typeof(x),length(x),quote(x),length(CAST(x AS BLOB)),quote(CAST(x AS BLOB)) FROM t3 ORDER BY rowid;

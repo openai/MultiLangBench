@@ -1,0 +1,1 @@
+SELECT 't6w' AS tbl,a,w AS v FROM t6w UNION ALL SELECT 't6x',a,x FROM t6x UNION ALL SELECT 't6y',a,y FROM t6y UNION ALL SELECT 't6z',a,z FROM t6z ORDER BY tbl,a;

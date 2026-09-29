@@ -1,0 +1,1 @@
+[["u1ab","index","u1","CREATE INDEX u1ab ON u1(b,c)"],["u1","table","u1","CREATE TABLE u1(a INTEGER PRIMARY KEY, b, c)"],["u2","table","u2","CREATE TABLE u2(a INTEGER PRIMARY KEY, b, c)"]]

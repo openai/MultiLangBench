@@ -1,0 +1,1 @@
+UPDATE t2 SET b=(SELECT b FROM t1 WHERE t1.rowid=t2.rowid); PRAGMA incremental_vacuum;

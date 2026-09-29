@@ -1,0 +1,1 @@
+BEGIN; UPDATE t1 SET c=printf('number %d',(a*134775813+1)%500000); COMMIT;

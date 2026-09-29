@@ -1,0 +1,1 @@
+SELECT c FROM selected_c ORDER BY c;

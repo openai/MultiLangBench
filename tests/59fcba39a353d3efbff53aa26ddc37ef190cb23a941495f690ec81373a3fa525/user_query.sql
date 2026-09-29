@@ -1,0 +1,1 @@
+CREATE TABLE t1(a, b FLOAT); CREATE INDEX t1x1 ON t1(a,b,a,a,a,a,a,a,a,a,a,b);

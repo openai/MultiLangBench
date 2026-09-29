@@ -1,0 +1,1 @@
+[["table","x1","x1","CREATE TABLE x1(a, b)"]]

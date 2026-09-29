@@ -1,0 +1,1 @@
+SELECT quote(j),typeof(j),quote(i),typeof(i) FROM j CROSS JOIN i

@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; INSERT INTO one VALUES(2,3,4),(3,4,5); INSERT INTO two VALUES(1,2,3),(2,3,4),(3,4,5);

@@ -1,0 +1,1 @@
+SELECT rowid, offsets(t9) FROM t9 WHERE t9 MATCH 'to*' ORDER BY rowid;

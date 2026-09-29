@@ -1,0 +1,5 @@
+CREATE TABLE t1(i INT PRIMARY KEY, a, b);
+INSERT INTO t1 VALUES(NULL, 'one', 'i');
+CREATE INDEX i1a ON t1(a);
+CREATE INDEX i1b ON t1(b);
+CREATE TABLE query_result(x);

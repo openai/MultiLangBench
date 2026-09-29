@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a,b,c FROM t1 WHERE rowid>20 ORDER BY a;

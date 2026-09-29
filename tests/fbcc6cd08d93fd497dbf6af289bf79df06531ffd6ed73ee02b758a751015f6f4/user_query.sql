@@ -1,0 +1,1 @@
+DROP VIEW t2; CREATE TRIGGER r3 AFTER INSERT ON t1 BEGIN INSERT INTO t3(x,y) VALUES(new.a,new.b); INSERT INTO t4(p) VALUES(new.c); END; DELETE FROM schema_copy; INSERT INTO schema_copy(name,sql) SELECT name,sql FROM sqlite_schema WHERE sql IS NOT NULL;

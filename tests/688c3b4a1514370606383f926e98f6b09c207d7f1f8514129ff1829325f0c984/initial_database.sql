@@ -1,0 +1,1 @@
+CREATE TABLE t2_fa(a,b NOT NULL ON CONFLICT FAIL); INSERT INTO t2_fa VALUES(1,'one'),(2,'two'),(3,'three'),(4,'xx');

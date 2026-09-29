@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT org_id, count((NOT (org_id IS NULL)) AND (NOT (nickname IS NULL))) AS n FROM person WHERE (CASE WHEN license != '' THEN 1 ELSE 0 END) GROUP BY 1;

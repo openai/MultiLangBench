@@ -1,0 +1,1 @@
+SELECT rowid=pk FROM t8

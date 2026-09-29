@@ -1,0 +1,1 @@
+CREATE TABLE _sfi_result AS SELECT snippet(t3,'[',']') AS v FROM t3 WHERE t3 MATCH 'a AND d OR b' ORDER BY docid DESC;

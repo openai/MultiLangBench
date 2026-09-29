@@ -1,0 +1,1 @@
+CREATE TABLE query_result AS SELECT user_version FROM pragma_user_version;

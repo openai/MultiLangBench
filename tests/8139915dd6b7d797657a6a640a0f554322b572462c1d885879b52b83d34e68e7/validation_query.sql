@@ -1,0 +1,1 @@
+SELECT quote(c1),typeof(c1),quote(c2),typeof(c2) FROM t1 ORDER BY c1;

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t9 USING fts4(a, "", '---');

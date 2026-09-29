@@ -1,0 +1,1 @@
+CREATE TABLE selected_fkey AS SELECT * FROM fkey;

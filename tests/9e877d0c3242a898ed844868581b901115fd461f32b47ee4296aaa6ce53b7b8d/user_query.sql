@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT typeof(round(5.1,1)) AS x;

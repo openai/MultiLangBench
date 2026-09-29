@@ -1,0 +1,1 @@
+[["acorn",1],["lakeside",1],["meyers",3],["smith",2]]

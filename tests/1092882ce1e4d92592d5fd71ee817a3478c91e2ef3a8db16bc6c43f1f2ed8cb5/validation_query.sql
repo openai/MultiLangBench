@@ -1,0 +1,1 @@
+SELECT f1,f2,(SELECT count(*) FROM pragma_index_info('idx1') WHERE name='f1') FROM test1 ORDER BY f1,f2;

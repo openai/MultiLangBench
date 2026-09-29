@@ -1,0 +1,1 @@
+ALTER TABLE t1 ADD COLUMN d; UPDATE t1 SET d=length(a); CREATE INDEX t1a2 ON t1(SUBSTR(a, 27, 3)) WHERE d>=29; CREATE TABLE sfi_result AS SELECT rowid AS id, b, c FROM t1 WHERE substr(a,27,3)=='ord' AND d>=29;

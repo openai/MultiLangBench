@@ -1,0 +1,1 @@
+CREATE TABLE query_result AS SELECT a FROM t1 WHERE length(b)<10 AND b<>'def' ORDER BY a;

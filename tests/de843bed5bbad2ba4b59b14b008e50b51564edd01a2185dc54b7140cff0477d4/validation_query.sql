@@ -1,0 +1,1 @@
+SELECT s.type, s.name, s.tbl_name, s.sql, t.a, t.b FROM sqlite_schema AS s CROSS JOIN (SELECT a, b FROM t1 INDEXED BY i1) AS t WHERE s.type='index' AND s.name='i1' ORDER BY t.b, t.a;

@@ -1,0 +1,1 @@
+SELECT id,eventtype FROM tbooking ORDER BY id

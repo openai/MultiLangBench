@@ -1,0 +1,1 @@
+SELECT name,is_unique,origin FROM _sfi_result ORDER BY seq;

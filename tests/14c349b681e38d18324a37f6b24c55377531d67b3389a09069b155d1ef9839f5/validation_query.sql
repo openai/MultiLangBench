@@ -1,0 +1,1 @@
+SELECT 'a1' AS src,id,v FROM a1 UNION ALL SELECT 'a2',id,v FROM a2 ORDER BY src,id

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE IF NOT EXISTS treal USING echo(treal);

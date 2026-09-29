@@ -1,0 +1,1 @@
+SELECT cid, name, type, nn, dflt_value, pk FROM observed ORDER BY cid

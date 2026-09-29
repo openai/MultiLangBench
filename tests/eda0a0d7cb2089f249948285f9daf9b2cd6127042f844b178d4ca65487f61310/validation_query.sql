@@ -1,0 +1,1 @@
+SELECT count(*),min(x),max(x) FROM t14

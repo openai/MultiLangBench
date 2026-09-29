@@ -1,0 +1,1 @@
+SELECT type, name, tbl_name, (sql IS NULL) AS implicit_schema_object FROM sqlite_schema WHERE tbl_name='people' ORDER BY type, name;

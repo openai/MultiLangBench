@@ -1,0 +1,1 @@
+SELECT src,c1,c2 FROM (SELECT 't1' AS src,a AS c1,b AS c2 FROM t1 UNION ALL SELECT 't1_a',a,b FROM t1_a UNION ALL SELECT 't1_b',c,d FROM t1_b UNION ALL SELECT 't3',k,v FROM t3 UNION ALL SELECT 't3_a',k,v FROM t3_a UNION ALL SELECT 't3_b',k,v FROM t3_b) ORDER BY src,c1,c2;

@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT * FROM xy WHERE (i,j) IS (2,2);

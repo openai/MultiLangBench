@@ -1,0 +1,1 @@
+SELECT x, y, z, (SELECT count(*) FROM t1) AS t1_rows, (SELECT count(*) FROM sqlite_schema WHERE type='trigger' AND name='tr1' AND tbl_name='t1') AS trigger_count FROM t2 ORDER BY x;

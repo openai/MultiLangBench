@@ -1,0 +1,1 @@
+[["view","view2","view2","CREATE VIEW view2 AS SELECT * FROM tab1 LIMIT 10 OFFSET 10"]]

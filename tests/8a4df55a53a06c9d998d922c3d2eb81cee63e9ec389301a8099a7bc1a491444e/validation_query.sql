@@ -1,0 +1,1 @@
+SELECT main_count, aux_count FROM population_result;

@@ -1,0 +1,3 @@
+CREATE TABLE sfi_result AS
+SELECT CASE WHEN DeliveredQty=10 THEN 'TEST PASSED!' ELSE 'TEST FAILED!' END AS result
+FROM InventoryControl WHERE SKU=31;

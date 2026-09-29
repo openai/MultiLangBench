@@ -1,0 +1,1 @@
+PRAGMA writable_schema=ON; UPDATE sqlite_master SET type='view',name='v3',tbl_name='v3' WHERE name='v2'; DELETE FROM sfi_result; INSERT INTO sfi_result(type,name,tbl_name,marker) SELECT type,name,tbl_name,'|' FROM sqlite_master WHERE name<>'sfi_result' ORDER BY rowid; UPDATE sqlite_master SET type='view',name='v2',tbl_name='v2' WHERE name='v3'; PRAGMA writable_schema=OFF;

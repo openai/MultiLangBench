@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT upper(a) AS a,lower(a) AS b FROM t2;

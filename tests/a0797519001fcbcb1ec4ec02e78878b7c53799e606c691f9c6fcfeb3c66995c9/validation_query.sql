@@ -1,0 +1,1 @@
+SELECT k, typeof(v), length(v), v=zeroblob(100) FROM blobs ORDER BY k;

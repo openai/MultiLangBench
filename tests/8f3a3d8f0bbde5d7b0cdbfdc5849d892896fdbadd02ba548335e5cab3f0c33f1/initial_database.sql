@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE fts USING fts4(t); BEGIN; INSERT INTO fts(rowid,t) VALUES(2,'test'); INSERT INTO fts(fts) VALUES('optimize'); COMMIT;

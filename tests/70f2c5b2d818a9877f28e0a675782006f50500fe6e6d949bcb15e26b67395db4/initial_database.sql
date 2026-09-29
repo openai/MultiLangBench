@@ -1,0 +1,1 @@
+CREATE TABLE result(kind TEXT, object_name TEXT);

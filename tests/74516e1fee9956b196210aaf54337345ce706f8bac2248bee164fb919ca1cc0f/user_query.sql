@@ -1,0 +1,1 @@
+CREATE TABLE _sfi_result AS SELECT y FROM terms, x2 WHERE y=term AND col='*';

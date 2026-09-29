@@ -1,0 +1,1 @@
+CREATE TABLE result AS WITH RECURSIVE above(id,depth) AS (VALUES(16384,0) UNION ALL SELECT t1.y, above.depth+1 FROM t1 JOIN above ON t1.x=above.id WHERE above.depth<3) SELECT id FROM above WHERE depth=3;

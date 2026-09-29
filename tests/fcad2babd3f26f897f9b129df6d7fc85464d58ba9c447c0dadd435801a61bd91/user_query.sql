@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM j1 WHERE NOT json_valid(char(0x20,0x09,0x0a,0x0d)||x);

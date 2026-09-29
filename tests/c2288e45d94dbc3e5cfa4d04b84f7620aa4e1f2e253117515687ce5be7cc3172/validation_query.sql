@@ -1,0 +1,1 @@
+SELECT y, cx, ca FROM sfi_result ORDER BY y;

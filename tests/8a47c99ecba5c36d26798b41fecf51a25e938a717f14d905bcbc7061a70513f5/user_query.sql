@@ -1,0 +1,1 @@
+CREATE TEMP TABLE t2(c,d); CREATE TEMP TABLE log(op,x,y); CREATE TEMP TRIGGER t2r1 BEFORE INSERT ON t2 BEGIN INSERT INTO log VALUES('I2',new.c,new.d); END; INSERT INTO t2 VALUES('bravo','charlie') RETURNING d,c,'z'; CREATE TABLE main.capture(k,v1,v2); INSERT INTO main.capture SELECT 't2',c,d FROM temp.t2; INSERT INTO main.capture SELECT op,x,y FROM temp.log;

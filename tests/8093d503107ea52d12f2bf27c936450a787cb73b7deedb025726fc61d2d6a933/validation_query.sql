@@ -1,0 +1,1 @@
+SELECT nocase_v,binary_v FROM result ORDER BY +binary_v;

@@ -1,0 +1,1 @@
+SELECT count(*) FROM sqlite_schema WHERE name='simpledata' OR name GLOB 'simpledata_*'

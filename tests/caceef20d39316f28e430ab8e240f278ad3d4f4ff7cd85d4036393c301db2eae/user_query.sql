@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a,b,a+b FROM (SELECT avg(x) AS 'a', avg(y) AS 'b' FROM t1) WHERE a>10;

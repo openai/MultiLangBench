@@ -1,0 +1,1 @@
+SELECT x,y FROM t17 ORDER BY x;

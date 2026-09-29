@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT 1 AS v WHERE (2,(2,0)) IS (2,(2,0));

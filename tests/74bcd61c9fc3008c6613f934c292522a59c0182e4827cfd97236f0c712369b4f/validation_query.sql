@@ -1,0 +1,1 @@
+SELECT f1,f2,(SELECT count(*) FROM sqlite_master WHERE type='index' AND tbl_name='test1' AND name IN ('idx1','idx2','idx3')) FROM test1 ORDER BY f1,f2;

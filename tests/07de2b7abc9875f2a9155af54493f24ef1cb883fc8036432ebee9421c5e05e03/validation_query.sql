@@ -1,0 +1,1 @@
+SELECT a.auto_vacuum, (SELECT count(*) FROM t) AS row_count FROM pragma_auto_vacuum AS a

@@ -1,0 +1,1 @@
+SELECT e FROM r12a ORDER BY ord;

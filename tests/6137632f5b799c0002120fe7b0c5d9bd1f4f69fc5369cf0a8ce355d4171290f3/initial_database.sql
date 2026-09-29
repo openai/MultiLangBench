@@ -1,0 +1,1 @@
+CREATE TABLE test2(f1 int default 111, f2 real default -4.32, f3 text default hi, f4 text default 'abc-123', f5 varchar(10)); CREATE INDEX index9 ON test2(f1,f2); CREATE INDEX indext ON test2(f4,f5);

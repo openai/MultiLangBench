@@ -1,0 +1,1 @@
+UPDATE t1 SET i=NULL, n=NULL, t=NULL, o=NULL;

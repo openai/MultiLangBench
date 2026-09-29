@@ -1,0 +1,1 @@
+CREATE TABLE glob(glob glob); INSERT INTO glob VALUES(99); INSERT INTO glob SELECT a FROM t1;

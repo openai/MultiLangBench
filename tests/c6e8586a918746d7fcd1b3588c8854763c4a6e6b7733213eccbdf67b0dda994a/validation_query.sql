@@ -1,0 +1,1 @@
+SELECT tx,lx,ty FROM result ORDER BY rowid;

@@ -1,0 +1,1 @@
+SELECT enc FROM result;

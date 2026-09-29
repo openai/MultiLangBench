@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT 1 AS v WINDOW win AS (PARTITION BY fake_column);

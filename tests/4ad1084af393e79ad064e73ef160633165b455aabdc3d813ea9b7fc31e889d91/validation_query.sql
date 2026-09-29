@@ -1,0 +1,1 @@
+SELECT v, storage FROM result ORDER BY seq

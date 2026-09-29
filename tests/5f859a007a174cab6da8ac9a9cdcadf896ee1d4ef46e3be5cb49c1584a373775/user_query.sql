@@ -1,0 +1,1 @@
+INSERT INTO docs(docid,content) VALUES(1,'a database is a software system')

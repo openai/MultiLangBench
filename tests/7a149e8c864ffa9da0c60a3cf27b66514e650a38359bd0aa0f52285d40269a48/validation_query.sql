@@ -1,0 +1,1 @@
+SELECT hex(m1),hex(m2) FROM r ORDER BY rowid

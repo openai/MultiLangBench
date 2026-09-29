@@ -1,0 +1,1 @@
+[["table","t1","t1","CREATE TABLE t1(a, b)"],["table","t2","t2","CREATE TABLE t2(c, d)"],["view","v1","v1","CREATE VIEW v1 AS SELECT * FROM t1, t2"],["view","v2","v2","CREATE VIEW v2 AS SELECT * FROM t1, t2"],["view","vA","vA","CREATE VIEW vA AS\n  SELECT * FROM v1, (\n    SELECT * FROM t1 LEFT JOIN t2 ON (a=c)\n  )\n  UNION ALL\n  SELECT * FROM v1, v2"]]

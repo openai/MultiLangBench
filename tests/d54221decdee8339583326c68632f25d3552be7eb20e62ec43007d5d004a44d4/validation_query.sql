@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1),(SELECT sum(w) FROM t1),(SELECT count(*) FROM t2),(SELECT count(*) FROM sqlite_schema WHERE type='index' AND name IN('i1w','i1xy','i2p','i2r','i2qs'))

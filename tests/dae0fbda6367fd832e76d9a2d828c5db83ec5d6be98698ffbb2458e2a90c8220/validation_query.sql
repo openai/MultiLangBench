@@ -1,0 +1,1 @@
+SELECT (SELECT auto_vacuum FROM pragma_auto_vacuum), (SELECT sql FROM sqlite_schema WHERE type='table' AND name='t1'), a, b, c FROM t1 ORDER BY rowid;

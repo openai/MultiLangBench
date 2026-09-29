@@ -1,0 +1,1 @@
+SELECT name,sql FROM sqlite_master WHERE name='x3'

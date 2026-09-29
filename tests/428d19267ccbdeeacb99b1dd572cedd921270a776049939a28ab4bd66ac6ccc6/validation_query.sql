@@ -1,0 +1,1 @@
+SELECT docid, content FROM r46 ORDER BY docid

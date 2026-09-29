@@ -1,0 +1,1 @@
+UPDATE t3 SET c3='b3';

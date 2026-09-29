@@ -1,0 +1,1 @@
+UPDATE t1 SET rowid=12345 WHERE x=1; CREATE TABLE actual AS SELECT rowid AS rid, * FROM t1;

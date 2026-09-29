@@ -1,0 +1,1 @@
+SELECT count(*) AS nrow,sum(request) AS request_sum,sum(a IS NULL) AS null_a,sum(b IS NULL) AS null_b,sum(c IS NULL) AS null_c,sum(length(a)) AS length_a,sum(length(b)) AS length_b,sum(length(c)) AS length_c,min(a) AS min_a,max(c) AS max_c FROM result;

@@ -1,0 +1,1 @@
+[[6,"N","NULL","NNEDCBA"],[7,"N","NULL","NNEDCBA"],[5,"E","10.26","NNEDCBA"],[4,"D","10.25","NNEDCBA"],[3,"C","8.0","NNEDCBA"],[2,"B","5.55","NNEDCBA"],[1,"A","5.4","NNEDCBA"]]

@@ -1,0 +1,1 @@
+SELECT all_count,x_count FROM result ORDER BY seq;

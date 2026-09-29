@@ -1,0 +1,1 @@
+PRAGMA recursive_triggers=OFF; INSERT INTO t1 VALUES('a', 'b'); INSERT INTO t1 VALUES('c', 'd');

@@ -1,0 +1,1 @@
+PRAGMA fullfsync=ON;BEGIN;DELETE FROM t3 WHERE rowid%10!=0;INSERT INTO t3 SELECT 'abcdefghij'||x FROM t3;DELETE FROM t3 WHERE rowid%10!=0;INSERT INTO t3 SELECT 'klmnopqrst'||x FROM t3;ROLLBACK;CREATE TABLE result AS SELECT count(*) n,sum(length(x)) s,min(x) lo,max(x) hi FROM t3;

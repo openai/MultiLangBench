@@ -1,0 +1,1 @@
+CREATE INDEX i2 ON t2(substr(x, 2)); CREATE TABLE result AS SELECT x FROM t2 ORDER BY substr(x, 2) COLLATE nocase;

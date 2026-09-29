@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT (SELECT total((SELECT 2 FROM x1))) AS v FROM x2;

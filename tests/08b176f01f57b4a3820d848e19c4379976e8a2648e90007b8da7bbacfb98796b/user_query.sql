@@ -1,0 +1,1 @@
+UPDATE t1 SET b=b+y FROM t2 WHERE t2.x=t1.a RETURNING t1.b;

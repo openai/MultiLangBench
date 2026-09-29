@@ -1,0 +1,1 @@
+SELECT 't7',rowid,a,b FROM t7 UNION ALL SELECT 't8',rowid,a,b FROM t8

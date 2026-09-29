@@ -1,0 +1,1 @@
+SELECT rowid, k, typeof(v), length(v), v = replace(hex(zeroblob(10000)), '00', '.') AS all_dots FROM blobs WHERE rowid=3

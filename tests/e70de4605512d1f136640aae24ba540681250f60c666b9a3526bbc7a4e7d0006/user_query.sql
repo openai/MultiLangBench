@@ -1,0 +1,1 @@
+INSERT INTO result SELECT rowid FROM t1 WHERE spanish MATCH 'one';

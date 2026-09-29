@@ -1,0 +1,1 @@
+SELECT count(*) FROM sqlite_master WHERE type IN('table','index') AND name NOT LIKE 'sqlite_%';

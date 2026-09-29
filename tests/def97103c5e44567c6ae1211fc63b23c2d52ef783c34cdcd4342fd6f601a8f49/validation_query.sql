@@ -1,0 +1,1 @@
+SELECT level,group_concat(idx,' ') FROM (SELECT level,idx FROM t1_segdir ORDER BY level,idx) GROUP BY level ORDER BY level

@@ -1,0 +1,1 @@
+SELECT """cb""" FROM "t a";

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT coalesce(length(a),-1) AS x FROM t2;

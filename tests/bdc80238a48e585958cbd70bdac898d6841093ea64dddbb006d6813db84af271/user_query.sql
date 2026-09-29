@@ -1,0 +1,1 @@
+CREATE TEMP TABLE mask(a,b,c); CREATE INDEX main.mask ON t2(x); INSERT INTO t2 VALUES(1,2);

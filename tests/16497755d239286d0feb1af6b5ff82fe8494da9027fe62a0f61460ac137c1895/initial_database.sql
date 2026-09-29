@@ -1,0 +1,1 @@
+CREATE TABLE dual AS SELECT 'X' AS dummy;

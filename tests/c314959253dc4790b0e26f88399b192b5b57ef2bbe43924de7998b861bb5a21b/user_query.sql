@@ -1,0 +1,1 @@
+DELETE FROM ft3; CREATE TABLE sfi_result AS SELECT rowid AS rid FROM ft3 WHERE ft3 MATCH '"a b c"';

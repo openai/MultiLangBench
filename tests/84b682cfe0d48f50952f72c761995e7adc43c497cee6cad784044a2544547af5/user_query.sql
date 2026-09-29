@@ -1,0 +1,1 @@
+PRAGMA cache_size=59; INSERT INTO result SELECT * FROM pragma_cache_size;

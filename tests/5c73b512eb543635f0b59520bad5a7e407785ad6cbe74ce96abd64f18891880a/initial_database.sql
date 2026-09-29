@@ -1,0 +1,1 @@
+CREATE TABLE t1(a INTEGER, b TEXT, c BLOB, CHECK(coalesce(b,c))); INSERT INTO t1 VALUES(1,2,3);

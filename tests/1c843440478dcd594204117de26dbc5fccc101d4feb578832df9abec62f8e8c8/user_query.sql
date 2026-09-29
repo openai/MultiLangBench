@@ -1,0 +1,1 @@
+CREATE TABLE t2(a TYPE_X, b [TYPE_Y], c "TYPE_Z"); CREATE TABLE result AS SELECT cid,name,type,[notnull],dflt_value,pk FROM pragma_table_info('t2') ORDER BY cid;

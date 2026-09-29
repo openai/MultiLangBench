@@ -1,0 +1,1 @@
+INSERT INTO result SELECT CAST(x'616263' AS integer);

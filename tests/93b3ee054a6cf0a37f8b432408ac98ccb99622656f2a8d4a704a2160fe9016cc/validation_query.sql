@@ -1,0 +1,1 @@
+SELECT name,sql FROM sqlite_master WHERE name IN ('p1','c1','c2','c3') ORDER BY name;

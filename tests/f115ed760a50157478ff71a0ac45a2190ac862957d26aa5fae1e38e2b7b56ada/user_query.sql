@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT hex(json_array('String "\ Test')) AS v;

@@ -1,0 +1,1 @@
+SELECT count(*) FROM (SELECT min(b), min(a) FROM a1)

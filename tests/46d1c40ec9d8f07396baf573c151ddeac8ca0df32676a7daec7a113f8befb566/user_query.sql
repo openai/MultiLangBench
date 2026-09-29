@@ -1,0 +1,1 @@
+CREATE TABLE r(k,a,b);INSERT INTO r SELECT 's',level,group_concat(idx,' ') FROM (SELECT level,idx FROM t1_segdir ORDER BY level,idx) GROUP BY level;INSERT INTO r SELECT 'v',NULL,quote(value) FROM t1_stat WHERE rowid=1;

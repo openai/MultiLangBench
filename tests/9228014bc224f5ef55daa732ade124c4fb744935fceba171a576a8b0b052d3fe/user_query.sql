@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT ifnull(nullif(a,4),99) AS r, a AS ord FROM t1 ORDER BY a;

@@ -1,0 +1,1 @@
+INSERT INTO result(docid) SELECT docid FROM t1 WHERE words MATCH 'abraham OR joseph' ORDER BY docid;

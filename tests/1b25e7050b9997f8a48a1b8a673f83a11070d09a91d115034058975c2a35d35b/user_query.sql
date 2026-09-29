@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; UPDATE track SET trackartist=NULL WHERE trackid=1; DELETE FROM artist WHERE artistid=5;

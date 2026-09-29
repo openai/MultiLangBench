@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT hex(CAST(content AS blob)) AS h FROM t12 WHERE t12 MATCH 'abc';

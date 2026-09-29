@@ -1,0 +1,1 @@
+SELECT hex(a),hex(b),hex(c),typeof(a),typeof(b),typeof(c) FROM t1 ORDER BY rowid;

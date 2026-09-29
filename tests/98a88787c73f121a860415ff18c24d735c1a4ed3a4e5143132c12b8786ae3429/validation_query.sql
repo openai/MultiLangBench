@@ -1,0 +1,1 @@
+SELECT count(*) AS n, sum(length(content)) AS total_length, sum(content='a b c') AS a_row, sum(content='b b b') AS b_row, sum(content='d d d') AS d_row, sum(content='e e e') AS e_row, sum(rowid=3 AND length(content)=100000 AND substr(content,1,2)='c ' AND substr(content,-2)='c ') AS long_row, (SELECT count(*) FROM t8 WHERE t8 MATCH 'a b c') AS match_rows FROM t8;

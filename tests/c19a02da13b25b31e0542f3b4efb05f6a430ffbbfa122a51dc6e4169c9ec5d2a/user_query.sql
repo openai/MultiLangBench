@@ -1,0 +1,1 @@
+UPDATE OR REPLACE t1 SET x=n, z=zz FROM x2 WHERE x=o;

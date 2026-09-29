@@ -1,0 +1,1 @@
+SELECT typeof(x), x, typeof(y), y, '#' FROM t1 ORDER BY rowid;

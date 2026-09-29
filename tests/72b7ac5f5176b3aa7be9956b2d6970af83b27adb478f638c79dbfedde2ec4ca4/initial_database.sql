@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b,c); CREATE INDEX bad1 ON t1(a,b) WHERE a NOT LIKE 'abc%';

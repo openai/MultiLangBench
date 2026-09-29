@@ -1,0 +1,1 @@
+SELECT id,typeof(v),quote(v) FROM r ORDER BY id

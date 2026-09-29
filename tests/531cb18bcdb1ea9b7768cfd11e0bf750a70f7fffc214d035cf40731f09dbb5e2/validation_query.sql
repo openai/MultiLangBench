@@ -1,0 +1,1 @@
+SELECT fts_rowid, y FROM query_result ORDER BY _rowid_;

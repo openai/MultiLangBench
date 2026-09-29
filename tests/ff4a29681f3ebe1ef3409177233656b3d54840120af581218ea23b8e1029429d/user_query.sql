@@ -1,0 +1,1 @@
+CREATE INDEX t42d ON t42(d); CREATE INDEX t42e ON t42(e); CREATE TABLE result AS SELECT x.a AS a,x.b AS b,x.c AS c,y.d AS d,y.e AS e,y.f AS f FROM t41 AS x LEFT JOIN t42 AS y ON (y.d=x.c) OR (y.e=x.b);

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT content AS value FROM t1 WHERE rowid=0;

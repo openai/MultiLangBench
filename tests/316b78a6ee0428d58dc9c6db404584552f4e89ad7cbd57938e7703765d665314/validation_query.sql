@@ -1,0 +1,1 @@
+SELECT count(*), min(a), max(a), sum(length(b)), (SELECT count(*) FROM sqlite_schema WHERE type='table' AND name='t2') FROM t1

@@ -1,0 +1,1 @@
+SELECT a,b,c,d FROM query_result;

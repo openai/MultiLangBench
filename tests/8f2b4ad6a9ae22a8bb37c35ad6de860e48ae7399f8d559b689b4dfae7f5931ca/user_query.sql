@@ -1,0 +1,1 @@
+CREATE INDEX t14ba ON t14(b,a); CREATE TABLE result AS SELECT min(a) FROM t14 WHERE b='2' AND a>'50';

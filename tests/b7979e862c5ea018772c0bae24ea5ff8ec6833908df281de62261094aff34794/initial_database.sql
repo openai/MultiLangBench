@@ -1,0 +1,1 @@
+CREATE TABLE people(name TEXT PRIMARY KEY, role TEXT NOT NULL, height INT NOT NULL, CHECK(role IN ('student','teacher'))); CREATE INDEX people_idx1 ON people(role,height);

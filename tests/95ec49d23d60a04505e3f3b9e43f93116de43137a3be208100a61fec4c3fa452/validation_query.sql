@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM summary) AS summary_rows, (SELECT count(*) FROM sqlite_schema WHERE type='table' AND name='records') AS records_tables, (SELECT count(*) FROM sqlite_schema WHERE type='view' AND name IN ('direct_debits','monthly_direct_debits','energy','phone_internet','credit_cards','expense_overview','jan','nov','summary')) AS defined_views;

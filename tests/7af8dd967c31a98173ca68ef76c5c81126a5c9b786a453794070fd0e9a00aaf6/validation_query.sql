@@ -1,0 +1,1 @@
+SELECT seq, mode FROM capture ORDER BY seq;

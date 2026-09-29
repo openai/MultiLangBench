@@ -1,0 +1,1 @@
+ALTER TABLE t1 DROP COLUMN c; SELECT sql FROM sqlite_schema WHERE name = 't1';

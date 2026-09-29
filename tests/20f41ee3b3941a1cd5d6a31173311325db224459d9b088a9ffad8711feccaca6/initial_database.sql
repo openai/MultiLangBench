@@ -1,0 +1,1 @@
+CREATE TABLE t(a PRIMARY KEY,b); INSERT INTO t VALUES(1,'one'),(2,'two'); CREATE TABLE capture(msg);

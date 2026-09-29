@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT printf('%d,%d,%d',55,'-11',3421);

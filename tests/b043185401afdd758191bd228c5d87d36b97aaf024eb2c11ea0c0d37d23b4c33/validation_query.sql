@@ -1,0 +1,1 @@
+SELECT typeof(c0content), hex(c0content) FROM t2_content ORDER BY docid;

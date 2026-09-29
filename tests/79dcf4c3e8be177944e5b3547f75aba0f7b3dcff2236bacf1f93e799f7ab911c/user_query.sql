@@ -1,0 +1,1 @@
+INSERT INTO result SELECT mod(34.5,3);

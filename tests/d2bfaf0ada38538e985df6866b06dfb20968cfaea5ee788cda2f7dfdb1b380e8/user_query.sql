@@ -1,0 +1,1 @@
+CREATE TABLE result(c1); INSERT INTO result SELECT count(DISTINCT b) FILTER (WHERE a!=19) FROM t1;

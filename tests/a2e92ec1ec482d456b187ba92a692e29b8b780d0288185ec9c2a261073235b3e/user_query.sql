@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM main.t1 INDEXED BY i1 WHERE a='one' AND b='two';

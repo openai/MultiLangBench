@@ -1,0 +1,1 @@
+CREATE TEMP TABLE t3(a INTEGER PRIMARY KEY AUTOINCREMENT, b); INSERT INTO t3 VALUES(20,2),(21,4); INSERT INTO t3 SELECT x+100, y FROM t1; CREATE TABLE observed(scope INTEGER, name TEXT, seq); INSERT INTO observed SELECT 1,name,seq FROM main.sqlite_sequence; INSERT INTO observed SELECT 2,name,seq FROM temp.sqlite_sequence;

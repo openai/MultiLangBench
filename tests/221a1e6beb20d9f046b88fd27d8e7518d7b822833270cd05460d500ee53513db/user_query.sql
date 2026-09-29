@@ -1,0 +1,1 @@
+PRAGMA cache_size=15; PRAGMA auto_vacuum=1; CREATE TABLE result(cache_size,auto_vacuum); INSERT INTO result VALUES((SELECT cache_size FROM pragma_cache_size),(SELECT auto_vacuum FROM pragma_auto_vacuum));

@@ -1,0 +1,1 @@
+[["schema","idx","CREATE UNIQUE INDEX idx ON t2(d, e)"],["schema","t2","CREATE TABLE t2(\n  a PRIMARY KEY, b, c, d, e,\n  FOREIGN KEY(b, c) REFERENCES t2(d, e)\n) WITHOUT ROWID"],["row","1","'one','one','one','one'"],["row","2","'one','one','one',NULL"]]

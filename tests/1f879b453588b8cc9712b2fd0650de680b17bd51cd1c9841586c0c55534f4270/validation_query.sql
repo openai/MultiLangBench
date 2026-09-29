@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1) AS document_count, (SELECT count(*) FROM terms WHERE col='*') AS term_count;

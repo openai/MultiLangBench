@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; DELETE FROM artist WHERE artistid=7;

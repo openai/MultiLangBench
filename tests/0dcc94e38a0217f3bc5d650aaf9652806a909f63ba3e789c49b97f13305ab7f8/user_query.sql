@@ -1,0 +1,1 @@
+CREATE TABLE t601(a REAL, b TEXT, CHECK( a<julianday(b) )); INSERT INTO t601(a,b) VALUES(1.0, '1970-01-01');

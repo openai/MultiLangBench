@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT x FROM t2 WHERE t2 MATCH 'röẅ';

@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT max(a1.one)+min(two),a1.one,two,* FROM a1,a2 WHERE 1;

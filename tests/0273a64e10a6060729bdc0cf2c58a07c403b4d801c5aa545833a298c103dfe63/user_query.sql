@@ -1,0 +1,1 @@
+CREATE TABLE result AS WITH RECURSIVE c(x) AS (VALUES(1) UNION ALL SELECT x+1 FROM c WHERE x<1040) SELECT count(*) AS n,sum(length(replace(printf('abc%.*cxyz',x,'m'),'m','nnnn'))-(6+x*4)) AS s FROM c;

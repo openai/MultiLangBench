@@ -1,0 +1,1 @@
+SELECT 'pp' AS tab,quote(a),quote(b),quote(c) FROM pp UNION ALL SELECT 'cc',quote(d),quote(e),quote(f) FROM cc ORDER BY 1

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rank() OVER win AS rnk, cume_dist() OVER win AS cd FROM t1 WINDOW win AS (ORDER BY 1);

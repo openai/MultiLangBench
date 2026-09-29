@@ -1,0 +1,1 @@
+SELECT (SELECT c FROM t1), (SELECT x FROM t2);

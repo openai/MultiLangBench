@@ -1,0 +1,1 @@
+INSERT INTO result(x,y,z) SELECT ''='  ' COLLATE RTRIM, ''='  ' COLLATE BINARY, ''='  ';

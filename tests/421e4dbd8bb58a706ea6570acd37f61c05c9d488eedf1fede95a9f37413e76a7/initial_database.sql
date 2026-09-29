@@ -1,0 +1,1 @@
+CREATE TABLE t1(x,a,b,c); INSERT INTO t1 VALUES(1,2,3,4),(4,5,6,7),(7,8,9,10),(11,12,13,14); CREATE VIEW v8 AS SELECT max(cnt) AS mx FROM (SELECT a%2 AS eo,count(*) AS cnt FROM t1 GROUP BY eo);

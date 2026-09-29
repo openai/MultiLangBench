@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT docid AS v FROM t1 WHERE t1 MATCH 'O' AND +docid < 1 ORDER BY docid ASC;

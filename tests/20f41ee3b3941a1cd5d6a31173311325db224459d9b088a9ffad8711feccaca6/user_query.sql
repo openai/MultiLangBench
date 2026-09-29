@@ -1,0 +1,1 @@
+ATTACH ':memory:' AS aux1; CREATE TABLE aux1.x(a); ATTACH ':memory:' AS aux2; CREATE TABLE aux2.y(b); INSERT INTO main.capture SELECT * FROM pragma_integrity_check;

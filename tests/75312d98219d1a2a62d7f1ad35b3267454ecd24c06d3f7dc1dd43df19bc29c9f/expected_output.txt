@@ -1,0 +1,1 @@
+[["trigger","tr","t1","CREATE TRIGGER tr AFTER INSERT ON t1 BEGIN INSERT INTO t2 VALUES(new.a); END"]]

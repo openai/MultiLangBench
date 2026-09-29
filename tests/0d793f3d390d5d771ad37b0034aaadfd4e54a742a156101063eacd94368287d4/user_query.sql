@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT offsets(mail) AS v FROM mail WHERE mail MATCH 'world'

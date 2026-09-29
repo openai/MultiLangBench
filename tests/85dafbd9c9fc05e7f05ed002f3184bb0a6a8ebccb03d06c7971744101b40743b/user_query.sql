@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT d AS v FROM t2 WHERE a=2 AND b<='two';

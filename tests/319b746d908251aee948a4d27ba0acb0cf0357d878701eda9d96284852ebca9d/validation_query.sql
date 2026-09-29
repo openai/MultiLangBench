@@ -1,0 +1,1 @@
+SELECT key, val, typeof(key), EXISTS(SELECT 1 FROM sqlite_schema AS s WHERE s.type='table' AND s.name='ipk' AND instr(upper(s.sql),'WITHOUT ROWID')>0) AS is_without_rowid FROM ipk ORDER BY key;

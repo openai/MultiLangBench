@@ -1,0 +1,1 @@
+DELETE FROM t3 WHERE a=4 OR b=1;

@@ -1,0 +1,5 @@
+DELETE FROM log;
+DROP TABLE t1;
+INSERT INTO tbl VALUES(1, 2);
+UPDATE tbl SET b=a+b, a=a+1;
+DELETE FROM tbl;

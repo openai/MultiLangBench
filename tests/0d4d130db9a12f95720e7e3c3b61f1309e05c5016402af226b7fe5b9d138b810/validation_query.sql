@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM parent WHERE x='key2'),c FROM child2

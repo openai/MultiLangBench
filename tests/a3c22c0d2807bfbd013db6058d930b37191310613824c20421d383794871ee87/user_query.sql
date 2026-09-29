@@ -1,0 +1,1 @@
+DROP TABLE vacuum; CREATE INDEX vacuum ON t1(a);

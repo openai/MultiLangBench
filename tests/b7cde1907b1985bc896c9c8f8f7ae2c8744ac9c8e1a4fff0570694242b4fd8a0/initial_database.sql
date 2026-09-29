@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t2 USING fts4(x, prefix="3,1"); WITH RECURSIVE n(i) AS (VALUES(1) UNION ALL SELECT i+1 FROM n WHERE i<20000) INSERT INTO t2(docid, x) SELECT i, printf('alpha item%05d', i) FROM n;

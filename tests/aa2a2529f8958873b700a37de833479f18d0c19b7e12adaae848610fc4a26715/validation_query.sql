@@ -1,0 +1,1 @@
+SELECT word, cnt, EXISTS(SELECT 1 FROM sqlite_schema AS s WHERE s.type='table' AND s.name='wordcount_d' AND instr(upper(s.sql),'WITHOUT ROWID')>0) AS is_without_rowid FROM wordcount_d ORDER BY word;

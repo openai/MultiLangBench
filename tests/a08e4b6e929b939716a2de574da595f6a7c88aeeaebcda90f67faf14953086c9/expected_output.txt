@@ -1,0 +1,1 @@
+[[1,"a database is a software system"],[2,"sqlite is a software system"],[3,"sqlite is a database"],[4,"sqlite is also a library"],[5,"library software"]]

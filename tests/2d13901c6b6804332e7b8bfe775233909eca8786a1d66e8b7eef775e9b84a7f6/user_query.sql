@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT log, count(*) FROM t1 GROUP BY 1 ORDER BY log;

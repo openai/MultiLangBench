@@ -1,0 +1,1 @@
+SELECT a, b, c FROM tbl2 ORDER BY rowid;

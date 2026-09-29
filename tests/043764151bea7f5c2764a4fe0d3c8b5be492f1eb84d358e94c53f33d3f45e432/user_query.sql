@@ -1,0 +1,1 @@
+PRAGMA recursive_triggers=OFF; UPDATE tbl SET a=a*10,b=b*10;

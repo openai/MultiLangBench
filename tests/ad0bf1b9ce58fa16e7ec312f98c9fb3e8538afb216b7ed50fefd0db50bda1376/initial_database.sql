@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b,c); INSERT INTO t1 VALUES('hello'||char(0)||'there'||char(0),'hello'||char(0)||'there','hello');

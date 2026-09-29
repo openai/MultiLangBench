@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b,c COLLATE NOCASE); INSERT INTO t1 VALUES(1,'a','a'),(9.9,'b','B'),(NULL,'C','c'),('hello','d','D'),(x'616263','e','e');

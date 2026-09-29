@@ -1,0 +1,1 @@
+SELECT z."", z.x, t.x FROM "" AS z CROSS JOIN t2 AS t ORDER BY z.rowid, t.rowid;

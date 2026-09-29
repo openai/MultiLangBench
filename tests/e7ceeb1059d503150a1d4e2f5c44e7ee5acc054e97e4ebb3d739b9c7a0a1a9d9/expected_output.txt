@@ -1,0 +1,1 @@
+[["t1","CREATE TABLE t1(xyz)"],["t2","CREATE TABLE t2(a as (1+1), b)"]]

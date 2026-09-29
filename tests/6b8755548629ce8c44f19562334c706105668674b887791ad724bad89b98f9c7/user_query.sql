@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT rowid AS id FROM t4 WHERE x MATCH 'a*';

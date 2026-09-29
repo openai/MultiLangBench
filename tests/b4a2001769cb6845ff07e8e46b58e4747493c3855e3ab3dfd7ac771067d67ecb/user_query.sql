@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT subject,body FROM mail WHERE subject MATCH 'software'

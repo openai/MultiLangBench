@@ -1,0 +1,1 @@
+SELECT b, typeof(b) FROM t3 WHERE a=3;

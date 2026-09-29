@@ -1,0 +1,1 @@
+SELECT count(*) AS row_count, min(x) AS min_x, max(x) AS max_x, sum(x) AS sum_x, (SELECT count(*) FROM sqlite_schema WHERE type='trigger' AND name='r1229') AS trigger_count FROM t1229;

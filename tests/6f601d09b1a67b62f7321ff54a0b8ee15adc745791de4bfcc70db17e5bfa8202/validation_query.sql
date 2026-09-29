@@ -1,0 +1,1 @@
+SELECT t1.a, t1.b, t1.c, p.[notnull], p.dflt_value FROM t1 JOIN pragma_table_info('t1') AS p ON p.name='c' ORDER BY t1.rowid;

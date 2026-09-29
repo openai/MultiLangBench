@@ -1,0 +1,1 @@
+CREATE INDEX t1i1 ON t1(a,b); INSERT INTO result(b,t) SELECT b, typeof(b) FROM t1 WHERE a=3;

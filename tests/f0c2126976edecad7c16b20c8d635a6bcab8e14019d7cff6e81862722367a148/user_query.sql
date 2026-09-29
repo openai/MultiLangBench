@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT (SELECT avg(a) UNION SELECT min(a) OVER()) FROM t1;

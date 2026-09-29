@@ -1,0 +1,3 @@
+CREATE TABLE map(f, t);
+INSERT INTO map VALUES('a', 111);
+INSERT INTO map VALUES('c', 112);

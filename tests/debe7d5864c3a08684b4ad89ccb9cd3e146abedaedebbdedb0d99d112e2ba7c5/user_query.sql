@@ -1,0 +1,1 @@
+ATTACH DATABASE ':memory:' AS aux; CREATE TABLE aux.t1(a,b); CREATE TABLE aux.t2(c,d); CREATE TABLE aux.t3(e,f); INSERT INTO main.result SELECT type,name,tbl_name,rootpage,sql FROM aux.sqlite_master WHERE name='t3';

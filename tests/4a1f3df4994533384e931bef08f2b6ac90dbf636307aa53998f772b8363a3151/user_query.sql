@@ -1,0 +1,1 @@
+BEGIN; CREATE INDEX i1 ON t1(a); CREATE TABLE result(name TEXT); INSERT INTO result SELECT name FROM sqlite_master WHERE type IN('table','index') AND name<>'result' ORDER BY name; COMMIT;

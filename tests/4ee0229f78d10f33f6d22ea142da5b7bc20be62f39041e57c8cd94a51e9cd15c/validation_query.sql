@@ -1,0 +1,1 @@
+SELECT count(*), count(DISTINCT c), min(length(c)), max(length(c)), sum(CAST(c AS INTEGER)), sum(c=CAST(a AS TEXT)), sum(typeof(c)='text') FROM t1;

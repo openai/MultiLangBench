@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1) AS t1_rows, (SELECT count(*) FROM log) AS log_rows;

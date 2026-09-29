@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; CREATE TABLE artist(artistid INTEGER PRIMARY KEY,artistname TEXT); CREATE TABLE track(trackid INTEGER,trackname TEXT,trackartist INTEGER,FOREIGN KEY(trackartist) REFERENCES artist(artistid)); INSERT INTO artist VALUES(5,'artist 5'); INSERT INTO track VALUES(1,'track 1',5); INSERT INTO track VALUES(2,'track 2',NULL);

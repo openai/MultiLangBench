@@ -1,0 +1,1 @@
+[["CREATE TABLE \"t4\"\"abc\"(cnt,\"max(b+c)\")"]]

@@ -1,0 +1,1 @@
+SAVEPOINT tr; INSERT INTO t2 SELECT zeroblob(400),zeroblob(400) FROM t2; INSERT INTO t2 SELECT zeroblob(400),zeroblob(400) FROM t2; INSERT INTO t2 SELECT zeroblob(400),zeroblob(400) FROM t2; INSERT INTO t2 SELECT zeroblob(400),zeroblob(400) FROM t2; INSERT INTO t2 SELECT zeroblob(400),zeroblob(400) FROM t2; ROLLBACK TO tr; INSERT INTO t1 VALUES('x','y'); RELEASE tr;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a FROM t5 WHERE (x='y' OR y='y') AND c=27027 ORDER BY a;

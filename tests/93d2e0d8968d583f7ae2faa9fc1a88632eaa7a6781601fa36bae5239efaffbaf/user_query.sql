@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT c,b,a,* FROM (SELECT 1 AS 'a', 2 AS 'b', 'abc' AS 'c');

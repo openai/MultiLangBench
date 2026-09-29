@@ -1,0 +1,1 @@
+INSERT INTO result(y,c) SELECT y,c FROM t2 LEFT JOIN t1 ON y=a ORDER BY x;

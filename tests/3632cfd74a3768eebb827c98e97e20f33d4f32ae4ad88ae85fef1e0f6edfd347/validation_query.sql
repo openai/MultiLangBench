@@ -1,0 +1,1 @@
+SELECT t2.a,t2.b,t2.c,t3.x FROM t2 CROSS JOIN t3 ORDER BY t2.rowid;

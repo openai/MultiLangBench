@@ -1,0 +1,1 @@
+CREATE TABLE ttt(c0, c1); CREATE INDEX ii ON ttt(CAST(c0 AS NUMERIC)); INSERT INTO ttt VALUES('abc', '-1');

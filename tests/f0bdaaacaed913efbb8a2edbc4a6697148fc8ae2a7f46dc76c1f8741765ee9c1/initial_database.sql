@@ -1,0 +1,1 @@
+CREATE TABLE abcꯍdef(a, b, c); ALTER TABLE abcꯍdef RENAME TO abcXdef;

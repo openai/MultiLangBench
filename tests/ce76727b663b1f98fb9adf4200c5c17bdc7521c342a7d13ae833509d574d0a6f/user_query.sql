@@ -1,0 +1,1 @@
+INSERT INTO _result(v) SELECT (SELECT 10);

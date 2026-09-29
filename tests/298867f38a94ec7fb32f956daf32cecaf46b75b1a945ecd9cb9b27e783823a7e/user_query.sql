@@ -1,0 +1,1 @@
+INSERT INTO result SELECT '1.23e64'/'1.0000e+62';

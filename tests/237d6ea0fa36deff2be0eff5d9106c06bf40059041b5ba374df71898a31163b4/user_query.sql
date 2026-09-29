@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT rowid AS x FROM t1 WHERE t1 MATCH 'jk ubwrfqnbjf';

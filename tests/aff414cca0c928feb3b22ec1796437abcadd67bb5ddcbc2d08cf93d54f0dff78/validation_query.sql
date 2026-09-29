@@ -1,0 +1,1 @@
+SELECT a, b FROM xyz ORDER BY a;

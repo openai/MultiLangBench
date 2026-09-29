@@ -1,0 +1,1 @@
+DELETE FROM main.t1 INDEXED BY i1;

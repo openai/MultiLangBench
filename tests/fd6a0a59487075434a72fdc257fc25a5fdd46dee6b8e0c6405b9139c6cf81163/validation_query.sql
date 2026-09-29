@@ -1,0 +1,1 @@
+SELECT c,d FROM t8

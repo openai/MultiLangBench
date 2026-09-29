@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT json_group_array(a) FROM t1 WHERE rowid BETWEEN 31 AND 39;

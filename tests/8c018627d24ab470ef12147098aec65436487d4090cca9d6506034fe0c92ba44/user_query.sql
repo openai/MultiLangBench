@@ -1,0 +1,1 @@
+INSERT INTO result SELECT CAST('+0.0' AS numeric);

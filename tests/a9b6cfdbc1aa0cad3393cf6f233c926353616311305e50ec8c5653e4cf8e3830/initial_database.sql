@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE docs USING fts3(); INSERT INTO docs VALUES('a database is a software system'),('sqlite is a software system'),('sqlite is a database'),('sqlite is also a library'),('library software')

@@ -1,0 +1,1 @@
+SELECT type,name,tbl_name FROM sqlite_master WHERE name IN ('aaa','aaa_111','aaa_222','aaa_333','bbb','bbb_111','bbb_222','bbb_333') ORDER BY type,name;

@@ -1,0 +1,1 @@
+SELECT 1 FROM sqlite_schema WHERE name='t5' AND sql LIKE '%new_col_1%';

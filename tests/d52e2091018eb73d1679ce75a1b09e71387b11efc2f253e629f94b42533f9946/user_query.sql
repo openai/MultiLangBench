@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; BEGIN; DELETE FROM node WHERE nodeid=2; INSERT INTO node VALUES(2,NULL); COMMIT;

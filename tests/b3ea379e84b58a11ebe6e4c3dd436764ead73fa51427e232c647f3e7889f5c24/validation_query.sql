@@ -1,0 +1,1 @@
+SELECT count(*), sum(b), sum(CASE WHEN a<10000 THEN b ELSE 0 END), sum(CASE WHEN a>=10000 THEN b ELSE 0 END), (SELECT count(*) FROM pragma_index_info('i1b')) FROM t1;

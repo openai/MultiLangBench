@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT char(448) LIKE ('%'||char(128)) AS v;

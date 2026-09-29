@@ -1,0 +1,1 @@
+INSERT INTO result SELECT 'f' IN t8n;

@@ -1,0 +1,1 @@
+SELECT c,d,(SELECT b FROM t1 WHERE rowid=t2.c) FROM t2

@@ -1,0 +1,1 @@
+BEGIN; CREATE TABLE tbl1(a); INSERT INTO tbl1 VALUES(replace(hex(zeroblob(110)),'00','abcdefghij')); PRAGMA incremental_vacuum; COMMIT;

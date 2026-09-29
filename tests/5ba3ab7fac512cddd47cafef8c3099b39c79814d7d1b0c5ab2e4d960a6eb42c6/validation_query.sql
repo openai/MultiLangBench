@@ -1,0 +1,1 @@
+SELECT hex(a), hex(b) FROM t1 ORDER BY rowid;

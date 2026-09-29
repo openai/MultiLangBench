@@ -1,0 +1,2 @@
+CREATE TABLE result_120_2 AS
+SELECT a, b, '|' AS marker FROM t1 WHERE a IN (2,4,5,3,1) ORDER BY +b DESC LIMIT 5;

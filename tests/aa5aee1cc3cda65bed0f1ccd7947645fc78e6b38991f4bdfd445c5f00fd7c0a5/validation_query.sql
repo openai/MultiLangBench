@@ -1,0 +1,1 @@
+SELECT count(*), min(a), max(a), sum(length(b)), (SELECT integrity_check FROM pragma_integrity_check LIMIT 1) FROM t1

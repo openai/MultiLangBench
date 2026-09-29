@@ -1,0 +1,1 @@
+SELECT count(*), min(content), max(content) FROM ft

@@ -1,0 +1,1 @@
+PRAGMA encoding = 'UTF-16'; CREATE TABLE __encoding_seed(x); DROP TABLE __encoding_seed;

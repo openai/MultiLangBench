@@ -1,0 +1,1 @@
+SELECT seq,value,(SELECT sum(c62) FROM t1) AS final_sum FROM sfi_result ORDER BY seq

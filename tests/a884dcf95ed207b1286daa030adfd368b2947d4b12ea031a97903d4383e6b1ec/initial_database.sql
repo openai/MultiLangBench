@@ -1,0 +1,1 @@
+PRAGMA page_size=1024;PRAGMA auto_vacuum=1;CREATE TABLE av1(a);CREATE INDEX av1_idx ON av1(a);WITH RECURSIVE c(x) AS (VALUES(1) UNION ALL SELECT x+1 FROM c WHERE x<20) INSERT INTO av1(rowid,a) SELECT x,substr(replace(hex(zeroblob(3500)),'00',x||'.'),1,3500) FROM c;DELETE FROM av1 WHERE rowid IN(20,19,18,17,16,15,14,13,12,11,10,9,8,7,6);

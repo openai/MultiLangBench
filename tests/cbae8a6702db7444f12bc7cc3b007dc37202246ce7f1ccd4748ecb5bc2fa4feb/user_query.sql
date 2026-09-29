@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE papers USING fts3(author, document, tokenize=porter)

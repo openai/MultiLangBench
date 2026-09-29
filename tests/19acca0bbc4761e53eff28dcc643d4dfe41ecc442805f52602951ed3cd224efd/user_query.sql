@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT min(a) FROM t2 LIMIT 0,100;

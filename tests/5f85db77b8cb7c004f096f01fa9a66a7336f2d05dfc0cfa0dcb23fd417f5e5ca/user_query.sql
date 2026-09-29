@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a FROM (SELECT DISTINCT a, b FROM t_distinct_bug);

@@ -1,0 +1,1 @@
+SELECT phase,y FROM (SELECT 1 AS phase,y FROM before_result UNION ALL SELECT 2 AS phase,y FROM after_result) ORDER BY phase,y;

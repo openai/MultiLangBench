@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a, b FROM t1 EXCEPT SELECT a, abs(b) FROM t1;

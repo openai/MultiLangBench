@@ -1,0 +1,1 @@
+SELECT A, B, D, E, F, G, H, max_c, marker FROM sfi_result ORDER BY max_c;

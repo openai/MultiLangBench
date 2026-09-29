@@ -1,0 +1,1 @@
+CREATE TABLE t1(a INTEGER PRIMARY KEY, b, c); INSERT INTO t1 VALUES(5,'hello','world'),(6,'second','entry'),(8,'y','z'); CREATE INDEX i1 ON t1(b);

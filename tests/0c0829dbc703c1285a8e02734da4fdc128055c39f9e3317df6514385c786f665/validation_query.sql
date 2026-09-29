@@ -1,0 +1,1 @@
+SELECT a, b, c, (SELECT [unique] FROM pragma_index_list('b1') WHERE name='b1c') AS index_is_unique FROM b1 ORDER BY a;

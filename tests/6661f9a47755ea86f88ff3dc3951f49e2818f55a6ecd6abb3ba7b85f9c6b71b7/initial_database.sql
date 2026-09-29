@@ -1,0 +1,1 @@
+PRAGMA encoding='utf16le'; CREATE TABLE result(value TEXT);

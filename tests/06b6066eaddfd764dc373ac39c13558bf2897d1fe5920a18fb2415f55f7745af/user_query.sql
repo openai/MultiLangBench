@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT * FROM x4 WHERE x4 MATCH '^A';

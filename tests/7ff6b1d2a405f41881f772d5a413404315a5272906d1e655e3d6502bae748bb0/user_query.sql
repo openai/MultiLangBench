@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT match(a,b) AS x FROM t1 WHERE 0;

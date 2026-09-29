@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT (CAST(v AS BLOB)=X'80') AS x FROM input;

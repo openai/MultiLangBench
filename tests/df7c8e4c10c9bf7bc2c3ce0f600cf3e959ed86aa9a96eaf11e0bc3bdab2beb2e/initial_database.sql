@@ -1,0 +1,1 @@
+CREATE TABLE t1(docid INTEGER PRIMARY KEY, words TEXT); WITH RECURSIVE c(x) AS (VALUES(1) UNION ALL SELECT x+1 FROM c WHERE x<20) INSERT INTO t1 SELECT x, printf('alpha common beta verse%02d',x) FROM c; CREATE VIRTUAL TABLE t2 USING fts4(words, prefix='1,2,3');

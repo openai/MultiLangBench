@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(coalesce(time('12:34:56.43'),'NULL'))

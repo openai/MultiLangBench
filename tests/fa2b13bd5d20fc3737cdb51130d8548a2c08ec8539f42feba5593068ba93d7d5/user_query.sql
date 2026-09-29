@@ -1,0 +1,2 @@
+CREATE TABLE result AS
+SELECT a FROM (SELECT count(*) AS a FROM t3) WHERE a==1;

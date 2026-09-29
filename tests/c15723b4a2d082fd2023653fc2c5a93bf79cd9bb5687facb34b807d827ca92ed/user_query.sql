@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT x FROM t6 WHERE y<'1';

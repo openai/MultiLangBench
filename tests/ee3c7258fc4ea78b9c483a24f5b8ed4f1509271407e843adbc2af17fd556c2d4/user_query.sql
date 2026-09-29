@@ -1,0 +1,1 @@
+CREATE TABLE conflict(conflict conflict); INSERT INTO conflict VALUES(99); INSERT INTO conflict SELECT a FROM t1;

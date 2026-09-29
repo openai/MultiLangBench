@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t2) AS n, (SELECT group_concat(docid, ',') FROM (SELECT docid FROM t2 WHERE t2 MATCH 'abc' ORDER BY docid)) AS ids

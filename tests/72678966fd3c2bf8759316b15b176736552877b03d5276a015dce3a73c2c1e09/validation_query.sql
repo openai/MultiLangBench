@@ -1,0 +1,1 @@
+SELECT count(*), min(a), max(a), sum(a), sum(b), sum(length(c)), (SELECT group_concat(name, ',') FROM (SELECT name FROM sqlite_master WHERE type='index' AND tbl_name='t2' ORDER BY name)) FROM t2;

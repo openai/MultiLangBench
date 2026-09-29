@@ -1,0 +1,1 @@
+SELECT sql FROM sqlite_schema WHERE type='view' ORDER BY name

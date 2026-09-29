@@ -1,0 +1,1 @@
+SELECT count(*) FROM sqlite_schema WHERE name = 'abc' OR tbl_name = 'abc';

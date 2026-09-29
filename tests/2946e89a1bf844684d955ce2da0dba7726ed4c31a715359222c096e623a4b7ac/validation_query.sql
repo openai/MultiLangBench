@@ -1,0 +1,1 @@
+SELECT count(*) FROM (SELECT b, a FROM a1)

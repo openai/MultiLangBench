@@ -1,0 +1,1 @@
+SELECT docid, off FROM result ORDER BY docid

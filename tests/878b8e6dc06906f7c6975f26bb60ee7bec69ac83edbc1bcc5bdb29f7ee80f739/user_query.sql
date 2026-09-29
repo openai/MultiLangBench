@@ -1,0 +1,3 @@
+CREATE TRIGGER tr2 AFTER INSERT ON mytable_renamed BEGIN
+  DELETE FROM rt WHERE id=(SELECT min(id) FROM rt);
+END;

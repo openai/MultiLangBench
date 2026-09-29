@@ -1,0 +1,1 @@
+SELECT count(*) AS row_count,ifnull(max(x),-1) AS x,ifnull(max(a),-1) AS a,ifnull(max(r_eq),-1) AS comparison FROM result;

@@ -1,0 +1,1 @@
+SELECT pattern_no,matches,CASE WHEN av IS NULL THEN NULL ELSE printf('%.6f',av) END FROM result ORDER BY pattern_no;

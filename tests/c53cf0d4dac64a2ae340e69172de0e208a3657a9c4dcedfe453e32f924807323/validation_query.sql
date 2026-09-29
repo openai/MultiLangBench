@@ -1,0 +1,1 @@
+SELECT count(*), length(a), length(b) FROM t1

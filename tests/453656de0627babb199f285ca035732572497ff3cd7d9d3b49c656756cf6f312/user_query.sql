@@ -1,0 +1,1 @@
+UPDATE t1 SET b = 8, (c,d) = (SELECT 123,456) WHERE a=3;

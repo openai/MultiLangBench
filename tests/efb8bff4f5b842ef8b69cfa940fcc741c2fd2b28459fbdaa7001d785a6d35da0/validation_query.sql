@@ -1,0 +1,1 @@
+SELECT c,typeof(c) FROM chi

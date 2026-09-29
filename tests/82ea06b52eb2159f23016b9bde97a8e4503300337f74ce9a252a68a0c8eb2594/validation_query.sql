@@ -1,0 +1,1 @@
+SELECT u, k, l FROM result;

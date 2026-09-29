@@ -1,0 +1,1 @@
+SELECT b, rid, marker FROM sfi_result ORDER BY seq;

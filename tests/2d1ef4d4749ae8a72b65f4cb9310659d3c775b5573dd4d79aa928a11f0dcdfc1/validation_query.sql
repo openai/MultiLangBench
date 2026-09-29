@@ -1,0 +1,1 @@
+SELECT typeof(v), length(v), length(CAST(v AS blob)), CAST(v AS blob)=zeroblob(1000), hex(substr(CAST(v AS blob),1,4)) FROM sfi_result;

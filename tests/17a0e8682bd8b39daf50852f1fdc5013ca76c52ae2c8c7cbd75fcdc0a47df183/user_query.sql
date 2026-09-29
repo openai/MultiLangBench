@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT substr(v,2,99) AS x FROM t1 ORDER BY 1;

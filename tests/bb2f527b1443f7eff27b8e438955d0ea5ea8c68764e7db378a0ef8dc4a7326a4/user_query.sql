@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT DISTINCT a COLLATE nocase, b COLLATE nocase FROM t1 ORDER BY a COLLATE nocase, b COLLATE nocase;

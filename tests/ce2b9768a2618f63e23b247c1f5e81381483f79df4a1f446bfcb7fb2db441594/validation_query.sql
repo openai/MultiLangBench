@@ -1,0 +1,1 @@
+SELECT src,v1,v2 FROM (SELECT 0 AS grp,rowid AS ord,'t7' AS src,a AS v1,b AS v2 FROM t7 UNION ALL SELECT 1,rowid,'t8',x,NULL FROM t8) ORDER BY grp,ord;

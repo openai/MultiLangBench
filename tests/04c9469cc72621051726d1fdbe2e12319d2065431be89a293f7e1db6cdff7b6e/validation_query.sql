@@ -1,0 +1,1 @@
+SELECT src,c1,c2 FROM (SELECT 't0' AS src,quote(c0) AS c1,NULL AS c2 FROM t0 UNION ALL SELECT 'v0',quote(c0),NULL FROM v0 UNION ALL SELECT 't1',quote(a),quote(b) FROM t1 UNION ALL SELECT 't1_a',quote(a),quote(b) FROM t1_a UNION ALL SELECT 't1_b',quote(c),quote(d) FROM t1_b UNION ALL SELECT 't1_c',quote(e),quote(f) FROM t1_c) ORDER BY src,c1,c2;

@@ -1,0 +1,1 @@
+SAVEPOINT "Including whitespace "; UPDATE s SET v=2; RELEASE "including Whitespace ";

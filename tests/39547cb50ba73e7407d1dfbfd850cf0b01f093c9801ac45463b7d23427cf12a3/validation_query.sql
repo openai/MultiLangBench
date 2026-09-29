@@ -1,0 +1,1 @@
+SELECT * FROM rtree1 ORDER BY 1,2,3;

@@ -1,0 +1,1 @@
+PRAGMA page_size=1024;PRAGMA auto_vacuum=1;CREATE TABLE av4(a,b,c);CREATE INDEX av4_i1 ON av4(a);CREATE INDEX av4_i2 ON av4(b);CREATE INDEX av4_i3 ON av4(c);CREATE INDEX av4_i4 ON av4(a,b,c);INSERT INTO av4 VALUES('av4 a','av4 b','av4 c');

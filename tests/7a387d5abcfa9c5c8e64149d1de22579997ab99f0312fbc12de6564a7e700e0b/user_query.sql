@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT group_concat(CASE t1 WHEN 'this' THEN '' ELSE t1 END) AS x FROM tbl1;

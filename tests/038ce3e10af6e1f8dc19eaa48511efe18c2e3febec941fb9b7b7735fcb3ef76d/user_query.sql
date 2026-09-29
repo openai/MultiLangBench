@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT * FROM t2 RIGHT JOIN t1 WHERE (1,0)==(+id,y);

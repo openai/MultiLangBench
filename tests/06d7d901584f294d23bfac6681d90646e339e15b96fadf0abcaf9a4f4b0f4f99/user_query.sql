@@ -1,0 +1,1 @@
+CREATE TABLE _sfi_result AS SELECT term, documents, occurrences FROM terms WHERE col='*';

@@ -1,0 +1,1 @@
+SELECT (SELECT * FROM pragma_integrity_check LIMIT 1) AS integrity, count(*) AS row_count, min(a) AS a_value, sum(b IS NULL) AS null_b_count FROM t1;

@@ -1,0 +1,1 @@
+SELECT 't1' AS tab,a,b,c FROM t1 UNION ALL SELECT 't3',g,h,i FROM t3 ORDER BY 1

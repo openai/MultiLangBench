@@ -1,0 +1,1 @@
+DELETE FROM log; UPDATE o1 SET y=v FROM t2, t3 WHERE (1+o1.w*2+o1.x)=t2.a AND t3.k=t2.b;

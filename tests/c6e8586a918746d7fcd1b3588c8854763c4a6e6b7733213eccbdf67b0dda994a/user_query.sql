@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT typeof(x) AS tx,length(x) AS lx,typeof(y) AS ty FROM t29 ORDER BY id;

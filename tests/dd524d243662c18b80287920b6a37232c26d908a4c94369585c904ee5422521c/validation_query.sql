@@ -1,0 +1,1 @@
+SELECT src, quote(a), quote(b) FROM observed ORDER BY src;

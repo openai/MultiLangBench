@@ -1,0 +1,2 @@
+CREATE INDEX t4i2 ON t4(b);
+CREATE TABLE result AS SELECT count(*) AS n FROM t4;

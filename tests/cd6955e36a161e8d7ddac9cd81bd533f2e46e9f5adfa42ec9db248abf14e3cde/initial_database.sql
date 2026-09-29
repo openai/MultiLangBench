@@ -1,0 +1,1 @@
+CREATE TABLE t4(x); CREATE VIRTUAL TABLE ft4 USING fts4(content=t4); CREATE VIRTUAL TABLE ft4x USING fts4(x); INSERT INTO ft4x(ft4x) VALUES('rebuild'); INSERT INTO ft4(ft4) VALUES('rebuild');

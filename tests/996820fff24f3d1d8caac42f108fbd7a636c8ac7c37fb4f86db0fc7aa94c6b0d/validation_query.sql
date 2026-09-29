@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(printf('%d:%s:%s',i,a,b),'|') FROM (SELECT i,a,b FROM t1 ORDER BY i)) AS row_list, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND tbl_name='t1') AS index_count;

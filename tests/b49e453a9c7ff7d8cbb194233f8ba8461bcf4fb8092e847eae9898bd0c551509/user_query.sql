@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t5 USING fts4(tokenize=unicode61 'tokenchars= .'); CREATE VIRTUAL TABLE t6 USING fts4(tokenize=unicode61 'tokenchars=="[]'); CREATE VIRTUAL TABLE t7 USING fts4(tokenize=unicode61 'separators=xÄ');

@@ -1,0 +1,1 @@
+SELECT s, id FROM q ORDER BY rowid;

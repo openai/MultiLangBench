@@ -1,0 +1,1 @@
+PRAGMA auto_vacuum=full; VACUUM; CREATE TABLE t1(a,b,UNIQUE(a,b)); INSERT INTO t1 VALUES(1,'x'),(2,'y');

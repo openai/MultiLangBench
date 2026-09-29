@@ -1,0 +1,1 @@
+ATTACH DATABASE ':memory:' AS aux; CREATE TABLE aux.t3(e,f); INSERT INTO aux.t3 VALUES(1,2); CREATE VIEW aux.v1 AS SELECT * FROM t3; INSERT INTO main.result SELECT type,name,tbl_name,rootpage,sql FROM aux.sqlite_master WHERE name='v1';

@@ -1,0 +1,1 @@
+SELECT a, b, c, d FROM in6_result ORDER BY a, b, c, d;

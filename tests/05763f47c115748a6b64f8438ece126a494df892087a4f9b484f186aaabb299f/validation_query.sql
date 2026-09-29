@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM observed) AS rows_produced, (SELECT count(*) FROM cases AS c LEFT JOIN observed AS o ON o.id=c.id WHERE o.id IS NULL OR typeof(o.value)<>'real' OR o.value<>CAST(c.expected AS REAL)) AS wrong_results;

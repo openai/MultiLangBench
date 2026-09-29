@@ -1,0 +1,1 @@
+[["CREATE TABLE t2(\n  \"desc\" TEXT,\n  \"asc\" TEXT,\n  \"key\" INT,\n  \"14_vac\" NUM,\n  fuzzy_dog_12 TEXT,\n  \"begin\",\n  \"end\" TEXT\n)"]]

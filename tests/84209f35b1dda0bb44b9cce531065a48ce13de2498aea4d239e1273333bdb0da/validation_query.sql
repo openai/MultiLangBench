@@ -1,0 +1,1 @@
+SELECT left_col1,right_col1 FROM result ORDER BY left_col1,right_col1

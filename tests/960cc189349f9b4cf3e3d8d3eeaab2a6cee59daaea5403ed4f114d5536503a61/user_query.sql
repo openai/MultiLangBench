@@ -1,0 +1,1 @@
+ATTACH ':memory:' AS db2; CREATE TABLE db2.t2(x,y); INSERT INTO db2.t2 VALUES(21,'x'),(22,'y'); CREATE INDEX db2.i2 ON t2(x); INSERT INTO main.capture SELECT x,y FROM db2.t2 WHERE x>5 ORDER BY x;

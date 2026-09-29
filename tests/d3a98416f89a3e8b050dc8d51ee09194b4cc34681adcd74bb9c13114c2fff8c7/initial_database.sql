@@ -1,0 +1,1 @@
+CREATE TABLE t3_re(a,b,UNIQUE(a,b) ON CONFLICT REPLACE); INSERT INTO t3_re VALUES(1,'one'),(2,'two'),(4,'three'),(3,'three'),(6,'three');

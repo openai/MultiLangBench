@@ -1,0 +1,1 @@
+CREATE TABLE t2 AS SELECT DISTINCT a.x AS aa, b.x AS bb FROM t1 AS a, t1 AS b;

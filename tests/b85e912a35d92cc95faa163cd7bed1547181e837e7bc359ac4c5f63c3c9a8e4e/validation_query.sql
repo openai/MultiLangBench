@@ -1,0 +1,1 @@
+SELECT tbl FROM sqlite_stat1 WHERE idx IS NULL ORDER BY tbl;

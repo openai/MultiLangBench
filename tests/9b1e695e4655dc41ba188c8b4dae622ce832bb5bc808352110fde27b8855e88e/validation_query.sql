@@ -1,0 +1,1 @@
+SELECT count(*) AS n, min(a) AS min_a, max(a) AS max_a, sum(a) AS sum_a, (SELECT b FROM t3 WHERE a=500) AS b500, (SELECT typeof(b) FROM t3 WHERE a=500) AS type500, (SELECT b FROM t3 WHERE a=1) AS b1 FROM t3;

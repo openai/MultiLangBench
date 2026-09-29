@@ -1,0 +1,1 @@
+CREATE TABLE t3928(a INTEGER PRIMARY KEY AUTOINCREMENT, b); INSERT INTO t3928(a,b) VALUES(21,'x'); CREATE TABLE t3928c(y INTEGER PRIMARY KEY AUTOINCREMENT, z); INSERT INTO t3928c(y,z) VALUES(1,'before-del-100'),(2,'after-del-100'),(3,'before-del-200'),(4,'after-del-200'),(5,'before-del-300'),(6,'after-del-300');

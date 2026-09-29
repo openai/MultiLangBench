@@ -1,0 +1,1 @@
+SELECT t1.a, (SELECT count(*) FROM x) AS x_rows, (SELECT count(*) FROM sqlite_stat1) AS stat_rows, (SELECT count(*) FROM sqlite_schema WHERE type='table' AND name IN ('t1','x','sqlite_stat1')) AS named_tables FROM t1;

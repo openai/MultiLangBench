@@ -1,0 +1,1 @@
+CREATE TEMP TABLE tbl2(a,b); CREATE TABLE main.tbl(a,b); INSERT INTO main.tbl VALUES(1,2);

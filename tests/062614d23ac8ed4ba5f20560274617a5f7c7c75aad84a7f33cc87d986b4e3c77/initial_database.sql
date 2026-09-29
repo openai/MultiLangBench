@@ -1,0 +1,2 @@
+-- memdb-6.8
+CREATE TABLE t1(a); CREATE TABLE t2(a); CREATE TABLE t3(a); CREATE TABLE t4(a); CREATE TABLE t5(x,y);

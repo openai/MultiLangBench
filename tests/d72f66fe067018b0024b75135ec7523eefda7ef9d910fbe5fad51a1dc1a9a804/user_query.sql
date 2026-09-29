@@ -1,0 +1,1 @@
+INSERT INTO result SELECT 'c' IN t7n;

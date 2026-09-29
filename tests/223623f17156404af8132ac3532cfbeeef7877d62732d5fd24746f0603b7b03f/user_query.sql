@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT json_remove(x,'$.settings.layer2."dis.legomenon".forceDisplay') AS v FROM t12;

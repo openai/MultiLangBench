@@ -1,0 +1,1 @@
+DELETE FROM t1; INSERT INTO t1(e) VALUES(1),(2.5),('3'),('4.5'),(6.0),(NULL);

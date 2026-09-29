@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a2.rowid AS seq, (SELECT rowid FROM a1 WHERE (a, b) = (x, y)) AS r FROM a2;

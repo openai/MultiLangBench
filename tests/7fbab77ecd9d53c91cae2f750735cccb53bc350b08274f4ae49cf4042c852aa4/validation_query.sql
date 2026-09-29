@@ -1,0 +1,1 @@
+SELECT count(*),min(c),max(c),sum(c) FROM t7;

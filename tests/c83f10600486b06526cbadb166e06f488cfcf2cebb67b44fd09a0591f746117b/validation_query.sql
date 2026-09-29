@@ -1,0 +1,1 @@
+WITH r(ord,v) AS (SELECT 0,count(*) FROM t1 UNION ALL SELECT a,a FROM t1 WHERE a>=85) SELECT v FROM r ORDER BY ord

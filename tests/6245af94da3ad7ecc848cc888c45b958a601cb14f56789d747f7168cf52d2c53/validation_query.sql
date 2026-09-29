@@ -1,0 +1,1 @@
+SELECT total_rows, value_length, value_ok FROM result;

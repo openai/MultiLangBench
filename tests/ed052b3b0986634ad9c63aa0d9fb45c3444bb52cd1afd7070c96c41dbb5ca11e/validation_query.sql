@@ -1,0 +1,1 @@
+SELECT f, t FROM map ORDER BY f;

@@ -1,0 +1,1 @@
+CREATE TABLE _result AS SELECT *, '|' AS sep FROM t3 LEFT JOIN v2 ON a=x ORDER BY b;

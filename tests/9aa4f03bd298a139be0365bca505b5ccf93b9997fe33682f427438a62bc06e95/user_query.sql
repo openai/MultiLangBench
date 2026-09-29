@@ -1,0 +1,1 @@
+CREATE TABLE query_result AS SELECT names.id AS nid, names.data AS ndata, names.code AS ncode, orig.code AS ocode, orig.data AS odata FROM names LEFT OUTER JOIN orig ON names.data = orig.data AND names.code = orig.code;

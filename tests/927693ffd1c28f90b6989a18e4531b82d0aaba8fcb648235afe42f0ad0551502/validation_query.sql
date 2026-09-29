@@ -1,0 +1,1 @@
+SELECT count(*) FROM pragma_table_info('tt') WHERE name GLOB 'c*'

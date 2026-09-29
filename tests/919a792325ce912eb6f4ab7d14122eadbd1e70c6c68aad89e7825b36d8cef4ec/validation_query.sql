@@ -1,0 +1,1 @@
+SELECT rowid, tags FROM fts ORDER BY rowid;

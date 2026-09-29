@@ -1,0 +1,1 @@
+UPDATE t1 SET n1=10; CREATE TABLE result AS SELECT n1 IN (20,'10') AS value FROM t1;

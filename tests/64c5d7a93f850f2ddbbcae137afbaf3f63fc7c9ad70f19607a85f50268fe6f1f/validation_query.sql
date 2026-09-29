@@ -1,0 +1,1 @@
+SELECT name, type, sql FROM sqlite_master WHERE name IN ('z1','z1_segments') ORDER BY name;

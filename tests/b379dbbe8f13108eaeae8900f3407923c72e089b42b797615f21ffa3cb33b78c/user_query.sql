@@ -1,0 +1,1 @@
+CREATE TABLE actual AS SELECT x, _rowid_ AS rid FROM t1 ORDER BY x;

@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT count(*) FROM t7 JOIN t8 USING(a);

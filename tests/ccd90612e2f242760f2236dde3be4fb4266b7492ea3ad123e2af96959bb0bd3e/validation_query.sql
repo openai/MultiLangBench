@@ -1,0 +1,1 @@
+SELECT a,b,c,rid FROM sfi_result ORDER BY rid

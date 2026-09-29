@@ -1,0 +1,5 @@
+CREATE TABLE result_300 AS
+SELECT a, b, c, '.' AS marker
+FROM t300
+WHERE a=0 AND (c=0 OR c=99)
+ORDER BY c DESC;

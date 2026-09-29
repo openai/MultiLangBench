@@ -1,0 +1,1 @@
+UPDATE t SET i1=NULL,i2=3;INSERT INTO r SELECT coalesce(max(i1,i2,1),99) FROM t;

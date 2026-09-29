@@ -1,0 +1,1 @@
+CREATE TABLE reindex(reindex reindex); INSERT INTO reindex VALUES(99); INSERT INTO reindex SELECT a FROM t1;

@@ -1,0 +1,1 @@
+SELECT count(*), sum(a=1000), (SELECT count(*) FROM audit), (SELECT b FROM t1 WHERE a=1000) FROM t1;

@@ -1,0 +1,1 @@
+SELECT a, b, quote(d) FROM t1 ORDER BY a

@@ -1,0 +1,1 @@
+INSERT INTO t3(a,b,c,d) VALUES(1,2,3,5); SELECT * FROM t3 ORDER BY a,b,c,d;

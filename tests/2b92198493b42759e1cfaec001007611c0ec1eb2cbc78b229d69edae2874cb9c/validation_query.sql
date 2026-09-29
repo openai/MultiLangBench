@@ -1,0 +1,1 @@
+SELECT rowid,a,b,c FROM t6 ORDER BY rowid

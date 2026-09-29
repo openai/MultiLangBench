@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT snippet(t5) AS v FROM t5 WHERE t5 MATCH 'miles'

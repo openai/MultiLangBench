@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts4(a, b, languageid=lang_id); INSERT INTO t1(a,b) VALUES('aaa','bbb');

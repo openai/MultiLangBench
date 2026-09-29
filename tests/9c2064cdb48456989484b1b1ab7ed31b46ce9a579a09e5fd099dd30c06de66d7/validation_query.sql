@@ -1,0 +1,1 @@
+SELECT type, name, tbl_name, sql, (SELECT page_size FROM pragma_page_size), (SELECT auto_vacuum FROM pragma_auto_vacuum) FROM sqlite_schema WHERE name = 't1';

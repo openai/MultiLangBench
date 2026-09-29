@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT rowid AS v FROM ft WHERE rowid=1000000;

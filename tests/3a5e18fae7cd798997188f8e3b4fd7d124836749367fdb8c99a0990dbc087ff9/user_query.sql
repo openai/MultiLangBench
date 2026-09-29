@@ -1,0 +1,1 @@
+CREATE TABLE result(r); INSERT INTO result SELECT rowid FROM t2 WHERE i IN (SELECT i FROM t4);

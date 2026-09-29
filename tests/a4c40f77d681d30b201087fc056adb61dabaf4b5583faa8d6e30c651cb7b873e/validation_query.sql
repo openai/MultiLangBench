@@ -1,0 +1,1 @@
+SELECT locking_mode, (SELECT count(*) FROM sqlite_schema WHERE name IN ('t3','abc')) AS remaining_tables FROM lock_capture;

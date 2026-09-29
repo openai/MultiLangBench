@@ -1,0 +1,1 @@
+CREATE TABLE abc(a, b, c); CREATE INDEX abc_index ON abc(a);

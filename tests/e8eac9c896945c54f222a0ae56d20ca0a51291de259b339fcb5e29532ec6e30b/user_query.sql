@@ -1,0 +1,1 @@
+CREATE TABLE t1(a int, b int); CREATE INDEX i1 ON t1(a); INSERT INTO t1 VALUES(1,2),(2,4),(3,8),(1,12);

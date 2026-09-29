@@ -1,0 +1,1 @@
+SELECT x+y+z FROM r ORDER BY rowid

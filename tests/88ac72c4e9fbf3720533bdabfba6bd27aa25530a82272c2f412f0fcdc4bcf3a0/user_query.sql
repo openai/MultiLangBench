@@ -1,0 +1,1 @@
+CREATE TABLE observed AS SELECT * FROM v1;

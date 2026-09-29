@@ -1,0 +1,1 @@
+PRAGMA journal_mode=OFF; PRAGMA journal_mode=DELETE; CREATE TABLE result AS SELECT journal_mode AS mode FROM pragma_journal_mode;

@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT snippet(ft,'{','}','...',-1,-4) AS v FROM ft WHERE ft MATCH 'one fifty onehundred onehundredfifty twohundredfifty threehundred';

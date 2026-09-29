@@ -1,0 +1,1 @@
+SELECT a, b, c, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='t3_i2') AS dropped_index_count, (SELECT sql FROM sqlite_schema WHERE type='index' AND name='t3_i') AS remaining_index_sql FROM t3 ORDER BY a;

@@ -1,0 +1,1 @@
+SELECT seqno, cid, name FROM observed ORDER BY seqno;

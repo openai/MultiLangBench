@@ -1,0 +1,1 @@
+CREATE TABLE seed(x); DROP TABLE seed; PRAGMA journal_mode=DELETE;

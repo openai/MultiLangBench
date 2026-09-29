@@ -1,0 +1,1 @@
+CREATE TABLE placeholder(x); DROP TABLE placeholder;

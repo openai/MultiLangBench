@@ -1,0 +1,1 @@
+INSERT INTO t1(b,c) VALUES(5,99) RETURNING b,c,a,rowid;

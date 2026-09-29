@@ -1,0 +1,1 @@
+INSERT INTO result SELECT trunc(42.8), trunc(-42.8);

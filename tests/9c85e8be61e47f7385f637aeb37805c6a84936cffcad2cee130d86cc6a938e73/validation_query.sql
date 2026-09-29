@@ -1,0 +1,1 @@
+SELECT * FROM deferred ORDER BY deferred ASC

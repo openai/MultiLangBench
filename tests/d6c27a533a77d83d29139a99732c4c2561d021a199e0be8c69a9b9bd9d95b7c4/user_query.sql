@@ -1,0 +1,1 @@
+INSERT INTO result SELECT json_remove('[0,1,2,3,4]','$[2]','$[0]');

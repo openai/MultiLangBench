@@ -1,0 +1,1 @@
+SELECT i,y FROM result ORDER BY rowid;

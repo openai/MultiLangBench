@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT substring('abcdef', -5);

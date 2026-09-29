@@ -1,0 +1,1 @@
+SELECT * FROM conflict ORDER BY conflict ASC

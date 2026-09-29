@@ -1,0 +1,1 @@
+PRAGMA recursive_triggers=OFF; CREATE TABLE t1(a PRIMARY KEY, b); CREATE TRIGGER tr1 AFTER INSERT ON t1 BEGIN INSERT INTO t1 VALUES(new.a || '+', new.b || '+'); END; INSERT INTO t1 VALUES('a', 'b'); INSERT INTO t1 VALUES('c', 'd');

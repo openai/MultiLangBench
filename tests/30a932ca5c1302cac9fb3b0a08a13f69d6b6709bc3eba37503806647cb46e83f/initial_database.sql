@@ -1,0 +1,1 @@
+CREATE TABLE c1(a, b, c); INSERT INTO c1 VALUES('one two', 'three four', 'five six'); INSERT INTO c1 VALUES('three four', 'five six', 'one two'); CREATE VIRTUAL TABLE t1 USING fts4(content=c1, notindexed=b);

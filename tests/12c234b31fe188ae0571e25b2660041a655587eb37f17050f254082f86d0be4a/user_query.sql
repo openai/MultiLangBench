@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT patterns.n AS pattern_no,patterns.p AS pattern,(SELECT count(*) FROM t1 WHERE c LIKE '%'||patterns.p||'%') AS matches,(SELECT avg(b) FROM t1 WHERE c LIKE '%'||patterns.p||'%') AS av FROM patterns ORDER BY patterns.n;

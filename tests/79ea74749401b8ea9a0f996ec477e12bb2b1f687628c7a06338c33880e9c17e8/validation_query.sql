@@ -1,0 +1,1 @@
+SELECT count(*),sum(r1),sum(i1),sum(i2),sum(i3),sum(length(x1)+length(x2)+length(x3)),min(x1),max(x3) FROM result;

@@ -1,0 +1,1 @@
+CREATE TABLE t(x); PRAGMA user_version=2;

@@ -1,0 +1,1 @@
+SELECT k, v FROM var ORDER BY rowid

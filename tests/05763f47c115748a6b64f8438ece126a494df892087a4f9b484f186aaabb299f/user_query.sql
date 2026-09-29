@@ -1,0 +1,1 @@
+CREATE TABLE observed(id INTEGER PRIMARY KEY, value); INSERT INTO observed(id,value) SELECT id,round(CAST(input AS REAL),n) FROM cases;

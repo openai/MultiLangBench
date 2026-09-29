@@ -1,0 +1,1 @@
+SELECT count(*) FROM sqlite_schema WHERE name='collate2t3'

@@ -1,0 +1,1 @@
+DELETE FROM ta_content WHERE rowid=2

@@ -1,0 +1,1 @@
+SELECT v,w FROM r ORDER BY rowid

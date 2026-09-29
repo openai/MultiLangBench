@@ -1,0 +1,1 @@
+ALTER TABLE log_entry RENAME TO newname;

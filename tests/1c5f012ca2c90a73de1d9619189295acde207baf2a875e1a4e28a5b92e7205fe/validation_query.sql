@@ -1,0 +1,1 @@
+SELECT root_quote FROM result;

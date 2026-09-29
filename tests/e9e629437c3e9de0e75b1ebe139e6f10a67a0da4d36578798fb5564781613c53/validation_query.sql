@@ -1,0 +1,1 @@
+SELECT (SELECT page_count FROM pragma_page_count) * (SELECT page_size FROM pragma_page_size), count(*), sum(CASE WHEN x0=0 AND x1=0 AND x2=0 AND x3=0 AND x4=0 AND x5=0 AND x6=0 AND x7=0 AND x8=0 AND x9=0 THEN 1 ELSE 0 END) FROM t1;

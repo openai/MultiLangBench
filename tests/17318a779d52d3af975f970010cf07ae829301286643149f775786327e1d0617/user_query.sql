@@ -1,0 +1,1 @@
+INSERT INTO docs VALUES('alternative','linoleum appliances')

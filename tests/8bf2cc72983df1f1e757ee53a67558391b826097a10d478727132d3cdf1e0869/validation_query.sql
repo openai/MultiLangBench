@@ -1,0 +1,1 @@
+SELECT count(*), sum(a IN (1,250) AND b=CAST(substr('X'||hex(zeroblob(200)),1,200) AS BLOB)), sum(a NOT IN (1,250) AND b=zeroblob(200)), min(length(b)), max(length(b)) FROM t1;

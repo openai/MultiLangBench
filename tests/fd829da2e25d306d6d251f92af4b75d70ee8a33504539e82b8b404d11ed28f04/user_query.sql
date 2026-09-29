@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT t1.x,t2.x+1 FROM t AS t1,t AS t2 WHERE t2.x=t1.x;

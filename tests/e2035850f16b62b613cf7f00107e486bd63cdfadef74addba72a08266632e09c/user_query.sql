@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT up FROM c1 GROUP BY up HAVING count(*)>3;

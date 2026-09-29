@@ -1,0 +1,7 @@
+CREATE TABLE t1(a,b,c,d);
+WITH RECURSIVE cnt(x) AS (VALUES(1) UNION ALL SELECT x+1 FROM cnt WHERE x<100)
+INSERT INTO t1(a,b,c,d) SELECT 100, 200+x/2, 300+x/5, x FROM cnt;
+CREATE INDEX t1abc ON t1(a,b,c);
+ANALYZE;
+UPDATE sqlite_stat1 SET stat='1000000 500000 500 50';
+ANALYZE sqlite_master;

@@ -1,0 +1,1 @@
+SELECT id, typeof(data), length(data), data=zeroblob(5000) FROM blobs ORDER BY id;

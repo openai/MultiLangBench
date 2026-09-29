@@ -1,0 +1,1 @@
+SELECT s.type, s.name, s.tbl_name, s.sql, p.page_size FROM sqlite_schema AS s CROSS JOIN pragma_page_size AS p WHERE s.name IN ('t1','i1','t1_t1') ORDER BY s.name

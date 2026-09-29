@@ -1,0 +1,1 @@
+SELECT 3000-count(*) FROM table1;

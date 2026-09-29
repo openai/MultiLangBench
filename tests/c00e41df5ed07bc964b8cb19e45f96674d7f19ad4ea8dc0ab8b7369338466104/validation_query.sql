@@ -1,0 +1,1 @@
+SELECT label, c, n FROM query_result ORDER BY c;

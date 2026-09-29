@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT docid AS value FROM t0 WHERE t0 MATCH '"abc abc"';

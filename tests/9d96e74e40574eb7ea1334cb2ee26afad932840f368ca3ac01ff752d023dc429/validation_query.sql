@@ -1,0 +1,1 @@
+SELECT a,b,c,(SELECT count(*) FROM sqlite_master WHERE type='index' AND name='i1' AND tbl_name='t1') AS has_i1 FROM t1 WHERE b='y' ORDER BY a;

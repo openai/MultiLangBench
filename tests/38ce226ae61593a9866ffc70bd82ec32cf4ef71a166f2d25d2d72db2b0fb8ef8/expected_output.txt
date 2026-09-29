@@ -1,0 +1,1 @@
+[["vvv","CREATE VIEW vvv AS SELECT xyz AS d FROM xxx WHERE d=0"],["xxx","CREATE TABLE xxx(xyz,b,c)"]]

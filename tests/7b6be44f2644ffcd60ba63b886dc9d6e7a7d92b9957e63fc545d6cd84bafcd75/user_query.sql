@@ -1,0 +1,1 @@
+CREATE TEMP TABLE force_temp(x); INSERT INTO main.capture SELECT seq,name FROM pragma_database_list ORDER BY seq;

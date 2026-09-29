@@ -1,0 +1,1 @@
+INSERT INTO t4(rowid, a, b) VALUES(1, 'a', 1); INSERT INTO t4(rowid, a, b) VALUES(3, 'c', 3);

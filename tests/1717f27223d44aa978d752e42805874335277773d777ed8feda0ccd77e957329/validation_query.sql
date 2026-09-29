@@ -1,0 +1,1 @@
+SELECT type, name, tbl_name, sql FROM sqlite_master WHERE name='t1' OR (type='index' AND tbl_name='t1') ORDER BY type, name;

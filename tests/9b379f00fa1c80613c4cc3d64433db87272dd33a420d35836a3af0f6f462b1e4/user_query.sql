@@ -1,0 +1,1 @@
+CREATE TABLE t5(a,b,PRIMARY KEY(b,a)) WITHOUT ROWID; INSERT INTO t5(a,b) VALUES('abc','def'); UPDATE t5 SET a='abc',b='def';

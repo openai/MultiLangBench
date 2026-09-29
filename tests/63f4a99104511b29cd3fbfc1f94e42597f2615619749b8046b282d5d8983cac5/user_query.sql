@@ -1,0 +1,1 @@
+UPDATE t4 SET a='ABC',b='xyz'; CREATE TABLE sfi_result AS SELECT b,a FROM t4;

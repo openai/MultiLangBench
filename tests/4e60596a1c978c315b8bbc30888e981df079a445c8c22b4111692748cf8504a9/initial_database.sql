@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts4;INSERT INTO t1(rowid,content)VALUES(1,replace(hex(zeroblob(100000)),'00','zm ')),(2,replace(hex(zeroblob(100000)),'00','jk ')),(3,'012345678 jk uenvbm'),(4,'0123456789012345678901234 jk uenvbm');

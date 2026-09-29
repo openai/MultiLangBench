@@ -1,0 +1,1 @@
+CREATE TABLE t3(i, j, UNIQUE(i)); INSERT INTO t3(rowid,i,j) VALUES(1,4,16); INSERT INTO t3(rowid,i,j) VALUES(3,5,36);

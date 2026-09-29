@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT char(0x304d) LIKE char(0x306d) AS v;

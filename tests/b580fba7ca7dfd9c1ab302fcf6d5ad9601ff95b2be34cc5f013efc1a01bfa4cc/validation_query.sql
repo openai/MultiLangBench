@@ -1,0 +1,1 @@
+SELECT aa FROM result ORDER BY rowid

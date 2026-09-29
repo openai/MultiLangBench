@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM xx), (SELECT count(*) FROM xx_segdir);

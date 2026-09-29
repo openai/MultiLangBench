@@ -1,0 +1,1 @@
+DROP TABLE t1; CREATE VIRTUAL TABLE t1 USING fts4(languageid=lang_id); INSERT INTO t1(content) VALUES('a b c'); INSERT INTO t1(content,lang_id) VALUES('a b c',1);

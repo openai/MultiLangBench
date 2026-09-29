@@ -1,0 +1,1 @@
+SELECT a,typeof(b),length(b),b=zeroblob(10000),c IS NULL,typeof(d),length(d),d=zeroblob(10000) FROM t1 WHERE a=5;

@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(content, '|') FROM (SELECT content FROM t01 ORDER BY rowid)), (SELECT group_concat(content, '|') FROM (SELECT content FROM t02 ORDER BY rowid)), (SELECT count(*) FROM t01 WHERE t01 MATCH 'b'), (SELECT count(*) FROM t02 WHERE t02 MATCH 'b')

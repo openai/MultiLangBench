@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM ab) AS ab_rows,(SELECT count(*) FROM cd) AS cd_rows,(SELECT count(*) FROM sqlite_schema WHERE name IN('ab','cd','tlog','abcd','before_update','after_update','before_delete','after_delete','before_insert','after_insert')) AS object_count

@@ -1,0 +1,1 @@
+SELECT tce73.a,tce73.b,tce74.w,tce74.x,tce74.y FROM tce73,tce74

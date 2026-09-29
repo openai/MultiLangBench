@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rowid FROM t2 WHERE content MATCH 'abc';

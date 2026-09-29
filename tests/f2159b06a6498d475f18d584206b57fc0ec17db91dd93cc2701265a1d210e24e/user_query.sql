@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT * FROM (SELECT a COLLATE nocase,b FROM t6) AS x,t5 ON(x.a=t5.a);

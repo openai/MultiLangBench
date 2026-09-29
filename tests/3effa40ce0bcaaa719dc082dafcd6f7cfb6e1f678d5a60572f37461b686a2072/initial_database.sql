@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b,c,d,e,f,g,h,j,jj,jjb,k,aa,bb,cc,dd,ee DEFAULT 3.14,ff DEFAULT('hiccup'),Wg NOD NULL DEFAULT(false)); CREATE TRIGGER b AFTER INSERT ON t1 WHEN new.a BEGIN SELECT a, sum() w3 FROM t1 WINDOW b AS (ORDER BY NOT EXISTS(SELECT 1 FROM t1)); END;

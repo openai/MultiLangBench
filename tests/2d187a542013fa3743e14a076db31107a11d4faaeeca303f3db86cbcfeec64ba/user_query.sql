@@ -1,0 +1,1 @@
+CREATE TABLE t6(pk INT primary key); CREATE TABLE t7(pk BIGINT primary key); CREATE TABLE t8(pk SHORT INTEGER primary key); CREATE TABLE t9(pk UNSIGNED INTEGER primary key);

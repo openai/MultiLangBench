@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rowid AS matched_rowid FROM t1 WHERE t1 MATCH 'one two OR four five NOT three' ORDER BY rowid;

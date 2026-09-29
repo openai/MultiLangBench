@@ -1,0 +1,1 @@
+ANALYZE; UPDATE sqlite_stat1 SET stat='10000 5000 20' WHERE idx='people_idx1'; UPDATE sqlite_stat1 SET stat='10000 1' WHERE idx='sqlite_autoindex_people_1'; ANALYZE sqlite_master;

@@ -1,0 +1,1 @@
+INSERT INTO sfi_result(c0) SELECT c0 FROM t0 WHERE c1 IS NULL AND c0 IN (1,2,3,4,5);

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE text USING fts3()

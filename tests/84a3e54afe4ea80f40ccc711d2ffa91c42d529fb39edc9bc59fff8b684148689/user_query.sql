@@ -1,0 +1,1 @@
+CREATE TRIGGER r3 INSTEAD OF UPDATE ON v1 BEGIN INSERT INTO v1log VALUES(old.x,new.x,old.y,new.y,old.z,new.z); END; DELETE FROM v1log; UPDATE v1 SET x=x+100,y=y+200,z=z+300;

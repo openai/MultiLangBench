@@ -1,0 +1,1 @@
+CREATE INDEX t5a ON t5(abs(a)); CREATE INDEX t5b ON t5(abs(b));

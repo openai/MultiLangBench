@@ -1,0 +1,1 @@
+INSERT INTO result SELECT x FROM t1 WHERE x IN ('1.0') ORDER BY t1.rowid;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a,sum(b),sum(sum(b)) OVER (ORDER BY a) FROM t2 GROUP BY a;

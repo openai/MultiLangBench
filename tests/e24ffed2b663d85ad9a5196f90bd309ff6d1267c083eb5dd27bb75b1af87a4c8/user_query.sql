@@ -1,0 +1,1 @@
+CREATE TABLE result(a INTEGER, b TEXT, c INTEGER, d TEXT); INSERT INTO result SELECT a, b, c, d FROM t1, t3 WHERE a < c;

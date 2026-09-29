@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT count(*) FROM t1 INNER JOIN t2 ON (t1.a=t2.a);

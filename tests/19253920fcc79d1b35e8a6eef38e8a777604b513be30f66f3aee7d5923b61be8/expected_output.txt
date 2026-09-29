@@ -1,0 +1,1 @@
+[["apple","RED",1],["APPLE","yellow",2],["PEAR","green",1],["pear","YELLOW",2]]

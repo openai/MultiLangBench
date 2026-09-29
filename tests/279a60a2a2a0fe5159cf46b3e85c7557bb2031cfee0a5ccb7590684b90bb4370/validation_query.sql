@@ -1,0 +1,1 @@
+SELECT term, col, documents, occurrences FROM _sfi_result ORDER BY term, col, documents, occurrences;

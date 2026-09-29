@@ -1,0 +1,1 @@
+SELECT x,y FROM main.t2

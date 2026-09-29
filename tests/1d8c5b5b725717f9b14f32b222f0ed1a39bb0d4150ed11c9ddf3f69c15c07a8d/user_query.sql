@@ -1,0 +1,1 @@
+INSERT INTO t6(t6) VALUES('optimize');

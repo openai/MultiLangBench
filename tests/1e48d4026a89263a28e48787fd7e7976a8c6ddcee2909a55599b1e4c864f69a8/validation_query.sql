@@ -1,0 +1,1 @@
+SELECT id, a FROM result ORDER BY id;

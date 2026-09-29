@@ -1,0 +1,1 @@
+SELECT lower(a) FROM result ORDER BY rowid;

@@ -1,0 +1,1 @@
+INSERT INTO r SELECT sum(NOT x) FROM t1 WHERE x;

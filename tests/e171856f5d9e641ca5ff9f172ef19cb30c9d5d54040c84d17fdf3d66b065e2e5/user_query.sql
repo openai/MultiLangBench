@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=OFF; DELETE FROM c22; INSERT INTO c22 VALUES('abc  ','ALPHA'); CREATE TABLE result AS SELECT [table] AS child_table, [rowid] AS child_rowid, parent, fkid FROM pragma_foreign_key_check('c22');

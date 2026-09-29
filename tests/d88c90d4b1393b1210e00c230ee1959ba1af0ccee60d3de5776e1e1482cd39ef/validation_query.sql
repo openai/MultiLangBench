@@ -1,0 +1,1 @@
+SELECT x, (SELECT count(*) FROM t1_content) FROM result;

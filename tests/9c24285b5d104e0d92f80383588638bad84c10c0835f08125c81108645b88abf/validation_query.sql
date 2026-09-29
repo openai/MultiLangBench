@@ -1,0 +1,1 @@
+SELECT group_concat(t, ',') FROM (SELECT typeof(poi) AS t FROM t2 ORDER BY docid);

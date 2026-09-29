@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a,x FROM t1 JOIN t2 ON y=d OR x=7 ORDER BY a,x;

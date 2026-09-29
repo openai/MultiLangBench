@@ -1,0 +1,1 @@
+SELECT a, b, typeof(b), (SELECT sql FROM sqlite_master WHERE type='index' AND name='x1i') AS index_sql FROM result ORDER BY rowid

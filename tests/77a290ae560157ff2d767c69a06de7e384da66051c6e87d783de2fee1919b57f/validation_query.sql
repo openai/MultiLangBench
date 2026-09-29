@@ -1,0 +1,1 @@
+SELECT level,idx FROM fts_segdir ORDER BY level,idx;

@@ -1,0 +1,1 @@
+SELECT a,b,c FROM __sfi_result ORDER BY a;

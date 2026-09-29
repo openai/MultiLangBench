@@ -1,0 +1,1 @@
+INSERT INTO a2 VALUES(1, 2, 3)

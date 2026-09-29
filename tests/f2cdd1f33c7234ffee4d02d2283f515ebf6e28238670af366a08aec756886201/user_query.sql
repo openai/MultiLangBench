@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT min(b) FROM t7 WHERE a=5;

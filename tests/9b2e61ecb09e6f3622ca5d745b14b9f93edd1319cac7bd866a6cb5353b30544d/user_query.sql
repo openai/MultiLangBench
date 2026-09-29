@@ -1,0 +1,1 @@
+CREATE TABLE actual AS SELECT x FROM t1 WHERE _rowid_=1;

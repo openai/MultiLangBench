@@ -1,0 +1,1 @@
+SELECT count(*) AS row_count, min(rowid) AS first_docid, max(rowid) AS last_docid FROM t9;

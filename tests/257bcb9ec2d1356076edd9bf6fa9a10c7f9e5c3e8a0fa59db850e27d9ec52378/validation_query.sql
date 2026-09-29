@@ -1,0 +1,1 @@
+SELECT Id, ParentId, C1 FROM Foo ORDER BY Id;

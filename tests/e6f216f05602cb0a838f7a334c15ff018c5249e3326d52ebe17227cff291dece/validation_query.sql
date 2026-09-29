@@ -1,0 +1,1 @@
+SELECT * FROM reindex ORDER BY reindex ASC

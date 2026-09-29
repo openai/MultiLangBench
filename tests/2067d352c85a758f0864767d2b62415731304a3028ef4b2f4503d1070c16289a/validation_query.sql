@@ -1,0 +1,1 @@
+SELECT (SELECT type FROM sqlite_schema WHERE name='t1') AS object_type, count(*) AS column_count, group_concat(name, ',') AS column_names FROM pragma_table_info('t1');

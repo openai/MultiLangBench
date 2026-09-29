@@ -1,0 +1,1 @@
+SELECT rowid, k, typeof(v), length(v), hex(v) FROM blobs ORDER BY rowid

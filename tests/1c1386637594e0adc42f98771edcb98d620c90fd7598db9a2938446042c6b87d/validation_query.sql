@@ -1,0 +1,1 @@
+SELECT a, (SELECT count(*) FROM pragma_index_list('p1') WHERE name='p1x2' AND "unique"=1 AND partial=0) AS full_unique_index, (SELECT count(*) FROM pragma_foreign_key_check) AS violations FROM c1 ORDER BY a;

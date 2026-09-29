@@ -1,0 +1,1 @@
+SELECT count(*), group_concat(docid,','), sum(words=printf('alpha common beta verse%02d',docid)) FROM (SELECT docid,words FROM t2 ORDER BY docid);

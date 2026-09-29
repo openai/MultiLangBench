@@ -1,0 +1,1 @@
+DROP TABLE release; CREATE INDEX release ON t1(a);

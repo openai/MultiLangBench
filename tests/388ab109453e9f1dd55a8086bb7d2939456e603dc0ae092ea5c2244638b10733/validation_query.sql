@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1), (SELECT count(*) FROM sqlite_master WHERE type='index' AND tbl_name='t1'), (SELECT count(*) FROM t2);

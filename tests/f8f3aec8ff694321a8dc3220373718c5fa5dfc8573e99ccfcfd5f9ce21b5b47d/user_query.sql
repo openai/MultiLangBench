@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT (d IS NULL) FROM t1 RIGHT JOIN t2 ON (j=33);

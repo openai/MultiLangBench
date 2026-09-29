@@ -1,0 +1,1 @@
+[["CREATE TABLE x1(i INTEGER, t TEXT)","table","x1","main","x1",-1,"zzz",0],["CREATE TABLE x1(i INTEGER, t TEXT)","table","x1","main","x1",2,"zzz",0],["CREATE TABLE x1(i INTEGER, t TEXT)","table","x1","main","notable",0,"zzz",0],["CREATE TABLE x1(i INTEGER, t TEXT)","table","x1","main","ddd",-1,"zzz",0]]

@@ -1,0 +1,1 @@
+SELECT count(*) FROM sqlite_schema WHERE name IN('b2','b3')

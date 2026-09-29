@@ -1,0 +1,1 @@
+SELECT page_size, (SELECT count(*) FROM sqlite_schema WHERE type='table' AND name='t1') AS table_count FROM pragma_page_size;

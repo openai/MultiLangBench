@@ -1,0 +1,1 @@
+CREATE TABLE collate4t1(a); CREATE UNIQUE INDEX collate4i1 ON collate4t1(a COLLATE NOCASE); INSERT INTO collate4t1 VALUES('abc');

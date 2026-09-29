@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t5), (SELECT count(*) FROM t5_segdir), (SELECT count(*) FROM sqlite_master WHERE name='t5' OR name GLOB 't5_*');

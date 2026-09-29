@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE mail USING fts3(subject,body); INSERT INTO mail VALUES('hello world','This message is a hello world message.')

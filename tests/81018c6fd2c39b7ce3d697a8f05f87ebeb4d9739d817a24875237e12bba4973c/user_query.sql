@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT 0 IN (c0) AS value FROM (SELECT c0 FROM t0);

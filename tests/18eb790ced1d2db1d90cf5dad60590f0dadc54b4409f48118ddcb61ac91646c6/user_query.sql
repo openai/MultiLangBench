@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT CAST(zeroblob(100) AS BLOB) AS v;

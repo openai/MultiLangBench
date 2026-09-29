@@ -1,0 +1,1 @@
+PRAGMA locking_mode=EXCLUSIVE; CREATE TABLE anchor(x); INSERT INTO anchor VALUES(1); PRAGMA locking_mode=NORMAL; CREATE TABLE result AS SELECT locking_mode AS mode FROM pragma_locking_mode;

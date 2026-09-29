@@ -1,0 +1,1 @@
+[["table","abc","abc","CREATE TABLE abc(a, b, c)"],["table","def","def","CREATE TABLE def(a, b, c)"],["table","ghi","ghi","CREATE TABLE ghi(a, b, c)"]]

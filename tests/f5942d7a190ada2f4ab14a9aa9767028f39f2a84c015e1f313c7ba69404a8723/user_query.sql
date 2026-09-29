@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(coalesce(julianday('2001-01-00'),'NULL'))

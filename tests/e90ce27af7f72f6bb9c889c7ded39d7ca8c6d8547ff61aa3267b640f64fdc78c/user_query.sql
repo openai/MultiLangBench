@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; INSERT INTO t1 VALUES(1,'one'),(2,'two'); INSERT INTO t2 VALUES(1,2); DELETE FROM t1 WHERE a=2;

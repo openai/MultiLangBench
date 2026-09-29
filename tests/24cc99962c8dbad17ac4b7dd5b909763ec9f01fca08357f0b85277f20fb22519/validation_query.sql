@@ -1,0 +1,1 @@
+SELECT a, a='ONE' AS nocase_equal FROM t1 ORDER BY rowid;

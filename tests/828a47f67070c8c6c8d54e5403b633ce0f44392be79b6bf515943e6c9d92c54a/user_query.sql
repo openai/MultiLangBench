@@ -1,0 +1,1 @@
+ALTER TABLE v0 RENAME TO xyz; SELECT sql FROM sqlite_master WHERE type='trigger';

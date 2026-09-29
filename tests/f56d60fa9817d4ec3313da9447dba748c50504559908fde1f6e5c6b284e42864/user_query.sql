@@ -1,0 +1,1 @@
+PRAGMA automatic_index=OFF; INSERT INTO result(a,b,x,y) SELECT * FROM t1 JOIN t2 ON a=x AND y=4 WHERE coalesce(y,4)==4;

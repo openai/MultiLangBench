@@ -1,0 +1,1 @@
+CREATE TABLE _result AS SELECT DISTINCT cast(round(x/100) AS integer) FROM t3 LIMIT 5 OFFSET 25;

@@ -1,0 +1,1 @@
+[["after insert",1,2],["after update",2,3],["after delete",2,3]]

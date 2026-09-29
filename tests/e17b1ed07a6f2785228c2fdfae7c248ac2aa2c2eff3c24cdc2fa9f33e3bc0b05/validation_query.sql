@@ -1,0 +1,1 @@
+SELECT [from], [to] FROM result ORDER BY rowid;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT count(*) FROM t1 WHERE b=10 AND b = '10.0';

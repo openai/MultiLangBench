@@ -1,0 +1,1 @@
+PRAGMA auto_vacuum=1; CREATE TABLE result AS SELECT * FROM pragma_auto_vacuum;

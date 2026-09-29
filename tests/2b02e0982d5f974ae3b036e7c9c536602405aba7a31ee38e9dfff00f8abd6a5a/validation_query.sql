@@ -1,0 +1,1 @@
+SELECT c.t1_count, c.t1_min, c.t1_max, c.t1_sql, c.t3_count, c.t3_sql, t2.x, t2.y, (SELECT sql FROM sqlite_schema WHERE type='table' AND name='t2') AS t2_sql FROM sfi_capture AS c JOIN t2 ORDER BY t2.rowid;

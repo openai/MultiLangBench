@@ -1,0 +1,1 @@
+CREATE TABLE actual AS SELECT max(x) AS m FROM t1;

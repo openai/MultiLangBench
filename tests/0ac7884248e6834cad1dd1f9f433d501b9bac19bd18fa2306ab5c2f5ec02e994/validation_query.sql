@@ -1,0 +1,1 @@
+SELECT rowid, a, b, c, (SELECT count(*) FROM sqlite_master WHERE type='index' AND name='t1abc' AND tbl_name='t1'), (SELECT page_size FROM pragma_page_size) FROM t1 INDEXED BY t1abc WHERE a='abc' AND b='xyz' AND c='123';

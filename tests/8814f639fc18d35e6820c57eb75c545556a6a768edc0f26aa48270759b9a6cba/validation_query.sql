@@ -1,0 +1,1 @@
+SELECT 'p' AS tab,a,b,NULL FROM tdd08 UNION ALL SELECT 'c',w,x,y FROM tdd08_b ORDER BY 1

@@ -1,0 +1,1 @@
+SELECT name, sql FROM sqlite_master WHERE name IN ('txx','uuu','vvv') UNION ALL SELECT name, sql FROM temp_capture ORDER BY name;

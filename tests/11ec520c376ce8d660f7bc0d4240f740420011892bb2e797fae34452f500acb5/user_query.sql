@@ -1,0 +1,1 @@
+CREATE TABLE result AS WITH x AS (WITH y AS (WITH z AS(SELECT * FROM t1) SELECT * FROM no_such_table) SELECT a) SELECT * from t1;

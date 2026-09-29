@@ -1,0 +1,1 @@
+SELECT mode, (SELECT sql FROM sqlite_schema WHERE type='table' AND name='t1'), (SELECT count(*) FROM sqlite_schema WHERE type='index' AND tbl_name='t1') FROM observed;

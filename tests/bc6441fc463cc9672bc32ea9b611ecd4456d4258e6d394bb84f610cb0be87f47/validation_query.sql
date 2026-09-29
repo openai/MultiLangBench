@@ -1,0 +1,1 @@
+SELECT count(*) AS n, min(docid) AS lo, max(docid) AS hi, sum(content='abc') AS nabc FROM t2

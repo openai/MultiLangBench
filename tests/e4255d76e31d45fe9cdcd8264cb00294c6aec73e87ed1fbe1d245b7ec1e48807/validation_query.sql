@@ -1,0 +1,1 @@
+SELECT group_concat(a || ':' || b, '|') FROM (SELECT a, b FROM result ORDER BY rowid)

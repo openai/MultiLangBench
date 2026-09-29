@@ -1,0 +1,1 @@
+SELECT count(*) FROM sqlite_master WHERE name='x1' AND type='table' AND sql LIKE 'CREATE VIRTUAL TABLE%';

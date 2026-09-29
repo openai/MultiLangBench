@@ -1,0 +1,1 @@
+SELECT rowid,x,y FROM tt ORDER BY rowid

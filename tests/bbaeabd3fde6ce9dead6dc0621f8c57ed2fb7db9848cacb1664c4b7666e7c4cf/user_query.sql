@@ -1,0 +1,1 @@
+PRAGMA automatic_index=0; DROP TABLE t1; DROP TABLE t2; CREATE TABLE t1(a, b, c); CREATE TABLE t2(d, e, f); CREATE UNIQUE INDEX i1 ON t1(a, b); CREATE INDEX i2 ON t2(d);

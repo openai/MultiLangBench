@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM t1 CROSS JOIN t2 WHERE t2.y=t1.a AND t1.a=t2.x;

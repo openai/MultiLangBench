@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT min(x COLLATE nocase) AS v1, min(x) AS v2 FROM t4;

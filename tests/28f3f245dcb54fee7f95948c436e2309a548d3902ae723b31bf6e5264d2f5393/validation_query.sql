@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM ft4),(SELECT min(rowid) FROM ft4),(SELECT max(rowid) FROM ft4),(SELECT count(*) FROM t4),(SELECT count(*) FROM ft4 WHERE x='x y z'),(SELECT count(*) FROM t4 WHERE x='x y z');

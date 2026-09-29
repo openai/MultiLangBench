@@ -1,0 +1,1 @@
+CREATE TABLE actual AS SELECT * FROM t2 ORDER BY rowid;

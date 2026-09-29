@@ -1,0 +1,1 @@
+CREATE TABLE b2(x,y);INSERT INTO b2 VALUES(NULL,0),(NULL,1),('xyz',2),('abc',3),('xyz',4);

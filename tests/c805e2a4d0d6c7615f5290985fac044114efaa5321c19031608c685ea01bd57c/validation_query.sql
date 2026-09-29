@@ -1,0 +1,1 @@
+SELECT * FROM pragma ORDER BY pragma ASC

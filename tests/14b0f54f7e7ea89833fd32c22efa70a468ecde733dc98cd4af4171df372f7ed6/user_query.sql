@@ -1,0 +1,1 @@
+CREATE TABLE t6(a); INSERT INTO t6(rowid,a) SELECT -a,a FROM t5; CREATE TABLE actual AS SELECT rowid AS rid,* FROM t6;

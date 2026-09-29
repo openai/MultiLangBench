@@ -1,0 +1,1 @@
+CREATE TABLE like(like like); INSERT INTO like VALUES(99); INSERT INTO like SELECT a FROM t1;

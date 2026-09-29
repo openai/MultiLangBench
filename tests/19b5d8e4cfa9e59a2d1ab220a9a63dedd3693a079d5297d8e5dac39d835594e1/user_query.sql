@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT docid,snippet(t1) FROM t1 WHERE t1 MATCH 'aa OR da' ORDER BY rowid DESC;

@@ -1,0 +1,1 @@
+BEGIN; CREATE TABLE result(r1 INTEGER,i1 INTEGER,x1 TEXT,r2 INTEGER,i2 INTEGER,x2 TEXT,r3 INTEGER,i3 INTEGER,x3 TEXT); INSERT INTO result SELECT t1.rowid,t1.i,t1.t,t2.rowid,t2.i,t2.t,t3.rowid,t3.i,t3.t FROM t1,t2,t3 WHERE t1.oid=t2.oid AND t2.oid=t3.oid; COMMIT;

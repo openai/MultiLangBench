@@ -1,0 +1,1 @@
+SELECT log, cnt FROM sfi_result ORDER BY log;

@@ -1,0 +1,1 @@
+CREATE TABLE t1(a, b, c); CREATE INDEX x1 ON t1("a"||"b"); INSERT INTO t1 VALUES(1,2,3),(1,4,5);

@@ -1,0 +1,1 @@
+ALTER TABLE y1_segments RENAME TO abc;

@@ -1,0 +1,1 @@
+SELECT count(*),sum(b IS NULL),(SELECT length(a) FROM ft ORDER BY rowid LIMIT 1),(SELECT length(b) FROM ft ORDER BY rowid LIMIT 1) FROM ft

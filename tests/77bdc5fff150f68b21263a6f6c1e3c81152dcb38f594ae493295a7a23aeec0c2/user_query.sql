@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rowid FROM t3 WHERE t3 MATCH '"2 3 4 5 6 7 8 9"';

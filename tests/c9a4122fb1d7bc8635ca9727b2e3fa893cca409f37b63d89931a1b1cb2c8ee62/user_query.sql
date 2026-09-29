@@ -1,0 +1,1 @@
+CREATE TABLE _result AS SELECT 2 IN (SELECT b FROM t7) AS v;

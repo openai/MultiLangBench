@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT l,docid FROM t2 WHERE t2 MATCH 'zero one two' AND l BETWEEN 0 AND 9;

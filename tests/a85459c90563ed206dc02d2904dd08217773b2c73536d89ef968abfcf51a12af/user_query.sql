@@ -1,0 +1,9 @@
+PRAGMA auto_vacuum=2;
+CREATE TABLE t1(a PRIMARY KEY, b);
+WITH RECURSIVE data(i) AS (
+  VALUES(1)
+  UNION ALL
+  SELECT i+1 FROM data WHERE i<20
+)
+INSERT INTO t1 SELECT i, zeroblob(600) FROM data;
+PRAGMA page_count;

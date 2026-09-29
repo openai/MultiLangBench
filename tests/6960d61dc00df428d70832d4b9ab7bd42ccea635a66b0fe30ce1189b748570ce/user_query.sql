@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES('-'||hex(zeroblob(5000))||'.'||substr(hex(zeroblob(5000)),1,323)||replace(hex(zeroblob(5000)),'0','9')); INSERT INTO result SELECT CAST(x AS text), typeof(x) FROM t1;

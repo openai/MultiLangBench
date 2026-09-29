@@ -1,0 +1,1 @@
+[["t4","CREATE TABLE t4(a, b)"],["v4","CREATE VIEW v4 AS SELECT * FROM t4 WHERE (a=1 AND 0) OR b=2"]]

@@ -1,0 +1,1 @@
+PRAGMA cache_size=5; CREATE TABLE cache_setting AS SELECT cache_size AS value FROM pragma_cache_size;

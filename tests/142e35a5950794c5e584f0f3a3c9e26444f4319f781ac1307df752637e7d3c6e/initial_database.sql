@@ -1,0 +1,1 @@
+CREATE TABLE testjson(id INTEGER PRIMARY KEY, j TEXT, x TEXT); INSERT INTO testjson VALUES(1, '{"a":1}', 'a'); INSERT INTO testjson VALUES(2, '{"b":2}', 'b'); INSERT INTO testjson VALUES(3, '{"c":3}', 'c'); INSERT INTO testjson VALUES(4, '{"d":4}', 'd');

@@ -1,0 +1,1 @@
+BEGIN; CREATE TEMP TABLE abc(a, b, c); ROLLBACK;

@@ -1,0 +1,1 @@
+DROP TABLE savepoint; CREATE INDEX savepoint ON t1(a);

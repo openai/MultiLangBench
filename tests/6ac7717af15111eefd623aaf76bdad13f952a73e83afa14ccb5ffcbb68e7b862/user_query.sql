@@ -1,0 +1,1 @@
+PRAGMA journal_mode=OFF; PRAGMA locking_mode=EXCLUSIVE; CREATE TABLE t1(x); INSERT INTO t1 VALUES(1); CREATE TABLE observed AS SELECT (SELECT * FROM pragma_journal_mode),(SELECT * FROM pragma_locking_mode),x FROM t1;

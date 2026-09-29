@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b); CREATE TABLE t2(c,d); CREATE VIEW v2(e) AS SELECT coalesce(t2.c,t1.a) FROM t1,t2 WHERE t1.b=t2.d;

@@ -1,0 +1,1 @@
+[["CREATE TABLE test1 (\n  one varchar(10),\n  two text\n)"]]

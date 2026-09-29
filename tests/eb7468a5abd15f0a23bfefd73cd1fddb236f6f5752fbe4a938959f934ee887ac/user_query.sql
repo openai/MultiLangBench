@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a AS k, ifnull(b*c,99) AS v FROM t1;

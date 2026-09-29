@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT * FROM t2, t2 AS x;

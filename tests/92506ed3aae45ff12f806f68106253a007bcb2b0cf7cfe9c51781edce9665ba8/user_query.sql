@@ -1,0 +1,1 @@
+CREATE TABLE result(seq, eq_xt, eq_xb, eq_plus_xt); INSERT INTO result(seq, eq_xt, eq_xb, eq_plus_xt) SELECT rowid, xr==xt, xr==xb, xr==+xt FROM t1 ORDER BY rowid;

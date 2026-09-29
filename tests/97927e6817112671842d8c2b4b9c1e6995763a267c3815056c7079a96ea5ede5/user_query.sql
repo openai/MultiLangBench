@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT docid FROM foobar WHERE description MATCH '"high sp d"';

@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1),(SELECT count(*) FROM t3),(SELECT count(*) FROM v1),EXISTS(SELECT 1 FROM sqlite_schema WHERE type='view' AND name='v1'),(SELECT count(*) FROM sqlite_schema WHERE type='trigger'),(SELECT freelist_count FROM pragma_freelist_count),(SELECT integrity_check FROM pragma_integrity_check);

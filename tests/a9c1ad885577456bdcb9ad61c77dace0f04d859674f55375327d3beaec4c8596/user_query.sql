@@ -1,0 +1,1 @@
+CREATE TABLE t4a(a TEXT, b TEXT COLLATE nocase, c); INSERT INTO t4a VALUES('ABC','abc',1); INSERT INTO t4a VALUES('def','xyz',2); INSERT INTO t4a VALUES('ghi','ghi',3); CREATE TABLE result AS SELECT c FROM t4a WHERE a=b ORDER BY c;

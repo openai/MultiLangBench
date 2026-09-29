@@ -1,0 +1,1 @@
+CREATE TABLE z1(x, y, z); CREATE TABLE kk(a, b); INSERT INTO z1 VALUES('a', 'b', 'c'); INSERT INTO z1 VALUES('d', 'e', 'f'); INSERT INTO z1 VALUES('g', 'h', 'i'); INSERT INTO kk VALUES('d', 'e');

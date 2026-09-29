@@ -1,0 +1,1 @@
+SELECT a, b, c, (SELECT stat FROM sqlite_stat1 WHERE tbl='t1' AND idx='t1b') AS stat FROM t1;

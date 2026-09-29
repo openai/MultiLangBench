@@ -1,0 +1,1 @@
+UPDATE t1 SET b=a, a=0;

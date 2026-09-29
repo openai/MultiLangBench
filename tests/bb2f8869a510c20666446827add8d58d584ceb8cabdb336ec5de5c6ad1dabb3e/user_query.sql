@@ -1,0 +1,1 @@
+CREATE TABLE query_result AS SELECT count(*) AS n FROM t3 WHERE a=999;

@@ -1,0 +1,4 @@
+BEGIN;
+INSERT INTO t1 VALUES(hex(zeroblob(5000)));
+INSERT INTO t1 VALUES(hex(zeroblob(100)));
+COMMIT;

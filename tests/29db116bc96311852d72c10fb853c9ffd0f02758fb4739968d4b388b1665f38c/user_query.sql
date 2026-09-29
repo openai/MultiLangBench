@@ -1,0 +1,1 @@
+/* 8.1 */ CREATE TABLE t810(a, CHECK( main.t810.a>0 )); CREATE TABLE t811(b, CHECK( xyzzy.t811.b BETWEEN 5 AND 10 ));

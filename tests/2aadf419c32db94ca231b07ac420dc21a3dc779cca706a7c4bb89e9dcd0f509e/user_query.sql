@@ -1,0 +1,1 @@
+INSERT INTO t4(rowid,x) SELECT rowid,x FROM ft4x; INSERT INTO ft4(ft4) VALUES('rebuild'); CREATE TABLE sfi_stat AS SELECT id,quote(value) AS value FROM ft4_stat; CREATE TABLE sfi_doc AS SELECT docid,quote(size) AS size FROM ft4_docsize;

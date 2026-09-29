@@ -1,0 +1,1 @@
+CREATE TABLE t0(c0 AS (('a',9)<('b',c1)),c1 AS (1),c2 CHECK (1=c1)); INSERT INTO t0 VALUES(0),(99);

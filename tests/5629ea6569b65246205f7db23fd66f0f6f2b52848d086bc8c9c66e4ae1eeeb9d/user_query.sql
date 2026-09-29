@@ -1,0 +1,1 @@
+CREATE TABLE exclusive(exclusive exclusive); INSERT INTO exclusive VALUES(99); INSERT INTO exclusive SELECT a FROM t1;

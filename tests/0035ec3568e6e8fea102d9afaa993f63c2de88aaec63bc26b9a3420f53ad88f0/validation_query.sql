@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1), (SELECT count(*) FROM t2), (SELECT page_count FROM pragma_page_count);

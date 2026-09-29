@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE tok USING fts3tokenize('unicode61','tokenchars=xyz'); CREATE TABLE result AS SELECT position,token,hex(substr(CAST(input AS blob),start+1,end-start)) AS source FROM tok WHERE input='Laotianxhorseyrunszfast' ORDER BY position;

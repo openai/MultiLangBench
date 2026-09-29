@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT sum(length(x)) AS x FROM t29;

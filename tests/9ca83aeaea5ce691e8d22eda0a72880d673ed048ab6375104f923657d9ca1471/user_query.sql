@@ -1,0 +1,1 @@
+CREATE TABLE observed(cid INTEGER, name TEXT, type TEXT, nn INTEGER, dflt_value TEXT, pk INTEGER); INSERT INTO observed SELECT cid, name, type, "notnull", dflt_value, pk FROM pragma_table_info('tģx');

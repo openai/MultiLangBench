@@ -1,0 +1,1 @@
+PRAGMA recursive_triggers=ON; DELETE FROM t5 WHERE a=2;

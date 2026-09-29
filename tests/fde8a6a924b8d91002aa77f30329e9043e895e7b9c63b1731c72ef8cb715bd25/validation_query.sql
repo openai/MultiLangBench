@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(a, ',') FROM (SELECT a FROM t1 ORDER BY b)), (SELECT x FROM t3);

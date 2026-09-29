@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; PRAGMA defer_foreign_keys=ON; BEGIN; DELETE FROM t1 WHERE x=3; INSERT INTO observed SELECT (SELECT count(*) FROM t1), (SELECT count(*) FROM pragma_foreign_key_check); INSERT INTO t1 VALUES(3); COMMIT;

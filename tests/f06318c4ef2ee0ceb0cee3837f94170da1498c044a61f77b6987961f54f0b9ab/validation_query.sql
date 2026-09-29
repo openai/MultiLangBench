@@ -1,0 +1,1 @@
+SELECT a,r,x FROM result ORDER BY rowid

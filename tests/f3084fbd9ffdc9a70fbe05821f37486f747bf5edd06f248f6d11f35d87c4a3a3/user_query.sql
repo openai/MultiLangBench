@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; SAVEPOINT outer; DELETE FROM node WHERE nodeid=3; INSERT INTO node VALUES(3,2); ROLLBACK TO outer; RELEASE outer;

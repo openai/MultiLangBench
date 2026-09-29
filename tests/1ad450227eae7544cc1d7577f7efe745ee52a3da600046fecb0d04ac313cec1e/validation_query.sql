@@ -1,0 +1,1 @@
+SELECT * FROM cast ORDER BY "cast" ASC

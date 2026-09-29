@@ -1,0 +1,1 @@
+SELECT type,name,COALESCE(sql,'') FROM sqlite_schema WHERE tbl_name='collate4t1' ORDER BY type,name;

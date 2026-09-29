@@ -1,0 +1,1 @@
+SELECT count(*) AS n, min(typeof(x)), min(typeof(y)) FROM sfi_result;

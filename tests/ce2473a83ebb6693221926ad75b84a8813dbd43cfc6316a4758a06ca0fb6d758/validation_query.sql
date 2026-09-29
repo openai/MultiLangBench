@@ -1,0 +1,1 @@
+SELECT count(*),COALESCE(sum(a),0) FROM t1;

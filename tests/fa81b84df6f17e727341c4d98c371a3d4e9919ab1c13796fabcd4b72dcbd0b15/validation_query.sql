@@ -1,0 +1,1 @@
+SELECT x,cnt FROM hist ORDER BY x;

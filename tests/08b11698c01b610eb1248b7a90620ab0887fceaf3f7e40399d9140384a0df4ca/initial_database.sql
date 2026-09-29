@@ -1,0 +1,1 @@
+CREATE TABLE a(id INTEGER PRIMARY KEY, b_id INTEGER, myvalue VARCHAR); CREATE TABLE b(id INTEGER PRIMARY KEY, bvalue VARCHAR); INSERT INTO a(b_id,myvalue) VALUES(1,'Test'),(1,'Test2'),(1,'Test3'); INSERT INTO b(bvalue) VALUES('btest');

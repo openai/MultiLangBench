@@ -1,0 +1,1 @@
+SELECT docid,a,b,lang_id FROM t1 ORDER BY docid

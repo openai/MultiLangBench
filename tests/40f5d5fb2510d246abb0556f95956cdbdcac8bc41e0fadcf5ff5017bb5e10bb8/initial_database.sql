@@ -1,0 +1,1 @@
+CREATE TABLE t600(a PRIMARY KEY, b) WITHOUT ROWID; CREATE INDEX t600b ON t600(b); INSERT INTO t600 VALUES('state','screen'),('exact','dolphin'),('green','mercury');

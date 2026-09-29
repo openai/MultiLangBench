@@ -1,0 +1,1 @@
+SELECT x,n,avgy FROM result ORDER BY seq;

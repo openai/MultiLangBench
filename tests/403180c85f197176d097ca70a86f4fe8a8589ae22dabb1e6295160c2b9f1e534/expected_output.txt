@@ -1,0 +1,1 @@
+[["CREATE TRIGGER AFTER INSERT ON \"t2\" BEGIN UPDATE \"t2\" SET (c,d)=(a,b); END"]]

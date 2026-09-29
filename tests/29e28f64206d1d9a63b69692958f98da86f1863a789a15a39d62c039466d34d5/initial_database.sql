@@ -1,0 +1,1 @@
+PRAGMA auto_vacuum=1; VACUUM; CREATE TABLE seq(i PRIMARY KEY, x);

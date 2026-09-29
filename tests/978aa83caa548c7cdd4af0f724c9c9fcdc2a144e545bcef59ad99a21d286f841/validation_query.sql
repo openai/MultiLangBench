@@ -1,0 +1,1 @@
+SELECT typeof(a), typeof(b), typeof(c), typeof(d), typeof(e), typeof(f), typeof(g), typeof(h) FROM t7 LIMIT 1;

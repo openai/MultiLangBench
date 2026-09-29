@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT x'0000' IN (x'000000') AS v;

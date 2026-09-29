@@ -1,0 +1,1 @@
+PRAGMA auto_vacuum=0; CREATE TABLE t1(x,y); WITH RECURSIVE c(i) AS (VALUES(1) UNION ALL SELECT i+1 FROM c WHERE i<1000) INSERT INTO t1(rowid,x,y) SELECT i, CAST(printf('%08d',i) AS BLOB), CAST(replace(printf('%500s',''),' ',printf('%08d',i)) AS BLOB) FROM c;

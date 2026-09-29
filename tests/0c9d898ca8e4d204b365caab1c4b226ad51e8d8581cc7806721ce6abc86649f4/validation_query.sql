@@ -1,0 +1,1 @@
+SELECT count(*) AS n, min(two) AS two, min(three) AS three FROM one

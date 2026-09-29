@@ -1,0 +1,1 @@
+CREATE TABLE __sfi_result AS SELECT ROWID AS v FROM t1;

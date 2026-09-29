@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT rowid AS d,matchinfo(tt,'y') AS m FROM tt WHERE tt MATCH 'a AND b' ORDER BY rowid

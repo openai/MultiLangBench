@@ -1,0 +1,1 @@
+CREATE TABLE t6(a,b,c); CREATE INDEX t6i1 ON t6(a,b); INSERT INTO t6 VALUES('','',1),('',NULL,2),(NULL,'',3),('abc',123,4),(123,'abc',5);

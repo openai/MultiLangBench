@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT hex(ltrim(x'6efcda'));

@@ -1,0 +1,1 @@
+SELECT t1.rowid, a, b, c, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='i1') AS i1_exists FROM t1 ORDER BY t1.rowid

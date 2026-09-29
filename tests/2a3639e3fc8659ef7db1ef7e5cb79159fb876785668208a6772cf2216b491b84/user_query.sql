@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT min(x) FROM t1 WHERE x>100;

@@ -1,0 +1,1 @@
+SELECT count(*) AS remaining_rows, (SELECT integrity_check FROM pragma_integrity_check LIMIT 1) AS integrity FROM t1;

@@ -1,0 +1,1 @@
+CREATE TABLE t1(a int, b int); INSERT INTO t1 VALUES(2,1);

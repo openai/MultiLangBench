@@ -1,0 +1,1 @@
+SELECT c FROM r ORDER BY rowid

@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT wr FROM pragma_table_list('t1');

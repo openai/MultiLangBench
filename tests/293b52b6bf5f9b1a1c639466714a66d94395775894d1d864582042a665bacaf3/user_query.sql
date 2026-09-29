@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT substr(a,4,lag(a,7) OVER(PARTITION BY 'cf23' ORDER BY likely(2))) AS ca0 FROM t1 ORDER BY ca0;

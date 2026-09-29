@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT rowid AS ord,a FROM t1 WHERE a LIKE ' 1%';

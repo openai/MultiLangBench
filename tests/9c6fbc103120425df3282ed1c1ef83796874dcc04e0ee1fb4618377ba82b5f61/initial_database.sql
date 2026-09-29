@@ -1,0 +1,1 @@
+CREATE TABLE ab_r(a, b); CREATE TABLE bc_r(b, c); INSERT INTO ab_r VALUES(1, 2); INSERT INTO bc_r VALUES(2, 3);

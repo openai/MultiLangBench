@@ -1,0 +1,2 @@
+CREATE VIRTUAL TABLE x1 USING fts4;
+INSERT INTO x1(x1) VALUES('automerge=2');

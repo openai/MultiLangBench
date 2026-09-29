@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT rowid AS x,snippet(t1) AS y FROM t1 WHERE t1 MATCH '"a longer phrase"';

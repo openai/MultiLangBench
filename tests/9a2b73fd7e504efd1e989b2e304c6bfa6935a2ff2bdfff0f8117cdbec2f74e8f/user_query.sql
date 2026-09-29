@@ -1,0 +1,1 @@
+INSERT INTO result SELECT '1234x'/'10y', '1234x'/'10.y', '1234x'/'1e1y';

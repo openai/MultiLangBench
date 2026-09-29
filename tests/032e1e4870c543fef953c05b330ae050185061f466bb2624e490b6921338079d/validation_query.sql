@@ -1,0 +1,1 @@
+SELECT value FROM cache_setting;

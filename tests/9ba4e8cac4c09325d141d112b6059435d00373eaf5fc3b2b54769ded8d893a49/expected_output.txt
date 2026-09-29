@@ -1,0 +1,1 @@
+[["CREATE TABLE t1(a,b,_xxx_ INTEGER,PRIMARY KEY(_xxx_),CHECK(_xxx_>0))"],["CREATE TABLE t2(c,d,e)"],["CREATE TRIGGER ttt AFTER UPDATE ON t1 BEGIN INSERT INTO t2 VALUES(new.a,new.b,new._xxx_); END"]]

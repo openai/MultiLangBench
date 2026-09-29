@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT min(b) AS v FROM t2 WHERE a = 1;

@@ -1,0 +1,1 @@
+DROP INDEX t2i2; ANALYZE t2;

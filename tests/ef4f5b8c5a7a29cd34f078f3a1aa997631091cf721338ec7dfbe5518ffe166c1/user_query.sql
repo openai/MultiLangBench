@@ -1,0 +1,1 @@
+CREATE TABLE savepoint(release); INSERT INTO savepoint(release) VALUES(10); UPDATE savepoint SET release=5;

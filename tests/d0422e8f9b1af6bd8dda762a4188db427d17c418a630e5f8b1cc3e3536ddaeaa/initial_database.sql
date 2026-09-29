@@ -1,0 +1,1 @@
+CREATE TABLE t2(a,b); INSERT INTO t2(a,b) VALUES('b', 1<<58), ('c', (1<<58)+1e-7), ('d', (1<<58)+1);

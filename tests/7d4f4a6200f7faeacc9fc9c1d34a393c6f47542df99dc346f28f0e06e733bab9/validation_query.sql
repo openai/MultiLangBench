@@ -1,0 +1,1 @@
+SELECT page_size, (SELECT count(*) FROM t1) AS rows FROM pragma_page_size;

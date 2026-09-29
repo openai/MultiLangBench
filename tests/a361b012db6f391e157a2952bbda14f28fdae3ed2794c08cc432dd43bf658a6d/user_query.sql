@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT i FROM t1 WHERE a<=x'7979';

@@ -1,0 +1,5 @@
+CREATE TABLE t1(a, b);
+CREATE TABLE log(t);
+INSERT INTO t1 VALUES (1, 'v1'), (2, 'v2');
+INSERT INTO log VALUES ('2 changes');
+CREATE TABLE t3(x);

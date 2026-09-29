@@ -1,0 +1,1 @@
+SELECT matched_rowid FROM result;

@@ -1,0 +1,1 @@
+PRAGMA page_size=4096; BEGIN; CREATE TABLE t1(a,c0,c1,c2,c3,c4,c5,c6,b); WITH RECURSIVE seq(i) AS (VALUES(1) UNION ALL SELECT i+1 FROM seq WHERE i<100000) INSERT INTO t1 SELECT (i*1103515245+12345)%2147483647,zeroblob(4),zeroblob(8),zeroblob(16),zeroblob(32),zeroblob(64),zeroblob(128),zeroblob(256),(i*1103515245+12345)%2147483647 FROM seq; COMMIT;

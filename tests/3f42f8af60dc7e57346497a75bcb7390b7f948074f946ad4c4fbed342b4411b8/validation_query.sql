@@ -1,0 +1,1 @@
+SELECT rowid,c0content FROM ta_content ORDER BY rowid

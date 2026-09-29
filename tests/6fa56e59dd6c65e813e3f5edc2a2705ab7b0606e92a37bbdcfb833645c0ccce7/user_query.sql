@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT 0 AS ord,count(*) AS v FROM t1 UNION ALL SELECT a,a FROM t1 WHERE a>=85;

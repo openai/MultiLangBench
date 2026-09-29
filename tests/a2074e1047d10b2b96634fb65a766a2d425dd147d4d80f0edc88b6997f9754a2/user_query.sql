@@ -1,0 +1,1 @@
+PRAGMA full_column_names=ON; CREATE TABLE result AS SELECT rowid,* FROM t1;

@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT * FROM aa, bb WHERE min(a,b);

@@ -1,0 +1,1 @@
+SELECT d,e,f FROM cc ORDER BY rowid

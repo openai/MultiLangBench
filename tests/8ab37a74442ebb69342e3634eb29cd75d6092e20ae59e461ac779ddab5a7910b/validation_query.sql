@@ -1,0 +1,1 @@
+SELECT r1, r2, r3, r4 FROM _sfi_result;

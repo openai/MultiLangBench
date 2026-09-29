@@ -1,0 +1,1 @@
+SELECT rowid,a FROM test ORDER BY rowid

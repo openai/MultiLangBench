@@ -1,0 +1,1 @@
+SELECT y, z FROM t3928c ORDER BY y;

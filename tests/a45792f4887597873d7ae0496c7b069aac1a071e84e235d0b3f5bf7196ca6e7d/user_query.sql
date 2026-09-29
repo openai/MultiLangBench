@@ -1,0 +1,1 @@
+WITH RECURSIVE n(i) AS (VALUES(0) UNION ALL SELECT i+1 FROM n WHERE i<19) INSERT INTO t6(content,lid) SELECT 'I (row '||i||') belong to langauge N!',1073741824 FROM n; CREATE TABLE result AS SELECT docid FROM t6 WHERE t6 MATCH 'belong';

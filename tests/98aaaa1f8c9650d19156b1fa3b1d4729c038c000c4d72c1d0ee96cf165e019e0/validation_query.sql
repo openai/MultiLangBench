@@ -1,0 +1,1 @@
+SELECT count(*) AS n,sum(CASE WHEN block=zeroblob(length(block)) THEN 1 ELSE 0 END) AS zeroed FROM t1_segments WHERE length(block)>10000

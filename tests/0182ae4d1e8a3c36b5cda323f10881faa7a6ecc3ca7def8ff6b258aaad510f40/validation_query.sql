@@ -1,0 +1,1 @@
+SELECT docid, x FROM t6 ORDER BY docid

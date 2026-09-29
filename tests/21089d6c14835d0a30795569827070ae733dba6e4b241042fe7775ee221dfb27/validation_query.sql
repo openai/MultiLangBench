@@ -1,0 +1,1 @@
+SELECT (SELECT x FROM c),(SELECT sql FROM sqlite_schema WHERE name='zzz')

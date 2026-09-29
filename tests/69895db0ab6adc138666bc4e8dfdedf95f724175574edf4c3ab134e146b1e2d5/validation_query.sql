@@ -1,0 +1,1 @@
+SELECT b FROM t1 INDEXED BY abort WHERE a=2

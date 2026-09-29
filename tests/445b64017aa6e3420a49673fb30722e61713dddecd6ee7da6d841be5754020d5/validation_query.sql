@@ -1,0 +1,1 @@
+SELECT count(*), min(docid), max(docid), (SELECT count(*) FROM t1 WHERE t1 MATCH 'T*'), (SELECT page_size FROM pragma_page_size) FROM t1;

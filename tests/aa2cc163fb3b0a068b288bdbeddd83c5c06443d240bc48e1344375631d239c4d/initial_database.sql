@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts3;INSERT INTO t1(rowid,content)VALUES(1,replace(hex(zeroblob(100000)),'00','zm ')),(2,replace(hex(zeroblob(100000)),'00','jk '));INSERT INTO t1(rowid,content) SELECT value,'duszemmzl zm' FROM json_each('[3,5,8,10,12,13,18,20,23,37,43,55,60,65,67,72,74,81,94,96,97]');

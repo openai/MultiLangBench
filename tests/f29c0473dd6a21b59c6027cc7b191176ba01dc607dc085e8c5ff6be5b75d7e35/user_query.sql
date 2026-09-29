@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; UPDATE t2 SET c=1 WHERE d=4;

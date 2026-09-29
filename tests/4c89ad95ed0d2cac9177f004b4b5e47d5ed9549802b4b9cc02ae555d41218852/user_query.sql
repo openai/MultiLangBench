@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a FROM t1 WHERE a=83 OR b=913 OR c=28028 OR (d>=82 AND d<83) OR f='fghijklmn' OR g='hgfedcb' ORDER BY a;

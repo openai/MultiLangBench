@@ -1,0 +1,1 @@
+PRAGMA temp_store=FILE; PRAGMA temp.page_size=4096; CREATE TEMP TABLE ttemp(x,y); WITH RECURSIVE c(x) AS (VALUES(1) UNION ALL SELECT x+1 FROM c WHERE x<1000) INSERT INTO ttemp(x,y) SELECT x, zeroblob(1000) FROM c; VACUUM temp; INSERT INTO main.result SELECT count(*), sum(x), min(length(y)), max(length(y)) FROM temp.ttemp;

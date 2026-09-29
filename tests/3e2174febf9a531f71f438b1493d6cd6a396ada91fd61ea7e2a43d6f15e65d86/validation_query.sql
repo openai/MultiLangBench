@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM _result) AS output_rows,(SELECT count(*) FROM sqlite_schema WHERE type='table' AND name='t8') AS t8_exists;

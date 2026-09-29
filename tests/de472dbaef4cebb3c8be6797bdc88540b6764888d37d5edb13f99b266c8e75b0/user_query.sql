@@ -1,0 +1,1 @@
+DROP INDEX i4; UPDATE t4 SET a = printf('%s%d',a,b); CREATE TABLE result AS SELECT a, b FROM t4 ORDER BY Substr(a,-2) COLLATE nocase;

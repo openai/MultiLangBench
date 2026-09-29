@@ -1,0 +1,1 @@
+SELECT (SELECT sql FROM sqlite_schema WHERE type='table' AND name='t2') AS schema_sql, a, b FROM t2 ORDER BY a, b;

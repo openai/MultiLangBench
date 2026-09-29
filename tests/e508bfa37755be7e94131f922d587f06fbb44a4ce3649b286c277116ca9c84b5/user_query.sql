@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE temp.t1aux USING fts4aux(main, t1); CREATE TEMP TABLE vtemp(w TEXT UNIQUE); INSERT OR IGNORE INTO vtemp SELECT term FROM t1aux; CREATE TABLE main.result AS SELECT w FROM vtemp;

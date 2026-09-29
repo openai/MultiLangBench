@@ -1,0 +1,1 @@
+INSERT INTO t10(a,b,oid) VALUES(1,2,3);

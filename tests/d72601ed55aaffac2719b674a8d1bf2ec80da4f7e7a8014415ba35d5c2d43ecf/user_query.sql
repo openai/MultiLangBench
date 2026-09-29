@@ -1,0 +1,1 @@
+PRAGMA locking_mode=NORMAL; PRAGMA journal_mode=TRUNCATE; CREATE TABLE t4(w);

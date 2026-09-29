@@ -1,0 +1,1 @@
+SELECT count(*) AS n,sum(x LIKE 'a b c%') AS special FROM x2

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT min(x) AS v FROM t4;

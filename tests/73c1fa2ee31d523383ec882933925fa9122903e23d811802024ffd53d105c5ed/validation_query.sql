@@ -1,0 +1,1 @@
+SELECT x, y, z, (SELECT count(*) FROM log) AS log_rows, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='t1y') AS t1y_indexes FROM t1 ORDER BY x;

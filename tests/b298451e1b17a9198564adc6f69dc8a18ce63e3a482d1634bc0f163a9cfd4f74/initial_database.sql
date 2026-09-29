@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t5 USING fts4(languageid=lid); INSERT INTO t5(docid,content,lid) VALUES(0,'My language is 0',0); INSERT INTO t5(docid,content,lid) VALUES(1,'My language is 1',1); INSERT INTO t5(docid,content,lid) VALUES(2,'My language is 2',2); INSERT INTO t5(docid,content,lid) VALUES(1073741824,'My language is 1073741824',1073741824);

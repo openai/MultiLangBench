@@ -1,0 +1,1 @@
+PRAGMA temp_store=FILE; PRAGMA cache_size=50; VACUUM;

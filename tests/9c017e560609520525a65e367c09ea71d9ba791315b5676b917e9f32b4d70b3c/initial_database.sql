@@ -1,0 +1,1 @@
+CREATE TABLE t6(a TEXT,b TEXT); INSERT INTO t6 VALUES('a','0'),('b','1'),('c','2'),('d','3');

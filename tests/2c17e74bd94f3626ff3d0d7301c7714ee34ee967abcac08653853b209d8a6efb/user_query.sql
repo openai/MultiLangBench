@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rowid AS docid, length(snippet(t4)) AS snippet_length FROM t4 WHERE t4 MATCH 'target' ORDER BY rowid

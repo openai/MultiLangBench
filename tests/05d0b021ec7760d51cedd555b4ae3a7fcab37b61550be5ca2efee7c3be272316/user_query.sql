@@ -1,0 +1,1 @@
+UPDATE t SET r1='0.0',r2='abc';INSERT INTO r SELECT r1>r2 FROM t;

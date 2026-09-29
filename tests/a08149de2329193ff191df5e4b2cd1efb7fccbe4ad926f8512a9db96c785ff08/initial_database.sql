@@ -1,0 +1,1 @@
+PRAGMA auto_vacuum=OFF; PRAGMA page_size=1024; CREATE TABLE abc(a,b); WITH RECURSIVE c(x) AS (VALUES(1) UNION ALL SELECT x+1 FROM c WHERE x<9) INSERT INTO abc SELECT x, printf('%0230d',x) FROM c;

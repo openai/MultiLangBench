@@ -1,0 +1,1 @@
+CREATE TABLE t1(a, b); CREATE VIEW "new view" AS SELECT * FROM t1 AS x, t1 AS y; CREATE TABLE result(type_name, object_name, table_name, root_page, sql_text);

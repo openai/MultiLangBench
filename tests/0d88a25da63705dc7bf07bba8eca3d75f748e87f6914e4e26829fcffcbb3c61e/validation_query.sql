@@ -1,0 +1,1 @@
+SELECT a FROM t2 WHERE b = X'ABCD' ORDER BY a;

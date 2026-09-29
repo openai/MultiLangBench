@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT b FROM t1 WHERE lower(a)='01234' ORDER BY +b;

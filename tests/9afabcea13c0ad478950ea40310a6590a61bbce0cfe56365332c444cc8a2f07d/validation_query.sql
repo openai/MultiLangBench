@@ -1,0 +1,1 @@
+SELECT seq, old_d, new_d, old_e, new_e, (SELECT d FROM t8) AS current_d, (SELECT e FROM t8) AS current_e FROM t8_log ORDER BY seq;

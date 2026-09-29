@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT docid AS v FROM t1 WHERE content MATCH 'specification NEAR/000019 attach';

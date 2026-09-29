@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT json_valid('') AS empty_valid,json_valid(char(0x20,0x09,0x0a,0x0d)) AS whitespace_valid;

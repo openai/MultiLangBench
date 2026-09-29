@@ -1,0 +1,1 @@
+SELECT count(*),group_concat(x,'|') FROM (SELECT x FROM t5 ORDER BY rowid)

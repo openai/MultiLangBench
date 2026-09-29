@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT q.rowid AS i,(SELECT group_concat(rowid,',') FROM f WHERE rowid<q.rowid) AS a,(SELECT group_concat(rowid,',') FROM t WHERE rowid<q.rowid) AS b FROM t AS q ORDER BY q.rowid;

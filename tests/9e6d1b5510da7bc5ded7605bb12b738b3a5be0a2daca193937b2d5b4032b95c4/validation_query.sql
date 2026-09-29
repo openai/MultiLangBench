@@ -1,0 +1,1 @@
+SELECT (SELECT page_count FROM pragma_page_count)>50, (SELECT page_count FROM pragma_page_count)<75, (SELECT count(*) FROM t1), (SELECT integrity_check FROM pragma_integrity_check LIMIT 1);

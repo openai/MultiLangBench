@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b); CREATE TABLE tx(x1,x2,y1,y2); CREATE TABLE capture(ord,type,name,tbl_name);

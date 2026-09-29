@@ -1,0 +1,1 @@
+SELECT table_name, key_value, payload FROM (SELECT 't1' AS table_name, a AS key_value, CAST(b AS TEXT) AS payload FROM t1 UNION ALL SELECT 't2', d, e FROM t2) ORDER BY table_name, key_value, payload;

@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT CAST(zeroblob(1000) AS text) AS v;

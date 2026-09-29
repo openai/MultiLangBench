@@ -1,0 +1,3 @@
+CREATE TABLE t1(a, b);
+CREATE VIEW v1 AS SELECT * FROM tbl;
+CREATE INDEX i1 ON tbl(a);

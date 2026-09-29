@@ -1,0 +1,1 @@
+CREATE TABLE observed(v INTEGER);

@@ -1,0 +1,1 @@
+SELECT g, a, b, c, d, h FROM query_result ORDER BY g, a, b, c, d, h;

@@ -1,0 +1,1 @@
+SELECT type,name FROM sqlite_master WHERE name IN('a','c') ORDER BY name

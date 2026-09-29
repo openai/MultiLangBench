@@ -1,0 +1,1 @@
+/* join5-5.2 */ CREATE TABLE sfi_result AS SELECT count(z) FROM (SELECT * FROM y1) LEFT JOIN y2 ON x GROUP BY y;

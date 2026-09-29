@@ -1,0 +1,1 @@
+CREATE TABLE immediate(immediate immediate); INSERT INTO immediate VALUES(99); INSERT INTO immediate SELECT a FROM t1;

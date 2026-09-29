@@ -1,0 +1,1 @@
+SELECT docid, content FROM zoink ORDER BY docid;

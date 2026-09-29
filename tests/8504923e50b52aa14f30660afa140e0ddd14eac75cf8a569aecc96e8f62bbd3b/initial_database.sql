@@ -1,0 +1,1 @@
+CREATE TABLE evidence(dbname TEXT, name TEXT);

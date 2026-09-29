@@ -1,0 +1,1 @@
+SELECT docid, offsets(t1) FROM t1 WHERE t1 MATCH 'was' ORDER BY docid;

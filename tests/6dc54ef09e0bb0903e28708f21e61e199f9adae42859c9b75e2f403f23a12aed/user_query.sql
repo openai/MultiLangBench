@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a, typeof(a) AS a_type, b, typeof(b) AS b_type, c, typeof(c) AS c_type FROM t1 ORDER BY rowid LIMIT 1;

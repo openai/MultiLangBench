@@ -1,0 +1,10 @@
+PRAGMA auto_vacuum = 0;
+PRAGMA page_size = 1024;
+CREATE TABLE t3(a INTEGER PRIMARY KEY, b);
+INSERT INTO t3 VALUES(1, replace(hex(zeroblob(22)), '00', 'abcdefghij'));
+INSERT INTO t3 VALUES(2, replace(hex(zeroblob(22)), '00', 'abcdefghij'));
+INSERT INTO t3 VALUES(3, replace(hex(zeroblob(22)), '00', 'abcdefghij'));
+INSERT INTO t3 VALUES(4, replace(hex(zeroblob(22)), '00', 'abcdefghij'));
+CREATE TABLE t4(c, d);
+INSERT INTO t4 VALUES(5, replace(hex(zeroblob(22)), '00', 'abcdefghij'));
+INSERT INTO t4 VALUES(1, replace(hex(zeroblob(22)), '00', 'abcdefghij'));

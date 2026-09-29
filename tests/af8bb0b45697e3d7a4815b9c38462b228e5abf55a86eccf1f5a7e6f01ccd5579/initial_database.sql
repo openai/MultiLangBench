@@ -1,0 +1,1 @@
+CREATE TABLE b1(a,b,"a;b"); CREATE TABLE b2(x,y,z); CREATE VIEW vvv AS SELECT "a;b"+"a;b" || coalesce("a;b","a;b") FROM b1,b2 WHERE x="a;b" GROUP BY "a;b" HAVING "a;b">0;

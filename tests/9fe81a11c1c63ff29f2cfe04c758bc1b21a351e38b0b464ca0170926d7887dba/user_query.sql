@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT * FROM t3, (SELECT max(a), max(b) FROM t4) AS 'tx';

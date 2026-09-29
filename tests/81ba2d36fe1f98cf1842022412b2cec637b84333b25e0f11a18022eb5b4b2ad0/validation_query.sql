@@ -1,0 +1,1 @@
+SELECT count(*),sum(n),sum(av IS NULL),(SELECT CASE WHEN av IS NULL THEN 'NULL' ELSE printf('%.6f',av) END FROM result WHERE i=0),(SELECT CASE WHEN av IS NULL THEN 'NULL' ELSE printf('%.6f',av) END FROM result WHERE i=2500),(SELECT CASE WHEN av IS NULL THEN 'NULL' ELSE printf('%.6f',av) END FROM result WHERE i=4999) FROM result;

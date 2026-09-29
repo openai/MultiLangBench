@@ -1,0 +1,1 @@
+SELECT user_version FROM query_result;

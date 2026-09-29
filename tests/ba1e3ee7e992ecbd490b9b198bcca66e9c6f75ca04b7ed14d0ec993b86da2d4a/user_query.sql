@@ -1,0 +1,1 @@
+INSERT INTO t3_re SELECT ((a%2)*a+3),'three' FROM t3_re;

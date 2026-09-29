@@ -1,0 +1,1 @@
+SELECT 'node' AS tab,quote(nodeid) AS x,quote(parent) AS y FROM node UNION ALL SELECT 'leaf',quote(cellid),quote(parent) FROM leaf ORDER BY 1,2

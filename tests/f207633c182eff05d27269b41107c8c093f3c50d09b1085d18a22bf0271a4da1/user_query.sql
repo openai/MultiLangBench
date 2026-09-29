@@ -1,0 +1,1 @@
+INSERT INTO t2 VALUES(15,'22.0','14');

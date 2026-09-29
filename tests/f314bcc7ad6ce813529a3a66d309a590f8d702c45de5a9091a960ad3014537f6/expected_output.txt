@@ -1,0 +1,1 @@
+[["schema","ft","table"],["schema","ft_config","table"],["schema","ft_content","table"],["schema","ft_data","table"],["schema","ft_docsize","table"],["schema","ft_idx","table"],["schema","t1","table"],["t1-row","1,2",null],["ft-count","0",null]]

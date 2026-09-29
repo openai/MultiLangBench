@@ -1,0 +1,1 @@
+SELECT (SELECT json_group_array(json_array(rowid,a,x)) FROM (SELECT rowid,a,x FROM t1 ORDER BY a)),(SELECT json_group_array(name) FROM (SELECT name FROM sqlite_schema WHERE tbl_name='t1' AND type IN('table','index') ORDER BY name));

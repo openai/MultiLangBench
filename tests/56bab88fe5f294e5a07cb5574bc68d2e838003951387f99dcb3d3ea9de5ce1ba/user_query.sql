@@ -1,0 +1,1 @@
+INSERT INTO result SELECT rowid FROM t4 WHERE t4 MATCH 'plusone:one';

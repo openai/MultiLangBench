@@ -1,0 +1,1 @@
+[["table","t1","t1","CREATE TABLE t1(a,b,c)"],["table","t2","t2","CREATE TABLE t2(a,b,c)"],["trigger","r1","t1","CREATE TRIGGER r1 AFTER INSERT ON t1 WHEN new.a NOT NULL BEGIN SELECT a,b, a name FROM t1 INTERSECT SELECT a,b,c FROM t1 WHERE b>='d' ORDER BY name; SELECT new.c; END"]]

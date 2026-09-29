@@ -1,0 +1,1 @@
+SELECT count(*) AS n, max(x) AS maximum_x FROM t6;

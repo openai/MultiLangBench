@@ -1,0 +1,1 @@
+[["CREATE TRIGGER r1 AFTER INSERT ON \"t1x\" WHEN new.a NOT NULL BEGIN SELECT a,b, a name FROM \"t1x\" INTERSECT SELECT a,b,c FROM \"t1x\" WHERE b>='d' ORDER BY name; SELECT new.c; END"]]

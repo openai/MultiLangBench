@@ -1,0 +1,1 @@
+SELECT count(*) AS n, sum(y) AS sy, count(DISTINCT x) AS nx, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='t2xy' AND tbl_name='t2') AS has_index FROM t2;

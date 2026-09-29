@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT count(*) FROM q1 UNION SELECT min(e) FROM q2;

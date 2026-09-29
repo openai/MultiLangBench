@@ -1,0 +1,1 @@
+SELECT SKU,DeliveredQty FROM sfi_result ORDER BY SKU;

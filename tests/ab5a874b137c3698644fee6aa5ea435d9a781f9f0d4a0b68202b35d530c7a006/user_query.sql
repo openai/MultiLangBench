@@ -1,0 +1,1 @@
+UPDATE t1 SET t1='10',n1=10; CREATE TABLE result AS SELECT 1 AS value FROM t1 WHERE t1 IN (5,n1,11);

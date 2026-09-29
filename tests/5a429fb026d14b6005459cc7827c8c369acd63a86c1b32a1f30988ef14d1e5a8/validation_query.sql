@@ -1,0 +1,1 @@
+SELECT result_count FROM query_result;

@@ -1,0 +1,1 @@
+CREATE TABLE t1(a, b); INSERT INTO t1 VALUES('a main', 'b main'); CREATE TABLE result(c1, c2, c3, c4);

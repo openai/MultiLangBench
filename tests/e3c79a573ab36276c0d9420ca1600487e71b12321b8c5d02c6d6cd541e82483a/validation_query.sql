@@ -1,0 +1,1 @@
+SELECT quote(a),quote(b) FROM t1 ORDER BY rowid DESC LIMIT 1

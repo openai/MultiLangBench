@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT (SELECT zeroblob(1000) FROM (SELECT * FROM (SELECT 'first') ORDER BY NOT 'in')) AS v;

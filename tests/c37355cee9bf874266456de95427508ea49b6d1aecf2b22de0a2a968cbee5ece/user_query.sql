@@ -1,0 +1,1 @@
+UPDATE t SET t1='abc',t2='xyz';INSERT INTO r SELECT t1 NOT GLOB t2 FROM t;

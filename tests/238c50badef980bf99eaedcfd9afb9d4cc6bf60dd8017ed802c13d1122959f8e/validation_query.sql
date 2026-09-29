@@ -1,0 +1,1 @@
+WITH q(kind,c1,c2,c3) AS (SELECT 'schema',type,name,tbl_name FROM sqlite_schema WHERE name IN ('log','t1','t1y','tr1','tr2') UNION ALL SELECT 'row',CAST(x AS TEXT),CAST(y AS TEXT),CAST(z AS TEXT) FROM t1) SELECT kind,c1,c2,c3 FROM q ORDER BY kind,c1,c2,c3;

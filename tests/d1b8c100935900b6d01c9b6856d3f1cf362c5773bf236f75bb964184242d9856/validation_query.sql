@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t8a) AS na, (SELECT count(*) FROM t8b) AS nb, (SELECT sql FROM sqlite_schema WHERE type='index' AND name='i8c') AS index_sql

@@ -1,0 +1,1 @@
+CREATE TABLE t0(c0 AS(TYPEOF(c1)), c1); INSERT INTO t0(c1) VALUES(0); CREATE TABLE t1(x AS (typeof(y)), y);

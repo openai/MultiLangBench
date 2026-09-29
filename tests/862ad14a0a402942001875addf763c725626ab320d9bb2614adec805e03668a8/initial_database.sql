@@ -1,0 +1,1 @@
+CREATE TABLE yyy(q, w, e CHECK (e > 0), r); INSERT INTO yyy VALUES(1,1,1,1), (2,2,2,2); CREATE TABLE zzz(q, w, e, r, CHECK (e > 0)); INSERT INTO zzz VALUES(1,1,1,1), (2,2,2,2);

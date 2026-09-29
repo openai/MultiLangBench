@@ -1,0 +1,1 @@
+INSERT INTO result SELECT round(cosh(0), 7);

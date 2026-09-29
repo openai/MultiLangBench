@@ -1,0 +1,1 @@
+SELECT detail FROM result ORDER BY detail;

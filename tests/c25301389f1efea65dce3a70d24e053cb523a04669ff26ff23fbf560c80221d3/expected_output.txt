@@ -1,0 +1,1 @@
+[["data","'A'","'B'","'C'"],["data","'A'","'B'","'C'"],["data","'a'","'b'","'c'"],["data","'a'","'b'","'c'"],["schema","index","i1","t1"],["schema","index","i2","t1"],["schema","table","t1","t1"]]

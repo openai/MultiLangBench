@@ -1,0 +1,1 @@
+SELECT type,name,sql FROM sqlite_schema WHERE tbl_name='t1' AND sql IS NOT NULL ORDER BY type,name

@@ -1,0 +1,1 @@
+[["1.1","integer","1"],["1.1b","integer","1"],["1.3","integer","0"],["1.3b","integer","0"],["1.4","integer","1"],["1.4b","integer","1"],["1.6","integer","1"],["1.6b","integer","1"],["1.7","integer","1"],["1.7b","integer","1"]]

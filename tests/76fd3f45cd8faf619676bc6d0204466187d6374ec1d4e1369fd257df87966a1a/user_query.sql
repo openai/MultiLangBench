@@ -1,0 +1,1 @@
+INSERT INTO ft4(rowid,x) SELECT rowid,x FROM ft4x; CREATE TABLE sfi_result AS SELECT id,quote(value) AS value FROM ft4_stat;

@@ -1,0 +1,1 @@
+CREATE TABLE one(a int PRIMARY KEY,b text);CREATE TABLE two(a int PRIMARY KEY,b text);

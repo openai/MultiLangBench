@@ -1,0 +1,1 @@
+SELECT s.type, s.name, p.cid, p.name, p.type, p."notnull", p.dflt_value, p.pk FROM sqlite_schema AS s, pragma_table_info('t1') AS p WHERE s.name='t1' ORDER BY p.cid;

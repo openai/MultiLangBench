@@ -1,0 +1,1 @@
+CREATE TABLE main.t2(x UNIQUE,y); INSERT INTO main.t2 VALUES(3,4),(1,2);

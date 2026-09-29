@@ -1,0 +1,1 @@
+CREATE TABLE t4(x); CREATE VIRTUAL TABLE ft4 USING fts4(content=t4); CREATE VIRTUAL TABLE ft4x USING fts4(x); INSERT INTO ft4x VALUES('M G M F T'),('Z Q C A U'),('N L L V'),('T F D X D'),('Z H I S D'); INSERT INTO ft4(rowid,x) SELECT rowid,x FROM ft4x;

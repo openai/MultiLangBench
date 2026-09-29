@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT (SELECT t2.b FROM (SELECT t2.b AS c FROM t1) GROUP BY 1 HAVING t2.b) AS v FROM t2 GROUP BY 'constant_string';

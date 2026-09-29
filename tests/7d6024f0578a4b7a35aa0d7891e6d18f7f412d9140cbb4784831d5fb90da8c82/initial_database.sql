@@ -1,0 +1,1 @@
+CREATE TABLE _setup(x); DROP TABLE _setup;

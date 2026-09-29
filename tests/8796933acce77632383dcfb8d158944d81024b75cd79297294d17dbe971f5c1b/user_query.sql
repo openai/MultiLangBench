@@ -1,0 +1,1 @@
+CREATE TABLE result(a, b, c, d); INSERT INTO result SELECT * FROM t4 window, t4;

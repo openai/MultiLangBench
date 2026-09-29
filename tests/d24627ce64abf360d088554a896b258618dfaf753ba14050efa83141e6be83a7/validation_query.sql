@@ -1,0 +1,1 @@
+SELECT a, b, length(b), typeof(b) FROM x1 ORDER BY a

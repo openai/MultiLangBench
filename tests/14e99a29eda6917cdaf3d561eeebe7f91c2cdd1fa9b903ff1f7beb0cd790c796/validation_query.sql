@@ -1,0 +1,1 @@
+SELECT count(*) FROM sqlite_schema WHERE name IN('parent2','child8','child9','child10')

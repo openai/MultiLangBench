@@ -1,0 +1,1 @@
+SELECT kind, name FROM (SELECT 'idx' AS kind, idx AS name FROM sqlite_stat1 GROUP BY idx UNION ALL SELECT 'tbl' AS kind, tbl AS name FROM sqlite_stat1 GROUP BY tbl) ORDER BY kind, name;

@@ -1,0 +1,1 @@
+INSERT INTO result SELECT seq,name FROM pragma_collation_list;

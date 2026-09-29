@@ -1,0 +1,1 @@
+PRAGMA page_size=1024; CREATE TABLE t1(a INTEGER PRIMARY KEY, b, c); CREATE INDEX x1 ON t1(b, c); INSERT INTO t1(a,b,c) VALUES(1, 1, zeroblob(80)); INSERT INTO t1(a,b,c) SELECT a+1, 1, c FROM t1; INSERT INTO t1(a,b,c) SELECT a+2, 1, c FROM t1; INSERT INTO t1(a,b,c) SELECT a+10, 2, c FROM t1 WHERE b=1; INSERT INTO t1(a,b,c) SELECT a+20, 3, c FROM t1 WHERE b=1;

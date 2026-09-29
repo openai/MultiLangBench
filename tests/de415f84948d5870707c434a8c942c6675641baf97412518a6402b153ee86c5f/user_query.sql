@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT a,ntile(5) OVER (ORDER BY a) AS n FROM t3;

@@ -1,0 +1,2 @@
+CREATE TABLE result(seq INTEGER PRIMARY KEY, r);
+INSERT INTO result(r) SELECT rowid FROM t1 ORDER BY w, x, y;

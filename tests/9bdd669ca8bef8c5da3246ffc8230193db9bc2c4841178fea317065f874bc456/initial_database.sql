@@ -1,0 +1,1 @@
+PRAGMA encoding=UTF16be; CREATE TABLE t6([$::t6str],"?1"); INSERT INTO t6 VALUES(1,2); CREATE TABLE result(c1,c2,c3,c4,c5,c6);

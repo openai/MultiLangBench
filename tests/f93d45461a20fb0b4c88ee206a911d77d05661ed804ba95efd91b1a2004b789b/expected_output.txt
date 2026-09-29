@@ -1,0 +1,1 @@
+[["index","t71abc","t71","CREATE INDEX t71abc ON t71(a, b, c)"],["table","t71","t71","CREATE TABLE t71(a, b, c)"]]

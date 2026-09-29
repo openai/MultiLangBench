@@ -1,0 +1,1 @@
+PRAGMA foreign_keys = true; CREATE TABLE parent(p PRIMARY KEY); CREATE TABLE child(c UNIQUE REFERENCES parent(p));

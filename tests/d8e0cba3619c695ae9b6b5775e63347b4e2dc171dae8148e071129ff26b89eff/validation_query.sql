@@ -1,0 +1,1 @@
+SELECT level, count(*) AS n FROM t2_segdir GROUP BY level ORDER BY level;

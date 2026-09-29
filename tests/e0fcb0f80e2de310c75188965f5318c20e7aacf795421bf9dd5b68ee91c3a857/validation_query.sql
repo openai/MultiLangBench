@@ -1,0 +1,1 @@
+SELECT 't0' AS table_name, cid, name, type, "notnull" AS is_not_null, dflt_value, pk FROM pragma_table_info('t0') UNION ALL SELECT 't1' AS table_name, cid, name, type, "notnull" AS is_not_null, dflt_value, pk FROM pragma_table_info('t1') ORDER BY table_name, cid;

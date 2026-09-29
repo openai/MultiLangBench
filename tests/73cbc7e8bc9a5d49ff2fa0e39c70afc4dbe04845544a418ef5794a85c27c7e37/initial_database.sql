@@ -1,0 +1,1 @@
+CREATE TABLE t1(a, b); INSERT INTO t1 VALUES('a main', 'b main'); CREATE VIEW v2 AS SELECT * FROM t1; CREATE TABLE data_log(schema_name, a, b);

@@ -1,0 +1,9 @@
+ATTACH ':memory:' AS aux;
+CREATE TABLE aux.t3(x, y);
+INSERT INTO aux.t3 VALUES('x', 'y');
+CREATE TEMP TRIGGER tr2 AFTER INSERT ON t1 BEGIN
+  UPDATE t1 SET b = y FROM aux.t3 WHERE a=new.a;
+END;
+INSERT INTO t1(a) VALUES(10), (20);
+DROP TRIGGER temp.tr2;
+DETACH aux;

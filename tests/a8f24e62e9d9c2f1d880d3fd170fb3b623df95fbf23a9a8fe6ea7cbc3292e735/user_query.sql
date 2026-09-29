@@ -1,0 +1,1 @@
+INSERT INTO t1 SELECT a, b+10 FROM t1;

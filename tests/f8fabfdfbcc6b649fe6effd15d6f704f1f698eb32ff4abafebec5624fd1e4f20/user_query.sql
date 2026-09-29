@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT '2' IN (2) AS value FROM t1;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT docid AS src, matchinfo(t3, 'pcxnal') AS mi FROM t3 WHERE t3 MATCH '"a b c"';

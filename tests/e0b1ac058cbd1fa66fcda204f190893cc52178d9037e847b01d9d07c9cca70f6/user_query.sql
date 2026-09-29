@@ -1,0 +1,1 @@
+DROP TABLE replace; CREATE INDEX replace ON t1(a);

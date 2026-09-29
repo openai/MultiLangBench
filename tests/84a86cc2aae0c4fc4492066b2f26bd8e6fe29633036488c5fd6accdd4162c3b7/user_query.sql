@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT +sum(0) OVER () ORDER BY +sum(0) OVER ();

@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t2), (SELECT count(*) FROM t2 WHERE t2 MATCH 'alpha'), (SELECT count(*) FROM t2 WHERE t2 MATCH 'ver*'), (SELECT count(*) FROM t2_segdir);

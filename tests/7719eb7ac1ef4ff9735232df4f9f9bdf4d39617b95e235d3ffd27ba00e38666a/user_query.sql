@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rowid FROM t6 WHERE t6 MATCH 'b OR "x a"';

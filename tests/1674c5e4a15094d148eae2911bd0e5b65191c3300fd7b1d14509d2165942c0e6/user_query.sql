@@ -1,0 +1,1 @@
+PRAGMA auto_vacuum=INCREMENTAL; CREATE TABLE result AS SELECT * FROM pragma_auto_vacuum;

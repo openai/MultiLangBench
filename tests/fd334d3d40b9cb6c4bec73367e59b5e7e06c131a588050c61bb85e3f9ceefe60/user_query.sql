@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM t5 WHERE a IS NULL AND b='x' ORDER BY rowid;

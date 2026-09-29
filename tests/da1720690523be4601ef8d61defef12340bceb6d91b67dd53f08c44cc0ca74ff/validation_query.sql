@@ -1,0 +1,1 @@
+SELECT a, b, (SELECT sql FROM sqlite_master WHERE type='index' AND name='i1') AS index_sql FROM t1 ORDER BY a

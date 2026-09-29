@@ -1,0 +1,1 @@
+SELECT locking_mode FROM capture;

@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT docid,quote(matchinfo(t1)) FROM t1 WHERE t1 MATCH 'a*' ORDER BY rowid ASC;

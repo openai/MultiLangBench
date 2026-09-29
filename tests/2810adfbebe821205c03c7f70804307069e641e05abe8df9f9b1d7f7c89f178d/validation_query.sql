@@ -1,0 +1,1 @@
+SELECT name FROM sqlite_master WHERE type='index' AND name='t10_abcd';

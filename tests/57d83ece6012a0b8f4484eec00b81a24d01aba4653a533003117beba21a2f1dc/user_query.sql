@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT name FROM pragma_module_list WHERE name='fts5';

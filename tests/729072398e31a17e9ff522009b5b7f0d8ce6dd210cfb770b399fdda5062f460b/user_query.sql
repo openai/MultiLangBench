@@ -1,0 +1,1 @@
+CREATE TEMP TABLE temp2 AS SELECT * FROM main1; ALTER TABLE temp2 ADD COLUMN d; ALTER TABLE temp2 RENAME TO temp2rn; INSERT INTO observed SELECT name FROM temp.sqlite_master WHERE name LIKE 'temp2%';

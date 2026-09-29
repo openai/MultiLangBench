@@ -1,0 +1,1 @@
+CREATE TABLE t1(a); CREATE TABLE t2(b,c,d); INSERT INTO t2 VALUES(1,3,'not-4');

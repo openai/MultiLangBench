@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT coalesce(min(rowid),999) AS v FROM t3;

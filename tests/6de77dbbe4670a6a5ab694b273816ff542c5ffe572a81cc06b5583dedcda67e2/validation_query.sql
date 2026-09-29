@@ -1,0 +1,1 @@
+SELECT a,b FROM vw ORDER BY a;

@@ -1,0 +1,1 @@
+SELECT count(*), sum(a=1), sum(b=1), min(c), max(c), sum(c), count(DISTINCT c), min(d), max(d), sum(d=printf('x%04d',c)), (SELECT count(*) FROM pragma_table_info('t1') WHERE pk>0), (SELECT sum(pk) FROM pragma_table_info('t1')), (SELECT wr FROM pragma_table_list WHERE schema='main' AND name='t1'), (SELECT count(*) FROM sqlite_stat1 WHERE tbl='t1') FROM t1;

@@ -1,0 +1,1 @@
+PRAGMA mmap_size=67108864; PRAGMA auto_vacuum=2; PRAGMA page_size=1024; CREATE TABLE t1(x); INSERT INTO t1 VALUES(replace(printf('%400s',''),' ','a')); INSERT INTO t1 VALUES(replace(printf('%400s',''),' ','b')); INSERT INTO t1 VALUES(replace(printf('%400s',''),' ','c')); INSERT INTO t1 VALUES(replace(printf('%400s',''),' ','d'));

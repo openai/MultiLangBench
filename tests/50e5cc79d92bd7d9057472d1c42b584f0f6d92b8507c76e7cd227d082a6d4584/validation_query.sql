@@ -1,0 +1,1 @@
+SELECT q FROM in6_result ORDER BY q;

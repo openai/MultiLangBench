@@ -1,0 +1,1 @@
+SELECT (SELECT page_count FROM pragma_page_count) AS page_count, rowid, length(x) AS blob_length FROM t1 ORDER BY rowid;

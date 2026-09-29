@@ -1,0 +1,1 @@
+INSERT INTO result SELECT 4 IN (2,3,4);

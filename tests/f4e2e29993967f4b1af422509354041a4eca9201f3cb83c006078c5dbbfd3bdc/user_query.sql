@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT 3 IN ('3') AS value FROM t1;

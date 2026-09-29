@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT group_concat(NULL,t1) AS x FROM tbl1;

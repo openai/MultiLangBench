@@ -1,0 +1,1 @@
+INSERT INTO capture SELECT * FROM t1;

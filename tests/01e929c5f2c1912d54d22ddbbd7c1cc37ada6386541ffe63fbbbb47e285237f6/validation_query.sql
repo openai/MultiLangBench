@@ -1,0 +1,1 @@
+SELECT sql, (SELECT count(*) FROM sqlite_schema AS i WHERE i.type='index' AND i.tbl_name=s.name) FROM sqlite_schema AS s WHERE s.type='table' AND lower(s.name)='test2';

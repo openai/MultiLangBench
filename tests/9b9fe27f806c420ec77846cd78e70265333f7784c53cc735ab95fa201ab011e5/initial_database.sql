@@ -1,0 +1,1 @@
+CREATE TABLE r(id INTEGER PRIMARY KEY,a,b,c,d,e,f,g,h,i,j,k,l);

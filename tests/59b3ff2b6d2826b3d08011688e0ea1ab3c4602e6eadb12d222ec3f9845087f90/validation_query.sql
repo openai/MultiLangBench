@@ -1,0 +1,1 @@
+SELECT group_concat(type,',') FROM (SELECT type FROM sqlite_master WHERE name='tr1' ORDER BY type)

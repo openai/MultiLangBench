@@ -1,0 +1,1 @@
+SELECT (SELECT auto_vacuum FROM pragma_auto_vacuum) AS auto_vacuum, (SELECT count(*) FROM sqlite_schema WHERE type='table' AND name='t1') AS table_exists, (SELECT count(*) FROM pragma_table_info('t1')) AS column_count, (SELECT name FROM pragma_table_info('t1') WHERE cid=0) AS column_0, (SELECT name FROM pragma_table_info('t1') WHERE cid=1) AS column_1;

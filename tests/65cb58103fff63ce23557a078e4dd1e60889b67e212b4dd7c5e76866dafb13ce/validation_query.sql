@@ -1,0 +1,1 @@
+SELECT a,b FROM observed ORDER BY rowid;

@@ -1,0 +1,1 @@
+INSERT INTO collate6tab VALUES('A', 'B');

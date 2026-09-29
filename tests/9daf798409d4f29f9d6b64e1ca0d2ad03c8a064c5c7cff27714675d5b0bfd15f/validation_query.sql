@@ -1,0 +1,1 @@
+SELECT type,name,tbl_name FROM sqlite_schema WHERE type='trigger' AND name='r5'

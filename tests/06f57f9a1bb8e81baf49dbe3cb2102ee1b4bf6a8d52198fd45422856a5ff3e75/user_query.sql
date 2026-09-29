@@ -1,0 +1,1 @@
+BEGIN; CREATE TABLE def(a,b,c); INSERT INTO result SELECT * FROM pragma_page_count; COMMIT;

@@ -1,0 +1,1 @@
+ALTER TABLE "blob" RENAME COLUMN "rid" TO "a1";

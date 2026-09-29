@@ -1,0 +1,1 @@
+SELECT A.id, A.val, B.id, B.val, A_B.B_id, A_B.A_id FROM A_B JOIN A ON A.id=A_B.A_id JOIN B ON B.id=A_B.B_id ORDER BY A_B.B_id;

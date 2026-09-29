@@ -1,0 +1,1 @@
+SELECT p,q,'|' FROM t3 ORDER BY p;

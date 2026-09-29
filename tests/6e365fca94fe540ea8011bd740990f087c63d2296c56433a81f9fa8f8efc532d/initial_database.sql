@@ -1,0 +1,1 @@
+CREATE TABLE treal(a,b,c);

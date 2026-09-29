@@ -1,0 +1,1 @@
+PRAGMA reverse_unordered_selects=1; CREATE TABLE wherea_result(value); INSERT INTO wherea_result(value) SELECT * FROM pragma_reverse_unordered_selects;

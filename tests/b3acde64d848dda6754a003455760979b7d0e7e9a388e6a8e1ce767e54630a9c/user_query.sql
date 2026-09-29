@@ -1,0 +1,1 @@
+INSERT INTO result(term, documents, occurrences, languageid) SELECT term, documents, occurrences, languageid FROM terms WHERE col = '*';

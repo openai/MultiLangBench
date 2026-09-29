@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT count(*) AS n FROM tbl2 WHERE f2>1000;

@@ -1,0 +1,1 @@
+ATTACH DATABASE ':memory:' AS aux; CREATE TABLE aux.t1(a,b); CREATE TABLE aux.t2(c,d); CREATE TABLE aux.t3(e,f); INSERT INTO aux.t3 VALUES(1,2); CREATE INDEX aux.i1 ON t3(e); INSERT INTO main.result SELECT type,name,tbl_name,rootpage,sql FROM aux.sqlite_master WHERE name='i1';

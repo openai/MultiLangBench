@@ -1,0 +1,1 @@
+SELECT group_concat(c,'|') FROM (SELECT c FROM t2 ORDER BY b);

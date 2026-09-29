@@ -1,0 +1,2 @@
+CREATE TABLE result_600 AS
+SELECT y FROM t1, t2 WHERE a=x AND b<=y ORDER BY b DESC;

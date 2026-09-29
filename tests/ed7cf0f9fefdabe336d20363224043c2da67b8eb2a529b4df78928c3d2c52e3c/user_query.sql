@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS wordcount(
+  word TEXT PRIMARY KEY,
+  cnt INTEGER
+) WITHOUT ROWID;
+INSERT INTO wordcount VALUES('one',1);

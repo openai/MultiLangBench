@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES(replace(hex(zeroblob(5000)),'0','9')||'.0e-9000'); INSERT INTO result SELECT x, typeof(x) FROM t1;

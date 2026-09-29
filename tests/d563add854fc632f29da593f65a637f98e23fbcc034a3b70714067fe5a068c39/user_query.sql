@@ -1,0 +1,1 @@
+INSERT INTO excluded AS x1 VALUES('hello',1,1,NULL) ON CONFLICT(x,[a b]) DO UPDATE SET w=excluded.w;

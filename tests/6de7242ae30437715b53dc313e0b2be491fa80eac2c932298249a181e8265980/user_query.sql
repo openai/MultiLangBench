@@ -1,0 +1,1 @@
+INSERT INTO result(a,b) SELECT json_group_array(x), json_group_array(json_object('x',x)) FROM t1;

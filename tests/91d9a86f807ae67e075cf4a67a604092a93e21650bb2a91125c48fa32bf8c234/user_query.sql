@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM t3 WHERE t3 MATCH '"a* b* x* a*"';

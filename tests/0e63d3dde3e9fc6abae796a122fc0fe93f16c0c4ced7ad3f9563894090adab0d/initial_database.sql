@@ -1,0 +1,1 @@
+CREATE TABLE t1(a int PRIMARY KEY,b int UNIQUE,c text);

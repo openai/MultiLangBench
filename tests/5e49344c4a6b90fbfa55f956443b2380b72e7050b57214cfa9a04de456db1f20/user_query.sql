@@ -1,0 +1,2 @@
+CREATE TABLE result AS
+SELECT e AS g, count(DISTINCT f) AS n FROM t2 WHERE d IS 1 GROUP BY e;

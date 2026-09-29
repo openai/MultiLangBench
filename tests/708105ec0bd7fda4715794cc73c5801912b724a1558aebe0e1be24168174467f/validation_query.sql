@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1), (SELECT count(*) FROM t2), (SELECT sum(length(c)) FROM t1), (SELECT group_concat(name, ',') FROM (SELECT name FROM sqlite_master WHERE type='index' ORDER BY name)), (SELECT page_size FROM pragma_page_size), (SELECT page_count FROM pragma_page_count), (SELECT freelist_count FROM pragma_freelist_count);

@@ -1,0 +1,1 @@
+CREATE TABLE t1("with space" TEXT);

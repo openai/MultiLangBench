@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT emp,region,(SELECT sum(total) OVER (ORDER BY total RANGE BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) || outer.emp FROM sales) FROM sales AS outer;

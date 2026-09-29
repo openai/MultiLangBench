@@ -1,0 +1,3 @@
+CREATE TABLE t1(x);
+CREATE VIRTUAL TABLE ft USING fts3;
+INSERT INTO ft VALUES('hello world');

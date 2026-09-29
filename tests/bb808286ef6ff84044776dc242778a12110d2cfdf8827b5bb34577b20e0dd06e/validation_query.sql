@@ -1,0 +1,1 @@
+SELECT type_a, value_a, type_b, value_b FROM result;

@@ -1,0 +1,1 @@
+INSERT INTO result SELECT round(pi(),7);

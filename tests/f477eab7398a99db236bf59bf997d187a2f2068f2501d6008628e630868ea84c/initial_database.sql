@@ -1,0 +1,1 @@
+CREATE TABLE test2(one text); CREATE TABLE test3(two text);

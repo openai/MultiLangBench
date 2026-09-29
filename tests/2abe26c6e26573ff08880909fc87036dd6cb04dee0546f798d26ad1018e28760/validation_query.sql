@@ -1,0 +1,1 @@
+SELECT (SELECT COUNT(*) FROM ty) AS ty_rows, (SELECT COUNT(*) FROM result) AS result_rows, (SELECT COUNT(*) FROM pragma_table_info('ty')) AS ty_columns, (SELECT COUNT(*) FROM pragma_table_info('result')) AS result_columns, (SELECT wr FROM pragma_table_list WHERE schema='main' AND name='ty') AS without_rowid

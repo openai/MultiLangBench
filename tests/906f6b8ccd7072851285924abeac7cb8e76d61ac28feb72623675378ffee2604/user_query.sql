@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT c0, c1 FROM v0;

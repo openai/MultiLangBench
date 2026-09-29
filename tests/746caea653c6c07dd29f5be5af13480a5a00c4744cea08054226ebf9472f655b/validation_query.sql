@@ -1,0 +1,1 @@
+SELECT node,parent FROM t2 ORDER BY node

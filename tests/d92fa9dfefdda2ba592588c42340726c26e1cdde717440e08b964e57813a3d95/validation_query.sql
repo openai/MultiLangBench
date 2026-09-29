@@ -1,0 +1,1 @@
+SELECT ifnull(y,'null') FROM child

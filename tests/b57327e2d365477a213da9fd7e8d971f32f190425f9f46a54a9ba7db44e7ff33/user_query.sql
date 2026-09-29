@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT DISTINCT pid FROM person WHERE pid = 10;

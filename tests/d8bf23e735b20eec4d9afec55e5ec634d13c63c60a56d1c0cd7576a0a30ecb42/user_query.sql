@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT docid FROM t5 WHERE t5 MATCH 'language';

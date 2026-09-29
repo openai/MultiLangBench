@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT b=='2' AS is_equal FROM t1 ORDER BY rowid;

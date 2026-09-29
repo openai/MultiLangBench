@@ -1,0 +1,1 @@
+CREATE TABLE result AS WITH RECURSIVE g(req) AS (VALUES(1) UNION ALL SELECT req+1 FROM g WHERE req<100000), ids(req,id) AS (SELECT req,((req*3571)%50000)+1 FROM g) SELECT req,id,(SELECT c FROM t1 WHERE a=ids.id) AS c FROM ids;

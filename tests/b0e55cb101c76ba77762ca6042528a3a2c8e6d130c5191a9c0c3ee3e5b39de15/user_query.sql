@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result(name TEXT); INSERT INTO sfi_result SELECT name FROM sqlite_master WHERE type='table' AND name<>'sfi_result' ORDER BY name;

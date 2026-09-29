@@ -1,0 +1,1 @@
+CREATE TABLE _sfi_result AS SELECT * FROM v2 WHERE 500 IS c;

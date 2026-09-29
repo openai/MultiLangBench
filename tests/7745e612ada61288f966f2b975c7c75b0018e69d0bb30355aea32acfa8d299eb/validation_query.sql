@@ -1,0 +1,1 @@
+SELECT count(*) AS row_count, sum(CASE WHEN typeof(a)='integer' AND a=0 THEN 1 ELSE 0 END) AS zero_a_count, sum(CASE WHEN b IN ('alpha','bravo','charlie','delta') THEN 1 ELSE 0 END) AS copied_b_count, count(DISTINCT b) AS distinct_b_count FROM t1;

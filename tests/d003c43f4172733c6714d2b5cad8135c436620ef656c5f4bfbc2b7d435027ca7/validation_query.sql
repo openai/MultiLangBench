@@ -1,0 +1,1 @@
+SELECT seq, val FROM observed ORDER BY seq;

@@ -1,0 +1,1 @@
+ATTACH DATABASE ':memory:' AS three; INSERT INTO main.capture SELECT count(*) FROM three.sqlite_master;

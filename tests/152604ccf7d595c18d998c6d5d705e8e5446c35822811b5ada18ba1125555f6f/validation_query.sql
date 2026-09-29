@@ -1,0 +1,1 @@
+SELECT c1,c2,c3,hex(c4),c5 IS NULL,typeof(c1),typeof(c2),typeof(c3),typeof(c4),typeof(c5) FROM result ORDER BY rowid;

@@ -1,0 +1,1 @@
+CREATE VIEW vvv AS SELECT c+c || coalesce(c,c) FROM b1,b2 WHERE x=c GROUP BY c HAVING c>0; ALTER TABLE b1 RENAME c TO "a;b";

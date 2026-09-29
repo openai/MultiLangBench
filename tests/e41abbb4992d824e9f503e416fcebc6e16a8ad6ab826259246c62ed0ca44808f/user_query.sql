@@ -1,0 +1,1 @@
+CREATE TABLE query(query query); INSERT INTO query VALUES(99); INSERT INTO query SELECT a FROM t1;

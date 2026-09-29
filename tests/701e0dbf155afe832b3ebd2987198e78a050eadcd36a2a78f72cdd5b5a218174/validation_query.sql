@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(a||','||b||','||c,';') FROM t5),(SELECT stat FROM sqlite_stat1 WHERE idx='t5a')

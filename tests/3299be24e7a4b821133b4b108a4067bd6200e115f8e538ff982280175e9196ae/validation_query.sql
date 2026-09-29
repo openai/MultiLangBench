@@ -1,0 +1,1 @@
+WITH schema_rows AS (SELECT name, type, tbl_name, sql FROM sqlite_schema WHERE name IN ('i1','i2','t1')) SELECT (SELECT auto_vacuum FROM pragma_auto_vacuum) AS auto_vacuum, name, type, tbl_name, sql FROM schema_rows ORDER BY name;

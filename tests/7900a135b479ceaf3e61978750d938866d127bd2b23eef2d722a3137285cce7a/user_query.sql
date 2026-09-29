@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT max(yy) AS m FROM (SELECT max(rowid) AS yy FROM t4 EXCEPT SELECT max(rowid) FROM t5);

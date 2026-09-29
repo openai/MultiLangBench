@@ -1,0 +1,1 @@
+INSERT INTO rr VALUES('in', 'tcl');

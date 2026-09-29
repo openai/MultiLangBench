@@ -1,0 +1,1 @@
+CREATE TABLE t6(x); INSERT INTO t6 VALUES(1),(2),(NULL); CREATE TABLE result AS SELECT coalesce(min(x),-1) FROM t6;

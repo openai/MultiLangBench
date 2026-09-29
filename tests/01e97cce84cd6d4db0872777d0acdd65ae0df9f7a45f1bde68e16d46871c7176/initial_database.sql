@@ -1,0 +1,1 @@
+CREATE TABLE xy(x TEXT, y TEXT COLLATE binary); INSERT INTO xy VALUES('one','one'); INSERT INTO xy VALUES('two','two'); INSERT INTO xy VALUES('three','three'); CREATE TABLE result_2_4(y TEXT);

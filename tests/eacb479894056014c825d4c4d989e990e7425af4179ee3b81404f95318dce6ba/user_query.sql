@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts4(words); INSERT INTO t1(words) VALUES('a abated abel abelmizraim abidah baalhanan babel back backward bad'); INSERT INTO t1(t1) VALUES('optimize'); CREATE VIRTUAL TABLE temp.t1aux USING fts4aux(main, t1); CREATE TABLE main.result AS SELECT term FROM t1aux WHERE col=0 ORDER BY 1 LIMIT 5;

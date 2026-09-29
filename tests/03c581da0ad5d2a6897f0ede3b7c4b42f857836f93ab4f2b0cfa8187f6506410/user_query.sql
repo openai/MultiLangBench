@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; CREATE TABLE t1(a,b REFERENCES t1);

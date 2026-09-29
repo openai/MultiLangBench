@@ -1,0 +1,1 @@
+SELECT rowid,a,"t1.b+t1.c" FROM result ORDER BY rowid

@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;CREATE TABLE result AS SELECT name FROM sqlite_master WHERE (type='table' OR type='index') AND name<>'result' ORDER BY name;COMMIT;

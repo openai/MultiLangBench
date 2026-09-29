@@ -1,0 +1,1 @@
+CREATE TABLE abc(a INT PRIMARY KEY, x, y) WITHOUT ROWID; CREATE UNIQUE INDEX abc1 ON abc(('x' || x) COLLATE nocase);

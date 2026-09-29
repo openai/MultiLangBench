@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT quote(zeroblob(-1444444444444444)) AS v;

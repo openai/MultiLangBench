@@ -1,0 +1,1 @@
+INSERT INTO result SELECT json_insert(j,'$.b[1][#]','AAA','$.b[#]','BBB') FROM t1;

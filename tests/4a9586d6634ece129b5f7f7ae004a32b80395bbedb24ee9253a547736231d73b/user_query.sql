@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS t0; CREATE TABLE t0(c0 TEXT UNIQUE, c1); INSERT INTO t0(c0) VALUES (-1); CREATE TABLE result(q1, q2, q3); INSERT INTO result(q1, q2, q3) SELECT quote(- x'ce'), quote(t0.c0), quote(- x'ce' >= t0.c0) FROM t0;

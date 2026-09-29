@@ -1,0 +1,1 @@
+CREATE TABLE t1(a UNIQUE,b UNIQUE); INSERT INTO t1 VALUES(1,2),(4.3,5.5),('reveal','variableness'),(X'123456',X'654321'),(NULL,NULL);

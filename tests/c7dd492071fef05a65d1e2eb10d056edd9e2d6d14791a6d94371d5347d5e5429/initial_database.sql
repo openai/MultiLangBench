@@ -1,0 +1,1 @@
+CREATE TABLE collate3t1(c1 COLLATE BINARY, c2); CREATE INDEX collate3t1_i1 ON collate3t1(c1); INSERT INTO collate3t1 VALUES('xxx','yyy'); PRAGMA writable_schema=ON; UPDATE sqlite_schema SET sql='CREATE TABLE collate3t1(c1 COLLATE string_compare, c2)' WHERE type='table' AND name='collate3t1'; PRAGMA writable_schema=OFF;

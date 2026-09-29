@@ -1,0 +1,1 @@
+SELECT (SELECT page_count FROM pragma_page_count), (SELECT count(*) FROM sqlite_schema WHERE type='table');

@@ -1,0 +1,1 @@
+SELECT v FROM t9 ORDER BY v;

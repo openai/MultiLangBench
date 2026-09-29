@@ -1,0 +1,1 @@
+SELECT count(*), max(docid), (SELECT langid FROM t3_content WHERE docid=(SELECT max(docid) FROM t3_content)) FROM t3_content;

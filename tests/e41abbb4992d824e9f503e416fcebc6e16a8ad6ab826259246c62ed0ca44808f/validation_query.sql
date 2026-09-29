@@ -1,0 +1,1 @@
+SELECT * FROM query ORDER BY query ASC

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE terms3 USING fts4aux(does_not_exist);

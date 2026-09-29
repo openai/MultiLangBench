@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts4(prefix='1,3,6'); INSERT INTO t1 VALUES('sqlite mysql firebird');

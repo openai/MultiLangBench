@@ -1,0 +1,1 @@
+SELECT 't4',quote(x),typeof(x) FROM t4 UNION ALL SELECT 't5',quote(y)||','||quote(z),typeof(y)||','||typeof(z) FROM t5 ORDER BY 1,2

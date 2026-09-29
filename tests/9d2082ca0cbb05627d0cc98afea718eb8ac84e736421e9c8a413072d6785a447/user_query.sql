@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT t42.rowid AS rid FROM t42,t41;

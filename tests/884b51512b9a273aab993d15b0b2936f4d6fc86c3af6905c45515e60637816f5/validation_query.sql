@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1 WHERE b=2) AS matching_rows, (SELECT group_concat(a, ',') FROM (SELECT a FROM t1 ORDER BY a)) AS remaining, (SELECT group_concat(integrity_check, '|') FROM pragma_integrity_check) AS integrity_result;

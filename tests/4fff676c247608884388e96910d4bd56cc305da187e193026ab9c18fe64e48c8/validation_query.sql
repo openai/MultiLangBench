@@ -1,0 +1,1 @@
+SELECT entry_type, name, entry_id FROM sfi_result ORDER BY entry_type, name, entry_id;

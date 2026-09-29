@@ -1,0 +1,1 @@
+CREATE TABLE result(same INTEGER, is_used INTEGER);

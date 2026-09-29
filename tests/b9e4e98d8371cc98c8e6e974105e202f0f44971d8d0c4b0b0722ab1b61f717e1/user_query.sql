@@ -1,0 +1,1 @@
+INSERT INTO xyz VALUES(10,1,1,'one');

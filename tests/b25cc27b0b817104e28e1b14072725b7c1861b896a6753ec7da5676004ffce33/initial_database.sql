@@ -1,0 +1,1 @@
+CREATE TABLE t1(a, b); CREATE VIEW "new view" AS SELECT * FROM t1 AS x, t1 AS y;

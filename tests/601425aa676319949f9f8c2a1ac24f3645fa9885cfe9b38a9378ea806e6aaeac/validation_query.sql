@@ -1,0 +1,1 @@
+SELECT a,b FROM t24 ORDER BY b

@@ -1,0 +1,1 @@
+CREATE TABLE t1(a INT, b INT); INSERT INTO t1 VALUES(5,32),(6,64),(7,128),(8,256),('hello','world'); CREATE TABLE t4(a); INSERT INTO t4 VALUES(1),(2),(3),(5),(7),(9),(11);

@@ -1,0 +1,1 @@
+SELECT count(*) AS ncol, sum(name='c99') AS has_c99 FROM pragma_table_info('t4');

@@ -1,0 +1,1 @@
+SELECT hex(a), hex(b) FROM t1 WHERE EXISTS (SELECT 1 FROM sqlite_schema WHERE type='index' AND name='i1' AND tbl_name='t1') ORDER BY rowid;

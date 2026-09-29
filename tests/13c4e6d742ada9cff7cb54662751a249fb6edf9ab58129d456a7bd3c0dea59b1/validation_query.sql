@@ -1,0 +1,1 @@
+SELECT name,sql FROM sqlite_master EXCEPT SELECT name,sql FROM schema_copy

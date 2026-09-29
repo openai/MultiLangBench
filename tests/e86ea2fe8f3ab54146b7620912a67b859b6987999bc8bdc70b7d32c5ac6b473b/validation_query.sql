@@ -1,0 +1,1 @@
+SELECT oa,ob,ok,ov,ia,ib,ik,iv FROM result ORDER BY oa,ob,ok,ov,ia,ib,ik,iv;

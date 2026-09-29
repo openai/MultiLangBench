@@ -1,0 +1,2 @@
+CREATE TABLE sfi_result AS
+SELECT (0 IS NOT FALSE) AS value FROM t0;

@@ -1,0 +1,1 @@
+ATTACH DATABASE ':memory:' AS aux; CREATE TABLE aux.t3(e,f); INSERT INTO main.result SELECT count(*) FROM aux.sqlite_master WHERE name='tr1';

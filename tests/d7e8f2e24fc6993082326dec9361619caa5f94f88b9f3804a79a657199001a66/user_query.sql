@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT a,b FROM ft10 WHERE a MATCH 'ab*';

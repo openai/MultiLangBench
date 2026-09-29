@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT x, y IS TRUE AS is_true, y IS FALSE AS is_false, y IS NULL AS is_null, y IS NOT TRUE AS is_not_true, y IS NOT FALSE AS is_not_false, y IS NOT NULL AS is_not_null, '|' AS marker FROM t1 ORDER BY x;

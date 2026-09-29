@@ -1,0 +1,1 @@
+CREATE TABLE capture AS SELECT name FROM sqlite_master WHERE name GLOB '???_*' ORDER BY name;

@@ -1,0 +1,1 @@
+SELECT rowid,json(json) FROM big ORDER BY rowid;

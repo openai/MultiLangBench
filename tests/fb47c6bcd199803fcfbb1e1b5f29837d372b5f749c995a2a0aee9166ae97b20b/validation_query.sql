@@ -1,0 +1,1 @@
+SELECT txt FROM sfi_result ORDER BY rowid

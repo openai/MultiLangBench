@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t0) AS t0_rows, (SELECT c0='b' FROM t0 LIMIT 1) AS nocase_collation, (SELECT count(*) FROM v0) AS v0_rows, (SELECT c0 FROM v0 LIMIT 1) AS view_c0, (SELECT c1 FROM v0 LIMIT 1) AS view_c1;

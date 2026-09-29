@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM result) AS result_rows, (SELECT count(*) FROM t3) AS source_rows, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='t3i1') AS index_rows;

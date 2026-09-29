@@ -1,0 +1,1 @@
+CREATE TABLE t8(a, b); INSERT INTO t8 VALUES('one', 'two'); INSERT INTO t8 VALUES('three', 'four'); ALTER TABLE t8 ADD COLUMN c DEFAULT 'xxx';

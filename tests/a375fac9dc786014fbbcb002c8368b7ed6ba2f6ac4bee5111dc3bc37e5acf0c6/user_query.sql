@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT 'x'||round(c,a)||'y' AS x FROM t1 ORDER BY a;

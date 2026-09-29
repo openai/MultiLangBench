@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT docid AS rid FROM ft2 WHERE ft2 MATCH '"B Y D"';

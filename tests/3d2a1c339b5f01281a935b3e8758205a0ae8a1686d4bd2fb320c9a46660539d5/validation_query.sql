@@ -1,0 +1,1 @@
+SELECT d,hex(m) FROM r ORDER BY d

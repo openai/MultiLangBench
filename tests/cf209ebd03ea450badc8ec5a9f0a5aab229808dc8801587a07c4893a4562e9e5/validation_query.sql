@@ -1,0 +1,1 @@
+SELECT (SELECT auto_vacuum FROM pragma_auto_vacuum), (SELECT count(*) FROM t3), (SELECT count(*) FROM t2);

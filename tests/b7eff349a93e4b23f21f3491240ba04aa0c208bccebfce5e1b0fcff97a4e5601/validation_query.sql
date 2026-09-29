@@ -1,0 +1,1 @@
+SELECT count(*) AS row_count, COALESCE(sum(a),0) AS sum_a, COALESCE(sum(b),0) AS sum_b FROM t1;

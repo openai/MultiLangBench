@@ -1,0 +1,1 @@
+INSERT INTO t6(t6) VALUES('merge=100,3'); INSERT INTO t6(t6) VALUES('merge=100,3'); CREATE TABLE result AS SELECT docid FROM t6 WHERE t6 MATCH '"zero zero"' AND lid=4;

@@ -1,0 +1,1 @@
+CREATE TABLE t3(a,b,c,d); INSERT INTO t3 VALUES(1,2,1,'hi'),(1,3,2,'hi'),(1,4,3,'hi'),(1,5,4,'hi'),(2,5,5,'hi'); CREATE INDEX t3i1 ON t3(a); CREATE INDEX t3i2 ON t3(a,b,c,d); CREATE INDEX t3i3 ON t3(d,b,c,a); ANALYZE; CREATE TABLE t4(x,y,z); CREATE INDEX t4i1 ON t4(x); CREATE INDEX t4i2 ON t4(y); INSERT INTO t4 SELECT a,b,c FROM t3;

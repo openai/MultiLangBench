@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT t3.a FROM t4 RIGHT JOIN t3 ON (x=a) WHERE (b,4)=(SELECT 3,4);

@@ -1,0 +1,1 @@
+CREATE TABLE marker(x); PRAGMA schema_version=20;

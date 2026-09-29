@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT sum(a) FILTER (WHERE a<5) AS v FROM t1;

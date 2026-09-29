@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t5),(SELECT count(*) FROM t5_segdir),(SELECT count(*) FROM t5_segments)

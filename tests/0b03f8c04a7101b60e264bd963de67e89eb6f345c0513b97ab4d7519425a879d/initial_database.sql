@@ -1,0 +1,1 @@
+CREATE TABLE _init(x); DROP TABLE _init;

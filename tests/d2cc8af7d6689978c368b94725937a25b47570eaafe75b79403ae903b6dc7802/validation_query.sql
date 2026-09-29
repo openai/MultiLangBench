@@ -1,0 +1,1 @@
+WITH x(t,a,b) AS (SELECT 't1',a,b FROM t1 UNION ALL SELECT 't2',a,b FROM t2 UNION ALL SELECT 't3',NULL,b FROM t3) SELECT t,a,b,typeof(a),typeof(b) FROM x ORDER BY 1,2,3

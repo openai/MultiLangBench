@@ -1,0 +1,1 @@
+CREATE TABLE t1x(a INTEGER, b TEXT, c REAL); INSERT INTO t1x VALUES('a', 'b', 'c');

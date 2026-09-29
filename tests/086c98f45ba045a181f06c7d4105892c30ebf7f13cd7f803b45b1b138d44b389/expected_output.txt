@@ -1,0 +1,1 @@
+[["table","t3","t3","CREATE TABLE t3(a INT REFERENCES t2, b INT REFERENCES t1, FOREIGN KEY (a,b) REFERENCES t2(x,y))"]]

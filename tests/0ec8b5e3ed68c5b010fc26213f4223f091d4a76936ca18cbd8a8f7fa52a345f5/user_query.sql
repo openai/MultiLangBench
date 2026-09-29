@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT c FROM hh WHERE (a,b)=(SELECT 'abc' COLLATE nocase,1);

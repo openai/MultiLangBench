@@ -1,0 +1,1 @@
+SELECT docid,quote(size) AS sz FROM ft3_docsize ORDER BY docid

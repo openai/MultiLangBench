@@ -1,0 +1,1 @@
+CREATE TABLE with(with with); INSERT INTO with VALUES(99); INSERT INTO with SELECT a FROM t1;

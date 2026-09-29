@@ -1,0 +1,1 @@
+CREATE TABLE t2(x INTEGER PRIMARY KEY, y, z); INSERT INTO t2 VALUES(-4,'y','z'),(0,'zero','entry'),(5,'hello','world'),(6,'second','entry'),(11,'hello','world'),(20,'b-20','c-20'),(22,'b-22','c-22'),(30,'new','row');

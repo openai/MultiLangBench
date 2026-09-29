@@ -1,0 +1,1 @@
+SELECT (SELECT page_count FROM pragma_page_count), (SELECT group_concat(str,'|') FROM tbl2);

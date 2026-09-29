@@ -1,0 +1,1 @@
+SELECT r1.*, r2.p FROM r1 CROSS JOIN r2;

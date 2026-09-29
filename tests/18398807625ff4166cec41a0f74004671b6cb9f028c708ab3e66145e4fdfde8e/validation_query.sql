@@ -1,0 +1,1 @@
+SELECT a,b,c,typeof(d),length(d),d=zeroblob(1000000) FROM t1;

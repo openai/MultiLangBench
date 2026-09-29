@@ -1,0 +1,1 @@
+BEGIN; CREATE TABLE def(a,b,c); ROLLBACK;

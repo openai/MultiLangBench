@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(1,CAST(NULL AS integer)),(2,CAST(NULL AS text)),(3,CAST(NULL AS blob)),(4,CAST(NULL AS number));

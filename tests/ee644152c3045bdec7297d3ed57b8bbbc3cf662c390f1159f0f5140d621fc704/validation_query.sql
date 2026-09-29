@@ -1,0 +1,1 @@
+SELECT count(*), sum(CASE WHEN docid=200 AND content='a b' THEN 1 ELSE 0 END), sum(CASE WHEN docid<>200 AND content='b b' THEN 1 ELSE 0 END), min(docid), max(docid) FROM t1;

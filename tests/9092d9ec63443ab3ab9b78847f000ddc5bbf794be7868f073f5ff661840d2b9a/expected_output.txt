@@ -1,0 +1,1 @@
+[["CREATE TABLE c1(x, y)"],["CREATE TABLE c2(x, y, w REFERENCES p1(b))"]]

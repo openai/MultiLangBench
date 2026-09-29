@@ -1,0 +1,1 @@
+SELECT a,b,c FROM result_1400 ORDER BY rowid;

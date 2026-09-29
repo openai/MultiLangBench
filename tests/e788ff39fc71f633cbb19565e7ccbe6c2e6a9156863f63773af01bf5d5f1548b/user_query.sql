@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT * FROM y0 RIGHT JOIN y1 ON true INNER JOIN y2 ON true WHERE y2.c!=99 AND y2.c!=98;

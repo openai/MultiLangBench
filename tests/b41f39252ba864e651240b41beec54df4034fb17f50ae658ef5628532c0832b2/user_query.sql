@@ -1,0 +1,1 @@
+CREATE TABLE _result AS SELECT coalesce(t8.a,999) AS a FROM t7 LEFT JOIN t8 ON y=a ORDER BY t7.rowid;

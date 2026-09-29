@@ -1,0 +1,6 @@
+PRAGMA legacy_alter_table = 1;
+CREATE TABLE t1(a, b, c);
+CREATE VIEW v1 AS SELECT * FROM t1;
+CREATE TRIGGER xyz AFTER INSERT ON t1 BEGIN
+  SELECT a, b FROM v1;
+END;

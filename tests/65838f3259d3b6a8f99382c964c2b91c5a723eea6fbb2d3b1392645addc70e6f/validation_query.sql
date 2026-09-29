@@ -1,0 +1,1 @@
+SELECT a,x,(SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='i1') AS index_exists FROM _result ORDER BY seq;

@@ -1,0 +1,1 @@
+CREATE TABLE t0(a,b,t); CREATE INDEX i ON t0(a in(0,1)); INSERT INTO t0 VALUES(0,1,2),(2,3,4),(5,6,7); UPDATE t0 SET b=99 WHERE (a in(0,1))=0;

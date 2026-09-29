@@ -1,0 +1,1 @@
+SELECT b FROM t1 INDEXED BY raise WHERE a=2

@@ -1,0 +1,1 @@
+CREATE TABLE temp.t1(a, b); ALTER TABLE t1 ADD c; INSERT INTO capture SELECT sql FROM temp.sqlite_master WHERE tbl_name='t1';

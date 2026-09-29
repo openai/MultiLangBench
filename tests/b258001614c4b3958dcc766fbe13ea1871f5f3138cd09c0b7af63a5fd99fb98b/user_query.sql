@@ -1,0 +1,1 @@
+ATTACH (SELECT file FROM pragma_database_list WHERE name='main') AS aux1; CREATE TABLE aux1.t1(a,b); INSERT INTO aux1.t1 VALUES(1,2); ATTACH (SELECT file FROM pragma_database_list WHERE name='main') AS aux2; CREATE TEMP TABLE saved AS SELECT a,b FROM aux2.t1; DETACH aux2; DETACH aux1; INSERT INTO main.capture SELECT a,b FROM temp.saved;

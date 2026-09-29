@@ -1,0 +1,1 @@
+SELECT gc FROM result ORDER BY sort_key;

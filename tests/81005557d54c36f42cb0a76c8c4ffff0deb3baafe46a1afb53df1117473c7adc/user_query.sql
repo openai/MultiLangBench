@@ -1,0 +1,1 @@
+INSERT INTO a2 VALUES('abc', NULL, 3*3+1)

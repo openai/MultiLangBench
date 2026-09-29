@@ -1,0 +1,1 @@
+CREATE TABLE t3(a,b,c); INSERT INTO t3 VALUES(1,1,1),(2,2,2),(3,3,3),(4,4,4),(5,5,5),(6,6,6); CREATE VIEW v2 AS SELECT sum(b) OVER win, min(b) OVER win, max(b) OVER win FROM t3 WINDOW win AS (ORDER BY c);

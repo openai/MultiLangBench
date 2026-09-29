@@ -1,0 +1,1 @@
+SELECT lower(replace(value, '-', '')) FROM result;

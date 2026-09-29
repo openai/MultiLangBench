@@ -1,0 +1,1 @@
+ALTER TABLE txx RENAME TO "t xx"; SELECT * FROM vvv;

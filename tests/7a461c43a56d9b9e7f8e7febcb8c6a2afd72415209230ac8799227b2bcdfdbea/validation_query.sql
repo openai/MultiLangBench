@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1), (SELECT min(a) FROM t1), (SELECT max(b) FROM t1), (SELECT sum(a+b) FROM t1), (SELECT count(*) FROM t2), (SELECT min(c) FROM t2), (SELECT max(d) FROM t2), (SELECT sum(c+d) FROM t2), (SELECT "notnull" FROM pragma_table_info('t2') WHERE name='d')

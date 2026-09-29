@@ -1,0 +1,1 @@
+SELECT x, (SELECT sql FROM sqlite_master WHERE type='index' AND name='i2') AS index_sql FROM result ORDER BY rowid

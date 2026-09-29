@@ -1,0 +1,1 @@
+/* jrnlmode-8.4 */ CREATE TABLE t1(x); INSERT INTO t1 VALUES(123);

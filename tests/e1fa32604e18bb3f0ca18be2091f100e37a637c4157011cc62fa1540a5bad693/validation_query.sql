@@ -1,0 +1,1 @@
+SELECT a FROM c1 ORDER BY a;

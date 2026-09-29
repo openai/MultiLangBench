@@ -1,0 +1,1 @@
+SELECT i, typeof(x), hex(x) FROM x1 ORDER BY i;

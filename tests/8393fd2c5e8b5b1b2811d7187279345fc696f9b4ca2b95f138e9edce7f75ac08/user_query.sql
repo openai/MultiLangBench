@@ -1,0 +1,1 @@
+PRAGMA locking_mode=EXCLUSIVE; PRAGMA journal_mode=TRUNCATE; CREATE TABLE t3(z);

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT DISTINCT max(n), log FROM t1 ORDER BY +log;

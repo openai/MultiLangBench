@@ -1,0 +1,1 @@
+SELECT count(*),min(w),max(w),sum(x),sum(y),sum(z),(SELECT count(*) FROM sqlite_schema WHERE type='index' AND tbl_name='t1') FROM t1;

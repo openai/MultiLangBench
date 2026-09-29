@@ -1,0 +1,1 @@
+INSERT INTO result(a,b) SELECT a, b FROM t1 FULL JOIN t2 ON true WHERE b IS NULL ORDER BY coalesce(a,b,3);

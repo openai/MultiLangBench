@@ -1,0 +1,1 @@
+BEGIN TRANSACTION; CREATE TABLE query_result AS SELECT * FROM xyz WHERE b='Hi Y''all'; COMMIT;

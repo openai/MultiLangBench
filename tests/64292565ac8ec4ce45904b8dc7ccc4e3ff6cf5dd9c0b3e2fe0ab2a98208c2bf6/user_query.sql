@@ -1,0 +1,1 @@
+PRAGMA quick_check; SELECT * FROM t1, v2; DELETE FROM sfi_result; INSERT INTO sfi_result(kind,c1) SELECT 'quick_check',quick_check FROM pragma_quick_check; INSERT INTO sfi_result(kind,c1,c2,c3,c4,c5) SELECT 'join',t1.a,t1.b,t1.c,v2.[15],v2.[22] FROM t1,v2;

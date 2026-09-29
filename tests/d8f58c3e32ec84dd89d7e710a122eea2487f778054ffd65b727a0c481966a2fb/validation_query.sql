@@ -1,0 +1,1 @@
+SELECT idx,old_a,old_b,db_sum_a,db_sum_b,new_a,new_b FROM rlog ORDER BY idx

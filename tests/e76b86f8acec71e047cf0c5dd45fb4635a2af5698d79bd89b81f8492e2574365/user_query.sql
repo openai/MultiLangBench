@@ -1,0 +1,1 @@
+INSERT INTO fts(fts) VALUES('integrity-check'); SELECT count(*) FROM fts_segdir;

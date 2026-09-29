@@ -1,0 +1,1 @@
+PRAGMA recursive_triggers=ON; REPLACE INTO t3(a,b,c,d) VALUES(5,1,11,2);

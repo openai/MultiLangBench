@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT printf('|%,d|%,d|',123456,-123456);

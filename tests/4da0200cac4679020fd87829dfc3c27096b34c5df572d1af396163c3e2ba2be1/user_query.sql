@@ -1,0 +1,1 @@
+CREATE TABLE recursive(recursive recursive); INSERT INTO recursive VALUES(99); INSERT INTO recursive SELECT a FROM t1;

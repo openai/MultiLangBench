@@ -1,0 +1,1 @@
+CREATE TABLE t45(a PRIMARY KEY,b,c) WITHOUT ROWID; CREATE INDEX i45 ON t45(b); INSERT INTO t45 VALUES(2,'one','x'),(4,'one','x'),(6,'one','x'),(8,'one','x'),(10,'one','x'),(1,'two','x'),(3,'two','x'),(5,'two','x'),(7,'two','x'),(9,'two','x');

@@ -1,0 +1,1 @@
+SELECT id, name, city, department, salary, (SELECT type FROM sqlite_schema WHERE name='v') AS object_type, (SELECT count(*) FROM v) AS view_count, (SELECT id FROM v LIMIT 1 OFFSET 2) AS offset_2_id, (SELECT id FROM v LIMIT 1 OFFSET 6) AS offset_6_id FROM employees ORDER BY id;

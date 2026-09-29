@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; CREATE TABLE p1(a PRIMARY KEY);

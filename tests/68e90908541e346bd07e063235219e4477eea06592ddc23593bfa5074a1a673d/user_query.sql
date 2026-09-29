@@ -1,0 +1,1 @@
+INSERT INTO mail VALUES('urgent: serious','This mail is seen as a more serious mail')

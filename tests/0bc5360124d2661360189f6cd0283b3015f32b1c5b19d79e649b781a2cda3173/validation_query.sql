@@ -1,0 +1,1 @@
+SELECT a,b,c,d,e,f,typeof(a),typeof(b),typeof(c),typeof(d) FROM t2 ORDER BY rowid;

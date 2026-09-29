@@ -1,0 +1,1 @@
+SELECT (SELECT page_size FROM pragma_page_size) AS page_size, (SELECT sql FROM sqlite_schema WHERE type='table' AND name='t1') AS schema_sql, count(*) AS nrow, min(k) AS min_key, max(k) AS max_key, sum(length(v)) AS total_length, sum(v=replace(hex(zeroblob(900)), '00', char(96+k))) AS correct_rows FROM t1;

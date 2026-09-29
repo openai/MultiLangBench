@@ -1,0 +1,1 @@
+[[1,"a database is a software system"],[2,"sqlite is a software system"],[3,"sqlite is a database"],[4,"sqlite is also a library"],[5,"library software"],[6,"the sqlite library runs on linux"],[7,"as does the sqlite database (on linux)"],[8,"the sqlite database is accessed by the sqlite library"]]

@@ -1,0 +1,1 @@
+SELECT count(*) FROM "abc abc" WHERE a=X'00112233';

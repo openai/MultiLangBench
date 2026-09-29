@@ -1,0 +1,1 @@
+SELECT count(*),(SELECT count(*) FROM sqlite_master WHERE name='t2') FROM t3_data

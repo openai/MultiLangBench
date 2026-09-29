@@ -1,0 +1,1 @@
+SELECT to_tbl, to_col FROM selected_fkey ORDER BY rowid;

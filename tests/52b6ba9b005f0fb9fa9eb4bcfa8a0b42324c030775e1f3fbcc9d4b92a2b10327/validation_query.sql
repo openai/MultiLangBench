@@ -1,0 +1,1 @@
+SELECT a,b FROM t1 CROSS JOIN t2;

@@ -1,0 +1,1 @@
+SELECT org_id, n FROM result ORDER BY org_id;

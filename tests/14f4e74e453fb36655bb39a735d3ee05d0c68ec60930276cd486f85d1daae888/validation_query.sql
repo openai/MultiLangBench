@@ -1,0 +1,1 @@
+SELECT name, type, sql, (SELECT count(*) FROM sqlite_master AS i WHERE i.type='index' AND i.tbl_name=m.name) AS index_count FROM sqlite_master AS m WHERE m.type='table' AND m.name='t1';

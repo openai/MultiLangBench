@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rowid AS r FROM e1 WHERE (a, c) IN (SELECT x, y FROM e2);

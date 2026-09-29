@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS x; INSERT INTO "fuzzer [x] rules table" VALUES(0, 'c', 'd', 1001);

@@ -1,0 +1,1 @@
+INSERT INTO r SELECT a FROM t WHERE b=5-abs(-3) ORDER BY a;

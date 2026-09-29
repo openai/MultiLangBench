@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT quote(root) AS q FROM t1_segdir;

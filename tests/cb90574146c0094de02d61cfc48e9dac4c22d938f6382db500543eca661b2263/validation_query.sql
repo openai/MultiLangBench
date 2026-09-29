@@ -1,0 +1,1 @@
+SELECT a, b, c, d, (SELECT stat FROM sqlite_stat1 WHERE tbl='t1' AND idx='t1abc') AS stat FROM t1 ORDER BY rowid;

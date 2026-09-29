@@ -1,0 +1,1 @@
+SELECT rid,fullkey,val FROM result ORDER BY seq;

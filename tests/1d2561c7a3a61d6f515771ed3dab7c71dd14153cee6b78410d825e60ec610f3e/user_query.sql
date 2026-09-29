@@ -1,0 +1,1 @@
+INSERT INTO result SELECT * FROM v2;

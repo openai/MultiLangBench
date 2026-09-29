@@ -1,0 +1,1 @@
+INSERT INTO capture SELECT name FROM main.sqlite_master WHERE name<>'capture' ORDER BY name;

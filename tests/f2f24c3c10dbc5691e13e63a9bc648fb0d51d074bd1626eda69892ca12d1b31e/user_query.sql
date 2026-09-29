@@ -1,0 +1,1 @@
+INSERT INTO result(n,y) SELECT count(*), y FROM t1 GROUP BY y ORDER BY count(*), y;

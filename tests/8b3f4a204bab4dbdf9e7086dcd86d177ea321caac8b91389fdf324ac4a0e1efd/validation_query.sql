@@ -1,0 +1,1 @@
+SELECT c,d,typeof(c) FROM t2 ORDER BY d

@@ -1,0 +1,1 @@
+CREATE TABLE t1(w, x, y, z, PRIMARY KEY(x,y)); CREATE UNIQUE INDEX zz ON t1(z);

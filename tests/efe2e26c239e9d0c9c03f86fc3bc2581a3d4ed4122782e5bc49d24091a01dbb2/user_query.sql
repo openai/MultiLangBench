@@ -1,0 +1,1 @@
+UPDATE t1 SET (c) = 99 WHERE a=3;

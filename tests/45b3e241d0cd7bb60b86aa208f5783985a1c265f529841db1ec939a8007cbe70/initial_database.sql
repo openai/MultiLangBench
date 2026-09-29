@@ -1,0 +1,1 @@
+CREATE TABLE t1(a); CREATE INDEX i1 ON t1(a COLLATE BINARY); INSERT INTO t1(a) VALUES('Abc2'),('abc1'),('aBc3'); PRAGMA writable_schema=ON; UPDATE sqlite_schema SET sql='CREATE INDEX i1 ON t1(a COLLATE caseless)' WHERE type='index' AND name='i1'; PRAGMA writable_schema=OFF;

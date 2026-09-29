@@ -1,0 +1,1 @@
+CREATE TABLE t1(x); INSERT INTO t1 VALUES(7),(6),(5),(4),(3),(2),(1); CREATE TABLE t2(x); INSERT INTO t2 VALUES('b'),('a'); CREATE TABLE result AS SELECT x, count(*) OVER (ORDER BY x) FROM t1;

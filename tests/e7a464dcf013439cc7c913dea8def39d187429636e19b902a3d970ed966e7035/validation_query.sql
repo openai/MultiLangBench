@@ -1,0 +1,1 @@
+SELECT val FROM sfi_result ORDER BY seq, rowid;

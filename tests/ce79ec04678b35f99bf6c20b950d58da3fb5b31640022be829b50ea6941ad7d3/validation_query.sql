@@ -1,0 +1,1 @@
+SELECT (SELECT start_block FROM t1_segdir ORDER BY level,idx LIMIT 1), (SELECT count(*) FROM t1_content);

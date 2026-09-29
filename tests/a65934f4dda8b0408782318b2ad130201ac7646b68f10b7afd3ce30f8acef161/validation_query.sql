@@ -1,0 +1,1 @@
+SELECT * FROM match ORDER BY match ASC

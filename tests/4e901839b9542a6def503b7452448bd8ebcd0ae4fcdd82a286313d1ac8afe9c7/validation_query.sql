@@ -1,0 +1,1 @@
+SELECT rowid, c198, c199 FROM t2 WHERE rowid IN (1,200) ORDER BY rowid

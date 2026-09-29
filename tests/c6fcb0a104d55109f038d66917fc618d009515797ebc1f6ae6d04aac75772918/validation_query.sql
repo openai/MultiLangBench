@@ -1,0 +1,1 @@
+SELECT count(*), min(docid), max(docid), min(langid), max(langid), count(DISTINCT langid) FROM t3_content;

@@ -1,0 +1,1 @@
+SELECT count(*) AS ncol,sum(name=printf('c%d',seqno+1)) AS correctly_named FROM pragma_index_info('t1i1');

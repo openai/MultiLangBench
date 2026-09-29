@@ -1,0 +1,1 @@
+DELETE FROM x1; INSERT INTO x1(x) VALUES('a'),('b'),('c'),('def'),('g');

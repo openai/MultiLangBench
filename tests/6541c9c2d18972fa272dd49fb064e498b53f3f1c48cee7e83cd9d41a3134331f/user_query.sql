@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(coalesce(datetime(0,'+464269060799 seconds'),'NULL'))

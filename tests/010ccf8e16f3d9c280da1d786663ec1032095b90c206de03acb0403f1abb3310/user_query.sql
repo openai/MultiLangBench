@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT d FROM t2 WHERE a=1 AND (b, c) > (1, 2);

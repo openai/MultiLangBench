@@ -1,0 +1,1 @@
+SELECT a, c FROM sfi_result ORDER BY rowid;

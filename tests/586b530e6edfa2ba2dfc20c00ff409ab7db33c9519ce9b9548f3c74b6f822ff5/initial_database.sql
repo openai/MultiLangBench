@@ -1,0 +1,1 @@
+CREATE TABLE x2(c,d,e);INSERT INTO x2 VALUES(-60.06,NULL,NULL),(-58,NULL,1.21);CREATE TABLE x3(f,g,h,i);INSERT INTO x3 VALUES(-39.24,NULL,'encompass',-1),('presenting',51,'reformation','dignified'),('conducting',-87.24,37.56,NULL),('coldest',-96,'dramatists',82.3),('alerting',NULL,-93.79,NULL);

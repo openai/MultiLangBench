@@ -1,0 +1,1 @@
+INSERT INTO t3 VALUES(10, 100); SELECT rowid, * FROM t3;

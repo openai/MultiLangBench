@@ -1,0 +1,1 @@
+CREATE TABLE t1(x,y,PRIMARY KEY(x,y)) WITHOUT ROWID; INSERT INTO t1(x,y) VALUES(1,'AB'); INSERT INTO t1(x,y) VALUES(2,'CD'); ANALYZE; DROP TABLE IF EXISTS sqlite_stat4; DELETE FROM sqlite_stat1; INSERT INTO sqlite_stat1(tbl,idx,stat) VALUES('t1','t1','1000000 100 1'); ANALYZE sqlite_master;

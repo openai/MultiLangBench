@@ -1,0 +1,1 @@
+SELECT rowid, name, typeof(name) FROM mytext ORDER BY rowid

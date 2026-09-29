@@ -1,0 +1,1 @@
+DROP TABLE glob; CREATE INDEX glob ON t1(a);

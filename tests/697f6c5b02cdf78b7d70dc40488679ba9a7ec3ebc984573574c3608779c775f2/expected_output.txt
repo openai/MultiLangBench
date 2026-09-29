@@ -1,0 +1,1 @@
+[["c1",1,1,null],["c1",8,8,null],["c1",17,17,null],["c1",18,null,null],["c2",2,2,null],["c2",8,8,null],["c2",null,null,null],["dual",null,"X",null],["t1",1,null,null],["t1",2,null,null],["t1",8,null,null],["t1",19,null,null]]

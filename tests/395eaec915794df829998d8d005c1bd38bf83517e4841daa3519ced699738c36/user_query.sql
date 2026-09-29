@@ -1,0 +1,1 @@
+PRAGMA page_size=8192; CREATE TABLE abc(a, b, c);

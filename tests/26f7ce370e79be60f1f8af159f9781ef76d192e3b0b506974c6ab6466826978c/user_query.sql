@@ -1,0 +1,1 @@
+CREATE TABLE _r AS SELECT c, d FROM c1 WHERE (c, d) IN (SELECT d, c FROM c1);

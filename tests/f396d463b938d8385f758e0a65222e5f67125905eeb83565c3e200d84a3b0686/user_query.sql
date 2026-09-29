@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT round(b,2) AS x FROM t1 ORDER BY b;

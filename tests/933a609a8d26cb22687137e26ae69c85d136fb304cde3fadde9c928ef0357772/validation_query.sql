@@ -1,0 +1,1 @@
+SELECT s.type, s.name, s.tbl_name, s.sql, (SELECT group_concat(name || ':' || type, '|') FROM (SELECT cid, name, type FROM pragma_table_info('t1') ORDER BY cid)) FROM sqlite_schema AS s WHERE s.name='t1';

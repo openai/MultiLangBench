@@ -1,0 +1,1 @@
+CREATE TABLE result(n INTEGER, min_a INTEGER, max_a INTEGER, all_correct INTEGER);

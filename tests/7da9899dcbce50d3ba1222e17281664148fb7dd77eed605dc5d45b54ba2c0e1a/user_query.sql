@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT length(snippet(ft)) AS n,typeof(snippet(ft)) AS t FROM ft WHERE rowid=1000000;

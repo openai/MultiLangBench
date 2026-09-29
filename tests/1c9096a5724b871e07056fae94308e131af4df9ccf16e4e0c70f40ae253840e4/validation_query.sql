@@ -1,0 +1,1 @@
+SELECT hex(v) FROM result;

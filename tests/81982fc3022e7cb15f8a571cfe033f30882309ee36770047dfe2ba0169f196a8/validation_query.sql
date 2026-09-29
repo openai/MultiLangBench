@@ -1,0 +1,1 @@
+SELECT name, (SELECT count(*) FROM t1) FROM sqlite_master WHERE type='index' AND name='t1a1';

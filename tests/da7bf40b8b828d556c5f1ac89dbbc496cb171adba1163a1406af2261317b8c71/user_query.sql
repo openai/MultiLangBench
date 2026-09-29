@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT collate2t2.b FROM collate2t1 LEFT JOIN collate2t2 USING (b) ORDER BY collate2t1.oid;

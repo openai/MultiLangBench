@@ -1,0 +1,2 @@
+CREATE TABLE query_result AS
+SELECT cor0.* FROM tab1 NATURAL JOIN tab2 AS cor0;

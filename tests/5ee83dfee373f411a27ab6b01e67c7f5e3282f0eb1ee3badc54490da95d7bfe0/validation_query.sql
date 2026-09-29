@@ -1,0 +1,1 @@
+SELECT a FROM t1 WHERE b='ab005xy' COLLATE nocase;

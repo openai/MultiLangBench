@@ -1,0 +1,1 @@
+INSERT INTO result(a) SELECT a FROM t1 FULL JOIN t2 ON true;

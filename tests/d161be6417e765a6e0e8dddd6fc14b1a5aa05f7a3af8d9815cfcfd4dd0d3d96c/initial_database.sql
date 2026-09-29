@@ -1,0 +1,1 @@
+CREATE TABLE """1"("""2" TEXT PRIMARY KEY, """3" TEXT);

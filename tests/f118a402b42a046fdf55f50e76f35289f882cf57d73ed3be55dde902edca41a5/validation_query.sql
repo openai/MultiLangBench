@@ -1,0 +1,1 @@
+SELECT r1, r2, r3, r4, r5 FROM result ORDER BY r1, r2, r3, r4, r5;

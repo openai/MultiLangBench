@@ -1,0 +1,1 @@
+SELECT * FROM sfi_result ORDER BY 1,2,3,4,5,6,7;

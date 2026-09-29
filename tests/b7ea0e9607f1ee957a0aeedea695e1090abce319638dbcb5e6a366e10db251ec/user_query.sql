@@ -1,0 +1,1 @@
+INSERT INTO t1(rowid,x,y) VALUES(1234,5,6); CREATE TABLE actual AS SELECT rowid AS rid, * FROM t1;

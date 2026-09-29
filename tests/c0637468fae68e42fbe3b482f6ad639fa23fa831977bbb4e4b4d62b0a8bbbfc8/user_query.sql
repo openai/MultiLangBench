@@ -1,0 +1,1 @@
+PRAGMA short_column_names=OFF; PRAGMA full_column_names=ON; CREATE TABLE result AS SELECT +tabc.a, -tabc.b, tabc.c FROM tabc;

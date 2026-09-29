@@ -1,0 +1,1 @@
+SELECT count(*), sum(name='col0'), sum(name='col119') FROM pragma_table_info('t2');

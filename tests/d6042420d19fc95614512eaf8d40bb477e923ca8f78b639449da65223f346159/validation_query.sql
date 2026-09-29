@@ -1,0 +1,1 @@
+SELECT m.name, m.type, s.id, typeof(s.value), hex(s.value) FROM sqlite_master AS m LEFT JOIN x1_stat AS s ON s.id=2 WHERE m.name='x1';

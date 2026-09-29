@@ -1,0 +1,1 @@
+CREATE TABLE t(i,j,k); CREATE TABLE j(l,m); CREATE TABLE k(o);

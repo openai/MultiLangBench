@@ -1,0 +1,1 @@
+SELECT del FROM cnt;

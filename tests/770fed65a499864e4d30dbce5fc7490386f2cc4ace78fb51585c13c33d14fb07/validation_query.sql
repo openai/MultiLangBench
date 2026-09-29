@@ -1,0 +1,1 @@
+SELECT printf('%.4f',x),printf('%.4f',p) FROM r ORDER BY rowid

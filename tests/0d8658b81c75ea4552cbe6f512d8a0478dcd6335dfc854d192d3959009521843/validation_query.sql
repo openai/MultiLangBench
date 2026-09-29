@@ -1,0 +1,1 @@
+SELECT rowid,content FROM text ORDER BY rowid

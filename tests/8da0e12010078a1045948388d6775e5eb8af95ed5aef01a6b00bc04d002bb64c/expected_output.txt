@@ -1,0 +1,1 @@
+[["table","t1","CREATE TABLE t1(a, b, c)"],["table","t2","CREATE TABLE t2(x INTEGER PRIMARY KEY, y, z UNIQUE)"],["index","t2y","CREATE INDEX t2y ON t2(y)"],["table","t3","CREATE TABLE t3(q, r, s)"],["index","t3rs","CREATE INDEX t3rs ON t3(r+s)"],["view","v1","CREATE VIEW v1 AS SELECT * FROM t1"]]

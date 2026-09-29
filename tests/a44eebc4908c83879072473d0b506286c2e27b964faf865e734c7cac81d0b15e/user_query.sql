@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT docid,quote(size) AS size FROM ft4_docsize;

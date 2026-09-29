@@ -1,0 +1,1 @@
+PRAGMA encoding='UTF-8'; CREATE VIRTUAL TABLE ft USING fts3(x); WITH RECURSIVE c(i,s) AS (VALUES(1,',') UNION ALL SELECT i+1,s||',' FROM c WHERE i<149) INSERT INTO ft SELECT 'one'||s||'two' FROM c;

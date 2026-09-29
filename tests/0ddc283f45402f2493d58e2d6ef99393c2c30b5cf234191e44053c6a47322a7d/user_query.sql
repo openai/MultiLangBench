@@ -1,0 +1,1 @@
+PRAGMA automatic_index=OFF; CREATE TABLE sfi_result AS SELECT 200, * FROM t0, v0 WHERE t0.c0 = 0 AND v0.c0 = t0.c0;

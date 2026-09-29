@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM abc) AS abc_rows, (SELECT auto_vacuum FROM pragma_auto_vacuum) AS auto_vacuum_mode, (SELECT page_count FROM pragma_page_count) AS page_count, (SELECT freelist_count FROM pragma_freelist_count) AS freelist_pages, (SELECT count(*) FROM pragma_integrity_check WHERE integrity_check='ok') AS integrity_ok;

@@ -1,0 +1,1 @@
+CREATE TABLE t3_data(l,x,y); CREATE VIRTUAL TABLE t2 USING fts4(x,y,languageid=l,content=nosuchtable); INSERT INTO t2(docid,x,y,l) VALUES(1,'zero one','alpha beta',0);

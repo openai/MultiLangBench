@@ -1,0 +1,1 @@
+CREATE TABLE result AS WITH RECURSIVE q(ii) AS (SELECT 1 UNION ALL SELECT ii+1 FROM q WHERE ii<9999) SELECT q.ii AS request,(SELECT t FROM t1 WHERE rowid=q.ii*3) AS a,(SELECT t FROM t2 WHERE rowid=q.ii*3) AS b,(SELECT t FROM t3 WHERE rowid=q.ii*3) AS c FROM q;

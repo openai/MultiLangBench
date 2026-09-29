@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t4) AS table_rows,count(*) AS log_rows,sum(op='INSERT INTO t4') AS insert_logs,sum(r) AS logged_rowids,sum(i) AS logged_values,sum(length(t)) AS logged_text_length,min(t) AS min_text,max(t) AS max_text,(SELECT sum(rowid) FROM t4) AS table_rowid_sum,(SELECT sum(i) FROM t4) AS table_value_sum FROM log;

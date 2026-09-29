@@ -1,0 +1,1 @@
+SELECT (SELECT b FROM ab),(SELECT d FROM cd),(SELECT f FROM ef)

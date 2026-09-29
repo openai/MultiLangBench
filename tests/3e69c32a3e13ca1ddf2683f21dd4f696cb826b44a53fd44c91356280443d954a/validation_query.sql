@@ -1,0 +1,1 @@
+SELECT (SELECT * FROM pragma_page_count),(SELECT * FROM pragma_page_count('main')),(SELECT * FROM pragma_page_count('temp'))

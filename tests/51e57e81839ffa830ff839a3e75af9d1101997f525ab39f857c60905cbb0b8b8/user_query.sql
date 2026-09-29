@@ -1,0 +1,1 @@
+INSERT INTO t12(t12) VALUES('integrity-check');

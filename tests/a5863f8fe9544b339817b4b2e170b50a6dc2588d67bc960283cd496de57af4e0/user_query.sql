@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT name FROM pragma_pragma_list WHERE name='pragma_list';

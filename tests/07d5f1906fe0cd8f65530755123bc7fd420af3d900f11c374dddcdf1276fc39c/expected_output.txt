@@ -1,0 +1,1 @@
+[["y1_segments","table","CREATE TABLE \"y1_segments\"(blockid INTEGER PRIMARY KEY, block BLOB)"]]

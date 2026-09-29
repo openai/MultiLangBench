@@ -1,0 +1,2 @@
+CREATE TABLE result(a,x,y);
+INSERT INTO result SELECT * FROM t2 LEFT JOIN t3 ON a=x WHERE y IS NULL;

@@ -1,0 +1,1 @@
+SELECT x FROM t4_log ORDER BY rowid;

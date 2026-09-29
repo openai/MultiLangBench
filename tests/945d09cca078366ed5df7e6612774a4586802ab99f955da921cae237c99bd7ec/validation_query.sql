@@ -1,0 +1,1 @@
+SELECT c0, typeof(c0), (SELECT count(*) FROM pragma_index_list('t0') WHERE [unique]=1) FROM t0 ORDER BY c0;

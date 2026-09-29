@@ -1,0 +1,1 @@
+CREATE TABLE abc(a INTEGER PRIMARY KEY, x, y); CREATE UNIQUE INDEX abc1 ON abc(x) WHERE y>0; CREATE UNIQUE INDEX abc2 ON abc(y) WHERE x='xyz' COLLATE nocase; INSERT INTO abc VALUES(1,'one',1),(2,'two',2),(3,'xyz',3),(4,'XYZ',4);

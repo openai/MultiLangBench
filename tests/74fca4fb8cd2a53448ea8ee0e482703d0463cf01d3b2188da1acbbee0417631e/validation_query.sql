@@ -1,0 +1,1 @@
+SELECT level,idxs FROM r ORDER BY level

@@ -1,0 +1,1 @@
+CREATE TABLE t7(c, d UNIQUE, UNIQUE(c), PRIMARY KEY(c,d));

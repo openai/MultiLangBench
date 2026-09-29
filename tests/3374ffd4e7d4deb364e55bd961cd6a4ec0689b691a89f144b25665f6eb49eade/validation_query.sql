@@ -1,0 +1,1 @@
+SELECT docid FROM sfi_result ORDER BY docid

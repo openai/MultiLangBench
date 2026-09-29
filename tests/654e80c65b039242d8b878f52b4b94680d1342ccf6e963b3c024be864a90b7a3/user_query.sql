@@ -1,0 +1,1 @@
+BEGIN; UPDATE t4 SET i=rowid*2,t='number-'||(rowid*2) WHERE rowid%2=1; COMMIT;

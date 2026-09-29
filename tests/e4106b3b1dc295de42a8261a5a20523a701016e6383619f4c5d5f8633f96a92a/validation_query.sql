@@ -1,0 +1,1 @@
+SELECT a, b, c, (SELECT count(*) FROM pragma_index_info('x1c')) AS index_columns FROM x1 ORDER BY a;

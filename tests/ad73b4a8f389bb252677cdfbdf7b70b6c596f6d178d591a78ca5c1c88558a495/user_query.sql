@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT roman FROM t1 ORDER BY roman;

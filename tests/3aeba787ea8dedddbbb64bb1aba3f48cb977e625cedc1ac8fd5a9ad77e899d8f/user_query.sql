@@ -1,0 +1,1 @@
+DELETE FROM t1; INSERT INTO t1(a,b,c,d) VALUES(1,2,3,4);

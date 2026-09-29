@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rowid AS r,a,x FROM t1 ORDER BY a DESC;

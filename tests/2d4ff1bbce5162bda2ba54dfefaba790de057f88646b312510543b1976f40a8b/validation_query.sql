@@ -1,0 +1,1 @@
+SELECT plus10,pqr FROM result ORDER BY pqr

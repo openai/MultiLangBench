@@ -1,0 +1,1 @@
+CREATE TABLE table1(f1 int, f2 int); CREATE INDEX index1 ON table1(f1); INSERT INTO table1 VALUES(42,1764),(44,1936),(47,2209),(48,2304),(50,2500);

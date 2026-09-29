@@ -1,0 +1,1 @@
+SELECT page_count, freelist_count, (SELECT count(*) FROM t1) AS row_count FROM pragma_page_count, pragma_freelist_count;

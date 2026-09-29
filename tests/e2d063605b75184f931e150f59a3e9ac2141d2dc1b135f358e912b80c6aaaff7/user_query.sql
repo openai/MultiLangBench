@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=OFF; CREATE TABLE k2(x, y, FOREIGN KEY(x,y) REFERENCES s1(a,b)); CREATE TABLE result AS SELECT [table] AS child_table, [rowid] AS child_rowid, parent, fkid FROM pragma_foreign_key_check('k2');

@@ -1,0 +1,1 @@
+SELECT a, total, t FROM result ORDER BY a;

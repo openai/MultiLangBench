@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT 2 IN (SELECT a FROM t1 ORDER BY a DESC) AS is_member;

@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; BEGIN; PRAGMA defer_foreign_keys=1; UPDATE p2 SET a=a-1; INSERT INTO observed SELECT (SELECT group_concat(a, ',') FROM (SELECT a FROM p2 ORDER BY a)), (SELECT count(*) FROM pragma_foreign_key_check); UPDATE c2 SET y=0; COMMIT;

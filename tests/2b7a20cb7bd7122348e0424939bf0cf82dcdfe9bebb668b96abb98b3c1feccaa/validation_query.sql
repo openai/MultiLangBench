@@ -1,0 +1,1 @@
+SELECT 'hh' AS src, rowid, a, b, c FROM hh UNION ALL SELECT 'k1', rowid, x, y, NULL FROM k1 ORDER BY src, rowid;

@@ -1,0 +1,1 @@
+SELECT x, y FROM ta69637_1 ORDER BY x;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT t1.x,t2.x+1,t3.x+2 FROM t AS t1,t AS t2,t AS t3;

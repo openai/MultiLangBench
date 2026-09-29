@@ -1,0 +1,1 @@
+SELECT id, value FROM some_table ORDER BY id;

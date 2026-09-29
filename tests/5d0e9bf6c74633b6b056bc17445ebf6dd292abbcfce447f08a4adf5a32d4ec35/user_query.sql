@@ -1,0 +1,1 @@
+WITH RECURSIVE auth1312(x,y) AS (SELECT a+b,b-a FROM t1) SELECT x,y FROM auth1312 ORDER BY x;

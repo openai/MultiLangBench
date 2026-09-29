@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES('-1234.5'||hex(zeroblob(5000))||'12345'); INSERT INTO result SELECT x, typeof(x) FROM t1;

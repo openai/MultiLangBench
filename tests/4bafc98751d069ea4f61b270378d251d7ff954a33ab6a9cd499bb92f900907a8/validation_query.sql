@@ -1,0 +1,1 @@
+SELECT type, name, tbl_name, CASE WHEN type='table' THEN sql='CREATE TABLE x1(z, b)' ELSE instr(sql,'DELETE FROM sqlite_dbpage WHERE pgno=100')>0 AND instr(sql,'UPDATE sqlite_dbpage SET data=null WHERE pgno=100')>0 END AS schema_ok FROM sqlite_schema WHERE name IN ('x1','BEFORE') ORDER BY type, name;

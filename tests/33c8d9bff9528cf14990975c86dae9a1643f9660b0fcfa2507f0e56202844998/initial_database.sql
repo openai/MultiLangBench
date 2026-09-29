@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b,c, UNIQUE(b,c), PRIMARY KEY(b,c)) WITHOUT ROWID; INSERT INTO t1(a,b,c) VALUES(1,8,3),(4,5,6),(7,2,9); CREATE TABLE _sfi_result(seq INTEGER PRIMARY KEY, name TEXT, is_unique INTEGER, origin TEXT);

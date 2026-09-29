@@ -1,0 +1,1 @@
+CREATE TABLE without(without without); INSERT INTO without VALUES(99); INSERT INTO without SELECT a FROM t1;

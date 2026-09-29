@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT coalesce(datetime('2022-01-27','julianday'),'NULL');

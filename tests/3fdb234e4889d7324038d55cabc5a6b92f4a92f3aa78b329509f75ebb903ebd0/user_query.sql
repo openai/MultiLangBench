@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(1,CAST(1 AS text)),(2,CAST(45 AS text)),(3,CAST(-45 AS text)),(4,CAST(8.8 AS text)),(5,CAST(2.3e+5 AS text)),(6,CAST(-2.3e-5 AS text)),(7,CAST(0.0 AS text)),(8,CAST(0 AS text));

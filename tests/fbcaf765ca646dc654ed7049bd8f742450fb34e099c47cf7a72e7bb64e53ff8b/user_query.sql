@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; REPLACE INTO p VALUES(5,'k5','III');

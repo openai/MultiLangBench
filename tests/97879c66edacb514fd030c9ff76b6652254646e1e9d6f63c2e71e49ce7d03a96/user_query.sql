@@ -1,0 +1,1 @@
+CREATE TABLE _r AS SELECT (1, 2) IN (SELECT a, b FROM c1);

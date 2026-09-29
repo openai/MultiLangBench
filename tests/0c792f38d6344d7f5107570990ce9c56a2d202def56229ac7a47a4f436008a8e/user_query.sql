@@ -1,0 +1,1 @@
+UPDATE t1 SET b=b+(SELECT y FROM t2 WHERE x=a);

@@ -1,0 +1,1 @@
+PRAGMA automatic_index=OFF; CREATE TABLE result AS SELECT max(a), val FROM t1 LEFT JOIN (SELECT 'constant' AS val FROM t2 WHERE x=1234);

@@ -1,0 +1,1 @@
+INSERT INTO t2(c,d) VALUES(5,'X'),(6,'Y'),(7,'Z'),(3,'A'),(4,'B'); CREATE TABLE result AS SELECT c FROM t1 LEFT JOIN t2 ON d=x ORDER BY d, c NULLS LAST;

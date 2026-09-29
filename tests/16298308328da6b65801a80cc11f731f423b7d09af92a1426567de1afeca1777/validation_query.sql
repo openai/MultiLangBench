@@ -1,0 +1,1 @@
+SELECT tbl, idx, stat FROM sqlite_stat1 WHERE tbl IN ('t501','t502') ORDER BY tbl;

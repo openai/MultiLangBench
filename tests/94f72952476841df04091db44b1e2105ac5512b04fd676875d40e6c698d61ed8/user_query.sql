@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(coalesce(strftime(replace(hex(zeroblob(200)),'00','%Y'),'2003-10-31'),'NULL'))

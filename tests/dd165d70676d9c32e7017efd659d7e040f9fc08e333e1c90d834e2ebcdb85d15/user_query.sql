@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT rowid AS rid,x,y FROM ft3 WHERE ft3 MATCH 'x:O';

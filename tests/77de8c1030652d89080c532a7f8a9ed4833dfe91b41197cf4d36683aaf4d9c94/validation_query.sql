@@ -1,0 +1,1 @@
+SELECT "table","from","to" FROM pragma_foreign_key_list('t1') ORDER BY seq

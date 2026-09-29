@@ -1,0 +1,1 @@
+SELECT * FROM pragma_quick_check('t1');

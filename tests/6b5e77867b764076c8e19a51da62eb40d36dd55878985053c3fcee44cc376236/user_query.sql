@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a, sum(a) OVER () FROM t2 ORDER BY a;

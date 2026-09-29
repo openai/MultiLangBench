@@ -1,0 +1,1 @@
+SELECT rowid,content FROM t10 ORDER BY rowid

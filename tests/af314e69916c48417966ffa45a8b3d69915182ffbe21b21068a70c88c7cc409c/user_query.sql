@@ -1,0 +1,1 @@
+PRAGMA recursive_triggers=OFF; DELETE FROM t1; CREATE TABLE t2(a, b); INSERT INTO t2 VALUES('e', 'f'); INSERT INTO t2 VALUES('g', 'h'); INSERT INTO t1 SELECT * FROM t2;

@@ -1,0 +1,1 @@
+SELECT q1,q2,q3,q4,marker FROM sfi_result ORDER BY seq;

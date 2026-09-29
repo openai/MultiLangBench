@@ -1,0 +1,1 @@
+INSERT INTO Table0(Table0) VALUES('optimize'); CREATE TABLE result(x); INSERT INTO result VALUES(1);

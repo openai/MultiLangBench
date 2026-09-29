@@ -1,0 +1,2 @@
+INSERT INTO result(a)
+SELECT a FROM t1 WHERE b>9 OR b=9 ORDER BY +a;

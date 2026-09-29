@@ -1,0 +1,1 @@
+SELECT tags FROM fts WHERE tags MATCH 'two' ORDER BY rowid;

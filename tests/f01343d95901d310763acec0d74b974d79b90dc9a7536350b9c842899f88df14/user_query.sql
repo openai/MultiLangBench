@@ -1,0 +1,1 @@
+INSERT INTO result SELECT * FROM pragma_application_id;

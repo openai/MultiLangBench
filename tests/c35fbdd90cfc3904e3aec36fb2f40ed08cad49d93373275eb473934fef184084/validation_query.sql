@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM sqlite_schema WHERE name IN('artist','track')),(SELECT count(*) FROM pragma_foreign_key_list('track'))

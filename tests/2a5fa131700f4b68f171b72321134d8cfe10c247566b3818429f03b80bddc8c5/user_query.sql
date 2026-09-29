@@ -1,0 +1,4 @@
+CREATE TABLE x2(o, n, zz);
+INSERT INTO x2 VALUES(32, 41, 'four');
+INSERT INTO x2 VALUES(33, 42, 'three');
+UPDATE OR IGNORE t1 SET x=n, z=zz FROM x2 WHERE x=o;

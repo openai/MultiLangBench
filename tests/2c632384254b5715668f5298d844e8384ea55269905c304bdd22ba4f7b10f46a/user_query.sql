@@ -1,0 +1,1 @@
+CREATE TABLE main.result AS SELECT y FROM t2 WHERE x=3;

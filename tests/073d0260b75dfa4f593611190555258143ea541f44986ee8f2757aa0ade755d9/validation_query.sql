@@ -1,0 +1,1 @@
+SELECT term FROM result ORDER BY term;

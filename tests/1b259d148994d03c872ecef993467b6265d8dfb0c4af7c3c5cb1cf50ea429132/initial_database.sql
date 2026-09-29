@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=OFF; CREATE TABLE p6(a INTEGER PRIMARY KEY, b TEXT COLLATE nocase, c TEXT COLLATE rtrim, UNIQUE(b,c)); INSERT INTO p6 VALUES(1,'Alpha','abc '),(2,'bETA','def    '); CREATE TABLE c22(x TEXT COLLATE nocase, y TEXT COLLATE rtrim, FOREIGN KEY(x,y) REFERENCES p6(c,b));

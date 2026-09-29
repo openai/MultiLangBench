@@ -1,0 +1,1 @@
+SELECT type, name, tbl_name, sql FROM sqlite_schema WHERE tbl_name='collate3t1' ORDER BY type, name;

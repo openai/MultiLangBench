@@ -1,0 +1,1 @@
+UPDATE t1 SET t1='10'; CREATE TABLE result AS SELECT 10 IN (5,t1,'abc') AS value FROM t1;

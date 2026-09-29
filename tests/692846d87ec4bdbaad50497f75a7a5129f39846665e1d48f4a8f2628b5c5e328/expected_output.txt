@@ -1,0 +1,1 @@
+[["ndx","index","s3","CREATE UNIQUE INDEX ndx on s3(a)"],["s1","table","s1","CREATE TABLE s1(a INTEGER PRIMARY KEY)"],["s2","table","s2","CREATE TABLE s2(a INTEGER PRIMARY KEY)"],["s3","table","s3","CREATE TABLE s3(a INTEGER)"]]

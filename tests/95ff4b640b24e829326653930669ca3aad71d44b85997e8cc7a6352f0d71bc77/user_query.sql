@@ -1,0 +1,1 @@
+INSERT INTO result SELECT typeof(123.456);

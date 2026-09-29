@@ -1,0 +1,1 @@
+INSERT INTO result(n) SELECT count(*) FROM t3 WHERE input = NULL;

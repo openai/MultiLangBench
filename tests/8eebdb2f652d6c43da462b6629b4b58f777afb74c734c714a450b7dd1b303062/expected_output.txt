@@ -1,0 +1,1 @@
+[["aald04","aalp03","/dev/cuaD03"],["aald17","aalp01","/dev/cuaD0.0"]]

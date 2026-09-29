@@ -1,0 +1,1 @@
+SELECT p,q,r FROM t1 ORDER BY rowid;

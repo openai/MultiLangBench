@@ -1,0 +1,1 @@
+SELECT count(*),sum(CAST(c AS INTEGER)=a),sum(typeof(c)='text'),sum(length(c)),(SELECT c FROM t1 WHERE a=1),(SELECT c FROM t1 WHERE a=50000) FROM t1;

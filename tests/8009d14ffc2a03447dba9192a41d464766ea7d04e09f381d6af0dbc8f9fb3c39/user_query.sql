@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; BEGIN; INSERT INTO leaf VALUES('c',1); SAVEPOINT s; DELETE FROM node WHERE nodeid=1; RELEASE s; DELETE FROM leaf WHERE cellid='b'; DELETE FROM leaf WHERE cellid='c'; COMMIT;

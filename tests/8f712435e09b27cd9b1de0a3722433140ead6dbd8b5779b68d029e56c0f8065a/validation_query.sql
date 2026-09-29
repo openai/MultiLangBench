@@ -1,0 +1,1 @@
+SELECT a FROM t5 ORDER BY rowid;

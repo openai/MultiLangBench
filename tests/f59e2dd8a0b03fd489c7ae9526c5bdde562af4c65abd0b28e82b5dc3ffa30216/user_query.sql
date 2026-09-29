@@ -1,0 +1,1 @@
+CREATE TABLE wherea_result(seq INTEGER PRIMARY KEY, a, b, c); INSERT INTO wherea_result(a,b,c) SELECT * FROM t1;

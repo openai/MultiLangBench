@@ -1,0 +1,1 @@
+CREATE TABLE _result AS SELECT d,e,b2 FROM t2 JOIN (SELECT coalesce(b,3) AS b2 FROM t2 AS x LEFT JOIN t1 ON c IN (SELECT x FROM t3)) AS t99 ON b2 IN (1,2,3) ORDER BY +d;

@@ -1,0 +1,10 @@
+SAVEPOINT one;
+INSERT OR REPLACE INTO t1(x,y) VALUES(858, CAST(858 AS TEXT) || ':' || hex(zeroblob(250)));
+DELETE FROM t1 WHERE x = 930;
+SAVEPOINT two;
+PRAGMA incremental_vacuum;
+SAVEPOINT three;
+INSERT OR REPLACE INTO t1(x,y) VALUES(144, CAST(144 AS TEXT) || ':' || hex(zeroblob(250)));
+ROLLBACK TO three;
+ROLLBACK TO two;
+RELEASE one;

@@ -1,0 +1,1 @@
+CREATE TABLE t1(a TEXT, b TEXT DEFAULT(99)); PRAGMA writable_schema=ON; UPDATE sqlite_master SET sql='CREATE TABLE t1(a TEXT, b TEXT DEFAULT(:xyz))' WHERE type='table' AND name='t1';

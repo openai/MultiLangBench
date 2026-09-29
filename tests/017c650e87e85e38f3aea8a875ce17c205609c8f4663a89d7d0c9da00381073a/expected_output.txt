@@ -1,0 +1,1 @@
+[["table","t3","t3","CREATE TABLE \"t3\"(z, y)"],["trigger","Trigger1","t3","CREATE TRIGGER Trigger1 DELETE ON \"t3\" BEGIN SELECT \"t3\".*, \"t3\".z FROM \"t3\" ORDER BY \"t3\".z; END"],["trigger","tr2","t3","CREATE TRIGGER tr2 AFTER DELETE ON \"t3\" BEGIN SELECT z, y FROM (SELECT \"t3\".* FROM \"t3\"); END"]]

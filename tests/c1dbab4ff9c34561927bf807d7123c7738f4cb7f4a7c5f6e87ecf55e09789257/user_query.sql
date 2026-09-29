@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT ALL * FROM t0,t1 WHERE likely(b1=z3) AND a0=z3;

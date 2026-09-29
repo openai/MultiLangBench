@@ -1,0 +1,1 @@
+SELECT group_concat(name,',') FROM pragma_table_info('t1')

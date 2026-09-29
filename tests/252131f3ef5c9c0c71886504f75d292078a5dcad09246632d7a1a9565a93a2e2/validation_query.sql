@@ -1,0 +1,1 @@
+SELECT cc, dd, ee FROM result_710 ORDER BY rowid;

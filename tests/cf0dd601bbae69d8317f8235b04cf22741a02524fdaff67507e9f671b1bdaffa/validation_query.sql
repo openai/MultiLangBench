@@ -1,0 +1,1 @@
+SELECT bar, (SELECT count(*) FROM sqlite_schema WHERE type='trigger' AND name='foo_insert') AS trigger_count FROM foo ORDER BY rowid;

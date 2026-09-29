@@ -1,0 +1,1 @@
+SELECT typeof(v), length(v), v=CAST(replace(hex(zeroblob(625)), '00', '0123456789abcdef') AS BLOB) AS exact_match FROM observed;

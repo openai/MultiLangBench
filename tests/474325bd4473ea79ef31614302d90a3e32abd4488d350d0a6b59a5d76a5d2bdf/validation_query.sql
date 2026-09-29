@@ -1,0 +1,1 @@
+SELECT count(*),count(DISTINCT l) FROM t2

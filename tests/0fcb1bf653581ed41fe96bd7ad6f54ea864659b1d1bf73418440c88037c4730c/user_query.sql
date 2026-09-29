@@ -1,0 +1,1 @@
+PRAGMA trusted_schema=OFF; CREATE TABLE trusted_schema_result AS SELECT * FROM pragma_trusted_schema;

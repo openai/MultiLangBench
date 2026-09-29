@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT cid,name,type,"notnull" AS not_null,dflt_value,pk FROM pragma_table_info('t16a') ORDER BY cid;

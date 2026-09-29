@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT json_valid('["a",55,"b",72,]') AS v;

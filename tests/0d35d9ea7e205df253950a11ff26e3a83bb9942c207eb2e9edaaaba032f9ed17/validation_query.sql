@@ -1,0 +1,1 @@
+SELECT rowid, quote(c0) FROM vt0 ORDER BY rowid

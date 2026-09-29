@@ -1,0 +1,1 @@
+SELECT step, value, (SELECT count(*) FROM xx1) AS parent_rows, (SELECT count(*) FROM xx4) AS child_rows FROM sfi_observed ORDER BY rowid;

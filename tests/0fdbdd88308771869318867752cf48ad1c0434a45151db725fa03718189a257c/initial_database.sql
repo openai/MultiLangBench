@@ -1,0 +1,1 @@
+CREATE TABLE xyz(a INTEGER PRIMARY KEY, b, c, d); CREATE UNIQUE INDEX xyz1 ON xyz(d,c,b COLLATE nocase); INSERT INTO xyz VALUES(10,1,1,'one');

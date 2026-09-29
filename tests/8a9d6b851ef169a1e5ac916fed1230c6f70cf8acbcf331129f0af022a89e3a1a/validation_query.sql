@@ -1,0 +1,1 @@
+SELECT b, is_count, gc FROM result ORDER BY rowid;

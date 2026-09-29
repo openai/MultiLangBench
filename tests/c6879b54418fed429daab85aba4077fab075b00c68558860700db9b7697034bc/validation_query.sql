@@ -1,0 +1,1 @@
+SELECT seq,mode,(SELECT count(*) FROM t4) FROM result ORDER BY seq

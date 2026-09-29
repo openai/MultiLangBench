@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT 500 = 500.0 AS value FROM t1;

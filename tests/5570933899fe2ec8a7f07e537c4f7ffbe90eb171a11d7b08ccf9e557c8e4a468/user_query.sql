@@ -1,0 +1,1 @@
+CREATE TABLE result(b,a); INSERT INTO result SELECT * FROM t2, t1 WHERE NOT json_quote(b);

@@ -1,0 +1,1 @@
+CREATE TABLE result(id INTEGER PRIMARY KEY, value);

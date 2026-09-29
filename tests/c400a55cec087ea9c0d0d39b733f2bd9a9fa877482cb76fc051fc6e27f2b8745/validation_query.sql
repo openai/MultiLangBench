@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM sqlite_master WHERE type='table' AND name='t1') AS t1_exists, (SELECT count(*) FROM sqlite_stat1) AS stat_row_count;

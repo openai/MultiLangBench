@@ -1,0 +1,1 @@
+DROP TABLE exclusive; CREATE INDEX exclusive ON t1(a);

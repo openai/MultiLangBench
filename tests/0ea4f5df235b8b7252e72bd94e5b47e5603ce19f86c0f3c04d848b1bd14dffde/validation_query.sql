@@ -1,0 +1,1 @@
+SELECT b,h,i,j FROM t8;

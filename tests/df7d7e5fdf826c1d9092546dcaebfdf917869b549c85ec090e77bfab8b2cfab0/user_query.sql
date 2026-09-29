@@ -1,0 +1,1 @@
+INSERT INTO result SELECT ceil(-42.2);

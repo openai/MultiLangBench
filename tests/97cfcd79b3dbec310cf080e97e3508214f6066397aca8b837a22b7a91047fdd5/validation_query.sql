@@ -1,0 +1,1 @@
+SELECT u FROM t3 ORDER BY rowid

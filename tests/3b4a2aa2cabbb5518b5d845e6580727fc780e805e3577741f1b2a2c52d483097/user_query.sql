@@ -1,0 +1,1 @@
+CREATE TABLE result(c1,c2); INSERT INTO result(c1,c2) SELECT '1', substr(m,2) AS m FROM t4 ORDER BY m; INSERT INTO result(c1,c2) SELECT '2', substr(m,2) AS m FROM t4 ORDER BY m COLLATE binary; INSERT INTO result(c1,c2) SELECT '3', substr(m,2) AS m FROM t4 ORDER BY lower(m);

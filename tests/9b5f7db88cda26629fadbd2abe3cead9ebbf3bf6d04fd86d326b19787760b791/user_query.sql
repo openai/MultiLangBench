@@ -1,0 +1,1 @@
+INSERT INTO docs VALUES('driver','linguistic trick')

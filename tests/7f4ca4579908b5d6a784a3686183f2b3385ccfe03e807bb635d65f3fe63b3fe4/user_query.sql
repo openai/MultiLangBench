@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b,c); INSERT INTO t1 VALUES(NULL,NULL,NULL); CREATE TABLE result AS SELECT sum(a),min(b) OVER (),count(c) OVER (ORDER BY b) FROM t1;

@@ -1,0 +1,1 @@
+PRAGMA journal_mode = truncate; INSERT INTO t1 VALUES(5, 6);

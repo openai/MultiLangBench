@@ -1,0 +1,1 @@
+[["table","t1_a","CREATE TABLE t1_a(a INTEFDR PRIMARY KEY, b TEXT)"],["view","t3","CREATE VIEW t3 AS SELECT * FROM t3_a UNION ALL SELECT * FROM t3_b"],["table","t3_a","CREATE TABLE t3_a(k FnTEGER PRIMARY KEY, v TEXT)"],["table","t3_b","CREATE TABLE t3_b(k INTEÀ5R PRIMARY KEY, v TEXT)"]]

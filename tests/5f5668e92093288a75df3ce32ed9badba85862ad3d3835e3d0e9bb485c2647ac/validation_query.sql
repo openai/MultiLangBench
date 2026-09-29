@@ -1,0 +1,1 @@
+SELECT a_key, a_data, x_key, total FROM observed ORDER BY a_key DESC;

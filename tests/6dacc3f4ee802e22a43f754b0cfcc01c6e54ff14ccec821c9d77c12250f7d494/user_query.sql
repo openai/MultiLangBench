@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT n FROM t1 WHERE log=3;

@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT sum(c64) AS value FROM t1 WHERE c00 IN (1000,5000);

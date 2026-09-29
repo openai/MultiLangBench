@@ -1,0 +1,1 @@
+SELECT group_concat(printf('%d:%d',x,length(z)),'|') AS remaining FROM (SELECT x,z FROM t1 ORDER BY x);

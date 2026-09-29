@@ -1,0 +1,1 @@
+SELECT seq,val FROM obs ORDER BY seq

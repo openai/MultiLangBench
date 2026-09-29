@@ -1,0 +1,1 @@
+ATTACH ':memory:' AS aux; CREATE TABLE aux.t1(x, y); DROP TABLE t1; CREATE TABLE main.result(aux_count); INSERT INTO main.result SELECT count(*) FROM aux.sqlite_master WHERE type='table' AND name='t1';

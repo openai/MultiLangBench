@@ -1,0 +1,1 @@
+SELECT name, role, height FROM people ORDER BY name;

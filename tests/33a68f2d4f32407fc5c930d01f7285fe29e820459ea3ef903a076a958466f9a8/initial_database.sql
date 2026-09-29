@@ -1,0 +1,1 @@
+CREATE TABLE t1(xyz); CREATE TABLE t2(a as (1+1), b); INSERT INTO t1(xyz) VALUES(1); INSERT INTO t2(b) VALUES('123'),('123');

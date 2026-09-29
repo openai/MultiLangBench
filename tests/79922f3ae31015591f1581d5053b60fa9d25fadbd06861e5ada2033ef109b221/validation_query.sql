@@ -1,0 +1,1 @@
+SELECT count(*), min(rowid), max(rowid), sum(content='x') FROM t2;

@@ -1,0 +1,1 @@
+CREATE TABLE t8 AS SELECT b, h, a AS i, (SELECT f FROM t7) AS j FROM t7;

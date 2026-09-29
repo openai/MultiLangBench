@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT 1 AS value FROM (SELECT t0.c0 AS c0,AVG(t0.c1) AS c1 FROM t0) WHERE c0<c1;

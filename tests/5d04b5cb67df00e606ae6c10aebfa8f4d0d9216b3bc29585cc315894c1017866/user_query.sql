@@ -1,0 +1,1 @@
+REPLACE INTO x3(docid,content) VALUES(12,'And don’t lag behind. That will hurt our charge.');

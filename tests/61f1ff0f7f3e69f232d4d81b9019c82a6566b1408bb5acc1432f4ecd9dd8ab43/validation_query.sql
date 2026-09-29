@@ -1,0 +1,1 @@
+SELECT nt FROM v8 ORDER BY nt

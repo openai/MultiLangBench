@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t2),(SELECT count(DISTINCT a) FROM t2),(SELECT count(DISTINCT b) FROM t2),(SELECT min(length(a)) FROM t2),(SELECT max(length(b)) FROM t2),(SELECT length(a) FROM t1),(SELECT length(b) FROM t1),(SELECT page_size FROM pragma_page_size)

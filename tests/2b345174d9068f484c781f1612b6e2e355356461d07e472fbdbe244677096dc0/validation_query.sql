@@ -1,0 +1,1 @@
+SELECT (p.page_count * s.page_size) > 24576 FROM pragma_page_count AS p CROSS JOIN pragma_page_size AS s;

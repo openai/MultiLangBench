@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a, min(c) FROM t1 WHERE a='b';

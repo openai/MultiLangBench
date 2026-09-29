@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT 'x' LIKE '%' ESCAPE '_' AS v;

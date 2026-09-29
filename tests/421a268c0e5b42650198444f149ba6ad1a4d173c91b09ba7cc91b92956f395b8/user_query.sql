@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT 'one', *, 'two', * FROM test1, test2;

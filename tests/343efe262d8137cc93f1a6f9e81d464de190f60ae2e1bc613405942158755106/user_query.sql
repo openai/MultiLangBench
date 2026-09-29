@@ -1,0 +1,1 @@
+UPDATE t1 SET id=id+y FROM t2 WHERE t1.id=t2.x RETURNING *, '|'; SELECT * FROM t1 ORDER BY id;

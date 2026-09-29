@@ -1,0 +1,1 @@
+SELECT result_value FROM query_result ORDER BY source_rowid;

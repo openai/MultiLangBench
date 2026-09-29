@@ -1,0 +1,1 @@
+CREATE TABLE setup_marker(x);

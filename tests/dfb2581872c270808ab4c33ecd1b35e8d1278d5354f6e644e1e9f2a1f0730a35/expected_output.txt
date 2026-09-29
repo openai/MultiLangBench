@@ -1,0 +1,1 @@
+[["ft3","table"],["ft3_docsize","table"],["ft3_segdir","table"],["ft3_segments","table"],["ft3_stat","table"],["t3","table"]]

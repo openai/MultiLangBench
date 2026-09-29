@@ -1,0 +1,1 @@
+PRAGMA recursive_triggers=OFF; DELETE FROM v1 WHERE x=3;

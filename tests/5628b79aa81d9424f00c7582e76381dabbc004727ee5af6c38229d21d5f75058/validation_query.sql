@@ -1,0 +1,1 @@
+SELECT count(*), min(x), max(x), length((SELECT y FROM t2 WHERE docid=2)) FROM t2;

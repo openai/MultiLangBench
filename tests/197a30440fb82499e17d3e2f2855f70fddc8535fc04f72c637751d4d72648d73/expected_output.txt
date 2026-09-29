@@ -1,0 +1,1 @@
+[["table","log_entry","log_entry","CREATE TABLE log_entry(newname)"],["table","t1","t1","CREATE TABLE t1(a, b, c)"],["table","t2","t2","CREATE TABLE t2(x)"],["trigger","tr1","t1","CREATE TRIGGER tr1 AFTER INSERT ON t1 BEGIN INSERT INTO t2 SELECT newname FROM log_entry; END"]]

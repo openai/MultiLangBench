@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a=0 AS z, typeof(a) AS tp FROM t4 GROUP BY a;

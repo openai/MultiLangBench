@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT likelihood(14.125, 0.5);

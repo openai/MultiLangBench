@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT a,nth_value(c,d) OVER (PARTITION BY b ORDER BY a) AS v FROM t5;

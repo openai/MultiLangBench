@@ -1,0 +1,1 @@
+CREATE TABLE t3(x,y); CREATE VIRTUAL TABLE ft3 USING fts4(content=t3); INSERT INTO t3(rowid,x,y) VALUES(21,'a b c','d e f');

@@ -1,0 +1,1 @@
+CREATE TABLE t1(a INT,b TEXT,c ANY,w INT GENERATED ALWAYS AS (a*10),x TEXT AS (typeof(c)),y TEXT AS (substr(b,a,a+2)));

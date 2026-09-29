@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t3 USING fts3(mtchinfo=fts3); INSERT INTO t3(mtchinfo) VALUES('Beside the lake, beneath the trees')

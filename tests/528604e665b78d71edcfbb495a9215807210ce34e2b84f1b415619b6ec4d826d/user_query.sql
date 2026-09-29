@@ -1,0 +1,1 @@
+/* join5-6.3.2 */ CREATE INDEX t4i ON t4(y,ifnull(z,'!!!')); CREATE TABLE sfi_result AS SELECT ifnull(z,'!!!') FROM t3 LEFT JOIN t4 ON x=y;

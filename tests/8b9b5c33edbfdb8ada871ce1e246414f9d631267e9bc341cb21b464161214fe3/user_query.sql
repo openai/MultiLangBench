@@ -1,0 +1,1 @@
+INSERT INTO result SELECT json_remove('{"x":25,"y":42}','$');

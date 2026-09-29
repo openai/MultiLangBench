@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM maintable AS m INNER JOIN joinme AS j INDEXED BY joinme_id_text_idx ON m.id=j.id_int;

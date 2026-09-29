@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(strftime('%H:%M:%f',1237962480.087,'unixepoch'))

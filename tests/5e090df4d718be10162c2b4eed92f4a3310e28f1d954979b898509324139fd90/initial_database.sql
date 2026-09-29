@@ -1,0 +1,1 @@
+CREATE TABLE t4(a,b); INSERT INTO t4 VALUES(NULL,'This is a string that is too big to fit inside a NBFS buffer');

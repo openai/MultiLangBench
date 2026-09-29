@@ -1,0 +1,1 @@
+CREATE TABLE photo(pk integer primary key, x); CREATE TABLE tag(pk integer primary key, fk int, name);

@@ -1,0 +1,1 @@
+INSERT INTO result SELECT 2 NOT IN t4n;

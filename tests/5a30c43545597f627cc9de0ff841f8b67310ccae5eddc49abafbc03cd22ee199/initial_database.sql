@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts4(matchinfo=fts3); INSERT INTO t1(content) VALUES('I wandered lonely as a cloud'); INSERT INTO t1(content) VALUES('That floats on high o''er vales and hills,'); INSERT INTO t1(content) VALUES('When all at once I saw a crowd,'); INSERT INTO t1(content) VALUES('A host, of golden daffodils,');

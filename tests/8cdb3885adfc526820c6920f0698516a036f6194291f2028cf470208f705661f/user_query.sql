@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b,c); INSERT INTO t1 VALUES(1,2,3),('a','b','c'); CREATE TEMP TABLE t2(x,y,z); INSERT INTO t2 SELECT * FROM t1 RETURNING *; CREATE TABLE main.capture AS SELECT x,y,z FROM temp.t2;

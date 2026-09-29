@@ -1,0 +1,1 @@
+[[1,"b1","c1","CREATE TABLE t1(a, b, c)","CREATE INDEX i1 ON t1(a, c)"],[2,"b2","c2","CREATE TABLE t1(a, b, c)","CREATE INDEX i1 ON t1(a, c)"],[3,"b3","c3","CREATE TABLE t1(a, b, c)","CREATE INDEX i1 ON t1(a, c)"],[4,"b4","c4","CREATE TABLE t1(a, b, c)","CREATE INDEX i1 ON t1(a, c)"]]

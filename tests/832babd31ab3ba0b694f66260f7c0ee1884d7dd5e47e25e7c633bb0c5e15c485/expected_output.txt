@@ -1,0 +1,1 @@
+[["dynamic","juliet","flipper","command","|"],["journal","sherman","ammonia","helena","|"],["journal","sherman","gamma","patriot","|"],["arctic","sleep","ammonia","helena","|"]]

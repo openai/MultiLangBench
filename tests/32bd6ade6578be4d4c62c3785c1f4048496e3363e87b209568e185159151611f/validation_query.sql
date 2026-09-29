@@ -1,0 +1,1 @@
+SELECT rowid, content IS NULL AS is_null FROM t1 WHERE rowid=32;

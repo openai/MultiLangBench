@@ -1,0 +1,1 @@
+INSERT INTO result(x) SELECT hex(CAST(X'00' AS TEXT));

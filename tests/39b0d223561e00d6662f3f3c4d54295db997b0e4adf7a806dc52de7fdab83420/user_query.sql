@@ -1,0 +1,1 @@
+CREATE TABLE main.result AS SELECT * FROM t2;

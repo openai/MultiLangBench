@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT fullkey FROM json_each('"hello"');

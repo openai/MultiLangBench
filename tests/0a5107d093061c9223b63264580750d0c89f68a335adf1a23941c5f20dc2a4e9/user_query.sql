@@ -1,0 +1,1 @@
+CREATE TABLE observed AS SELECT ab.a AS a_value, ab.b AS b_value, x.b AS x_b FROM ab, (SELECT b FROM ab) AS x WHERE x.b=ab.a;

@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT 'abc' AS a, zeroblob(1) AS b FROM (SELECT 1) ORDER BY 1;

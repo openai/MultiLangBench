@@ -1,0 +1,1 @@
+[["data:t1","1","'w'","1",""],["data:t1","2","'z'","-1",""],["data:t2","25","13","'w'","1"],["data:t2","26","25","'z'","153"],["data:t2","27","25","'z'","68"],["data:t3","1","25","",""],["schema","t1","table","CREATE TABLE t1 (a PRIMARY KEY, b)",""],["schema","t2","table","CREATE TABLE t2 (m INTEGER PRIMARY KEY, n, a, p)",""],["schema","t3","table","CREATE TABLE t3 (m)",""]]

@@ -1,0 +1,1 @@
+[["table","A","A"],["table","AFTS","AFTS"],["trigger","A_DeleteTrigger","A"],["table","B","B"],["table","BFTS","BFTS"],["trigger","B_DeleteTrigger","B"]]

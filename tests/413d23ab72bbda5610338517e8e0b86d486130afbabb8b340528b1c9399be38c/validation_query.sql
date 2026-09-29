@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM cc),(SELECT count(*) FROM pp)

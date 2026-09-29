@@ -1,0 +1,1 @@
+CREATE TABLE t1(a UNIQUE, b UNIQUE); INSERT INTO t1 VALUES(printf('%0200d',1),printf('%0300d',1));

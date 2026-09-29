@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES('2.5e+9999'); INSERT INTO result SELECT x, typeof(x) FROM t1;

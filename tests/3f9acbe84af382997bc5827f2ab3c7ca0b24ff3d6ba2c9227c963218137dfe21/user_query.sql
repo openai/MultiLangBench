@@ -1,0 +1,1 @@
+PRAGMA full_column_names=ON; CREATE TABLE sfi_result AS SELECT DISTINCT * FROM test1 WHERE f1==11; PRAGMA full_column_names=OFF;

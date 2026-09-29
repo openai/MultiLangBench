@@ -1,0 +1,1 @@
+SELECT count(*) FROM sqlite_master WHERE (type='table' AND name='t8') OR (type='trigger' AND name='tr7')

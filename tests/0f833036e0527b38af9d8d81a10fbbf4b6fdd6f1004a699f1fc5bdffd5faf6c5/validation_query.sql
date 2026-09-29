@@ -1,0 +1,1 @@
+SELECT id,x,'|' FROM t1a ORDER BY id;

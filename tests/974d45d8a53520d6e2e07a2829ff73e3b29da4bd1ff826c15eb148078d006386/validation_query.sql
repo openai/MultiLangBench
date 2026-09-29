@@ -1,0 +1,1 @@
+SELECT a1, a2, a3, marker FROM sfi_result ORDER BY a1, a2, a3, marker;

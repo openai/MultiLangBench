@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT length(v) AS x FROM input;

@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES(2, NULL, 'zero') ON CONFLICT (a) DO UPDATE SET (b,c)=(SELECT 'x','y');

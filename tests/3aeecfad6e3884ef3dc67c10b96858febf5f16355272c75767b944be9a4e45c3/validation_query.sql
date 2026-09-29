@@ -1,0 +1,1 @@
+SELECT y*z FROM r ORDER BY rowid

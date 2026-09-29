@@ -1,0 +1,1 @@
+SELECT count(*) FROM sqlite_schema WHERE type IN('table','trigger')

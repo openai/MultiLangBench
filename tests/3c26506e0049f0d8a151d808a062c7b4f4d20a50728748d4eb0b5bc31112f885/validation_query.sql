@@ -1,0 +1,1 @@
+SELECT c0, (SELECT sql FROM sqlite_master WHERE type='index' AND name='i0') AS index_sql FROM t0

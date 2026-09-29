@@ -1,0 +1,1 @@
+CREATE TRIGGER t2 BEFORE DELETE ON t2 BEGIN SELECT RAISE(ABORT,'deletes are not permitted'); END;

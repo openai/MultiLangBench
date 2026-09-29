@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT 4 IN (4) AS value FROM t1;

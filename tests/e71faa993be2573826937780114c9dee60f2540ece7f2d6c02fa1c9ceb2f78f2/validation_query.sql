@@ -1,0 +1,1 @@
+SELECT * FROM pragma_default_cache_size;

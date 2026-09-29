@@ -1,0 +1,1 @@
+DROP TABLE desc; CREATE INDEX desc ON t1(a);

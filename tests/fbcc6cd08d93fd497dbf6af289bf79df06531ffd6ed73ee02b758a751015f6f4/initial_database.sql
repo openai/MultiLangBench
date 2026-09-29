@@ -1,0 +1,1 @@
+CREATE TABLE t1(a INT,b REAL,c TEXT,d BLOB,e ANY); CREATE INDEX t1abx ON t1(a,b,a+b) WHERE c IS NOT NULL; CREATE VIEW t2 AS SELECT a+10,b*5.0,xyz FROM t1; CREATE TABLE schema_copy(name TEXT,sql TEXT); INSERT INTO schema_copy(name,sql) SELECT name,sql FROM sqlite_schema WHERE sql IS NOT NULL;

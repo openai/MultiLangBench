@@ -1,0 +1,1 @@
+UPDATE t SET t1='abc',t2=NULL;INSERT INTO r SELECT coalesce(t2==t1,99) FROM t;

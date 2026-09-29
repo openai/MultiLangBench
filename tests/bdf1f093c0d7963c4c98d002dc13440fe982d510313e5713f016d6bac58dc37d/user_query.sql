@@ -1,0 +1,1 @@
+INSERT INTO t4(a,b,c,d,f,g,h,e) VALUES(1,2,3,4,5,6,7,8);

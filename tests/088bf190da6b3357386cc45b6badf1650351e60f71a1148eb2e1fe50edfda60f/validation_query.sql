@@ -1,0 +1,1 @@
+SELECT src,a,b,c FROM (SELECT 0 AS grp,rowid AS ord,'g' AS src,a,b,c FROM t5g UNION ALL SELECT 1,rowid,'t',a,b,NULL FROM t5) ORDER BY grp,ord;

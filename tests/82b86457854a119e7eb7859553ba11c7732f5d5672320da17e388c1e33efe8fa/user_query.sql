@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a,b FROM t7,t8 WHERE a MATCH 'number' AND b MATCH 'letter'

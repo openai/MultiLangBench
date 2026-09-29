@@ -1,0 +1,1 @@
+INSERT INTO result SELECT typeof(x'616263');

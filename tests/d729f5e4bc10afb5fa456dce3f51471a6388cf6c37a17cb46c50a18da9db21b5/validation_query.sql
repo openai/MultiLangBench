@@ -1,0 +1,1 @@
+SELECT categ, n FROM result ORDER BY categ

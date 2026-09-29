@@ -1,0 +1,1 @@
+SELECT c,d,e,f,g,h,i FROM result;

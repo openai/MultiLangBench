@@ -1,0 +1,1 @@
+INSERT INTO observed(seq,value) SELECT 1, integrity_check FROM pragma_integrity_check; INSERT INTO observed(seq,value) SELECT 2, freelist_count FROM pragma_freelist_count;

@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; INSERT INTO chi VALUES(X'31');

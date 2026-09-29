@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT (1, NULL, 1) != (1, 1, 2) AS v;

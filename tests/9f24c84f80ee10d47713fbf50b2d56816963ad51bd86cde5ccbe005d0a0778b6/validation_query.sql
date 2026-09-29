@@ -1,0 +1,1 @@
+SELECT type, name, tbl_name, sql, (SELECT count(*) FROM t1) AS row_count FROM sqlite_schema WHERE name='t1';

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT snippet(t1, '[', ']') AS snip, offsets(t1) AS off, matchinfo(t1, 'pcxnal') AS mi FROM t1 WHERE t1 MATCH 'f (e NEAR/2 a)';

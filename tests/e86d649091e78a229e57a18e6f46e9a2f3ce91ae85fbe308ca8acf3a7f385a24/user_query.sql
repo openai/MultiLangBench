@@ -1,0 +1,10 @@
+PRAGMA auto_vacuum = 0;
+PRAGMA secure_delete = 0;
+CREATE TABLE t1(a, b, c);
+CREATE TABLE t2(d, e, f);
+CREATE TABLE t3(g, h, i);
+INSERT INTO t2 VALUES(1, 2, 3);
+INSERT INTO t2 VALUES('a', 'b', 'c');
+INSERT INTO t3 VALUES('one', 'two', 'three');
+DROP TABLE t1;
+DROP TABLE t2;

@@ -1,0 +1,1 @@
+CREATE TABLE 'my table'(a, b PRIMARY KEY, c AS (a+b) STORED, d) WITHOUT ROWID; INSERT INTO 'my table'(a,b,d) VALUES(1,2,'hello'),(3,4,'world'); ALTER TABLE 'my table' DROP COLUMN c;

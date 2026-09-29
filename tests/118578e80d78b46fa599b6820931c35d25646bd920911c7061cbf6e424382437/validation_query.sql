@@ -1,0 +1,1 @@
+SELECT count_a, count_b FROM result;

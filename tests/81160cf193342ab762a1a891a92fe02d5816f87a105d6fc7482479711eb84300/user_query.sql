@@ -1,0 +1,1 @@
+CREATE INDEX t3b1 ON t3(datetime(b)) WHERE typeof(b)='real';

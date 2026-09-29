@@ -1,0 +1,1 @@
+SELECT value FROM sfi_result ORDER BY position;

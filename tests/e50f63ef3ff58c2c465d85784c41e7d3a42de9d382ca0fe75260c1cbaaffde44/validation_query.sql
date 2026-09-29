@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t01), (SELECT count(*) FROM t01 WHERE t01 MATCH 'b')

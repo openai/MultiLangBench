@@ -1,0 +1,1 @@
+SELECT count(*), min(docid), sum(length(description)>0) FROM foobar;

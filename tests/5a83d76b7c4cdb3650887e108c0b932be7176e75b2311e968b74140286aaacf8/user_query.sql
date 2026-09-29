@@ -1,0 +1,1 @@
+UPDATE test SET b=99 WHERE id=7;

@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; DELETE FROM t2; DROP TABLE t1;

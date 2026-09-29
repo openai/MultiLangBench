@@ -1,0 +1,6 @@
+PRAGMA foreign_keys = ON;
+INSERT INTO parent VALUES(1200);
+BEGIN;
+INSERT INTO child VALUES(456);
+UPDATE parent SET p = '456' WHERE p=1200;
+COMMIT;

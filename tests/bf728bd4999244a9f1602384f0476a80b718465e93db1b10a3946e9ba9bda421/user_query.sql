@@ -1,0 +1,1 @@
+DROP TABLE ft1; CREATE VIRTUAL TABLE ft1 USING fts4(content=t1,b); CREATE TABLE sfi_result AS SELECT cid,name,type,[notnull] AS nn,dflt_value,pk FROM pragma_table_info('ft1');

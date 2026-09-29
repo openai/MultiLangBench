@@ -1,0 +1,1 @@
+CREATE TABLE test1(f1 INT,f2 INT); INSERT INTO test1 VALUES(1,2),(2,4),(3,8),(4,16),(5,32),(6,64),(7,128),(8,256),(9,512),(10,1024);

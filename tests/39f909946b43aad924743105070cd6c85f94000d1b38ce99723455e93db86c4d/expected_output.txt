@@ -1,0 +1,1 @@
+[["table","t1x","t1x","CREATE TABLE \"t1x\"(a,b,c)"],["trigger","AFTER","t1x","CREATE TRIGGER AFTER INSERT ON \"t1x\" BEGIN SELECT a, rank() OVER w1 FROM \"t1x\" WINDOW w1 AS (PARTITION BY b, percent_rank() OVER w1); END"]]

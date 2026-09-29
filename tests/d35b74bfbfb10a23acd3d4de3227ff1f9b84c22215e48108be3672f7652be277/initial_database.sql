@@ -1,0 +1,1 @@
+PRAGMA default_cache_size=-500;

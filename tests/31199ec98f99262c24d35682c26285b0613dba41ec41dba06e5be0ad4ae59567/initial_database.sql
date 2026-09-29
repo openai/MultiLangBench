@@ -1,0 +1,1 @@
+CREATE TABLE q3(f REAL,g);INSERT INTO q3 VALUES('beauty',2),('beauty',2);

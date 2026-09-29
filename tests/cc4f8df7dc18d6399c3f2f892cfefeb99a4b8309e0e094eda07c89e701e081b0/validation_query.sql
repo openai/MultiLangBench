@@ -1,0 +1,1 @@
+SELECT x,a,b,c FROM result

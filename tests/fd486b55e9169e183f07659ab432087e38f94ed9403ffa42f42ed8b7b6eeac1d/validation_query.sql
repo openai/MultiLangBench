@@ -1,0 +1,1 @@
+SELECT c,b,rowid FROM t2

@@ -1,0 +1,1 @@
+CREATE TABLE pragma(pragma pragma); INSERT INTO pragma VALUES(99); INSERT INTO pragma SELECT a FROM t1;

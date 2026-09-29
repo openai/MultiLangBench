@@ -1,0 +1,1 @@
+DELETE FROM p1 WHERE one = 'a';

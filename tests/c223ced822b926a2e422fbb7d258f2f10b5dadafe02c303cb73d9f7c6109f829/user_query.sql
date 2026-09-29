@@ -1,0 +1,1 @@
+CREATE TABLE raise(raise raise); INSERT INTO raise VALUES(99); INSERT INTO raise SELECT a FROM t1;

@@ -1,0 +1,1 @@
+SELECT 'one' AS tab,a,b,c FROM one UNION ALL SELECT 'two',d,e,f FROM two ORDER BY 1,2

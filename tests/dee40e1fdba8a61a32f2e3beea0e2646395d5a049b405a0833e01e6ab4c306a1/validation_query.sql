@@ -1,0 +1,1 @@
+SELECT p.journal_mode, t.a, t.b FROM pragma_journal_mode AS p CROSS JOIN t1 AS t ORDER BY t.rowid

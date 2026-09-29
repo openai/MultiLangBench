@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT b,a,c FROM t1 ORDER BY b,a,c;

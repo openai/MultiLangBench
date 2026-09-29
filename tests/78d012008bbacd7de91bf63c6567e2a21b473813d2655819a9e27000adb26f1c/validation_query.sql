@@ -1,0 +1,1 @@
+SELECT z, tp FROM result ORDER BY rowid

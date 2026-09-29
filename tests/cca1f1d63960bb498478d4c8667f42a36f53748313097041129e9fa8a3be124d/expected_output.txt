@@ -1,0 +1,1 @@
+[["CREATE TABLE t1(othername,b)"],["CREATE TABLE t2(c,othername,extra AS (c+1))"]]

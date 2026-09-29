@@ -1,0 +1,1 @@
+SELECT * FROM v3 ORDER BY c1;

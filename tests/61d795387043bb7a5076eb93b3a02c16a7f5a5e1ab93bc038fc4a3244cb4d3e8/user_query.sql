@@ -1,0 +1,1 @@
+CREATE TABLE result(v INTEGER); PRAGMA main.journal_size_limit=20480; INSERT INTO result SELECT journal_size_limit FROM pragma_journal_size_limit;

@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; CREATE TABLE t7(a, b, c, d INTEGER PRIMARY KEY, FOREIGN KEY(c, d) REFERENCES t7(a, b)); CREATE UNIQUE INDEX t7i ON t7(a, b);

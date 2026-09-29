@@ -1,0 +1,1 @@
+CREATE TABLE t1(aa,bb); CREATE INDEX t1x1 ON t1(abs(aa),abs(bb)); INSERT INTO t1 VALUES(-2,-3),(+2,-3),(-2,+3),(+2,+3);

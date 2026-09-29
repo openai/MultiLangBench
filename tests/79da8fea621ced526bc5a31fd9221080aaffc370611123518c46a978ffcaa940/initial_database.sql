@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b); INSERT INTO t1 VALUES(1,2); CREATE TABLE t2(c,d); INSERT INTO t2 VALUES(1,'one'),(2,'two'); CREATE TABLE _result(maxa,d);

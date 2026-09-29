@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=OFF; BEGIN; PRAGMA foreign_keys=ON; DELETE FROM t1; CREATE TABLE result AS SELECT * FROM pragma_foreign_keys; COMMIT;

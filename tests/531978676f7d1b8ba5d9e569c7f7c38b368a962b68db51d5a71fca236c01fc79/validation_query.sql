@@ -1,0 +1,1 @@
+SELECT sum(a) FROM av1

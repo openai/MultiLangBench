@@ -1,0 +1,1 @@
+/* join5-10.1 */ CREATE TABLE sfi_result AS SELECT x FROM v3;

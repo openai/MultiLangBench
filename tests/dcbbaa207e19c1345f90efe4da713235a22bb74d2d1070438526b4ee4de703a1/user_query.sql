@@ -1,0 +1,1 @@
+DELETE FROM av1 WHERE rowid IN(13,20,7,2);

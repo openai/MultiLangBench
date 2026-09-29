@@ -1,0 +1,1 @@
+/* check-2.2 */ INSERT INTO t2 VALUES(1,2.2,'three');

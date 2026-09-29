@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT b='456' AS x FROM t1;

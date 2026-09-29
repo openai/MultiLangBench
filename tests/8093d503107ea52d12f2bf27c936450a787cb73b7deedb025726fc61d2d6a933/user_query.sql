@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT DISTINCT v COLLATE NOCASE AS nocase_v, v AS binary_v FROM t9 ORDER BY +v;

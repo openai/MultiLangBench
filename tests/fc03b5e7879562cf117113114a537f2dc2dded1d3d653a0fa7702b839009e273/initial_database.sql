@@ -1,0 +1,1 @@
+CREATE TABLE b3(a COLLATE nocase,b COLLATE binary);INSERT INTO b3 VALUES('abc','abc'),('aBC','aBC'),('Def','Def'),('dEF','dEF');

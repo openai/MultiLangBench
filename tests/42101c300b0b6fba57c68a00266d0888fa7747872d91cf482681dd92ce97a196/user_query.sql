@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT group_concat(x), m, n FROM t1 LEFT JOIN (SELECT x,59 AS m,60 AS n FROM t2) GROUP BY a;

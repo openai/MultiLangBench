@@ -1,0 +1,1 @@
+SELECT name,type,instr(upper(sql),'B INTEGER PRIMARY KEY')>0 AS has_ipk FROM sqlite_schema WHERE name='t3';

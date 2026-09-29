@@ -1,0 +1,1 @@
+PRAGMA encoding='UTF-16le'; CREATE TABLE r(id INTEGER PRIMARY KEY,v);

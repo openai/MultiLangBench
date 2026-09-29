@@ -1,0 +1,1 @@
+[["child","CREATE TABLE child(c UNIQUE REFERENCES parent(p))"],["parent","CREATE TABLE parent(p PRIMARY KEY)"]]

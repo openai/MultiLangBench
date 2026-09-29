@@ -1,0 +1,1 @@
+CREATE TABLE t8a(a,b); CREATE TABLE t8b(x,y); CREATE INDEX i8c ON t8b(y) WHERE x = 'value'; INSERT INTO t8a VALUES(1, 'one'),(2, 'two'),(3, 'three'); INSERT INTO t8b VALUES('value',1),('dummy',2),('value',3),('dummy',4);

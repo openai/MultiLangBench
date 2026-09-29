@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT A.f1, B.f1 FROM test1 AS A, test1 AS B ORDER BY A.f1, B.f1;

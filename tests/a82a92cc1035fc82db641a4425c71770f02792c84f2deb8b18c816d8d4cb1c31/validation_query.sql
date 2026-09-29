@@ -1,0 +1,1 @@
+SELECT a,b,c,(SELECT count(*) FROM sqlite_master WHERE type='index' AND name='i1') AS idx FROM t1 ORDER BY rowid;

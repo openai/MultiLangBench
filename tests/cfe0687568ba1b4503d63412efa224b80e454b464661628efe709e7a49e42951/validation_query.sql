@@ -1,0 +1,1 @@
+SELECT a, (SELECT count(*) FROM sqlite_stat1) AS stat_rows FROM result_150 ORDER BY rowid;

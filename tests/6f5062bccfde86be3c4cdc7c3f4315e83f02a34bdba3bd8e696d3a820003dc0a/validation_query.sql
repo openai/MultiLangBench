@@ -1,0 +1,1 @@
+SELECT artist, total FROM query_result ORDER BY rowid;

@@ -1,0 +1,1 @@
+CREATE TABLE query_result AS SELECT b FROM t2 WHERE a=15 AND a<100;

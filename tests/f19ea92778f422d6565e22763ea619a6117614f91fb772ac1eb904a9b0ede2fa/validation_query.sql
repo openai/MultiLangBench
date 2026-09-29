@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(f1 || ':' || f2, ',') FROM (SELECT f1, f2 FROM table1 ORDER BY f1)), (SELECT count(*) FROM sqlite_master WHERE type='index' AND name='index1');

@@ -1,0 +1,1 @@
+SELECT rowid,a,x,typeof(z),length(z),hex(substr(z,1,1)) FROM t1 ORDER BY rowid

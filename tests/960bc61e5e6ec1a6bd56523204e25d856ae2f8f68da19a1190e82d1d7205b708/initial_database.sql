@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=OFF; CREATE TABLE p3(a TEXT PRIMARY KEY); INSERT INTO p3 VALUES(66),(67),('alpha'),('BRAVO'); CREATE TABLE c13(x TEXT COLLATE nocase REFERENCES p3); INSERT INTO c13 VALUES('54'),('55'),('56'),('Alpha'),('ALPHA'),('foxtrot');

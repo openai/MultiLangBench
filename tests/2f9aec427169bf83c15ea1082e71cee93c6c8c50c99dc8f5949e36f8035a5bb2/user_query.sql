@@ -1,0 +1,1 @@
+DROP TABLE t1; CREATE VIRTUAL TABLE t1 USING fts4(poiCategory, poiCategoryId, notindexed=poiCategory); INSERT INTO t1(poiCategory, poiCategoryId) VALUES('Restaurant', 6021);

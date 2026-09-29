@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1),x,y,(SELECT page_size FROM pragma_page_size) FROM t2;

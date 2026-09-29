@@ -1,0 +1,1 @@
+SELECT qa,qb,marker FROM result ORDER BY qa,qb,marker;

@@ -1,0 +1,1 @@
+PRAGMA cache_size=10; BEGIN; UPDATE t1 SET b=zeroblob(1500); UPDATE t1 SET a=65,b=zeroblob(1500) WHERE (a+1)>200; COMMIT;

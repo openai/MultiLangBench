@@ -1,0 +1,1 @@
+CREATE TABLE r71 AS SELECT docid FROM t6 WHERE t6 MATCH '"a* b"';

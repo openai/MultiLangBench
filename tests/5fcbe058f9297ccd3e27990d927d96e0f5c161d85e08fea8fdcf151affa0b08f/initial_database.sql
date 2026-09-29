@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; CREATE TABLE t1(a,b,c,d,e,f,PRIMARY KEY(a,b),UNIQUE(e,c),FOREIGN KEY(d,f) REFERENCES t1(e,c)) WITHOUT ROWID; INSERT INTO t1 VALUES(1,2,3,5,5,3),(2,3,4,6,6,4),('x','y',1.5,'fizzle','fizzle',1.5);

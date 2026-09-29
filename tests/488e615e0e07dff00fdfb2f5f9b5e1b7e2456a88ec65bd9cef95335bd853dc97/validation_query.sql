@@ -1,0 +1,1 @@
+SELECT count(*) AS nrow,count(DISTINCT t) AS distinct_text,sum(CAST(substr(t,2) AS INTEGER)) AS text_value_sum,sum(i=CAST(substr(t,2) AS INTEGER)+1 OR i=CAST(substr(t,2) AS INTEGER)+2) AS incremented_values,sum(length(t)) AS text_length,min(t) AS min_text,max(t) AS max_text FROM t5;

@@ -1,0 +1,1 @@
+SELECT a,b,c FROM t1 WHERE a>=20 ORDER BY a;

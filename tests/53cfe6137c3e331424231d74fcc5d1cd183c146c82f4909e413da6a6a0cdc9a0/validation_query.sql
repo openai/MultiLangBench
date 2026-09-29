@@ -1,0 +1,1 @@
+SELECT count(*) FROM t1 WHERE a IS NULL AND b IS NULL

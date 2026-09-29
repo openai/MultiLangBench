@@ -1,0 +1,1 @@
+SELECT rowid, content=replace(hex(zeroblob(600)), '00', CASE rowid WHEN 1 THEN 'x ' WHEN 2 THEN 'y ' WHEN 3 THEN 'z ' END) AS exact_content FROM t2 WHERE t2 MATCH 'x OR y OR z' ORDER BY rowid;

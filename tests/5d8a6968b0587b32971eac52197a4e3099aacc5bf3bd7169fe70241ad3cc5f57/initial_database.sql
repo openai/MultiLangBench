@@ -1,0 +1,1 @@
+CREATE TABLE t1(a, b); INSERT INTO t1 VALUES(1, 'one'); INSERT INTO t1 VALUES(2, 'two'); INSERT INTO t1 VALUES(3, 'three'); CREATE TABLE attach(attach attach); INSERT INTO attach VALUES(99); INSERT INTO attach SELECT a FROM t1;

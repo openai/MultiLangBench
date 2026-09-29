@@ -1,0 +1,1 @@
+CREATE TABLE ft(a, b, c); INSERT INTO ft(a, b, c) VALUES('a', NULL, 'apple'); INSERT INTO ft(a, b, c) VALUES('b', NULL, 'banana'); INSERT INTO ft(a, b, c) VALUES('c', NULL, 'cherry'); INSERT INTO ft(a, b, c) VALUES('d', NULL, 'damson plum'); UPDATE ft SET b=o.c FROM ft AS o WHERE (ft.a == char(unicode(o.a)+1));

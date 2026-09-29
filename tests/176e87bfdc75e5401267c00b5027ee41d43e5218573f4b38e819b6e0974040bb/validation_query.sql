@@ -1,0 +1,1 @@
+SELECT q.a, q.b, (SELECT count(*) FROM xyz) AS xyz_count, (SELECT max(a) FROM xyz) AS xyz_max FROM query_result AS q ORDER BY q.a;

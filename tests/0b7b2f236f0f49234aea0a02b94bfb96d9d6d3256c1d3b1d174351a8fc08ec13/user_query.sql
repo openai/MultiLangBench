@@ -1,0 +1,1 @@
+ATTACH ':memory:' AS aux; CREATE TABLE aux.t1 AS SELECT * FROM main.t1; PRAGMA aux.schema_version = 30; ALTER TABLE aux.t1 ADD COLUMN c VARCHAR(128); CREATE TABLE main.result_5_3 AS SELECT a, b, c FROM aux.t1;

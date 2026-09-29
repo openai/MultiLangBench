@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT round(1e500) AS a,round(-1e500) AS b;

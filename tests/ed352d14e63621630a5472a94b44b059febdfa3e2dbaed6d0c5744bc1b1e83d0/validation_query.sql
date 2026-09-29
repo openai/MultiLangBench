@@ -1,0 +1,1 @@
+SELECT name,type FROM pragma_table_xinfo('t0') ORDER BY cid;

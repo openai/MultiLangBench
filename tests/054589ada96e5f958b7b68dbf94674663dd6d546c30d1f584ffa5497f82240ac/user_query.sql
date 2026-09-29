@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT likelihood('test-string', 0.5);

@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT count(*) AS n FROM t46 WHERE c=5 AND a=1;

@@ -1,0 +1,1 @@
+SELECT scope, name FROM observed ORDER BY CASE scope WHEN 'main' THEN 1 WHEN 'temp' THEN 2 ELSE 3 END, name

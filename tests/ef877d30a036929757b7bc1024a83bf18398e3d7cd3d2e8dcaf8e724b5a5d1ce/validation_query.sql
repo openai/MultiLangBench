@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t2),(SELECT count(*) FROM sqlite_schema WHERE name='t1')

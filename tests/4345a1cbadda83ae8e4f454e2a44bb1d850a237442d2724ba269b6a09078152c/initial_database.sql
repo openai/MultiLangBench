@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; CREATE TABLE p(a,b PRIMARY KEY,c); CREATE TABLE c1(d,e,f DEFAULT 'k0' REFERENCES p ON UPDATE SET DEFAULT ON DELETE SET NULL); INSERT INTO p VALUES(0,'k0',''),(1,'k4','I'),(2,'k2','II'),(3,'k3','III'); INSERT INTO c1 VALUES(1,'xx','k0'),(2,'xx','k2'),(3,'xx','k3');

@@ -1,0 +1,1 @@
+CREATE TABLE restrict(restrict restrict); INSERT INTO restrict VALUES(99); INSERT INTO restrict SELECT a FROM t1;

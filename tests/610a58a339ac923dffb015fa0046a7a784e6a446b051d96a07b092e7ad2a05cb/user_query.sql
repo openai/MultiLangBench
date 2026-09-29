@@ -1,0 +1,1 @@
+CREATE TABLE result(v); INSERT INTO result SELECT quote(matchinfo(t1,t1))==0 FROM t1 WHERE t1 MATCH 'e*';

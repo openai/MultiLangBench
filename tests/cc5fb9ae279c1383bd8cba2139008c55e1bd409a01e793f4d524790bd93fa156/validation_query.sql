@@ -1,0 +1,1 @@
+SELECT count(*), min(a), max(a), sum(a), sum(b), sum(b=((a*a*17+a*7919+12345)%500000)), sum(c=('number-' || ((a*a*17+a*7919+12345)%500000))) FROM t1;

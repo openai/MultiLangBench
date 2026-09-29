@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT Sum(f1) FROM test1;

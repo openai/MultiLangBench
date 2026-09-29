@@ -1,0 +1,1 @@
+/* check-4.2 */ INSERT INTO t4 VALUES(1,10);

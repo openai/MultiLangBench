@@ -1,0 +1,1 @@
+CREATE TABLE t2(a, b, c); INSERT INTO t2(rowid,a,b,c) VALUES(1,1,5,4),(2,5,14,9),(3,6,11,5);

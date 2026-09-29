@@ -1,0 +1,1 @@
+SELECT type,name,tbl_name FROM capture ORDER BY ord

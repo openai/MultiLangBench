@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts3(x);BEGIN;INSERT INTO t1 VALUES(printf('%.*c',900,'a'));INSERT INTO t1 VALUES(printf('%.*c',900,'b'));COMMIT;BEGIN;INSERT INTO t1 VALUES(printf('%.*c',900,'c'));INSERT INTO t1 VALUES(printf('%.*c',900,'d'));COMMIT;INSERT INTO t1(t1) VALUES('merge=1,2');INSERT INTO t1(t1) VALUES('merge=1,2');

@@ -1,0 +1,1 @@
+CREATE TABLE _sfi_result AS SELECT (('500') IS (v0.c1)) AS r FROM v0, t0;

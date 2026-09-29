@@ -1,0 +1,1 @@
+SELECT rnk,prv FROM result

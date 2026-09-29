@@ -1,0 +1,1 @@
+UPDATE t1_segdir SET root=CAST(substr(root,1,7)||X'18'||substr(root,9) AS BLOB);

@@ -1,0 +1,1 @@
+SELECT 'log' AS source, x AS k, NULL AS v FROM log UNION ALL SELECT 'p1', one, two FROM p1 ORDER BY 1, 2, 3;

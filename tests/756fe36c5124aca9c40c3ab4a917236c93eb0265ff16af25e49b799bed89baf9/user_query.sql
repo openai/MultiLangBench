@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT offsets(ft) AS v FROM ft WHERE ft MATCH 'xxx' ORDER BY rowid;

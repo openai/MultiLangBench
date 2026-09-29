@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM (SELECT max(x) FROM t1);

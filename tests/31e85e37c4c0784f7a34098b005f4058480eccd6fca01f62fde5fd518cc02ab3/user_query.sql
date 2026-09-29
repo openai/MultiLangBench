@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT coalesce(b, 'null') || '/' || c AS value FROM t8 AS x ORDER BY x.b, x.c;

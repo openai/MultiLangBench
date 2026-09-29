@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT json_valid(char(0x22,0xe4,0x22)) AS v;

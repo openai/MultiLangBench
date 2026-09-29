@@ -1,0 +1,1 @@
+CREATE TABLE t10(a,b); INSERT INTO t10(rowid,a,b) VALUES(5,'ten',10);

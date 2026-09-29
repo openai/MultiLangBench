@@ -1,0 +1,1 @@
+INSERT INTO _result(a,b) SELECT (SELECT a), b FROM t1;

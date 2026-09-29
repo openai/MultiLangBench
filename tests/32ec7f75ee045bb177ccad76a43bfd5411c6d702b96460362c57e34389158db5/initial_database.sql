@@ -1,0 +1,1 @@
+CREATE TABLE t16(x DEFAULT(max(1)));

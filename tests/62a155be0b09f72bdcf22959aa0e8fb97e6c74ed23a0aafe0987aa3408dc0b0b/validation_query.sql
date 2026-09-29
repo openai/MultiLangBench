@@ -1,0 +1,1 @@
+SELECT obj, t1, t2 FROM test ORDER BY obj, t1, t2;

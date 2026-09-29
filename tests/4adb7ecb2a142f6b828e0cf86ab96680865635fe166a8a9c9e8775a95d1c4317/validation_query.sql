@@ -1,0 +1,1 @@
+SELECT mn, mx FROM sfi_result;

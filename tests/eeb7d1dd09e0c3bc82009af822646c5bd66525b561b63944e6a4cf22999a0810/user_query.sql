@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT offsets(ft2) AS off FROM ft2 WHERE ft2 MATCH '"Q Q"';

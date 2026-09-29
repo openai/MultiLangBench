@@ -1,0 +1,1 @@
+SELECT x,y,z,(SELECT count(*) FROM y2) AS y2_rows FROM y1 ORDER BY rowid;

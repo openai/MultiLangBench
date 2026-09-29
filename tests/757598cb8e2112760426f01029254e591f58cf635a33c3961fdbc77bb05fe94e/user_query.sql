@@ -1,0 +1,1 @@
+ATTACH DATABASE ':memory:' AS two; DETACH DATABASE two; INSERT INTO capture SELECT a,b FROM t1 ORDER BY rowid;

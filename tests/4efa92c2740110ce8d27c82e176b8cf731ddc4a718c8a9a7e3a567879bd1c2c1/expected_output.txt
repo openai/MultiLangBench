@@ -1,0 +1,1 @@
+[["index","c2ab","c2","CREATE INDEX c2ab ON c2(a,b)"],["index","c2c","c2","CREATE INDEX c2c ON c2(c)"],["table","c1","c1","CREATE TABLE c1(x,y)"],["table","c2","c2","CREATE TABLE c2(a,b,c)"],["table","c3","c3","CREATE TABLE c3(d)"]]

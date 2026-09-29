@@ -1,0 +1,1 @@
+[["table","xyz","xyz"],["trigger","xyz_tr","xyz"]]

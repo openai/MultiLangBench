@@ -1,0 +1,1 @@
+CREATE TABLE observed(value INTEGER); PRAGMA busy_timeout=0; INSERT INTO observed(value) SELECT timeout FROM pragma_busy_timeout;

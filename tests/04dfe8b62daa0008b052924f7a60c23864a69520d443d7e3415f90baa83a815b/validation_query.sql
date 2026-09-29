@@ -1,0 +1,1 @@
+SELECT TestString FROM RealTable ORDER BY 1

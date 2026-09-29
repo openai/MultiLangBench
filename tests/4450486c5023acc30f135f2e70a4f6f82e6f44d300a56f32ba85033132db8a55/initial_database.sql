@@ -1,0 +1,1 @@
+CREATE TABLE t3_fa(a,b,UNIQUE(a,b) ON CONFLICT FAIL); INSERT INTO t3_fa VALUES(1,'one'),(2,'two'),(3,'three'),(4,'three');

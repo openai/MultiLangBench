@@ -1,0 +1,1 @@
+PRAGMA automatic_index=OFF; INSERT INTO sfi_result(id,apr_fraction,apr_type) SELECT id, (apr / 100), typeof(apr) FROM v2;

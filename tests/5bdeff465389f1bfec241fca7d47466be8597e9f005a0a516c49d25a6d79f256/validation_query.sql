@@ -1,0 +1,1 @@
+SELECT count(*) AS n,min(x),max(x),min(y),max(y),min(z),max(z),(SELECT count(*) FROM sqlite_schema WHERE type='index' AND name IN ('t4xy','t4xz')),(SELECT count(*) FROM sqlite_stat1 WHERE tbl='t4') FROM t4;

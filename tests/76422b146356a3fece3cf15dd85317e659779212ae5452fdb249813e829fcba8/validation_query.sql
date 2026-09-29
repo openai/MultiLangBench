@@ -1,0 +1,1 @@
+SELECT a, b, (SELECT integrity_check FROM pragma_integrity_check) AS integrity_check FROM t1 ORDER BY a, b;

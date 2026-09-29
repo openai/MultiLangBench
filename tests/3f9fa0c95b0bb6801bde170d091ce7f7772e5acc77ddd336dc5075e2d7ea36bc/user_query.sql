@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; BEGIN; PRAGMA defer_foreign_keys=1; DROP TABLE p1; PRAGMA vdbe_trace=0; ROLLBACK; INSERT INTO observed SELECT * FROM pragma_defer_foreign_keys;

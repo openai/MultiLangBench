@@ -1,0 +1,1 @@
+INSERT INTO result SELECT json_replace('{"a":2,"c":4}', '$.e', 99);

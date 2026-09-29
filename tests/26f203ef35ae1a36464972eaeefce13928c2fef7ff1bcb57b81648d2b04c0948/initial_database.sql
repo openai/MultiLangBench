@@ -1,0 +1,1 @@
+CREATE TABLE tabc(a,b,c); INSERT INTO tabc VALUES(1,2,3);

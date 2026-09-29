@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; BEGIN; DELETE FROM t1 WHERE x=1; ROLLBACK;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM x WHERE x.y>='1' AND x.y<'2' AND x.i=x.y;

@@ -1,0 +1,1 @@
+UPDATE y SET f1 = 'x' WHERE f1 = 1; SELECT * FROM x;

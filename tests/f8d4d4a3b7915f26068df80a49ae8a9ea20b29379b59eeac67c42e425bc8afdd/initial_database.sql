@@ -1,0 +1,1 @@
+CREATE TABLE result(v); CREATE TABLE t8n(c); INSERT INTO t8n VALUES('b'),('c'),('d'),(NULL);

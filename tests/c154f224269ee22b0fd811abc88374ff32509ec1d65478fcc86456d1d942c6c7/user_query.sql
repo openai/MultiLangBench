@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT t1.x,t2.x+1,t3.x+2,t4.x+3,t5.x+4,t6.x+5,t7.x+6,t8.x+7 FROM t AS t1,t AS t2,t AS t3,t AS t4,t AS t5,t AS t6,t AS t7,t AS t8 WHERE t2.x=t1.x AND t3.x=t2.x AND t4.x=t3.x AND t5.x=t4.x AND t6.x=t5.x AND t7.x=t6.x AND t8.x=t7.x;

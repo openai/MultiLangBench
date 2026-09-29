@@ -1,0 +1,1 @@
+SELECT k,v FROM (SELECT 't7' k,x v FROM t7 UNION ALL SELECT 't8',y FROM t8 UNION ALL SELECT 'index',name FROM sqlite_schema WHERE name='i7') ORDER BY k,v

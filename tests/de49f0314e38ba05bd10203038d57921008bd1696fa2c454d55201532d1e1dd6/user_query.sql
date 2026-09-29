@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT sum(a) AS s,count(a) AS c,round(avg(a),2) AS av,min(a) AS mn,max(a) AS mx,count(*) AS n FROM t2;

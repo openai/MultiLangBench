@@ -1,0 +1,1 @@
+/* check-2.3 */ INSERT INTO t2 VALUES(NULL,NULL,NULL);

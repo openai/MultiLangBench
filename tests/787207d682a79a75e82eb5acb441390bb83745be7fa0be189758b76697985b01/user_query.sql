@@ -1,0 +1,2 @@
+PRAGMA main.cache_size=200000;
+DELETE FROM t1 WHERE 1;

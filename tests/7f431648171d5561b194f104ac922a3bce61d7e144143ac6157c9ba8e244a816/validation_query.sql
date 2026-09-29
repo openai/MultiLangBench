@@ -1,0 +1,1 @@
+SELECT a, b, c, d FROM t16a_rn ORDER BY a;

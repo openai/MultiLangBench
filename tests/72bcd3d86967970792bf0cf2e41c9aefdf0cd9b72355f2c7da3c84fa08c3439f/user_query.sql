@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t0 USING fts4(order=desc); BEGIN; INSERT INTO t0(rowid,content) VALUES(1,'abc'); UPDATE t0 SET docid=5 WHERE docid=1; INSERT INTO t0(rowid,content) VALUES(6,'abc'); COMMIT;

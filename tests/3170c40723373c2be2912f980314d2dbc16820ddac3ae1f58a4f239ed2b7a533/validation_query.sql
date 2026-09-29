@@ -1,0 +1,1 @@
+SELECT n, log FROM d1 ORDER BY n;

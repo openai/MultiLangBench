@@ -1,0 +1,1 @@
+[["CREATE TABLE x1(\n      one, \"four\", three, PRIMARY KEY(one), \n      CHECK (three!='xyz'), CHECK (\"four\"!=\"one\")\n  ) WITHOUT ROWID"],["CREATE INDEX x1i ON x1(one+\"four\"+'four') WHERE 'five'"],["CREATE TRIGGER AFTER INSERT ON x1 BEGIN\n  UPDATE x1 SET \"four\"=new.three || 'new' WHERE one=new.one||'';\nEND"]]

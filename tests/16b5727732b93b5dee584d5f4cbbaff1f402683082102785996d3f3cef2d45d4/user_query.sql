@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result(seq INTEGER PRIMARY KEY, a, b, c, d, marker); INSERT INTO sfi_result(a,b,c,d,marker) SELECT a,b,c,d,'|' FROM t2 WHERE d<>99 AND b=345 ORDER BY a;

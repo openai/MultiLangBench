@@ -1,0 +1,1 @@
+INSERT INTO result SELECT * FROM t1 WHERE token = 'b' AND input = 'a b c' ORDER BY position;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a, b FROM t4 ORDER BY Substr(a,-2) COLLATE binary;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT docid FROM docs WHERE docs MATCH 'linux' INTERSECT SELECT docid FROM (SELECT docid FROM docs WHERE docs MATCH '"sqlite library"' UNION SELECT docid FROM docs WHERE docs MATCH '"sqlite database"')

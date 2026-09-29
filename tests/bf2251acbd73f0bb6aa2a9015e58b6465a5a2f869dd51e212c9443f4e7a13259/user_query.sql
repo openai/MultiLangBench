@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT json_patch('[1,2,3]','{"x":null}');

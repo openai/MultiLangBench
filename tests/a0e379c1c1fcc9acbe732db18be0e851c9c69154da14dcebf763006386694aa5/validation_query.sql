@@ -1,0 +1,1 @@
+SELECT quote(matchinfo(t3, 'na')) FROM t3 WHERE t3 MATCH 'four'

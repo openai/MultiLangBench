@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT max(x) AS v1, max(x COLLATE nocase) AS v2 FROM t4;

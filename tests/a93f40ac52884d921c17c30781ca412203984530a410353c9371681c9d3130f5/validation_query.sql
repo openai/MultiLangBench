@@ -1,0 +1,1 @@
+SELECT val FROM r21 ORDER BY ord;

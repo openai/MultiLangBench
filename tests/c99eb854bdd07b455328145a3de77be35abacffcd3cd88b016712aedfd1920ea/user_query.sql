@@ -1,0 +1,1 @@
+PRAGMA recursive_triggers=OFF; INSERT OR REPLACE INTO tbl VALUES(2,2,3);

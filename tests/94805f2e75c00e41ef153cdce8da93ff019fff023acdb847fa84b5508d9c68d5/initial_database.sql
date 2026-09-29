@@ -1,0 +1,1 @@
+CREATE TABLE old_t1(q);

@@ -1,0 +1,1 @@
+UPDATE t16b SET x=7;

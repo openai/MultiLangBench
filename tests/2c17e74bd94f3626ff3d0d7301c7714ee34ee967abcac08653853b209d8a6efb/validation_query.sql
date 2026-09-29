@@ -1,0 +1,1 @@
+SELECT docid, snippet_length FROM result ORDER BY docid

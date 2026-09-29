@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rtrim('  hi  ','xyz') AS x;

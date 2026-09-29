@@ -1,0 +1,1 @@
+SELECT blockid, length(block) FROM t1_segments ORDER BY blockid;

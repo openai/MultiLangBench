@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a FROM collate5t2 UNION SELECT a FROM collate5t1;

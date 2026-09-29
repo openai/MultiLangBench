@@ -1,0 +1,1 @@
+SELECT a, b FROM t11 ORDER BY a;

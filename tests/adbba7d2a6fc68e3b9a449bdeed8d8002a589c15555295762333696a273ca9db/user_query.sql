@@ -1,0 +1,1 @@
+INSERT INTO t5(rowid, a, b) VALUES(1, 'a', 1);

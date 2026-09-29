@@ -1,0 +1,1 @@
+PRAGMA locking_mode=EXCLUSIVE; PRAGMA locking_mode=NORMAL; DROP TABLE t3; DROP TABLE abc; CREATE TABLE lock_capture AS SELECT locking_mode FROM pragma_locking_mode WHERE schema='main';

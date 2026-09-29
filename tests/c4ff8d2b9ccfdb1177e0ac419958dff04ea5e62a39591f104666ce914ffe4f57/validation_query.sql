@@ -1,0 +1,1 @@
+SELECT k,a,b,c,d FROM (SELECT 0 AS k, sql AS a, NULL AS b, NULL AS c, NULL AS d FROM sqlite_schema WHERE type='table' AND name='t1' UNION ALL SELECT 1 AS k, quote(w) AS a, quote(x) AS b, quote(y) AS c, quote(z) AS d FROM t1) ORDER BY k,a,b,c,d;

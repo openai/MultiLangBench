@@ -1,0 +1,1 @@
+SELECT q, id FROM (SELECT 1 AS q, rowid AS ord, id FROM r1 UNION ALL SELECT 2 AS q, rowid AS ord, id FROM r2 UNION ALL SELECT 3 AS q, rowid AS ord, id FROM r3) ORDER BY q, ord;

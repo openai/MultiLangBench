@@ -1,0 +1,1 @@
+SELECT a, b, (SELECT count(*) FROM sqlite_master WHERE type='index' AND name='i4') AS i4_count FROM result ORDER BY rowid

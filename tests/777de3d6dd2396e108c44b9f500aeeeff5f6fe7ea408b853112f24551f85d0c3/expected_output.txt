@@ -1,0 +1,1 @@
+[["CREATE TABLE t13(\n  a INT,\n  b TEXT,\n  c TEXT,\n  d TEXT,\n  e TEXT,\n  f TEXT,\n  g INT\n)"]]

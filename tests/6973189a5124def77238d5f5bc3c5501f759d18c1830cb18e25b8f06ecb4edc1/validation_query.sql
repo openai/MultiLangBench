@@ -1,0 +1,1 @@
+SELECT a, b, (SELECT sql FROM sqlite_schema WHERE type='index' AND name='i3') AS index_sql FROM t2 ORDER BY a, b IS NOT NULL, b;

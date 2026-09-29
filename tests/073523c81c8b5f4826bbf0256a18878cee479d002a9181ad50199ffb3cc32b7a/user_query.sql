@@ -1,0 +1,1 @@
+UPDATE ta_segdir SET root=CAST(substr(root,1,6)||X'0EFFFFFFFFFFFFFFFFFFFFFF0606'||substr(root,10) AS BLOB) WHERE rowid=2

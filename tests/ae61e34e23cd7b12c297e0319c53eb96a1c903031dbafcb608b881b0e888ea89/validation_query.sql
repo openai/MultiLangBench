@@ -1,0 +1,1 @@
+SELECT subject IS NULL,length(body) FROM mail

@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES(1,2); CREATE TABLE result AS SELECT p, max(q) FROM t1;

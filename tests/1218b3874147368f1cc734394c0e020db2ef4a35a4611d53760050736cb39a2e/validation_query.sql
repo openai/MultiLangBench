@@ -1,0 +1,1 @@
+SELECT x FROM t1 WHERE typeof(y)='real' ORDER BY x;

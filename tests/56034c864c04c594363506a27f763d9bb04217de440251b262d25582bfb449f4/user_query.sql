@@ -1,0 +1,1 @@
+UPDATE obj SET x=json_insert(x,'$.c',3);

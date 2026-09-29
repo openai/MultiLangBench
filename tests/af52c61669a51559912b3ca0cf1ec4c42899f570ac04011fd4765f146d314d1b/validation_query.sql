@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1 WHERE t1 MATCH 'no'), (SELECT count(*) FROM t1 WHERE t1 MATCH 'yes'), (SELECT count(*) FROM t1 WHERE t1 MATCH 'yep'), (SELECT count(*) FROM t2 WHERE t2 MATCH 'no'), (SELECT count(*) FROM t2 WHERE t2 MATCH 'yes'), (SELECT count(*) FROM t2 WHERE t2 MATCH 'yep');

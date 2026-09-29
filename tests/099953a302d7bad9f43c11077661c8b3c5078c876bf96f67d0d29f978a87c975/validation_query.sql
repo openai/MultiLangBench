@@ -1,0 +1,1 @@
+SELECT min_x,min_a,min_b,min_c,min_sum FROM result

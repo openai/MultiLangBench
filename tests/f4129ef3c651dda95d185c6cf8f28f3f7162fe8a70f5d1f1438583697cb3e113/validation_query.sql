@@ -1,0 +1,1 @@
+SELECT tags FROM fts WHERE tags MATCH 'tag1' ORDER BY rowid;

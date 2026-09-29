@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT min(x) AS mn, max(x) AS mx FROM t6;

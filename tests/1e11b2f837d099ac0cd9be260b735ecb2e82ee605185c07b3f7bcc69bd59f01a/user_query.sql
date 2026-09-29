@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT a,lag(b) OVER (ORDER BY a) AS v FROM t4;

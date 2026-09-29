@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t3 USING fts3(tokenize=simple, tokenize=simple); CREATE TABLE result AS SELECT tokenize AS value FROM t3;

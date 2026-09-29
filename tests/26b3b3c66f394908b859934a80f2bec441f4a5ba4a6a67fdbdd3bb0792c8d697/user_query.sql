@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT content FROM t1 WHERE t1 MATCH 'f (e NEAR/2 a)';

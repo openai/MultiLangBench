@@ -1,0 +1,1 @@
+UPDATE t1 SET a=a+100 WHERE a=83 OR b=913 OR c=28028 OR (d>=82 AND d<83) OR (e>2802 AND e<2803) OR f='fghijklmn' OR g='hgfedcb';

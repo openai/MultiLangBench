@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT json_extract('[3,{"a":4,"":[5,{"hi":6},7]},8]','$[1].""[1].hi') AS v;

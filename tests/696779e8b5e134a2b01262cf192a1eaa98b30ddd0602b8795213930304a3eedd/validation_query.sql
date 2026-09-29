@@ -1,0 +1,1 @@
+SELECT snip, off, hex(mi) FROM result ORDER BY rowid;

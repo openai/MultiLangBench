@@ -1,0 +1,1 @@
+CREATE TABLE xyz(x UNIQUE); ALTER TABLE xyz RENAME TO xyzሴabc;

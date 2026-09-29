@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT cume_dist() OVER () AS p FROM t1;

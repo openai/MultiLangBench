@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM t2 WHERE a=b AND c=b AND c=20;

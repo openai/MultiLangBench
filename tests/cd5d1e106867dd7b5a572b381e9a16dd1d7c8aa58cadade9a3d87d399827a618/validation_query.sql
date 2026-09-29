@@ -1,0 +1,1 @@
+SELECT s FROM result ORDER BY a

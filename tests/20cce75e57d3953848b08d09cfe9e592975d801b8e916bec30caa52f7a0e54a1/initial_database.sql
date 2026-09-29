@@ -1,0 +1,1 @@
+CREATE TABLE t4a(a TEXT, b TEXT COLLATE nocase, c); INSERT INTO t4a VALUES('ABC','abc',1),('def','xyz',2),('ghi','ghi',3);

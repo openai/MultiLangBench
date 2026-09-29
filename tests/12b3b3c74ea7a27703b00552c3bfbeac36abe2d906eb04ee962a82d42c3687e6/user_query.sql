@@ -1,0 +1,1 @@
+INSERT INTO mail(docid,subject,body) VALUES(3,'slow lunch order','was a software problem')

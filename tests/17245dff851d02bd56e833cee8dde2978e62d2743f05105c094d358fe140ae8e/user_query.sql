@@ -1,0 +1,1 @@
+WITH RECURSIVE leader(s,n) AS (VALUES('',0) UNION ALL SELECT s||'abcdefghij',n+1 FROM leader WHERE n<70) UPDATE t1 SET h=(SELECT s FROM leader WHERE n=70)||h;

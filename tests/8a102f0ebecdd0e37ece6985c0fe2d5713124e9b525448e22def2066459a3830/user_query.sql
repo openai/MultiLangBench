@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a,b,c,'#' AS marker FROM t1 WHERE a BETWEEN 3 AND 8 ORDER BY c;

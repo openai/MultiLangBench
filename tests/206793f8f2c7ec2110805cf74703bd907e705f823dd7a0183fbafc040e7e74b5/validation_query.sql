@@ -1,0 +1,1 @@
+SELECT a,b FROM p1 ORDER BY rowid

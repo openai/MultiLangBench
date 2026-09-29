@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM sqlite_schema WHERE type = 'table' AND name = 'collate6tab') AS tab_schema_rows, (SELECT count(*) FROM sqlite_schema WHERE type = 'table' AND name = 'collate6log') AS log_schema_rows;

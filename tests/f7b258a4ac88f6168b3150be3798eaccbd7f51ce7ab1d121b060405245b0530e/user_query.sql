@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT max(a) AS m1, max(a) FILTER (WHERE b<12345) AS m2, b FROM t1;

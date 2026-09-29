@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM t2, (SELECT x, count(*) OVER (ORDER BY x) FROM t1) ORDER BY 1,2;

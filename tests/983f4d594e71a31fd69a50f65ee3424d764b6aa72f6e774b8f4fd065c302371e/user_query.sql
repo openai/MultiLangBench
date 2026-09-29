@@ -1,0 +1,1 @@
+CREATE TABLE t1(a, b, c); CREATE TABLE t2(a, b, c); CREATE VIEW v1 AS SELECT * FROM t1 WHERE (SELECT t1.a FROM t1, t2) IN () OR t1.a=5;

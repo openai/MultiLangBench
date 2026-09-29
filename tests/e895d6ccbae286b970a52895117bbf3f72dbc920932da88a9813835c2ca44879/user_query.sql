@@ -1,0 +1,1 @@
+INSERT INTO t5 VALUES('x y '||replace(hex(zeroblob(50000)),'00','b '))

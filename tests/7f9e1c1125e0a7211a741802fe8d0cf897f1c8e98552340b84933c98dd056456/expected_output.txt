@@ -1,0 +1,1 @@
+[["high","CREATE TABLE high(\"a'b!\" PRIMARY KEY,b)"],["low","CREATE TABLE low(c,\"d&6\" REFERENCES high ON UPDATE CASCADE ON DELETE CASCADE)"]]

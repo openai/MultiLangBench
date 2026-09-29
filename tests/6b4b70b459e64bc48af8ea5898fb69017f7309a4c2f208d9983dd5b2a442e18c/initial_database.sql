@@ -1,0 +1,4 @@
+CREATE TABLE t1(x);
+CREATE VIRTUAL TABLE ft USING fts3;
+INSERT INTO ft VALUES('hello world');
+INSERT INTO ft(ft) VALUES('merge=2,2');

@@ -1,0 +1,1 @@
+SELECT matched_rowid FROM query_result ORDER BY matched_rowid;

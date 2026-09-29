@@ -1,0 +1,1 @@
+ALTER TABLE abcꯍdef ADD COLUMN ghiS4jkl VARCHAR;

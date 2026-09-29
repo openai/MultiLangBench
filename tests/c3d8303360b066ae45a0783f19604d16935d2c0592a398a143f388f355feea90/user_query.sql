@@ -1,0 +1,1 @@
+INSERT INTO result SELECT json_array(json_array(1,2));

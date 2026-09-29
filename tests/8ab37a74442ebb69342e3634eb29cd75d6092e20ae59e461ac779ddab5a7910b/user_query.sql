@@ -1,0 +1,1 @@
+CREATE TABLE _sfi_result AS SELECT (500 IS a) AS r1, (500 IS b) AS r2, (500 IS c) AS r3, (500 IS d) AS r4 FROM v1;

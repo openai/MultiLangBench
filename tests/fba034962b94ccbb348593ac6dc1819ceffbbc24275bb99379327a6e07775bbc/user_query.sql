@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT dense_rank() OVER (PARTITION BY x) AS v FROM t2;

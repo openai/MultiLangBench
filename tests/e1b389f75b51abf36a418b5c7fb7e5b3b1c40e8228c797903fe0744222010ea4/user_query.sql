@@ -1,0 +1,1 @@
+INSERT INTO result_170(msg) SELECT * FROM pragma_integrity_check;

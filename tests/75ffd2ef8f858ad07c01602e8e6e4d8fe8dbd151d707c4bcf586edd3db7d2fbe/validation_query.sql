@@ -1,0 +1,1 @@
+SELECT count(*), count(DISTINCT c), sum(length(c)), max(CASE WHEN a=1 THEN c END), max(CASE WHEN a=25000 THEN c END), max(CASE WHEN a=50000 THEN c END), sum(typeof(c)='text') FROM t1;

@@ -1,0 +1,1 @@
+SELECT count(*) AS remaining_objects FROM sqlite_schema WHERE name IN ('pp','cc') OR tbl_name IN ('pp','cc');

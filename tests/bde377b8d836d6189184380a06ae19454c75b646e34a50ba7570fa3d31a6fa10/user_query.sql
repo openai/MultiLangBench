@@ -1,0 +1,1 @@
+UPDATE t1 SET n1='500'; CREATE TABLE result AS SELECT 500.0 = n1 AS value FROM t1;

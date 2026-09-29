@@ -1,0 +1,1 @@
+CREATE TABLE t1(a, b AS ((WITH w1 (xyz) AS (SELECT t1.b FROM t1) SELECT 123) IN ()), c);

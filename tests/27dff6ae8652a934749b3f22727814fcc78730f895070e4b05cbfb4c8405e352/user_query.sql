@@ -1,0 +1,1 @@
+PRAGMA cache_size=5; CREATE TABLE result AS SELECT a,b FROM t10 ORDER BY a;

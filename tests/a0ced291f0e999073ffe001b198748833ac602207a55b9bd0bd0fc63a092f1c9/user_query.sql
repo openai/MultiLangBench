@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT docid FROM ft9 WHERE ft9 MATCH 'N';

@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b,_x_); CREATE VIEW v1 AS SELECT a,b,_x_ FROM t1 WHERE _x_=unicode(1,2,3);

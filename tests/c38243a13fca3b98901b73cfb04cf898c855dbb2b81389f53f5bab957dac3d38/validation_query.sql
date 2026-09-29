@@ -1,0 +1,1 @@
+SELECT x FROM wherea_result ORDER BY seq;

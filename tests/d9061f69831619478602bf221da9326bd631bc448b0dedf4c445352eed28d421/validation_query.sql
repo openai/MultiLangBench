@@ -1,0 +1,1 @@
+SELECT (SELECT page_count FROM pragma_page_count), (SELECT b FROM tbl2);

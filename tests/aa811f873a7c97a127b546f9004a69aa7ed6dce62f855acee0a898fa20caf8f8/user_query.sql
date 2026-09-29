@@ -1,0 +1,1 @@
+PRAGMA short_column_names=ON; PRAGMA full_column_names=OFF; CREATE TABLE result AS SELECT v1.x, (Y) FROM v1;

@@ -1,0 +1,1 @@
+UPDATE b3 SET z = 'not null';

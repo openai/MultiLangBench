@@ -1,0 +1,1 @@
+BEGIN; INSERT INTO t1(rowid,x) VALUES(3,'i j k l'); INSERT OR REPLACE INTO t1(rowid,x) VALUES(1,'x'); COMMIT;

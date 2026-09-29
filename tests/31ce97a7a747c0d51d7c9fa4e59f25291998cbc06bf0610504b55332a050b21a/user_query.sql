@@ -1,0 +1,1 @@
+CREATE TABLE keyword_tab(current,exclude,filter,following,groups,no,others,over,partition,preceding,range,ties,unbounded,window);

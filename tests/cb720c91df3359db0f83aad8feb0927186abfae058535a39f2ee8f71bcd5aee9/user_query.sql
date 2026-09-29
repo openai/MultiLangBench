@@ -1,0 +1,1 @@
+CREATE TABLE result11 AS SELECT typeof(a+b) AS x1, typeof(a||b) AS x2, typeof(c+d) AS x3, typeof(c||d) AS x4 FROM t7 LIMIT 1;

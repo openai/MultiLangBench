@@ -1,0 +1,1 @@
+SELECT bar_id,ba,bb,fb FROM result ORDER BY rowid;

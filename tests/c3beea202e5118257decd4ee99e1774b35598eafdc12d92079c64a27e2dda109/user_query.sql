@@ -1,0 +1,1 @@
+CREATE TEMP TABLE z(x REFERENCES no_parent); CREATE TABLE result AS SELECT [table] AS child_table, [rowid] AS child_rowid, parent, fkid FROM pragma_foreign_key_check('z','temp');

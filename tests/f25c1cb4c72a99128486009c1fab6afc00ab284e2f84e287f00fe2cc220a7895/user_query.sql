@@ -1,0 +1,1 @@
+DROP TABLE key; CREATE INDEX key ON t1(a);

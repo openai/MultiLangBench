@@ -1,0 +1,1 @@
+UPDATE v2 SET y=y||'-extra' WHERE x BETWEEN 3 AND 5;

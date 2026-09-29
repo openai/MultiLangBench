@@ -1,0 +1,1 @@
+INSERT INTO t2(words) SELECT words FROM t1; SELECT level, count(*) FROM t2_segdir GROUP BY level ORDER BY level;

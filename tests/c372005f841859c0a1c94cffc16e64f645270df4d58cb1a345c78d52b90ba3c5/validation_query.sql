@@ -1,0 +1,1 @@
+SELECT * FROM vacuum ORDER BY vacuum ASC

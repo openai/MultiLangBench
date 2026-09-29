@@ -1,0 +1,1 @@
+PRAGMA parser_trace=ON; PRAGMA parser_trace=OFF; CREATE TABLE result(x); INSERT INTO result VALUES(1);

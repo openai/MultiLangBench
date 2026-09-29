@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT hex(v) AS x FROM input;

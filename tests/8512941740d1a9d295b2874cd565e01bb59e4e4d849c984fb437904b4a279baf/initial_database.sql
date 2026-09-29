@@ -1,0 +1,1 @@
+CREATE TABLE t4(abort,asc,begin,cluster,conflict,copy,delimiters,desc,end,explain,fail,ignore,key,offset,pragma,replace,temp,vacuum,view);

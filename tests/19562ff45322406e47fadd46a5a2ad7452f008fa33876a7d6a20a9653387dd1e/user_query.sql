@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; UPDATE high SET "a'b!"='c';

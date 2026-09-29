@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT t3.b, t4.* FROM t3, t4;

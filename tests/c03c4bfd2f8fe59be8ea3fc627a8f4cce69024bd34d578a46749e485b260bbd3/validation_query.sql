@@ -1,0 +1,1 @@
+SELECT x, y, (SELECT count(*) FROM sqlite_schema WHERE type='table' AND name='t1') AS table_count, (SELECT group_concat(integrity_check, '|') FROM pragma_integrity_check) AS integrity FROM t1 ORDER BY x;

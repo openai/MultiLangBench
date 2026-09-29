@@ -1,0 +1,2 @@
+CREATE TABLE t1(a INTEGER);
+INSERT INTO t1 VALUES(3),(2),(1),(2),(3),(1);

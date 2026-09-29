@@ -1,0 +1,1 @@
+SELECT abc.a, (SELECT count(*) FROM def) AS def_rows, (SELECT count(*) FROM pragma_table_info('def')) AS def_columns, (SELECT count(*) FROM pragma_table_info('def') WHERE pk>0) AS pk_columns FROM abc ORDER BY abc.a;

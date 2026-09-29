@@ -1,0 +1,1 @@
+[["table","t2"],["trigger","t2"],["view","v1"]]

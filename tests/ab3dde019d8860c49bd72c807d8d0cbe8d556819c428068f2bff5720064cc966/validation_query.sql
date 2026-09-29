@@ -1,0 +1,1 @@
+SELECT k, v FROM t1x ORDER BY rowid;

@@ -1,0 +1,1 @@
+SELECT count(*) AS rows_remaining, (SELECT page_count FROM pragma_page_count) AS page_count, (SELECT freelist_count FROM pragma_freelist_count) AS freelist_count FROM abc;

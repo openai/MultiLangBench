@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT count(*),max(1);

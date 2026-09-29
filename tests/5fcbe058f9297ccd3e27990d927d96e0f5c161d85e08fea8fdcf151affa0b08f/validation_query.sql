@@ -1,0 +1,1 @@
+SELECT a,b,c,d,e,f,'|' FROM t1 ORDER BY a,b

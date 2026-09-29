@@ -1,0 +1,1 @@
+[["row","1","'2'"],["row","2","'10'"],["row","3","'20'"],["row","4","'104'"],["schema","collate4t1","CREATE TABLE collate4t1(a COLLATE BINARY)"]]

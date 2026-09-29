@@ -1,0 +1,1 @@
+SELECT name, type, tbl_name FROM sqlite_schema WHERE type!='meta' ORDER BY name;

@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b); INSERT INTO t1 VALUES(123,'abc'),(234,'def'),(234,'ghi'),(345,'jkl'); CREATE TABLE t2(x,y); INSERT INTO t2 VALUES(987,'zyx'),(654,'wvu'),(987,'rqp'); CREATE TABLE result(a,b,x,y,marker);

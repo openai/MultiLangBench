@@ -1,0 +1,1 @@
+SELECT count(*),min(length(x)),max(length(x)) FROM ft

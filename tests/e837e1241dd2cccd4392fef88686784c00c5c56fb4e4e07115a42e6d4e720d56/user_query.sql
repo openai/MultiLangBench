@@ -1,0 +1,1 @@
+CREATE TABLE _result AS SELECT *, 'x' AS marker FROM t1 LEFT JOIN t2 WHERE NOT ('x'='y' AND t2.y=1) ORDER BY a;

@@ -1,0 +1,1 @@
+INSERT INTO result SELECT -CAST('.' AS numeric);

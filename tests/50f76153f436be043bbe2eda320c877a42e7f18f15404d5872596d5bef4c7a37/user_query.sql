@@ -1,0 +1,1 @@
+CREATE TABLE template(a, b, c); PRAGMA table_info(template);

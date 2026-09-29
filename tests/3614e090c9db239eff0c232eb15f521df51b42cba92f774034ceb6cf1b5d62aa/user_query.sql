@@ -1,0 +1,1 @@
+PRAGMA locking_mode=EXCLUSIVE; CREATE TABLE t1(x);

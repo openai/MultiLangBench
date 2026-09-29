@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT json_valid(char(34,32,92,94,32,34)) AS v;

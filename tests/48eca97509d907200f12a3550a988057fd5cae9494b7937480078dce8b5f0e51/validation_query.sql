@@ -1,0 +1,1 @@
+SELECT tab, a, b FROM (SELECT 1 AS tab, rowid AS rn, a, b FROM t1 UNION ALL SELECT 2 AS tab, rowid AS rn, a, b FROM t2 UNION ALL SELECT 3 AS tab, rowid AS rn, a, b FROM t3) ORDER BY tab, rn;

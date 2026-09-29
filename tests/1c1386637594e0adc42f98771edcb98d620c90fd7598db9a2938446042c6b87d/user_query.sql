@@ -1,0 +1,3 @@
+PRAGMA foreign_keys=ON;
+CREATE UNIQUE INDEX p1x2 ON p1(x);
+INSERT INTO c1 VALUES(1);

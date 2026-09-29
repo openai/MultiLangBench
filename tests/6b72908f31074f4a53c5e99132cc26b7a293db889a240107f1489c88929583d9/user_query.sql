@@ -1,0 +1,1 @@
+DROP TABLE t1; CREATE VIRTUAL TABLE t1 USING fts4(a,b,c,d); INSERT INTO t1 VALUES('one two','three four','five six','seven eight');

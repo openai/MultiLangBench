@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES(74, zeroblob(400));

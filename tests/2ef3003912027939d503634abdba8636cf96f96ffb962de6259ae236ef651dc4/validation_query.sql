@@ -1,0 +1,1 @@
+SELECT (SELECT page_size FROM pragma_page_size), count(*), group_concat(x||':'||length(y)||':'||z,'|'), (SELECT count(*) FROM t2) FROM (SELECT x,y,z FROM t1 ORDER BY rowid);

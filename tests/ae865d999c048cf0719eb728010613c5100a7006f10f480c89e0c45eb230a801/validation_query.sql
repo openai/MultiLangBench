@@ -1,0 +1,1 @@
+SELECT tp, a FROM result ORDER BY rowid

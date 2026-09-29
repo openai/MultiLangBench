@@ -1,0 +1,1 @@
+SELECT count(*),sum(a),sum(length(b)),sum(length(c)),sum(a=1234567890) FROM t7;

@@ -1,0 +1,1 @@
+SELECT n.a, n.b, o.b AS original_b, (SELECT instr(upper(sql),'WITHOUT ROWID')>0 FROM sqlite_schema WHERE type='table' AND name='t1') AS is_without_rowid FROM t1 AS n LEFT JOIN t2 AS o ON o.a=n.a ORDER BY n.a;

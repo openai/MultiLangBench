@@ -1,0 +1,1 @@
+SELECT y FROM _sfi_result ORDER BY y;

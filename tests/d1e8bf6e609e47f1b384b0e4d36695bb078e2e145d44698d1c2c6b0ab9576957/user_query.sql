@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT quote(root) AS v FROM ft_segdir;

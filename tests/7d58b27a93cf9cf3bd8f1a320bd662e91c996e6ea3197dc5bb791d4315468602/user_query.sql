@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT min(a) FILTER (WHERE a>4) AS v FROM t1;

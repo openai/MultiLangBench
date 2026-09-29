@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM result) AS result_count, (SELECT count(*) FROM t1) AS expected_count, (SELECT count(*) FROM (SELECT id FROM t1 EXCEPT SELECT id FROM result)) AS missing_count, (SELECT count(*) FROM (SELECT id FROM result EXCEPT SELECT id FROM t1)) AS extra_count, (SELECT count(*) FROM (SELECT id FROM result GROUP BY id HAVING count(*) <> 1)) AS duplicate_count;

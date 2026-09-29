@@ -1,0 +1,1 @@
+SELECT count(*), group_concat(a||':'||b,'|') FROM (SELECT a,b FROM t3 ORDER BY rowid);

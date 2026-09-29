@@ -1,0 +1,1 @@
+INSERT INTO a1 SELECT 'a'||a, 'b'||b FROM a1 LIMIT 2 OFFSET 1

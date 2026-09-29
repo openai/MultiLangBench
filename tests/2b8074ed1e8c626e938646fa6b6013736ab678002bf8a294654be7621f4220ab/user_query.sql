@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a, b, c FROM t1 UNION ALL SELECT a AS x, b, c FROM t2 ORDER BY x;

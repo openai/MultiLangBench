@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1_segdir) AS segments, (SELECT count(*) FROM t1) AS documents;

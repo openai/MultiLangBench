@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT journal_size_limit AS v FROM pragma_journal_size_limit;

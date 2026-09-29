@@ -1,0 +1,1 @@
+CREATE TABLE t1(x, y, z); INSERT INTO t1 VALUES('a', 'b', 'c'); CREATE TABLE t2(a, b); ALTER TABLE t2 RENAME TO t3;

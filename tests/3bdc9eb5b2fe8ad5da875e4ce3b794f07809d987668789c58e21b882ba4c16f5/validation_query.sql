@@ -1,0 +1,1 @@
+SELECT sql, (SELECT count(*) FROM t1) AS nrow, (SELECT count(*) FROM t1 WHERE a IS NULL) AS nnull FROM sqlite_master WHERE type='table' AND name='t1'

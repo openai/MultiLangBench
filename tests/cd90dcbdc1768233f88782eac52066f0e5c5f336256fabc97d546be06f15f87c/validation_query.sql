@@ -1,0 +1,1 @@
+SELECT a, b, typeof(a) AS a_type, typeof(b) AS b_type, (SELECT sql FROM sqlite_schema WHERE type='table' AND name='t2') AS schema_sql FROM t2 ORDER BY a;

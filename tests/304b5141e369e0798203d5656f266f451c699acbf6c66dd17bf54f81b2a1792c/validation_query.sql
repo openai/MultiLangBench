@@ -1,0 +1,1 @@
+SELECT kind,k,v FROM (SELECT 'docsize' AS kind, docid AS k, hex(size) AS v FROM t1_docsize UNION ALL SELECT 'stat', id, hex(value) FROM t1_stat) ORDER BY kind,k

@@ -1,0 +1,1 @@
+CREATE TABLE _r AS SELECT (5, 4) IN (SELECT a, b FROM t1);

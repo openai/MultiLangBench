@@ -1,0 +1,1 @@
+SELECT rowid,t FROM fts ORDER BY rowid;

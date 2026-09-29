@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT f1 COLLATE nocase AS x FROM test1 ORDER BY x;

@@ -1,0 +1,1 @@
+SELECT a,b,c,d,(SELECT count(*) FROM sqlite_schema WHERE type='trigger' AND name='t3r1' AND sql LIKE '%INSERT INTO t3%') FROM t3 ORDER BY a

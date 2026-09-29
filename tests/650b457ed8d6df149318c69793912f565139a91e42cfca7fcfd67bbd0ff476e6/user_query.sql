@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT NOT b, ~b, NOT NOT b, b FROM t1 ORDER BY a;

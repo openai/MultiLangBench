@@ -1,0 +1,5 @@
+CREATE TABLE t1(a);
+INSERT INTO t1 VALUES(0);
+CREATE TABLE t2(b, c, d);
+INSERT INTO t2(b,c,d) VALUES(4,5,3),(4,5,4),(4,5,8);
+CREATE INDEX t2bcd ON t2(b, c, d);

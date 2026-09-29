@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t2 USING fts4(tokenize=unicode61 "separators=aB"); INSERT INTO t2 VALUES('oneatwoBthree'); INSERT INTO t2 VALUES('onebtwoAthree'); CREATE VIRTUAL TABLE t2aux USING fts4aux(t2); CREATE TABLE result AS SELECT * FROM t2aux;

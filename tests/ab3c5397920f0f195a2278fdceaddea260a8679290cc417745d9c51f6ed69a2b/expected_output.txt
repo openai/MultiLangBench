@@ -1,0 +1,1 @@
+[["av1",3],["sqlite_autoindex_av1_1",4],["av2",5],["sqlite_autoindex_av2_1",6],["av2_i1",7],["av2_i2",8],["av3",9],["sqlite_autoindex_av3_1",10],["av3_i1",11],["av4",12],["av4_i1",13],["av4_i2",14],["av4_i3",15],["av4_i4",16]]

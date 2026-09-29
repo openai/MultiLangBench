@@ -1,0 +1,1 @@
+CREATE TABLE [x2 "rules] (a, b, c, d); INSERT INTO [x2 "rules] VALUES(0, 'a', 'b', 5);

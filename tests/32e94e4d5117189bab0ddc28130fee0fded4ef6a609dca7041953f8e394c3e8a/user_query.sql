@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT t1.*,t2.* FROM t2 LEFT JOIN (dual JOIN t1 ON true) ON b=c ORDER BY +b;

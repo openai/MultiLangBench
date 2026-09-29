@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT (t0.rowid) <= '0' AS v FROM t0;

@@ -1,0 +1,1 @@
+[["table","t1","t1","CREATE TABLE t1(a,b)"],["table","t2","t2","CREATE TABLE t2(c,d)"],["table","t3","t3","CREATE TABLE t3(e,f)"],["table","t4","t4","CREATE TABLE t4(e,f)"]]

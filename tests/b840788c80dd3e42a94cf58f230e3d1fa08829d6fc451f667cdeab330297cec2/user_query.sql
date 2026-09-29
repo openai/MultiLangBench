@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result(seq INTEGER,v); INSERT INTO sfi_result SELECT 1,(SELECT sum(value2==xyz) FROM t2) FROM (SELECT value1 AS xyz,max(x1) AS pqr FROM t1 GROUP BY id1); INSERT INTO sfi_result SELECT 2,(SELECT sum(value2<>xyz) FROM t2) FROM (SELECT value1 AS xyz,max(x1) AS pqr FROM t1 GROUP BY id1);

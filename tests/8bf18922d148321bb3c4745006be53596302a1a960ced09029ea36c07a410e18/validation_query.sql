@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t0) AS t0_rows,(SELECT a0 FROM t0) AS a0,(SELECT b1 FROM t0) AS b1,(SELECT count(*) FROM t1) AS t1_rows,(SELECT w FROM t1) AS w,(SELECT x FROM t1) AS x,(SELECT y FROM t1) AS y,(SELECT z3 FROM t1) AS z3;

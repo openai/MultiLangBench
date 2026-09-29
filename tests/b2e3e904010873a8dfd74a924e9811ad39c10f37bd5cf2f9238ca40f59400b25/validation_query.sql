@@ -1,0 +1,1 @@
+SELECT rowid,aaaa FROM t2x ORDER BY rowid;

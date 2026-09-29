@@ -1,0 +1,1 @@
+SELECT count(*),hex(CAST(min(content) AS blob)) FROM t12;

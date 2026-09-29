@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT collate2t1.b FROM collate2t2 NATURAL JOIN collate2t1;

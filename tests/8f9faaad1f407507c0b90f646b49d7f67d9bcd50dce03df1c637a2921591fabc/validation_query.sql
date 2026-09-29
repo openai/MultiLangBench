@@ -1,0 +1,1 @@
+SELECT p,typeof(p) FROM par ORDER BY rowid

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts4(x, tokenize=unicode61); CREATE VIRTUAL TABLE t2 USING fts4(x, tokenize=unicode61 "remove_diacritics=2"); CREATE TABLE result(value INTEGER);

@@ -1,0 +1,1 @@
+[["index","sqlite_autoindex_t3_1","t3",""],["table","t3","t3","CREATE TABLE t3(a int,b int,c int,d int,UNIQUE(a,c,d))"]]

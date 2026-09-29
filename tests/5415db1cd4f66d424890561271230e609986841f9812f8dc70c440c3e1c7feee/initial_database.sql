@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t7 USING fts3(a); INSERT INTO t7(docid,a) VALUES(4,'number four')

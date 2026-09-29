@@ -1,0 +1,1 @@
+CREATE TABLE result(c0, c1); INSERT INTO result(c0, c1) SELECT * FROM ttt INDEXED BY ii WHERE CAST(c0 AS NUMERIC) > c1 GROUP BY rowid;

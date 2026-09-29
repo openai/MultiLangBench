@@ -1,0 +1,1 @@
+[["index","abc_i","CREATE INDEX abc_i ON abc(a, b, c)",null,null],["index","def_i","CREATE INDEX def_i ON def(c, a, b)",null,null],["index","ghi_i","CREATE INDEX ghi_i ON ghi(b, c, a)",null,null],["row","abc",1,2,3],["row","abc",4,5,6],["row","abc",7,8,9],["row","def",1,2,3],["row","def",4,5,6],["row","def",7,8,9],["row","ghi",1,2,3],["row","ghi",4,5,6],["row","ghi",7,8,9]]

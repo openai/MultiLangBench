@@ -1,0 +1,14 @@
+CREATE TABLE t1(a, b, c, PRIMARY KEY(a)) WITHOUT ROWID;
+INSERT INTO t1 VALUES(1, 'a', 'z');
+INSERT INTO t1 VALUES(2, 'b', 'y');
+INSERT INTO t1 VALUES(3, 'c', 'x');
+INSERT INTO t1 VALUES(4, 'd', 'w');
+CREATE INDEX i1 ON t1(b);
+CREATE INDEX i2 ON t1(c);
+CREATE TABLE t2(a, b, c, PRIMARY KEY(a)) WITHOUT ROWID;
+INSERT INTO t2 VALUES('i', 'a', 'z');
+INSERT INTO t2 VALUES('ii', 'b', 'y');
+INSERT INTO t2 VALUES('iii', 'c', 'x');
+INSERT INTO t2 VALUES('iv', 'd', 'w');
+CREATE INDEX i3 ON t2(b);
+CREATE INDEX i4 ON t2(c);

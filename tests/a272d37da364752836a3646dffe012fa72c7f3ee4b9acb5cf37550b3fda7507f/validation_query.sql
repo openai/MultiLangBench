@@ -1,0 +1,1 @@
+SELECT count(*) AS n, min(rowid) AS lo, max(rowid) AS hi, sum(rowid) AS total, count(DISTINCT rowid) AS distinct_n, sum(rowid*rowid) AS square_total FROM t2 WHERE c MATCH 'lorem';

@@ -1,0 +1,1 @@
+SELECT x,mb,y,nb FROM result ORDER BY mb,nb;

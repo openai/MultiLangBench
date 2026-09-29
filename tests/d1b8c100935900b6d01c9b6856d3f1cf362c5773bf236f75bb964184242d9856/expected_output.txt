@@ -1,0 +1,1 @@
+[[3,4,"CREATE INDEX i8c ON t8b(y) WHERE x = 'value'"]]

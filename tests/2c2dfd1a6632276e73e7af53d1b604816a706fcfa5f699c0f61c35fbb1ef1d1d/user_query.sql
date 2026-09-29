@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT printf('(%-8c)',char(11106));

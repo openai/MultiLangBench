@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; INSERT INTO track VALUES(1,'track 1',2);

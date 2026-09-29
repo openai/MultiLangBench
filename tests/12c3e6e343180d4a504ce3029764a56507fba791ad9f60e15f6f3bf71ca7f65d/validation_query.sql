@@ -1,0 +1,1 @@
+SELECT log, cnt, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND tbl_name='t1') AS index_count FROM t1 ORDER BY log;

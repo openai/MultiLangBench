@@ -1,0 +1,1 @@
+INSERT INTO x2 VALUES(1,'abc');

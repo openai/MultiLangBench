@@ -1,0 +1,1 @@
+CREATE TABLE result(a, b, c); INSERT INTO result(a, b, c) SELECT * FROM t3 WHERE c='0' ORDER BY a;

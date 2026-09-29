@@ -1,0 +1,1 @@
+CREATE TEMP TABLE t1(a, b); INSERT INTO temp.t1 VALUES('a temp', 'b temp'); CREATE VIEW temp.v1 AS SELECT * FROM t1; DROP VIEW temp.v1; INSERT INTO main.result SELECT count(*) FROM temp.sqlite_schema WHERE type='view' AND name='v1';

@@ -1,0 +1,1 @@
+CREATE TABLE r(seq,v); INSERT INTO r SELECT 1,('B',0)>(t0.c0 COLLATE nocase,0) FROM t0; INSERT INTO r SELECT 2,2 FROM t0 WHERE ('B',0)>(t0.c0 COLLATE nocase,0);

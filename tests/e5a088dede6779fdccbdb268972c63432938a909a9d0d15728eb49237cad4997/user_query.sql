@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT (1,2) IN ((3,2)) AS v;

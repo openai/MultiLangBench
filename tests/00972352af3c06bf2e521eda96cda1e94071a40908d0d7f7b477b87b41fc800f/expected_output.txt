@@ -1,0 +1,1 @@
+[["index","sqlite_autoindex_a_1","a",null],["table","a","a","CREATE TABLE a(a,h CONSTRAINT a UNIQUE ON CONFLICT FAIL,CONSTRAINT a)"]]

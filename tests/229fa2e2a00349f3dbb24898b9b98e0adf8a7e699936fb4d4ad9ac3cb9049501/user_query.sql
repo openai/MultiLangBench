@@ -1,0 +1,22 @@
+CREATE TABLE big(
+  f1 varchar(20),
+  f2 char(10),
+  f3 varchar(30) primary key,
+  f4 text,
+  f5 text,
+  f6 text,
+  f7 text,
+  f8 text,
+  f9 text,
+  f10 text,
+  f11 text,
+  f12 text,
+  f13 text,
+  f14 text,
+  f15 text,
+  f16 text,
+  f17 text,
+  f18 text,
+  f19 text,
+  f20 text
+);

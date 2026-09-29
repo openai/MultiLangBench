@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; BEGIN; INSERT INTO track VALUES(1,'White Christmas',5); INSERT INTO artist VALUES(5,'Bing Crosby'); COMMIT;

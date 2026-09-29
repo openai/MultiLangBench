@@ -1,0 +1,1 @@
+CREATE TABLE collate4t1(a); CREATE TABLE collate4t2(a); CREATE TABLE collate4t3(a); CREATE TABLE collate4t4(a);

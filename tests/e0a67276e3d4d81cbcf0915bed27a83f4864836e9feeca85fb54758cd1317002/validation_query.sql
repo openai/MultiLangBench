@@ -1,0 +1,1 @@
+SELECT sql FROM sqlite_master WHERE sql IS NOT NULL ORDER BY rowid;

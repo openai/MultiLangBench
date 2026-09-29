@@ -1,0 +1,1 @@
+CREATE TABLE t0(a,b,t); CREATE INDEX i ON t0(a in(0,1)); INSERT INTO t0 VALUES(0,1,2),(2,99,4),(5,99,7);

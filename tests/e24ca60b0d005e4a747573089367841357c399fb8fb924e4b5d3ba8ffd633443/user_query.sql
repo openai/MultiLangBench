@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT coalesce(json_patch('{"a":"foo"}',NULL),'real-null');

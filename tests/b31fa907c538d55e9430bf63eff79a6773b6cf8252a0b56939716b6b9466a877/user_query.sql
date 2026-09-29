@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; BEGIN; PRAGMA defer_foreign_keys=1; DELETE FROM p1; DROP TABLE c1; COMMIT; INSERT INTO observed SELECT * FROM pragma_defer_foreign_keys;

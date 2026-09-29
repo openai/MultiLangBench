@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t6 USING fts3(x); INSERT INTO t6 VALUES('a'),('b'),('c')

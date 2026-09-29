@@ -1,0 +1,1 @@
+SELECT z FROM v13c ORDER BY z;

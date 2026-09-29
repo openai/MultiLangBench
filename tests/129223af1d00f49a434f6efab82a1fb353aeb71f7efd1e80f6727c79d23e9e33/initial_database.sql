@@ -1,0 +1,1 @@
+PRAGMA encoding='UTF-8'; CREATE TABLE input(v TEXT); INSERT INTO input(v) VALUES(CAST(X'7F8081' AS TEXT));

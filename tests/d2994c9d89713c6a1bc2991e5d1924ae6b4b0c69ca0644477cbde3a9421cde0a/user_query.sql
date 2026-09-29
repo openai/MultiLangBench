@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; REPLACE INTO pp(rowid,a,b,c) VALUES(2,2,2,3);

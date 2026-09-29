@@ -1,0 +1,1 @@
+UPDATE t1 SET b=sum(a) FROM t0;

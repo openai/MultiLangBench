@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM tx),(SELECT count(*) FROM sqlite_schema WHERE type='trigger' AND name='r1')

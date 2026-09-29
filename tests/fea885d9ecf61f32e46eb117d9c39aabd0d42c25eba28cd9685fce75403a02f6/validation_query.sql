@@ -1,0 +1,1 @@
+SELECT rowid,a,b,(SELECT count(*) FROM sqlite_schema WHERE type='trigger' AND name='t5t' AND tbl_name='t5') AS trigger_count FROM t5 ORDER BY rowid;

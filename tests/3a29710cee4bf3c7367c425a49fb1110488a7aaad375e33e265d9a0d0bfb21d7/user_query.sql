@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS captured_index_list; CREATE TABLE captured_index_list AS SELECT * FROM pragma_index_list('t1');

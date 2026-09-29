@@ -1,0 +1,1 @@
+INSERT INTO capture SELECT rowid,type,name,tbl_name FROM sqlite_master WHERE name IN ('t1','tx') ORDER BY rowid;

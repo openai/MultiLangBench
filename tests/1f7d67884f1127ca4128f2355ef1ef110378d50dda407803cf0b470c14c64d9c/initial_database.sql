@@ -1,0 +1,1 @@
+CREATE TABLE result(v); PRAGMA user_version=-450;

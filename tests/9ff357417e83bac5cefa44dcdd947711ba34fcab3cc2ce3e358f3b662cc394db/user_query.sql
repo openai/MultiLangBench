@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT title,body FROM docs WHERE body MATCH 'title:linux driver'

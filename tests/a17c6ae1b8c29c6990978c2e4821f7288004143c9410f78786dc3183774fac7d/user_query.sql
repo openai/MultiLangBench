@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS ft; CREATE VIRTUAL TABLE ft USING fts3(a,b); INSERT INTO ft SELECT (SELECT group_concat(w,' ') FROM (SELECT w FROM nums WHERE n<=100 ORDER BY n)),(SELECT group_concat(w,' ') FROM (SELECT w FROM nums ORDER BY n)); INSERT INTO ft SELECT (SELECT group_concat(w,' ') FROM (SELECT w FROM nums WHERE n<=100 ORDER BY n)),NULL;

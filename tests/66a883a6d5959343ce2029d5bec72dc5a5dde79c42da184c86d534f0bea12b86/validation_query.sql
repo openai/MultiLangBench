@@ -1,0 +1,1 @@
+SELECT value FROM marker ORDER BY rowid;

@@ -1,0 +1,1 @@
+INSERT INTO ft10(ft10) VALUES('rebuild');

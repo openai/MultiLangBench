@@ -1,0 +1,1 @@
+SELECT b FROM t1 INDEXED BY query WHERE a=2

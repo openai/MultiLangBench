@@ -1,0 +1,1 @@
+CREATE TABLE t2(x int,y int,z int);INSERT INTO t2 VALUES(1,2,3);

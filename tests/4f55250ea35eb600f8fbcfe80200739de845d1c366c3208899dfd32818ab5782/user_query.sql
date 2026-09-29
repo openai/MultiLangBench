@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT coalesce(nullif(1,2),'nil') AS x;

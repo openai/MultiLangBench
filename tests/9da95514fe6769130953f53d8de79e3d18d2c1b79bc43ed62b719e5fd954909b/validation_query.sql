@@ -1,0 +1,1 @@
+SELECT p.integrity_check, (SELECT count(*) FROM d1), (SELECT count(*) FROM t1), (SELECT a FROM t3), (SELECT b FROM t3), (SELECT c FROM t3), (SELECT count(*) FROM t4) FROM pragma_integrity_check AS p;

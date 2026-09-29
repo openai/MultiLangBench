@@ -1,0 +1,1 @@
+[["CREATE TABLE big(\n  f1 varchar(20),\n  f2 char(10),\n  f3 varchar(30) primary key,\n  f4 text,\n  f5 text,\n  f6 text,\n  f7 text,\n  f8 text,\n  f9 text,\n  f10 text,\n  f11 text,\n  f12 text,\n  f13 text,\n  f14 text,\n  f15 text,\n  f16 text,\n  f17 text,\n  f18 text,\n  f19 text,\n  f20 text\n)"]]

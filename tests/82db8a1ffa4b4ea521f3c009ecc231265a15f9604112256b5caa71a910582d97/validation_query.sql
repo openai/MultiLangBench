@@ -1,0 +1,1 @@
+SELECT kind, seq, val FROM (SELECT 1 AS k, 'data_version' AS kind, seq, v AS val FROM observed UNION ALL SELECT 2, 't1', rowid, a FROM t1) ORDER BY k, seq;

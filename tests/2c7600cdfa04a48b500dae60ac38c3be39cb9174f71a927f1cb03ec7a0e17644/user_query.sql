@@ -1,0 +1,1 @@
+PRAGMA recursive_triggers=ON; DELETE FROM t2; DELETE FROM fire; INSERT INTO t2(a,b) VALUES(1,1),(2,2),(3,3),(4,4); UPDATE OR REPLACE t2 SET a=1,b=3 WHERE a=1;

@@ -1,0 +1,1 @@
+SELECT 't3' AS src, a AS k, length(b) AS n, b=replace(hex(zeroblob(22)), '00', 'abcdefghij') AS exact_value, (SELECT page_size FROM pragma_page_size) AS pgsz FROM t3 UNION ALL SELECT 't4', c, length(d), d=replace(hex(zeroblob(22)), '00', 'abcdefghij'), (SELECT page_size FROM pragma_page_size) FROM t4 ORDER BY 1, 2

@@ -1,0 +1,1 @@
+CREATE TABLE t7(x,y); INSERT INTO t7 VALUES('pa1',1),('pa2',NULL),('pa3',NULL),('pa4',2),('pa30',131),('pa31',130),('pa28',NULL); CREATE TABLE t8(a INTEGER PRIMARY KEY,b); INSERT INTO t8 VALUES(1,'pa1'),(2,'pa4'),(3,NULL),(4,NULL),(130,'pa31'),(131,'pa30');

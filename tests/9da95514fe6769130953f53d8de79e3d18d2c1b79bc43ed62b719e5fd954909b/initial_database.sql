@@ -1,0 +1,10 @@
+CREATE TABLE d1(n int, log int);
+INSERT INTO d1 VALUES (1,0),(2,1),(3,2),(4,2),(5,3),(6,3),(7,3),(8,3),(9,4),(10,4),(11,4),(12,4),(13,4),(14,4),(15,4),(16,4),(17,5),(18,5),(19,5),(20,5);
+CREATE TABLE t1(log int, cnt int);
+CREATE INDEX i1 ON t1(log);
+CREATE INDEX i2 ON t1(cnt);
+INSERT INTO t1 SELECT log, count(*) FROM d1 GROUP BY log;
+CREATE TABLE t3(a,b,c);
+INSERT INTO t3 VALUES(NULL,2,1);
+CREATE TABLE t4(x,y);
+INSERT INTO t4 VALUES(1,2);

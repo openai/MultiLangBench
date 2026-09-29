@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT x,y,x+y FROM (SELECT avg(a) AS 'x', avg(b) AS 'y' FROM t2 WHERE a=4);

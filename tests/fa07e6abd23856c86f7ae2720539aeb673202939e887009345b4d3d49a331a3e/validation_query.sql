@@ -1,0 +1,1 @@
+SELECT count(*) AS rows_in_t1, count(a) AS nonnull_a, count(b) AS nonnull_b FROM t1;

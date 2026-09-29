@@ -1,0 +1,1 @@
+/* 10.1 */ CREATE TABLE t1(x); CREATE VIEW v1(y) AS SELECT x FROM t1; PRAGMA integrity_check; CREATE TABLE sfi_integrity AS SELECT * FROM pragma_integrity_check;

@@ -1,0 +1,1 @@
+CREATE TABLE hh(a,b,c); INSERT INTO hh VALUES('a','a',1),('a','b',2),('b','a',3),('b','b',4); CREATE TABLE k1(x,y); INSERT INTO k1 VALUES('a','a'),('b','b'),('a','b'),('b','a'); CREATE INDEX h1 ON hh(a,b); CREATE UNIQUE INDEX k1idx ON k1(x,y);

@@ -1,0 +1,1 @@
+SELECT matched_rowid FROM fts3aj_result ORDER BY matched_rowid;

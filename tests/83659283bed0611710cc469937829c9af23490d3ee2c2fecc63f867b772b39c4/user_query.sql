@@ -1,0 +1,1 @@
+INSERT INTO result SELECT degrees(asin(0.5));

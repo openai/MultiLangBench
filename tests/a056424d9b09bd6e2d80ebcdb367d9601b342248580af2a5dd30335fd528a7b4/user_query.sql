@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT printf('(%!-5.3s)','הנה מה־טוב ומה־נעים שבת אחים גם־יחד');

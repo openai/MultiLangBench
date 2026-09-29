@@ -1,0 +1,1 @@
+SELECT (SELECT page_size FROM pragma_page_size) AS page_size, (SELECT auto_vacuum FROM pragma_auto_vacuum) AS auto_vacuum, (SELECT count(*) FROM sqlite_schema WHERE type='table' AND name IN ('t1','t2','t3')) AS named_table_count, (SELECT count(*) FROM sqlite_schema WHERE type='table' AND name NOT LIKE 'sqlite_%') AS user_table_count, integrity_check FROM pragma_integrity_check;

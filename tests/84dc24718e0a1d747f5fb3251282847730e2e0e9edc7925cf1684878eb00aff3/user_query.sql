@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT max('z+'||a||'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOP') AS x FROM t2;

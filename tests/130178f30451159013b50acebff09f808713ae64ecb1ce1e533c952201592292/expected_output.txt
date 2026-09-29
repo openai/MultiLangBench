@@ -1,0 +1,1 @@
+[["table","t1","t1","CREATE TABLE t1(a integer primary key, b INTEGER NOT NULL)",0,"a","INTEGER",0,null,1],["table","t1","t1","CREATE TABLE t1(a integer primary key, b INTEGER NOT NULL)",1,"b","INTEGER",1,null,0]]

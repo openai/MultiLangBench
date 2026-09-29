@@ -1,0 +1,1 @@
+SELECT (SELECT sql FROM sqlite_schema WHERE type='table' AND name='t4') AS table_sql, (SELECT sql FROM sqlite_schema WHERE type='index' AND name='t4y') AS index_sql, (SELECT count(*) FROM ft4) AS ft4_count

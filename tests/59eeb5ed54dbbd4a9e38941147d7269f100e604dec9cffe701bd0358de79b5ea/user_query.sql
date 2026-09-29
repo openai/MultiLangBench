@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT coalesce(max(x),999) FROM t3;

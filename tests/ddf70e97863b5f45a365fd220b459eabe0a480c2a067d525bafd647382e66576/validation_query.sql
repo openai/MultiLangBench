@@ -1,0 +1,1 @@
+SELECT cid, name, type, "notnull", dflt_value, pk FROM result ORDER BY cid;

@@ -1,0 +1,1 @@
+SELECT SKU,Variant,ControlDate,ControlState,DeliveredQty FROM InventoryControl ORDER BY SKU,Variant;

@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT b||a FROM t1 ORDER BY (b||a) COLLATE nocase;

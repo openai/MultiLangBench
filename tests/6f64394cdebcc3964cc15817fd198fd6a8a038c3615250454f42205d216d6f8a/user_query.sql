@@ -1,0 +1,1 @@
+BEGIN; INSERT INTO t0(rowid,content) VALUES(1,'abc'); UPDATE t0 SET docid=5 WHERE docid=1; INSERT INTO t0(rowid,content) VALUES(6,'abc'); CREATE TABLE result AS SELECT docid AS value FROM t0 WHERE t0 MATCH 'abc'; COMMIT;

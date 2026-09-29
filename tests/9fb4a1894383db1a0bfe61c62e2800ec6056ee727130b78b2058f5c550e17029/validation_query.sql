@@ -1,0 +1,1 @@
+SELECT v, typeof(v) FROM sfi_result;

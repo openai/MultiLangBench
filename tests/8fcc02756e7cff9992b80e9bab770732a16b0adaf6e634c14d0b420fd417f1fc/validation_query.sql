@@ -1,0 +1,1 @@
+SELECT x, y, (SELECT count(*) FROM log) FROM t1 ORDER BY rowid;

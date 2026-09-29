@@ -1,0 +1,1 @@
+PRAGMA bogus=-1234; CREATE TABLE result(x); INSERT INTO result VALUES(1);

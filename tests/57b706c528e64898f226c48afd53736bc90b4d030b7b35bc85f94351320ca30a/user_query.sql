@@ -1,0 +1,18 @@
+CREATE TEMP TABLE t1(x UNIQUE);
+INSERT INTO t1 VALUES(1);
+DROP TABLE IF EXISTS t1;
+DROP TABLE IF EXISTS t2;
+DROP TABLE IF EXISTS t3;
+CREATE TEMP TABLE t1(x);
+CREATE TABLE t2(x);
+CREATE TABLE t3(x);
+INSERT INTO t1 VALUES(1);
+INSERT INTO t1 VALUES(2);
+INSERT INTO t2 VALUES(1);
+INSERT INTO t2 VALUES(2);
+CREATE TABLE sfi_capture(t1_count INTEGER, t1_min, t1_max, t1_sql TEXT);
+INSERT INTO sfi_capture
+SELECT (SELECT count(*) FROM temp.t1),
+       (SELECT min(x) FROM temp.t1),
+       (SELECT max(x) FROM temp.t1),
+       (SELECT sql FROM temp.sqlite_schema WHERE type='table' AND name='t1');

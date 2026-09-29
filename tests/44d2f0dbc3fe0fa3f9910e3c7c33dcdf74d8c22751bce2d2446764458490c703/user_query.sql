@@ -1,0 +1,1 @@
+DELETE FROM t2; INSERT INTO t2(rowid, x) VALUES (1, 'Ha Nôi'); DELETE FROM result; INSERT INTO result(value) SELECT count(*) FROM t2 WHERE t2 MATCH 'Ha Noi';

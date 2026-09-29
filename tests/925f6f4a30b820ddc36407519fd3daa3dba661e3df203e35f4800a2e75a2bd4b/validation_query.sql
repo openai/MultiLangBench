@@ -1,0 +1,1 @@
+SELECT 'row' AS k,'' AS v1,CAST(a AS TEXT) AS v2 FROM t1 UNION ALL SELECT 'schema',type,name FROM sqlite_master WHERE name IN ('t1','i1') ORDER BY 1,2,3;

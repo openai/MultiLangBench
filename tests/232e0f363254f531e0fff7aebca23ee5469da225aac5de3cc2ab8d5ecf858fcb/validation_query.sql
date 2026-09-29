@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM pragma_table_info('T1')), (SELECT type FROM pragma_table_info('T1') WHERE name='a'), (SELECT pk FROM pragma_table_info('T1') WHERE name='a'), (SELECT count(*) FROM pragma_table_info('T3')), (SELECT count(*) FROM T1), (SELECT count(*) FROM T3)

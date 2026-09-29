@@ -1,0 +1,1 @@
+ALTER TABLE a1 RENAME y TO yyy;

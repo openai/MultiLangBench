@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT d FROM t2 WHERE (a,b,c)<(SELECT a,b,c FROM t2 WHERE d=14);

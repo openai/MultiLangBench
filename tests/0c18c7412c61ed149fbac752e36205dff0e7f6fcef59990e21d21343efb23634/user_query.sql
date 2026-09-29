@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT min(max((SELECT x FROM v1))) OVER () AS z;

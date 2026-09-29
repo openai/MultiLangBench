@@ -1,0 +1,1 @@
+CREATE TABLE result(c1); INSERT INTO result SELECT sum(b) FROM t1;

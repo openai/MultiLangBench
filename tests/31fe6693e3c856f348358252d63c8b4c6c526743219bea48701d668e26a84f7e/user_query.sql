@@ -1,0 +1,1 @@
+ALTER TABLE abc2 ADD COLUMN d;

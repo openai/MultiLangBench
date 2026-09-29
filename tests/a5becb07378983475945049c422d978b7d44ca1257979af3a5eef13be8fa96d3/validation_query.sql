@@ -1,0 +1,1 @@
+SELECT level, quote(idx), start_block, quote(leaves_end_block), quote(end_block), quote(root) FROM Table0_segdir ORDER BY rowid;

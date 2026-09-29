@@ -1,0 +1,1 @@
+SELECT group_concat(x) FROM (SELECT x FROM t3 ORDER BY x)

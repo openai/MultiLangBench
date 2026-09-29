@@ -1,0 +1,1 @@
+ANALYZE sqlite_master; INSERT INTO sqlite_stat1 VALUES('v0','v3','648 324 81'); ANALYZE sqlite_master;

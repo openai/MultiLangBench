@@ -1,0 +1,1 @@
+SELECT seq,mode FROM result ORDER BY seq

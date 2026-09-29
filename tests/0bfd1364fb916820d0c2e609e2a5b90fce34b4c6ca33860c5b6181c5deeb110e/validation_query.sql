@@ -1,0 +1,1 @@
+SELECT a, b, (SELECT group_concat(name || ':' || pk, ',') FROM (SELECT name, pk FROM pragma_table_info('t1') ORDER BY cid)) AS table_columns, (SELECT group_concat(name, ',') FROM (SELECT name FROM pragma_index_info('i1') ORDER BY seqno)) AS i1_columns FROM t1 ORDER BY a;

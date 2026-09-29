@@ -1,0 +1,2 @@
+CREATE TABLE t1(aaa);
+INSERT INTO t1(aaa) VALUES(9);

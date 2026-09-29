@@ -1,0 +1,1 @@
+CREATE TABLE match(match match); INSERT INTO match VALUES(99); INSERT INTO match SELECT a FROM t1;

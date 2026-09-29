@@ -1,0 +1,1 @@
+[["table","t1","t1",1],["table","t2","t2",1],["table","t3","t3",1],["table","t4","t4",1],["trigger","a","t1",1],["trigger","b","t2",1],["trigger","c","t3",1],["trigger","d","t1",1],["trigger","e","t2",1],["trigger","f","t3",1],["trigger","g","t1",1],["trigger","h","t2",1],["trigger","i","t3",1]]

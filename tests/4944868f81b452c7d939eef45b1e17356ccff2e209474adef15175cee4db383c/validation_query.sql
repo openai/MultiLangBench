@@ -1,0 +1,1 @@
+SELECT (SELECT integrity_check FROM pragma_integrity_check LIMIT 1) AS integrity, count(*) AS n, min(a) AS min_a, max(a) AS max_a, sum(a) AS sum_a, min(length(b)) AS min_len, max(length(b)) AS max_len, (SELECT page_count FROM pragma_page_count) AS pages, (SELECT freelist_count FROM pragma_freelist_count) AS free_pages FROM t1;

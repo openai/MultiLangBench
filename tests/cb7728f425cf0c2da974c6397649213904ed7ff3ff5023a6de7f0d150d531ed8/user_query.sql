@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT json_extract(x,'$.settings.layer2."tris.legomenon"."summary.report"') AS v FROM t12;

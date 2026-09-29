@@ -1,0 +1,1 @@
+CREATE TABLE d4(x COLLATE nocase);INSERT INTO d4 VALUES('abc'),('ghi'),('DEF'),('JKL');

@@ -1,0 +1,1 @@
+REPLACE INTO t1 VALUES('dynamic','phone','flipper','harvard'); CREATE TABLE sfi_result AS SELECT a,b,c,d,'|' AS marker FROM t1 ORDER BY c,a;

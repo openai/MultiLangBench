@@ -1,0 +1,1 @@
+ATTACH ':memory:' AS aux; CREATE TABLE aux.t1(a, b); INSERT INTO aux.t1 VALUES('a aux', 'b aux'); CREATE VIEW aux.v2 AS SELECT * FROM t1; CREATE VIEW aux.v3 AS SELECT * FROM t1; INSERT INTO main.result SELECT * FROM aux.v2;

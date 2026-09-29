@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT count(DISTINCT a) AS n FROM t2, t1;

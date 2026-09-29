@@ -1,0 +1,1 @@
+CREATE TABLE abcꯍdef(a, b, c); ALTER TABLE abcꯍdef RENAME TO abcXdef; ALTER TABLE abcXdef RENAME TO abcꯍdef; ALTER TABLE abcꯍdef ADD COLUMN ghiS4jkl VARCHAR; ALTER TABLE abcꯍdef ADD COLUMN Bâ1A;

@@ -1,0 +1,1 @@
+SELECT count(*), coalesce(sum(length(x)),-1), (SELECT freelist_count FROM pragma_freelist_count), (SELECT count(*) FROM sqlite_schema WHERE type='table' AND name IN('t2','t3')), (SELECT integrity_check FROM pragma_integrity_check LIMIT 1) FROM t1

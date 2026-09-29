@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a, sum(b) AS total FROM t1 GROUP BY a ORDER BY a;

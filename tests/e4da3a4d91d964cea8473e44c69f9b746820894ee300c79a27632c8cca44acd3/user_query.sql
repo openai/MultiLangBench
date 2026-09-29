@@ -1,0 +1,1 @@
+CREATE TABLE x(n INTEGER); ATTACH ':memory:' AS a; CREATE TABLE a.x(n INTEGER); INSERT INTO a.x VALUES(1),(2),(3),(4); CREATE TABLE result AS SELECT count(*) AS n FROM a.x;

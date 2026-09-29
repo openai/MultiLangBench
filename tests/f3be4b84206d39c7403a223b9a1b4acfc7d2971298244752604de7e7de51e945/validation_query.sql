@@ -1,0 +1,1 @@
+SELECT count(*), c FROM t1 GROUP BY c ORDER BY c;

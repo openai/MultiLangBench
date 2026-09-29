@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT count(*) AS n_all, count(b) AS n_b, count(c) AS n_c, sum(b) AS sum_b, sum(c) AS sum_c, avg(b) AS avg_b, avg(c) AS avg_c, min(b) AS min_b, max(b) AS max_b FROM t1;

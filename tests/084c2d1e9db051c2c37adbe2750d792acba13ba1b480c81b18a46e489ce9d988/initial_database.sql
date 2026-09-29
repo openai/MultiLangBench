@@ -1,0 +1,1 @@
+CREATE TABLE q1(a TEXT,b INTEGER,c);INSERT INTO q1 VALUES(16,-87.66,NULL),('legible',94,-42.47),('beauty',36,NULL);CREATE TABLE q3(f REAL,g);INSERT INTO q3 VALUES('beauty',2),('beauty',2);

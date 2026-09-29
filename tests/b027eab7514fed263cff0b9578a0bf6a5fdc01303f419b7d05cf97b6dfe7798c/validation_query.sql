@@ -1,0 +1,1 @@
+SELECT a, b, c, d FROM "fuzzer [x] rules table" ORDER BY rowid

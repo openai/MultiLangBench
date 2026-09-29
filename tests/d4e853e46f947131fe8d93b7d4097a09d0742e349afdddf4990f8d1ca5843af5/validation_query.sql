@@ -1,0 +1,1 @@
+SELECT counter, value, rnk FROM result ORDER BY rowid;

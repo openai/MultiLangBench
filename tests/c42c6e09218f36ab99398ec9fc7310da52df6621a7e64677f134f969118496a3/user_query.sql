@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT quote(x),quote(y) FROM xx;

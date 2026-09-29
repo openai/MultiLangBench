@@ -1,0 +1,1 @@
+CREATE TABLE j2(e,f);

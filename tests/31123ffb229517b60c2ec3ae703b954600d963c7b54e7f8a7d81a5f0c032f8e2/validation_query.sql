@@ -1,0 +1,1 @@
+SELECT count(*) AS n, sum(b='test1') AS has_test1, sum(b='test2') AS has_test2, (SELECT integrity_check FROM pragma_integrity_check LIMIT 1) AS integrity_check FROM t3 WHERE a=999;

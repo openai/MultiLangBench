@@ -1,0 +1,1 @@
+UPDATE x1 SET a=t FROM map WHERE a=o;

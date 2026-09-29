@@ -1,0 +1,1 @@
+SELECT z FROM result ORDER BY rowid;

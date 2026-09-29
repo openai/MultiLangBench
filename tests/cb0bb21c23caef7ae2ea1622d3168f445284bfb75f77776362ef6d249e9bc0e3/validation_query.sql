@@ -1,0 +1,1 @@
+SELECT a, b, c, d, e FROM t8 ORDER BY a, b;

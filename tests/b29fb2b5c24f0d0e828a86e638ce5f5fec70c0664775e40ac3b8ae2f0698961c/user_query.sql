@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(1,CASE WHEN 1 THEN 'true' WHEN 0 THEN 'false' ELSE 'else' END),(2,CASE 0 WHEN 1 THEN 'true' WHEN 0 THEN 'false' ELSE 'else' END);

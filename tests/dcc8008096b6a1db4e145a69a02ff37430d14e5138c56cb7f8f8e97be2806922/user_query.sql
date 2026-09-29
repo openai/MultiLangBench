@@ -1,0 +1,7 @@
+PRAGMA temp_store = memory;
+BEGIN;
+INSERT INTO t1 VALUES(4, 5, 6);
+SAVEPOINT one;
+INSERT INTO t1 VALUES(7, 8, 9);
+ROLLBACK TO one;
+COMMIT;

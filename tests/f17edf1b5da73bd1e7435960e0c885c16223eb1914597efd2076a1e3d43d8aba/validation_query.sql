@@ -1,0 +1,1 @@
+SELECT o.v, t.x, t.y FROM observed AS o CROSS JOIN t1 AS t ORDER BY t.rowid;

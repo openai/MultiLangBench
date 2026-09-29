@@ -1,0 +1,1 @@
+CREATE TABLE t1(x, y, z); INSERT INTO t1 VALUES('1', 'I', 'one'); INSERT INTO t1 VALUES('2', 'IV', 'four'); INSERT INTO t1 VALUES('2', NULL, 'three'); INSERT INTO t1 VALUES('2', 'II', 'two'); INSERT INTO t1 VALUES('2', 'V', 'five'); INSERT INTO t1 VALUES('3', 'VI', 'six'); CREATE INDEX i1 ON t1(y DESC);

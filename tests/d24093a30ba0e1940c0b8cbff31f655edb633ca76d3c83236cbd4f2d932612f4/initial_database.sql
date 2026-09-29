@@ -1,0 +1,1 @@
+CREATE TABLE t(json JSON); INSERT INTO t VALUES('{"xyzzy":null}'); INSERT INTO t VALUES('{"foo":"meep","other":12345}'); INSERT INTO t VALUES('{"foo":"bingo","alt":5.25}');

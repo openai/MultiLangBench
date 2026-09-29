@@ -1,0 +1,1 @@
+SELECT a, b, c FROM t_distinct_bug ORDER BY rowid;

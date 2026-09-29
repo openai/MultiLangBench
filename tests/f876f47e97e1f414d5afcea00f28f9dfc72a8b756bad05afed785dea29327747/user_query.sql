@@ -1,0 +1,1 @@
+PRAGMA journal_mode=memory; CREATE TABLE t1(a INTEGER PRIMARY KEY, b UNIQUE); CREATE TABLE observed AS SELECT journal_mode AS mode FROM pragma_journal_mode;

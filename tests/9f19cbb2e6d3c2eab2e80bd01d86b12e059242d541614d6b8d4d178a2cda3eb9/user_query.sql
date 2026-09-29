@@ -1,0 +1,1 @@
+CREATE TABLE tb(a INTEGER PRIMARY KEY, b); INSERT INTO tb VALUES(1,1),(2,2),(3,3),(5,5),(7,7),(9,9),(11,'This is a key that is long enough to require a malloc in the VDBE'); CREATE TABLE _result AS SELECT a,b FROM tb WHERE a<10;

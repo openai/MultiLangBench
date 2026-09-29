@@ -1,0 +1,1 @@
+INSERT INTO result SELECT degrees(atan2(1,0));

@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b,c); CREATE VIEW v1 AS SELECT max(a),min(b) FROM t1 GROUP BY c;

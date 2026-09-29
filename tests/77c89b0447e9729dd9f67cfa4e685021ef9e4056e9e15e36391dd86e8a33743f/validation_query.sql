@@ -1,0 +1,1 @@
+SELECT count(*) AS n,min(d) AS min_d,max(d) AS max_d FROM t46;

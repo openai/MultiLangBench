@@ -1,0 +1,1 @@
+CREATE TABLE t1(a, b); ALTER TABLE t1 ADD c;

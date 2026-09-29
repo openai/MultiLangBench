@@ -1,0 +1,1 @@
+SELECT id, a, b, c FROM result ORDER BY rowid;

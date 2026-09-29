@@ -1,0 +1,1 @@
+INSERT INTO _result(a,d) SELECT a, (SELECT (SELECT d FROM t2 WHERE a=c)) FROM t1 GROUP BY a;

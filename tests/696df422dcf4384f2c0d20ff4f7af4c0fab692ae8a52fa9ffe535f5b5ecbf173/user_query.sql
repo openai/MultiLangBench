@@ -1,0 +1,1 @@
+DELETE FROM t2; INSERT INTO t2(rowid, a, b, c) VALUES(1, 3, 1, 4); INSERT INTO t2(rowid, a, b, c) VALUES(2, 1, 5, 9); INSERT INTO t2(rowid, a, b, c) VALUES(3, 2, 6, 5);

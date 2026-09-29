@@ -1,0 +1,1 @@
+PRAGMA auto_vacuum=incremental; VACUUM; CREATE TABLE t1(a,b,c); CREATE INDEX i1 ON t1(a,b); WITH RECURSIVE n(x) AS (VALUES(1) UNION ALL SELECT x+1 FROM n WHERE x<1024) INSERT INTO t1 SELECT replace(hex(zeroblob(400)),'00','x'),replace(hex(zeroblob(400)),'00','y'),replace(hex(zeroblob(400)),'00','z') FROM n;

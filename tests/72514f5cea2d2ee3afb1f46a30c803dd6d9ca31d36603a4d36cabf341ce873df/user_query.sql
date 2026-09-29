@@ -1,0 +1,1 @@
+INSERT INTO result SELECT typeof(CAST('1' AS REAL));

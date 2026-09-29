@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT t1.x FROM t AS t1;

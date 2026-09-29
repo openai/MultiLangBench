@@ -1,0 +1,2 @@
+UPDATE t1 SET b='x' WHERE a%2;
+ANALYZE;

@@ -1,0 +1,1 @@
+SELECT a,b,c FROM pp ORDER BY a

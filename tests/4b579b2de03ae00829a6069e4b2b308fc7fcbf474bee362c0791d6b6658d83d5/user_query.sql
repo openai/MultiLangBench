@@ -1,0 +1,1 @@
+DROP TABLE indexed; CREATE TABLE t10(indexed INTEGER); INSERT INTO t10 VALUES(1); CREATE INDEX indexed ON t10(indexed); CREATE TABLE result AS SELECT * FROM t10 INDEXED BY indexed WHERE indexed>0;

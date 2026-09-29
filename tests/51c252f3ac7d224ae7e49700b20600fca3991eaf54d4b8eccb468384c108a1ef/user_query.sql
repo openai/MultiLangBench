@@ -1,0 +1,1 @@
+CREATE TABLE t1(a INTEGER PRIMARY KEY, b); PRAGMA writable_schema=ON; UPDATE sqlite_schema SET sql='CREATE TABLE t1(a INTEGER PRIMARY KEY AUTOINCREMENT, b)'; PRAGMA writable_schema=OFF;

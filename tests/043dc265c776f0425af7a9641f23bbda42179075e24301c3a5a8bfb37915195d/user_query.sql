@@ -1,0 +1,1 @@
+CREATE TABLE result(c1,c2,c3); INSERT INTO result SELECT (a%5), sum(b) FILTER (WHERE b<20) AS bbb, count(DISTINCT b) FILTER (WHERE b<20 OR a=13) AS ccc FROM t1 GROUP BY (a%5) ORDER BY 2;

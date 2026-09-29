@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT t8a.a AS a, t8a.b AS b, t8b.x AS x, t8b.y AS y FROM t8a LEFT JOIN t8b ON (x = 'value' AND y = a);

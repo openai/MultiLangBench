@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT t1.a AS a FROM t1, t2, t3 WHERE t1.a=t2.c AND t2.b=t3.d ORDER BY t1.a;

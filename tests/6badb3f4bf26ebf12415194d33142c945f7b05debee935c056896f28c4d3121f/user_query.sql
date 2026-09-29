@@ -1,0 +1,1 @@
+INSERT INTO result SELECT ceiling(1.23), ceiling(-1.23);

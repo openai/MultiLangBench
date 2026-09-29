@@ -1,0 +1,1 @@
+SELECT count(*), sum(b=printf('%01000d',8000+rowid)), min(length(b)), max(length(b)), (SELECT integrity_check FROM pragma_integrity_check LIMIT 1) FROM t1;

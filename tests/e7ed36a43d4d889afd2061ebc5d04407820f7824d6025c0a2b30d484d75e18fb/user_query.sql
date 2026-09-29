@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(coalesce(datetime('946684800','unixepoch'),'NULL'))

@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT substr(t, 200, 100) FROM t1;

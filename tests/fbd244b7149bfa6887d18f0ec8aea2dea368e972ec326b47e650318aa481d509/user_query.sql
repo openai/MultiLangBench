@@ -1,0 +1,1 @@
+PRAGMA main.synchronous = OFF; CREATE TABLE observed(value INTEGER); INSERT INTO observed SELECT * FROM pragma_synchronous;

@@ -1,0 +1,1 @@
+SELECT count(*) AS row_count, (SELECT page_count FROM pragma_page_count) AS page_count, (SELECT freelist_count FROM pragma_freelist_count) AS freelist_count, (SELECT integrity_check FROM pragma_integrity_check) AS integrity_check FROM t1;

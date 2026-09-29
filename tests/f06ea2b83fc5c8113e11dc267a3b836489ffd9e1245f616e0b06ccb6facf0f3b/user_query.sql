@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT MIN(f1,f2) FROM test1;

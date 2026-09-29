@@ -1,0 +1,1 @@
+CREATE TABLE t(x,y); INSERT INTO t VALUES('1xyzzy','1'); CREATE TABLE result(a,b);

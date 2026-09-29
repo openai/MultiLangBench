@@ -1,0 +1,1 @@
+SELECT a, b, c, d, (SELECT count(*) FROM pragma_index_info('c1d')) AS c1d_columns, (SELECT count(*) FROM pragma_index_info('c1c')) AS c1c_columns, (SELECT [unique] FROM pragma_index_list('c1') WHERE name='c1c') AS c1c_unique FROM c1 ORDER BY a;

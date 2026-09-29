@@ -1,0 +1,1 @@
+SELECT a, b, c, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='t4c' AND tbl_name='t4') AS has_index, (SELECT instr(upper(sql),'WITHOUT ROWID')>0 FROM sqlite_schema WHERE type='table' AND name='t4') AS is_without_rowid FROM t4 ORDER BY a;

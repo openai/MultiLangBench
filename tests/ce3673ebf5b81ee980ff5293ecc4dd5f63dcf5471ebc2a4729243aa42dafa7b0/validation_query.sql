@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(a, ',') FROM (SELECT a FROM t1 ORDER BY a)), (SELECT group_concat(printf('%d:%d', b, c), ',') FROM (SELECT b, c FROM t2 ORDER BY b)), (SELECT group_concat(d, ',') FROM (SELECT d FROM t3 ORDER BY rowid));

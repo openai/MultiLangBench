@@ -1,0 +1,1 @@
+CREATE TABLE result AS WITH x1 AS (SELECT * FROM t1) SELECT sum(a) AS s FROM x1;

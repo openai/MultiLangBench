@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT typeof(+x) AS x FROM t29 ORDER BY id;

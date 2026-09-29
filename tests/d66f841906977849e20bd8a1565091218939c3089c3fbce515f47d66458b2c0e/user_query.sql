@@ -1,0 +1,1 @@
+CREATE TABLE actual AS SELECT * FROM t14 WHERE x<'a' ORDER BY rowid ASC;

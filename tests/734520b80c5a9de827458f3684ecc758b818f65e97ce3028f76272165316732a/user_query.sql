@@ -1,0 +1,1 @@
+INSERT INTO result SELECT '100x'+'4.5y';

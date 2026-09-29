@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT DISTINCT 'xyz' AS v FROM pragma_cache_size WHERE rowid OR abs(0) ORDER BY 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1;

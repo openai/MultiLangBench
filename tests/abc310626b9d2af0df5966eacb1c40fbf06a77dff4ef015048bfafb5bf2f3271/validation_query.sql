@@ -1,0 +1,1 @@
+SELECT is_equal, rank_value FROM result ORDER BY rowid;

@@ -1,0 +1,1 @@
+[["ab_i","ab_r","CREATE INDEX ab_i ON ab_r(b)"],["bc_i","bc_r","CREATE INDEX bc_i ON bc_r(b)"]]

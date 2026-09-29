@@ -1,0 +1,1 @@
+SELECT a, b FROM xyz WHERE a IN (42,50,52) ORDER BY a DESC;

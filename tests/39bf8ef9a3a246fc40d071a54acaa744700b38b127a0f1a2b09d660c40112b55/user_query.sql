@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT sum(x) AS total FROM (SELECT x FROM t3 ORDER BY x LIMIT 2);

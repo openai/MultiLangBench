@@ -1,0 +1,1 @@
+SELECT typeof(c),c,typeof(d),d FROM apollo

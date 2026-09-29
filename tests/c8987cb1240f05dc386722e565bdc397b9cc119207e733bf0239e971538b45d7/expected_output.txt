@@ -1,0 +1,1 @@
+[["CREATE TABLE x1(b, c PRIMARY KEY, d AS (b+c), e)"]]

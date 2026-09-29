@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT substring(char(97,4660,98,9029,99,13398,99), -5, 3);

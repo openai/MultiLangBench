@@ -1,0 +1,1 @@
+PRAGMA reverse_unordered_selects=ON; DELETE FROM t1 WHERE b=2;

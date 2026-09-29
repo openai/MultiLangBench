@@ -1,0 +1,1 @@
+INSERT INTO t3 VALUES('15','22.0');

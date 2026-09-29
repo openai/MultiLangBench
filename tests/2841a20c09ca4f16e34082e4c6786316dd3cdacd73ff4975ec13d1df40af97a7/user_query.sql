@@ -1,0 +1,1 @@
+CREATE TABLE database(database database); INSERT INTO database VALUES(99); INSERT INTO database SELECT a FROM t1;

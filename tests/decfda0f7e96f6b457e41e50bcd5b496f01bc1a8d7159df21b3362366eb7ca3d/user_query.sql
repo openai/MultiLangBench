@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE tok USING fts3tokenize('unicode61','tokenchars='); CREATE TABLE result AS SELECT position,token,hex(substr(CAST(input AS blob),start+1,end-start)) AS source FROM tok WHERE input='sqlite3_reset sqlite3_column_int' ORDER BY position;

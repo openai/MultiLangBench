@@ -1,0 +1,1 @@
+SELECT a, v FROM sfi_result;

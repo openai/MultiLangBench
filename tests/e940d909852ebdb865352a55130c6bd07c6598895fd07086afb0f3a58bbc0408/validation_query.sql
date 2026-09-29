@@ -1,0 +1,1 @@
+SELECT 'A' AS src,rowid AS rid,a,b FROM tblA UNION ALL SELECT 'B',rowid,a,b FROM tblB UNION ALL SELECT 'C',rowid,a,b FROM tblC ORDER BY src,rid

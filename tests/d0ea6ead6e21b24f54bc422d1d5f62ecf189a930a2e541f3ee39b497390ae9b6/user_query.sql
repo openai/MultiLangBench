@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; SAVEPOINT outer; INSERT INTO leaf VALUES('d',3); INSERT INTO leaf VALUES('e',3); INSERT INTO node VALUES(3,2); RELEASE outer;

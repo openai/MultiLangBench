@@ -1,0 +1,1 @@
+INSERT INTO t1 SELECT X'00', X'00', X'00', X'00';

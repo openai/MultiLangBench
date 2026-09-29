@@ -1,0 +1,1 @@
+CREATE TABLE t1(a, b TEXT, c, PRIMARY KEY(a,b), UNIQUE("B"));

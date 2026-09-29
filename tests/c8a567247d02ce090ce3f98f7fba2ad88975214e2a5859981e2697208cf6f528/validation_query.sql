@@ -1,0 +1,1 @@
+SELECT type, name, tbl_name, instr(sql, 'k INTEGER PRIMARY KEY')>0 AS has_pk, instr(sql, 'v BLOB')>0 AS has_blob FROM sqlite_schema WHERE name='blobs';

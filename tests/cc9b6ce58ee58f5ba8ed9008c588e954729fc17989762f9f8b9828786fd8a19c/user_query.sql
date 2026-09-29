@@ -1,0 +1,1 @@
+CREATE TABLE trigger(trigger trigger); INSERT INTO trigger VALUES(99); INSERT INTO trigger SELECT a FROM t1;

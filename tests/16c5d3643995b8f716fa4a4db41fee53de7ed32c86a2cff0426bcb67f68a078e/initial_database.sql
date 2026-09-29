@@ -1,0 +1,1 @@
+CREATE TABLE z1(a,b,c);INSERT INTO z1 VALUES(51.65,-59.58,'belfries'),(-5,NULL,75),(-2.2,-23.18,'suiters'),(NULL,67,'quartets'),(-1.04,-32.3,'aspen'),(63,'born',-26);

@@ -1,0 +1,1 @@
+INSERT INTO main.a1 SELECT c, b FROM a2

@@ -1,0 +1,1 @@
+CREATE TABLE t5(a,b,c,d); CREATE VIRTUAL TABLE ft5 USING fts4(content=t5); CREATE TABLE sfi_result AS SELECT name FROM sqlite_master WHERE name LIKE '%t5%';

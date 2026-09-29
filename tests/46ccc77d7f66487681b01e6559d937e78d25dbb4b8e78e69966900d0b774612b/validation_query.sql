@@ -1,0 +1,1 @@
+SELECT x, y, (SELECT count(*) FROM pragma_table_info('t3')) AS t3_column_count FROM t4;

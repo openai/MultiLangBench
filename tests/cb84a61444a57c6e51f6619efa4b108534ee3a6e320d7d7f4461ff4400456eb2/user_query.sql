@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT x75 FROM manycol WHERE x50=350;

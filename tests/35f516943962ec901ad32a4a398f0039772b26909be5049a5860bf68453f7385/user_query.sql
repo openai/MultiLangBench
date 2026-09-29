@@ -1,0 +1,1 @@
+CREATE TABLE query_result AS SELECT x, y FROM t2 ORDER BY x;

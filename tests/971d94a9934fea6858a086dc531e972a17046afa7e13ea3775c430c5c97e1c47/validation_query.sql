@@ -1,0 +1,1 @@
+SELECT count(*), min(id), max(id), sum(length(data)), sum(CASE WHEN data=replace(hex(zeroblob(500)), '00', 'blob'||id) THEN 1 ELSE 0 END) FROM t1;

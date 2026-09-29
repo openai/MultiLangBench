@@ -1,0 +1,1 @@
+PRAGMA recursive_triggers=ON; DELETE FROM t3; INSERT INTO t3(a,b,c,d) VALUES(1,1,1,1),(2,1,3,2),(3,4,5,6); DROP TRIGGER t3r1; CREATE TRIGGER t3r1 AFTER DELETE ON t3 BEGIN INSERT INTO t3(b,c,d) VALUES(old.b,old.c,old.d); END;

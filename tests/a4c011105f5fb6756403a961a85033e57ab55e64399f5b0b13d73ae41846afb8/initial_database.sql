@@ -1,0 +1,1 @@
+CREATE TABLE t1(x int, y int); INSERT INTO t1(rowid,x,y) VALUES(2,2,4),(1234,5,6),(1235,7,8),(1236,9,10),(12347,1,2);

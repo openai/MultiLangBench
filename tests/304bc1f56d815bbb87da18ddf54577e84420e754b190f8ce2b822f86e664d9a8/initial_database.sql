@@ -1,0 +1,1 @@
+CREATE TABLE h3(c,d);INSERT INTO h3 VALUES(1,NULL),(2,NULL),(3,NULL),(4,'2'),(5,NULL),(6,'2,3'),(7,NULL),(8,'2,4'),(9,'3');

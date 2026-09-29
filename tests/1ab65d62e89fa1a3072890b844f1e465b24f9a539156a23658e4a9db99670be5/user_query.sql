@@ -1,0 +1,1 @@
+INSERT INTO t3 VALUES(4, 5, 6);

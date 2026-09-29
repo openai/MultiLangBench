@@ -1,0 +1,1 @@
+SELECT count(*),group_concat(name,',') FROM result;

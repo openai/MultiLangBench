@@ -1,0 +1,1 @@
+SELECT t1_a, t1_b, t2_a, t2_b FROM result ORDER BY rowid;

@@ -1,0 +1,1 @@
+CREATE TABLE t1(a, b FLOAT); INSERT INTO t1(a) VALUES(''),(NULL),('X'),(NULL);

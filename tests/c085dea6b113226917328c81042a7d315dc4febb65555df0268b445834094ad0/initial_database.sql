@@ -1,0 +1,1 @@
+CREATE TABLE 'my table'(a, b PRIMARY KEY, d); INSERT INTO 'my table' VALUES(1,2,'hello'),(3,4,'world'); CREATE TABLE x1(a, b, c PRIMARY KEY, d AS (b+c) STORED, e); INSERT INTO x1(a,b,c,e) VALUES(1,2,3,4),(5,6,7,8),(9,10,11,12); ALTER TABLE x1 DROP COLUMN a;

@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM ft1) AS ft1_count, (SELECT group_concat(x, '|') FROM (SELECT x FROM ft1 ORDER BY docid)) AS ft1_rows, (SELECT count(*) FROM t1) AS t1_count, (SELECT group_concat(id || ':' || y, '|') FROM (SELECT id, y FROM t1 ORDER BY rowid)) AS t1_rows

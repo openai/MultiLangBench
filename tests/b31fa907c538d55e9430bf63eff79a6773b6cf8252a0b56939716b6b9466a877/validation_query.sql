@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM p1), (SELECT count(*) FROM sqlite_schema WHERE type='table' AND name='c1'), (SELECT v FROM observed), (SELECT count(*) FROM pragma_foreign_key_check);

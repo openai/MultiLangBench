@@ -1,0 +1,1 @@
+SELECT docid FROM r ORDER BY _rowid_;

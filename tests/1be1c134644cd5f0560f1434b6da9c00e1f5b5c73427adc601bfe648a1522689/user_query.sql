@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT (1 >= (a=0 AND y=1)) IS TRUE AS v FROM t1 LEFT JOIN t2;

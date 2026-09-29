@@ -1,0 +1,1 @@
+INSERT INTO result SELECT round(asin(0.2), 7);

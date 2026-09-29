@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT group_concat(num) AS value FROM (SELECT num FROM t1 ORDER BY num);

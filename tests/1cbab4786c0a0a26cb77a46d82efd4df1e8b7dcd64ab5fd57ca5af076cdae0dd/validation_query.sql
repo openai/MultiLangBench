@@ -1,0 +1,1 @@
+SELECT (SELECT a||':'||b FROM p),(SELECT c||':'||d FROM c1),(SELECT e||':'||f FROM c2),(SELECT e||':'||"f col 2" FROM c3)

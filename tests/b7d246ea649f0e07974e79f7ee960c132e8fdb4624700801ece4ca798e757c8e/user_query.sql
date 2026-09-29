@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t4 USING fts4; INSERT INTO t4 VALUES('a b c d'); CREATE TABLE r AS SELECT snippet(t4,'[',']','...',0,0) AS v FROM t4 WHERE t4 MATCH 'b';

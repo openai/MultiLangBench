@@ -1,0 +1,1 @@
+CREATE TABLE result(v); WITH t1(a,b) AS (VALUES(1, 2), (2, 3), (3, 4)) INSERT INTO result SELECT nth_value(b, 2.0) OVER (ORDER BY a) FROM t1;

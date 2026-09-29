@@ -1,0 +1,1 @@
+PRAGMA auto_vacuum=2; INSERT INTO tbl2 VALUES(replace(hex(zeroblob(110)),'00','1234567890')); CREATE TABLE tbl1(a,b,c);

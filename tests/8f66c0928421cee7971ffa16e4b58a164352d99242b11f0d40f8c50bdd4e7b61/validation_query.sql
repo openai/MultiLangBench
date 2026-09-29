@@ -1,0 +1,1 @@
+SELECT a,b,c FROM t45 ORDER BY b,a;

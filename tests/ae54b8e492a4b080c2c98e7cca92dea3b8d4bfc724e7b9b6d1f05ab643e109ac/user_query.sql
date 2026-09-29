@@ -1,0 +1,1 @@
+CREATE TABLE _result AS SELECT a FROM t1 WHERE a IN (5) AND b IN ();

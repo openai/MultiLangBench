@@ -1,0 +1,1 @@
+INSERT INTO result(qa,qb,marker) SELECT quote(a), quote(b), '|' FROM t1 GROUP BY a, abs(b);

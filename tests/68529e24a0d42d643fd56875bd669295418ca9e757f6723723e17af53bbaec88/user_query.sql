@@ -1,0 +1,1 @@
+ATTACH ':memory:' AS aux; CREATE TABLE aux.t1(a, b); CREATE VIEW aux.v3 AS SELECT * FROM t1; DROP VIEW v3; INSERT INTO main.view_log SELECT 'main', name FROM main.sqlite_schema WHERE type='view' UNION ALL SELECT 'temp', name FROM temp.sqlite_schema WHERE type='view' UNION ALL SELECT 'aux', name FROM aux.sqlite_schema WHERE type='view';

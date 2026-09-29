@@ -1,0 +1,1 @@
+SELECT i,j,k FROM xy ORDER BY i

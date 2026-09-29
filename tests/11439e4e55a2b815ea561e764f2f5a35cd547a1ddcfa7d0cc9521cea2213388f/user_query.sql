@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT 1000 = y FROM t3;

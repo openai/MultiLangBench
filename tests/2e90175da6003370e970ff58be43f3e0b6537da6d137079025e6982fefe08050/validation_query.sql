@@ -1,0 +1,1 @@
+SELECT w,x,[a b],z FROM excluded ORDER BY x,[a b];

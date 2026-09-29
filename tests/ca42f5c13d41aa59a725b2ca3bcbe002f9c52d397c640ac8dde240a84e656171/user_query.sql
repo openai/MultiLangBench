@@ -1,0 +1,1 @@
+CREATE TABLE _sfi_result AS SELECT * FROM v0 WHERE ('500' IS v0.c1) IS FALSE;

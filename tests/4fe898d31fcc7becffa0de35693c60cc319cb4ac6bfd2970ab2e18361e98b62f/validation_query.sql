@@ -1,0 +1,1 @@
+SELECT n, min_a, max_a, all_correct FROM result;

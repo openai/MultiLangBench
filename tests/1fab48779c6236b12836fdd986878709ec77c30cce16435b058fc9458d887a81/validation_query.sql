@@ -1,0 +1,1 @@
+SELECT aa1, bb, cc, x1, aa2, dd, ee, x2 FROM result_700 ORDER BY rowid;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT max(t1.a), (SELECT 'xyz' FROM (SELECT * FROM t2 WHERE 0) WHERE t1.b=1) FROM t1;

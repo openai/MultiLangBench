@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT b, b=count(*) AS is_count, '1,2' AS gc FROM t1 GROUP BY b ORDER BY b;

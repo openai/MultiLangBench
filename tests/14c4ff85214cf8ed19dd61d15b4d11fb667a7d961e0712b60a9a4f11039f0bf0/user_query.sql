@@ -1,0 +1,1 @@
+UPDATE t12 SET x=10.0;

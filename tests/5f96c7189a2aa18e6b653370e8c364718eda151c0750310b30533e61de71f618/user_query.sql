@@ -1,0 +1,1 @@
+/* check-1.7 */ INSERT INTO t1 VALUES(NULL,6);

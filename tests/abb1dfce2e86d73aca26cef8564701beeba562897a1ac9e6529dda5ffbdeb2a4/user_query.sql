@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT a,b,c FROM t45 WHERE b='two' AND a>4;

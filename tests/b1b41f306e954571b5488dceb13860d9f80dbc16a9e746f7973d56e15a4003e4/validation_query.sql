@@ -1,0 +1,1 @@
+SELECT 'all' AS source, rowid AS docid, t4.* FROM t4 UNION ALL SELECT 'match' AS source, sfi_result.* FROM sfi_result ORDER BY source, docid

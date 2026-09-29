@@ -1,0 +1,1 @@
+SELECT group_concat(type,'|') FROM pragma_table_info('x1')

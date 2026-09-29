@@ -1,0 +1,1 @@
+SELECT t.x, r.flag, NOT EXISTS (SELECT 1 FROM sqlite_schema WHERE type='table' AND name='xyzzy') AS xyzzy_absent FROM t1 AS t CROSS JOIN rollback_completed AS r ORDER BY t.x;

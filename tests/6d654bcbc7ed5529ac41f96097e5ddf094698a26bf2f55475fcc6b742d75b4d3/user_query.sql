@@ -1,0 +1,1 @@
+CREATE TABLE _result AS SELECT * FROM t1 LEFT JOIN t2 ON t1.a=t2.d WHERE t1.a>1 ORDER BY t1.a;

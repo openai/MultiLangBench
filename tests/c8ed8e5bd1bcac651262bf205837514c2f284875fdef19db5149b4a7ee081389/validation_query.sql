@@ -1,0 +1,1 @@
+SELECT snip FROM result ORDER BY docid

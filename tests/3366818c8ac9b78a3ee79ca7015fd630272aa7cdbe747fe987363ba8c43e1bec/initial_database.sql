@@ -1,0 +1,1 @@
+CREATE TABLE t1(x); INSERT INTO t1 VALUES('alpha'),('beta'),('gamma'); CREATE INDEX t1i1 ON t1(x); CREATE TABLE original_roots(name TEXT, original_rootpage INTEGER); INSERT INTO original_roots SELECT name,rootpage FROM sqlite_master WHERE name IN('t1','t1i1');

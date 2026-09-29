@@ -1,0 +1,1 @@
+CREATE TABLE t2(a,b UNIQUE); CREATE TABLE t3(a int references t2(b), b UNIQUE); CREATE INDEX t3i1 ON t3(a,b); CREATE TABLE result AS SELECT seqno,cid,name FROM pragma_index_info('t3i1') ORDER BY seqno;

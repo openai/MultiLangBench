@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT abs(t1) AS x FROM tbl1;

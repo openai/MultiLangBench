@@ -1,0 +1,1 @@
+SELECT sum(a), sum(b), sum(c) FROM abc;

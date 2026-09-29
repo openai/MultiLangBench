@@ -1,0 +1,1 @@
+INSERT INTO t2x VALUES(1);

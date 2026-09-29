@@ -1,0 +1,1 @@
+CREATE TABLE observed AS SELECT 'c4' AS src,a,b FROM c4 UNION ALL SELECT 'c5',a,b FROM c5 UNION ALL SELECT 'c6',a,b FROM c6;

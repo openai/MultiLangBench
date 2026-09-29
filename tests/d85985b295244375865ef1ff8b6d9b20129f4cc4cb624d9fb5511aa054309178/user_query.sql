@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT count(*) AS n FROM v0 WHERE ((c1 >= c0) OR 0+0);

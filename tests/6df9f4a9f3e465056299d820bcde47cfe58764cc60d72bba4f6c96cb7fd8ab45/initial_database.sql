@@ -1,0 +1,1 @@
+CREATE TABLE parent(x,y,UNIQUE(y,x)); CREATE TABLE c2(a,b,FOREIGN KEY(a,b) REFERENCES parent(x,y)); CREATE INDEX c2i ON c2(a,b); INSERT INTO parent VALUES(1,2);

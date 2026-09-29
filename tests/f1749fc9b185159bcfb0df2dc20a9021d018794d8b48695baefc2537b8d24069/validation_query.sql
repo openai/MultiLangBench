@@ -1,0 +1,1 @@
+SELECT a,b,c,d,e,f,g,h FROM t4 ORDER BY rowid;

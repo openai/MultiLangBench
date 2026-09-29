@@ -1,0 +1,1 @@
+CREATE TABLE t2(x int,y int,z int);CREATE INDEX i2y ON t2(y);INSERT INTO t2 VALUES(1,2,3);

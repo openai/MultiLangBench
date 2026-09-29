@@ -1,0 +1,1 @@
+CREATE TABLE result([from] TEXT,[to] TEXT);

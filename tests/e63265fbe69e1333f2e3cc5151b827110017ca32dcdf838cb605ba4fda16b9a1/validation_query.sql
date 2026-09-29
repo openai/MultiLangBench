@@ -1,0 +1,1 @@
+SELECT tbl,idx,stat FROM sqlite_stat1 WHERE tbl='t5' ORDER BY idx;

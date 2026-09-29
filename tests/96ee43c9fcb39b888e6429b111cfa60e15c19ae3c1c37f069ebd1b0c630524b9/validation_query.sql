@@ -1,0 +1,1 @@
+SELECT * FROM ignore ORDER BY ignore ASC

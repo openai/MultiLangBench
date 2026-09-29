@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT unlikely(t0.rowid) <= '0' AS u, likelihood(t0.rowid,0.5) <= '0' AS l FROM t0;

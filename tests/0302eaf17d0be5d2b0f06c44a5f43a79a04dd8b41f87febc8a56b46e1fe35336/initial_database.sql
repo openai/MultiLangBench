@@ -1,0 +1,1 @@
+CREATE TABLE t3_xx(a,b,UNIQUE(a,b)); INSERT INTO t3_xx VALUES(1,'one'),(2,'two'),(3,'three');

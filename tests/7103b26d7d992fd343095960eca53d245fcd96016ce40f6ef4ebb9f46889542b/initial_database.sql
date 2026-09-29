@@ -1,0 +1,1 @@
+CREATE TABLE t3_data(l,x,y); CREATE VIRTUAL TABLE t2 USING fts4(content=t3_data,languageid=l);

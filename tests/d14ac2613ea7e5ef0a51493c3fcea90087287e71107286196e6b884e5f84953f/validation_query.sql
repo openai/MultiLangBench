@@ -1,0 +1,1 @@
+SELECT b FROM t1 INDEXED BY detach WHERE a=2

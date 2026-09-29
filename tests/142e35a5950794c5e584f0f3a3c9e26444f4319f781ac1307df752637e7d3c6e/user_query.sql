@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT id, json_group_array(json(j)) OVER (ORDER BY id) AS v FROM testjson ORDER BY id;

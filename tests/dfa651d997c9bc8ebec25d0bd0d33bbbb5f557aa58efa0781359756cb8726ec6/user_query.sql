@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES(NULL,567); SELECT * FROM sqlite_sequence;

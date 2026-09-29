@@ -1,0 +1,1 @@
+SELECT a,rn,rnk,dr FROM result ORDER BY a

@@ -1,0 +1,1 @@
+SELECT a, b, c, d, e, f FROM t5 ORDER BY a, b, c, d, e, f;

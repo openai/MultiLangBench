@@ -1,0 +1,1 @@
+[["123","integer","CREATE TABLE c1(b)"]]

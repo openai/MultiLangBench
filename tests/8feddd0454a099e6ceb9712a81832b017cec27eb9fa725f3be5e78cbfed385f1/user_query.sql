@@ -1,0 +1,1 @@
+CREATE TABLE __sfi_result AS SELECT *, '|' AS sep FROM t2, t3, t1 WHERE b=x2 AND a=x1 AND 1=a;

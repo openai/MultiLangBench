@@ -1,0 +1,1 @@
+[["ft7"],["ft7_docsize"],["ft7_segdir"],["ft7_segments"],["ft7_stat"],["sqlite_autoindex_ft7_segdir_1"]]

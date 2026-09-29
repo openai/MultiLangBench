@@ -1,0 +1,1 @@
+CREATE TABLE t1(c1 var(+14,-22.3));

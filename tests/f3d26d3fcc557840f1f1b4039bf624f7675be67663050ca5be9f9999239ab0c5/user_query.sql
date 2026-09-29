@@ -1,0 +1,1 @@
+UPDATE t1 SET c=3,d=4,e=13 WHERE f=6;

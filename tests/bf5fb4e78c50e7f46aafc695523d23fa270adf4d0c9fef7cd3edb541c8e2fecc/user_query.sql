@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; INSERT INTO t8 VALUES(1,3);

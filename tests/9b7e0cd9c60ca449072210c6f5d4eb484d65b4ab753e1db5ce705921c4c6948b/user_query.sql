@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT typeof(sum(x)) AS x FROM t6;

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE ft1 USING fts3(a, b); CREATE VIRTUAL TABLE ft2 USING fts3([a], [b]); CREATE VIRTUAL TABLE ft3 USING fts3('a', "b"); CREATE VIRTUAL TABLE ft4 USING fts3(`a`, 'fred''s column'); CREATE VIRTUAL TABLE ft6 USING fts3(a, b, tokenize porter); CREATE VIRTUAL TABLE ft7 USING fts4(a, b, notindexed=b);

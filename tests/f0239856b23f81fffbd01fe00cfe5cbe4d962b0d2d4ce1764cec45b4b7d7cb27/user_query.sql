@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT ALL count(*),max(a) FROM t1 WHERE b>'one' GROUP BY b;

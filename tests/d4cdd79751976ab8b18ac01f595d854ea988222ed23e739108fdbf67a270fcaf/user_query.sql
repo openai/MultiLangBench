@@ -1,0 +1,1 @@
+INSERT INTO result SELECT DISTINCT json_extract(big.json,'$.id') FROM big,json_tree(big.json) WHERE json_tree.key='uuid' AND json_tree.value='6fa5181e-5721-11e5-a04e-57f3d7b32808';

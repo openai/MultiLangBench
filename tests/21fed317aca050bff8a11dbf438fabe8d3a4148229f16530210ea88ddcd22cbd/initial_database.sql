@@ -1,0 +1,8 @@
+CREATE TABLE test(col1 TEXT PRIMARY KEY);
+INSERT INTO test(col1) VALUES('a');
+INSERT INTO test(col1) VALUES('b');
+INSERT INTO test(col1) VALUES('c');
+CREATE TABLE test2(col1 TEXT PRIMARY KEY);
+INSERT INTO test2(col1) VALUES('a');
+INSERT INTO test2(col1) VALUES('b');
+INSERT INTO test2(col1) VALUES('c');

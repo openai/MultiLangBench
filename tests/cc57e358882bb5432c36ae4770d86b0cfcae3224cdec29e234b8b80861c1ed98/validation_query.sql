@@ -1,0 +1,1 @@
+SELECT rowid,a,b FROM t70a ORDER BY rowid;

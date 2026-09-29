@@ -1,0 +1,1 @@
+SELECT rowid, c0 FROM vt0 ORDER BY rowid

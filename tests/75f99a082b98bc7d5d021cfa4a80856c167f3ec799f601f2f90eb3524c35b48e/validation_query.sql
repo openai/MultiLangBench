@@ -1,0 +1,1 @@
+SELECT kind, n, x, y FROM (SELECT 'column' AS kind, cid AS n, name AS x, type AS y FROM pragma_table_info('t8') UNION ALL SELECT 'row', rowid, quote(b), quote(c) FROM t8) ORDER BY kind, n;

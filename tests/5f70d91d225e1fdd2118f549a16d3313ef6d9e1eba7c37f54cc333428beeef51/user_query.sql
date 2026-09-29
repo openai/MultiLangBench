@@ -1,0 +1,1 @@
+ATTACH DATABASE ':memory:' AS aux; CREATE TABLE aux.t1(a,b); CREATE TABLE aux.t2(c,d); CREATE TABLE aux.t3(e,f); INSERT INTO t3 VALUES(1,2); INSERT INTO main.result SELECT e,f FROM t3 ORDER BY rowid;

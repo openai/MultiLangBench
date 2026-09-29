@@ -1,0 +1,1 @@
+SELECT name, partial, '|' AS marker FROM captured_index_list ORDER BY name;

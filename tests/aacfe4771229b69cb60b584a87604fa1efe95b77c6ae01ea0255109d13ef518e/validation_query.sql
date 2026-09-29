@@ -1,0 +1,1 @@
+SELECT (SELECT x FROM t2),(SELECT x FROM t3),(SELECT x FROM t4),(SELECT x FROM t6),(SELECT integrity_check FROM pragma_integrity_check LIMIT 1)

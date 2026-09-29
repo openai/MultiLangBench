@@ -1,0 +1,1 @@
+SELECT poiCategory, poiCategoryId FROM t1 WHERE t1 MATCH '6021' ORDER BY docid;

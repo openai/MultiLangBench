@@ -1,0 +1,1 @@
+SELECT sql, (SELECT c FROM t1 WHERE a=1) FROM sqlite_master WHERE type='table' AND name='t1';

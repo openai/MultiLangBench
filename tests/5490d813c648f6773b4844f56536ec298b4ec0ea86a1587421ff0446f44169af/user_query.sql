@@ -1,0 +1,1 @@
+CREATE TABLE tab1(value INTEGER); INSERT INTO tab1(value,_rowid_) VALUES(11,1); INSERT INTO tab1(value,_rowid_) SELECT 22,999;

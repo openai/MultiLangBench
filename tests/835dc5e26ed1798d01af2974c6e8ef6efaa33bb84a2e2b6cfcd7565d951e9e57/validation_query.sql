@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM viewTest),(SELECT quote(TestID) FROM viewTest),(SELECT Test2 FROM viewTest),(SELECT freelist_count FROM pragma_freelist_count),(SELECT integrity_check FROM pragma_integrity_check);

@@ -1,0 +1,1 @@
+CREATE TABLE h2(x COLLATE nocase);INSERT INTO h2 VALUES('One'),('Two'),('Three'),('Four'),('one'),('two'),('three'),('four');

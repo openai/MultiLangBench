@@ -1,0 +1,1 @@
+SELECT cid, name, type, "notnull", dflt_value, pk, (SELECT sql FROM sqlite_schema WHERE type='table' AND name='Folders') AS schema_sql FROM pragma_table_info('Folders') ORDER BY cid;

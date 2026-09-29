@@ -1,0 +1,1 @@
+[["null","integer","integer","text","blob","text","blob"]]

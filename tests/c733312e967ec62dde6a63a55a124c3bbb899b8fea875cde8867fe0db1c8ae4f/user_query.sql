@@ -1,0 +1,1 @@
+PRAGMA synchronous = NORMAL; PRAGMA cache_size = 10; SAVEPOINT tr; UPDATE t1 SET x=x+10000; ROLLBACK TO tr; RELEASE tr;

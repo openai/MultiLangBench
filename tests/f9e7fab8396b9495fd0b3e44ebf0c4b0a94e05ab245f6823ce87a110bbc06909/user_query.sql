@@ -1,0 +1,1 @@
+DROP TABLE "if"; CREATE INDEX "if" ON t1(a);

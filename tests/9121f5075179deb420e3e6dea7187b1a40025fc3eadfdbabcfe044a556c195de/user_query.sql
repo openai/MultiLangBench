@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT coalesce(min(x+0),-1), coalesce(max(x+0),-1) FROM (SELECT * FROM t1 UNION SELECT NULL AS x, NULL AS y);

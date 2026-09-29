@@ -1,0 +1,1 @@
+[["table","log_entry","log_entry","CREATE TABLE log_entry(newname)"],["view","ttt","ttt","CREATE VIEW ttt AS WITH xyz(x) AS (SELECT newname FROM log_entry) SELECT x FROM xyz"]]

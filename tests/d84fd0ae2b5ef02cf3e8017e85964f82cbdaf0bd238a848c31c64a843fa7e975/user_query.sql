@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT hex(ltrim(v,c)) AS x FROM input;

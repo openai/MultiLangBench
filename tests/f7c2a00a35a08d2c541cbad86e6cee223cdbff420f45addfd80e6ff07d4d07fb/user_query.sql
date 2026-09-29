@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM pragma_user_version;

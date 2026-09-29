@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT snippet(ft2,'[',']','..',-1,6) AS txt FROM ft2 WHERE ft2 MATCH '"N K N"';

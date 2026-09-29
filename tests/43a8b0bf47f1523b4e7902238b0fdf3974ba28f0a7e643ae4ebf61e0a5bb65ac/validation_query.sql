@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM artist),(SELECT count(*) FROM track)

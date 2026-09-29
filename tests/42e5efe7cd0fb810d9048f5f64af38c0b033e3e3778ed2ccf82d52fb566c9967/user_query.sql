@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT 'abc'==('ABC'||'') COLLATE nocase; INSERT INTO result(v) SELECT 'abc'==('ABC'||'' COLLATE nocase); INSERT INTO result(v) SELECT 'abc'==('ABC'||('' COLLATE nocase)); INSERT INTO result(v) SELECT 'abc'==('ABC'||upper('' COLLATE nocase));

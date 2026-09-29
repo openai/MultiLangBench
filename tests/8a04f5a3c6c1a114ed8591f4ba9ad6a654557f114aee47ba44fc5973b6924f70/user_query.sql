@@ -1,0 +1,1 @@
+INSERT INTO result SELECT degrees(pi()), degrees(pi()/2);

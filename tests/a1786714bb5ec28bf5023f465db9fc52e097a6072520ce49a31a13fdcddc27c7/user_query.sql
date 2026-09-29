@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT c, sum(d) OVER (PARTITION BY b ORDER BY c) AS s FROM t1;

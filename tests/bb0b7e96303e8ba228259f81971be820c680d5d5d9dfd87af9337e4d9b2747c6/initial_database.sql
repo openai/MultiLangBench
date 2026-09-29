@@ -1,0 +1,1 @@
+CREATE TABLE x2(a CHECK(a||b),b); INSERT INTO x2 VALUES(1,'xx'),(1,'yy');

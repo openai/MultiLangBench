@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(x,'|') FROM (SELECT x FROM qq ORDER BY x)),(SELECT journal_mode FROM pragma_journal_mode)

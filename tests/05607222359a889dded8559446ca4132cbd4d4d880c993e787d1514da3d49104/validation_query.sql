@@ -1,0 +1,1 @@
+SELECT sql FROM sqlite_schema WHERE tbl_name='sqlite_stat1'

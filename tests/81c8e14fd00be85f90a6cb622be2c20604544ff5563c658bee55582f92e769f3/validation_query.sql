@@ -1,0 +1,1 @@
+SELECT typeof(v),length(v),length(CAST(v AS BLOB)),hex(v) FROM result;

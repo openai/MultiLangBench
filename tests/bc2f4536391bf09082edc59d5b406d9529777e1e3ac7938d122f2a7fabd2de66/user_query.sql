@@ -1,0 +1,1 @@
+ALTER TABLE abcꯍdef RENAME TO abcXdef;

@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; ALTER TABLE t1 RENAME TO t4;

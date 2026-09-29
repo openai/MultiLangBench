@@ -1,0 +1,1 @@
+CREATE TABLE a(c UNIQUE); INSERT INTO a VALUES(4),(0),(9),(-9); CREATE TABLE result AS SELECT a.c FROM a JOIN a AS b ON a.c=4 JOIN a AS e ON a.c=e.c WHERE a.c=(SELECT (SELECT coalesce(lead(2) OVER(),0)+sum(d.c)) FROM a AS d WHERE a.c);

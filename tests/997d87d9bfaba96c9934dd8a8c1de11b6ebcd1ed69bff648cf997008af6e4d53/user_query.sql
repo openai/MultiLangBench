@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES(0, 'abcdefghij') ON CONFLICT(v,k) DO NOTHING;

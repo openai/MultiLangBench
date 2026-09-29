@@ -1,0 +1,1 @@
+BEGIN; INSERT INTO fts(rowid,t) VALUES(2,'test'); INSERT INTO fts(fts) VALUES('optimize'); COMMIT; SELECT level,idx FROM fts_segdir ORDER BY level,idx;

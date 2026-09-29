@@ -1,0 +1,1 @@
+CREATE TABLE base(x); CREATE TABLE capture(n);

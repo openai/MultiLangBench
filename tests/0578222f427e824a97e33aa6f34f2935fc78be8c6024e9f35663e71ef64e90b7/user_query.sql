@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT count(*) AS n FROM t1_segdir;

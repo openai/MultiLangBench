@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM pA),(SELECT count(*) FROM cA),(SELECT count(*) FROM cB)

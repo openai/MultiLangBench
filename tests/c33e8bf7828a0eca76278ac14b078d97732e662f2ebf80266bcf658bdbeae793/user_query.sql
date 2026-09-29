@@ -1,0 +1,1 @@
+INSERT INTO result SELECT round(asinh(1), 7);

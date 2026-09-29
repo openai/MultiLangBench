@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts4(prefix='2147483647,2147483648,2147483649'); CREATE VIRTUAL TABLE t2 USING fts4(prefix=); INSERT INTO t1 VALUES('He dressed himself in cycling clothes'); INSERT INTO t2 VALUES('He dressed himself in cycling clothes');

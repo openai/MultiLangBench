@@ -1,0 +1,1 @@
+SELECT t0.c0,t0.c1,(SELECT count(*) FROM t1) AS t1_rows,(SELECT min(c0) FROM t1) AS t1_value FROM t0 ORDER BY t0.c0;

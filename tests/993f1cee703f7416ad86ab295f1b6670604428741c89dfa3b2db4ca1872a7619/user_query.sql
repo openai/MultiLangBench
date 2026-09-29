@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT trim('xyxzy  hi  zzzy','xyz') AS x;

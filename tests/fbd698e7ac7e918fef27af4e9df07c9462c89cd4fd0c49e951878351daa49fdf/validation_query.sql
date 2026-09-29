@@ -1,0 +1,1 @@
+SELECT r1.rowid, r1.a, r1.iB, r2.rowid, r2.x, r2.zY, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='r1ab') FROM r1 CROSS JOIN r2 ORDER BY r1.rowid, r2.rowid

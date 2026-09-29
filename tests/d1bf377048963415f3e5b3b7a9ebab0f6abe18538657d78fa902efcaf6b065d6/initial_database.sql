@@ -1,0 +1,1 @@
+CREATE TABLE c1(a,b,FOREIGN KEY(a,b) REFERENCES p1(c,"silly name")); CREATE TABLE p1(c,"silly name",PRIMARY KEY(c,"silly name")); INSERT INTO p1 VALUES(1,2),(3,4); INSERT INTO c1 VALUES(1,2);

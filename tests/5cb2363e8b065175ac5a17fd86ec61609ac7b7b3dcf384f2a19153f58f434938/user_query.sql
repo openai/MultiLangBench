@@ -1,0 +1,1 @@
+INSERT INTO _result(v) SELECT max((SELECT count(y) FROM t35b)) FROM t35a;

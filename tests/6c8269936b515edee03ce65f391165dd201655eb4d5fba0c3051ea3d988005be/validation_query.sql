@@ -1,0 +1,1 @@
+WITH s AS (SELECT level,idx FROM t1_segdir ORDER BY level,idx) SELECT 'n' AS k,count(*) AS a,sum(x='zero one two three') AS b FROM t1 UNION ALL SELECT 's',level,group_concat(idx,' ') FROM s GROUP BY level ORDER BY k,a

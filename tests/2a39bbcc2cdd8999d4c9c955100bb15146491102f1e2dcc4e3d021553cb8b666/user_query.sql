@@ -1,0 +1,1 @@
+CREATE TABLE result AS WITH t(id) AS (VALUES(2) UNION ALL SELECT i FROM tree,t WHERE p=id) SELECT id FROM t;

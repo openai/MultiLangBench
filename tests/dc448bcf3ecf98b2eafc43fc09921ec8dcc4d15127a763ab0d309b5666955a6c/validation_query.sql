@@ -1,0 +1,1 @@
+SELECT y FROM actual ORDER BY actual.rowid

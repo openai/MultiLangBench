@@ -1,0 +1,1 @@
+SELECT c0,c1 FROM actual ORDER BY actual.rowid

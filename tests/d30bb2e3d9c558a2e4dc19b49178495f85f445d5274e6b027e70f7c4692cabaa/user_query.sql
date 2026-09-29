@@ -1,0 +1,2 @@
+-- capi2-12.1
+CREATE VIEW view1 AS SELECT * FROM  tab1;

@@ -1,0 +1,1 @@
+SELECT nodeid,quote(parent) FROM node ORDER BY nodeid

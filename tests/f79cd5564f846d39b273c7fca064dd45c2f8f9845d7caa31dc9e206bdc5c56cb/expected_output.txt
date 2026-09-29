@@ -1,0 +1,1 @@
+[["c1","CREATE TABLE c1(a, b REFERENCES par)"],["c2","CREATE TABLE c2(a, b REFERENCES par)"],["c3","CREATE TABLE c3(a, b REFERENCES par(c))"],["par","CREATE TABLE par(a, b REFERENCES s1, c UNIQUE, PRIMARY KEY(a))"],["s1","CREATE TABLE s1(a PRIMARY KEY, b)"]]

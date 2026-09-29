@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a, sum(a) OVER (ORDER BY a), avg(a) OVER (ORDER BY a) FROM t2 ORDER BY a;

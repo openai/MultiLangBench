@@ -1,0 +1,1 @@
+SELECT * FROM sqlite_schema; PRAGMA auto_vacuum;

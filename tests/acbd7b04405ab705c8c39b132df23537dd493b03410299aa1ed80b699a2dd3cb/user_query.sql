@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT up||down FROM c1 GROUP BY (down<5) HAVING max(down)<10;

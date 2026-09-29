@@ -1,0 +1,1 @@
+CREATE TEMP TABLE force_temp(x); ATTACH ':memory:' AS aux1; ATTACH ':memory:' AS aux2; ATTACH '' AS noname; ATTACH ':memory:' AS inmem; INSERT INTO main.capture SELECT seq,name,file FROM pragma_database_list WHERE name IN ('noname','inmem') ORDER BY seq;

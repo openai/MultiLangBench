@@ -1,0 +1,1 @@
+CREATE TEMP TABLE t2(x,y); INSERT INTO t2 VALUES(1,2); CREATE INDEX i2 ON t2(x); CREATE TABLE main.result(n); INSERT INTO result SELECT count(*) FROM main.sqlite_master WHERE type='index' AND name='i2';

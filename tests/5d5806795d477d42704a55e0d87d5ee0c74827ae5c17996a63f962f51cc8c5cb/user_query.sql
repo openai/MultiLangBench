@@ -1,0 +1,1 @@
+UPDATE t1 SET x=x-x; INSERT INTO result SELECT x, typeof(x) FROM t1 ORDER BY rowid;

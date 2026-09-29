@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t12 USING fts4(tokenize=unicode61); INSERT INTO t12 VALUES('abc'||char(0)||'def'); INSERT INTO t12(t12) VALUES('integrity-check');

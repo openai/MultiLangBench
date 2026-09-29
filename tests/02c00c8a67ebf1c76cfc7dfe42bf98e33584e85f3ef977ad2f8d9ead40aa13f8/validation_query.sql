@@ -1,0 +1,1 @@
+SELECT c0,rid,c1 FROM result ORDER BY c0,c1,rid;

@@ -1,0 +1,1 @@
+SELECT rowid, mailcontent FROM t1 ORDER BY rowid

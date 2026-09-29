@@ -1,0 +1,1 @@
+INSERT INTO result(docid) SELECT docid FROM x1 WHERE x1 MATCH 'V ^-E';

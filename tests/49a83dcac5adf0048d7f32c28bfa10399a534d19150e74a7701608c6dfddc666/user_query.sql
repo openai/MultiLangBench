@@ -1,0 +1,1 @@
+CREATE INDEX i8 ON t8(a, b);

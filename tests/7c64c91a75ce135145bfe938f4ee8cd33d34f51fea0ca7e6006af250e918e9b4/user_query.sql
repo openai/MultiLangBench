@@ -1,0 +1,1 @@
+INSERT INTO pages(docid,title,body) VALUES(53,'Home Page','SQLite is a software...')

@@ -1,0 +1,1 @@
+SELECT tag FROM result ORDER BY rowid;

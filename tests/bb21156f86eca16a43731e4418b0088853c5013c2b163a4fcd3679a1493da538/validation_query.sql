@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1 WHERE a=1 AND b='one' AND c='I') AS t1_rows, (SELECT count(*) FROM t2 WHERE d=5 AND e='ten' AND f='XX') AS t2_row_5, (SELECT count(*) FROM t2 WHERE d=6 AND e IS NULL AND f IS NULL) AS t2_row_6, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='i1' AND tbl_name='t1') AS index_present

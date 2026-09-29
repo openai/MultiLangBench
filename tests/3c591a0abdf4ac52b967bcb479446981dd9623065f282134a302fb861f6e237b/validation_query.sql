@@ -1,0 +1,1 @@
+SELECT a,b,c,d,e,f,g,h,j,k,l,m,n,o,p,q,r,s,(SELECT group_concat(name, ',') FROM (SELECT name FROM sqlite_schema WHERE type='index' AND tbl_name='t1' ORDER BY name)) FROM t1;

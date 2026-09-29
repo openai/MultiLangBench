@@ -1,0 +1,1 @@
+PRAGMA auto_vacuum='invalid'; PRAGMA auto_vacuum;

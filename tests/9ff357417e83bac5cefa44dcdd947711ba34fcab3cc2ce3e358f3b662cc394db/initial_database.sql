@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE docs USING fts3(title,body); INSERT INTO docs VALUES('linux driver','a device'),('driver','linguistic trick'),('problems','linux problems'),('linux','big problems'),('linux driver','a device driver problem'),('good times','applications for linux'),('not so good','linux applications'),('alternative','linoleum appliances'),('no L I N','to be seen')

@@ -1,0 +1,1 @@
+SELECT c0,c0_type,c1,c1_type FROM result

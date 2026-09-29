@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT max(value1) AS m,(SELECT count(*) FROM t2 WHERE value2=value1) AS n FROM t1 GROUP BY id1;

@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(x, ',') FROM (SELECT x FROM t1 ORDER BY x)), (SELECT group_concat(y||':'||z, ',') FROM (SELECT y,z FROM t2 ORDER BY y)), (SELECT count(*) FROM pragma_foreign_key_check);

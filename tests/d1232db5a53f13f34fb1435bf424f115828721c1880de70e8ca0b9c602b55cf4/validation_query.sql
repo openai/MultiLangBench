@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(a||':'||b, ',') FROM (SELECT a,b FROM p2 ORDER BY a)), (SELECT group_concat(x||':'||y, ',') FROM (SELECT x,y FROM c2 ORDER BY x,y)), (SELECT on_update||'/'||on_delete FROM pragma_foreign_key_list('c2') LIMIT 1), (SELECT count(*) FROM pragma_foreign_key_check);

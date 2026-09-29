@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE ft9 USING fts4(content=,x); INSERT INTO ft9(docid,x) VALUES(13,'U O N X G'),(14,'C J J U B'),(15,'N J Y G X'),(16,'R Y D O R'),(17,'I Y T Q O');

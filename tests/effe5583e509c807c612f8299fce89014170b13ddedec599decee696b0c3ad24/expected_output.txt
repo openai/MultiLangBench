@@ -1,0 +1,1 @@
+[["collate6log","CREATE TABLE collate6log(a, b)"],["collate6tab","CREATE TABLE collate6tab(a COLLATE NOCASE, b COLLATE BINARY)"]]

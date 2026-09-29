@@ -1,0 +1,1 @@
+SELECT a,b,c FROM (SELECT 1 AS q,rowid AS r,a,b,c FROM sfi_result1 UNION ALL SELECT 2,rowid,a,b,c FROM sfi_result2) ORDER BY q,r;

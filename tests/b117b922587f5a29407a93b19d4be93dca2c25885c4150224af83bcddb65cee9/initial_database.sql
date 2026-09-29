@@ -1,0 +1,1 @@
+CREATE TABLE _bootstrap(x); DROP TABLE _bootstrap;

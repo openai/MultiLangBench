@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM mods) AS modifier_count, (SELECT count(*) FROM t5) AS total_rows, (SELECT count(*) FROM t5 WHERE datetime(y,m) IS NOT NULL) AS qualifying_rows, (SELECT count(*) FROM t5 INDEXED BY t5x1 WHERE datetime(y,m) IS NOT NULL) AS indexed_rows, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='t5x1') AS index_count;

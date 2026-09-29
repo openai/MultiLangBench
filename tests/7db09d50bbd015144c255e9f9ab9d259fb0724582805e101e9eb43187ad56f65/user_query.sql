@@ -1,0 +1,1 @@
+ATTACH ':memory:' AS aux1; CREATE TABLE aux1.t4(a,b); INSERT INTO aux1.t4 VALUES(555,'x5'); CREATE TEMP TABLE t3(a,b); INSERT INTO t3 VALUES(333,'x3'); CREATE TABLE main._result AS SELECT * FROM (t1), (t2), (t3), (t4) WHERE t4.a=t3.a+111 AND t3.a=t2.a+111 AND t2.a=t1.a+111;

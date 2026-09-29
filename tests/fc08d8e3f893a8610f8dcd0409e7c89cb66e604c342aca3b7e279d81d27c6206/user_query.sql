@@ -1,0 +1,1 @@
+INSERT INTO result(x) SELECT CAST('ÿ' AS BLOB)=X'C3BF';

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT 0 AS value FROM t44 WHERE a IN(1,2,3);

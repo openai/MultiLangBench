@@ -1,0 +1,1 @@
+SELECT c0 FROM result ORDER BY c0

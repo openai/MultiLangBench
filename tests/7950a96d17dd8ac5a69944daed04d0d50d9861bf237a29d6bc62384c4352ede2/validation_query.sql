@@ -1,0 +1,1 @@
+SELECT depId, class, name, flag FROM Dependencies ORDER BY depId;

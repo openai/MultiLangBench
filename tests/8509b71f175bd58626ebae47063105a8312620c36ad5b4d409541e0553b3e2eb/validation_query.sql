@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM sfi_result),(SELECT count(*) FROM sqlite_master WHERE name IN ('t1','t2','v1a','sfi_result'));

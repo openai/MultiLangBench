@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES(NULL, 'abcdefghij', 4000); INSERT INTO t1 VALUES(replace(hex(zeroblob(50)), '00', 'abcdefghij'), 4000, NULL); INSERT INTO t1 VALUES(4000, NULL, replace(hex(zeroblob(50000)), '00', 'abcdefghij'));

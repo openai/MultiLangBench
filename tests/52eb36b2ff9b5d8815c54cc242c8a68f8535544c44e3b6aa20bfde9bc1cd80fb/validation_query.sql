@@ -1,0 +1,1 @@
+SELECT a, b, c, (SELECT count(*) FROM def) AS def_rows, (SELECT count(*) FROM sqlite_schema WHERE type = 'trigger' AND name = 'abc_t2') AS abc_t2_rows FROM abc ORDER BY rowid;

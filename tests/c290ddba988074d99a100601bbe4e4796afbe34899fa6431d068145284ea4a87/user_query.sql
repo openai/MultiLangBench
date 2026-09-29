@@ -1,0 +1,1 @@
+WITH tx(timeval,expected) AS (VALUES('2022-01-27 13:15:44','2022-01-27 13:15:44'),(2459607.05260275,'2022-01-27 13:15:44'),(1643289344,'2022-01-27 13:15:44')) INSERT INTO result(value) SELECT datetime(timeval,'auto')=expected FROM tx;

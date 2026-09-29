@@ -1,0 +1,1 @@
+SELECT count(*),sum(length(block)),sum(CASE WHEN length(block)>10000 AND block=zeroblob(length(block)) THEN 1 ELSE 0 END) FROM t5_segments

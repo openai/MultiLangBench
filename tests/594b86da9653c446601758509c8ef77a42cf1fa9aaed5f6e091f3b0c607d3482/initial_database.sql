@@ -1,0 +1,1 @@
+CREATE TABLE t(label VARCHAR(10),step INTEGER); INSERT INTO t VALUES('a',1),('a',1),('b',1);

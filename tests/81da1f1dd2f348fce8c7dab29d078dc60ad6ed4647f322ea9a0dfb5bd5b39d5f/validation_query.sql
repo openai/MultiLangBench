@@ -1,0 +1,1 @@
+SELECT 't2' AS tbl, a, b, d AS extra FROM t2 UNION ALL SELECT 't3', a, b, e FROM t3 ORDER BY tbl, a, b, extra;

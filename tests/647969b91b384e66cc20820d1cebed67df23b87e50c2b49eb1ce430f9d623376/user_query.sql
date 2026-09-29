@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT g = g AS v FROM f GROUP BY h;

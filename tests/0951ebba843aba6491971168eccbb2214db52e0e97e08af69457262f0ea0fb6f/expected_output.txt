@@ -1,0 +1,1 @@
+[["table","t1x","t1x","CREATE TABLE \"t1x\"(aaa,b,c)"],["trigger","AFTER","t1x","CREATE TRIGGER AFTER INSERT ON \"t1x\" WHEN new.aaa NOT NULL BEGIN SELECT a () FILTER (WHERE aaa>0) FROM \"t1x\"; END"]]

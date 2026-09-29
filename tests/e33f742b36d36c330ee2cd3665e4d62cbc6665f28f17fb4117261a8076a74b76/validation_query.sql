@@ -1,0 +1,1 @@
+SELECT schema_name, a, b FROM data_log ORDER BY CASE schema_name WHEN 'main' THEN 1 WHEN 'temp' THEN 2 WHEN 'aux' THEN 3 END, a, b

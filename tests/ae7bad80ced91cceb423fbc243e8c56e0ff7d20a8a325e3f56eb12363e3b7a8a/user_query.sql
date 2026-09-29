@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result(x,s,m); INSERT INTO sfi_result SELECT * FROM (SELECT x,sum(y) AS s,max(z) AS m FROM t2 GROUP BY x);

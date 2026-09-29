@@ -1,0 +1,1 @@
+CREATE TABLE capture(trig, a, b);

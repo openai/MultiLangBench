@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; DELETE FROM track WHERE trackartist=2; DELETE FROM artist WHERE artistid=2;

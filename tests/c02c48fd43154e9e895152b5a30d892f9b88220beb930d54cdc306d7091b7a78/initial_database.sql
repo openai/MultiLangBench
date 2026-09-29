@@ -1,0 +1,1 @@
+CREATE TABLE ""("" UNIQUE, x CHAR(100));

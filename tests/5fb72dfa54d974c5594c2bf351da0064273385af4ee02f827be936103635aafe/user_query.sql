@@ -1,0 +1,1 @@
+INSERT INTO result(value) VALUES(sqlite_compileoption_used('THREADSAFE=0')),(sqlite_compileoption_used('THREADSAFE=1')),(sqlite_compileoption_used('THREADSAFE=2'));

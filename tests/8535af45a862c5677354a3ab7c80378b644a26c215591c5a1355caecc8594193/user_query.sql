@@ -1,0 +1,1 @@
+BEGIN; PRAGMA data_version; INSERT INTO observed VALUES(1,(SELECT * FROM pragma_data_version)); UPDATE t1 SET a=555 WHERE a=501; PRAGMA data_version; INSERT INTO observed VALUES(2,(SELECT * FROM pragma_data_version)); SELECT * FROM t1 ORDER BY a; PRAGMA data_version; INSERT INTO observed VALUES(3,(SELECT * FROM pragma_data_version)); COMMIT;

@@ -1,0 +1,1 @@
+CREATE TABLE t5(a COLLATE nocase,b COLLATE binary);INSERT INTO t5 VALUES('AA','cc'),('BB','dd'),(NULL,NULL);CREATE TABLE t6(a COLLATE binary,b COLLATE nocase);INSERT INTO t6 VALUES('aa','cc'),('bb','DD'),(NULL,NULL);

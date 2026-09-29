@@ -1,0 +1,1 @@
+CREATE TABLE result AS WITH tmp AS (SELECT * FROM t3), tmp2 AS (WITH tmp AS (SELECT * FROM t4) SELECT * FROM tmp) SELECT * FROM tmp2;

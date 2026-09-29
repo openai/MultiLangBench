@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a,b,a+b FROM (SELECT avg(x) AS 'a', y AS 'b' FROM t1 GROUP BY b HAVING a>1) ORDER BY a;

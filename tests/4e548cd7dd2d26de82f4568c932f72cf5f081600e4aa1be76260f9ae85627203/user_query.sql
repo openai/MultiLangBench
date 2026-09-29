@@ -1,0 +1,1 @@
+SELECT * FROM sqlite_schema; PRAGMA encoding='UTF-8'; CREATE TABLE result AS SELECT * FROM pragma_encoding;

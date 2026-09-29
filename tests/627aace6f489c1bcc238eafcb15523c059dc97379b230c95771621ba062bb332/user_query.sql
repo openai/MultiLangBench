@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT hex(replace('aabcdefg','a','aaa')) AS x;

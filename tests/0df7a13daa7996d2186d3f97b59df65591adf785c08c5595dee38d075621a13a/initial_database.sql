@@ -1,0 +1,1 @@
+CREATE TABLE t2_re(a,b NOT NULL ON CONFLICT REPLACE); INSERT INTO t2_re VALUES(1,'one'),(2,'two'),(3,'three');

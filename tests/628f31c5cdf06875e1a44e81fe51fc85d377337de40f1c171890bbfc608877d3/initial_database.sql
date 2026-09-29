@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t3 USING fts4; REPLACE INTO t3(docid,content) VALUES(3,'one two three four five six');

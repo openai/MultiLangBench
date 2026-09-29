@@ -1,0 +1,1 @@
+CREATE TABLE t1(w INT GENERATED ALWAYS AS (m*5),m INT AS (a*2) NOT NULL,a INT,x TEXT AS (typeof(c)) CHECK (x<>'blank'),b TEXT,y TEXT AS (substr(b,m/2,m/2+2)) STORED,c ANY,PRIMARY KEY(b,a)) WITHOUT ROWID;

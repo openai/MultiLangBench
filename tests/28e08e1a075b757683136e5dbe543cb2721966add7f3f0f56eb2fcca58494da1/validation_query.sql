@@ -1,0 +1,1 @@
+SELECT b FROM t1 WHERE rowid=2;

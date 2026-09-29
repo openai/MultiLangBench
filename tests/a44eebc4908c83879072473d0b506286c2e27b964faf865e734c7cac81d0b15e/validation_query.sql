@@ -1,0 +1,1 @@
+SELECT docid,size FROM sfi_result ORDER BY docid

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT name, color, dense_rank() OVER (PARTITION BY name ORDER BY color) AS r FROM fruits ORDER BY name, color, rowid;

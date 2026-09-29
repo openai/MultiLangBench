@@ -1,0 +1,2 @@
+CREATE TABLE sfi_result AS
+SELECT x, y FROM t2 WHERE x+5=5+x ORDER BY +x;

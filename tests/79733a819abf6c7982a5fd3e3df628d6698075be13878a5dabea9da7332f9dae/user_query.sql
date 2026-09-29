@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES('c',3,3,1) ON CONFLICT(z) DO UPDATE SET w=excluded.w;

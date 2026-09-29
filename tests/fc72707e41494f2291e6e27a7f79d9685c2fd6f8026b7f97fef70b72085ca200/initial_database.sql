@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b); CREATE INDEX t1i1 ON t1(a); ANALYZE main.t1;

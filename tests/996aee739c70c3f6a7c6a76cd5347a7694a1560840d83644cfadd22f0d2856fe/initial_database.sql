@@ -1,0 +1,1 @@
+CREATE TABLE r1(a UNIQUE, b UNIQUE); INSERT INTO r1 VALUES('i',1),('iii','v'),('vii','vi');

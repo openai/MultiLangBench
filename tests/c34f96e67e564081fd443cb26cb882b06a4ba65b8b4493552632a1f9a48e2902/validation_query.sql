@@ -1,0 +1,1 @@
+SELECT rowid,a,b,c,d,e,f FROM v1log ORDER BY rowid

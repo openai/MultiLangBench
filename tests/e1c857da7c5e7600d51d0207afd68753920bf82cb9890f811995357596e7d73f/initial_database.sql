@@ -1,0 +1,1 @@
+CREATE TABLE t4(a,b,rowid); INSERT INTO t4 VALUES('nine','ten','eleven'),('twelve','thirteen','fourteen');

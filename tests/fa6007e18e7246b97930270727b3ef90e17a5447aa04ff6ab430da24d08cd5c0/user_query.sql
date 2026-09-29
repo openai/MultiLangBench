@@ -1,0 +1,1 @@
+/* join5-4.2 */ CREATE TABLE sfi_result AS SELECT * FROM (SELECT 'apple' AS fruit UNION ALL SELECT 'banana') LEFT JOIN (SELECT 1) ON fruit='banana';

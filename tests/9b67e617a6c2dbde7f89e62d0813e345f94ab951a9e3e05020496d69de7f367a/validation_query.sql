@@ -1,0 +1,1 @@
+SELECT count(*), sum(c=('number-' || ((a*a*59+a*99991+7)%500000))), sum(length(c)), count(DISTINCT c) FROM t1;

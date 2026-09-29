@@ -1,0 +1,1 @@
+CREATE TABLE _result(seq INTEGER PRIMARY KEY, c1, c2, c3); INSERT INTO _result(c1,c2,c3) SELECT * FROM aa JOIN cc ON (a=b) JOIN bb ON (b=c);

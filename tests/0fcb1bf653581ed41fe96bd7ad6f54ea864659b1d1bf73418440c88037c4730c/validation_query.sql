@@ -1,0 +1,1 @@
+SELECT * FROM trusted_schema_result;

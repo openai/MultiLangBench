@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT dual.*,t1.*,t2.* FROM t1 CROSS JOIN dual RIGHT OUTER JOIN t2 ON b=c ORDER BY +b;

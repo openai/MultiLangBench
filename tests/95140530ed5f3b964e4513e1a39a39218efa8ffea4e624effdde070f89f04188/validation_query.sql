@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1 WHERE c>=101) AS remaining_high_c, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='bad1') AS bad1_present, (SELECT integrity_check FROM pragma_integrity_check LIMIT 1) AS integrity_check;

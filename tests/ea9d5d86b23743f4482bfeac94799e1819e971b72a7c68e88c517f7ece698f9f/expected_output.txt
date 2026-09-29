@@ -1,0 +1,1 @@
+[["table","a","a","CREATE TABLE a(b)"],["table","s","s","CREATE TABLE s(col)"],["view","v","v","CREATE VIEW v AS SELECT (WITH x(a) AS(SELECT * FROM s) VALUES(RIGHT)) IN()"]]

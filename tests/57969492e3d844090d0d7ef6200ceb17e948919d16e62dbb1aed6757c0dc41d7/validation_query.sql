@@ -1,0 +1,1 @@
+SELECT hex(m) FROM r ORDER BY rowid

@@ -1,0 +1,1 @@
+/* join5-11.2 */ CREATE TABLE sfi_result AS SELECT count(*) FROM t1 LEFT JOIN t2 ON c=b WHERE d IS NULL;

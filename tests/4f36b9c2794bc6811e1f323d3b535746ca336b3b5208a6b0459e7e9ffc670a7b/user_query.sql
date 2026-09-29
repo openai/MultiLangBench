@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM c1 WHERE x=y AND z=y AND z='abc';

@@ -1,0 +1,1 @@
+SELECT (SELECT name FROM pragma_table_info('sfi_result') WHERE cid=0), "1+2+3" FROM sfi_result;

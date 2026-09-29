@@ -1,0 +1,1 @@
+SELECT count(*),sum(a IS NULL) FROM t1

@@ -1,0 +1,1 @@
+DELETE FROM v4 WHERE c1 BETWEEN '8' AND 'eight';

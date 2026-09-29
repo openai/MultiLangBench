@@ -1,0 +1,1 @@
+[["table","t2","t2","CREATE TABLE t2(x TEXT COLLATE nocase, y TEXT)"],["index","t2x","t2","CREATE INDEX t2x ON t2(x COLLATE nocase)"],["index","t2y","t2","CREATE INDEX t2y ON t2(y)"]]

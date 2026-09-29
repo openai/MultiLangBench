@@ -1,0 +1,1 @@
+INSERT INTO t6(content,lid) VALUES('zero zero zero',1073741824),('zero zero one',1073741824),('zero one zero',1073741824),('zero one one',1073741824),('one zero zero',1073741824),('one zero one',1073741824),('one one zero',1073741824),('one one one',1073741824); CREATE TABLE result AS SELECT docid FROM t6 WHERE t6 MATCH '"zero zero"' AND lid=1073741824;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT min(c) OVER win3 << first_value(c) OVER win3,min(c) OVER win3 << first_value(c) OVER win3 FROM t1 WINDOW win3 AS (PARTITION BY 6 ORDER BY a RANGE BETWEEN 5.2 PRECEDING AND 0.1 PRECEDING);

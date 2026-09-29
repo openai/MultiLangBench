@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT sum(down) FROM c1 GROUP BY up;

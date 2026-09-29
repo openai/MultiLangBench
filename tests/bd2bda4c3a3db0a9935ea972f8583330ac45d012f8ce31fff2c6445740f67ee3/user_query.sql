@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a,b,c FROM t1 WHERE b>='y' AND rowid<10 ORDER BY b,a;

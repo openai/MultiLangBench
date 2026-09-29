@@ -1,0 +1,1 @@
+SELECT 'x1' AS tbl, docid, a, b, c FROM x1 UNION ALL SELECT 'x2', docid, a, b, c FROM x2 ORDER BY tbl, docid

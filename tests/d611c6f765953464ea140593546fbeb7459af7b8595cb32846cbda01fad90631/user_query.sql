@@ -1,0 +1,1 @@
+CREATE INDEX t10_ab ON t10(a+b);

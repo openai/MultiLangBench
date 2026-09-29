@@ -1,0 +1,1 @@
+SELECT a,b,'x' FROM t2 ORDER BY a

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT json_quote(12345) AS v;

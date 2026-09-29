@@ -1,0 +1,1 @@
+SELECT rowid, content FROM ft2 WHERE ft2 MATCH 'a' ORDER BY rowid;

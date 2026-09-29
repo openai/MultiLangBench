@@ -1,0 +1,1 @@
+SELECT count(*) AS n,min(a) AS a,min(b) AS b FROM x1

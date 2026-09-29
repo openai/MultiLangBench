@@ -1,0 +1,1 @@
+SELECT page_size * page_count FROM pragma_page_size, pragma_page_count;

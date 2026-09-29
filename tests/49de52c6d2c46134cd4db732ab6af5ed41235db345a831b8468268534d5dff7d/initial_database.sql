@@ -1,0 +1,4 @@
+CREATE TABLE blobs (k INTEGER PRIMARY KEY, v BLOB);
+PRAGMA cache_size = 100;
+INSERT INTO blobs VALUES(1, zeroblob(10000));
+CREATE TABLE observed(n INTEGER);

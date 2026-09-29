@@ -1,0 +1,1 @@
+SELECT page_count>20 FROM pragma_page_count;

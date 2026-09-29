@@ -1,0 +1,1 @@
+CREATE INDEX i6 ON t6(x); CREATE TABLE result AS SELECT coalesce(min(x),-1) FROM t6;

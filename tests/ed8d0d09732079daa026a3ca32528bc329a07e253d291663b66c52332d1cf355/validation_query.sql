@@ -1,0 +1,1 @@
+SELECT 'kk' AS src, rowid, a, b, NULL AS v FROM kk UNION ALL SELECT 'z1', rowid, x, y, z FROM z1 ORDER BY src, rowid;

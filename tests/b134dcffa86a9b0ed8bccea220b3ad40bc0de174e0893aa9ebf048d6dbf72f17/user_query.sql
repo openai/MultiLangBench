@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT T2.A AS A, T2.B AS B, T1.D AS D, T1.E AS E, T1.F AS F, T1.G AS G, T1.H AS H, MAX(T1.C) AS max_c, '^' AS marker FROM T1, T2 WHERE T1.B = T2.B AND T1.C = T2.C GROUP BY T2.A, T2.B, T1.D, T1.E, T1.F, T1.G, T1.H ORDER BY +max(t1.c);

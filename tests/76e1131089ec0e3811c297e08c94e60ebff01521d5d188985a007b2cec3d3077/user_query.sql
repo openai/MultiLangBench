@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT * FROM aa, bb WHERE CASE WHEN a=b-1 THEN 1 END;

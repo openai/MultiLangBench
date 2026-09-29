@@ -1,0 +1,1 @@
+SELECT mn,mx,n FROM result ORDER BY rowid

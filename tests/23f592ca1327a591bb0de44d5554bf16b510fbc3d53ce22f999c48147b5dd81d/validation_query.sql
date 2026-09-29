@@ -1,0 +1,1 @@
+SELECT a,x,marker FROM sfi_result ORDER BY rowid;

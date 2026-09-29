@@ -1,0 +1,1 @@
+[["t5a","CREATE INDEX t5a ON t5(abs(a))"],["t5b","CREATE INDEX t5b ON t5(abs(b))"]]

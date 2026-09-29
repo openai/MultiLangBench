@@ -1,0 +1,1 @@
+INSERT INTO result_140(b) SELECT * FROM t3 WHERE t3 MATCH 'four seven';

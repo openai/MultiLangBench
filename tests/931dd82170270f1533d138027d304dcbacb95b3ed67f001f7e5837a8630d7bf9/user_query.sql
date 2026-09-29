@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT q, p, r FROM (SELECT count(*) AS p, b AS q FROM t2 GROUP BY b) AS a, (SELECT max(a) AS r, b AS s FROM t2 GROUP BY b) AS b WHERE q=s ORDER BY s;

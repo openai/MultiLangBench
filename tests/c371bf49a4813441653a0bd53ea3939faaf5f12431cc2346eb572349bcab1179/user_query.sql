@@ -1,0 +1,2 @@
+PRAGMA recursive_triggers=OFF;
+DELETE FROM tbl;

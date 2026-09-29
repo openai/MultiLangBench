@@ -1,0 +1,1 @@
+CREATE TABLE cd(cdid INTEGER PRIMARY KEY NOT NULL, genreid INTEGER); CREATE INDEX cd_idx_genreid ON cd(genreid); INSERT INTO cd(cdid,genreid) VALUES (1,1),(2,NULL),(3,NULL),(4,NULL),(5,NULL);

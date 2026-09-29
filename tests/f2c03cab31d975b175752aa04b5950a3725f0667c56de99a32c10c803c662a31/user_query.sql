@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT substr(a,1,1) AS x FROM t2;

@@ -1,0 +1,1 @@
+CREATE TABLE _result AS SELECT a+100*(a BETWEEN 1 AND 3) AS v, b AS ord FROM t1;

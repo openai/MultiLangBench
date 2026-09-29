@@ -1,0 +1,1 @@
+PRAGMA count_changes=on; UPDATE test1 SET f1=f1-1 WHERE f1<=100 AND f2==128;

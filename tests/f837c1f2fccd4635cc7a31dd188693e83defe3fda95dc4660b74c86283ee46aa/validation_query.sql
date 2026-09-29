@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1) AS t1_rows, (SELECT count(*) FROM t2) AS t2_rows, (SELECT i FROM t2 LIMIT 1) AS i, (SELECT j FROM t2 LIMIT 1) AS j, (SELECT sql FROM sqlite_schema WHERE type='table' AND name='t1') AS t1_sql, (SELECT sql FROM sqlite_schema WHERE type='table' AND name='t2') AS t2_sql;

@@ -1,0 +1,1 @@
+[[0,0,"t300","c2","id","RESTRICT","CASCADE","NONE"],[1,0,"t300","c1","id","RESTRICT","CASCADE","NONE"]]

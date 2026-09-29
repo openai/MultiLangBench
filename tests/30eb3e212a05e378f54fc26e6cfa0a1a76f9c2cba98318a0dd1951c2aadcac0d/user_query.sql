@@ -1,0 +1,1 @@
+INSERT INTO t5 VALUES(NULL,'not null');

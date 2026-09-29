@@ -1,0 +1,1 @@
+SELECT i,p FROM tree ORDER BY rowid;

@@ -1,0 +1,1 @@
+SELECT * FROM raise ORDER BY "raise" ASC

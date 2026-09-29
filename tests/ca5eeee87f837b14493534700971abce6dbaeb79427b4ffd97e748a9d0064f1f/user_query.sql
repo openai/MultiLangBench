@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT sum(b) AS sum_b, total(b) AS total_b FROM t1 WHERE b<0;

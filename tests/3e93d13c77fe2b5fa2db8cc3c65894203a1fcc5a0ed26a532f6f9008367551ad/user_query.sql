@@ -1,0 +1,1 @@
+ATTACH DATABASE ':memory:' AS aux; CREATE TABLE aux.t3(e,f); INSERT INTO aux.t3 VALUES(1,2); INSERT INTO aux.t3 VALUES('hello','world'); CREATE VIEW aux.v1 AS SELECT * FROM t3; DROP VIEW aux.v1; INSERT INTO main.result SELECT count(*) FROM aux.sqlite_master WHERE name='v1';

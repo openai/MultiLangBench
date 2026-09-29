@@ -1,0 +1,1 @@
+CREATE TABLE hh(a,b,c); INSERT INTO hh VALUES('abc',1,'i'),('ABC',1,'ii'),('def',2,'iii'),('DEF',2,'iv'),('GHI',3,'v'),('ghi',3,'vi'); CREATE INDEX hh_ab ON hh(a,b);

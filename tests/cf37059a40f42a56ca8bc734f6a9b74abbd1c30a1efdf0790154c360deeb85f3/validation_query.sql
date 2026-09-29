@@ -1,0 +1,1 @@
+SELECT count(*) AS nrow,sum(rowid) AS rowid_sum,sum(i) AS value_sum,sum(length(t)) AS text_length,sum((rowid%2)=0) AS even_rows,sum((rowid%2)=0 AND i=rowid AND t=printf('number %d',rowid)) AS correct_rows,min(t) AS min_text,max(t) AS max_text FROM t4;

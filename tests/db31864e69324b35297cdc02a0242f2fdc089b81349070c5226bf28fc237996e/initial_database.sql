@@ -1,0 +1,1 @@
+PRAGMA encoding='UTF-8'; CREATE VIRTUAL TABLE ft USING fts3(x,y); INSERT INTO ft(docid,x,y) VALUES(1000000,'a','b'); INSERT INTO ft(docid,x,y) VALUES(2000000,'c','d'); INSERT INTO ft(docid,x,y) VALUES(3000000,'e','f');

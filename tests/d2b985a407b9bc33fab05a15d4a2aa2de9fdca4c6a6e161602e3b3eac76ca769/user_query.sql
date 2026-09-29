@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT 2 AS y FROM t1, t2 ORDER BY y COLLATE nocase;

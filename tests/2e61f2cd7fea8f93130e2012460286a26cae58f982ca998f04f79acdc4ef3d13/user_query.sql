@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT snippet(t4,'','','',0,64) AS v FROM t4 WHERE t4 MATCH 'E';

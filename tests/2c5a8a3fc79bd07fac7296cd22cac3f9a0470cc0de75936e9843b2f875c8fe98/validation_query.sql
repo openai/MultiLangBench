@@ -1,0 +1,1 @@
+SELECT name,tbl_name,instr(upper(sql),'BEFORE')>0 AS correct_timing FROM sqlite_schema WHERE type='trigger' ORDER BY name;

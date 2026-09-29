@@ -1,0 +1,1 @@
+CREATE TABLE result(v); CREATE TABLE t0(c0 PRIMARY KEY,c1); INSERT INTO t0(c0) VALUES (x'bb'),(0);

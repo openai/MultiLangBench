@@ -1,0 +1,1 @@
+SELECT 't1' AS table_name, rowid AS rid, x FROM t1 UNION ALL SELECT 't2', rowid, x FROM t2 ORDER BY 1,2;

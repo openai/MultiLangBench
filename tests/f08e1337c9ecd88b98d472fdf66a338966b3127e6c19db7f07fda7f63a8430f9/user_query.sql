@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT sum(44) OVER ();

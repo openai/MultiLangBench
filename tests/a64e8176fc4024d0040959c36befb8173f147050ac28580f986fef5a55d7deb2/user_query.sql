@@ -1,0 +1,1 @@
+INSERT INTO t3(rowid,x,y) VALUES(0,'R T M S M','A F O K H'),(1,'C Z J O X','U S Q D K'),(2,'N G H P O','N O P O C'),(3,'V H S D R','K N G E C'),(4,'J T R V U','U X S L C'),(5,'N A Y N G','X D G P Y'); UPDATE ft3 SET x=y,y=x; DELETE FROM t3;

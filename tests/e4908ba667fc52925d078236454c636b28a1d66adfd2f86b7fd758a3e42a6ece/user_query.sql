@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT content FROM docs WHERE main.docs.docs MATCH 'sqlite'

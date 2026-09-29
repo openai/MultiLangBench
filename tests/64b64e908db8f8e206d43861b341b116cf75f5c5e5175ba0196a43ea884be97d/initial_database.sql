@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b,c,d,e,f); INSERT INTO t1 VALUES(1,2,3,4,5,6); CREATE TABLE t2(x,y,z);

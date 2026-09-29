@@ -1,0 +1,1 @@
+SELECT 'a:' AS tag, x, y FROM log UNION ALL SELECT 'b:' AS tag, x, y FROM log2 ORDER BY x;

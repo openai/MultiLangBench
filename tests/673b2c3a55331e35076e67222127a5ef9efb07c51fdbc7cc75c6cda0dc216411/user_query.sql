@@ -1,0 +1,1 @@
+DELETE FROM log; WITH data(k, v) AS (VALUES(1, 'seven'), (1, 'eight'), (2, 'eleven'), (2, 'twelve')) UPDATE o1 SET z=v FROM data WHERE (1+w*2+x)=k;

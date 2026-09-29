@@ -1,0 +1,1 @@
+CREATE TABLE t8(pk SHORT INTEGER primary key);

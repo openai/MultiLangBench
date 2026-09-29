@@ -1,0 +1,1 @@
+SELECT a, typeof(a), typeof(b), quote(b), (SELECT [strict] FROM pragma_table_list WHERE schema='main' AND name='t2') AS is_strict, (SELECT integrity_check FROM pragma_integrity_check('t2')) AS check_result FROM t2 ORDER BY a;

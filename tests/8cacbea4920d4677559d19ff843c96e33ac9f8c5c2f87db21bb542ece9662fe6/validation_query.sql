@@ -1,0 +1,1 @@
+SELECT name, sql FROM sqlite_schema WHERE name IN ('t1','t5','v3') ORDER BY rowid;

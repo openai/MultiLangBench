@@ -1,0 +1,1 @@
+SELECT d FROM skipscan3_result ORDER BY d;

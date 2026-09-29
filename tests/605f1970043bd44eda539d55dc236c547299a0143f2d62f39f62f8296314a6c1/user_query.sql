@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM Table0 WHERE Table0 MATCH 'a';

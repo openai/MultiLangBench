@@ -1,0 +1,1 @@
+[["sqlite_autoindex_t3_1,t3,t3_idx1,t3_idx2"]]

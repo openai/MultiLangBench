@@ -1,0 +1,1 @@
+SELECT name, sql FROM sqlite_schema WHERE type = 'table' AND name IN ('s1','par','c1','c2','c3') ORDER BY name;

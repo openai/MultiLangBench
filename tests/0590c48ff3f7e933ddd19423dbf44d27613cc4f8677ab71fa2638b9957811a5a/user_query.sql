@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT group_concat(c,'.') OVER (win1 ORDER BY c) FROM t1 WINDOW win1 AS (PARTITION BY b);

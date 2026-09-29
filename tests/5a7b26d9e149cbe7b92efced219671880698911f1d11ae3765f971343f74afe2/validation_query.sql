@@ -1,0 +1,1 @@
+SELECT 0 AS section,cid AS ord,name,NULL AS data FROM pragma_table_info('result') UNION ALL SELECT 1,rowid,NULL,json_array("v2.a","v2.x","v2.a:1","v2.x:1","v2.a:2","v2.b","v2.c","v2.x:2","v2.y","v2.z","v2.a:3","v2.b:1","v2.c:1","v2.x:3","v2.y:1","v2.z:1") FROM result ORDER BY section,ord;

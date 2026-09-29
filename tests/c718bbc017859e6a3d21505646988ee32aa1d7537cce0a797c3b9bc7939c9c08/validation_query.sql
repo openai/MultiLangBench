@@ -1,0 +1,1 @@
+SELECT a,b,c,d,(SELECT stat FROM sqlite_stat1 WHERE tbl='t2' AND idx='sqlite_autoindex_t2_1') AS stat FROM t2 ORDER BY a,b,c;

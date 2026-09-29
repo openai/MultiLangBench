@@ -1,0 +1,1 @@
+CREATE TABLE _result AS SELECT b NOT IN (SELECT inside.a FROM t7 AS inside WHERE inside.b BETWEEN outside.b+1 AND outside.b+2) AS v,b AS ord FROM t7 AS outside;

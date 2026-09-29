@@ -1,0 +1,1 @@
+WITH RECURSIVE r(i,a,b,c) AS (SELECT 0,a,b,c FROM t1 WHERE rowid=(SELECT max(rowid) FROM t1) UNION ALL SELECT i+1, ((a<<3)+b)&2147483647, ((b<<3)+c)&2147483647, ((c<<3)+a)&2147483647 FROM r WHERE i<256) INSERT INTO t1(a,b,c) SELECT a,b,c FROM r WHERE i>0 ORDER BY i;

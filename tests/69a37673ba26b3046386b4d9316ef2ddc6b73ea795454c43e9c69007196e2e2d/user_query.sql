@@ -1,0 +1,1 @@
+CREATE TABLE _sfi_result AS SELECT 'affinity!' AS value FROM t1 CROSS JOIN t2 WHERE t2.c = '14';

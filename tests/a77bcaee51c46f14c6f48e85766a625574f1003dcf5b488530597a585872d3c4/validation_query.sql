@@ -1,0 +1,1 @@
+SELECT f1,f2,f3,f4 FROM test2 WHERE f1=77

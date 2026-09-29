@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT (SELECT min(a) OVER ()) AS v FROM t2;

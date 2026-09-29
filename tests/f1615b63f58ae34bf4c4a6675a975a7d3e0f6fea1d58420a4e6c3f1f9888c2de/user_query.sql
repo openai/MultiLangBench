@@ -1,0 +1,1 @@
+CREATE TABLE a(a,b,c); INSERT INTO a VALUES(1,2,3),(4,5,6); CREATE TABLE result AS SELECT sum(345+b) OVER (ORDER BY b),sum(avg(678)) OVER (ORDER BY c) FROM a;

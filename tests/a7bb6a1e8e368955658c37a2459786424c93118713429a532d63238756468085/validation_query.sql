@@ -1,0 +1,1 @@
+SELECT count(*) AS t1_rows, (SELECT count(*) FROM t2) AS t2_rows, (SELECT count(*) FROM sqlite_schema WHERE type='table' AND name IN ('t1','t2')) AS table_count FROM t1 RIGHT JOIN (SELECT 1) ON 1=1;

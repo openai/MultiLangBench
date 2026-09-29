@@ -1,0 +1,1 @@
+INSERT INTO result(x) SELECT 'ÿ'=CAST(X'C3BF' AS TEXT);

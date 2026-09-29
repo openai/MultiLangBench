@@ -1,0 +1,1 @@
+INSERT INTO result(seq,value) SELECT 1,json_extract(x,'$.b') FROM obj UNION ALL SELECT 2,json_extract(x,'$."b"') FROM obj;

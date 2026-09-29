@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT d FROM t2 WHERE a=2 AND (b,c)>(2,2);

@@ -1,0 +1,1 @@
+SELECT (SELECT * FROM pragma_encoding) AS db_encoding, seq, x, y, z FROM enc12_4_result ORDER BY seq

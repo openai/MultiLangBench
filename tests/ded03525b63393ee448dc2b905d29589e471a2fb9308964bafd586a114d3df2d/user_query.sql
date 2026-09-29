@@ -1,0 +1,1 @@
+UPDATE t0 SET b=88 WHERE (a in(0,1))=1;

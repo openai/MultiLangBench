@@ -1,0 +1,1 @@
+SELECT a, b, (SELECT count(*) FROM t2) AS t2_count FROM t1 ORDER BY rowid;

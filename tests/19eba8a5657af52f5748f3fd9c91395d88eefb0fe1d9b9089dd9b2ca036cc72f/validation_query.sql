@@ -1,0 +1,1 @@
+SELECT count(*) AS remaining FROM sqlite_schema WHERE name IN ('t3','t4','t4i');

@@ -1,0 +1,1 @@
+INSERT INTO result SELECT round(atan2(-2,2), 7), round(atan2(pi(),0), 7);

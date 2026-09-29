@@ -1,0 +1,1 @@
+SELECT e, b FROM r13a ORDER BY ord;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT max(a) FROM t2 LIMIT 0;

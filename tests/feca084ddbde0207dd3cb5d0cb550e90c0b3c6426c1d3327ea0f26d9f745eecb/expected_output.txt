@@ -1,0 +1,1 @@
+[["log-count","0",""],["schema","table","log"],["schema","table","t1"],["schema","trigger","v1del"],["schema","trigger","v1upd"],["schema","view","v1"],["t1-row","1","f"],["t1-row","2","e"],["t1-row","3","d"],["t1-row","4","c"],["t1-row","5","b"],["t1-row","6","a"]]

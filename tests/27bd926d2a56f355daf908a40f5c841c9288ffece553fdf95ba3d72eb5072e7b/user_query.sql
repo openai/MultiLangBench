@@ -1,0 +1,1 @@
+UPDATE t1 AS alias SET b=alias.b+1000 RETURNING t1.b;

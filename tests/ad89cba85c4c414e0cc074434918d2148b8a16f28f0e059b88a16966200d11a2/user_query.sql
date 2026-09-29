@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT * FROM t1 WHERE '-1'>=0 AND '-1'<=t1.c0;

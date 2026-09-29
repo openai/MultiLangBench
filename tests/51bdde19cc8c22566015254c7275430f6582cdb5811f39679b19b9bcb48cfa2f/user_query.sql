@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT id,json_valid(json) AS is_valid,json_type(json) AS top_type,'|' AS separator FROM j2 ORDER BY id;

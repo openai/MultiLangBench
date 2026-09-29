@@ -1,0 +1,1 @@
+SELECT name,tbl_name,coalesce(sql,'') FROM sqlite_schema WHERE type='index' AND name IN ('i4a','i4b') ORDER BY name;

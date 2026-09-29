@@ -1,0 +1,1 @@
+SELECT debit, credit, amount FROM transactions ORDER BY rowid;

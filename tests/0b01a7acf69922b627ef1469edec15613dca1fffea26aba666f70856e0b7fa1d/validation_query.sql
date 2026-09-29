@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1), (SELECT sum(a) FROM t1), (SELECT sum(b) FROM t1), (SELECT sum(length(c)) FROM t1), (SELECT count(*) FROM (SELECT a,b,c FROM t1 EXCEPT SELECT a,b,c FROM t2)), (SELECT count(*) FROM (SELECT a,b,c FROM t2 EXCEPT SELECT a,b,c FROM t1));

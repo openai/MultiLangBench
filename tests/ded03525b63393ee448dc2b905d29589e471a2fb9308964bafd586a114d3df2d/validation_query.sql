@@ -1,0 +1,1 @@
+SELECT a,b,t,'|' FROM t0 ORDER BY +a;

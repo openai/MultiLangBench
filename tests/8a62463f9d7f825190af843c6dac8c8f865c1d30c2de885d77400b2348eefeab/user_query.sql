@@ -1,0 +1,1 @@
+UPDATE t SET r1=1.23,r2=NULL;INSERT INTO r SELECT coalesce(r1+r2,99.0) FROM t;

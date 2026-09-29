@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; BEGIN; INSERT INTO prince VALUES(2,3); DROP TRIGGER kt; COMMIT;

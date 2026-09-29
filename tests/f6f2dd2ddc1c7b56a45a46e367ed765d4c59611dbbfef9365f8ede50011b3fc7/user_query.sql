@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result(a,c,m,rn); INSERT INTO sfi_result SELECT * FROM v2 WHERE a='C';

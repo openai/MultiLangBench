@@ -1,0 +1,1 @@
+SELECT type, name, tbl_name, instr(lower(sql), 'fts3_tokenizer')>0 AS has_tokenizer FROM sqlite_schema WHERE name IN ('t110','r110') ORDER BY name;

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t3 USING fts3(content, tokenize)

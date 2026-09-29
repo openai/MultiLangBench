@@ -1,0 +1,1 @@
+PRAGMA encoding='UTF-16be'; CREATE TABLE seed(x);

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT count(*) AS n FROM t4 WHERE t4 MATCH '"a b c" OR "c a b"';

@@ -1,0 +1,1 @@
+PRAGMA recursive_triggers=ON; INSERT INTO t3b VALUES(1001);

@@ -1,0 +1,1 @@
+CREATE TABLE result(q1, q2, q3); INSERT INTO result(q1, q2, q3) SELECT quote(+-+'ce'), quote(t0.c0), quote(+-+'ce' >= t0.c0) FROM t0;

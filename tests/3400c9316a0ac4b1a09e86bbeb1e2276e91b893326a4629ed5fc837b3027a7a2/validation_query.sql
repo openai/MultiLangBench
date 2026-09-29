@@ -1,0 +1,1 @@
+SELECT Col1 FROM result ORDER BY rowid;

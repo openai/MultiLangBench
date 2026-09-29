@@ -1,0 +1,1 @@
+SELECT a,b,c,(SELECT count(*) FROM sqlite_schema WHERE type='index' AND name IN ('i1','i2')) AS index_count FROM t1 ORDER BY rowid

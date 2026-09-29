@@ -1,0 +1,1 @@
+CREATE TABLE result(seq,a,r); INSERT INTO result SELECT 1,a,rank() OVER(ORDER BY b) FROM t1; INSERT INTO result SELECT 2,a,rank() OVER(ORDER BY b DESC) FROM t1;

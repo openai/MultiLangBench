@@ -1,0 +1,1 @@
+ALTER TABLE yyy DROP e;

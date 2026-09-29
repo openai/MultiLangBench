@@ -1,0 +1,1 @@
+SELECT * FROM sales ORDER BY rowid

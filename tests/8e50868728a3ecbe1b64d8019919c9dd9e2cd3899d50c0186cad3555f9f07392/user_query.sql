@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT printf('%lld',314159.2653);

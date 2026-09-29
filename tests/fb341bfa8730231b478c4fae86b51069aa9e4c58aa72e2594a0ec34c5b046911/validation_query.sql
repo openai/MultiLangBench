@@ -1,0 +1,1 @@
+SELECT x,y,(SELECT count(*) FROM main.sqlite_master WHERE type='index' AND name='mask') FROM t2 INDEXED BY mask ORDER BY x

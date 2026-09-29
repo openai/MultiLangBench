@@ -1,0 +1,1 @@
+SELECT v, t FROM result ORDER BY rowid;

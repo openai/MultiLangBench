@@ -1,0 +1,1 @@
+SELECT x, y, z FROM ggg ORDER BY rowid;

@@ -1,0 +1,1 @@
+SELECT a,(SELECT x FROM t2 LIMIT 1),(SELECT count(*) FROM t1),(SELECT count(*) FROM t2) FROM t1 ORDER BY rowid;

@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT *,'x' AS tag FROM t1 LEFT JOIN t2 ON (a,b)=(x,y);

@@ -1,0 +1,1 @@
+CREATE TABLE collate6log(a, b);

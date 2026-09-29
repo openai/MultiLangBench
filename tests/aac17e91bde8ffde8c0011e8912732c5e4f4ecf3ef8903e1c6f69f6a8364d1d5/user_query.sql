@@ -1,0 +1,1 @@
+UPDATE t2 SET c=t1.a FROM t1 WHERE t2.b=t1.a;

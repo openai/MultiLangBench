@@ -1,0 +1,1 @@
+ATTACH ':memory:' AS aux; CREATE TABLE aux.t1(x, y); CREATE TEMP TABLE t1(x, y); DROP TABLE t1; CREATE TABLE main.result AS SELECT * FROM main.t1;

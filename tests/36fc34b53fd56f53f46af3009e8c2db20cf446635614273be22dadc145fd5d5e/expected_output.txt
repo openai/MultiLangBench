@@ -1,0 +1,1 @@
+[["CREATE VIEW vvv AS SELECT main.\"t xx\".a, \"t xx\".b, c FROM \"t xx\""]]

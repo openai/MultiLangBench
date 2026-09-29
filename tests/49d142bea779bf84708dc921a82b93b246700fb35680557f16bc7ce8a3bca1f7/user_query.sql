@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM maintable, joinme INDEXED BY joinme_id_text_idx;

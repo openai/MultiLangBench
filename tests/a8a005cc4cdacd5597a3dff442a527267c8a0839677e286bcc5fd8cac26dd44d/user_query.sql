@@ -1,0 +1,1 @@
+DELETE FROM t5 WHERE (SELECT max(x) FROM t4);

@@ -1,0 +1,1 @@
+[["rival","bonus","text",1]]

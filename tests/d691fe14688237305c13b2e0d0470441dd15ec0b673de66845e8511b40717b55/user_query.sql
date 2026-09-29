@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT '-1'>=0 AND '-1'<=t1.c0 AS v FROM t1;

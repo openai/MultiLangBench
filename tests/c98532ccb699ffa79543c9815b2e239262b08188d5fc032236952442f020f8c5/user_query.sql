@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a,b FROM collate5t1 EXCEPT SELECT a,b FROM collate5t2;

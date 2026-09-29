@@ -1,0 +1,1 @@
+SELECT (SELECT count(a) FROM t1),(SELECT count(b) FROM t2);

@@ -1,0 +1,1 @@
+SELECT a, b, typeof(b) FROM x1 ORDER BY a

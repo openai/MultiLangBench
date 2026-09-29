@@ -1,0 +1,1 @@
+DELETE FROM table1 WHERE f1>=1 AND f1<40;

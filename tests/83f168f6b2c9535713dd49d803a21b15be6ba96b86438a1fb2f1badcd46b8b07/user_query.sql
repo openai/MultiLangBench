@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT (SELECT sum(value2==xyz) FROM t2) AS v FROM (SELECT curr.value1 AS xyz FROM t1 AS curr LEFT JOIN t1 AS other GROUP BY curr.id1);

@@ -1,0 +1,1 @@
+INSERT INTO people VALUES ('Angie','student',166),('Brad','student',176),('Claire','student',168),('Donald','student',162),('Elaine','student',177),('Frazier','student',159),('Grace','student',179),('Horace','student',166); ANALYZE;

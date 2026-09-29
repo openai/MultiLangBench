@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM nn) AS nn_count, (SELECT count(*) FROM nnw) AS nnw_count, EXISTS(SELECT 1 FROM sqlite_schema AS s WHERE s.type='table' AND s.name='nnw' AND instr(upper(s.sql),'WITHOUT ROWID')>0) AS nnw_without_rowid;

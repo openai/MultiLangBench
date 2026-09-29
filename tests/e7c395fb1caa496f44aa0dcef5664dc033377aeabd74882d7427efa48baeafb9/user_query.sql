@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT count(*) FROM x3,x3 AS x4;

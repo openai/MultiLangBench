@@ -1,0 +1,1 @@
+DROP TABLE column; CREATE INDEX column ON t1(a);

@@ -1,0 +1,1 @@
+SELECT count(*),min(rowid),max(rowid),sum(rowid),sum(i),sum(length(t)),min(t),max(t),(SELECT count(*) FROM sqlite_schema WHERE type='trigger' AND tbl_name='t4') FROM t4;

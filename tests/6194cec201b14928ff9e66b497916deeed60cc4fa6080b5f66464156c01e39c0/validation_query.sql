@@ -1,0 +1,1 @@
+SELECT a, b, typeof(b), '|' FROM t2 ORDER BY +a;

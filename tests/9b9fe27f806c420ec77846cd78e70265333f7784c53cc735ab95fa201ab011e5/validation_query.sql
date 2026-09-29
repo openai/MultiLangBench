@@ -1,0 +1,1 @@
+SELECT id,quote(a),quote(b),quote(c),quote(d),quote(e),quote(f),quote(g),quote(h),quote(i),quote(j),quote(k),quote(l) FROM r ORDER BY id

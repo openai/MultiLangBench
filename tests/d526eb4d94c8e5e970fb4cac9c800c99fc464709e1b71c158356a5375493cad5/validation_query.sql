@@ -1,0 +1,1 @@
+SELECT p.integrity_check, (SELECT count(*) FROM t4), (SELECT min(x) FROM t4), (SELECT max(x) FROM t4) FROM pragma_integrity_check AS p;

@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(printf('%d:%d:%d',id,a,b),'|') FROM (SELECT id,a,b FROM t3 ORDER BY id)) AS row_list, (SELECT count(*) FROM sqlite_schema WHERE type='trigger' AND name='t3t') AS trigger_count;

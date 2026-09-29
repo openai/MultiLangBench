@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts4(tokenize=unicode61, x, y); INSERT INTO t1 VALUES(NULL,'a b c');

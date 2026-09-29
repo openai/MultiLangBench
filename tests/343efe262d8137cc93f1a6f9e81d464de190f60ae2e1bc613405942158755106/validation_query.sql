@@ -1,0 +1,1 @@
+SELECT id FROM t1 ORDER BY id;

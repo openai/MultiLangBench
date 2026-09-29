@@ -1,0 +1,1 @@
+INSERT INTO result_220(a) SELECT * FROM t1;

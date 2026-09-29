@@ -1,0 +1,1 @@
+SELECT rowid AS rid,a,b FROM t10 ORDER BY rowid

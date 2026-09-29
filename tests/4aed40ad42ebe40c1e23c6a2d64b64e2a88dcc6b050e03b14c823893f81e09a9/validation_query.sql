@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM r1) AS r1_rows,(SELECT count(*) FROM r2) AS r2_rows,(SELECT count(*) FROM r3) AS r3_rows;

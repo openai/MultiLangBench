@@ -1,0 +1,1 @@
+UPDATE t1 SET o1='2'; CREATE TABLE result AS SELECT o1 IN (SELECT o FROM t3) AS value FROM t1;

@@ -1,0 +1,1 @@
+CREATE TABLE _result AS SELECT c0=('0.20625e+01') AS v FROM t0;

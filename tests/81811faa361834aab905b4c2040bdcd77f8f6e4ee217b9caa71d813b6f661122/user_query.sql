@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(1,'helloworld'||'12345'),(2,22||23);

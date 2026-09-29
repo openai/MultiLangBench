@@ -1,0 +1,1 @@
+SELECT rowid,length(content),substr(content,1,5),substr(content,-4),length(content)-length(replace(content,'b','')) FROM t5 WHERE rowid=5

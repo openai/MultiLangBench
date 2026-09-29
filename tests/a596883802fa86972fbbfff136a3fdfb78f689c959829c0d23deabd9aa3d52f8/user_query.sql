@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT json_array(1,json_object('abc',2.5,'def',NULL,'ghi','hello'),99) AS v;

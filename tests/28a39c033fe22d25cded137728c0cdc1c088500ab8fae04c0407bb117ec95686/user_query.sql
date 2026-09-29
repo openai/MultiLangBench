@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT max(y) AS v FROM t1;

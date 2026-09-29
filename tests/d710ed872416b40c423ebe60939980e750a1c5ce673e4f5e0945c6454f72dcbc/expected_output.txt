@@ -1,0 +1,1 @@
+[["CREATE TRIGGER tr1 AFTER INSERT ON \"t11\" BEGIN SELECT \"t11\".x, * FROM \"t11\", \"t22\"; INSERT INTO \"t22\" VALUES(new.x, new.y); END","1:1,2:2,3:3"]]

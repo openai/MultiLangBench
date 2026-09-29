@@ -1,0 +1,1 @@
+SELECT count(*) AS nrow,sum(r1) AS sr1,sum(r2) AS sr2,sum(r3) AS sr3,sum(i1) AS si1,sum(i2) AS si2,sum(i3) AS si3,sum(length(x1)+length(x2)+length(x3)) AS text_length,min(x1) AS min_text,max(x3) AS max_text FROM result;

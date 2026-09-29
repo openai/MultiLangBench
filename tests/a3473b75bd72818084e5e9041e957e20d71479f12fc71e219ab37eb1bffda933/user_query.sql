@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; UPDATE parent SET a='' WHERE a='oNe';

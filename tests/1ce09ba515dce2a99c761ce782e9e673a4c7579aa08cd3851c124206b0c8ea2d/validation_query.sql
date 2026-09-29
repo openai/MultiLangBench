@@ -1,0 +1,1 @@
+SELECT count(*), coalesce(max(tbl_name='p2'),0), coalesce(max(lower(sql) LIKE '%after delete on p2%'),0), coalesce(max(lower(sql) LIKE '%insert into p2%'),0), (SELECT group_concat(a||':'||b, ',') FROM (SELECT a,b FROM p2 ORDER BY a)) FROM sqlite_schema WHERE type='trigger' AND name='p2t';

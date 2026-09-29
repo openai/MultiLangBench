@@ -1,0 +1,1 @@
+SELECT quote(d),e,quote(f) FROM cc ORDER BY rowid

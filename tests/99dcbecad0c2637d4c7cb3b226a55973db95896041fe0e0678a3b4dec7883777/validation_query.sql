@@ -1,0 +1,1 @@
+SELECT b FROM t1 INDEXED BY begin WHERE a=2

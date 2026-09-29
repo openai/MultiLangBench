@@ -1,0 +1,1 @@
+SELECT period,vsum FROM _result ORDER BY seq;

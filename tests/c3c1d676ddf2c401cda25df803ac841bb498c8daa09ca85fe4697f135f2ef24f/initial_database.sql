@@ -1,0 +1,7 @@
+CREATE TABLE tab4(
+  col0 INTEGER,
+  col1 INTEGER,
+  col2 INTEGER,
+  col3 INTEGER,
+  col4 INTEGER
+);

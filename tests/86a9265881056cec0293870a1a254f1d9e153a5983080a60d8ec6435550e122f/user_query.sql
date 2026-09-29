@@ -1,0 +1,1 @@
+INSERT INTO result SELECT 1.23 IN t1;

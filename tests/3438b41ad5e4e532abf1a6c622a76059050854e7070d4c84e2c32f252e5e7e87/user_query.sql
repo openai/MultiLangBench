@@ -1,0 +1,1 @@
+INSERT INTO result(docid) SELECT docid FROM x2 WHERE x2 MATCH '^K';

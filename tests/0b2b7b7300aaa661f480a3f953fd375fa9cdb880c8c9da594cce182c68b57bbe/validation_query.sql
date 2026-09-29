@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1), (SELECT group_concat(a,',') FROM (SELECT a FROM t1 ORDER BY a)), (SELECT min(length(b)) FROM t1), (SELECT max(length(b)) FROM t1), (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='i1' AND tbl_name='t1'), (SELECT integrity_check FROM pragma_integrity_check LIMIT 1);

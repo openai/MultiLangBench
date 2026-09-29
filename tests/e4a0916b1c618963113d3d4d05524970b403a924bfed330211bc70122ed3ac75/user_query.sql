@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT length(replace(printf('%.*c',29998,'A')||'CC'||printf('%.*c',35537,'A'),'C',printf('%.*c',65536,'B'))) AS x;

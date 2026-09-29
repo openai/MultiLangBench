@@ -1,0 +1,1 @@
+SELECT count(*),(SELECT content FROM t2 ORDER BY rowid DESC LIMIT 1) FROM t2

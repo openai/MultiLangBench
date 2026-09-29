@@ -1,0 +1,1 @@
+CREATE TABLE t7a(x); CREATE TABLE t7b(y); INSERT INTO t7a(x) VALUES(1); CREATE INDEX t7ax ON t7a(x) WHERE x=99; PRAGMA automatic_index=OFF; CREATE TABLE result AS SELECT t7a.x AS x, t7b.y AS y FROM t7a LEFT JOIN t7b ON (x=99) ORDER BY x;

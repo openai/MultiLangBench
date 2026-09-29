@@ -1,0 +1,1 @@
+CREATE TABLE result(type TEXT,name TEXT,tbl_name TEXT,rootpage INT,sql TEXT); INSERT INTO result SELECT type,name,tbl_name,rootpage,sql FROM sqlite_master WHERE name<>'result' ORDER BY sql;

@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,b); CREATE TABLE t2(c,othername,extra AS (c+1)); ALTER TABLE t1 RENAME a TO othername;

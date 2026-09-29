@@ -1,0 +1,1 @@
+INSERT INTO result SELECT format('%.30f', ln(exp(2.0)));

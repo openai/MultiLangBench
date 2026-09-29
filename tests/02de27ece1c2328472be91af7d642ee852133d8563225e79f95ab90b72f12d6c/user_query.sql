@@ -1,0 +1,1 @@
+PRAGMA cache_size=2; PRAGMA cache_spill=YES; PRAGMA cache_spill=NO; PRAGMA cache_spill(-51); INSERT INTO t1 SELECT cache_spill FROM pragma_cache_spill('main');

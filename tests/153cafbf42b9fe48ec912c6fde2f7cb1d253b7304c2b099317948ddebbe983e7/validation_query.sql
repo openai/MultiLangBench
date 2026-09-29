@@ -1,0 +1,1 @@
+SELECT quote(x), quote(y) FROM sfi_result ORDER BY rowid

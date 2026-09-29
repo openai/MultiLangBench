@@ -1,0 +1,1 @@
+SELECT big FROM t5 ORDER BY rowid

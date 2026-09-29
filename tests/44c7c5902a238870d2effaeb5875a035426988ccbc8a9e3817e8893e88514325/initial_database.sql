@@ -1,0 +1,10 @@
+CREATE VIRTUAL TABLE email USING fts3([from],[to],subject,body);
+INSERT INTO email(rowid,[from],[to],subject,body) VALUES(6,'','','','mark');
+INSERT INTO email(rowid,[from],[to],subject,body) VALUES(17,'','','','mark');
+INSERT INTO email(rowid,[from],[to],subject,body) VALUES(24,'','','','susan');
+INSERT INTO email(rowid,[from],[to],subject,body) VALUES(25,'','','','mark');
+INSERT INTO email(rowid,[from],[to],subject,body) VALUES(38,'','','','mark');
+INSERT INTO email(rowid,[from],[to],subject,body) VALUES(40,'','','','mark intervening susan');
+INSERT INTO email(rowid,[from],[to],subject,body) VALUES(42,'','','','mark');
+INSERT INTO email(rowid,[from],[to],subject,body) VALUES(73,'','','','mark');
+INSERT INTO email(rowid,[from],[to],subject,body) VALUES(74,'','','','mark');

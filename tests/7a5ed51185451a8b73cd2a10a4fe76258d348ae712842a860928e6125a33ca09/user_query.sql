@@ -1,0 +1,1 @@
+INSERT INTO result SELECT mod(234,10), 253%7, mod(29,9), 29%9;

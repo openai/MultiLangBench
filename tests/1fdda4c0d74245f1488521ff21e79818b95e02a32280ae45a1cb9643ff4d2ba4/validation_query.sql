@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(one||':'||two, '|') FROM (SELECT one,two FROM p1 ORDER BY one)), (SELECT quote(a)||':'||quote(b) FROM c1), (SELECT quote(a)||':'||quote(b) FROM c2), (SELECT quote(a)||':'||quote(b) FROM c3), (SELECT quote(a)||':'||quote(b) FROM c4), (SELECT quote(a)||':'||quote(b) FROM c5), (SELECT quote(a)||':'||quote(b) FROM c6), (SELECT count(*) FROM log);

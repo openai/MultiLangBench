@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t4 USING fts4; INSERT INTO t4 VALUES('hello world'); INSERT INTO t4 VALUES('shared cache');

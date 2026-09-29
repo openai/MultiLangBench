@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT max(b) FROM t7 WHERE a=4;

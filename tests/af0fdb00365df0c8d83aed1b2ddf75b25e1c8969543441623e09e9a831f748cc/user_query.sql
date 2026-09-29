@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT snippet(x2, '[', ']', '...') FROM x2 WHERE x2 MATCH '^X';

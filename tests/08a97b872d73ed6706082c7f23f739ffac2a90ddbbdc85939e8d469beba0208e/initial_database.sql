@@ -1,0 +1,1 @@
+CREATE TABLE t1(a text, b text, c text); CREATE INDEX i1 ON t1(a); INSERT INTO t1 VALUES('old',replace(hex(zeroblob(249)),'00','x'),'old');

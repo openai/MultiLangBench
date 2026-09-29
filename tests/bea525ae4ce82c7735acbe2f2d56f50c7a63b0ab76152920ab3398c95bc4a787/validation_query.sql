@@ -1,0 +1,1 @@
+SELECT count(*), min(docid), max(docid), sum(c0x='a' AND c1y='b') FROM t1_content;

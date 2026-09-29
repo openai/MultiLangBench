@@ -1,0 +1,1 @@
+INSERT INTO result SELECT x FROM t3 WHERE x IN (1) ORDER BY t3.rowid;

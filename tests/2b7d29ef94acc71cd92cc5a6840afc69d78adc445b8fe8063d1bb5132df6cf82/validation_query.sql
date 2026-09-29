@@ -1,0 +1,1 @@
+SELECT id, id_int, id_text FROM result ORDER BY id, id_int, id_text;

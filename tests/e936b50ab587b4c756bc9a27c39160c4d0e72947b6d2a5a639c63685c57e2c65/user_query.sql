@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=OFF; CREATE TABLE result AS SELECT * FROM pragma_foreign_keys;

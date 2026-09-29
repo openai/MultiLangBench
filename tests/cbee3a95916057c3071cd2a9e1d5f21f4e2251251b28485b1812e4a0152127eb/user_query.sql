@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES('the default transaction','these semantics present')

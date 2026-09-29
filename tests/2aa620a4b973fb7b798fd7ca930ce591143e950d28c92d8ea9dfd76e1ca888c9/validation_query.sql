@@ -1,0 +1,1 @@
+WITH RECURSIVE l(x)AS(VALUES(0) UNION ALL SELECT x+1 FROM l WHERE x<4),o(y)AS(VALUES(0) UNION ALL SELECT y+1 FROM o WHERE y<4),p(x,y)AS(VALUES(-1,0) UNION ALL SELECT x,y FROM l,o) SELECT p.y,p.x,r.rowid,r.a FROM p LEFT JOIN result r ON p.x<0 OR r.rowid>p.y AND r.rowid<=p.y+p.x ORDER BY 1,2,3

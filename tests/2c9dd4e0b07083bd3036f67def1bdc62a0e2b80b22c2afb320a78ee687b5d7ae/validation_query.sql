@@ -1,0 +1,1 @@
+SELECT a,b,(SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='t2b') FROM sfi_result ORDER BY 1,2;

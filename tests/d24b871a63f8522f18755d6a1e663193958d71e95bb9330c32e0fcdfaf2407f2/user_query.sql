@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT json_extract('{"":5}','$.""') AS v;

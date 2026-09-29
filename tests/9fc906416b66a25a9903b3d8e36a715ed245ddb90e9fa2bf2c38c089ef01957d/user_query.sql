@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT quote(f) AS f,quote(g) AS g,quote(h) AS h,quote(i) AS i FROM t29b;

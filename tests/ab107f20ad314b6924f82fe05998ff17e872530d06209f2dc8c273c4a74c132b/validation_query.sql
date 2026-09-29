@@ -1,0 +1,1 @@
+SELECT seq,value,(SELECT count(*) FROM sqlite_schema WHERE type='table' AND name='tx') FROM result ORDER BY seq

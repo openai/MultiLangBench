@@ -1,0 +1,1 @@
+CREATE TABLE x1 AS SELECT c,b,a FROM t1;

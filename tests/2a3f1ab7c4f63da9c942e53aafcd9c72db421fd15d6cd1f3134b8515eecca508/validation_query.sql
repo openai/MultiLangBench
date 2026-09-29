@@ -1,0 +1,1 @@
+SELECT rowid, c0, c1, (SELECT c0 FROM v0), (SELECT c1 FROM v0), EXISTS(SELECT 1 FROM sqlite_schema WHERE type='view' AND name='v0') FROM t0 ORDER BY rowid;

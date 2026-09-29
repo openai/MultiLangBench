@@ -1,0 +1,1 @@
+CREATE TABLE dup1(a,b,c); INSERT INTO dup1(a,b,c,a,b,c) VALUES(1,2,3,4,5,6);

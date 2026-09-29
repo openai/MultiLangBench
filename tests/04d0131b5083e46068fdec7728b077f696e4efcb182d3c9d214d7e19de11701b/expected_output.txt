@@ -1,0 +1,1 @@
+[["table","t2","t2","CREATE TABLE \"t2\"(a,b,c,d)"],["trigger","AFTER","t2","CREATE TRIGGER AFTER INSERT ON \"t2\" BEGIN UPDATE \"t2\" SET (c,d)=(a,b); END"]]

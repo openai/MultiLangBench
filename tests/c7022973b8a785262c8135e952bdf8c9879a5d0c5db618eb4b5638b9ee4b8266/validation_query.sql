@@ -1,0 +1,1 @@
+SELECT p.integrity_check,(SELECT tt FROM t17b LIMIT 1) AS tt,(SELECT ss FROM t17b LIMIT 1) AS ss FROM pragma_integrity_check AS p

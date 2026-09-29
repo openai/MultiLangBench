@@ -1,0 +1,1 @@
+SELECT count(*), min(a), max(a), sum(a), sum(b), sum(length(c)) FROM t1;

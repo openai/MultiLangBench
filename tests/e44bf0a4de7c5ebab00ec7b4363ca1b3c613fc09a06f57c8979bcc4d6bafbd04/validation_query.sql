@@ -1,0 +1,1 @@
+SELECT v FROM __sfi_result ORDER BY rowid

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT quote(value) AS q FROM t4_stat WHERE id=0;

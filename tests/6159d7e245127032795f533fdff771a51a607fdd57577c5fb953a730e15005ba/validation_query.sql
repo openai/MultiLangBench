@@ -1,0 +1,1 @@
+SELECT n, depth FROM result ORDER BY n, depth;

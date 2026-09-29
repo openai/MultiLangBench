@@ -1,0 +1,1 @@
+SELECT value FROM integrity_result ORDER BY rowid

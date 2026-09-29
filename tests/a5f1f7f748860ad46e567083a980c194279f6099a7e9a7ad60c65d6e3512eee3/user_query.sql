@@ -1,0 +1,4 @@
+CREATE TABLE map(f, t);
+INSERT INTO map VALUES(0, 10);
+INSERT INTO map VALUES(1, 11);
+UPDATE u1 SET c=t FROM map WHERE c=f;

@@ -1,0 +1,1 @@
+[["t1","CREATE TABLE t1(a, b, c)"],["t2","CREATE TABLE t2(a, b, c, PRIMARY KEY(a, b, c)) WITHOUT ROWID"]]

@@ -1,0 +1,1 @@
+UPDATE t10 SET _rowid_=6;

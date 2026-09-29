@@ -1,0 +1,1 @@
+PRAGMA case_sensitive_like=ON; CREATE TABLE sfi_result AS SELECT x FROM t1 WHERE x LIKE 'aBc';

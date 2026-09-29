@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT '10.0' IN (10,20) AS value FROM t1;

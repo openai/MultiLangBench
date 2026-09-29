@@ -1,0 +1,1 @@
+CREATE TABLE _result AS SELECT * FROM t2 JOIN t1 WHERE a='abc' AND x='abc';

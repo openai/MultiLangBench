@@ -1,0 +1,1 @@
+CREATE TABLE collate6log(a, b); CREATE TABLE collate6tab(a COLLATE NOCASE, b COLLATE BINARY);

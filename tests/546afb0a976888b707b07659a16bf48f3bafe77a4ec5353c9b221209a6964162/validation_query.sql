@@ -1,0 +1,1 @@
+SELECT count(*) AS n,sum(content='this is a dog') AS dogs,max(length(content)) AS maxlen FROM t1

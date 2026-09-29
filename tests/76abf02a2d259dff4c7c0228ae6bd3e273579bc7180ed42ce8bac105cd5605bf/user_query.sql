@@ -1,0 +1,1 @@
+SELECT * FROM t1 WHERE t1 MATCH 'restaurant';

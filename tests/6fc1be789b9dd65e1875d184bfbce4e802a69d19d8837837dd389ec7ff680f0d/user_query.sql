@@ -1,0 +1,1 @@
+DELETE FROM av1 WHERE rowid=19;

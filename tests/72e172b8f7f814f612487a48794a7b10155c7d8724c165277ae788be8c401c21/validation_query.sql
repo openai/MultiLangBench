@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM r3) AS r3_rows, count(*) AS r4_rows, coalesce(sum(y=55),0) AS value_55_rows, (SELECT sql FROM sqlite_schema WHERE type='table' AND name='r3') AS r3_sql, (SELECT sql FROM sqlite_schema WHERE type='table' AND name='r4') AS r4_sql FROM r4;

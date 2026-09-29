@@ -1,0 +1,1 @@
+SELECT rowid,a,c FROM t1 WHERE c='www' ORDER BY rowid;

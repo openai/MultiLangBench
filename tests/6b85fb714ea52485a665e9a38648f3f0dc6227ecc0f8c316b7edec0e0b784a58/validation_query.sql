@@ -1,0 +1,1 @@
+SELECT rowid,title,body FROM docs ORDER BY rowid

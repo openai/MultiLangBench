@@ -1,0 +1,1 @@
+PRAGMA page_size=1024;PRAGMA auto_vacuum=1;CREATE TABLE av1(a PRIMARY KEY,b,c);INSERT INTO av1 VALUES('av1 a','av1 b','av1 c');

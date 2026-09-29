@@ -1,0 +1,1 @@
+SELECT oid,rowid,_rowid_ FROM __sfi_result ORDER BY rowid

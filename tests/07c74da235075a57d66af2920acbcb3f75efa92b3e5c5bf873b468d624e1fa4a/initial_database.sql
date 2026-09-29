@@ -1,0 +1,1 @@
+PRAGMA auto_vacuum=NONE; CREATE TABLE t4(x, y, CHECK (x+y==11 OR x*y==12 OR x/y BETWEEN 5 AND 8 OR -x==y+10)); PRAGMA ignore_check_constraints=ON; INSERT INTO t4 VALUES(0,1); PRAGMA ignore_check_constraints=OFF; CREATE TABLE filler(z); WITH RECURSIVE c(i) AS (VALUES(1) UNION ALL SELECT i+1 FROM c WHERE i<100) INSERT INTO filler SELECT zeroblob(8000) FROM c; DELETE FROM filler;

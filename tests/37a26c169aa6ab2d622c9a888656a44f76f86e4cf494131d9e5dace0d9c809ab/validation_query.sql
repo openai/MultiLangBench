@@ -1,0 +1,1 @@
+SELECT rowid AS rid FROM ft10 WHERE a MATCH 'ab*' ORDER BY rowid

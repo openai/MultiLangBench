@@ -1,0 +1,1 @@
+UPDATE t SET t1='0',t2='0.0';INSERT INTO r SELECT t1==t2 FROM t;

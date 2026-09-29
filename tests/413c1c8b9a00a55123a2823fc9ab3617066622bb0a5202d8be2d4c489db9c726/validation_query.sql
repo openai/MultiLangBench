@@ -1,0 +1,1 @@
+SELECT * FROM "@abc" ORDER BY rowid;

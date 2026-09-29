@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT min(name) AS name FROM t61 GROUP BY lower(name);

@@ -1,0 +1,1 @@
+SELECT cid,name,type,"notnull",dflt_value,pk,(SELECT json_group_array(aaa) FROM (SELECT aaa FROM t1 ORDER BY rowid)) AS data FROM pragma_table_info('t1') ORDER BY cid;

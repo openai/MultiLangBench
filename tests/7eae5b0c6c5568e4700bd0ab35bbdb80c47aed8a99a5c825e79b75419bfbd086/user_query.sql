@@ -1,0 +1,1 @@
+INSERT INTO x1(a, b, c, e) VALUES(1, 2, 3, 4); INSERT INTO x1(a, b, c, e) VALUES(5, 6, 7, 8); INSERT INTO x1(a, b, c, e) VALUES(9, 10, 11, 12); SELECT * FROM x1;

@@ -1,0 +1,1 @@
+CREATE TABLE t1(x, y, z); CREATE TABLE xyz(a, b, c CHECK (c!="null") ); CREATE INDEX i2 ON t1(x, y, z||"abc"); CREATE INDEX i3 ON t1("w"||""); CREATE INDEX i4 ON t1(x) WHERE z="w"; INSERT INTO xyz VALUES(1,2,3);

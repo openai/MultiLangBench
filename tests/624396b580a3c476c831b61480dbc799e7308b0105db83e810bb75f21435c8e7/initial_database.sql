@@ -1,0 +1,1 @@
+CREATE TABLE t1(a,e,f,g UNIQUE,h UNIQUE);

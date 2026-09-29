@@ -1,0 +1,1 @@
+CREATE TEMP TABLE foo (fooid INTEGER PRIMARY KEY, fooval INTEGER NOT NULL UNIQUE, refcnt INTEGER NOT NULL DEFAULT 1); INSERT INTO foo (fooval) VALUES (17), (4711), (17) ON CONFLICT DO UPDATE SET refcnt = refcnt+1 RETURNING fooid; CREATE TABLE main.capture AS SELECT fooid,fooval,refcnt FROM temp.foo;

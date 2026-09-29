@@ -1,0 +1,1 @@
+ATTACH ':memory:' AS db2; CREATE TABLE db2.t3(x,y); CREATE UNIQUE INDEX db2.t3i1 ON t3(x); INSERT INTO db2.t3 VALUES(1,2); INSERT INTO main.capture SELECT x,y FROM db2.t3;

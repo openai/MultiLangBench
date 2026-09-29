@@ -1,0 +1,1 @@
+SELECT folderid, parentid, foldername FROM folders ORDER BY rowid;

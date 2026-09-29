@@ -1,0 +1,1 @@
+CREATE TABLE t1(x int,y int); CREATE TABLE t2(rowid int,x int,y int); INSERT INTO t1 VALUES(90,91); INSERT INTO t2 VALUES(90,91,92);

@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM sqlite_schema WHERE type='table' AND name IN ('a','b')) AS table_count, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND tbl_name IN ('a','b')) AS index_count, (SELECT count(*) FROM a) AS a_rows, (SELECT count(*) FROM b) AS b_rows;

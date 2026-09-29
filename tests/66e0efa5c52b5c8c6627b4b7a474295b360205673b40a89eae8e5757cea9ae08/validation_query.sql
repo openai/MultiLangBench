@@ -1,0 +1,1 @@
+SELECT src,a,b FROM (SELECT 0 AS grp,rowid AS ord,'plain' AS src,a,b FROM x2 UNION ALL SELECT 1,rowid,'quoted',a,b FROM """x2""") ORDER BY grp,ord;

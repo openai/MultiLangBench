@@ -1,0 +1,1 @@
+CREATE TABLE _result(seq INTEGER PRIMARY KEY,v);

@@ -1,0 +1,1 @@
+INSERT INTO abc VALUES(2,'one',NULL) ON CONFLICT (('x' || x) COLLATE nocase) DO NOTHING;

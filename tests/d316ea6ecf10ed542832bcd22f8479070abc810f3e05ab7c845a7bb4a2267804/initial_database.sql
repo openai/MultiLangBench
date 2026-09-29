@@ -1,0 +1,1 @@
+PRAGMA auto_vacuum=0; PRAGMA page_size=4096; VACUUM; CREATE TABLE t1(x); INSERT INTO t1(x) VALUES(zeroblob(1000000));

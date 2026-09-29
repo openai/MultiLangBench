@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT id, substr(a,b,3) AS s, '|' AS marker FROM t1 ORDER BY 2;

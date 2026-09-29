@@ -1,0 +1,1 @@
+[[99,99,2,99,"90:N:30030:90.09:3003.0:mnopqrstu:gfedcba|91:1001:N:91.091:3103.1:nopqrstuv:gfedcba|92:1012:31031:N:3103.1:opqrstuvw:gfedcba|93:1023:31031:93.093:N:pqrstuvwx:fedcbaz|94:1034:32032:94.094:3203.2:N:fedcbaz|95:1045:32032:95.095:3203.2:rstuvwxyz:N|96:N:N:96.096:3203.2:stuvwxyza:fedcbaz|97:1067:33033:N:N:tuvwxyzab:fedcbaz|98:1078:33033:98.098:3303.3:N:N|99:N:N:N:N:N:N"]]

@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; INSERT INTO t3 VALUES('hello',2,3); UPDATE t1 SET c=2;

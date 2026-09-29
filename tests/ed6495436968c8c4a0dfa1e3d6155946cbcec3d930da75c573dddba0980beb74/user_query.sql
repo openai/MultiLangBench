@@ -1,0 +1,1 @@
+CREATE TABLE t1 (c1 integer, c2, PRIMARY KEY(c1 collate rtrim), UNIQUE(c2));

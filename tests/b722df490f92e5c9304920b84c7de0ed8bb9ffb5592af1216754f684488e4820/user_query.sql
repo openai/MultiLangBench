@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT (SELECT count(a) OVER (ORDER BY (SELECT sum(y) FROM t2))+total(a) OVER()) FROM t1;

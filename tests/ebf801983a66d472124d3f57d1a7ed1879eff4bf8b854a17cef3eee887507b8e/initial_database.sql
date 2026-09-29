@@ -1,0 +1,1 @@
+CREATE TABLE observed(stage TEXT PRIMARY KEY, pages INTEGER NOT NULL);

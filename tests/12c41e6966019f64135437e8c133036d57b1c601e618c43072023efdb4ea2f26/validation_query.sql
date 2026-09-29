@@ -1,0 +1,1 @@
+SELECT 't3' AS tab,rowid,quote(a) AS x,quote(b) AS y,quote(c) AS z FROM t3 UNION ALL SELECT 't4',rowid,quote(f),quote(g),quote(h) FROM t4 UNION ALL SELECT 't5',rowid,quote(s),NULL,NULL FROM t5 UNION ALL SELECT 't6',rowid,quote(t),NULL,NULL FROM t6 ORDER BY tab,rowid

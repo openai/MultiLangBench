@@ -1,0 +1,1 @@
+PRAGMA count_changes=on; UPDATE test1 SET f2=f2/3 WHERE f1<=5;

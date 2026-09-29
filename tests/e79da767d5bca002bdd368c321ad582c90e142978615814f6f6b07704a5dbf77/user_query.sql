@@ -1,0 +1,1 @@
+UPDATE t7 SET s = 'X';

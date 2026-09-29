@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT t1.x FROM t2 CROSS JOIN t1 WHERE t2.z = t1.y AND t1.x IN (111, 222);

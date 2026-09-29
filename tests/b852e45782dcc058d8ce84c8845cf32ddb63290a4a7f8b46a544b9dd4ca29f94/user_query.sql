@@ -1,0 +1,1 @@
+ATTACH DATABASE ':memory:' AS aux; CREATE TABLE aux.t2(c,d); CREATE TABLE aux.t3(e,f); INSERT INTO aux.t3 VALUES(1,2); DROP TABLE t2; INSERT INTO main.result SELECT name FROM aux.sqlite_master ORDER BY name;

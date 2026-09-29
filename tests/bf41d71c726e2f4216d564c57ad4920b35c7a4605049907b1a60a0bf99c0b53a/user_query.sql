@@ -1,0 +1,1 @@
+INSERT INTO docs VALUES('no L I N','to be seen')

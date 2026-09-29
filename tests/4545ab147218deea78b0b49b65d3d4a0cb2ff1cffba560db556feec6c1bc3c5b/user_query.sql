@@ -1,0 +1,1 @@
+CREATE TABLE result(counter, value, sumv); INSERT INTO result SELECT "counter", "value", SUM("value") OVER (ORDER BY "id" ROWS 2 PRECEDING) FROM "sample" ORDER BY "id";

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM t3 WHERE a=b AND a='4';

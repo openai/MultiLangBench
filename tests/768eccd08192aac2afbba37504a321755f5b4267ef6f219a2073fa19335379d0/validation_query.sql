@@ -1,0 +1,1 @@
+SELECT count(*),sum(seq),sum(source),sum(length(t)),min(CASE WHEN source=1 THEN t END),max(CASE WHEN source=2 THEN t END),max(CASE WHEN seq=1 THEN t END),max(CASE WHEN seq=9999 THEN t END) FROM result;

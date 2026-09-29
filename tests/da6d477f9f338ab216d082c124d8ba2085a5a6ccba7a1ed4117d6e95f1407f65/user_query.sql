@@ -1,0 +1,1 @@
+INSERT INTO result SELECT 'a' NOT IN t7;

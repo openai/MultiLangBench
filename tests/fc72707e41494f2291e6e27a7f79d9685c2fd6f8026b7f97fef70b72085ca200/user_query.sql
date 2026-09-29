@@ -1,0 +1,1 @@
+CREATE INDEX t1i2 ON t1(b); ANALYZE t1;

@@ -1,0 +1,1 @@
+INSERT INTO t3 SELECT printf('extra-5-%s',x) FROM t3 WHERE rowid%10=0;

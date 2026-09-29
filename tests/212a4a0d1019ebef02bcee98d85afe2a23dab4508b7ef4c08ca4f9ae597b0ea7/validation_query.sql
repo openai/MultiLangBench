@@ -1,0 +1,1 @@
+SELECT name FROM sqlite_master WHERE tbl_name='t1' ORDER BY name;

@@ -1,0 +1,1 @@
+SELECT strict_value FROM observed ORDER BY rowid;

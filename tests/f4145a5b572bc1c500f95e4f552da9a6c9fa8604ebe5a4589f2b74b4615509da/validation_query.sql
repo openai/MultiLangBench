@@ -1,0 +1,1 @@
+SELECT rowid, x, y, (SELECT count(*) FROM trigger_log WHERE marker='___update_t1.x___') AS x_trigger_count FROM t1;

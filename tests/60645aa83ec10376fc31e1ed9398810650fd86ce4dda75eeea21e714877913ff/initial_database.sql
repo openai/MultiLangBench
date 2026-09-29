@@ -1,0 +1,10 @@
+CREATE TABLE log(t TEXT);
+CREATE TABLE t1(x INTEGER PRIMARY KEY, y, z UNIQUE);
+CREATE INDEX t1y ON t1(y);
+INSERT INTO t1 VALUES(32, 'i', 'one');
+INSERT INTO t1 VALUES(33, 'ii', 'two');
+INSERT INTO t1 VALUES(34, 'iii', 'three');
+INSERT INTO t1 VALUES(35, 'iv', 'four');
+CREATE TABLE x2(o, n, zz);
+INSERT INTO x2 VALUES(32, 41, 'four');
+INSERT INTO x2 VALUES(33, 42, 'three');

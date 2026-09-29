@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT length(offsets(ft)) AS n,typeof(offsets(ft)) AS t FROM ft WHERE rowid=1000000;

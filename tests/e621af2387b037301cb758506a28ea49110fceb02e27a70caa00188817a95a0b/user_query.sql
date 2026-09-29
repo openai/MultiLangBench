@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result(seq INTEGER PRIMARY KEY, x, a, b, c, d, marker); INSERT INTO sfi_result(x,a,b,c,d,marker) SELECT x,a,b,c,d,'|' FROM t1j LEFT JOIN t1 ON c=y ORDER BY +y,+a;

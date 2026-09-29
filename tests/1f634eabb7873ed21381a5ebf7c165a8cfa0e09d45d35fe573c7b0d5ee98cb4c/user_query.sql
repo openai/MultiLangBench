@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT printf('%*.*f',5,2,3.141592653);

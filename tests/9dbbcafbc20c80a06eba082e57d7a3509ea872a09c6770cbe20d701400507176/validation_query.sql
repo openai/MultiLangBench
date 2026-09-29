@@ -1,0 +1,1 @@
+SELECT a,b,(SELECT count(*) FROM t4) FROM t3;

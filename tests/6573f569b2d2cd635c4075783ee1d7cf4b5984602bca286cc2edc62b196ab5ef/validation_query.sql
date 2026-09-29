@@ -1,0 +1,1 @@
+SELECT type, name, tbl_name FROM sqlite_schema WHERE tbl_name='t3' ORDER BY type, name;

@@ -1,0 +1,1 @@
+SELECT count(*) AS row_count FROM sfi_result

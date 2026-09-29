@@ -1,0 +1,1 @@
+SELECT 'log' AS table_name, count(*) AS n, max(t) AS c1, NULL AS c2 FROM log UNION ALL SELECT 't1', count(*), max(a), max(b) FROM t1 ORDER BY table_name;

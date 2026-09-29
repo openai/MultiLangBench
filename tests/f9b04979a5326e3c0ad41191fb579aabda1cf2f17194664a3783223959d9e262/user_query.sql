@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rowid AS value FROM t1 WHERE t1 MATCH 'four';

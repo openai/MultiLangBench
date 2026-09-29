@@ -1,0 +1,1 @@
+INSERT INTO t4 VALUES('a stately pleasure','dome decree')

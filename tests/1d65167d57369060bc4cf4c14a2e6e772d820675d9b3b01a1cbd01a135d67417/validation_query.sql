@@ -1,0 +1,1 @@
+WITH s AS (SELECT level,idx FROM t1_segdir ORDER BY level,idx) SELECT 's' AS k,level AS a,group_concat(idx,' ') AS b FROM s GROUP BY level UNION ALL SELECT 'v',NULL,quote(value) FROM t1_stat WHERE rowid=1 ORDER BY k,a

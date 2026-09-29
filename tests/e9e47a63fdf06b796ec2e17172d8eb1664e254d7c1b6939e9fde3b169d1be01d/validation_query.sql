@@ -1,0 +1,1 @@
+SELECT name, instr(upper(sql),'AFTER DELETE')>0 FROM sqlite_master WHERE type='trigger' AND name='t5t';

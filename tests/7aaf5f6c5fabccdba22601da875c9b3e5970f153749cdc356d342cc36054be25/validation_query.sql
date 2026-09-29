@@ -1,0 +1,1 @@
+SELECT count(*) FROM t4 WHERE a IS NULL

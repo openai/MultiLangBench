@@ -1,0 +1,1 @@
+SELECT a,b,c FROM t7 ORDER BY b;

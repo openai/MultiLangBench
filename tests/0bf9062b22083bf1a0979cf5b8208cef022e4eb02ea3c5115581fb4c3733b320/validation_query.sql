@@ -1,0 +1,1 @@
+SELECT (SELECT group_concat(c34||':'||c35,',') FROM (SELECT c34,c35 FROM up ORDER BY c34)),(SELECT group_concat(c39||':'||c38,',') FROM down)

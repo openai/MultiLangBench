@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM autoinc),(SELECT seq FROM sqlite_sequence WHERE name='autoinc'),(SELECT integrity_check FROM pragma_integrity_check);

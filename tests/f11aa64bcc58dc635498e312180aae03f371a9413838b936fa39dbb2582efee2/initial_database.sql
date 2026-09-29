@@ -1,0 +1,1 @@
+CREATE TABLE photo(pk integer primary key, x); CREATE TABLE tag(pk integer primary key, fk int, name); INSERT INTO photo VALUES(1,1); INSERT INTO photo VALUES(2,2); INSERT INTO photo VALUES(3,3); INSERT INTO tag VALUES(11,1,'one'); INSERT INTO tag VALUES(12,1,'two'); INSERT INTO tag VALUES(21,1,'one-b');

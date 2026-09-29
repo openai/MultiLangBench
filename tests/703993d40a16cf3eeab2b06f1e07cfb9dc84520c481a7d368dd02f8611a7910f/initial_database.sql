@@ -1,0 +1,1 @@
+CREATE TABLE z1(a,b,c);

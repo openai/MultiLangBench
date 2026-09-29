@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts4(a, b, c, notindexed=b); INSERT INTO t1(docid,a,b,c) VALUES(1, 'one two', 'three four', 'five six'); INSERT INTO t1(docid,a,b,c) VALUES(2, 'three four', 'five six', 'one two');

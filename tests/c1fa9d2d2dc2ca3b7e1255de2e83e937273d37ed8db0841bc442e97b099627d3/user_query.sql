@@ -1,0 +1,1 @@
+UPDATE t2 SET (b, c) = (SELECT b, c FROM chng WHERE a=t2.a) WHERE a IN (SELECT a FROM chng);

@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM sqlite_master WHERE name='sqlite_stat1') AS stat_table_count, (SELECT count(*) FROM sqlite_stat1) AS stat_row_count;

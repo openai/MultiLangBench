@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT count(*) FROM b3 GROUP BY b||'';

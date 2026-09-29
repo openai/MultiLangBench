@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT name FROM sqlite_master WHERE name LIKE '%t6%';

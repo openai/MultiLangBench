@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM xx WHERE xx MATCH 'two';

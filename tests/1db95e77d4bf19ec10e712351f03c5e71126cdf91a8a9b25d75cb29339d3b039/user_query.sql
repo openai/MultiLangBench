@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT 9 IN (false.false) AS v FROM false;

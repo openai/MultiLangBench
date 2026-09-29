@@ -1,0 +1,1 @@
+DROP INDEX t2a1; UPDATE t2 SET a=b, b=b+10000;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT abs(b) AS x FROM t1 ORDER BY a;

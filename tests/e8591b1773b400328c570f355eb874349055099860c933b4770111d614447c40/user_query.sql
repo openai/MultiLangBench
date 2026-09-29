@@ -1,0 +1,1 @@
+INSERT INTO result SELECT json_extract('{"a":2,"c":[4,5,{"f":7}]}', '$');

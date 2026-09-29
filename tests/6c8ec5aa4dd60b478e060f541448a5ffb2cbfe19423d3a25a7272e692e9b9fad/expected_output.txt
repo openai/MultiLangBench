@@ -1,0 +1,1 @@
+[["index:t2i1:t2|table:t1:t1|table:t2:t2","0:x:INT:0:NULL:0|1:y:INT:0:NULL:0|2:ex:TEXT:0:NULL:0","0:x:INT:0:NULL:0|1:y:INT:0:NULL:0|2:ex:TEXT:0:NULL:0","0:0:x"]]

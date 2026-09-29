@@ -1,0 +1,1 @@
+CREATE TABLE t3(x, y, z, CHECK( t3.x<25 ));

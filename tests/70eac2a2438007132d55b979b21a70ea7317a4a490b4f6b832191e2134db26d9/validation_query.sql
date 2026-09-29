@@ -1,0 +1,1 @@
+SELECT count(*) FROM sqlite_schema WHERE type='table' AND name='t2' AND sql='CREATE TABLE t2(y)'

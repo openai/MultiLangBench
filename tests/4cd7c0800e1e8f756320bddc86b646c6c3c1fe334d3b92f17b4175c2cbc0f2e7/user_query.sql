@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT 1 AS value FROM t1 WHERE NOT (500 > 60.0);

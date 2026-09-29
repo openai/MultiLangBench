@@ -1,0 +1,1 @@
+CREATE TABLE t2(b, a CHECK(CASE 'abc' COLLATE nocase WHEN a THEN 1 ELSE 0 END)); INSERT INTO t2(a) VALUES('abc'); INSERT INTO t2(b,a) VALUES(1,'abc'||'');

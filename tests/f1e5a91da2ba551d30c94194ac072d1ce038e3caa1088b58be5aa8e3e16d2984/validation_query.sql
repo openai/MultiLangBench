@@ -1,0 +1,1 @@
+SELECT id, s, marker FROM sfi_result ORDER BY rowid;

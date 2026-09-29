@@ -1,0 +1,1 @@
+ALTER TABLE t6 RENAME "col c" TO "col 3";

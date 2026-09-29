@@ -1,0 +1,1 @@
+SELECT * FROM trigger ORDER BY trigger ASC

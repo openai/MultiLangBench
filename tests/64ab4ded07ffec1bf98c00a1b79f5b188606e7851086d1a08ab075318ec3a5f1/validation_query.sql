@@ -1,0 +1,1 @@
+SELECT count(*),sum(length(x)>0) FROM t2;

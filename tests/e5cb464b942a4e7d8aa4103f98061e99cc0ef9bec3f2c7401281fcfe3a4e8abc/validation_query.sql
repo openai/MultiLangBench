@@ -1,0 +1,1 @@
+SELECT a FROM tbl1 ORDER BY a;

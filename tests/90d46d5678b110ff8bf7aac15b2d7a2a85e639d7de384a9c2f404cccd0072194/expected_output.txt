@@ -1,0 +1,1 @@
+[["i2","t2","CREATE UNIQUE INDEX i2 ON t2(a)"]]

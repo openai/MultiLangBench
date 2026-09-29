@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT count(*),round(avg(i),2) FROM c1,c2 ON(i=down) GROUP BY j%2;

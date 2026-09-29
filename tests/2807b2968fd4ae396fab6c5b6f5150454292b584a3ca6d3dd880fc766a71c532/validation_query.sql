@@ -1,0 +1,1 @@
+SELECT t.rowid, t.textid, i.intid FROM t CROSS JOIN i ORDER BY t.rowid, i.intid

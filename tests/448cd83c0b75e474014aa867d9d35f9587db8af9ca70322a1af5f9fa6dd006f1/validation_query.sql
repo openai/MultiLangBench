@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1) AS rtree_rows,(SELECT count(*) FROM t2) AS ordinary_rows;

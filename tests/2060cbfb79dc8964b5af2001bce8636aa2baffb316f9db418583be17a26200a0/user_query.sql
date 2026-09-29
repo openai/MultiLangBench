@@ -1,0 +1,1 @@
+CREATE TABLE explain(explain explain); INSERT INTO explain VALUES(99); INSERT INTO explain SELECT a FROM t1;

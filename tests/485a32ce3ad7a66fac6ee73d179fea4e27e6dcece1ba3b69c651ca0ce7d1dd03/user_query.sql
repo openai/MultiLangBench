@@ -1,0 +1,2 @@
+-- capi2-4.10
+INSERT INTO t2 VALUES(1,2);

@@ -1,0 +1,1 @@
+CREATE TABLE t2(a,b); INSERT INTO t2 VALUES('one','two'),('three',NULL),(4,5.0);

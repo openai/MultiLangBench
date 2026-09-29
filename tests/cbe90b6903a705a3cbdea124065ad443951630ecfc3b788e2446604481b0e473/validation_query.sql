@@ -1,0 +1,1 @@
+SELECT rowid, content, (SELECT count(*) FROM t2) AS aux_rows FROM ft ORDER BY rowid;

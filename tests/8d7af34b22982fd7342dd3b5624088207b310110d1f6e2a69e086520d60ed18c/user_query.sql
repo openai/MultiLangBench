@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT 'abc'==('ABC'||max('' COLLATE binary,'' COLLATE nocase));

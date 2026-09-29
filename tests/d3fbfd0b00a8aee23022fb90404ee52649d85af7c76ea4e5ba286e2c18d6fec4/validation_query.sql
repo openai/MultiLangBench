@@ -1,0 +1,1 @@
+SELECT d.d, x.x FROM d CROSS JOIN x;

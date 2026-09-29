@@ -1,0 +1,1 @@
+[[".ABC","CREATE INDEX i2 ON t2(substr(x, 2))"],[".abcd","CREATE INDEX i2 ON t2(substr(x, 2))"],[".DEF","CREATE INDEX i2 ON t2(substr(x, 2))"],[".defg","CREATE INDEX i2 ON t2(substr(x, 2))"]]

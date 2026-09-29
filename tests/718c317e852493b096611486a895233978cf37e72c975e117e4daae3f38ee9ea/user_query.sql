@@ -1,0 +1,1 @@
+CREATE TABLE test1(f1 int, f2 int primary key); WITH RECURSIVE c(i) AS (VALUES(1) UNION ALL SELECT i+1 FROM c WHERE i<19) INSERT INTO test1 SELECT i, 1<<i FROM c;

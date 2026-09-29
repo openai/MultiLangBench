@@ -1,0 +1,1 @@
+/* jrnlmode-3.2 */ CREATE TABLE x(n INTEGER);

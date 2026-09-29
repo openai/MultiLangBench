@@ -1,0 +1,1 @@
+ALTER TABLE "blob" RENAME COLUMN "a1" TO [where];

@@ -1,0 +1,1 @@
+SELECT kind, detail FROM (SELECT 't1' AS kind, printf('%d|%d|%d',a,b,c) AS detail FROM t1 UNION ALL SELECT 't2' AS kind, printf('%d|%d|%d',a,b,c) AS detail FROM t2 UNION ALL SELECT 'schema' AS kind, type||'|'||name||'|'||tbl_name AS detail FROM sqlite_schema WHERE name IN ('t1','t2','i2')) ORDER BY kind, detail;

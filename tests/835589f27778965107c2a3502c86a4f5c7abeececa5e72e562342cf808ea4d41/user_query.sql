@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT offsets(t1) AS v FROM t1 WHERE content MATCH 'two NEAR/2 three';

@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(1,CAST('abc' AS blob)),(2,CAST('def' AS shobblob_x)),(3,CAST('ghi' AS abbLOb10));

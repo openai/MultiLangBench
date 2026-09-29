@@ -1,0 +1,1 @@
+CREATE TABLE t2(x,y,PRIMARY KEY(x,y)); INSERT INTO t2 VALUES(NULL,'zero'),(NULL,'one');

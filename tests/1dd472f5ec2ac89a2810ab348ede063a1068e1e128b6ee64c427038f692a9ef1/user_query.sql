@@ -1,0 +1,1 @@
+CREATE TABLE result(x INTEGER); ATTACH ':memory:' AS aux1; ATTACH ':memory:' AS aux2; ATTACH ':memory:' AS aux3; DETACH aux1; DETACH aux2; DETACH aux3; INSERT INTO result VALUES(1);

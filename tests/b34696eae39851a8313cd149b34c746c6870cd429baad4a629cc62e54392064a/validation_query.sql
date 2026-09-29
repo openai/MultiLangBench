@@ -1,0 +1,1 @@
+SELECT a, b FROM (SELECT a, b FROM t1 UNION SELECT c, d FROM t2) ORDER BY a, b;

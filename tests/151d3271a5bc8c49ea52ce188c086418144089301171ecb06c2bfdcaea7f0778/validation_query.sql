@@ -1,0 +1,1 @@
+SELECT z1.rowid, z1.content, (SELECT count(*) FROM sqlite_master WHERE type='trigger' AND name='z1r1') AS trigger_count FROM z1 ORDER BY z1.rowid;

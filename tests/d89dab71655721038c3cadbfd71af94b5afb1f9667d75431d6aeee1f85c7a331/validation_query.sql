@@ -1,0 +1,1 @@
+SELECT sum_ab FROM out ORDER BY sum_ab;

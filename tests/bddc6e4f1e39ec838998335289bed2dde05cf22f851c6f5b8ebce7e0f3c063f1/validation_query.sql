@@ -1,0 +1,1 @@
+SELECT power FROM test1 WHERE cnt=6

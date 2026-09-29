@@ -1,0 +1,1 @@
+SELECT name,type FROM result ORDER BY name,type

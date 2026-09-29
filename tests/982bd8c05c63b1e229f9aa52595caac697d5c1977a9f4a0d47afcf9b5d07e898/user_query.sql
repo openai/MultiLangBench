@@ -1,0 +1,1 @@
+CREATE TABLE __sfi_result AS SELECT count(*) AS n FROM t1 WHERE x IS NULL;

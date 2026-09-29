@@ -1,0 +1,1 @@
+SELECT a, b, total FROM result ORDER BY rowid;

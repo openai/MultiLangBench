@@ -1,0 +1,1 @@
+ATTACH DATABASE ':memory:' AS three; INSERT INTO main.capture VALUES(1);

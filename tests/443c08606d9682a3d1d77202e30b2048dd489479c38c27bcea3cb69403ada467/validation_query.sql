@@ -1,0 +1,1 @@
+SELECT a,b,c FROM t19 ORDER BY a

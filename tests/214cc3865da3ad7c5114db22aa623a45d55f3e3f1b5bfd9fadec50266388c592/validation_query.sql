@@ -1,0 +1,1 @@
+SELECT a, b, c, marker FROM result_300 ORDER BY rowid;

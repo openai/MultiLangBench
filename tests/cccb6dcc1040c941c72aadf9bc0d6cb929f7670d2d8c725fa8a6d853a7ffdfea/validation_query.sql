@@ -1,0 +1,1 @@
+SELECT p.encoding, s.type, s.name, s.tbl_name, s.sql FROM pragma_encoding AS p CROSS JOIN sqlite_schema AS s WHERE s.name='t1';

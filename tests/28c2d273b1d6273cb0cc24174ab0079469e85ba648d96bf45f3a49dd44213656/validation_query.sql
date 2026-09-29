@@ -1,0 +1,1 @@
+SELECT 't11' AS tbl, quote(w) AS value FROM t11 UNION ALL SELECT 't12', quote(y) FROM t12 ORDER BY tbl;

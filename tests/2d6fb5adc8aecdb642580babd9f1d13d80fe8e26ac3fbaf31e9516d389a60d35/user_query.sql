@@ -1,0 +1,1 @@
+INSERT INTO result SELECT tan(pi()) BETWEEN -1.0e-15 AND 1.0e-15;

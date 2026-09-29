@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT coalesce(upper(a),'nil') AS x FROM t2;

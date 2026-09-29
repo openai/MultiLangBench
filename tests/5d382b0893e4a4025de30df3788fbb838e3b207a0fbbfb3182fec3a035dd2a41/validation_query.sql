@@ -1,0 +1,1 @@
+SELECT count(*) FROM sqlite_schema WHERE type='trigger' AND name='tr2'

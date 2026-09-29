@@ -1,0 +1,1 @@
+UPDATE t SET i1=1,i2=2;INSERT INTO r SELECT -(i2+i1) FROM t;

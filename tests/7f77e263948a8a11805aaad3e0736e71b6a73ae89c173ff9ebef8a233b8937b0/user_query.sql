@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT x FROM t2 ORDER BY substr(x, 2) COLLATE nocase;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS WITH c(i) AS (VALUES(9) UNION SELECT ~i FROM c) SELECT max(5)>i FROM c;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT i, group_concat(v) OVER w AS g1, json_group_array(v) OVER w AS j1, json_group_array(v) OVER w AS j2, group_concat(v) OVER w AS g2 FROM t1 WINDOW w AS (RANGE BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) ORDER BY i;

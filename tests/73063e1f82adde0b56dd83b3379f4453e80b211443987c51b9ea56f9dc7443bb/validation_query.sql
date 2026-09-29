@@ -1,0 +1,1 @@
+SELECT a, b, c, 'x' FROM excluded ORDER BY a

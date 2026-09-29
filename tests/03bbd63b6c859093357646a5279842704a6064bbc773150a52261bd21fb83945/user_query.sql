@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT 'A' || v AS x FROM source;

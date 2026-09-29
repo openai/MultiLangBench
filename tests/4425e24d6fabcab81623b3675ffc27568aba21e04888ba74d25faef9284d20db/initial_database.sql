@@ -1,0 +1,2 @@
+CREATE VIRTUAL TABLE email USING fts3([from],[to],subject,body);
+INSERT INTO email(rowid,[from],[to],subject,body) VALUES(6,'mark.haedicke@enron.com','paul.simons@enron.com','Re: First Polish Deal!','Congrats!  Things seem to be building rapidly now on the Continent.  Mark');

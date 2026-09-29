@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT snippet(t0) FROM t0 WHERE t0 MATCH '(def AND (one NEAR abc)) OR one';

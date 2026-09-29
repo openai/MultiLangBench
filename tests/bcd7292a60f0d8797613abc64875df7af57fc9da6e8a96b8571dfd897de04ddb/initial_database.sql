@@ -1,0 +1,1 @@
+CREATE TABLE test1(f1 int, f2 int primary key); INSERT INTO test1 VALUES(1,2);

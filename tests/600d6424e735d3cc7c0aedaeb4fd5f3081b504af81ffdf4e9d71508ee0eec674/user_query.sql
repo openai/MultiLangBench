@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT (SELECT max(b) LIMIT (SELECT total((SELECT a FROM t1)))) AS v FROM t2;

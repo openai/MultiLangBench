@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1), (SELECT count(*) FROM t2), (SELECT content FROM t1 WHERE docid=1), (SELECT content FROM t2 WHERE docid=1)

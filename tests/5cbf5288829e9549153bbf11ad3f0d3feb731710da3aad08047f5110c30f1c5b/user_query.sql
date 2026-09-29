@@ -1,0 +1,4 @@
+DROP INDEX t1abc;
+CREATE INDEX t1abd ON t1(a,b,d);
+CREATE TABLE result AS
+SELECT * FROM t1 WHERE c=4 ORDER BY a, b LIMIT 2;

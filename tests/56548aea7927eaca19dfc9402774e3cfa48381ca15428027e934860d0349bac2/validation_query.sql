@@ -1,0 +1,1 @@
+SELECT qa, qb, sep FROM in6_result ORDER BY qa, qb, sep;

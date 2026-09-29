@@ -1,0 +1,1 @@
+SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='i1' AND tbl_name='t1' AND sql='CREATE INDEX i1 ON t1(a, b, c)' 

@@ -1,0 +1,1 @@
+SELECT cdid FROM sfi_result ORDER BY cdid;

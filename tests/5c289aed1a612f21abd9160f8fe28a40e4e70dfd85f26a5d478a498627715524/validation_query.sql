@@ -1,0 +1,1 @@
+SELECT id, grp_id FROM t1 ORDER BY id;

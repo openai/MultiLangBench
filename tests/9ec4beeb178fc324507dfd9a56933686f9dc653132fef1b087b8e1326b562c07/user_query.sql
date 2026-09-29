@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM v_t3_b;

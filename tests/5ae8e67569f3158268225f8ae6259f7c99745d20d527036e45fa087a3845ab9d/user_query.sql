@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT group_concat(t1,' '||rowid||' ') AS x FROM tbl1;

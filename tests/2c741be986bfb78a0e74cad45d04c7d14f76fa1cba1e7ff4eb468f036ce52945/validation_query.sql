@@ -1,0 +1,1 @@
+SELECT (SELECT x FROM parent WHERE x LIKE 'key t%'),c FROM child2

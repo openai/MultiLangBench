@@ -1,0 +1,1 @@
+SELECT type, name, tbl_name, marker FROM sfi_result ORDER BY seq;

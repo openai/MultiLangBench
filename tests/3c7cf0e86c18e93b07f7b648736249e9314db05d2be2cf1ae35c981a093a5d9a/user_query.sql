@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT (NULL IN ('10.0',20)) ISNULL AS value FROM t1;

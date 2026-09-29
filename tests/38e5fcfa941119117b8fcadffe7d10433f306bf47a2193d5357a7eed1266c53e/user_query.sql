@@ -1,0 +1,1 @@
+INSERT INTO result SELECT log(2.0, 64.0);

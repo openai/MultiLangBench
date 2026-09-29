@@ -1,0 +1,1 @@
+UPDATE fts SET tags = 'tag1' WHERE rowid = 1;

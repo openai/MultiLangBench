@@ -1,0 +1,1 @@
+INSERT INTO result(x,y) SELECT '  '='      ' COLLATE RTRIM, '  '='        ';

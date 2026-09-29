@@ -1,0 +1,1 @@
+SELECT count(*), min(docid), max(docid), (SELECT count(*) FROM t5 WHERE t5 MATCH 'river') FROM t5;

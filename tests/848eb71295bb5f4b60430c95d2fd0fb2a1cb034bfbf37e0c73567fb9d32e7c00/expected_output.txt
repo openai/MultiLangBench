@@ -1,0 +1,1 @@
+[["CREATE TABLE t1(a TEXT, CHECK(a<>+a))",1,1]]

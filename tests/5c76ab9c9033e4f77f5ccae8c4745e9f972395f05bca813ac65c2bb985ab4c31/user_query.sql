@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT c, sum(c) OVER win1 AS s FROM t1 WINDOW win1 AS (ORDER BY b);

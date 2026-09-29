@@ -1,0 +1,1 @@
+BEGIN; UPDATE t1 SET a=555 WHERE a=501; COMMIT; PRAGMA data_version; INSERT INTO observed VALUES(1,(SELECT * FROM pragma_data_version));

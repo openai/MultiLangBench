@@ -1,0 +1,1 @@
+SELECT g1, j1, j2, g2 FROM result ORDER BY i;

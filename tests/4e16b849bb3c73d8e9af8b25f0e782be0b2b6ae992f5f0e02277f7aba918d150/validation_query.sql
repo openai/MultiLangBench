@@ -1,0 +1,1 @@
+SELECT (SELECT wr FROM pragma_table_list WHERE schema='main' AND name='c30') AS without_rowid, line, master FROM c30 ORDER BY master

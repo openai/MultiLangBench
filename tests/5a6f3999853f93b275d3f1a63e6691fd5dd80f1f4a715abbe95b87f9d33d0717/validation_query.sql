@@ -1,0 +1,1 @@
+SELECT t.rowid, t.a, t.b, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='i1' AND tbl_name='t1') AS i1_count FROM t1 AS t ORDER BY t.rowid;

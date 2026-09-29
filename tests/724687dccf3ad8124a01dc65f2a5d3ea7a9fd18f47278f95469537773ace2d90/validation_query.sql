@@ -1,0 +1,1 @@
+SELECT count(*) AS persistent_abc_count FROM sqlite_master WHERE name='abc'

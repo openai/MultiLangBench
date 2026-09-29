@@ -1,0 +1,1 @@
+SELECT a,b,c FROM t0 ORDER BY rowid

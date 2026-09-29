@@ -1,0 +1,1 @@
+INSERT INTO result SELECT round(log10(2),7), log10(100), quote(log10(-100));

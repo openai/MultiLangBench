@@ -1,0 +1,1 @@
+CREATE TABLE parent(a PRIMARY KEY,b UNIQUE,c,d,e,f); CREATE UNIQUE INDEX i1 ON parent(c,d); CREATE INDEX i2 ON parent(e); CREATE UNIQUE INDEX i3 ON parent(f COLLATE nocase); CREATE TABLE child1(f,g REFERENCES parent(a)); CREATE TABLE child2(h,i REFERENCES parent(b)); CREATE TABLE child3(j,k,FOREIGN KEY(j,k) REFERENCES parent(c,d));

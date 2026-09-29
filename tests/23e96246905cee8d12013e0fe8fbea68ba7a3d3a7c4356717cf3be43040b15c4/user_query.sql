@@ -1,0 +1,1 @@
+CREATE TABLE _result AS SELECT ta.a AS ta_a,ta.b AS ta_b,tb.a AS tb_a,tb.b AS tb_b FROM ta LEFT JOIN tb ON ta.b=tb.b WHERE ta.a IN ();

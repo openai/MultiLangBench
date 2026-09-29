@@ -1,0 +1,1 @@
+CREATE TABLE t10(a int,b int,c int,d int); INSERT INTO t10(a,b,c,d) VALUES(0,0,2,2),(0,0,0,0),(0,0,1,1),(1,1,1,1),(1,1,0,0),(2,2,0,0); CREATE TABLE sfi_result AS SELECT a+b AS ab,c+d AS cd FROM t10 ORDER BY a+b,c+d;

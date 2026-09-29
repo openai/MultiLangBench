@@ -1,0 +1,1 @@
+CREATE TABLE cc(a, b, c);

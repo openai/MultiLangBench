@@ -1,0 +1,1 @@
+CREATE TABLE _result(seq INTEGER PRIMARY KEY, c1, c2); INSERT INTO _result(c1,c2) SELECT typeof(c0),c0 FROM v0 WHERE c0>='0';

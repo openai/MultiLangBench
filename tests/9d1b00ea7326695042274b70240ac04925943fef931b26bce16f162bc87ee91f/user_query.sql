@@ -1,0 +1,1 @@
+INSERT INTO _result(v) SELECT count(*) FROM t3 WHERE a IN (SELECT 'XX');

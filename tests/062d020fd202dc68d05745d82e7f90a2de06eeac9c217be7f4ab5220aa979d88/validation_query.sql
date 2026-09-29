@@ -1,0 +1,1 @@
+SELECT count(*) AS row_count, min(a) AS min_a, max(a) AS max_a, sum(a) AS sum_a, min(b) AS min_b, max(b) AS max_b, (SELECT count(*) FROM pragma_index_list('numbers') WHERE origin='pk') AS pk_indexes FROM numbers;

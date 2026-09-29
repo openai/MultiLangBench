@@ -1,0 +1,1 @@
+INSERT INTO t12 VALUES('a d d a'); CREATE TABLE r AS SELECT matchinfo(t12,'x') AS m FROM t12 WHERE t12 MATCH 'a NEAR/1 d OR a' ORDER BY rowid

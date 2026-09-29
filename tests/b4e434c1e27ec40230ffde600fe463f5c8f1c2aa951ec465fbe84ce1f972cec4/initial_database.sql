@@ -1,0 +1,1 @@
+PRAGMA auto_vacuum=NONE; CREATE TABLE "abc abc"(a,b,c); INSERT INTO "abc abc" VALUES(X'00112233',NULL,NULL);

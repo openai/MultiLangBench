@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM t0 WHERE (t0.c0,1) IN (SELECT ntile(1) OVER(),0 FROM t0);

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT x==NULL AS v FROM t3;

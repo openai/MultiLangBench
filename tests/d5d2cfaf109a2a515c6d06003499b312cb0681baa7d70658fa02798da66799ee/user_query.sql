@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT json_group_array(json(j)) AS v FROM testjson;

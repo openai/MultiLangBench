@@ -1,0 +1,1 @@
+SELECT x,av,ne,e FROM _result ORDER BY seq;

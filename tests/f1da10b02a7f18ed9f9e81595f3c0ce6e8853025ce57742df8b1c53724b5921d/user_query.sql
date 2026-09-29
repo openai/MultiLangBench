@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=OFF; INSERT INTO c1 VALUES(90),(87),(88); CREATE TABLE result AS SELECT [table] AS child_table, [rowid] AS child_rowid, parent, fkid FROM pragma_foreign_key_check;

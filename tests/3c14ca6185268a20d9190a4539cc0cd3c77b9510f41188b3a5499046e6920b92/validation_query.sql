@@ -1,0 +1,1 @@
+SELECT rowid, quote(Col0) FROM t1 ORDER BY rowid

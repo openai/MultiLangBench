@@ -1,0 +1,1 @@
+[["row","10","10"],["row","101","101"],["row","15","15"],["schema","collate4t1","CREATE TABLE collate4t1(a INTEGER PRIMARY KEY)"]]

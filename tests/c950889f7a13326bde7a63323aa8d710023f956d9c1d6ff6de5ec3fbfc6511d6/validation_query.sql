@@ -1,0 +1,1 @@
+SELECT docid,subject,body FROM mail ORDER BY docid

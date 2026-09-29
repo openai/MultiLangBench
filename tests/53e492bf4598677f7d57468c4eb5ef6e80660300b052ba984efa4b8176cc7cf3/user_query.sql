@@ -1,0 +1,1 @@
+CREATE TABLE t3 AS SELECT a FROM t2 ORDER BY a DESC; CREATE TABLE result AS SELECT min('z+'||a||'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOP') AS x FROM t3;

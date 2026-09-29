@@ -1,0 +1,1 @@
+SELECT b, t FROM result;

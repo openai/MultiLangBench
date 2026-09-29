@@ -1,0 +1,1 @@
+CREATE TABLE query_result AS SELECT DISTINCT fts.rowid AS fts_rowid, t1.x AS x FROM fts, t1 WHERE fts MATCH 'that twice' AND content=x ORDER BY 1;

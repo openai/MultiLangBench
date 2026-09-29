@@ -1,0 +1,1 @@
+DELETE FROM t6 WHERE x NOT NULL; CREATE TABLE sfi_result AS SELECT count(*) AS v FROM t6;

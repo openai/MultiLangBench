@@ -1,0 +1,1 @@
+CREATE TABLE analyze(analyze analyze); INSERT INTO analyze VALUES(99); INSERT INTO analyze SELECT a FROM t1;

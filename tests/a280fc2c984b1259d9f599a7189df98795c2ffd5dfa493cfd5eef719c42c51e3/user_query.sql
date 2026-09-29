@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT sum((one)) AS s,(two) AS two,(four) AS four FROM agger GROUP BY (two),(four) ORDER BY sum(one) DESC;

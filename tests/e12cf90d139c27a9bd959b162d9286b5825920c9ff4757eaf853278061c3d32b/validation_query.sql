@@ -1,0 +1,1 @@
+SELECT sum(x)-((1<<62)+1) FROM t6;

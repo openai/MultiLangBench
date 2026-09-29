@@ -1,0 +1,1 @@
+SELECT a,b FROM r ORDER BY rowid

@@ -1,0 +1,1 @@
+SELECT type, name, tbl_name FROM sqlite_schema WHERE name IN ('maintable','joinme','joinme_id_text_idx','joinme_id_int_idx') ORDER BY name;

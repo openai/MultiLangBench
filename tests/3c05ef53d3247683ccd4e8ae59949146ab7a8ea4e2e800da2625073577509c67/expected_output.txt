@@ -1,0 +1,1 @@
+[["table","newname","newname","CREATE TABLE \"newname\"(col1)"],["view","ttt","ttt","CREATE VIEW ttt AS WITH xyz(x) AS (SELECT col1 FROM \"newname\") SELECT x FROM xyz"]]

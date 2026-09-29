@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT hex(zeroblob(2) || x'61') AS h;

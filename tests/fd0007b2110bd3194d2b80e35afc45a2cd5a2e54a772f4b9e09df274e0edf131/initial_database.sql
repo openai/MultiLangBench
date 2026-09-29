@@ -1,0 +1,1 @@
+PRAGMA encoding='UTF-16'; CREATE TABLE _encoding_anchor(x); DROP TABLE _encoding_anchor;

@@ -1,0 +1,1 @@
+SELECT x, y, z FROM t3 ORDER BY rowid

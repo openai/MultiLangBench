@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; DELETE FROM parent WHERE x='key2';

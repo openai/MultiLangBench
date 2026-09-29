@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT count(*),avg(1) FILTER(WHERE t1.c1) FROM t0,t1;

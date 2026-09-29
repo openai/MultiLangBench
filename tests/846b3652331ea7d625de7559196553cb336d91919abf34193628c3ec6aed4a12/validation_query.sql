@@ -1,0 +1,1 @@
+SELECT typeof(a),hex(a),a=X'00112233',b IS NULL,c IS NULL FROM "abc abc";

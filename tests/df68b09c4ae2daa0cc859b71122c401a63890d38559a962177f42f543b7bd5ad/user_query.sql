@@ -1,0 +1,1 @@
+INSERT INTO result(x) SELECT a AS x FROM t1 WHERE x<'ccc' COLLATE binary ORDER BY [x];

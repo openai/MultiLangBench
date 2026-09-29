@@ -1,0 +1,1 @@
+SELECT matched_keyword FROM result ORDER BY matched_keyword

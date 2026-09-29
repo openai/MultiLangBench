@@ -1,0 +1,1 @@
+PRAGMA foreign_key_list; CREATE TABLE result(x);

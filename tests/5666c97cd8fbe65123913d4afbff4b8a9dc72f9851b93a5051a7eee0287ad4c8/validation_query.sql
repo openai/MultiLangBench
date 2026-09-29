@@ -1,0 +1,1 @@
+SELECT cc.a,cc.b,pp.a FROM cc JOIN pp ON cc.a=pp.b AND cc.b=pp.c

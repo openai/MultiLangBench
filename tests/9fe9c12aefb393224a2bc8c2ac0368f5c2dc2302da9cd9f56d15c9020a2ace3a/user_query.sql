@@ -1,0 +1,1 @@
+CREATE TABLE result(seq INTEGER PRIMARY KEY, v); INSERT INTO result(v) SELECT c1||'' FROM collate1t1 ORDER BY 1;

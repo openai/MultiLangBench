@@ -1,0 +1,1 @@
+CREATE TABLE result(a,b,k,v); INSERT INTO result(a,b,k,v) SELECT * FROM t1, t3 ORDER BY k;

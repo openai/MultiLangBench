@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT upper(b), typeof(b), b FROM t1 ORDER BY a;

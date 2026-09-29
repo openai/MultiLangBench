@@ -1,0 +1,1 @@
+SELECT t1.x,t2.y,t2.a,t2.b,(SELECT count(*) FROM sqlite_schema WHERE type='index' AND name IN ('t2a','t2b')) AS index_count FROM t1 CROSS JOIN t2;

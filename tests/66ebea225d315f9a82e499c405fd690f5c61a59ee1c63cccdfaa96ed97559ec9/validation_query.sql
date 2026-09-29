@@ -1,0 +1,1 @@
+SELECT count(*) AS nrow,sum(request) AS request_sum,sum(source) AS source_sum,sum(length(txt)) AS text_length,min(txt) AS min_text,max(txt) AS max_text FROM result;

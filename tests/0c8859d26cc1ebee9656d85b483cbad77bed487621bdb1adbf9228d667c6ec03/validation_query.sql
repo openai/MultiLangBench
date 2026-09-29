@@ -1,0 +1,1 @@
+SELECT a,qb,lb,c,(SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='t1bbc') AS idx FROM result;

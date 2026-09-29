@@ -1,0 +1,1 @@
+SELECT name FROM sqlite_schema WHERE type='trigger' ORDER BY name

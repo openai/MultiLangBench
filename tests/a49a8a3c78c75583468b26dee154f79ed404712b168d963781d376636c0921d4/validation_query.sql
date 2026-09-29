@@ -1,0 +1,1 @@
+SELECT name FROM sqlite_master WHERE (name,sql) NOT IN (SELECT name,sql FROM schema_copy) ORDER BY name

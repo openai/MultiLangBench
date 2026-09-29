@@ -1,0 +1,1 @@
+INSERT INTO result SELECT json_array_length('{"one":[1,2,3]}', '$.two');

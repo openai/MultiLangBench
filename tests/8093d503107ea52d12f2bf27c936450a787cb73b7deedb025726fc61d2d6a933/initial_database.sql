@@ -1,0 +1,1 @@
+CREATE TABLE t9(v); INSERT INTO t9 VALUES ('abcd'),('Abcd'),('aBcd'),('ABcd'),('abCd'),('AbCd'),('aBCd'),('ABCd'),('abcD'),('AbcD'),('aBcD'),('ABcD'),('abCD'),('AbCD'),('aBCD'),('ABCD'),('wxyz'),('Wxyz'),('wXyz'),('WXyz'),('wxYz'),('WxYz'),('wXYz'),('WXYz'),('wxyZ'),('WxyZ'),('wXyZ'),('WXyZ'),('wxYZ'),('WxYZ'),('wXYZ'),('WXYZ');

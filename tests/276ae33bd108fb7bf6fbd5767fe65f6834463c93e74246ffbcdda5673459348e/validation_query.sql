@@ -1,0 +1,1 @@
+SELECT x FROM r ORDER BY id

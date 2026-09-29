@@ -1,0 +1,1 @@
+INSERT INTO result SELECT * FROM ft2, ft3 WHERE y MATCH x;

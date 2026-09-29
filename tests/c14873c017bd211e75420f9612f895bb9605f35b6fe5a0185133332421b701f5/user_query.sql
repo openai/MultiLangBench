@@ -1,0 +1,1 @@
+CREATE INDEX idx1 ON tbl2(f2);

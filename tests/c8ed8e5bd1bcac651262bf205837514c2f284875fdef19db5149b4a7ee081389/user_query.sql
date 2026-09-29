@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rowid AS docid, snippet(email) AS snip FROM email WHERE email MATCH '"pursuant to"';

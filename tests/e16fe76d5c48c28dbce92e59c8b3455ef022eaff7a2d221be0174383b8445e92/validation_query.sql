@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1), (SELECT min(a) FROM t1), (SELECT max(a) FROM t1), (SELECT min(length(b)) FROM t1), (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='i1'), (SELECT integrity_check FROM pragma_integrity_check LIMIT 1);

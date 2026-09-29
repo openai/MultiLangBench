@@ -1,0 +1,1 @@
+SELECT journal_mode FROM pragma_journal_mode;

@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT y FROM t8,t9 WHERE a=1 ORDER BY a,y;

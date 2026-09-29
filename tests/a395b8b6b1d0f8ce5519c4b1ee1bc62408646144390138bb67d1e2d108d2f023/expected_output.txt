@@ -1,0 +1,1 @@
+[["index","x1i","x1","CREATE INDEX x1i ON x1(one+\"two\"+\"four\") WHERE \"five\"",null,null],["table","t1","t1","CREATE TABLE t1(a, b, c, d, PRIMARY KEY(d, b)) WITHOUT ROWID","1,2,3,4",null],["table","x1","x1","CREATE TABLE x1(\n    one, two, three, PRIMARY KEY(one),\n    CHECK (three!=\"xyz\"), CHECK (two!=\"one\")\n) WITHOUT ROWID",null,0]]

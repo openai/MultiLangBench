@@ -1,0 +1,1 @@
+PRAGMA recursive_triggers=OFF; UPDATE OR REPLACE tbl SET a=1 WHERE a=4;

@@ -1,0 +1,1 @@
+SELECT count(*),group_concat(content,'|') FROM (SELECT content FROM t2 ORDER BY rowid)

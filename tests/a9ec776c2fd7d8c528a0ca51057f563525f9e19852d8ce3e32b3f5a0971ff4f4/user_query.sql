@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT type,name,tbl_name,sql FROM sqlite_master WHERE name<>'result' ORDER BY type,name;

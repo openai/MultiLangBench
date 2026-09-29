@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT DISTINCT t0.id, t0.a, t0.b FROM tx AS t0, tx AS t1 WHERE t0.a=t1.a AND t1.a=33 AND t0.b=456 UNION SELECT DISTINCT t0.id, t0.a, t0.b FROM tx AS t0, tx AS t1 WHERE t0.a=t1.a AND t1.a=33 AND t0.b=789 ORDER BY 1;

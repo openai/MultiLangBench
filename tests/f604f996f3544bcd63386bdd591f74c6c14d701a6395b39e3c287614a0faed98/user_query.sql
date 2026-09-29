@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT 0 IN (SELECT a) FROM t1 WHERE a = 'hello' OR (SELECT a LIMIT 0) ORDER BY rowid;

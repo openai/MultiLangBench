@@ -1,0 +1,1 @@
+CREATE TABLE t1(a INTEGER PRIMARY KEY,b);INSERT INTO t1 VALUES(1,'one'),(2,'two'),(3,'three'),(4,'four');

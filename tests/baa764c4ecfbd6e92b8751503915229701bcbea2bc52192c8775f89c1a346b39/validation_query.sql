@@ -1,0 +1,1 @@
+SELECT a, b, qd, gc FROM result ORDER BY +sort_d DESC NULLS FIRST, +a

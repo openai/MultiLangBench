@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT (3,3)=(SELECT max(a),max(b) FROM t2) AS v;

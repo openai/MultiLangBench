@@ -1,0 +1,1 @@
+SELECT 'column' AS kind, name, type AS detail, "notnull" AS flag FROM pragma_table_info('t2') UNION ALL SELECT 'index', name, origin, "unique" FROM pragma_index_list('t2') ORDER BY kind, name;

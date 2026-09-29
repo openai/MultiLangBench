@@ -1,0 +1,1 @@
+SELECT label,tp,v FROM sfi_result ORDER BY seq;

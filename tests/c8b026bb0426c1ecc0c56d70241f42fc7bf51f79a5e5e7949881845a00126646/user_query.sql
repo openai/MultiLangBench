@@ -1,0 +1,1 @@
+REPLACE INTO a4 VALUES(2, 'f')

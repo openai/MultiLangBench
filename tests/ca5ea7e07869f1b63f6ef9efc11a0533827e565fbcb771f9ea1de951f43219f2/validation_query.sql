@@ -1,0 +1,1 @@
+SELECT a,b,k,v,g1,g2,g3,g4,g5,g6,g7,g8,g9 FROM result ORDER BY a,b,k,v,g1,g2,g3,g4,g5,g6,g7,g8,g9;

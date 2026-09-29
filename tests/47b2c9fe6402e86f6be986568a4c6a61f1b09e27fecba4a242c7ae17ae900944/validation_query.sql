@@ -1,0 +1,1 @@
+SELECT x, y, z, (SELECT sql FROM sqlite_schema WHERE type='table' AND name='t3') AS table_sql FROM t3 ORDER BY y;

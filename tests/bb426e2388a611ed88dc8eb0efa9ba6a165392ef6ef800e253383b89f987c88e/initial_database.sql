@@ -1,0 +1,1 @@
+CREATE TABLE tst(a,b); INSERT INTO tst VALUES('a','A'),('b','B'),('c','C');

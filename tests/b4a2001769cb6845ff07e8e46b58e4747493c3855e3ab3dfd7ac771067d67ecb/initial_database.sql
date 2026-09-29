@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE mail USING fts3(subject,body); INSERT INTO mail VALUES('software feedback','found it too slow'); INSERT INTO mail VALUES('software feedback','no feedback'); INSERT INTO mail VALUES('slow lunch order','was a software problem')

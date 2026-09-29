@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; UPDATE self SET a=17,b=17;

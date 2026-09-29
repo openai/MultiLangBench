@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT coalesce(max(x),999) AS v FROM t3;

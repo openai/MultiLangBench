@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT unicode(json_extract(char(0x22,228,0x22),'$')) AS v;

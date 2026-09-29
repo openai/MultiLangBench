@@ -1,0 +1,1 @@
+CREATE TABLE main.n1(x, y); INSERT INTO main.n1 VALUES('main', 'n1'); CREATE TABLE main.n2(x, y); INSERT INTO main.n2 VALUES('main', 'n2'); CREATE INDEX main.n3 ON n2(y, x); CREATE TRIGGER main.n4 BEFORE INSERT ON n2 BEGIN SELECT 1; END;

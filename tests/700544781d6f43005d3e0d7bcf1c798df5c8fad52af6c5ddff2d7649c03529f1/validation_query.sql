@@ -1,0 +1,1 @@
+SELECT docid FROM ft8 WHERE ft8 MATCH 'N' ORDER BY docid

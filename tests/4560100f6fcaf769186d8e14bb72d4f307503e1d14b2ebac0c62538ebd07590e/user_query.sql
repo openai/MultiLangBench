@@ -1,0 +1,1 @@
+CREATE TABLE observed AS SELECT * FROM pragma_foreign_key_list('c1');

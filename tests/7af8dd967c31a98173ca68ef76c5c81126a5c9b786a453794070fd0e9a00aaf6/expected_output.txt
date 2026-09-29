@@ -1,0 +1,1 @@
+[[1,"normal"],[2,"normal"],[3,"exclusive"]]

@@ -1,0 +1,1 @@
+SELECT a, b FROM t1 WHERE a='1' AND b='2';

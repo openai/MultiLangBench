@@ -1,0 +1,1 @@
+SELECT count(*), sum(x), sum(y), min(x), max(x), min(y), max(y) FROM t5;

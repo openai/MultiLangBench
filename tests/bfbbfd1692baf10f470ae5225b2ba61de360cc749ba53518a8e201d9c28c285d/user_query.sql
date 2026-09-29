@@ -1,0 +1,1 @@
+BEGIN; CREATE TABLE one(a TEXT,b INT); CREATE TABLE result(name TEXT); INSERT INTO result SELECT name FROM sqlite_master WHERE type='table' AND name<>'result' ORDER BY name; COMMIT;

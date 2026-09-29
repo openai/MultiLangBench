@@ -1,0 +1,1 @@
+CREATE TABLE dual(dummy); INSERT INTO dual VALUES('X'); CREATE VIEW v1(x,y) AS SELECT rank() OVER (PARTITION BY 0),sum(0) FROM dual; CREATE TABLE result AS SELECT * FROM v1 WHERE true;

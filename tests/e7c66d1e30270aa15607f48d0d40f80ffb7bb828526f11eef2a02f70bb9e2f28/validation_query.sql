@@ -1,0 +1,1 @@
+SELECT a,b,x1,x2,x3,x4 FROM r ORDER BY a,b,x1,x2,x3,x4

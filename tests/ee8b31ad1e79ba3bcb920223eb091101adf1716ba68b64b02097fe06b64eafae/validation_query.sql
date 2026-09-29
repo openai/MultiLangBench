@@ -1,0 +1,1 @@
+SELECT a,b,(SELECT count(*) FROM sqlite_schema WHERE name='t1') AS old_t1_objects FROM t2 ORDER BY a;

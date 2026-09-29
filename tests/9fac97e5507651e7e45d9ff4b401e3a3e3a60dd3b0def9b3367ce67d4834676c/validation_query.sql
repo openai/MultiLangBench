@@ -1,0 +1,1 @@
+SELECT count(*) FROM d_to_a;

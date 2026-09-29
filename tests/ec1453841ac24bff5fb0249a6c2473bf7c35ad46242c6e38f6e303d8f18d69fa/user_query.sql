@@ -1,0 +1,1 @@
+CREATE TABLE offset(offset offset); INSERT INTO offset VALUES(99); INSERT INTO offset SELECT a FROM t1;

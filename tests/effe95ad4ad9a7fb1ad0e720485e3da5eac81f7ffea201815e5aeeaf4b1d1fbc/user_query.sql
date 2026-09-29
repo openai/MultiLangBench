@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; CREATE TABLE t8(a, b, c, d, e, FOREIGN KEY(c, d) REFERENCES t8(a, b)); CREATE UNIQUE INDEX t8i1 ON t8(a, b); CREATE UNIQUE INDEX t8i2 ON t8(c); INSERT INTO t8 VALUES(1, 1, 1, 1, 1);

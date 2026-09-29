@@ -1,0 +1,1 @@
+[["t1","table"],["t1_b","index"],["t2","table"],["t2_y","index"]]

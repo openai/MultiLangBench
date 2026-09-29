@@ -1,0 +1,1 @@
+CREATE TABLE t3_ro(a,b,UNIQUE(a,b) ON CONFLICT ROLLBACK); INSERT INTO t3_ro VALUES(1,'one'),(2,'two');

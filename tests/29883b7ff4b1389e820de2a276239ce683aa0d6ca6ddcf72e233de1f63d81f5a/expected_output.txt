@@ -1,0 +1,1 @@
+[["v1","CREATE VIEW v1 AS SELECT * FROM t1"],["v2","CREATE VIEW v2(c,d) AS SELECT * FROM t1"]]

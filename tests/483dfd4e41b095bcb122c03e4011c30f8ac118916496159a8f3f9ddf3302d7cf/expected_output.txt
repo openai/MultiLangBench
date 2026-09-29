@@ -1,0 +1,1 @@
+[["t0","sqlite_autoindex_t0_1","12 12 12"]]

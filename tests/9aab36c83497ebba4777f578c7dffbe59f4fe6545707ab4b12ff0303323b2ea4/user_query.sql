@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t2 USING fts4(content=t3_data,languageid=l); INSERT INTO t2(t2) VALUES('rebuild');

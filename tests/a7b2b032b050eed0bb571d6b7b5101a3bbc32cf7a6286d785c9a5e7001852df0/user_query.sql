@@ -1,0 +1,1 @@
+INSERT INTO sfi_result(value) SELECT 4 UNION SELECT 1 ORDER BY 1;

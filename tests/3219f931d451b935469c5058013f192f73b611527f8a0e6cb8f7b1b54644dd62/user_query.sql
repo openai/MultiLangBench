@@ -1,0 +1,1 @@
+CREATE TABLE actual AS SELECT rowid AS r, x, y FROM t2 ORDER BY rowid;

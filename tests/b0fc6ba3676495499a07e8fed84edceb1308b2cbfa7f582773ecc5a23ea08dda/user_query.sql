@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT docid,* FROM t1 WHERE t1 MATCH 'nosuchtoken' ORDER BY docid ASC;

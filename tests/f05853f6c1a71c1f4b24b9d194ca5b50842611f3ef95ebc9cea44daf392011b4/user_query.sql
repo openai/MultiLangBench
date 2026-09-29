@@ -1,0 +1,1 @@
+CREATE TABLE result AS WITH c(x) AS MATERIALIZED (VALUES(0),(1)) SELECT c1.x||c2.x||c3.x AS v FROM c c1, c c2, c c3;

@@ -1,0 +1,1 @@
+INSERT INTO r SELECT a FROM t WHERE b=abs(-2.0) ORDER BY a;

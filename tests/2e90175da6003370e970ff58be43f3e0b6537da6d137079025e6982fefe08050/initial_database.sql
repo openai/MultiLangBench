@@ -1,0 +1,1 @@
+CREATE TABLE excluded(w, x INTEGER, [a b], z, PRIMARY KEY(x,[a b])); CREATE UNIQUE INDEX zz ON excluded(z); CREATE INDEX zz2 ON excluded(z); INSERT INTO excluded VALUES('hello',1,1,1),('b',2,2,2);

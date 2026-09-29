@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT lead(y) OVER win AS x,lead(y) OVER win AS y FROM t1 WINDOW win AS (ORDER BY x);

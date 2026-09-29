@@ -1,0 +1,1 @@
+SELECT x, is_true, is_false, is_null, is_not_true, is_not_false, is_not_null, marker FROM sfi_result ORDER BY x;

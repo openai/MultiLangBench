@@ -1,0 +1,1 @@
+ATTACH ':memory:' AS aux; CREATE TABLE aux.def(d,e,f); INSERT INTO aux.def VALUES(4,5,6); CREATE TABLE result AS SELECT d,e,f FROM def;

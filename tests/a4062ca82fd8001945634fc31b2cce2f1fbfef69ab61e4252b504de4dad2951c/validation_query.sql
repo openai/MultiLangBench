@@ -1,0 +1,1 @@
+SELECT x, parent FROM t11 ORDER BY x;

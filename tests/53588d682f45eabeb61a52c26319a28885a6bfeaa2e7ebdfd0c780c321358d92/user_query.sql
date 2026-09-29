@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rowid AS docid, offsets(email) AS off FROM email WHERE email MATCH 'body:gas reminder';

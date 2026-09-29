@@ -1,0 +1,2 @@
+-- capi2-3.16
+CREATE TABLE t2(a NOT NULL, b);

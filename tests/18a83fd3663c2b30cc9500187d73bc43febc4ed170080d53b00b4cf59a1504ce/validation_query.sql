@@ -1,0 +1,1 @@
+SELECT (SELECT "unique" FROM pragma_index_list('t1') WHERE name='i1') AS is_unique, x, y FROM t1 INDEXED BY i1 ORDER BY x, rowid;

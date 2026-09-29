@@ -1,0 +1,1 @@
+CREATE TABLE t1(a TEXT, b INT, c INT, d INT); INSERT INTO t1 VALUES('abc',123,4,5); INSERT INTO t1 VALUES('xyz',1,'abcdefxyz',99); CREATE INDEX t1abc ON t1(b,b,c); ANALYZE sqlite_schema; INSERT INTO sqlite_stat1 VALUES('t1','t1abc','10000 5 00 2003 10'); ANALYZE sqlite_schema;

@@ -1,0 +1,1 @@
+SELECT kind, n, value FROM (SELECT 'result' AS kind, rowid AS n, value FROM sfi_result UNION ALL SELECT 'index-column', seqno, name FROM pragma_index_info('i1') UNION ALL SELECT 'index-meta', 0, CAST("unique" AS TEXT) || ':' || origin || ':' || partial FROM pragma_index_list('t8') WHERE name='i1') ORDER BY kind, n, value;

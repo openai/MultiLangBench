@@ -1,0 +1,1 @@
+SELECT docid, content FROM t1 WHERE t1 MATCH 'a b' ORDER BY docid;

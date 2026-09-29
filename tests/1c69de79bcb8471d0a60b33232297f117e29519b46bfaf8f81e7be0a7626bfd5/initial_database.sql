@@ -1,0 +1,1 @@
+CREATE TABLE seed(x); INSERT INTO seed VALUES(1); ANALYZE; CREATE TABLE t44(a PRIMARY KEY); INSERT INTO sqlite_stat1(tbl,idx,stat) VALUES('t44',NULL,'sz=0'); ANALYZE sqlite_master;

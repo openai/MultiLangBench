@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT format('%.*z',5,'abcdefghijklmnop');

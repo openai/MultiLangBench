@@ -1,0 +1,1 @@
+UPDATE OR IGNORE main.t1 SET a=10;

@@ -1,0 +1,1 @@
+SELECT value, typeof(value) FROM result;

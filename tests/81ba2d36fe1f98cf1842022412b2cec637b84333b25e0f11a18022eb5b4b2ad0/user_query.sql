@@ -1,0 +1,1 @@
+CREATE TABLE result AS WITH RECURSIVE ranges(i,lwr,upr) AS (VALUES(0,0,1000) UNION ALL SELECT i+1,(i+1)*100,(i+11)*100 FROM ranges WHERE i<4999) SELECT i,lwr,upr,(SELECT count(*) FROM t1 WHERE b>=ranges.lwr AND b<ranges.upr) AS n,(SELECT avg(b) FROM t1 WHERE b>=ranges.lwr AND b<ranges.upr) AS av FROM ranges;

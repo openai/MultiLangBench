@@ -1,0 +1,1 @@
+/* 11.1 */ INSERT INTO t1 VALUES (NULL);

@@ -1,0 +1,1 @@
+SELECT flt FROM result ORDER BY rowid;

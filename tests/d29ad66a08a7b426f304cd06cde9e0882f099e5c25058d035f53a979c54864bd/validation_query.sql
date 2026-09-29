@@ -1,0 +1,1 @@
+SELECT message_id, name, (SELECT sql FROM sqlite_schema WHERE type='table' AND name='a1') AS schema_sql FROM a1 ORDER BY message_id, name;

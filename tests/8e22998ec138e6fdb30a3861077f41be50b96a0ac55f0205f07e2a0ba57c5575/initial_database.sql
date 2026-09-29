@@ -1,0 +1,1 @@
+CREATE TABLE xyz(a int, b text);

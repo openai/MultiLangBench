@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT t1.rowid AS r1,t1.i AS i1,t1.t AS x1,t2.rowid AS r2,t2.i AS i2,t2.t AS x2,t3.rowid AS r3,t3.i AS i3,t3.t AS x3 FROM t1,t2,t3 WHERE t1.oid=t2.oid AND t2.oid=t3.oid;

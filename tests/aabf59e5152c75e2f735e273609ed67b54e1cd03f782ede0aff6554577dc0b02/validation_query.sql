@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM autoinc),(SELECT seq FROM sqlite_sequence WHERE name='autoinc'),EXISTS(SELECT 1 FROM sqlite_schema WHERE type='table' AND name='autoinc');

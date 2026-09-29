@@ -1,0 +1,1 @@
+INSERT INTO result SELECT english, spanish, german FROM t1 WHERE rowid=1;

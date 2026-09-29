@@ -1,0 +1,1 @@
+CREATE TABLE sfi_pragma_encoding AS SELECT * FROM pragma_encoding;

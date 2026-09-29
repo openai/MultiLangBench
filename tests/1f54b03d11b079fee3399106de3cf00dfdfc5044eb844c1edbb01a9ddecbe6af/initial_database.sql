@@ -1,0 +1,1 @@
+/* jrnlmode-8.10 */ CREATE TABLE t2(y);

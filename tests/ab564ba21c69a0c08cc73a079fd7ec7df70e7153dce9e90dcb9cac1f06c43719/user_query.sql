@@ -1,0 +1,1 @@
+DELETE FROM tbl1; INSERT INTO tbl1 VALUES('contains'),('UTF-8'),('characters'),('hiሴho');

@@ -1,0 +1,1 @@
+SELECT (SELECT page_size FROM pragma_page_size) AS page_size, (SELECT auto_vacuum FROM pragma_auto_vacuum) AS auto_vacuum, count(*) AS row_count, min(a) AS min_a, max(a) AS max_a, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='i1' AND tbl_name='t1') AS index_count FROM t1;

@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(coalesce(strftime('%s',NULL),'NULL'))

@@ -1,0 +1,1 @@
+CREATE TABLE result(x,y,k,v); INSERT INTO result(x,y,k,v) SELECT * FROM t1 LEFT JOIN t2 ON (x=k);

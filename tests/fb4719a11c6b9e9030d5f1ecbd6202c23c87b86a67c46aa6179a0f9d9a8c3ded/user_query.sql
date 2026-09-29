@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT count(*) FILTER (WHERE b>2) OVER () AS v FROM (SELECT * FROM t1);

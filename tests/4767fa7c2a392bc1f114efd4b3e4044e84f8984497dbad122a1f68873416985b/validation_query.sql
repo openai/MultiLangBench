@@ -1,0 +1,1 @@
+SELECT count(*) AS remaining FROM sqlite_schema WHERE name='t3';

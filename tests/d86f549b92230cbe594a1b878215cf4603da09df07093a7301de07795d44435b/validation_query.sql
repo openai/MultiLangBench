@@ -1,0 +1,1 @@
+SELECT a, b FROM t0 ORDER BY +a;

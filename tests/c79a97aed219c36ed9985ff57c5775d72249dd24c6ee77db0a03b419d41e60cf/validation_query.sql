@@ -1,0 +1,1 @@
+SELECT x FROM result_120 ORDER BY rowid;

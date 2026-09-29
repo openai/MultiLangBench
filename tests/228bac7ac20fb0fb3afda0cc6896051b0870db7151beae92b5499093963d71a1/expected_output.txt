@@ -1,0 +1,1 @@
+[[0,"first",1,"first"],[1,"fuzzy",1,"first"],[1,"fuzzy",0,"fuzzy"]]

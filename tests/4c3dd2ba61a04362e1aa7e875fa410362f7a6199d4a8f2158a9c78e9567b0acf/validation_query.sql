@@ -1,0 +1,1 @@
+SELECT count(*) AS total, sum(i BETWEEN 0 AND 1999 AND typeof(a)='integer' AND a=i) AS integer_rows, sum(i=4000 AND typeof(a)='text' AND a='') AS empty_row, sum(i BETWEEN 4001 AND 6000 AND typeof(a)='text' AND a=printf('x%04d',i-4001)) AS text_rows, min(i) AS min_i, max(i) AS max_i FROM a

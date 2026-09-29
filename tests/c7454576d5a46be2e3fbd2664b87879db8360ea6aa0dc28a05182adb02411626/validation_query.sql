@@ -1,0 +1,1 @@
+SELECT count(*) AS n, (SELECT count(*) FROM sqlite_schema WHERE type='index' AND name='f3e') AS idx FROM result;

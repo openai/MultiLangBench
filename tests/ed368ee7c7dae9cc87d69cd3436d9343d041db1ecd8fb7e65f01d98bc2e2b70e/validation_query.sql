@@ -1,0 +1,1 @@
+SELECT x,y,z,typeof(z) FROM b3 ORDER BY x;

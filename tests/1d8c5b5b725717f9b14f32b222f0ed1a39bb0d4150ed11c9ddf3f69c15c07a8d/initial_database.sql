@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t6 USING fts4(languageid=lid); INSERT INTO t6 VALUES('I belong to language 0!'); WITH RECURSIVE n(i) AS (VALUES(0) UNION ALL SELECT i+1 FROM n WHERE i<19) INSERT INTO t6(content,lid) SELECT 'I (row '||i||') belong to langauge N!',1073741824 FROM n;

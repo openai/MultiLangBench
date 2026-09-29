@@ -1,0 +1,1 @@
+SELECT type, name, tbl_name, sql FROM sqlite_schema WHERE name IN ('abc','abc2','abc3','abc4','abc5','abc6','v1') ORDER BY name

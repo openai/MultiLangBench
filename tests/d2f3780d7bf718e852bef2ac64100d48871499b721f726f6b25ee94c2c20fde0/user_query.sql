@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT json_group_array(x) OVER (ROWS 2 PRECEDING) FROM t4;

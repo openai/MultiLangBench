@@ -1,0 +1,1 @@
+CREATE TABLE t1(x, y); INSERT INTO t1 VALUES(10, 1),(20, 2),(3, 3),(2, 4),(1, 5);

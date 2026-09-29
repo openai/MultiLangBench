@@ -1,0 +1,1 @@
+PRAGMA encoding='UTF-8'; CREATE TABLE t5(a); INSERT INTO t5 VALUES('one');

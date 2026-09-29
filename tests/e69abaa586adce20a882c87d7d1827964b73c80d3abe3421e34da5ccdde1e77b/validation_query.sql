@@ -1,0 +1,1 @@
+SELECT (SELECT page_size FROM pragma_page_size) * (SELECT page_count FROM pragma_page_count) AS database_bytes, (SELECT freelist_count FROM pragma_freelist_count) AS freelist_pages, (SELECT count(*) FROM t2) AS t2_rows, (SELECT group_concat(y, ',') FROM (SELECT y FROM t2 ORDER BY y)) AS t2_values;

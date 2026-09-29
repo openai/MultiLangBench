@@ -1,0 +1,1 @@
+INSERT INTO result(docid) SELECT docid FROM t1_docsize EXCEPT SELECT docid FROM t1;

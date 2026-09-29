@@ -1,0 +1,1 @@
+SELECT count(*),(SELECT count(*) FROM sqlite_master WHERE type='index' AND tbl_name='t1') FROM t1;

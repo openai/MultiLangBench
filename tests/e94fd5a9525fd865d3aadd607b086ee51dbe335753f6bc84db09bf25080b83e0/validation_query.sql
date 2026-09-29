@@ -1,0 +1,1 @@
+SELECT c0, (SELECT sql FROM sqlite_master WHERE type='table' AND name='t0') AS table_sql FROM t0

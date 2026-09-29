@@ -1,0 +1,1 @@
+SELECT (SELECT v FROM marker),group_concat(name,'|') FROM (SELECT name FROM sqlite_schema WHERE type='table' AND name NOT LIKE 'sqlite_%' ORDER BY name);

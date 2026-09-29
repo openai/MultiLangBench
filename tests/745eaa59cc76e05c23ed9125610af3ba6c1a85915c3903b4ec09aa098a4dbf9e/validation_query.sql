@@ -1,0 +1,1 @@
+SELECT schema_name || '.' || view_name FROM view_log ORDER BY CASE schema_name WHEN 'main' THEN 1 WHEN 'temp' THEN 2 WHEN 'aux' THEN 3 END, view_log.view_name

@@ -1,0 +1,1 @@
+SELECT count(*) AS schema_entry_count FROM sqlite_schema;

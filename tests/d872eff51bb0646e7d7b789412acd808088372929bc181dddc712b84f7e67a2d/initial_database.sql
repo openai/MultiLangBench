@@ -1,0 +1,1 @@
+CREATE TABLE main.tbl(a,b); INSERT INTO main.tbl VALUES(1,2);

@@ -1,0 +1,1 @@
+CREATE TABLE out AS SELECT DISTINCT a+b AS sum_ab FROM t5;

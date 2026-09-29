@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT "y"."x" FROM (SELECT "x" FROM "t3893") AS "y";

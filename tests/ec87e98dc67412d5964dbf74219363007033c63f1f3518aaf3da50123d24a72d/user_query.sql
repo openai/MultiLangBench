@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT rowid FROM t0 WHERE x MATCH '"" NOT ""';

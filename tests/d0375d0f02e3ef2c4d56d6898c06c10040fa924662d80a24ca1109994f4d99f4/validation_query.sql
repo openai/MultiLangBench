@@ -1,0 +1,1 @@
+SELECT count(*), coalesce(sum(block=zeroblob(length(block))),0), coalesce(sum(substr(hex(block),1,16)='0000000000000000'),0) FROM t1_segments WHERE length(block)>10000;

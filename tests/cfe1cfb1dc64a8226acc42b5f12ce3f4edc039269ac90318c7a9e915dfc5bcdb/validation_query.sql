@@ -1,0 +1,1 @@
+SELECT * FROM without WHERE without='xyzzy';

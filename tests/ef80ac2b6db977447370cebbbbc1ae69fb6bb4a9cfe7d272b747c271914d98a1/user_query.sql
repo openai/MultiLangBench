@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT log, count(*) AS cnt FROM t1 GROUP BY log UNION SELECT log, n FROM t1 WHERE n=7 ORDER BY cnt, log;

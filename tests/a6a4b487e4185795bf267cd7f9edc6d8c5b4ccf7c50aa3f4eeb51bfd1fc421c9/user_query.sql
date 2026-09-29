@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT docid FROM t6 WHERE t6 MATCH 'belong' AND lid=1073741824;

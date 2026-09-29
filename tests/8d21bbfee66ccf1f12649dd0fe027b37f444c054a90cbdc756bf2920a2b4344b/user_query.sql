@@ -1,0 +1,1 @@
+CREATE TABLE initially(initially initially); INSERT INTO initially VALUES(99); INSERT INTO initially SELECT a FROM t1;

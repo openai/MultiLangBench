@@ -1,0 +1,1 @@
+SELECT rn, grp_id, id FROM sfi_result ORDER BY grp_id, rn;

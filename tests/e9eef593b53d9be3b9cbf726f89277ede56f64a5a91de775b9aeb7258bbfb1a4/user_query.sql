@@ -1,0 +1,1 @@
+INSERT INTO result(v) SELECT SUBSTR('hiሴho', 0, 1);

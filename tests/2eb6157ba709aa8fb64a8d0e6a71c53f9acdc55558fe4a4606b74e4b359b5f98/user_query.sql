@@ -1,0 +1,1 @@
+CREATE TABLE _result AS SELECT count(*) FROM t1 LIMIT 5;

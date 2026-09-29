@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT * FROM t2 AS b,v5 AS a WHERE a.w=b.y;

@@ -1,0 +1,1 @@
+CREATE TEMP TABLE temp_seed(x); DROP TABLE temp_seed; ATTACH DATABASE ':memory:' AS aux; ATTACH DATABASE NULL AS NULL; DETACH aux; INSERT INTO main.result SELECT name FROM pragma_database_list ORDER BY seq;

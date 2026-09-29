@@ -1,0 +1,1 @@
+INSERT INTO result(value) SELECT coalesce(unixepoch('2106-02-07 06:28:15'),'NULL');

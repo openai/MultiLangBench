@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT docid,title,body FROM pages ORDER BY docid

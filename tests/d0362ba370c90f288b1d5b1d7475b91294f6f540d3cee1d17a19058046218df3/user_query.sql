@@ -1,0 +1,1 @@
+ATTACH DATABASE ':memory:' AS notadb; DETACH DATABASE notadb; INSERT INTO main.result SELECT count(*) FROM pragma_database_list WHERE name='notadb';

@@ -1,0 +1,1 @@
+SELECT i FROM result ORDER BY length(i),i;

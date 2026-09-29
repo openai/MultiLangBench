@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM t1),(SELECT sum(length(x)) FROM t1),(SELECT count(*) FROM t2),(SELECT sum(length(y)) FROM t2),(SELECT count(*) FROM t3),(SELECT coalesce(sum(length(z)),0) FROM t3),(SELECT integrity_check FROM pragma_integrity_check LIMIT 1)

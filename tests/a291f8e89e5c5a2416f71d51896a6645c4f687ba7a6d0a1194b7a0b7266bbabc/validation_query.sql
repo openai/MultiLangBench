@@ -1,0 +1,1 @@
+SELECT x, tx, y, ty FROM result ORDER BY seq;

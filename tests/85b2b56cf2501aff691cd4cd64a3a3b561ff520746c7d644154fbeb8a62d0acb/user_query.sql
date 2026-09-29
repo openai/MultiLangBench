@@ -1,0 +1,1 @@
+CREATE TABLE detach(detach detach); INSERT INTO detach VALUES(99); INSERT INTO detach SELECT a FROM t1;

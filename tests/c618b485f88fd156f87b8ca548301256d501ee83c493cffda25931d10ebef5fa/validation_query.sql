@@ -1,0 +1,1 @@
+SELECT auto_vacuum FROM pragma_auto_vacuum;

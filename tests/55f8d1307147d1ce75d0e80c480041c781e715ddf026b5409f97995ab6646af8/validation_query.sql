@@ -1,0 +1,1 @@
+SELECT k, typeof(v), quote(v) FROM blobs WHERE k BETWEEN 3 AND 5 ORDER BY k;

@@ -1,0 +1,1 @@
+INSERT INTO result SELECT * FROM t2 WHERE input = 'one two three' ORDER BY position;

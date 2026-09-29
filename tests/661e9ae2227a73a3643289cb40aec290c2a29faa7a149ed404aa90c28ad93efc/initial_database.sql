@@ -1,0 +1,1 @@
+CREATE TABLE t3_ig(a,b,UNIQUE(a,b) ON CONFLICT IGNORE); INSERT INTO t3_ig VALUES(1,'one'),(2,'two'),(3,'three'),(4,'three'),(6,'three');

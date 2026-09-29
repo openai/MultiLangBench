@@ -1,0 +1,1 @@
+SELECT * FROM begin ORDER BY begin ASC

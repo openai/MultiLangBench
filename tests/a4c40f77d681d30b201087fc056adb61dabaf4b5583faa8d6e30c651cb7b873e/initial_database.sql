@@ -1,0 +1,1 @@
+CREATE TABLE t3(x TEXT); INSERT INTO t3 VALUES('payload'); CREATE TABLE abc(a, b, c); INSERT INTO abc VALUES(1, 2, 3);

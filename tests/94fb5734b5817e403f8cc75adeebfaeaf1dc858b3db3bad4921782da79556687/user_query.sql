@@ -1,0 +1,2 @@
+INSERT INTO t1 VALUES(25, 25, 25);
+INSERT INTO t2 VALUES(25, 'a'), (25, 'b'), (25, 'c');

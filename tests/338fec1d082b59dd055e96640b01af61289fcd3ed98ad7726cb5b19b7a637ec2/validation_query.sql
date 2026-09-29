@@ -1,0 +1,1 @@
+SELECT name FROM sqlite_schema WHERE name GLOB 'sqlite_stat*' ORDER BY name;

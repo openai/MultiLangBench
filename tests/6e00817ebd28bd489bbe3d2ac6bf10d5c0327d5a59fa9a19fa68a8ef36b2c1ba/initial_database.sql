@@ -1,0 +1,1 @@
+CREATE TABLE collate5t1(a COLLATE NOCASE, b COLLATE BINARY); INSERT INTO collate5t1 VALUES('a','1'),('A','1.0'),('b','2'),('B','3');

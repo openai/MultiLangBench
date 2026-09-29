@@ -1,0 +1,1 @@
+PRAGMA recursive_triggers=ON; UPDATE OR REPLACE t2 SET a=4,b=3 WHERE a=1;

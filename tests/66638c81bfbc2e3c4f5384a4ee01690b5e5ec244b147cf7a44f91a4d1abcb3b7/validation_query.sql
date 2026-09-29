@@ -1,0 +1,1 @@
+SELECT * FROM t3_changes ORDER BY rowid DESC LIMIT 1

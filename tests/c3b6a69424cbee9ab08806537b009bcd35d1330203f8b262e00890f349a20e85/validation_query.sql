@@ -1,0 +1,1 @@
+SELECT (SELECT page_size FROM pragma_page_size) AS page_size, type, name, tbl_name, sql FROM sqlite_schema ORDER BY rowid;

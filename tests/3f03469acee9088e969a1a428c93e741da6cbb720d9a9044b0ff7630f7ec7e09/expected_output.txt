@@ -1,0 +1,1 @@
+[[1,10,"bellum"],[2,"happy","bellum"],[3,null,"bellum"],[4,5,99],[5,null,"bellum"],[11,12,13],[21,"b","c"],[31,"b-value",4.75]]

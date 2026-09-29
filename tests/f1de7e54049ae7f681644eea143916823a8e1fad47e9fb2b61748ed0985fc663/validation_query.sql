@@ -1,0 +1,1 @@
+WITH t1(a, b) AS (SELECT 3, 4) SELECT * FROM v3;

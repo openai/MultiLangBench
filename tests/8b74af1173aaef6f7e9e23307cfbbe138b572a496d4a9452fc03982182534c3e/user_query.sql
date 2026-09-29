@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a.y, a.[count(*)], [max(x)], [count(*)] FROM (SELECT count(*),y FROM t1 GROUP BY y) AS a, (SELECT max(x),y FROM t1 GROUP BY y) AS b WHERE a.y=b.y ORDER BY a.y;

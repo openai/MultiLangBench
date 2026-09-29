@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT '1-row' AS tag FROM t401 LEFT JOIN t402 ON b=a JOIN t403 ON c=a;

@@ -1,0 +1,1 @@
+SELECT a, b FROM t3 WHERE a=999 AND b IN ('test1','test2') ORDER BY b

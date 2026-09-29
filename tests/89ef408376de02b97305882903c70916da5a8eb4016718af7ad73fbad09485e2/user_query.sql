@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT t1.rowid FROM t1,t2,t3;

@@ -1,0 +1,1 @@
+[["-1 integer -42.4 text -42.4 real -42.4 real"],["1 integer -42.4 text -42.4 real -42.4 real"],["1 integer -42.4 text -42.4 real -42.4 real"],["1 integer -42.4 text -42.4 real -42.4 real"]]

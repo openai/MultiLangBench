@@ -1,0 +1,1 @@
+INSERT INTO t1 VALUES(6,'F','three'),(7,'G','one'); CREATE TABLE result AS SELECT id,b,lead(c,1) OVER(ORDER BY c) AS x FROM t1 WHERE id>1 ORDER BY b LIMIT 2;

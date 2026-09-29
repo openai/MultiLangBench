@@ -1,0 +1,1 @@
+SELECT x,y,(SELECT count(*) FROM sqlite_schema WHERE type='table' AND name='t1') AS t1_count FROM t2 ORDER BY x,y

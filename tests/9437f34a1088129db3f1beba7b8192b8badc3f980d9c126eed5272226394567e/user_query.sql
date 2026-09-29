@@ -1,0 +1,1 @@
+INSERT INTO t2(t2) VALUES('merge=1000000,2');

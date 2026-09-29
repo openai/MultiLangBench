@@ -1,0 +1,1 @@
+ATTACH ':memory:' AS aux; CREATE TABLE aux.t1(a, b); CREATE VIEW aux.v1 AS SELECT * FROM t1; CREATE VIEW aux.v2 AS SELECT * FROM t1; CREATE VIEW aux.v3 AS SELECT * FROM t1; DROP VIEW v1; INSERT INTO main.result SELECT count(*) FROM aux.sqlite_schema WHERE type='view' AND name='v1';

@@ -1,0 +1,1 @@
+SELECT 'schema' AS kind, 0 AS ord, sql AS v1, NULL AS v2, NULL AS v3 FROM sqlite_schema WHERE type='table' AND name='t1' UNION ALL SELECT 'row', b, CAST(c AS TEXT), CAST(b AS TEXT), CAST(a AS TEXT) FROM t1 ORDER BY kind, ord;

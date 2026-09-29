@@ -1,0 +1,1 @@
+SELECT part, a, b FROM (SELECT 1 AS part, x AS a, y AS b FROM t1 UNION ALL SELECT part,a,b FROM observed) ORDER BY part, a;

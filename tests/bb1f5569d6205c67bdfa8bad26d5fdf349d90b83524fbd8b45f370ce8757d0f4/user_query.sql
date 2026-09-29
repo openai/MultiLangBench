@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; ALTER TABLE tbl ADD COLUMN c REFERENCES xx;

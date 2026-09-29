@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT 1 AS value FROM v0 WHERE c0<c1;

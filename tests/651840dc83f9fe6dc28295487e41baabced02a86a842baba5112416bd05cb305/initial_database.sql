@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts4(x,y); INSERT INTO t1 VALUES('one two five four five',''),('','one two five four five'),('one two','five four five');

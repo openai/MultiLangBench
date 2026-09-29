@@ -1,0 +1,1 @@
+CREATE TABLE t5(a int UNIQUE, b float PRIMARY KEY, c varchar(10), UNIQUE(a,c));

@@ -1,0 +1,1 @@
+SELECT id,quote(a),quote(b),quote(c),quote(d),quote(e),quote(f) FROM r

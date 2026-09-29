@@ -1,0 +1,1 @@
+SELECT m.mode, t.a, t.b FROM mode_capture AS m CROSS JOIN t1 AS t ORDER BY t.rowid

@@ -1,0 +1,1 @@
+CREATE INDEX t1bca ON t1(b,c,a); CREATE TABLE result AS SELECT a FROM t1 WHERE b='DEF' AND a='def';

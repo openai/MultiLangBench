@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT id FROM t1 WHERE +substr(a,b,3)<='and' ORDER BY +id;

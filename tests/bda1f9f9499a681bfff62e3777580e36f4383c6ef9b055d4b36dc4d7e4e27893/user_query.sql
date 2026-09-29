@@ -1,0 +1,1 @@
+INSERT INTO t8(docid,b) VALUES(4,'letter D')

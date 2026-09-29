@@ -1,0 +1,1 @@
+SELECT t3_a,t3_d FROM t3 ORDER BY t3_a;

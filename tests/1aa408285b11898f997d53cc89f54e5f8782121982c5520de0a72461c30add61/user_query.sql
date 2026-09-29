@@ -1,0 +1,1 @@
+INSERT INTO result(matched_rowid) SELECT rowid FROM t1 WHERE t1 MATCH 'something OR this';

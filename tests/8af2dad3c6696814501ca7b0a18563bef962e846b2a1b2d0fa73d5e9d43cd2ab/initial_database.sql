@@ -1,0 +1,1 @@
+PRAGMA page_size=1024; PRAGMA auto_vacuum=1; CREATE TABLE tbl2(str); INSERT INTO tbl2 VALUES('hello world');

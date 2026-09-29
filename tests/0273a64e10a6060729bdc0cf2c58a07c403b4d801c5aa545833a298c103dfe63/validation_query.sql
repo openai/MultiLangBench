@@ -1,0 +1,1 @@
+SELECT n,s FROM result;

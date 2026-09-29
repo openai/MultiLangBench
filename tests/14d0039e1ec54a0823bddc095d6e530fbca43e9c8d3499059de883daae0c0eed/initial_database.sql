@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t3 USING fts4; INSERT INTO t3 VALUES('[one two three]');

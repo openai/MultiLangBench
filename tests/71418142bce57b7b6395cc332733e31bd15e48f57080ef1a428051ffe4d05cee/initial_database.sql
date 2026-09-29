@@ -1,0 +1,1 @@
+CREATE TABLE result(v); CREATE TABLE t1(x); INSERT INTO t1(x) VALUES('text'),(x'bb');

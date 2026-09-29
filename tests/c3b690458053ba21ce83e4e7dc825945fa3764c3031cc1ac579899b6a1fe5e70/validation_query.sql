@@ -1,0 +1,1 @@
+SELECT n_t1, n_fk, (SELECT group_concat(x, ',') FROM (SELECT x FROM t1 ORDER BY x)), (SELECT count(*) FROM pragma_foreign_key_check) FROM observed;

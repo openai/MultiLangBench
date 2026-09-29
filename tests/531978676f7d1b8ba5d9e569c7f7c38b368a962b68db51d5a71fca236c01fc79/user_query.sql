@@ -1,0 +1,1 @@
+CREATE TABLE av1(a,b);BEGIN;WITH RECURSIVE c(i) AS (VALUES(0) UNION ALL SELECT i+1 FROM c WHERE i<99) INSERT INTO av1 SELECT i,replace(hex(zeroblob(100)),'00','XX') FROM c;INSERT INTO av1 VALUES(99,replace(hex(zeroblob(100)),'00','XX'));COMMIT;SELECT sum(a) FROM av1;

@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT count(*) WHERE 0;

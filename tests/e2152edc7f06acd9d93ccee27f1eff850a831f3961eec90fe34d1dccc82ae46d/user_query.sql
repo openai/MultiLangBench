@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT coalesce(max(quote(a)),10) AS v FROM t1 GROUP BY a;

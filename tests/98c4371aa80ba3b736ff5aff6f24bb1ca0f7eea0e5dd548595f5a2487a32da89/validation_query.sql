@@ -1,0 +1,1 @@
+SELECT count(*) AS row_count, sum(CASE WHEN b IS NULL THEN 1 ELSE 0 END) AS null_b_count FROM t1;

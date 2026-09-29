@@ -1,0 +1,6 @@
+CREATE TABLE sfi_result AS
+SELECT * FROM t5
+WHERE (a=1 OR b=2)
+  AND c IN (
+    SELECT e FROM (SELECT DISTINCT e FROM t6) WHERE e=1
+  );

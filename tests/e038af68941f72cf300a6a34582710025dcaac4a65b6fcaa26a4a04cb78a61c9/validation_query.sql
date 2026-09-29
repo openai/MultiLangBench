@@ -1,0 +1,1 @@
+SELECT group_concat(quote(a)||':'||quote(b), '|') FROM (SELECT a,b FROM r1 ORDER BY a);

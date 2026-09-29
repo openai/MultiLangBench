@@ -1,0 +1,1 @@
+CREATE TABLE t29(id INTEGER PRIMARY KEY,x,y); INSERT INTO t29 VALUES(1,2,3),(2,NULL,4),(3,4.5,5),(4,zeroblob(1000000),6),(5,'hello',7);

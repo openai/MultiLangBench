@@ -1,0 +1,1 @@
+SELECT 't1' AS src,a,NULL AS v2 FROM t1 UNION ALL SELECT 't2',b,c FROM t2 ORDER BY src;

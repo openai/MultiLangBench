@@ -1,0 +1,1 @@
+CREATE TABLE observed(seq INTEGER, name TEXT);

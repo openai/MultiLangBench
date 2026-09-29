@@ -1,0 +1,1 @@
+CREATE TABLE sfi_result AS SELECT hex(CAST(zeroblob(1000) AS integer)) AS v;

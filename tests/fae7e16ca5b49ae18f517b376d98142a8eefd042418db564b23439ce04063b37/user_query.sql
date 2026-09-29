@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT ltrim('  hi  ','xyz') AS x;

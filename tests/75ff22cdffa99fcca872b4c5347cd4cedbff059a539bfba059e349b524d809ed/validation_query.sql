@@ -1,0 +1,1 @@
+SELECT integrity_check,(SELECT count(*) FROM t1),(SELECT sum(length(b)) FROM t1),(SELECT count(*) FROM t1 WHERE length(b)=64000),(SELECT sum(a) FROM t1 WHERE length(b)=64000),(SELECT sum(a) FROM t1) FROM pragma_integrity_check;

@@ -1,0 +1,1 @@
+UPDATE t SET r1=1e300,r2=-1e300;INSERT INTO r SELECT coalesce((r1*r2)*0.0,99.0) FROM t;

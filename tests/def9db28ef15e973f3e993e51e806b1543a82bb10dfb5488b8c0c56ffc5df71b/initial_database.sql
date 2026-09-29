@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t1 USING fts3(a,b); INSERT INTO t1 VALUES('old','row')

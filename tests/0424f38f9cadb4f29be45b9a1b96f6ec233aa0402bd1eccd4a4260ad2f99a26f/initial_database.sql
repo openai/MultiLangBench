@@ -1,0 +1,1 @@
+CREATE TABLE t5(a,b,c,d); INSERT INTO t5 VALUES('a','b','c','d');

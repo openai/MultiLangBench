@@ -1,0 +1,1 @@
+UPDATE t1 SET c='number-' || ((a*a*59+a*99991+7)%500000) WHERE a>=1 AND a<=50000;

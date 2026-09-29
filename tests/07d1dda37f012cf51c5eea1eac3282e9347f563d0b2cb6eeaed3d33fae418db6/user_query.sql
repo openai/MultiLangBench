@@ -1,0 +1,1 @@
+ATTACH ':memory:' AS db2; CREATE TABLE db2.t3(x,y); CREATE VIEW db2.v3 AS SELECT x*100+y FROM t3; INSERT INTO main.capture SELECT * FROM main.v3;

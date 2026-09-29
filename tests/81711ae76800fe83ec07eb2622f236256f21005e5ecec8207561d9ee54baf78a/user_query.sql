@@ -1,0 +1,1 @@
+INSERT INTO r VALUES(4,CAST('ghi' AS blob)),(5,CAST(456 AS blob)),(6,CAST(1.78 AS blob));

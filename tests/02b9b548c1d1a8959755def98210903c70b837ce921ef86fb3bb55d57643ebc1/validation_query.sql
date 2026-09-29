@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM x1),(SELECT count(*) FROM t1),(SELECT count(*) FROM x2),(SELECT count(*) FROM t2)

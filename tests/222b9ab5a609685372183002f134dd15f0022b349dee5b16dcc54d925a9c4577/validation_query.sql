@@ -1,0 +1,1 @@
+SELECT a, b, c, d FROM t3 ORDER BY a, b, c, d;

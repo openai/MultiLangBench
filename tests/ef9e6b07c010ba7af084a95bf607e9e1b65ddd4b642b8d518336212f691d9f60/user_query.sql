@@ -1,0 +1,1 @@
+CREATE TEMP TABLE t1(a,b); CREATE INDEX i1 ON t1(a,b); CREATE TABLE result AS SELECT count(*) AS n FROM sqlite_temp_master WHERE name IN('t1','i1');

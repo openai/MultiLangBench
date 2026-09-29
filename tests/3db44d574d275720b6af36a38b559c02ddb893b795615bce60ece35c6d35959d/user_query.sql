@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a FROM one ORDER BY a;

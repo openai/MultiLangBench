@@ -1,0 +1,1 @@
+SELECT (SELECT count(*) FROM audit), (SELECT group_concat(a||':'||b,'|') FROM (SELECT a,b FROM t1 ORDER BY a));

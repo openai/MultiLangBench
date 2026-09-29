@@ -1,0 +1,1 @@
+CREATE TABLE result AS SELECT a BETWEEN 'Aa' AND 'Bb' FROM collate2t1;

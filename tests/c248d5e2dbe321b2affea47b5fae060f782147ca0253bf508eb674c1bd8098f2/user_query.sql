@@ -1,0 +1,1 @@
+INSERT INTO result(data,id) SELECT data, id FROM (SELECT id, data FROM (SELECT * FROM t3 UNION ALL SELECT * FROM t4) ORDER BY data);

@@ -1,0 +1,1 @@
+CREATE TABLE ignore(ignore ignore); INSERT INTO ignore VALUES(99); INSERT INTO ignore SELECT a FROM t1;

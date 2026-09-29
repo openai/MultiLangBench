@@ -1,0 +1,1 @@
+SELECT a,b,c,(SELECT * FROM pragma_schema_version) FROM t4

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE pages USING fts3(title, body)

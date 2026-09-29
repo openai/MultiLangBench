@@ -1,0 +1,1 @@
+CREATE TABLE r AS SELECT max(a),* FROM z1;
