@@ -30,3 +30,7 @@ If the model doesn't write in the target programming language, or uses a mix of 
 ## Validating your test setup
 
 The source of truth for the tests is the SQL query strings and the SQLite binary. `expected_output.txt` files are also provided in this repo. Use them to check your test runner implementation.
+
+## License
+
+This project is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for details.
