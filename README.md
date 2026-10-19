@@ -1,4 +1,4 @@
-# MultiLang Eval
+# MultiLangBench
 
 This is an eval where a language model has to implement SQLite version 3.40.1. It is given the documentation, and its implementation is tested against a test suite. The test suite was created from the SQLite `TCL Tests`. Each test was converted to have these three parts:
 - `initial_database` - SQL code that creates an initial database file
